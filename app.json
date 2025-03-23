@@ -1,0 +1,90 @@
+{
+  "expo": {
+    "name": "quizzoo-app",
+    "slug": "quizzoo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/craiyon_203413_transparent.png",
+    "scheme": "quizzoo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quizzoo.app",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "associatedDomains": [
+        "applinks:quizzoo.app"
+      ],
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "quizzoo",
+              "com.quizzoo.app"
+            ]
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/craiyon_203413_transparent.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.quizzoo.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "quizzoo",
+              "host": "*"
+            },
+            {
+              "scheme": "https",
+              "host": "*.quizzoo.app"
+            },
+            {
+              "scheme": "https",
+              "host": "pkryfgfnykkolmcdcvza.supabase.co",
+              "pathPrefix": "/auth/v1/callback"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/craiyon_203413_transparent.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/craiyon_203413_transparent.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://pkryfgfnykkolmcdcvza.supabase.co"
+      },
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
