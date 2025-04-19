@@ -105,15 +105,15 @@
         "origin": "https://ozapkrljynijpffngjtt.supabase.co"
       },
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "305a21b0-7873-4d5c-af5f-c87d08a147f5"
       },
       "EXPO_NO_DEV_LAUNCHER": "1",
       "disableDevLauncher": true
     },
-    "owner": "your-expo-account",
+    "owner": "shubhamyadav1",
     "runtimeVersion": "1.0.0",
     "updates": {
-      "url": "https://u.expo.dev/your-project-id"
+      "url": "https://u.expo.dev/305a21b0-7873-4d5c-af5f-c87d08a147f5"
     }
   }
 }
