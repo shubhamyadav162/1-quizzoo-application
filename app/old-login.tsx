@@ -4,7 +4,6 @@ import {
   View,
   TouchableOpacity,
   SafeAreaView,
-  StatusBar,
   Platform,
   ActivityIndicator,
   Dimensions,
@@ -15,7 +14,7 @@ import {
   Image,
 } from 'react-native';
 import { Stack, router } from 'expo-router';
-import { AntDesign } from '@expo/vector-icons';
+import { AntDesign, Ionicons } from '@expo/vector-icons';
 import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
 import { useAuth } from './lib/AuthContext';
@@ -79,14 +78,14 @@ const DoodleBackground = () => (
 );
 
 export default function LoginScreen() {
-  const { signInWithEmail, isLoading: authLoading } = useAuth();
+  const { signInWithEmail, signInWithGoogle, isLoading: authLoading } = useAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
   // बिल्कुल सरल लॉगिन हैंडलर
-  const handleSignIn = () => {
+  const handleSignIn = async () => {
     if (!email || !password) {
       Alert.alert('त्रुटि', 'ईमेल और पासवर्ड दोनों भरें');
       return;
@@ -94,19 +93,30 @@ export default function LoginScreen() {
     setLoading(true);
     setMessage('लॉगिन हो रहा है...');
     
-    // अब असली लॉगिन फंक्शन कॉल करेंगे
-    signInWithEmail(email, password)
-      .then(() => {
-        // लॉगिन सक्सेस पर कुछ नहीं करना, AuthContext अपने आप रीडायरेक्ट करेगा
-      })
-      .catch((error) => {
-        console.error('Login error:', error);
-        Alert.alert('लॉगिन त्रुटि', error.message || 'लॉगिन के दौरान एक त्रुटि हुई');
-        setMessage('');
-      })
-      .finally(() => {
-        setLoading(false);
-      });
+    try {
+      await signInWithEmail(email, password);
+      // On success, the AuthContext will navigate
+    } catch (error) {
+      console.error('Login error:', error);
+      Alert.alert('लॉगिन त्रुटि', 'लॉगिन के दौरान एक त्रुटि हुई। कृपया अपने ईमेल और पासवर्ड की जांच करें।');
+    } finally {
+      setLoading(false);
+      setMessage('');
+    }
+  };
+
+  // Google Sign-In Handler
+  const handleGoogleSignIn = async () => {
+    try {
+      setLoading(true);
+      await signInWithGoogle();
+      // OAuth flow will be handled by Supabase
+    } catch (error) {
+      console.error('Google sign-in error:', error);
+      Alert.alert('Google लॉगिन त्रुटि', 'Google से लॉगिन करने में त्रुटि हुई।');
+    } finally {
+      setLoading(false);
+    }
   };
 
   // सरल पासवर्ड भूल गए हैंडलर
@@ -123,7 +133,6 @@ export default function LoginScreen() {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
       <KeyboardAvoidingView 
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         style={{ flex: 1 }}
@@ -181,6 +190,7 @@ export default function LoginScreen() {
               <TouchableOpacity
                 style={styles.actionButton}
                 onPress={handleSignIn}
+                disabled={loading}
               >
                 {loading ? (
                   <ActivityIndicator color="#FFFFFF" size="small" />
@@ -190,43 +200,45 @@ export default function LoginScreen() {
                   </ThemedText>
                 )}
               </TouchableOpacity>
+
+              {/* Google Sign-In Button */}
+              <TouchableOpacity
+                style={styles.googleButton}
+                onPress={handleGoogleSignIn}
+                disabled={loading}
+              >
+                <AntDesign name="google" size={20} color="#EA4335" />
+                <ThemedText style={styles.googleButtonText}>
+                  Google से लॉगिन करें
+                </ThemedText>
+              </TouchableOpacity>
               
-              {/* डेवलपर मोड में एंट्री */}
+              {/* Bypass Login button for development */}
               <TouchableOpacity
                 style={[styles.actionButton, {
                   backgroundColor: '#FF5722', 
-                  marginTop: 10,
-                  borderWidth: 2,
-                  borderColor: '#FFC107',
-                  flexDirection: 'row',
-                  justifyContent: 'center'
+                  marginTop: 10
                 }]}
-                onPress={() => router.replace('/(tabs)')}
+                onPress={() => router.push('/bypass-login')}
               >
-                <AntDesign name="rocket1" size={20} color="white" style={{marginRight: 8}} />
                 <ThemedText style={styles.actionButtonText}>
-                  DEV MODE - SKIP LOGIN
+                  डेवलपर मोड
                 </ThemedText>
               </TouchableOpacity>
+              
+              {/* Register section */}
+              <View style={styles.registerContainer}>
+                <ThemedText>खाता नहीं है? </ThemedText>
+                <TouchableOpacity onPress={handleRegister}>
+                  <ThemedText style={styles.registerLink}>
+                    अभी रजिस्टर करें
+                  </ThemedText>
+                </TouchableOpacity>
+              </View>
               
               {message ? (
                 <ThemedText style={styles.messageText}>{message}</ThemedText>
               ) : null}
-            </View>
-            
-            {/* Register button */}
-            <View style={styles.registerContainer}>
-              <ThemedText style={styles.registerText}>
-                अकाउंट नहीं है?
-              </ThemedText>
-              <TouchableOpacity
-                style={styles.registerButton}
-                onPress={handleRegister}
-              >
-                <ThemedText style={styles.registerButtonText}>
-                  नया अकाउंट बनाएँ
-                </ThemedText>
-              </TouchableOpacity>
             </View>
           </ThemedView>
         </ScrollView>
@@ -256,11 +268,11 @@ const styles = StyleSheet.create({
     height: logoSize,
   },
   appName: {
-    fontSize: 30,
+    fontSize: 20,
     fontWeight: 'bold',
-    marginTop: 20,
+    marginTop: 1,
     color: Colors.primary,
-    paddingHorizontal: 10,
+    paddingHorizontal: 20,
     textAlign: 'center',
   },
   tagline: {
@@ -397,5 +409,34 @@ const styles = StyleSheet.create({
     fontSize: 22,
     opacity: 0.15,
     color: '#444',
+  },
+  googleButton: {
+    flexDirection: 'row',
+    backgroundColor: 'white',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 15,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.5,
+    elevation: 2,
+  },
+  googleButtonText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#444',
+    marginLeft: 10,
+  },
+  registerLink: {
+    fontSize: 16,
+    color: Colors.primary,
+    fontWeight: 'bold',
+    paddingHorizontal: 10,
   },
 }); 

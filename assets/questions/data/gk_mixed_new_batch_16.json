@@ -1,0 +1,1477 @@
+[
+  {
+    "id": "GK6505",
+    "en": {
+      "question": "What is the name of the King of the Gods in Greek mythology?",
+      "options": [
+        "Poseidon",
+        "Hades",
+        "Apollo",
+        "Zeus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में देवताओं के राजा का नाम क्या है?",
+      "options": [
+        "पोसीडॉन",
+        "हेड्स",
+        "अपोलो",
+        "ज़ीउस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "mythology_greek_gods"
+  },
+  {
+    "id": "GK6507",
+    "en": {
+      "question": "What farm animal is raised for its wool?",
+      "options": [
+        "Cow",
+        "Pig",
+        "Horse",
+        "Sheep"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर अपने ऊन के लिए पाला जाता है?",
+      "options": [
+        "गाय",
+        "सुअर",
+        "घोड़ा",
+        "भेड़"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_farm_products"
+  },
+  {
+    "id": "GK6508",
+    "en": {
+      "question": "What sweet treat is made from cacao beans?",
+      "options": [
+        "Candy",
+        "Ice Cream",
+        "Cake",
+        "Chocolate"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोको बीन्स से कौन सी मीठी चीज़ बनती है?",
+      "options": [
+        "कैंडी",
+        "आइसक्रीम",
+        "केक",
+        "चॉकलेट"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "food_sweets_chocolate"
+  },
+  {
+    "id": "GK6509",
+    "en": {
+      "question": "Which Disney princess has mice as friends?",
+      "options": [
+        "Ariel",
+        "Belle",
+        "Snow White",
+        "Cinderella"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस डिज्नी राजकुमारी के दोस्त चूहे हैं?",
+      "options": [
+        "एरियल",
+        "बेल",
+        "स्नो व्हाइट",
+        "सिंड्रेला"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney_princesses"
+  },
+  {
+    "id": "GK6510",
+    "en": {
+      "question": "What is the name of the galaxy that contains our Solar System?",
+      "options": [
+        "Andromeda",
+        "Triangulum",
+        "Whirlpool",
+        "Milky Way"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस आकाशगंगा का नाम क्या है जिसमें हमारा सौर मंडल है?",
+      "options": [
+        "एंड्रोमेडा",
+        "ट्रायंगुलम",
+        "व्हर्लपूल",
+        "मिल्की वे (आकाशगंगा)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_space_galaxies"
+  },
+  {
+    "id": "GK6513",
+    "en": {
+      "question": "What is the chemical symbol for Fluorine?",
+      "options": [
+        "P",
+        "Ph",
+        "Fl",
+        "F"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फ्लोरिन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "P",
+        "Ph",
+        "Fl",
+        "F"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_halogens"
+  },
+  {
+    "id": "GK6515",
+    "en": {
+      "question": "What is the name of the God of the Underworld in Greek mythology?",
+      "options": [
+        "Zeus",
+        "Poseidon",
+        "Apollo",
+        "Hades"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में पाताल लोक के देवता का नाम क्या है?",
+      "options": [
+        "ज़ीउस",
+        "पोसीडॉन",
+        "अपोलो",
+        "हेड्स"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "mythology_greek_gods"
+  },
+  {
+    "id": "GK6516",
+    "en": {
+      "question": "What is the opposite of 'stand'?",
+      "options": [
+        "Rise",
+        "Erect",
+        "Upright",
+        "Sit/Lie"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'खड़ा होना' का विपरीत क्या है?",
+      "options": [
+        "उठना",
+        "सीधा",
+        "खड़ा",
+        "बैठना/लेटना"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_actions"
+  },
+  {
+    "id": "GK6517",
+    "en": {
+      "question": "What farm animal is known for saying 'moo'?",
+      "options": [
+        "Sheep",
+        "Pig",
+        "Horse",
+        "Cow"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'मू' कहने के लिए जाना जाता है?",
+      "options": [
+        "भेड़",
+        "सुअर",
+        "घोड़ा",
+        "गाय"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_farm_sounds"
+  },
+  {
+    "id": "GK6518",
+    "en": {
+      "question": "What dish consists of noodles often served in broth?",
+      "options": [
+        "Rice",
+        "Pasta Salad",
+        "Couscous",
+        "Soup/Ramen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस व्यंजन में नूडल्स होते हैं जो अक्सर शोरबा में परोसे जाते हैं?",
+      "options": [
+        "चावल",
+        "पास्ता सलाद",
+        "कूसकूस",
+        "सूप/रामेन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "food_dishes_soup"
+  },
+  {
+    "id": "GK6519",
+    "en": {
+      "question": "Which Disney princess sings 'Let It Go'?",
+      "options": [
+        "Anna",
+        "Ariel",
+        "Belle",
+        "Elsa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी डिज्नी राजकुमारी 'लेट इट गो' गाती है?",
+      "options": [
+        "अन्ना",
+        "एरियल",
+        "बेल",
+        "एल्सा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney_music"
+  },
+  {
+    "id": "GK6520",
+    "en": {
+      "question": "What planet is known as the Red Planet?",
+      "options": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस ग्रह को लाल ग्रह के रूप में जाना जाता है?",
+      "options": [
+        "बृहस्पति",
+        "शुक्र",
+        "बुध",
+        "मंगल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_space_planets_features"
+  },
+  {
+    "id": "GK6523",
+    "en": {
+      "question": "What is the chemical symbol for Boron?",
+      "options": [
+        "Bo",
+        "Br",
+        "Bn",
+        "B"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बोरॉन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Bo",
+        "Br",
+        "Bn",
+        "B"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_metalloids"
+  },
+  {
+    "id": "GK6524",
+    "en": {
+      "question": "What continent is China located on?",
+      "options": [
+        "Africa",
+        "Europe",
+        "South America",
+        "Asia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चीन किस महाद्वीप पर स्थित है?",
+      "options": [
+        "अफ्रीका",
+        "यूरोप",
+        "दक्षिण अमेरिका",
+        "एशिया"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography_continents"
+  },
+  {
+    "id": "GK6525",
+    "en": {
+      "question": "What is the name of the God of War in Greek mythology?",
+      "options": [
+        "Apollo",
+        "Hermes",
+        "Hephaestus",
+        "Ares"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में युद्ध के देवता का नाम क्या है?",
+      "options": [
+        "अपोलो",
+        "हर्मीस",
+        "हेफेस्टस",
+        "एरेस"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_greek_gods"
+  },
+  {
+    "id": "GK6526",
+    "en": {
+      "question": "What is the opposite of 'enter'?",
+      "options": [
+        "Come in",
+        "Go in",
+        "Arrive",
+        "Exit/Leave"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'प्रवेश करना' का विपरीत क्या है?",
+      "options": [
+        "अंदर आना",
+        "अंदर जाना",
+        "पहुंचना",
+        "निकलना/छोड़ना"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_actions"
+  },
+  {
+    "id": "GK6528",
+    "en": {
+      "question": "What drink is made from squeezing oranges?",
+      "options": [
+        "Apple Juice",
+        "Grape Juice",
+        "Lemonade",
+        "Orange Juice"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संतरे निचोड़कर कौन सा पेय बनाया जाता है?",
+      "options": [
+        "सेब का रस",
+        "अंगूर का रस",
+        "नींबू पानी",
+        "संतरे का रस"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_drinks_juice"
+  },
+  {
+    "id": "GK6529",
+    "en": {
+      "question": "Which Disney princess has a fairy godmother?",
+      "options": [
+        "Ariel",
+        "Belle",
+        "Sleeping Beauty",
+        "Cinderella"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस डिज्नी राजकुमारी के पास एक परी गॉडमदर है?",
+      "options": [
+        "एरियल",
+        "बेल",
+        "स्लीपिंग ब्यूटी",
+        "सिंड्रेला"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_fairytales"
+  },
+  {
+    "id": "GK6530",
+    "en": {
+      "question": "What is the closest planet to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य के सबसे निकट का ग्रह कौन सा है?",
+      "options": [
+        "शुक्र",
+        "पृथ्वी",
+        "मंगल",
+        "बुध"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_planets_order"
+  },
+  {
+    "id": "GK6532",
+    "en": {
+      "question": "What is the term for a baby chicken?",
+      "options": [
+        "Duckling",
+        "Gosling",
+        "Squab",
+        "Chick"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मुर्गी के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "बत्तख का बच्चा",
+        "कलहंसशावक",
+        "स्कवैब",
+        "चूजा"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_young_birds"
+  },
+  {
+    "id": "GK6533",
+    "en": {
+      "question": "What is the chemical symbol for Beryllium?",
+      "options": [
+        "B",
+        "Bl",
+        "Br",
+        "Be"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बेरिलियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "B",
+        "Bl",
+        "Br",
+        "Be"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "chemistry_elements_metals_alkaline"
+  },
+  {
+    "id": "GK6535",
+    "en": {
+      "question": "What is the name of the Goddess of Wisdom in Greek mythology?",
+      "options": [
+        "Hera",
+        "Aphrodite",
+        "Artemis",
+        "Athena"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में ज्ञान की देवी का नाम क्या है?",
+      "options": [
+        "हेरा",
+        "एफ्रोडाइट",
+        "आर्टेमिस",
+        "एथेना"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_greek_goddesses"
+  },
+  {
+    "id": "GK6537",
+    "en": {
+      "question": "What farm animal says 'neigh'?",
+      "options": [
+        "Cow",
+        "Pig",
+        "Sheep",
+        "Horse"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'हिंहिनाना' कहता है?",
+      "options": [
+        "गाय",
+        "सुअर",
+        "भेड़",
+        "घोड़ा"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_farm_sounds"
+  },
+  {
+    "id": "GK6538",
+    "en": {
+      "question": "What is the main ingredient in french fries?",
+      "options": [
+        "Sweet Potato",
+        "Carrot",
+        "Zucchini",
+        "Potato"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फ्रेंच फ्राइज़ में मुख्य सामग्री क्या है?",
+      "options": [
+        "शकरकंद",
+        "गाजर",
+        "तोरी",
+        "आलू"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_dishes_sides"
+  },
+  {
+    "id": "GK6539",
+    "en": {
+      "question": "Which Disney princess is known for her love of books?",
+      "options": [
+        "Ariel",
+        "Cinderella",
+        "Aurora",
+        "Belle"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी डिज्नी राजकुमारी किताबों के प्रति अपने प्रेम के लिए जानी जाती है?",
+      "options": [
+        "एरियल",
+        "सिंड्रेला",
+        "अरोरा",
+        "बेल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney_princesses"
+  },
+  {
+    "id": "GK6540",
+    "en": {
+      "question": "What is the second planet from the Sun?",
+      "options": [
+        "Mercury",
+        "Earth",
+        "Mars",
+        "Venus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य से दूसरा ग्रह कौन सा है?",
+      "options": [
+        "बुध",
+        "शुक्र",
+        "मंगल",
+        "शुक्र"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_planets_order"
+  },
+  {
+    "id": "GK6541",
+    "en": {
+      "question": "What is the opposite of 'arrive'?",
+      "options": [
+        "Reach",
+        "Enter",
+        "Come",
+        "Depart/Leave"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पहुंचना' का विपरीत क्या है?",
+      "options": [
+        "पहुंचना",
+        "प्रवेश करना",
+        "आना",
+        "प्रस्थान करना/छोड़ना"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_actions"
+  },
+  {
+    "id": "GK6542",
+    "en": {
+      "question": "What bird lays the largest eggs?",
+      "options": [
+        "Eagle",
+        "Chicken",
+        "Penguin",
+        "Ostrich"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पक्षी सबसे बड़े अंडे देता है?",
+      "options": [
+        "ईगल",
+        "मुर्गी",
+        "पेंगुइन",
+        "शुतुरमुर्ग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_animals_birds_records"
+  },
+  {
+    "id": "GK6544",
+    "en": {
+      "question": "What is the tallest mountain in the world?",
+      "options": [
+        "K2",
+        "Kangchenjunga",
+        "Makalu",
+        "Mount Everest"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे ऊंचा पर्वत कौन सा है?",
+      "options": [
+        "के2",
+        "कंचनजंगा",
+        "मकालू",
+        "माउंट एवरेस्ट"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_mountains"
+  },
+  {
+    "id": "GK6545",
+    "en": {
+      "question": "What is the name of the messenger god in Greek mythology?",
+      "options": [
+        "Apollo",
+        "Ares",
+        "Hephaestus",
+        "Hermes"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में संदेशवाहक देवता का नाम क्या है?",
+      "options": [
+        "अपोलो",
+        "एरेस",
+        "हेफेस्टस",
+        "हर्मीस"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_greek_gods"
+  },
+  {
+    "id": "GK6547",
+    "en": {
+      "question": "What farm animal says 'cluck'?",
+      "options": [
+        "Chicken",
+        "Goose",
+        "Turkey",
+        "Duck"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'कुड़कुड़ाना' कहता है?",
+      "options": [
+        "मुर्गी",
+        "हंस",
+        "टर्की",
+        "बत्तख"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_farm_sounds"
+  },
+  {
+    "id": "GK6548",
+    "en": {
+      "question": "What drink is made from roasted beans?",
+      "options": [
+        "Tea",
+        "Juice",
+        "Milk",
+        "Coffee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भुनी हुई फलियों से कौन सा पेय बनाया जाता है?",
+      "options": [
+        "चाय",
+        "रस",
+        "दूध",
+        "कॉफी"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "food_drinks_hot"
+  },
+  {
+    "id": "GK6549",
+    "en": {
+      "question": "Which Disney princess is a Native American?",
+      "options": [
+        "Mulan",
+        "Tiana",
+        "Jasmine",
+        "Pocahontas"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी डिज्नी राजकुमारी एक मूल अमेरिकी है?",
+      "options": [
+        "मुलान",
+        "टियाना",
+        "जैस्मीन",
+        "पोकाहोंटस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_animation_disney_princesses"
+  },
+  {
+    "id": "GK6550",
+    "en": {
+      "question": "What is the third planet from the Sun?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Uranus",
+        "Jupiter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य से तीसरा ग्रह कौन सा है?",
+      "options": [
+        "मंगल",
+        "शनि",
+        "यूरेनस",
+        "बृहस्पति"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_planets_order"
+  },
+  {
+    "id": "GK6551",
+    "en": {
+      "question": "What is the opposite of 'increase'?",
+      "options": [
+        "Grow",
+        "Expand",
+        "Raise",
+        "Decrease/Reduce"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'बढ़ना' का विपरीत क्या है?",
+      "options": [
+        "बढ़ना",
+        "विस्तार करना",
+        "उठाना",
+        "घटाना/कम करना"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_change"
+  },
+  {
+    "id": "GK6552",
+    "en": {
+      "question": "What is the largest bird in the world?",
+      "options": [
+        "Eagle",
+        "Emu",
+        "Albatross",
+        "Ostrich"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा पक्षी कौन सा है?",
+      "options": [
+        "ईगल",
+        "एमु",
+        "अल्बाट्रॉस",
+        "शुतुरमुर्ग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_animals_birds_records"
+  },
+  {
+    "id": "GK6553",
+    "en": {
+      "question": "What is the chemical symbol for Argon?",
+      "options": [
+        "A",
+        "Ag",
+        "An",
+        "Ar"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आर्गन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "A",
+        "Ag",
+        "An",
+        "Ar"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry_elements_gases"
+  },
+  {
+    "id": "GK6554",
+    "en": {
+      "question": "What continent is the Sahara Desert located on?",
+      "options": [
+        "Asia",
+        "Europe",
+        "South America",
+        "Africa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सहारा रेगिस्तान किस महाद्वीप पर स्थित है?",
+      "options": [
+        "एशिया",
+        "यूरोप",
+        "दक्षिण अमेरिका",
+        "अफ्रीका"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_continents_features"
+  },
+  {
+    "id": "GK6555",
+    "en": {
+      "question": "What is the name of the Norse god associated with mischief and trickery?",
+      "options": [
+        "Thor",
+        "Odin",
+        "Freyr",
+        "Loki"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शरारत और चालबाजी से जुड़े नॉर्स देवता का नाम क्या है?",
+      "options": [
+        "थॉर",
+        "ओडिन",
+        "फ्रेयर",
+        "लोकी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "mythology_norse_gods"
+  },
+  {
+    "id": "GK6556",
+    "en": {
+      "question": "What is the opposite of 'push'? (Repeated for reinforcement)",
+      "options": [
+        "Shove",
+        "Press",
+        "Thrust",
+        "Pull"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'धक्का देना' का विपरीत क्या है? (पुनर्बलन के लिए दोहराया गया)",
+      "options": [
+        "धकेलना",
+        "दबाना",
+        "प्रहार करना",
+        "खींचना"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_actions"
+  },
+  {
+    "id": "GK6558",
+    "en": {
+      "question": "What is water called when it's frozen?",
+      "options": [
+        "Steam",
+        "Vapor",
+        "Liquid",
+        "Ice"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी जब जम जाता है तो उसे क्या कहते हैं?",
+      "options": [
+        "भाप",
+        "वाष्प",
+        "तरल",
+        "बर्फ"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "science_chemistry_states"
+  },
+  {
+    "id": "GK6559",
+    "en": {
+      "question": "Which Scottish Disney princess is skilled with a bow and arrow?",
+      "options": [
+        "Rapunzel",
+        "Anna",
+        "Elsa",
+        "Merida"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी स्कॉटिश डिज्नी राजकुमारी धनुष और बाण में कुशल है?",
+      "options": [
+        "रॅपन्ज़ेल",
+        "अन्ना",
+        "एल्सा",
+        "मेरिडा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_animation_disney_princesses"
+  },
+  {
+    "id": "GK6560",
+    "en": {
+      "question": "What is the sixth planet from the Sun?",
+      "options": [
+        "Jupiter",
+        "Uranus",
+        "Neptune",
+        "Saturn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य से छठा ग्रह कौन सा है?",
+      "options": [
+        "बृहस्पति",
+        "यूरेनस",
+        "नेपच्यून",
+        "शनि"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_planets_order"
+  },
+  {
+    "id": "GK6562",
+    "en": {
+      "question": "What bird is known for delivering babies in cartoons?",
+      "options": [
+        "Pigeon",
+        "Robin",
+        "Eagle",
+        "Stork"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पक्षी कार्टून में बच्चों को पहुंचाने के लिए जाना जाता है?",
+      "options": [
+        "कबूतर",
+        "रॉबिन",
+        "ईगल",
+        "सारस"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_folklore"
+  },
+  {
+    "id": "GK6563",
+    "en": {
+      "question": "What is the chemical symbol for Lithium?",
+      "options": [
+        "L",
+        "Lt",
+        "Lm",
+        "Li"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लिथियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "L",
+        "Lt",
+        "Lm",
+        "Li"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_elements_metals_alkali"
+  },
+  {
+    "id": "GK6564",
+    "en": {
+      "question": "What is the world's highest waterfall?",
+      "options": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Iguazu Falls",
+        "Angel Falls"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे ऊंचा जलप्रपात कौन सा है?",
+      "options": [
+        "नियाग्रा फॉल्स",
+        "विक्टोरिया फॉल्स",
+        "इगुआज़ु फॉल्स",
+        "एंजेल फॉल्स"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "world_geography_waterfalls"
+  },
+  {
+    "id": "GK6565",
+    "en": {
+      "question": "What is the name of the king of the Norse gods?",
+      "options": [
+        "Thor",
+        "Loki",
+        "Freyr",
+        "Odin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नॉर्स देवताओं के राजा का नाम क्या है?",
+      "options": [
+        "थॉर",
+        "लोकी",
+        "फ्रेयर",
+        "ओडिन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_norse_gods"
+  },
+  {
+    "id": "GK6566",
+    "en": {
+      "question": "What is the opposite of 'dry'?",
+      "options": [
+        "Arid",
+        "Parched",
+        "Dehydrated",
+        "Wet/Moist"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सूखा' का विपरीत क्या है?",
+      "options": [
+        "शुष्क",
+        "प्यासा",
+        "निर्जलित",
+        "गीला/नम"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_state"
+  },
+  {
+    "id": "GK6567",
+    "en": {
+      "question": "What marsupial carries its baby in a pouch?",
+      "options": [
+        "Koala",
+        "Wombat",
+        "Opossum",
+        "Kangaroo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा मार्सुपियल अपने बच्चे को थैली में रखता है?",
+      "options": [
+        "कोआला",
+        "वॉम्बैट",
+        "ओपस्सम",
+        "कंगारू"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_marsupials"
+  },
+  {
+    "id": "GK6568",
+    "en": {
+      "question": "What is the main gas that we breathe in from the air?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम हवा से मुख्य रूप से कौन सी गैस सांस में लेते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry_gases_air"
+  },
+  {
+    "id": "GK6569",
+    "en": {
+      "question": "Which Disney princess is the daughter of the village chief in Polynesia?",
+      "options": [
+        "Ariel",
+        "Pocahontas",
+        "Mulan",
+        "Moana"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी डिज्नी राजकुमारी पोलिनेशिया में गांव के मुखिया की बेटी है?",
+      "options": [
+        "एरियल",
+        "पोकाहोंटस",
+        "मुलान",
+        "मोआना"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_animation_disney_princesses"
+  },
+  {
+    "id": "GK6570",
+    "en": {
+      "question": "What is the seventh planet from the Sun?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Neptune",
+        "Uranus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य से सातवां ग्रह कौन सा है?",
+      "options": [
+        "बृहस्पति",
+        "शनि",
+        "नेपच्यून",
+        "यूरेनस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_space_planets_order"
+  },
+  {
+    "id": "GK6572",
+    "en": {
+      "question": "What animal says 'meow'?",
+      "options": [
+        "Dog",
+        "Bird",
+        "Fish",
+        "Cat"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर 'म्याऊं' कहता है?",
+      "options": [
+        "कुत्ता",
+        "पक्षी",
+        "मछली",
+        "बिल्ली"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "biology_animals_pets_sounds"
+  },
+  {
+    "id": "GK6574",
+    "en": {
+      "question": "What continent is Brazil located on?",
+      "options": [
+        "Africa",
+        "Asia",
+        "North America",
+        "South America"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ब्राजील किस महाद्वीप पर स्थित है?",
+      "options": [
+        "अफ्रीका",
+        "एशिया",
+        "उत्तरी अमेरिका",
+        "दक्षिण अमेरिका"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography_continents"
+  },
+  {
+    "id": "GK6575",
+    "en": {
+      "question": "What is the name of the ruler of Asgard in Norse mythology?",
+      "options": [
+        "Thor",
+        "Loki",
+        "Freyr",
+        "Odin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नॉर्स पौराणिक कथाओं में असगार्ड के शासक का नाम क्या है?",
+      "options": [
+        "थॉर",
+        "लोकी",
+        "फ्रेयर",
+        "ओडिन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_norse_gods"
+  },
+  {
+    "id": "GK6577",
+    "en": {
+      "question": "What is the tallest land animal?",
+      "options": [
+        "Elephant",
+        "Rhino",
+        "Hippopotamus",
+        "Giraffe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सबसे लंबा भूमि जानवर कौन सा है?",
+      "options": [
+        "हाथी",
+        "गैंडा",
+        "दरियाई घोड़ा",
+        "जिराफ़"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_mammals_records"
+  },
+  {
+    "id": "GK6578",
+    "en": {
+      "question": "What gas do we breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon Dioxide"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम कौन सी गैस सांस छोड़ते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हाइड्रोजन",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human_respiration"
+  },
+  {
+    "id": "GK6579",
+    "en": {
+      "question": "What is the name of Simba's father in The Lion King?",
+      "options": [
+        "Scar",
+        "Zazu",
+        "Timon",
+        "Mufasa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "द लायन किंग में सिम्बा के पिता का नाम क्या है?",
+      "options": [
+        "स्कार",
+        "ज़ाज़ू",
+        "टिमोन",
+        "मुफासा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK6580",
+    "en": {
+      "question": "What is the eighth planet from the Sun?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य से आठवां ग्रह कौन सा है?",
+      "options": [
+        "बृहस्पति",
+        "शनि",
+        "यूरेनस",
+        "नेपच्यून"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_space_planets_order"
+  }
+]

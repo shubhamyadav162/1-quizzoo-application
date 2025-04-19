@@ -1,0 +1,352 @@
+[
+  {
+    "id": "GK161",
+    "en": {
+      "question": "What is the capital of Russia?",
+      "options": [
+        "St. Petersburg",
+        "Moscow",
+        "Kiev",
+        "Volgograd"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "रूस की राजधानी क्या है?",
+      "options": [
+        "सेंट पीटर्सबर्ग",
+        "मॉस्को",
+        "कीव",
+        "वोल्गोग्राद"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK166",
+    "en": {
+      "question": "What is the largest joint in the human body?",
+      "options": [
+        "Shoulder",
+        "Hip",
+        "Knee",
+        "Elbow"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर का सबसे बड़ा जोड़ कौन सा है?",
+      "options": [
+        "कंधा",
+        "कूल्हा",
+        "घुटना",
+        "कोहनी"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK167",
+    "en": {
+      "question": "Which gas is known as laughing gas?",
+      "options": [
+        "Nitrogen dioxide",
+        "Nitrous oxide",
+        "Carbon monoxide",
+        "Sulfur dioxide"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस गैस को हंसी गैस के नाम से जाना जाता है?",
+      "options": [
+        "नाइट्रोजन डाइऑक्साइड",
+        "नाइट्रस ऑक्साइड",
+        "कार्बन मोनोऑक्साइड",
+        "सल्फर डाइऑक्साइड"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK169",
+    "en": {
+      "question": "What is the currency of Brazil?",
+      "options": [
+        "Peso",
+        "Real",
+        "Dollar",
+        "Euro"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ब्राजील की मुद्रा क्या है?",
+      "options": [
+        "पेसो",
+        "रियल",
+        "डॉलर",
+        "यूरो"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "economics"
+  },
+  {
+    "id": "GK170",
+    "en": {
+      "question": "Which vitamin is also known as tocopherol?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin E",
+        "Vitamin K"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस विटामिन को टोकोफेरोल के नाम से भी जाना जाता है?",
+      "options": [
+        "विटामिन ए",
+        "विटामिन सी",
+        "विटामिन ई",
+        "विटामिन के"
+      ],
+      "answer": 2
+    },
+    "level": 10,
+    "category": "biology"
+  },
+  {
+    "id": "GK171",
+    "en": {
+      "question": "Which is the tallest waterfall in the world?",
+      "options": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Angel Falls",
+        "Iguazu Falls"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे ऊंचा जलप्रपात कौन सा है?",
+      "options": [
+        "नियाग्रा फॉल्स",
+        "विक्टोरिया फॉल्स",
+        "एंजेल फॉल्स",
+        "इगुआज़ू फॉल्स"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK172",
+    "en": {
+      "question": "Who is the founder of Facebook?",
+      "options": [
+        "Jeff Bezos",
+        "Mark Zuckerberg",
+        "Bill Gates",
+        "Elon Musk"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "फेसबुक के संस्थापक कौन हैं?",
+      "options": [
+        "जेफ बेजोस",
+        "मार्क जुकरबर्ग",
+        "बिल गेट्स",
+        "एलोन मस्क"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "technology"
+  },
+  {
+    "id": "GK173",
+    "en": {
+      "question": "Which is the largest organ system in the human body?",
+      "options": [
+        "Digestive System",
+        "Nervous System",
+        "Integumentary System",
+        "Respiratory System"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे बड़ी अंग प्रणाली कौन सी है?",
+      "options": [
+        "पाचन तंत्र",
+        "तंत्रिका तंत्र",
+        "त्वचा तंत्र",
+        "श्वसन तंत्र"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "biology"
+  },
+  {
+    "id": "GK174",
+    "en": {
+      "question": "Who is the author of 'A Brief History of Time'?",
+      "options": [
+        "Richard Dawkins",
+        "Stephen Hawking",
+        "Neil deGrasse Tyson",
+        "Carl Sagan"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ए ब्रीफ हिस्ट्री ऑफ टाइम' के लेखक कौन हैं?",
+      "options": [
+        "रिचर्ड डॉकिन्स",
+        "स्टीफन हॉकिंग",
+        "नील डिग्रास टायसन",
+        "कार्ल सागन"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "science_literature"
+  },
+  {
+    "id": "GK176",
+    "en": {
+      "question": "Which is the smallest country in the world?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "Nauru",
+        "San Marino"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे छोटा देश कौन सा है?",
+      "options": [
+        "मोनाको",
+        "वेटिकन सिटी",
+        "नौरू",
+        "सैन मरीनो"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK177",
+    "en": {
+      "question": "What is the unit of force?",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "बल की इकाई क्या है?",
+      "options": [
+        "वाट",
+        "जूल",
+        "न्यूटन",
+        "पास्कल"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK178",
+    "en": {
+      "question": "Who wrote 'Gitanjali'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Munshi Premchand",
+        "Bankim Chandra Chatterjee",
+        "Mahatma Gandhi"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'गीतांजलि' किसने लिखी थी?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "मुंशी प्रेमचंद",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "महात्मा गांधी"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK179",
+    "en": {
+      "question": "What does the acronym DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Diribonucleic Acid",
+        "Deoxyribosenucleic Acid",
+        "Dynamic Nucleic Acid"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "डीएनए का पूरा नाम क्या है?",
+      "options": [
+        "डीऑक्सीराइबोन्यूक्लिक एसिड",
+        "डिराइबोन्यूक्लिक एसिड",
+        "डीऑक्सीराइबोसन्यूक्लिक एसिड",
+        "डायनमिक न्यूक्लिक एसिड"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK180",
+    "en": {
+      "question": "Which is the fastest land animal?",
+      "options": [
+        "Lion",
+        "Cheetah",
+        "Tiger",
+        "Leopard"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सबसे तेज़ दौड़ने वाला स्थलीय जानवर कौन सा है?",
+      "options": [
+        "शेर",
+        "चीता",
+        "बाघ",
+        "तेंदुआ"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "biology"
+  }
+]

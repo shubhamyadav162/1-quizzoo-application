@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "GK5601",
+    "en": {
+      "question": "What country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "South Korea",
+        "Vietnam",
+        "Japan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस देश को 'उगते सूरज की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "चीन",
+        "दक्षिण कोरिया",
+        "वियतनाम",
+        "जापान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_nicknames"
+  },
+  {
+    "id": "GK5602",
+    "en": {
+      "question": "Which planet is known for its prominent rings?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Saturn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा ग्रह अपने प्रमुख वलयों के लिए जाना जाता है?",
+      "options": [
+        "बृहस्पति",
+        "मंगल",
+        "शुक्र",
+        "शनि"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5604",
+    "en": {
+      "question": "In Greek mythology, who was the god of the sea?",
+      "options": [
+        "Zeus",
+        "Hades",
+        "Apollo",
+        "Poseidon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में, समुद्र का देवता कौन था?",
+      "options": [
+        "ज़ीउस",
+        "हेडीस",
+        "अपोलो",
+        "पोसीडॉन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "mythology_greek"
+  },
+  {
+    "id": "GK5607",
+    "en": {
+      "question": "What type of creature is Shrek?",
+      "options": [
+        "Elf",
+        "Dwarf",
+        "Goblin",
+        "Ogre"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "श्रेक किस प्रकार का प्राणी है?",
+      "options": [
+        "एल्फ",
+        "बौना",
+        "गोबलिन",
+        "ओग्रे"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation"
+  },
+  {
+    "id": "GK5609",
+    "en": {
+      "question": "What sport uses a shuttlecock?",
+      "options": [
+        "Tennis",
+        "Squash",
+        "Table Tennis",
+        "Badminton"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल में शटलकॉक का उपयोग होता है?",
+      "options": [
+        "टेनिस",
+        "स्क्वैश",
+        "टेबल टेनिस",
+        "बैडमिंटन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_equipment"
+  },
+  {
+    "id": "GK5615",
+    "en": {
+      "question": "What kind of fish is Nemo from 'Finding Nemo'?",
+      "options": [
+        "Goldfish",
+        "Angelfish",
+        "Shark",
+        "Clownfish"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'फाइंडिंग निमो' का निमो किस प्रकार की मछली है?",
+      "options": [
+        "सुनहरी मछली",
+        "एंजेलफिश",
+        "शार्क",
+        "क्लाउनफिश"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_characters"
+  },
+  {
+    "id": "GK5617",
+    "en": {
+      "question": "What is the main gas found in the air we breathe?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम जो हवा सांस लेते हैं उसमें मुख्य गैस कौन सी पाई जाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry_atmosphere"
+  },
+  {
+    "id": "GK5621",
+    "en": {
+      "question": "What is the primary language spoken in Brazil?",
+      "options": [
+        "Spanish",
+        "French",
+        "English",
+        "Portuguese"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ब्राजील में बोली जाने वाली प्राथमिक भाषा कौन सी है?",
+      "options": [
+        "स्पेनिश",
+        "फ्रेंच",
+        "अंग्रेजी",
+        "पुर्तगाली"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_languages"
+  },
+  {
+    "id": "GK5622",
+    "en": {
+      "question": "How many sides does a hexagon have?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक षट्भुज (hexagon) की कितनी भुजाएँ होती हैं?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "geometry_shapes"
+  },
+  {
+    "id": "GK5623",
+    "en": {
+      "question": "Which organ pumps blood throughout the human body?",
+      "options": [
+        "Lungs",
+        "Brain",
+        "Liver",
+        "Heart"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा अंग मानव शरीर में रक्त पंप करता है?",
+      "options": [
+        "फेफड़े",
+        "मस्तिष्क",
+        "लिवर",
+        "हृदय"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human_organs"
+  },
+  {
+    "id": "GK5624",
+    "en": {
+      "question": "What is the name of Harry Potter's owl?",
+      "options": [
+        "Errol",
+        "Pigwidgeon",
+        "Crookshanks",
+        "Hedwig"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हैरी पॉटर के उल्लू का नाम क्या है?",
+      "options": [
+        "एरोल",
+        "पिगविजॉन",
+        "क्रुकशैंक्स",
+        "हेडविग"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature"
+  },
+  {
+    "id": "GK5625",
+    "en": {
+      "question": "What is the process by which plants make their own food?",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Germination",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वह प्रक्रिया क्या है जिसके द्वारा पौधे अपना भोजन बनाते हैं?",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अंकुरण",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_plants_processes"
+  },
+  {
+    "id": "GK5626",
+    "en": {
+      "question": "What do bees collect to make honey?",
+      "options": [
+        "Pollen",
+        "Water",
+        "Leaves",
+        "Nectar"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मधुमक्खियां शहद बनाने के लिए क्या इकट्ठा करती हैं?",
+      "options": [
+        "पराग",
+        "पानी",
+        "पत्तियाँ",
+        "पराग (Nectar)"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_insects"
+  },
+  {
+    "id": "GK5627",
+    "en": {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_oceans"
+  },
+  {
+    "id": "GK5628",
+    "en": {
+      "question": "Which famous inventor is credited with inventing the light bulb?",
+      "options": [
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Benjamin Franklin",
+        "Thomas Edison"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध आविष्कारक को लाइट बल्ब के आविष्कार का श्रेय दिया जाता है?",
+      "options": [
+        "अलेक्जेंडर ग्राहम बेल",
+        "निकोला टेस्ला",
+        "बेंजामिन फ्रैंकलिन",
+        "थॉमस एडिसन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history_inventions"
+  },
+  {
+    "id": "GK5629",
+    "en": {
+      "question": "What color is chlorophyll, the pigment in plants?",
+      "options": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Green"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्लोरोफिल, पौधों में वर्णक, का रंग क्या होता है?",
+      "options": [
+        "लाल",
+        "पीला",
+        "नीला",
+        "हरा"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants_pigments"
+  },
+  {
+    "id": "GK5630",
+    "en": {
+      "question": "What country gifted the Statue of Liberty to the USA?",
+      "options": [
+        "United Kingdom",
+        "Germany",
+        "Italy",
+        "France"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस देश ने स्टैच्यू ऑफ लिबर्टी को यूएसए को उपहार में दिया था?",
+      "options": [
+        "यूनाइटेड किंगडम",
+        "जर्मनी",
+        "इटली",
+        "फ्रांस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_history_usa"
+  },
+  {
+    "id": "GK5632",
+    "en": {
+      "question": "What is the main component of Earth's core?",
+      "options": [
+        "Silicon",
+        "Aluminum",
+        "Oxygen",
+        "Iron"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी के कोर का मुख्य घटक क्या है?",
+      "options": [
+        "सिलिकॉन",
+        "एल्यूमीनियम",
+        "ऑक्सीजन",
+        "लोहा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_geology"
+  },
+  {
+    "id": "GK5633",
+    "en": {
+      "question": "Who is the author of the 'Percy Jackson' series?",
+      "options": [
+        "J.K. Rowling",
+        "Suzanne Collins",
+        "Veronica Roth",
+        "Rick Riordan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पर्सी जैक्सन' श्रृंखला के लेखक कौन हैं?",
+      "options": [
+        "जे.के. रोलिंग",
+        "सुजैन कॉलिन्स",
+        "वेरोनिका रोथ",
+        "रिक रिओर्डन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_literature_authors"
+  },
+  {
+    "id": "GK5635",
+    "en": {
+      "question": "Which is the largest planet in our Solar System?",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Neptune",
+        "Jupiter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का सबसे बड़ा ग्रह कौन सा है?",
+      "options": [
+        "पृथ्वी",
+        "शनि",
+        "नेप्च्यून",
+        "बृहस्पति"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_planets"
+  },
+  {
+    "id": "GK5637",
+    "en": {
+      "question": "In which sport do players try to hit a home run?",
+      "options": [
+        "Basketball",
+        "Soccer",
+        "Cricket",
+        "Baseball"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल में खिलाड़ी होम रन मारने की कोशिश करते हैं?",
+      "options": [
+        "बास्केटबॉल",
+        "सॉकर",
+        "क्रिकेट",
+        "बेसबॉल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "sports_rules"
+  },
+  {
+    "id": "GK5639",
+    "en": {
+      "question": "What sense helps us detect smells?",
+      "options": [
+        "Sight",
+        "Hearing",
+        "Touch",
+        "Smell (Olfaction)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें गंध का पता लगाने में मदद करती है?",
+      "options": [
+        "दृष्टि",
+        "श्रवण",
+        "स्पर्श",
+        "गंध (Olfaction)"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5643",
+    "en": {
+      "question": "In Roman mythology, who was the king of the gods?",
+      "options": [
+        "Mars",
+        "Neptune",
+        "Pluto",
+        "Jupiter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रोमन पौराणिक कथाओं में, देवताओं का राजा कौन था?",
+      "options": [
+        "मंगल",
+        "नेप्च्यून",
+        "प्लूटो",
+        "बृहस्पति"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_roman"
+  },
+  {
+    "id": "GK5644",
+    "en": {
+      "question": "What is the main language spoken in Spain?",
+      "options": [
+        "Portuguese",
+        "French",
+        "Italian",
+        "Spanish"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्पेन में बोली जाने वाली मुख्य भाषा कौन सी है?",
+      "options": [
+        "पुर्तगाली",
+        "फ्रेंच",
+        "इतालवी",
+        "स्पेनिश"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_languages_europe"
+  },
+  {
+    "id": "GK5645",
+    "en": {
+      "question": "What is the name of the toy cowboy in 'Toy Story'?",
+      "options": [
+        "Buzz Lightyear",
+        "Mr. Potato Head",
+        "Slinky Dog",
+        "Woody"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'टॉय स्टोरी' में खिलौना काउबॉय का नाम क्या है?",
+      "options": [
+        "बज़ लाइटईयर",
+        "मिस्टर पोटैटो हेड",
+        "स्लिंकी डॉग",
+        "वुडी"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_characters"
+  },
+  {
+    "id": "GK5646",
+    "en": {
+      "question": "What is the largest desert in the world? (Hot desert)",
+      "options": [
+        "Gobi Desert",
+        "Kalahari Desert",
+        "Arabian Desert",
+        "Sahara Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा रेगिस्तान कौन सा है? (गर्म रेगिस्तान)",
+      "options": [
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "अरब रेगिस्तान",
+        "सहारा रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_deserts"
+  },
+  {
+    "id": "GK5647",
+    "en": {
+      "question": "Which element is represented by the symbol 'O' on the periodic table?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Iron",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आवर्त सारणी पर 'O' प्रतीक द्वारा किस तत्व का प्रतिनिधित्व किया जाता है?",
+      "options": [
+        "सोना",
+        "चांदी",
+        "लोहा",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry_elements"
+  },
+  {
+    "id": "GK5648",
+    "en": {
+      "question": "How many players are there on a standard soccer team on the field at one time?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक मानक सॉकर टीम में एक समय में मैदान पर कितने खिलाड़ी होते हैं?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "sports_rules_teams"
+  },
+  {
+    "id": "GK5649",
+    "en": {
+      "question": "What famous structure in Egypt has the body of a lion and the head of a human?",
+      "options": [
+        "Pyramid of Giza",
+        "Abu Simbel",
+        "Karnak Temple",
+        "The Great Sphinx"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिस्र में कौन सी प्रसिद्ध संरचना है जिसका शरीर शेर का और सिर इंसान का है?",
+      "options": [
+        "गीज़ा का पिरामिड",
+        "अबू सिंबल",
+        "कर्नाक मंदिर",
+        "द ग्रेट स्फिंक्स"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_landmarks_egypt"
+  },
+  {
+    "id": "GK5650",
+    "en": {
+      "question": "What gas do humans breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon Dioxide"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इंसान कौन सी गैस सांस छोड़ते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हाइड्रोजन",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human_respiration"
+  },
+  {
+    "id": "GK5652",
+    "en": {
+      "question": "What planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सूर्य के सबसे निकट कौन सा ग्रह है?",
+      "options": [
+        "शुक्र",
+        "पृथ्वी",
+        "मंगल",
+        "बुध"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_planets"
+  },
+  {
+    "id": "GK5656",
+    "en": {
+      "question": "How many legs does a spider typically have?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "8"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक मकड़ी के आमतौर पर कितने पैर होते हैं?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "8"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_arachnids"
+  },
+  {
+    "id": "GK5657",
+    "en": {
+      "question": "What is the boiling point of water in Fahrenheit?",
+      "options": [
+        "100°F",
+        "180°F",
+        "200°F",
+        "212°F"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फारेनहाइट में पानी का क्वथनांक क्या है?",
+      "options": [
+        "100°F",
+        "180°F",
+        "200°F",
+        "212°F"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "physics_temperature"
+  },
+  {
+    "id": "GK5658",
+    "en": {
+      "question": "Which artist is famous for painting 'Starry Night'?",
+      "options": [
+        "Claude Monet",
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कलाकार 'स्टारी नाइट' पेंटिंग के लिए प्रसिद्ध है?",
+      "options": [
+        "क्लॉड मोनेट",
+        "पाब्लो पिकासो",
+        "साल्वाडोर डाली",
+        "विन्सेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history_post_impressionism"
+  },
+  {
+    "id": "GK5659",
+    "en": {
+      "question": "What is the name of the Earth's only natural satellite?",
+      "options": [
+        "Phobos",
+        "Europa",
+        "Titan",
+        "Moon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी के एकमात्र प्राकृतिक उपग्रह का नाम क्या है?",
+      "options": [
+        "फोबोस",
+        "यूरोपा",
+        "टाइटन",
+        "चंद्रमा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "science_space_satellites"
+  },
+  {
+    "id": "GK5660",
+    "en": {
+      "question": "What is the main color of the Smurfs?",
+      "options": [
+        "Red",
+        "Green",
+        "Yellow",
+        "Blue"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्मर्फ्स का मुख्य रंग क्या है?",
+      "options": [
+        "लाल",
+        "हरा",
+        "पीला",
+        "नीला"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_cartoons"
+  },
+  {
+    "id": "GK5661",
+    "en": {
+      "question": "What is the world's largest bird?",
+      "options": [
+        "Eagle",
+        "Penguin",
+        "Emu",
+        "Ostrich"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा पक्षी कौन सा है?",
+      "options": [
+        "चील",
+        "पेंगुइन",
+        "एमु",
+        "शुतुरमुर्ग"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_birds_records"
+  },
+  {
+    "id": "GK5663",
+    "en": {
+      "question": "How many colors are in a standard rainbow?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक मानक इंद्रधनुष में कितने रंग होते हैं?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "physics_optics_phenomena"
+  },
+  {
+    "id": "GK5664",
+    "en": {
+      "question": "In which city would you find the Colosseum?",
+      "options": [
+        "Paris",
+        "Athens",
+        "London",
+        "Rome"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोलोसियम आपको किस शहर में मिलेगा?",
+      "options": [
+        "पेरिस",
+        "एथेंस",
+        "लंदन",
+        "रोम"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_landmarks_italy"
+  },
+  {
+    "id": "GK5665",
+    "en": {
+      "question": "What is the yellow part of an egg called?",
+      "options": [
+        "Shell",
+        "White",
+        "Membrane",
+        "Yolk"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंडे के पीले भाग को क्या कहा जाता है?",
+      "options": [
+        "खोल",
+        "सफेदी",
+        "झिल्ली",
+        "जर्दी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_ingredients_basics"
+  },
+  {
+    "id": "GK5667",
+    "en": {
+      "question": "What do you call a person who flies an airplane?",
+      "options": [
+        "Driver",
+        "Captain",
+        "Sailor",
+        "Pilot"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हवाई जहाज उड़ाने वाले व्यक्ति को आप क्या कहते हैं?",
+      "options": [
+        "ड्राइवर",
+        "कप्तान",
+        "नाविक",
+        "पायलट"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "professions"
+  },
+  {
+    "id": "GK5668",
+    "en": {
+      "question": "What is the largest animal currently living on Earth?",
+      "options": [
+        "Elephant",
+        "Giraffe",
+        "Great White Shark",
+        "Blue Whale"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वर्तमान में पृथ्वी पर रहने वाला सबसे बड़ा जानवर कौन सा है?",
+      "options": [
+        "हाथी",
+        "जिराफ़",
+        "ग्रेट व्हाइट शार्क",
+        "ब्लू व्हेल"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_animals_records"
+  },
+  {
+    "id": "GK5669",
+    "en": {
+      "question": "How many sides does a triangle have?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक त्रिभुज (triangle) की कितनी भुजाएँ होती हैं?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "geometry_shapes_basics"
+  },
+  {
+    "id": "GK5670",
+    "en": {
+      "question": "What is the name of the wizard in 'The Lord of the Rings'?",
+      "options": [
+        "Dumbledore",
+        "Merlin",
+        "Saruman",
+        "Gandalf"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लॉर्ड ऑफ द रिंग्स' में जादूगर का नाम क्या है?",
+      "options": [
+        "डंबलडोर",
+        "मर्लिन",
+        "सरुमन",
+        "गैंडाल्फ"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK5675",
+    "en": {
+      "question": "What is the name of the main character in the 'Star Wars' original trilogy?",
+      "options": [
+        "Han Solo",
+        "Obi-Wan Kenobi",
+        "Darth Vader",
+        "Luke Skywalker"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'स्टार वार्स' मूल त्रयी में मुख्य पात्र का नाम क्या है?",
+      "options": [
+        "हान सोलो",
+        "ओबी-वान केनोबी",
+        "डार्थ वेडर",
+        "ल्यूक स्काईवॉकर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_movies_scifi"
+  },
+  {
+    "id": "GK5676",
+    "en": {
+      "question": "What is the solid form of water called?",
+      "options": [
+        "Steam",
+        "Vapor",
+        "Liquid",
+        "Ice"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी के ठोस रूप को क्या कहा जाता है?",
+      "options": [
+        "भाप",
+        "वाष्प",
+        "तरल",
+        "बर्फ"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "chemistry_states_of_matter"
+  },
+  {
+    "id": "GK5677",
+    "en": {
+      "question": "What instrument has black and white keys and is often played with both hands?",
+      "options": [
+        "Guitar",
+        "Violin",
+        "Drums",
+        "Piano"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस वाद्य यंत्र में काली और सफेद चाबियां होती हैं और अक्सर दोनों हाथों से बजाया जाता है?",
+      "options": [
+        "गिटार",
+        "वायलिन",
+        "ड्रम",
+        "पियानो"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "music_instruments"
+  },
+  {
+    "id": "GK5679",
+    "en": {
+      "question": "What gas is essential for human respiration (breathing in)?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Helium",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव श्वसन (सांस लेने) के लिए कौन सी गैस आवश्यक है?",
+      "options": [
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हीलियम",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human_respiration"
+  },
+  {
+    "id": "GK5680",
+    "en": {
+      "question": "Which is the tallest mammal?",
+      "options": [
+        "Elephant",
+        "Horse",
+        "Camel",
+        "Giraffe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सबसे लंबा स्तनपायी कौन सा है?",
+      "options": [
+        "हाथी",
+        "घोड़ा",
+        "ऊंट",
+        "जिराफ़"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_mammals"
+  },
+  {
+    "id": "GK5682",
+    "en": {
+      "question": "How many sides does a square have?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक वर्ग (square) की कितनी भुजाएँ होती हैं?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "geometry_shapes_basics"
+  },
+  {
+    "id": "GK5684",
+    "en": {
+      "question": "What is the name of the lion cub in 'The Lion King'?",
+      "options": [
+        "Mufasa",
+        "Scar",
+        "Timon",
+        "Simba"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लायन किंग' में शेर के बच्चे का नाम क्या है?",
+      "options": [
+        "मुफासा",
+        "स्कार",
+        "टिमोन",
+        "सिम्बा"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_characters"
+  },
+  {
+    "id": "GK5685",
+    "en": {
+      "question": "Which natural phenomenon involves shaking of the Earth's surface?",
+      "options": [
+        "Volcano",
+        "Tsunami",
+        "Hurricane",
+        "Earthquake"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्राकृतिक घटना में पृथ्वी की सतह का हिलना शामिल है?",
+      "options": [
+        "ज्वालामुखी",
+        "सुनामी",
+        "तूफान",
+        "भूकंप"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_geology_phenomena"
+  },
+  {
+    "id": "GK5687",
+    "en": {
+      "question": "What is the world's highest mountain range?",
+      "options": [
+        "Andes",
+        "Rockies",
+        "Alps",
+        "Himalayas"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया की सबसे ऊंची पर्वत श्रृंखला कौन सी है?",
+      "options": [
+        "एंडीज",
+        "रॉकीज",
+        "आल्प्स",
+        "हिमालय"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_mountains"
+  },
+  {
+    "id": "GK5688",
+    "en": {
+      "question": "Which element is represented by the symbol 'H' on the periodic table?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आवर्त सारणी पर 'H' प्रतीक द्वारा किस तत्व का प्रतिनिधित्व किया जाता है?",
+      "options": [
+        "हीलियम",
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry_elements"
+  },
+  {
+    "id": "GK5689",
+    "en": {
+      "question": "What colors are on the flag of the United States?",
+      "options": [
+        "Red, White, Green",
+        "Red, Yellow, Blue",
+        "Blue, White, Yellow",
+        "Red, White, Blue"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका के झंडे पर कौन से रंग हैं?",
+      "options": [
+        "लाल, सफेद, हरा",
+        "लाल, पीला, नीला",
+        "नीला, सफेद, पीला",
+        "लाल, सफेद, नीला"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_flags"
+  },
+  {
+    "id": "GK5690",
+    "en": {
+      "question": "What type of animal is a dolphin?",
+      "options": [
+        "Fish",
+        "Reptile",
+        "Amphibian",
+        "Mammal"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "डॉल्फ़िन किस प्रकार का जानवर है?",
+      "options": [
+        "मछली",
+        "सरीसृप",
+        "उभयचर",
+        "स्तनपायी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_classification"
+  },
+  {
+    "id": "GK5692",
+    "en": {
+      "question": "What is the name of the yellow, tubular character from 'Despicable Me'?",
+      "options": [
+        "Gru",
+        "Vector",
+        "Dr. Nefario",
+        "Minion"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'डेस्पिकेबल मी' के पीले, ट्यूबलर चरित्र का नाम क्या है?",
+      "options": [
+        "ग्रु",
+        "वेक्टर",
+        "डॉ नेफारियो",
+        "मिनियन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation"
+  },
+  {
+    "id": "GK5693",
+    "en": {
+      "question": "What is the term for a group of lions?",
+      "options": [
+        "Herd",
+        "Pack",
+        "Flock",
+        "Pride"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शेरों के समूह के लिए क्या शब्द है?",
+      "options": [
+        "झुंड",
+        "दल",
+        "झुंड",
+        "प्राइड"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_groups"
+  },
+  {
+    "id": "GK5694",
+    "en": {
+      "question": "What is the chemical symbol for Sodium (often found in salt)?",
+      "options": [
+        "S",
+        "So",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोडियम का रासायनिक प्रतीक क्या है (अक्सर नमक में पाया जाता है)?",
+      "options": [
+        "S",
+        "So",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_elements_common"
+  },
+  {
+    "id": "GK5695",
+    "en": {
+      "question": "What sense allows us to perceive flavors?",
+      "options": [
+        "Sight",
+        "Smell",
+        "Hearing",
+        "Taste"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें स्वादों को समझने की अनुमति देती है?",
+      "options": [
+        "दृष्टि",
+        "गंध",
+        "श्रवण",
+        "स्वाद"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5696",
+    "en": {
+      "question": "What is the capital of the United Kingdom?",
+      "options": [
+        "Manchester",
+        "Birmingham",
+        "Liverpool",
+        "London"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यूनाइटेड किंगडम की राजधानी क्या है?",
+      "options": [
+        "मैनचेस्टर",
+        "बर्मिंघम",
+        "लिवरपूल",
+        "लंदन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_capitals"
+  },
+  {
+    "id": "GK5697",
+    "en": {
+      "question": "What sport involves hitting a ball over a net with rackets?",
+      "options": [
+        "Basketball",
+        "Soccer",
+        "Golf",
+        "Tennis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल में रैकेट से नेट पर गेंद मारना शामिल है?",
+      "options": [
+        "बास्केटबॉल",
+        "सॉकर",
+        "गोल्फ",
+        "टेनिस"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_basics"
+  },
+  {
+    "id": "GK5698",
+    "en": {
+      "question": "What is the main character's name in 'The Matrix'?",
+      "options": [
+        "Morpheus",
+        "Agent Smith",
+        "Trinity",
+        "Neo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द मैट्रिक्स' में मुख्य पात्र का नाम क्या है?",
+      "options": [
+        "मॉर्फियस",
+        "एजेंट स्मिथ",
+        "ट्रिनिटी",
+        "नियो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_movies_scifi"
+  },
+  {
+    "id": "GK5699",
+    "en": {
+      "question": "Which large body of water covers most of the Earth's surface?",
+      "options": [
+        "Lakes",
+        "Rivers",
+        "Glaciers",
+        "Oceans"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा बड़ा जल निकाय पृथ्वी की अधिकांश सतह को कवर करता है?",
+      "options": [
+        "झीलें",
+        "नदियाँ",
+        "ग्लेशियर",
+        "महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "world_geography_water"
+  },
+  {
+    "id": "GK5700",
+    "en": {
+      "question": "What do bears often do during winter in cold regions?",
+      "options": [
+        "Migrate south",
+        "Build nests",
+        "Hunt more actively",
+        "Hibernate"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ठंडे क्षेत्रों में भालू अक्सर सर्दियों के दौरान क्या करते हैं?",
+      "options": [
+        "दक्षिण की ओर पलायन",
+        "घोंसले बनाना",
+        "अधिक सक्रिय रूप से शिकार करना",
+        "शीतनिद्रा (Hibernate)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_behavior"
+  }
+]

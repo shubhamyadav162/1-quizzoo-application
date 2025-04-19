@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK882",
+    "en": {
+      "question": "Which Indian classical dance form originated in Tamil Nadu?",
+      "options": [
+        "Kathakali",
+        "Bharatanatyam",
+        "Manipuri",
+        "Kuchipudi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा भारतीय शास्त्रीय नृत्य तमिलनाडु से उत्पन्न हुआ?",
+      "options": [
+        "कथकली",
+        "भरतनाट्यम",
+        "मणिपुरी",
+        "कुचिपुड़ी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK883",
+    "en": {
+      "question": "In which organ of the human body are the islets of Langerhans found?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Spleen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर के किस अंग में लैंगरहैंस के द्वीप पाए जाते हैं?",
+      "options": [
+        "यकृत",
+        "गुर्दा",
+        "अग्न्याशय",
+        "प्लीहा"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK887",
+    "en": {
+      "question": "Which Indian state produces the maximum silk in India?",
+      "options": [
+        "Karnataka",
+        "Assam",
+        "West Bengal",
+        "Tamil Nadu"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत में कौन सा राज्य अधिकतम रेशम का उत्पादन करता है?",
+      "options": [
+        "कर्नाटक",
+        "असम",
+        "पश्चिम बंगाल",
+        "तमिलनाडु"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_economy"
+  },
+  {
+    "id": "GK888",
+    "en": {
+      "question": "The 'Statue of Liberty' was a gift to the United States from which country?",
+      "options": [
+        "England",
+        "France",
+        "Italy",
+        "Spain"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'स्टैच्यू ऑफ लिबर्टी' किस देश से संयुक्त राज्य अमेरिका को उपहार था?",
+      "options": [
+        "इंग्लैंड",
+        "फ्रांस",
+        "इटली",
+        "स्पेन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK893",
+    "en": {
+      "question": "Which Indian musician is known as the 'Sitar Maestro'?",
+      "options": [
+        "Zakir Hussain",
+        "Ustad Amjad Ali Khan",
+        "Pandit Ravi Shankar",
+        "Hariprasad Chaurasia"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय संगीतकार को 'सितार उस्ताद' के रूप में जाना जाता है?",
+      "options": [
+        "जाकिर हुसैन",
+        "उस्ताद अमजद अली खान",
+        "पंडित रवि शंकर",
+        "हरिप्रसाद चौरसिया"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_music"
+  },
+  {
+    "id": "GK895",
+    "en": {
+      "question": "Who is known as the 'Father of the Indian Constitution'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारतीय संविधान का जनक' कहा जाता है?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "बी.आर. अंबेडकर",
+        "सरदार वल्लभभाई पटेल"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK896",
+    "en": {
+      "question": "In which state is the Jim Corbett National Park located?",
+      "options": [
+        "Madhya Pradesh",
+        "Uttarakhand",
+        "Rajasthan",
+        "Assam"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जिम कॉर्बेट नेशनल पार्क किस राज्य में स्थित है?",
+      "options": [
+        "मध्य प्रदेश",
+        "उत्तराखंड",
+        "राजस्थान",
+        "असम"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK898",
+    "en": {
+      "question": "What is the study of fungi called?",
+      "options": [
+        "Mycology",
+        "Ornithology",
+        "Entomology",
+        "Ichthyology"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कवक के अध्ययन को क्या कहते हैं?",
+      "options": [
+        "माइकोलॉजी",
+        "ऑर्निथोलॉजी",
+        "एंटोमोलॉजी",
+        "इक्थ्योलॉजी"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK899",
+    "en": {
+      "question": "Which gas is used for artificial ripening of fruits?",
+      "options": [
+        "Oxygen",
+        "Ethylene",
+        "Carbon Dioxide",
+        "Nitrogen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "फलों के कृत्रिम पकने के लिए किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "एथिलीन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "agriculture"
+  },
+  {
+    "id": "GK900",
+    "en": {
+      "question": "Which Indian state is known as the 'Land of Rising Sun'?",
+      "options": [
+        "Assam",
+        "Nagaland",
+        "Arunachal Pradesh",
+        "Manipur"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'उगते सूरज की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "असम",
+        "नागालैंड",
+        "अरुणाचल प्रदेश",
+        "मणिपुर"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "GK342",
+    "en": {
+      "question": "Who invented the telephone?",
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "टेलीफोन का आविष्कार किसने किया?",
+      "options": [
+        "थॉमस एडिसन",
+        "अलेक्जेंडर ग्राहम बेल",
+        "निकोला टेस्ला",
+        "गुगलिएल्मो मार्कोनी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK344",
+    "en": {
+      "question": "Who is the author of the book 'Malgudi Days'?",
+      "options": [
+        "Rabindranath Tagore",
+        "R.K. Narayan",
+        "Ruskin Bond",
+        "Khushwant Singh"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'मालगुडी डेज़' पुस्तक के लेखक कौन हैं?",
+      "options": [
+        "रबीन्द्रनाथ टैगोर",
+        "आर.के. नारायण",
+        "रस्किन बॉन्ड",
+        "खुशवंत सिंह"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK345",
+    "en": {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस ग्रह को 'लाल ग्रह' के नाम से जाना जाता है?",
+      "options": [
+        "शुक्र",
+        "बृहस्पति",
+        "मंगल",
+        "बुध"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK347",
+    "en": {
+      "question": "Which disease is caused by the deficiency of iodine?",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Goitre",
+        "Night Blindness"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आयोडीन की कमी से कौन सी बीमारी होती है?",
+      "options": [
+        "स्कर्वी",
+        "रिकेट्स",
+        "घेंघा",
+        "रतौंधी"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK348",
+    "en": {
+      "question": "Who was the first Indian to win an Olympic medal?",
+      "options": [
+        "Milkha Singh",
+        "P.T. Usha",
+        "Norman Pritchard",
+        "Dhyan Chand"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ओलंपिक पदक जीतने वाले पहले भारतीय कौन थे?",
+      "options": [
+        "मिल्खा सिंह",
+        "पी.टी. उषा",
+        "नॉर्मन प्रिचार्ड",
+        "ध्यानचंद"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "sports"
+  },
+  {
+    "id": "GK349",
+    "en": {
+      "question": "What is the largest continent by land area?",
+      "options": [
+        "Africa",
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूमि क्षेत्रफल के अनुसार सबसे बड़ा महाद्वीप कौन सा है?",
+      "options": [
+        "अफ्रीका",
+        "उत्तरी अमेरिका",
+        "यूरोप",
+        "एशिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK352",
+    "en": {
+      "question": "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Sarojini Naidu",
+        "Mahatma Gandhi"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रगान 'जन गण मन' किसने लिखा?",
+      "options": [
+        "रबीन्द्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "महात्मा गांधी"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK353",
+    "en": {
+      "question": "Which is the smallest planet in our solar system?",
+      "options": [
+        "Mercury",
+        "Mars",
+        "Venus",
+        "Pluto"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "हमारे सौरमंडल का सबसे छोटा ग्रह कौन सा है?",
+      "options": [
+        "बुध",
+        "मंगल",
+        "शुक्र",
+        "प्लूटो"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK354",
+    "en": {
+      "question": "What is the study of earthquakes called?",
+      "options": [
+        "Geology",
+        "Seismology",
+        "Oceanography",
+        "Meteorology"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भूकंप के अध्ययन को क्या कहते हैं?",
+      "options": [
+        "भूविज्ञान",
+        "भूकंप विज्ञान",
+        "समुद्र विज्ञान",
+        "मौसम विज्ञान"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "geology"
+  },
+  {
+    "id": "GK355",
+    "en": {
+      "question": "Who discovered penicillin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Joseph Lister",
+        "Robert Koch"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पेनिसिलिन की खोज किसने की?",
+      "options": [
+        "अलेक्जेंडर फ्लेमिंग",
+        "लुई पास्चर",
+        "जोसेफ लिस्टर",
+        "रॉबर्ट कोच"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "medicine"
+  },
+  {
+    "id": "GK356",
+    "en": {
+      "question": "Which is the most widely spoken language in the world?",
+      "options": [
+        "English",
+        "Spanish",
+        "Hindi",
+        "Mandarin Chinese"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विश्व में सबसे अधिक बोली जाने वाली भाषा कौन सी है?",
+      "options": [
+        "अंग्रेजी",
+        "स्पेनिश",
+        "हिंदी",
+        "मंदारिन चीनी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "languages"
+  },
+  {
+    "id": "GK357",
+    "en": {
+      "question": "Who painted the 'Mona Lisa'?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'मोना लिसा' किसने चित्रित की?",
+      "options": [
+        "विन्सेंट वैन गॉग",
+        "पाब्लो पिकासो",
+        "लियोनार्डो दा विंची",
+        "माइकेलएंजेलो"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "art"
+  },
+  {
+    "id": "GK358",
+    "en": {
+      "question": "Which is the largest desert in the world?",
+      "options": [
+        "Gobi Desert",
+        "Kalahari Desert",
+        "Sahara Desert",
+        "Antarctic Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा रेगिस्तान कौन सा है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "सहारा रेगिस्तान",
+        "अंटार्कटिक रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK359",
+    "en": {
+      "question": "Which year did India gain independence from British rule?",
+      "options": [
+        "1945",
+        "1947",
+        "1950",
+        "1942"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत ने किस वर्ष ब्रिटिश शासन से स्वतंत्रता प्राप्त की?",
+      "options": [
+        "1945",
+        "1947",
+        "1950",
+        "1942"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_history"
+  }
+]

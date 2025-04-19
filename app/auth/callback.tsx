@@ -1,142 +1,251 @@
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, StyleSheet, View } from 'react-native';
-import { useLocalSearchParams, router } from 'expo-router';
-import { ThemedView } from '@/components/ThemedView';
-import { ThemedText } from '@/components/ThemedText';
-import { supabase } from '../lib/supabase';
+import { View, Text, ActivityIndicator, StyleSheet } from 'react-native';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Colors } from '@/constants/Colors';
+import { useTheme } from '../lib/ThemeContext';
+import { handleAuthRedirect, getCurrentSession, getCurrentUser, supabase } from '../lib/supabase';
+import * as Linking from 'expo-linking';
+import * as WebBrowser from 'expo-web-browser';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export default function CallbackScreen() {
-  const [message, setMessage] = useState<string>('प्रमाणीकरण हो रहा है...');
-  const [error, setError] = useState<string | null>(null);
+/**
+ * This component handles Supabase authentication callbacks and deep links.
+ */
+export default function AuthCallback() {
+  const { isDark } = useTheme();
+  const router = useRouter();
   const params = useLocalSearchParams();
-
+  const [status, setStatus] = useState<'loading' | 'success' | 'error'>('loading');
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  
   useEffect(() => {
-    const handleCallback = async () => {
+    // Make sure to close any auth sessions when this component mounts
+    WebBrowser.maybeCompleteAuthSession();
+    
+    const processCallback = async () => {
       try {
-        // Extract parameters from URL
-        if (!params) {
-          setError('URL पैरामीटर उपलब्ध नहीं हैं');
-          return;
-        }
-
-        // Check for type of auth action
-        const type = params.type as string;
+        console.log('[AuthCallback] Processing auth callback');
         
-        if (type === 'recovery') {
-          // Handle password recovery
-          setMessage('पासवर्ड रीसेट किया जा रहा है...');
-          router.replace({
-            pathname: '/auth/update-password' as any,
-            params: { ...params }
-          });
-          return;
-        } else if (type === 'signup') {
-          // Handle email confirmation
-          setMessage('ईमेल कन्फर्मेशन सफल हुआ');
+        // Try to force refresh the auth state
+        try {
+          await supabase.auth.refreshSession();
+          console.log('[AuthCallback] Refreshed session');
+        } catch (refreshError) {
+          console.log('[AuthCallback] Session refresh error:', refreshError);
+        }
+        
+        // First check if we already have a session 
+        const existingSession = await getCurrentSession();
+        if (existingSession) {
+          console.log('[AuthCallback] Already have a valid session, going to main app');
+          setStatus('success');
           
-          // Wait for a moment to show the success message
+          // Clear any pending auth flags
+          await AsyncStorage.setItem('google-auth-in-progress', 'false');
+          
+          // Short delay to show success screen
           setTimeout(() => {
             router.replace('/(tabs)');
-          }, 2000);
+          }, 1000);
           return;
         }
         
-        // If we get here, it's an unknown type
-        setError('अज्ञात प्रमाणीकरण प्रकार');
-      } catch (err: any) {
-        console.error('Callback error:', err);
-        setError(err.message || 'एक त्रुटि हुई');
+        // Try to get the URL if we're in a deep link scenario
+        const url = await Linking.getInitialURL();
+        if (url) {
+          console.log('[AuthCallback] Processing auth URL:', url);
+          
+          // Try to exchange code for session
+          const result = await handleAuthRedirect(url);
+          
+          if (result.success) {
+            console.log('[AuthCallback] Auth successful from URL');
+            setStatus('success');
+            
+            // Clear in-progress flag
+            await AsyncStorage.setItem('google-auth-in-progress', 'false');
+            
+            // Short delay to show success screen
+            setTimeout(() => {
+            router.replace('/(tabs)');
+            }, 1000);
+            return;
+          } else {
+            console.error('[AuthCallback] Auth failed from URL:', result.error);
+            setStatus('error');
+            // Ensure error is treated as string
+            const errorMsg = typeof result.error === 'string' ? result.error : 'Authentication failed. Please try again.';
+            setErrorMessage(errorMsg);
+            
+            // Try again with any available params
+            await processWithParams();
+          }
+        } else {
+          // No URL, try with params directly
+          await processWithParams();
+        }
+      } catch (error: any) {
+        console.error('[AuthCallback] Unexpected error:', error);
+        setStatus('error');
+        setErrorMessage(String(error) || 'An unexpected error occurred.');
+        
+        // Go back to login after showing error for a moment
+        setTimeout(() => {
+          router.replace('/login');
+        }, 3000);
       }
     };
-
-    handleCallback();
-  }, [params]);
-
+    
+    const processWithParams = async () => {
+      // If we have an access_token param or a code param, try to handle it
+      if (params.access_token || params.code) {
+        console.log('[AuthCallback] Have auth params, trying to process');
+        
+        try {
+          // Manually construct URL for processing
+          const urlParams = new URLSearchParams();
+          Object.entries(params).forEach(([key, value]) => {
+            if (typeof value === 'string') {
+              urlParams.append(key, value);
+            }
+          });
+          
+          const processUrl = `quizzoo://auth/callback?${urlParams.toString()}`;
+          console.log('[AuthCallback] Processing constructed URL:', processUrl);
+          
+          const result = await handleAuthRedirect(processUrl);
+          
+          if (result.success) {
+            console.log('[AuthCallback] Auth successful from params');
+            setStatus('success');
+            
+            // Clear in-progress flag
+            await AsyncStorage.setItem('google-auth-in-progress', 'false');
+            
+            // Short delay to show success screen
+            setTimeout(() => {
+                  router.replace('/(tabs)');
+            }, 1000);
+            return true;
+          } else {
+            // Ensure error is treated as string
+            const errorMsg = typeof result.error === 'string' ? result.error : 'Authentication failed';
+            throw new Error(errorMsg);
+          }
+        } catch (paramError: any) {
+          console.error('[AuthCallback] Error processing auth params:', paramError);
+          setStatus('error');
+          setErrorMessage(String(paramError) || 'Authentication failed. Please try again.');
+          
+          // Go back to login after showing error for a moment
+          setTimeout(() => {
+            router.replace('/login');
+          }, 3000);
+          return false;
+          }
+        } else {
+        // If we got here, we couldn't process the auth
+        console.log('[AuthCallback] No auth data to process, returning to login');
+        setStatus('error');
+        setErrorMessage('No authentication data found. Please try logging in again.');
+        
+        // Go back to login after showing error for a moment
+        setTimeout(() => {
+          router.replace('/login');
+        }, 2000);
+        return false;
+      }
+    };
+    
+    // Start the process
+    processCallback();
+  }, [router, params]);
+  
   return (
-    <ThemedView style={styles.container}>
-      <View style={styles.content}>
-        {error ? (
-          <View style={styles.errorContainer}>
-            <ThemedText style={styles.errorTitle}>प्रमाणीकरण त्रुटि</ThemedText>
-            <ThemedText style={styles.errorMessage}>{error}</ThemedText>
-            <ThemedText style={styles.errorHelp}>
-              कृपया फिर से प्रयास करें या अपना ईमेल फिर से वेरिफाई करें
-            </ThemedText>
-            <View style={styles.buttonContainer}>
-              <ThemedText
-                style={styles.link}
-                onPress={() => router.replace('/login')}
-              >
-                लॉगिन पेज पर वापस जाएँ
-              </ThemedText>
-            </View>
-          </View>
-        ) : (
-          <View style={styles.loadingContainer}>
-            <ActivityIndicator size="large" color={Colors.primary} />
-            <ThemedText style={styles.message}>{message}</ThemedText>
-          </View>
-        )}
-      </View>
-    </ThemedView>
+    <View style={[
+      styles.container,
+      { backgroundColor: isDark ? Colors.dark.background : Colors.light.background }
+    ]}>
+      {status === 'loading' && (
+        <>
+          <ActivityIndicator 
+            size="large" 
+            color={isDark ? Colors.dark.tint : Colors.light.tint} 
+            style={styles.spinner}
+          />
+          <Text style={[
+            styles.text,
+            { color: isDark ? Colors.dark.text : Colors.light.text }
+          ]}>
+            Processing login...
+          </Text>
+        </>
+      )}
+      
+      {status === 'success' && (
+        <>
+          <Text style={[
+            styles.text,
+            styles.successText,
+            { color: isDark ? Colors.dark.tint : Colors.light.tint }
+          ]}>
+            Login successful!
+          </Text>
+          <Text style={[
+            styles.subText,
+            { color: isDark ? Colors.dark.text : Colors.light.text }
+          ]}>
+            Redirecting to app...
+          </Text>
+        </>
+      )}
+      
+      {status === 'error' && (
+        <>
+          <Text style={[
+            styles.text,
+            styles.errorText,
+            { color: 'red' }
+          ]}>
+            Login Failed
+          </Text>
+          <Text style={[
+            styles.subText,
+            { color: isDark ? Colors.dark.text : Colors.light.text }
+          ]}>
+            {errorMessage || 'Please try again.'}
+      </Text>
+        </>
+      )}
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
-  },
-  content: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
   },
-  loadingContainer: {
-    alignItems: 'center',
-  },
-  message: {
-    marginTop: 20,
-    fontSize: 16,
-    textAlign: 'center',
-    color: '#555',
-  },
-  errorContainer: {
-    padding: 20,
-    borderRadius: 10,
-    backgroundColor: '#FFF8F8',
-    borderWidth: 1,
-    borderColor: '#FFCDD2',
-    width: '100%',
-    alignItems: 'center',
-  },
-  errorTitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#D32F2F',
-    marginBottom: 10,
-  },
-  errorMessage: {
-    fontSize: 16,
-    color: '#555',
-    textAlign: 'center',
-    marginBottom: 15,
-  },
-  errorHelp: {
-    fontSize: 14,
-    color: '#777',
-    textAlign: 'center',
+  spinner: {
     marginBottom: 20,
   },
-  buttonContainer: {
-    marginTop: 10,
+  text: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 10,
   },
-  link: {
-    color: Colors.primary,
+  successText: {
+    fontSize: 24,
+  },
+  errorText: {
+    fontSize: 20,
+  },
+  subText: {
     fontSize: 16,
     textAlign: 'center',
-    padding: 10,
-  },
+    marginHorizontal: 30,
+  }
 }); 

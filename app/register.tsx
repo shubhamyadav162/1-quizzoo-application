@@ -4,7 +4,6 @@ import {
   View,
   TouchableOpacity,
   SafeAreaView,
-  StatusBar,
   Platform,
   ActivityIndicator,
   Dimensions,
@@ -73,20 +72,14 @@ export default function RegisterScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.safeArea}>
-      <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
+    <SafeAreaView style={styles.container}>
+      <Stack.Screen options={{ headerShown: false }} />
       <KeyboardAvoidingView 
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         style={{ flex: 1 }}
       >
         <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
           <ThemedView style={styles.container}>
-            <Stack.Screen options={{ 
-              headerShown: true, 
-              headerTitle: 'अकाउंट बनाएँ',
-              headerTitleAlign: 'center'
-            }} />
-            
             <View style={styles.centerContent}>
               <View style={styles.formContainer}>
                 <ThemedText style={styles.formTitle}>
@@ -179,10 +172,6 @@ export default function RegisterScreen() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: {
-    flex: 1,
-    backgroundColor: '#FFFFFF',
-  },
   container: {
     flex: 1,
     backgroundColor: '#FFFFFF',

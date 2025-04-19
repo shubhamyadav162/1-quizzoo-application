@@ -16,7 +16,8 @@ const tintColorLight = primary;
 const tintColorDark = '#6FCF73'; // Lighter green for dark mode
 
 export const Colors = {
-  primary,
+  primary: '#4CAF50',
+  primaryDark: '#2E7D32',
   secondary,
   success: '#4CAF50',
   warning: '#FF9800',

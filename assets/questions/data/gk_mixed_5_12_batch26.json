@@ -1,0 +1,477 @@
+[
+  {
+    "id": "GK601",
+    "en": {
+      "question": "Which vitamin is essential for blood clotting?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रक्त के थक्के जमने के लिए कौन सा विटामिन आवश्यक है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन C",
+        "विटामिन D",
+        "विटामिन K"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK602",
+    "en": {
+      "question": "Who is the author of 'Train to Pakistan'?",
+      "options": [
+        "R.K. Narayan",
+        "Khushwant Singh",
+        "Amitav Ghosh",
+        "Vikram Seth"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ट्रेन टू पाकिस्तान' के लेखक कौन हैं?",
+      "options": [
+        "आर.के. नारायण",
+        "खुशवंत सिंह",
+        "अमिताव घोष",
+        "विक्रम सेठ"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK603",
+    "en": {
+      "question": "Which Hindu deity is known as 'The Destroyer'?",
+      "options": [
+        "Brahma",
+        "Vishnu",
+        "Shiva",
+        "Ganesha"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस हिंदू देवता को 'संहारक' के रूप में जाना जाता है?",
+      "options": [
+        "ब्रह्मा",
+        "विष्णु",
+        "शिव",
+        "गणेश"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK604",
+    "en": {
+      "question": "Which is the only continent through which the Tropic of Cancer, the Equator, and the Tropic of Capricorn all pass?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Australia",
+        "South America"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कौन सा एकमात्र महाद्वीप है जिससे कर्क रेखा, भूमध्य रेखा और मकर रेखा तीनों गुजरती हैं?",
+      "options": [
+        "अफ्रीका",
+        "एशिया",
+        "ऑस्ट्रेलिया",
+        "दक्षिण अमेरिका"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK605",
+    "en": {
+      "question": "Which element is named after the Greek word for 'green'?",
+      "options": [
+        "Helium",
+        "Chlorine",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस तत्व का नाम 'हरा' के लिए ग्रीक शब्द के बाद रखा गया है?",
+      "options": [
+        "हीलियम",
+        "क्लोरीन",
+        "ऑक्सीजन",
+        "नाइट्रोजन"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK606",
+    "en": {
+      "question": "Who invented the steam engine?",
+      "options": [
+        "James Watt",
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Johannes Gutenberg"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भाप के इंजन का आविष्कार किसने किया?",
+      "options": [
+        "जेम्स वाट",
+        "थॉमस एडिसन",
+        "अलेक्जेंडर ग्राहम बेल",
+        "योहानेस गुटेनबर्ग"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK607",
+    "en": {
+      "question": "Which is the fastest land animal?",
+      "options": [
+        "Lion",
+        "Cheetah",
+        "Tiger",
+        "Gazelle"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सबसे तेज दौड़ने वाला स्थलीय जानवर कौन सा है?",
+      "options": [
+        "शेर",
+        "चीता",
+        "बाघ",
+        "गज़ेल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK608",
+    "en": {
+      "question": "What is the capital of Uttarakhand?",
+      "options": [
+        "Dehradun",
+        "Haridwar",
+        "Nainital",
+        "Rishikesh"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "उत्तराखंड की राजधानी क्या है?",
+      "options": [
+        "देहरादून",
+        "हरिद्वार",
+        "नैनीताल",
+        "ऋषिकेश"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK609",
+    "en": {
+      "question": "Which scientist is known for the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Niels Bohr",
+        "Galileo Galilei"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सापेक्षता के सिद्धांत के लिए कौन से वैज्ञानिक जाने जाते हैं?",
+      "options": [
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "नील्स बोहर",
+        "गैलीलियो गैलिली"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK610",
+    "en": {
+      "question": "Which is the oldest mountain range in India?",
+      "options": [
+        "Himalayas",
+        "Western Ghats",
+        "Eastern Ghats",
+        "Aravalli Range"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारत की सबसे पुरानी पर्वत श्रृंखला कौन सी है?",
+      "options": [
+        "हिमालय",
+        "पश्चिमी घाट",
+        "पूर्वी घाट",
+        "अरावली पर्वत श्रृंखला"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK611",
+    "en": {
+      "question": "What is the full form of NASA?",
+      "options": [
+        "National Aeronautics and Space Administration",
+        "North American Space Agency",
+        "National Astronomical Study Association",
+        "New Age Space Administration"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "NASA का पूरा नाम क्या है?",
+      "options": [
+        "नेशनल एरोनॉटिक्स एंड स्पेस एडमिनिस्ट्रेशन",
+        "नॉर्थ अमेरिकन स्पेस एजेंसी",
+        "नेशनल एस्ट्रोनॉमिकल स्टडी एसोसिएशन",
+        "न्यू एज स्पेस एडमिनिस्ट्रेशन"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "space_exploration"
+  },
+  {
+    "id": "GK612",
+    "en": {
+      "question": "Who built the Konark Sun Temple?",
+      "options": [
+        "Raja Raja Chola",
+        "King Narasimhadeva I",
+        "Emperor Ashoka",
+        "Krishnadevaraya"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कोणार्क सूर्य मंदिर किसने बनवाया था?",
+      "options": [
+        "राजा राजा चोल",
+        "राजा नरसिंहदेव प्रथम",
+        "सम्राट अशोक",
+        "कृष्णदेवराय"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK613",
+    "en": {
+      "question": "Which gas is commonly used in balloons?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Helium",
+        "Nitrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "गुब्बारों में आमतौर पर किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "हाइड्रोजन",
+        "हीलियम",
+        "नाइट्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK614",
+    "en": {
+      "question": "Who is known as the 'Nightingale of India'?",
+      "options": [
+        "Lata Mangeshkar",
+        "M.S. Subbulakshmi",
+        "Sarojini Naidu",
+        "Asha Bhosle"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारत की कोकिला' के रूप में जाना जाता है?",
+      "options": [
+        "लता मंगेशकर",
+        "एम.एस. सुब्बुलक्ष्मी",
+        "सरोजिनी नायडू",
+        "आशा भोसले"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK615",
+    "en": {
+      "question": "Which is the smallest ocean in the world?",
+      "options": [
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विश्व का सबसे छोटा महासागर कौन सा है?",
+      "options": [
+        "हिंद महासागर",
+        "अटलांटिक महासागर",
+        "प्रशांत महासागर",
+        "आर्कटिक महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK616",
+    "en": {
+      "question": "What is the normal body temperature of a human being in Celsius?",
+      "options": [
+        "36.5°C",
+        "37°C",
+        "98.6°C",
+        "100°C"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सेल्सियस में मनुष्य का सामान्य शरीर तापमान क्या है?",
+      "options": [
+        "36.5°C",
+        "37°C",
+        "98.6°C",
+        "100°C"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK617",
+    "en": {
+      "question": "Which king built the Khajuraho temples?",
+      "options": [
+        "Chandela Dynasty kings",
+        "Gupta Dynasty kings",
+        "Maurya Dynasty kings",
+        "Chola Dynasty kings"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "खजुराहो के मंदिरों का निर्माण किस राजा ने करवाया था?",
+      "options": [
+        "चंदेल वंश के राजाओं",
+        "गुप्त वंश के राजाओं",
+        "मौर्य वंश के राजाओं",
+        "चोल वंश के राजाओं"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK618",
+    "en": {
+      "question": "Which is the only bird that can fly backward?",
+      "options": [
+        "Sparrow",
+        "Eagle",
+        "Hummingbird",
+        "Parrot"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा एकमात्र पक्षी है जो पीछे की ओर उड़ सकता है?",
+      "options": [
+        "गौरैया",
+        "बाज",
+        "हमिंगबर्ड",
+        "तोता"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK620",
+    "en": {
+      "question": "Which Indian city is known as the 'City of Joy'?",
+      "options": [
+        "Mumbai",
+        "Kolkata",
+        "Chennai",
+        "Jaipur"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय शहर को 'सिटी ऑफ जॉय' के रूप में जाना जाता है?",
+      "options": [
+        "मुंबई",
+        "कोलकाता",
+        "चेन्नई",
+        "जयपुर"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  }
+]

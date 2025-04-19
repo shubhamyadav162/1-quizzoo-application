@@ -1,0 +1,227 @@
+[
+  {
+    "id": "GK722",
+    "en": {
+      "question": "Which gland in the human body is also known as the master gland?",
+      "options": [
+        "Thyroid",
+        "Pituitary",
+        "Adrenal",
+        "Pancreas"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर में किस ग्रंथि को मास्टर ग्रंथि भी कहा जाता है?",
+      "options": [
+        "थायरॉयड",
+        "पिट्यूटरी",
+        "अधिवृक्क",
+        "अग्न्याशय"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK723",
+    "en": {
+      "question": "Which festival is known as the 'Festival of Lights'?",
+      "options": [
+        "Holi",
+        "Diwali",
+        "Durga Puja",
+        "Navratri"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस त्योहार को 'रोशनी का त्योहार' कहा जाता है?",
+      "options": [
+        "होली",
+        "दिवाली",
+        "दुर्गा पूजा",
+        "नवरात्रि"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK730",
+    "en": {
+      "question": "Which of these is not a programming language?",
+      "options": [
+        "Java",
+        "Python",
+        "Cobra",
+        "Dolphin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन एक प्रोग्रामिंग भाषा नहीं है?",
+      "options": [
+        "जावा",
+        "पायथन",
+        "कोबरा",
+        "डॉल्फिन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK732",
+    "en": {
+      "question": "What is the unit of measurement for force?",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "बल की माप इकाई क्या है?",
+      "options": [
+        "वाट",
+        "जूल",
+        "न्यूटन",
+        "पास्कल"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK733",
+    "en": {
+      "question": "Which famous musician was known as the 'King of Pop'?",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Freddie Mercury",
+        "John Lennon"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध संगीतकार को 'पॉप के राजा' के रूप में जाना जाता था?",
+      "options": [
+        "एल्विस प्रेस्ली",
+        "माइकल जैक्सन",
+        "फ्रेडी मर्क्युरी",
+        "जॉन लेनन"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "entertainment"
+  },
+  {
+    "id": "GK735",
+    "en": {
+      "question": "What is the study of fungi called?",
+      "options": [
+        "Mycology",
+        "Entomology",
+        "Ornithology",
+        "Zoology"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कवक के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "माइकोलॉजी",
+        "एंटोमोलॉजी",
+        "ऑर्निथोलॉजी",
+        "ज़ूलॉजी"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK736",
+    "en": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मोनालिसा किसने चित्रित की?",
+      "options": [
+        "विन्सेंट वैन गाँग",
+        "पाब्लो पिकासो",
+        "लियोनार्दो दा विंची",
+        "माइकेलएंजेलो"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_art"
+  },
+  {
+    "id": "GK737",
+    "en": {
+      "question": "Which country is known as the 'Land of Thousand Lakes'?",
+      "options": [
+        "Norway",
+        "Sweden",
+        "Finland",
+        "Canada"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'हजार झीलों की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "नॉर्वे",
+        "स्वीडन",
+        "फिनलैंड",
+        "कनाडा"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK738",
+    "en": {
+      "question": "What is the name of the galaxy that contains our solar system?",
+      "options": [
+        "Andromeda",
+        "Milky Way",
+        "Triangulum",
+        "Whirlpool"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल वाले आकाशगंगा का नाम क्या है?",
+      "options": [
+        "एंड्रोमेडा",
+        "मिल्की वे",
+        "ट्रायएंगुलम",
+        "व्हर्लपूल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "astronomy"
+  }
+]

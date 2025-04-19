@@ -1,0 +1,402 @@
+[
+  {
+    "id": "GK402",
+    "en": {
+      "question": "Which is the largest fish in the world?",
+      "options": [
+        "Great White Shark",
+        "Blue Whale",
+        "Whale Shark",
+        "Dolphin"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "दुनिया की सबसे बड़ी मछली कौन सी है?",
+      "options": [
+        "ग्रेट व्हाइट शार्क",
+        "नीली व्हेल",
+        "व्हेल शार्क",
+        "डॉल्फिन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK403",
+    "en": {
+      "question": "What is the chemical formula for Ozone?",
+      "options": [
+        "O2",
+        "O3",
+        "CO2",
+        "H2O"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ओजोन का रासायनिक सूत्र क्या है?",
+      "options": [
+        "O2",
+        "O3",
+        "CO2",
+        "H2O"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK404",
+    "en": {
+      "question": "Which is the second most abundant element in the Earth's crust?",
+      "options": [
+        "Oxygen",
+        "Silicon",
+        "Aluminum",
+        "Iron"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी की पपड़ी में दूसरा सबसे प्रचुर तत्व कौन सा है?",
+      "options": [
+        "ऑक्सीजन",
+        "सिलिकॉन",
+        "एल्युमिनियम",
+        "आयरन"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK405",
+    "en": {
+      "question": "Which is the national bird of India?",
+      "options": [
+        "Peacock",
+        "Eagle",
+        "Sparrow",
+        "Parrot"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय पक्षी कौन सा है?",
+      "options": [
+        "मोर",
+        "ईगल",
+        "गौरैया",
+        "तोता"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK406",
+    "en": {
+      "question": "In which year did the Indian Independence Act come into effect?",
+      "options": [
+        "1945",
+        "1946",
+        "1947",
+        "1950"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारतीय स्वतंत्रता अधिनियम किस वर्ष लागू हुआ?",
+      "options": [
+        "1945",
+        "1946",
+        "1947",
+        "1950"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK407",
+    "en": {
+      "question": "Which is the largest freshwater lake in the world?",
+      "options": [
+        "Lake Baikal",
+        "Lake Superior",
+        "Lake Victoria",
+        "Caspian Sea"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व की सबसे बड़ी मीठे पानी की झील कौन सी है?",
+      "options": [
+        "बैकाल झील",
+        "सुपीरियर झील",
+        "विक्टोरिया झील",
+        "कैस्पियन सागर"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK408",
+    "en": {
+      "question": "Who wrote the book 'The Jungle Book'?",
+      "options": [
+        "Rudyard Kipling",
+        "Charles Dickens",
+        "Mark Twain",
+        "Lewis Carroll"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'द जंगल बुक' पुस्तक किसने लिखी?",
+      "options": [
+        "रडयार्ड किपलिंग",
+        "चार्ल्स डिकेंस",
+        "मार्क ट्वेन",
+        "लुईस कैरोल"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK410",
+    "en": {
+      "question": "Who discovered the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Stephen Hawking"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सापेक्षता के सिद्धांत की खोज किसने की?",
+      "options": [
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "गैलीलियो गैलीली",
+        "स्टीफन हॉकिंग"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK411",
+    "en": {
+      "question": "Which is the tallest waterfall in the world?",
+      "options": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Angel Falls",
+        "Iguazu Falls"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे ऊँचा जलप्रपात कौन सा है?",
+      "options": [
+        "नियाग्रा फॉल्स",
+        "विक्टोरिया फॉल्स",
+        "एंजल फॉल्स",
+        "इगुआज़ू फॉल्स"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK412",
+    "en": {
+      "question": "Which Indian state has Hindi as its official language?",
+      "options": [
+        "Karnataka",
+        "Tamil Nadu",
+        "Uttar Pradesh",
+        "Kerala"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की आधिकारिक भाषा हिंदी है?",
+      "options": [
+        "कर्नाटक",
+        "तमिलनाडु",
+        "उत्तर प्रदेश",
+        "केरल"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK413",
+    "en": {
+      "question": "Who is known as the 'Flying Sikh'?",
+      "options": [
+        "Milkha Singh",
+        "P.T. Usha",
+        "Dara Singh",
+        "Vijender Singh"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किसे 'उड़नसिख' के नाम से जाना जाता है?",
+      "options": [
+        "मिल्खा सिंह",
+        "पी.टी. उषा",
+        "दारा सिंह",
+        "विजेंदर सिंह"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "sports"
+  },
+  {
+    "id": "GK414",
+    "en": {
+      "question": "Which is the largest gland in the human body?",
+      "options": [
+        "Thyroid",
+        "Pituitary",
+        "Liver",
+        "Pancreas"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे बड़ी ग्रंथि कौन सी है?",
+      "options": [
+        "थायरॉइड",
+        "पिट्यूटरी",
+        "यकृत",
+        "अग्न्याशय"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK415",
+    "en": {
+      "question": "Who is the composer of the Indian national anthem?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Sarojini Naidu",
+        "Iqbal"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रगान के रचयिता कौन हैं?",
+      "options": [
+        "रबीन्द्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "इकबाल"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK416",
+    "en": {
+      "question": "Which disease is caused by the deficiency of Vitamin C?",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Night Blindness",
+        "Beriberi"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "विटामिन C की कमी से कौन सी बीमारी होती है?",
+      "options": [
+        "स्कर्वी",
+        "रिकेट्स",
+        "रतौंधी",
+        "बेरीबेरी"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK417",
+    "en": {
+      "question": "Which is the world's smallest country by area?",
+      "options": [
+        "Monaco",
+        "Maldives",
+        "Vatican City",
+        "Nauru"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "क्षेत्रफल के अनुसार विश्व का सबसे छोटा देश कौन सा है?",
+      "options": [
+        "मोनाको",
+        "मालदीव",
+        "वेटिकन सिटी",
+        "नाउरू"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK418",
+    "en": {
+      "question": "Who wrote 'Geetanjali'?",
+      "options": [
+        "Munshi Premchand",
+        "Rabindranath Tagore",
+        "Maithili Sharan Gupt",
+        "Sarojini Naidu"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'गीतांजलि' किसने लिखी?",
+      "options": [
+        "मुंशी प्रेमचंद",
+        "रबीन्द्रनाथ टैगोर",
+        "मैथिलीशरण गुप्त",
+        "सरोजिनी नायडू"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_literature"
+  }
+]

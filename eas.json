@@ -1,0 +1,61 @@
+{
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "autoIncrement": true,
+        "withoutCredentials": true
+      },
+      "env": {
+        "APP_ENV": "preview"
+      },
+      "channel": "preview",
+      "cache": {
+        "key": "preview-1.0.0"
+      }
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "minimal": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "image": "ubuntu-18.04-android-30-ndk-r19c",
+        "withoutCredentials": true
+      },
+      "env": {
+        "APP_ENV": "minimal"
+      },
+      "channel": "minimal",
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+} 

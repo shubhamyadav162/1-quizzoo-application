@@ -1,0 +1,327 @@
+[
+  {
+    "id": "GK201",
+    "en": {
+      "question": "What is the largest country in the world by area?",
+      "options": [
+        "Canada",
+        "China",
+        "United States",
+        "Russia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्षेत्रफल के हिसाब से विश्व का सबसे बड़ा देश कौन सा है?",
+      "options": [
+        "कनाडा",
+        "चीन",
+        "संयुक्त राज्य अमेरिका",
+        "रूस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK203",
+    "en": {
+      "question": "Who painted the 'Starry Night'?",
+      "options": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Leonardo da Vinci"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'स्टारी नाइट' किसने चित्रित की थी?",
+      "options": [
+        "पाब्लो पिकासो",
+        "क्लाउड मोनेट",
+        "विन्सेंट वैन गॉग",
+        "लियोनार्दो दा विंची"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "art_history"
+  },
+  {
+    "id": "GK205",
+    "en": {
+      "question": "Which is the second most abundant element in the Earth's crust?",
+      "options": [
+        "Oxygen",
+        "Silicon",
+        "Aluminum",
+        "Iron"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी की भूपर्पटी में दूसरा सबसे प्रचुर तत्व कौन सा है?",
+      "options": [
+        "ऑक्सीजन",
+        "सिलिकॉन",
+        "एल्युमीनियम",
+        "लोहा"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "geology"
+  },
+  {
+    "id": "GK206",
+    "en": {
+      "question": "What is the name of the world's largest coral reef system?",
+      "options": [
+        "The Great Barrier Reef",
+        "Belize Barrier Reef",
+        "Mesoamerican Barrier Reef",
+        "New Caledonia Barrier Reef"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "विश्व की सबसे बड़ी प्रवाल भित्ति प्रणाली का नाम क्या है?",
+      "options": [
+        "द ग्रेट बैरियर रीफ",
+        "बेलीज़ बैरियर रीफ",
+        "मेसोअमेरिकन बैरियर रीफ",
+        "न्यू कैलेडोनिया बैरियर रीफ"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK207",
+    "en": {
+      "question": "Who wrote the Indian national song 'Vande Mataram'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee",
+        "Sarojini Naidu",
+        "Muhammad Iqbal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय गीत 'वंदे मातरम' किसने लिखा था?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "मुहम्मद इकबाल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK208",
+    "en": {
+      "question": "What is the unit of measurement for sound intensity?",
+      "options": [
+        "Hertz",
+        "Watt",
+        "Decibel",
+        "Ampere"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ध्वनि तीव्रता की माप की इकाई क्या है?",
+      "options": [
+        "हर्ट्ज़",
+        "वाट",
+        "डेसिबल",
+        "एम्पियर"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "physics"
+  },
+  {
+    "id": "GK210",
+    "en": {
+      "question": "Which is the official language of Brazil?",
+      "options": [
+        "Spanish",
+        "Portuguese",
+        "English",
+        "French"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ब्राजील की आधिकारिक भाषा कौन सी है?",
+      "options": [
+        "स्पेनिश",
+        "पुर्तगाली",
+        "अंग्रेजी",
+        "फ्रेंच"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK211",
+    "en": {
+      "question": "Who is considered the father of modern physics?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Niels Bohr"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आधुनिक भौतिकी के जनक किसे माना जाता है?",
+      "options": [
+        "आइज़ैक न्यूटन",
+        "गैलीलियो गैलिली",
+        "अल्बर्ट आइंस्टाइन",
+        "नील्स बोहर"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "physics"
+  },
+  {
+    "id": "GK212",
+    "en": {
+      "question": "Which Indian state is known as 'God's Own Country'?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "Karnataka",
+        "Goa"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'भगवान का अपना देश' कहा जाता है?",
+      "options": [
+        "तमिलनाडु",
+        "केरल",
+        "कर्नाटक",
+        "गोवा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK213",
+    "en": {
+      "question": "What is the smallest bone in the human ear called?",
+      "options": [
+        "Incus",
+        "Malleus",
+        "Stapes",
+        "Cochlea"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव कान की सबसे छोटी हड्डी का क्या नाम है?",
+      "options": [
+        "इनकस",
+        "मैलियस",
+        "स्टेपीज़",
+        "कोकलिया"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK215",
+    "en": {
+      "question": "Who was the first woman to travel in space?",
+      "options": [
+        "Kalpana Chawla",
+        "Sally Ride",
+        "Valentina Tereshkova",
+        "Sunita Williams"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अंतरिक्ष में यात्रा करने वाली पहली महिला कौन थी?",
+      "options": [
+        "कल्पना चावला",
+        "सैली राइड",
+        "वैलेंटिना तेरेश्कोवा",
+        "सुनीता विलियम्स"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "space_exploration"
+  },
+  {
+    "id": "GK216",
+    "en": {
+      "question": "What is the main constituent of biogas?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Methane",
+        "Carbon Monoxide"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "बायोगैस का मुख्य घटक क्या है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "मीथेन",
+        "कार्बन मोनोऑक्साइड"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK219",
+    "en": {
+      "question": "What is the SI unit of pressure?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "दबाव की एसआई इकाई क्या है?",
+      "options": [
+        "न्यूटन",
+        "पास्कल",
+        "जूल",
+        "वाट"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "physics"
+  }
+]

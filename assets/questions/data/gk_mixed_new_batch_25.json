@@ -1,0 +1,1677 @@
+[
+  {
+    "id": "GK7401",
+    "en": {
+      "question": "What is the capital of Latvia?",
+      "options": [
+        "Tallinn",
+        "Vilnius",
+        "Helsinki",
+        "Riga"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लातविया की राजधानी क्या है?",
+      "options": [
+        "तेलिन",
+        "विनियस",
+        "हेलसिंकी",
+        "रीगा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7402",
+    "en": {
+      "question": "What is the chemical symbol for Gold? (Reprise)",
+      "options": [
+        "Go",
+        "Gd",
+        "Gl",
+        "Au"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोने (Gold) का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "Go",
+        "Gd",
+        "Gl",
+        "Au"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7403",
+    "en": {
+      "question": "What is the main function of the kidneys?",
+      "options": [
+        "Digesting food",
+        "Pumping blood",
+        "Producing hormones",
+        "Filtering waste from blood"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गुर्दे का मुख्य कार्य क्या है?",
+      "options": [
+        "भोजन पचाना",
+        "रक्त पंप करना",
+        "हार्मोन बनाना",
+        "रक्त से अपशिष्ट छानना"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7406",
+    "en": {
+      "question": "What is the measure of the resistance of an electrical conductor?",
+      "options": [
+        "Voltage",
+        "Current",
+        "Power",
+        "Resistance (Ohm)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विद्युत चालक के प्रतिरोध का माप क्या है?",
+      "options": [
+        "वोल्टेज",
+        "धारा",
+        "शक्ति",
+        "प्रतिरोध (ओम)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7407",
+    "en": {
+      "question": "Which famous structure is found in Paris, France?",
+      "options": [
+        "Colosseum",
+        "Big Ben",
+        "Brandenburg Gate",
+        "Eiffel Tower"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी प्रसिद्ध संरचना पेरिस, फ्रांस में पाई जाती है?",
+      "options": [
+        "कोलोसियम",
+        "बिग बेन",
+        "ब्रैंडेनबर्ग गेट",
+        "एफिल टॉवर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_landmarks"
+  },
+  {
+    "id": "GK7408",
+    "en": {
+      "question": "Who painted 'The Persistence of Memory' (with melting clocks)? (Reprise)",
+      "options": [
+        "René Magritte",
+        "Max Ernst",
+        "Joan Miró",
+        "Salvador Dalí"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द पर्सिस्टेंस ऑफ मेमोरी' (पिघलती घड़ियों के साथ) किसने चित्रित किया? (पुनरावृत्ति)",
+      "options": [
+        "रेने मैग्रेट",
+        "मैक्स अर्न्स्ट",
+        "जोन मिरो",
+        "साल्वाडोर डाली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7409",
+    "en": {
+      "question": "What is the chemical symbol for Potassium? (Reprise)",
+      "options": [
+        "Po",
+        "Pt",
+        "P",
+        "K"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पोटेशियम का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "Po",
+        "Pt",
+        "P",
+        "K"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7412",
+    "en": {
+      "question": "Who was the first person to walk on the Moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Michael Collins",
+        "Neil Armstrong"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चंद्रमा पर चलने वाला पहला व्यक्ति कौन था?",
+      "options": [
+        "बज़ एल्ड्रिन",
+        "यूरी गगारिन",
+        "माइकल कोलिन्स",
+        "नील आर्मस्ट्रांग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history_space_exploration"
+  },
+  {
+    "id": "GK7416",
+    "en": {
+      "question": "Which war lasted from 1914 to 1918?",
+      "options": [
+        "World War II",
+        "Korean War",
+        "Vietnam War",
+        "World War I"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा युद्ध 1914 से 1918 तक चला था?",
+      "options": [
+        "द्वितीय विश्व युद्ध",
+        "कोरियाई युद्ध",
+        "वियतनाम युद्ध",
+        "प्रथम विश्व युद्ध"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history_world"
+  },
+  {
+    "id": "GK7418",
+    "en": {
+      "question": "What is the largest desert in the world (hot desert)?",
+      "options": [
+        "Gobi Desert",
+        "Kalahari Desert",
+        "Arabian Desert",
+        "Sahara Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा (गर्म) रेगिस्तान कौन सा है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "अरब रेगिस्तान",
+        "सहारा रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_nature"
+  },
+  {
+    "id": "GK7421",
+    "en": {
+      "question": "What type of creature is a frog?",
+      "options": [
+        "Reptile",
+        "Mammal",
+        "Fish",
+        "Amphibian"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेंढक किस प्रकार का प्राणी है?",
+      "options": [
+        "सरीसृप",
+        "स्तनपायी",
+        "मछली",
+        "उभयचर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology_animals"
+  },
+  {
+    "id": "GK7423",
+    "en": {
+      "question": "What instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer",
+        "Barometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा उपकरण वायुमंडलीय दबाव मापता है?",
+      "options": [
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर",
+        "बैरोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK7424",
+    "en": {
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "options": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Donatello",
+        "Michelangelo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिस्टिन चैपल की छत किसने चित्रित की?",
+      "options": [
+        "लियोनार्डो दा विंची",
+        "राफेल",
+        "डोनाटेलो",
+        "माइकल एंजेलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7426",
+    "en": {
+      "question": "Which vitamin is primarily obtained from sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin B12",
+        "Vitamin D"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा विटामिन मुख्य रूप से सूर्य के प्रकाश से प्राप्त होता है?",
+      "options": [
+        "विटामिन ए",
+        "विटामिन सी",
+        "विटामिन बी 12",
+        "विटामिन डी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7428",
+    "en": {
+      "question": "Which planet is known as the 'Red Planet'? (Reprise)",
+      "options": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस ग्रह को 'लाल ग्रह' के नाम से जाना जाता है? (पुनरावृत्ति)",
+      "options": [
+        "बृहस्पति",
+        "शुक्र",
+        "बुध",
+        "मंगल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7431",
+    "en": {
+      "question": "What is the study of insects called?",
+      "options": [
+        "Ornithology",
+        "Herpetology",
+        "Ichthyology",
+        "Entomology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कीड़ों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "पक्षीविज्ञान",
+        "सरीसृप विज्ञान",
+        "मत्स्य विज्ञान",
+        "कीट विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7432",
+    "en": {
+      "question": "Which artist is known for the painting 'American Gothic'?",
+      "options": [
+        "Edward Hopper",
+        "Georgia O'Keeffe",
+        "Norman Rockwell",
+        "Grant Wood"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कलाकार 'अमेरिकन गोथिक' पेंटिंग के लिए जाना जाता है?",
+      "options": [
+        "एडवर्ड हॉपर",
+        "जॉर्जिया ओ'कीफ",
+        "नॉर्मन रॉकवेल",
+        "ग्रांट वुड"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7434",
+    "en": {
+      "question": "What is the largest ocean on Earth? (Reprise)",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे बड़ा महासागर कौन सा है? (पुनरावृत्ति)",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_oceans"
+  },
+  {
+    "id": "GK7436",
+    "en": {
+      "question": "What is the name of the process where plants make their own food using sunlight? (Reprise)",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Germination",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस प्रक्रिया का नाम क्या है जहां पौधे सूर्य के प्रकाश का उपयोग करके अपना भोजन बनाते हैं? (पुनरावृत्ति)",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अंकुरण",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7437",
+    "en": {
+      "question": "What is the standard unit of power?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शक्ति की मानक इकाई क्या है?",
+      "options": [
+        "वोल्ट",
+        "एम्पीयर",
+        "ओम",
+        "वाट"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7438",
+    "en": {
+      "question": "Which Mexican artist was known for her self-portraits?",
+      "options": [
+        "Remedios Varo",
+        "Leonora Carrington",
+        "María Izquierdo",
+        "Frida Kahlo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी मैक्सिकन कलाकार अपने सेल्फ-पोर्ट्रेट के लिए जानी जाती थी?",
+      "options": [
+        "रेमेडियोस वारो",
+        "लियोनोरा कैरिंगटन",
+        "मारिया इज़क्विएर्डो",
+        "फ्रीडा काहलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7439",
+    "en": {
+      "question": "What is the currency of Turkey?",
+      "options": [
+        "Euro",
+        "Dollar",
+        "Manat",
+        "Lira"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तुर्की की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "डॉलर",
+        "मानत",
+        "लीरा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_economics"
+  },
+  {
+    "id": "GK7440",
+    "en": {
+      "question": "What is the 'powerhouse' of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Cell Membrane",
+        "Mitochondria"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोशिका का 'पावरहाउस' क्या है?",
+      "options": [
+        "केन्द्रक",
+        "राइबोसोम",
+        "कोशिका झिल्ली",
+        "माइटोकॉन्ड्रिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7442",
+    "en": {
+      "question": "How many planets are in our Solar System?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल में कितने ग्रह हैं?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7444",
+    "en": {
+      "question": "What is the chemical symbol for Calcium? (Reprise)",
+      "options": [
+        "C",
+        "Cl",
+        "Ca",
+        "Co"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कैल्शियम का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "C",
+        "Cl",
+        "Ca",
+        "Co"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7445",
+    "en": {
+      "question": "Which continent is the least populated?",
+      "options": [
+        "Australia",
+        "South America",
+        "Europe",
+        "Antarctica"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा महाद्वीप सबसे कम आबादी वाला है?",
+      "options": [
+        "ऑस्ट्रेलिया",
+        "दक्षिण अमेरिका",
+        "यूरोप",
+        "अंटार्कटिका"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7446",
+    "en": {
+      "question": "What biological process allows organisms to produce offspring?",
+      "options": [
+        "Metabolism",
+        "Respiration",
+        "Photosynthesis",
+        "Reproduction"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी जैविक प्रक्रिया जीवों को संतान उत्पन्न करने की अनुमति देती है?",
+      "options": [
+        "चयापचय",
+        "श्वसन",
+        "प्रकाश संश्लेषण",
+        "प्रजनन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7448",
+    "en": {
+      "question": "What instrument is used to see very small objects?",
+      "options": [
+        "Telescope",
+        "Binoculars",
+        "Periscope",
+        "Microscope"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बहुत छोटी वस्तुओं को देखने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "टेलीस्कोप",
+        "दूरबीन",
+        "पेरिस्कोप",
+        "माइक्रोस्कोप"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK7449",
+    "en": {
+      "question": "What is the world's highest waterfall?",
+      "options": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Iguazu Falls",
+        "Angel Falls"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे ऊँचा जलप्रपात कौन सा है?",
+      "options": [
+        "नियाग्रा फॉल्स",
+        "विक्टोरिया फॉल्स",
+        "इगुआज़ू फॉल्स",
+        "एंजेल फॉल्स"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_nature"
+  },
+  {
+    "id": "GK7452",
+    "en": {
+      "question": "What is the chemical formula for water? (Reprise)",
+      "options": [
+        "HO2",
+        "H3O",
+        "HO",
+        "H2O"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी का रासायनिक सूत्र क्या है? (पुनरावृत्ति)",
+      "options": [
+        "HO2",
+        "H3O",
+        "HO",
+        "H2O"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7456",
+    "en": {
+      "question": "Which famous Italian artist painted the Mona Lisa? (Reprise)",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Donatello",
+        "Leonardo da Vinci"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध इतालवी कलाकार ने मोना लिसा को चित्रित किया? (पुनरावृत्ति)",
+      "options": [
+        "माइकल एंजेलो",
+        "राफेल",
+        "डोनाटेलो",
+        "लियोनार्डो दा विंची"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7457",
+    "en": {
+      "question": "What is the chemical symbol for Nitrogen? (Reprise)",
+      "options": [
+        "Ni",
+        "Na",
+        "Ne",
+        "N"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नाइट्रोजन का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "Ni",
+        "Na",
+        "Ne",
+        "N"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7458",
+    "en": {
+      "question": "Which desert covers much of North Africa? (Reprise)",
+      "options": [
+        "Kalahari Desert",
+        "Gobi Desert",
+        "Arabian Desert",
+        "Sahara Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा रेगिस्तान उत्तरी अफ्रीका के अधिकांश भाग को कवर करता है? (पुनरावृत्ति)",
+      "options": [
+        "कालाहारी रेगिस्तान",
+        "गोबी रेगिस्तान",
+        "अरब रेगिस्तान",
+        "सहारा रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_nature"
+  },
+  {
+    "id": "GK7459",
+    "en": {
+      "question": "Who wrote 'Nineteen Eighty-Four'?",
+      "options": [
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "Philip K. Dick",
+        "George Orwell"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'नाइनटीन एटी-फोर' किसने लिखा था?",
+      "options": [
+        "एल्डस हक्सले",
+        "रे ब्रैडबरी",
+        "फिलिप के. डिक",
+        "जॉर्ज ऑरवेल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK7461",
+    "en": {
+      "question": "What process allows plants to convert light energy into chemical energy? (Reprise)",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Absorption",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी प्रक्रिया पौधों को प्रकाश ऊर्जा को रासायनिक ऊर्जा में परिवर्तित करने की अनुमति देती है? (पुनरावृत्ति)",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अवशोषण",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7462",
+    "en": {
+      "question": "What is the closest star to Earth?",
+      "options": [
+        "Proxima Centauri",
+        "Sirius",
+        "Alpha Centauri A",
+        "The Sun"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी का सबसे निकटतम तारा कौन सा है?",
+      "options": [
+        "प्रोक्सिमा सेंटॉरी",
+        "सीरियस",
+        "अल्फा सेंटॉरी ए",
+        "सूर्य"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7463",
+    "en": {
+      "question": "Which artist created the sculpture 'The Thinker'? (Reprise)",
+      "options": [
+        "Michelangelo",
+        "Donatello",
+        "Bernini",
+        "Auguste Rodin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस कलाकार ने 'द थिंकर' मूर्ति बनाई? (पुनरावृत्ति)",
+      "options": [
+        "माइकल एंजेलो",
+        "डोनाटेलो",
+        "बर्निनी",
+        "अगस्टे रोडिन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history_sculpture"
+  },
+  {
+    "id": "GK7464",
+    "en": {
+      "question": "What is the capital of Serbia?",
+      "options": [
+        "Novi Sad",
+        "Niš",
+        "Subotica",
+        "Belgrade"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सर्बिया की राजधानी क्या है?",
+      "options": [
+        "नोवी सैड",
+        "नीश",
+        "सुबोटिका",
+        "बेलग्रेड"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7466",
+    "en": {
+      "question": "How many colors are typically listed in a rainbow?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आमतौर पर इंद्रधनुष में कितने रंग सूचीबद्ध होते हैं?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_physics_optics"
+  },
+  {
+    "id": "GK7467",
+    "en": {
+      "question": "Who wrote 'Frankenstein'?",
+      "options": [
+        "Jane Austen",
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Mary Shelley"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'फ्रेंकस्टीन' किसने लिखा था?",
+      "options": [
+        "जेन ऑस्टेन",
+        "एमिली ब्रोंटे",
+        "शार्लोट ब्रोंटे",
+        "मैरी शेली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK7468",
+    "en": {
+      "question": "What is the capital of Philippines?",
+      "options": [
+        "Quezon City",
+        "Cebu City",
+        "Davao City",
+        "Manila"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फिलीपींस की राजधानी क्या है?",
+      "options": [
+        "क्वेज़ोन सिटी",
+        "सेबू सिटी",
+        "दावाओ सिटी",
+        "मनीला"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7469",
+    "en": {
+      "question": "What is the study of animals called? (Reprise)",
+      "options": [
+        "Botany",
+        "Geology",
+        "Ecology",
+        "Zoology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जानवरों के अध्ययन को क्या कहा जाता है? (पुनरावृत्ति)",
+      "options": [
+        "वनस्पति विज्ञान",
+        "भूविज्ञान",
+        "पारिस्थितिकी",
+        "जंतु विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7470",
+    "en": {
+      "question": "What is the chemical symbol for Magnesium?",
+      "options": [
+        "Ma",
+        "Mn",
+        "Ms",
+        "Mg"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मैग्नीशियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Ma",
+        "Mn",
+        "Ms",
+        "Mg"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7472",
+    "en": {
+      "question": "What is the unit of measurement for energy?",
+      "options": [
+        "Watt",
+        "Newton",
+        "Pascal",
+        "Joule"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ऊर्जा के मापन की इकाई क्या है?",
+      "options": [
+        "वाट",
+        "न्यूटन",
+        "पास्कल",
+        "जूल"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7473",
+    "en": {
+      "question": "Which Norwegian artist painted 'The Scream'?",
+      "options": [
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Oskar Kokoschka",
+        "Edvard Munch"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस नॉर्वेजियन कलाकार ने 'द स्क्रीम' चित्रित किया था?",
+      "options": [
+        "गुस्ताव क्लिम्ट",
+        "एगॉन शीले",
+        "ऑस्कर कोकोस्का",
+        "एडवर्ड मंच"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7474",
+    "en": {
+      "question": "What is the name of the galaxy we live in? (Reprise)",
+      "options": [
+        "Andromeda Galaxy",
+        "Triangulum Galaxy",
+        "Whirlpool Galaxy",
+        "Milky Way Galaxy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम जिस आकाशगंगा में रहते हैं उसका नाम क्या है? (पुनरावृत्ति)",
+      "options": [
+        "एंड्रोमेडा गैलेक्सी",
+        "ट्राएंगुलम गैलेक्सी",
+        "व्हर्लपूल गैलेक्सी",
+        "मिल्की वे गैलेक्सी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7476",
+    "en": {
+      "question": "What is the solid state of water called?",
+      "options": [
+        "Steam",
+        "Vapor",
+        "Liquid",
+        "Ice"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी की ठोस अवस्था को क्या कहते हैं?",
+      "options": [
+        "भाप",
+        "वाष्प",
+        "तरल",
+        "बर्फ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_physics_chemistry"
+  },
+  {
+    "id": "GK7478",
+    "en": {
+      "question": "What is the chemical symbol for Aluminum?",
+      "options": [
+        "Am",
+        "An",
+        "Au",
+        "Al"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एल्यूमीनियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Am",
+        "An",
+        "Au",
+        "Al"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7479",
+    "en": {
+      "question": "What is the capital of Czech Republic?",
+      "options": [
+        "Brno",
+        "Ostrava",
+        "Pilsen",
+        "Prague"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चेक गणराज्य की राजधानी क्या है?",
+      "options": [
+        "ब्रनो",
+        "ओस्ट्रावा",
+        "पिल्सेन",
+        "प्राग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7480",
+    "en": {
+      "question": "What organ pumps blood throughout the body?",
+      "options": [
+        "Lungs",
+        "Liver",
+        "Kidney",
+        "Heart"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा अंग पूरे शरीर में रक्त पंप करता है?",
+      "options": [
+        "फेफड़े",
+        "यकृत",
+        "गुर्दा",
+        "हृदय"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7481",
+    "en": {
+      "question": "Who painted 'Girl with a Pearl Earring'?",
+      "options": [
+        "Rembrandt",
+        "Frans Hals",
+        "Jan Steen",
+        "Johannes Vermeer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'गर्ल विद ए पर्ल इयररिंग' किसने चित्रित किया था?",
+      "options": [
+        "रेम्ब्रांट",
+        "फ्रांस हाल्स",
+        "जान स्टीन",
+        "जोहान्स वर्मीर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7483",
+    "en": {
+      "question": "What is the capital of Bulgaria?",
+      "options": [
+        "Plovdiv",
+        "Varna",
+        "Burgas",
+        "Sofia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बुल्गारिया की राजधानी क्या है?",
+      "options": [
+        "प्लोवदीव",
+        "वर्ना",
+        "बर्गस",
+        "सोफिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7485",
+    "en": {
+      "question": "What is the highest mountain in the world? (Reprise)",
+      "options": [
+        "K2",
+        "Kangchenjunga",
+        "Makalu",
+        "Mount Everest"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे ऊँचा पर्वत कौन सा है? (पुनरावृत्ति)",
+      "options": [
+        "K2",
+        "कंचनजंगा",
+        "मकालू",
+        "माउंट एवरेस्ट"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_mountains"
+  },
+  {
+    "id": "GK7486",
+    "en": {
+      "question": "Who wrote 'Alice's Adventures in Wonderland'?",
+      "options": [
+        "A. A. Milne",
+        "Roald Dahl",
+        "C. S. Lewis",
+        "Lewis Carroll"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'एलिस एडवेंचर्स इन वंडरलैंड' किसने लिखा था?",
+      "options": [
+        "ए. ए. मिल्ने",
+        "रोआल्ड डाल",
+        "सी. एस. लुईस",
+        "लुईस कैरोल"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK7487",
+    "en": {
+      "question": "What is the capital of Peru? (Reprise)",
+      "options": [
+        "Arequipa",
+        "Trujillo",
+        "Chiclayo",
+        "Lima"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पेरू की राजधानी क्या है? (पुनरावृत्ति)",
+      "options": [
+        "अरेक्विपा",
+        "ट्रुजिलो",
+        "चिकलायो",
+        "लीमा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7488",
+    "en": {
+      "question": "What is the scientific study of weather called?",
+      "options": [
+        "Geology",
+        "Climatology",
+        "Oceanography",
+        "Meteorology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मौसम के वैज्ञानिक अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "भूविज्ञान",
+        "जलवायु विज्ञान",
+        "समुद्र विज्ञान",
+        "मौसम विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science"
+  },
+  {
+    "id": "GK7490",
+    "en": {
+      "question": "Which Spanish artist is considered one of the founders of Cubism?",
+      "options": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "Francisco Goya",
+        "Pablo Picasso"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस स्पेनिश कलाकार को क्यूबिज़्म के संस्थापकों में से एक माना जाता है?",
+      "options": [
+        "साल्वाडोर डाली",
+        "जोन मिरो",
+        "फ्रांसिस्को गोया",
+        "पाब्लो पिकासो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7491",
+    "en": {
+      "question": "What is the capital of Indonesia?",
+      "options": [
+        "Surabaya",
+        "Bandung",
+        "Medan",
+        "Jakarta"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इंडोनेशिया की राजधानी क्या है?",
+      "options": [
+        "सुराबाया",
+        "बांडुंग",
+        "मेदान",
+        "जकार्ता"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7492",
+    "en": {
+      "question": "What is the chemical symbol for Hydrogen? (Reprise)",
+      "options": [
+        "He",
+        "Hy",
+        "Ho",
+        "H"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हाइड्रोजन का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "He",
+        "Hy",
+        "Ho",
+        "H"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7493",
+    "en": {
+      "question": "Which country is famous for its tulips and windmills?",
+      "options": [
+        "Belgium",
+        "Germany",
+        "Denmark",
+        "Netherlands"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश अपने ट्यूलिप और पवन चक्कियों के लिए प्रसिद्ध है?",
+      "options": [
+        "बेल्जियम",
+        "जर्मनी",
+        "डेनमार्क",
+        "नीदरलैंड्स"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture_europe"
+  },
+  {
+    "id": "GK7494",
+    "en": {
+      "question": "Who wrote 'The Divine Comedy'?",
+      "options": [
+        "Petrarch",
+        "Boccaccio",
+        "Machiavelli",
+        "Dante Alighieri"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द डिवाइन कॉमेडी' किसने लिखा था?",
+      "options": [
+        "पेट्रार्क",
+        "बोकासियो",
+        "मैकियावेली",
+        "दांते अलीघिएरी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_world"
+  },
+  {
+    "id": "GK7495",
+    "en": {
+      "question": "What is the capital of Lithuania?",
+      "options": [
+        "Riga",
+        "Tallinn",
+        "Kaunas",
+        "Vilnius"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लिथुआनिया की राजधानी क्या है?",
+      "options": [
+        "रीगा",
+        "तेलिन",
+        "कौनास",
+        "विनियस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7496",
+    "en": {
+      "question": "What gas makes up the majority of the air we breathe? (Reprise)",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम जिस हवा में सांस लेते हैं उसका अधिकांश भाग कौन सी गैस बनाती है? (पुनरावृत्ति)",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "आर्गन",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_atmosphere"
+  },
+  {
+    "id": "GK7497",
+    "en": {
+      "question": "What type of animal is a bat?",
+      "options": [
+        "Bird",
+        "Reptile",
+        "Insect",
+        "Mammal"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चमगादड़ किस प्रकार का जानवर है?",
+      "options": [
+        "पक्षी",
+        "सरीसृप",
+        "कीट",
+        "स्तनपायी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_biology_animals"
+  },
+  {
+    "id": "GK7498",
+    "en": {
+      "question": "Which American Pop artist created the 'Campbell's Soup Cans' series? (Reprise)",
+      "options": [
+        "Roy Lichtenstein",
+        "Jasper Johns",
+        "Robert Rauschenberg",
+        "Andy Warhol"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस अमेरिकी पॉप कलाकार ने 'कैंपबेल सूप कैन्स' श्रृंखला बनाई? (पुनरावृत्ति)",
+      "options": [
+        "रॉय लिचेंस्टीन",
+        "जैस्पर जॉन्स",
+        "रॉबर्ट रौशेनबर्ग",
+        "एंडी वारहोल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history_pop"
+  },
+  {
+    "id": "GK7499",
+    "en": {
+      "question": "What is the capital of Armenia?",
+      "options": [
+        "Gyumri",
+        "Vanadzor",
+        "Tbilisi",
+        "Yerevan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आर्मेनिया की राजधानी क्या है?",
+      "options": [
+        "ग्युमरी",
+        "वनडज़ोर",
+        "त्बिलिसी",
+        "येरेवन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7500",
+    "en": {
+      "question": "What is the chemical symbol for Carbon? (Reprise)",
+      "options": [
+        "Ca",
+        "Co",
+        "Cr",
+        "C"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कार्बन का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "Ca",
+        "Co",
+        "Cr",
+        "C"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  }
+]

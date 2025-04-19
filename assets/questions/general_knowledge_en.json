@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "2",
+      "text": "What is the capital of France?",
+      "options": [
+        "London",
+        "Paris",
+        "Berlin",
+        "Rome"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "3",
+      "text": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "4",
+      "text": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "5",
+      "text": "How many continents are there in the world?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "6",
+      "text": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Thailand"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "7",
+      "text": "What is the chemical symbol for gold?",
+      "options": [
+        "Go",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "8",
+      "text": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "9",
+      "text": "Which of these is not a programming language?",
+      "options": [
+        "Python",
+        "Java",
+        "Cobra",
+        "Crocodile"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "10",
+      "text": "In which year did World War II end?",
+      "options": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "11",
+      "text": "What is the smallest bone in the human body?",
+      "options": [
+        "Stapes (in the ear)",
+        "Femur",
+        "Metacarpal",
+        "Hyoid"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "12",
+      "text": "Who was the first woman to win a Nobel Prize?",
+      "options": [
+        "Marie Curie",
+        "Rosalind Franklin",
+        "Dorothy Hodgkin",
+        "Gertrude Elion"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "13",
+      "text": "What is the world's most spoken language by number of native speakers?",
+      "options": [
+        "English",
+        "Spanish",
+        "Mandarin Chinese",
+        "Hindi"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "14",
+      "text": "Which element has the atomic number 1?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Oxygen",
+        "Carbon"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "language": "en"
+    },
+    {
+      "id": "15",
+      "text": "Who discovered penicillin?",
+      "options": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Joseph Lister",
+        "Robert Koch"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "language": "en"
+    }
+  ]
+} 

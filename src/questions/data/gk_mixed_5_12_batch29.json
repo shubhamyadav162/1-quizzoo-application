@@ -1,0 +1,352 @@
+[
+  {
+    "id": "GK663",
+    "en": {
+      "question": "Who is known as the 'Father of the Indian Space Program'?",
+      "options": [
+        "Dr. Homi Bhabha",
+        "Dr. Vikram Sarabhai",
+        "Dr. A.P.J. Abdul Kalam",
+        "Dr. Satish Dhawan"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'भारतीय अंतरिक्ष कार्यक्रम के पिता' के रूप में जाना जाता है?",
+      "options": [
+        "डॉ. होमी भाभा",
+        "डॉ. विक्रम साराभाई",
+        "डॉ. ए.पी.जे. अब्दुल कलाम",
+        "डॉ. सतीश धवन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK665",
+    "en": {
+      "question": "Which of these rivers flows through Varanasi?",
+      "options": [
+        "Yamuna",
+        "Ganges",
+        "Brahmaputra",
+        "Godavari"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "इनमें से कौन सी नदी वाराणसी से होकर बहती है?",
+      "options": [
+        "यमुना",
+        "गंगा",
+        "ब्रह्मपुत्र",
+        "गोदावरी"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK666",
+    "en": {
+      "question": "Who composed India's National Song 'Vande Mataram'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Sarojini Naidu",
+        "Mahatma Gandhi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत के राष्ट्रीय गीत 'वंदे मातरम' की रचना किसने की?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "महात्मा गांधी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK667",
+    "en": {
+      "question": "What is the SI unit of electric current?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विद्युत धारा का SI मात्रक क्या है?",
+      "options": [
+        "वोल्ट",
+        "वाट",
+        "एम्पियर",
+        "ओम"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK668",
+    "en": {
+      "question": "Which of these is a non-renewable resource?",
+      "options": [
+        "Wind",
+        "Solar",
+        "Fossil Fuels",
+        "Tidal"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन एक गैर-नवीकरणीय संसाधन है?",
+      "options": [
+        "हवा",
+        "सौर",
+        "जीवाश्म ईंधन",
+        "ज्वारीय"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "environmental_science"
+  },
+  {
+    "id": "GK669",
+    "en": {
+      "question": "Who is the author of 'A Suitable Boy'?",
+      "options": [
+        "Salman Rushdie",
+        "Vikram Seth",
+        "Arundhati Roy",
+        "Amitav Ghosh"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ए सूटेबल बॉय' के लेखक कौन हैं?",
+      "options": [
+        "सलमान रुश्दी",
+        "विक्रम सेठ",
+        "अरुंधति रॉय",
+        "अमिताव घोष"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK670",
+    "en": {
+      "question": "What is the full form of RAM in computer terminology?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Real Access Memory",
+        "Rapid Access Memory"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कंप्यूटर शब्दावली में RAM का पूरा रूप क्या है?",
+      "options": [
+        "रैंडम एक्सेस मेमोरी",
+        "रीड एक्सेस मेमोरी",
+        "रियल एक्सेस मेमोरी",
+        "रैपिड एक्सेस मेमोरी"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "technology"
+  },
+  {
+    "id": "GK671",
+    "en": {
+      "question": "Which planet has the most number of moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस ग्रह के सबसे अधिक चंद्रमा हैं?",
+      "options": [
+        "बृहस्पति",
+        "शनि",
+        "यूरेनस",
+        "नेपच्यून"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK673",
+    "en": {
+      "question": "Who was the first woman Prime Minister in the world?",
+      "options": [
+        "Indira Gandhi",
+        "Margaret Thatcher",
+        "Sirimavo Bandaranaike",
+        "Golda Meir"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व की पहली महिला प्रधानमंत्री कौन थीं?",
+      "options": [
+        "इंदिरा गांधी",
+        "मार्गरेट थैचर",
+        "सिरिमावो भंडारनायके",
+        "गोल्डा मेयर"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "world_politics"
+  },
+  {
+    "id": "GK674",
+    "en": {
+      "question": "Who is known as the 'Missile Man of India'?",
+      "options": [
+        "Dr. Homi Bhabha",
+        "Dr. Vikram Sarabhai",
+        "Dr. A.P.J. Abdul Kalam",
+        "Dr. C.V. Raman"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारत के मिसाइल मैन' के रूप में जाना जाता है?",
+      "options": [
+        "डॉ. होमी भाभा",
+        "डॉ. विक्रम साराभाई",
+        "डॉ. ए.पी.जे. अब्दुल कलाम",
+        "डॉ. सी.वी. रमन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK675",
+    "en": {
+      "question": "Which country has the longest coastline in the world?",
+      "options": [
+        "Russia",
+        "Australia",
+        "Canada",
+        "United States"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व में सबसे लंबी तटरेखा किस देश की है?",
+      "options": [
+        "रूस",
+        "ऑस्ट्रेलिया",
+        "कनाडा",
+        "संयुक्त राज्य अमेरिका"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK676",
+    "en": {
+      "question": "Who developed the theory of evolution by natural selection?",
+      "options": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Alexander Fleming"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्राकृतिक चयन द्वारा विकास का सिद्धांत किसने विकसित किया?",
+      "options": [
+        "ग्रेगर मेंडल",
+        "चार्ल्स डार्विन",
+        "लुई पास्चर",
+        "अलेक्जेंडर फ्लेमिंग"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK679",
+    "en": {
+      "question": "Which festival is known as the 'Festival of Colors'?",
+      "options": [
+        "Diwali",
+        "Holi",
+        "Navratri",
+        "Durga Puja"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस त्योहार को 'रंगों का त्योहार' के रूप में जाना जाता है?",
+      "options": [
+        "दिवाली",
+        "होली",
+        "नवरात्रि",
+        "दुर्गा पूजा"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK680",
+    "en": {
+      "question": "Which city is the capital of the USA?",
+      "options": [
+        "New York",
+        "Washington D.C.",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "USA की राजधानी कौन सा शहर है?",
+      "options": [
+        "न्यूयॉर्क",
+        "वाशिंगटन डी.सी.",
+        "लॉस एंजिल्स",
+        "शिकागो"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  }
+]

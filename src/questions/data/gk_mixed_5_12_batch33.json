@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GK741",
+    "en": {
+      "question": "Who is the author of 'Origin of Species'?",
+      "options": [
+        "Isaac Newton",
+        "Charles Darwin",
+        "Albert Einstein",
+        "Stephen Hawking"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ओरिजिन ऑफ स्पीशीज़' के लेखक कौन हैं?",
+      "options": [
+        "आइज़ैक न्यूटन",
+        "चार्ल्स डार्विन",
+        "अल्बर्ट आइंस्टाइन",
+        "स्टीफन हॉकिंग"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK742",
+    "en": {
+      "question": "Which is the largest library in the world?",
+      "options": [
+        "British Library",
+        "Library of Congress",
+        "National Library of China",
+        "Russian State Library"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व की सबसे बड़ी पुस्तकालय कौन सी है?",
+      "options": [
+        "ब्रिटिश लाइब्रेरी",
+        "लाइब्रेरी ऑफ कांग्रेस",
+        "नेशनल लाइब्रेरी ऑफ चाइना",
+        "रशियन स्टेट लाइब्रेरी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK743",
+    "en": {
+      "question": "Which is the hottest planet in our solar system?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का सबसे गर्म ग्रह कौन सा है?",
+      "options": [
+        "बुध",
+        "शुक्र",
+        "मंगल",
+        "बृहस्पति"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK744",
+    "en": {
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "वायुमंडलीय दबाव मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK745",
+    "en": {
+      "question": "Which Indian state has Hindi, English and Urdu as its official languages?",
+      "options": [
+        "Bihar",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Jammu and Kashmir"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की हिंदी, अंग्रेजी और उर्दू आधिकारिक भाषाएँ हैं?",
+      "options": [
+        "बिहार",
+        "उत्तर प्रदेश",
+        "मध्य प्रदेश",
+        "जम्मू और कश्मीर"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK746",
+    "en": {
+      "question": "What is the pH value of human blood?",
+      "options": [
+        "5.5",
+        "6.5",
+        "7.4",
+        "8.5"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव रक्त का पीएच मान क्या है?",
+      "options": [
+        "5.5",
+        "6.5",
+        "7.4",
+        "8.5"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK749",
+    "en": {
+      "question": "Who wrote the book 'A Brief History of Time'?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Stephen Hawking",
+        "Niels Bohr"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'ए ब्रीफ हिस्ट्री ऑफ टाइम' पुस्तक किसने लिखी?",
+      "options": [
+        "अल्बर्ट आइंस्टाइन",
+        "आइज़ैक न्यूटन",
+        "स्टीफन हॉकिंग",
+        "नील्स बोर"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK752",
+    "en": {
+      "question": "Who is known as the 'Father of Modern Physics'?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Niels Bohr"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'आधुनिक भौतिकी का जनक' कहा जाता है?",
+      "options": [
+        "आइज़ैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "गैलिलियो गैलिली",
+        "नील्स बोर"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK754",
+    "en": {
+      "question": "Which organ in the human body produces insulin?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Spleen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर में कौन सा अंग इंसुलिन का उत्पादन करता है?",
+      "options": [
+        "यकृत",
+        "गुर्दा",
+        "अग्न्याशय",
+        "प्लीहा"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK755",
+    "en": {
+      "question": "Which city is the capital of the United States?",
+      "options": [
+        "New York",
+        "Washington DC",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका की राजधानी कौन सा शहर है?",
+      "options": [
+        "न्यूयॉर्क",
+        "वाशिंगटन डीसी",
+        "लॉस एंजिल्स",
+        "शिकागो"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK757",
+    "en": {
+      "question": "What is the largest mammal on Earth?",
+      "options": [
+        "African Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Polar Bear"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे बड़ा स्तनधारी कौन सा है?",
+      "options": [
+        "अफ्रीकी हाथी",
+        "नीली व्हेल",
+        "जिराफ",
+        "ध्रुवीय भालू"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK758",
+    "en": {
+      "question": "Which is the tallest waterfall in India?",
+      "options": [
+        "Jog Falls",
+        "Dudhsagar Falls",
+        "Kunchikal Falls",
+        "Nohkalikai Falls"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत का सबसे ऊंचा जलप्रपात कौन सा है?",
+      "options": [
+        "जोग फॉल्स",
+        "दूधसागर फॉल्स",
+        "कुंचिकल फॉल्स",
+        "नोहकालिकाई फॉल्स"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  }
+]

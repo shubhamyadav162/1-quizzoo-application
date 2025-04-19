@@ -1,0 +1,352 @@
+[
+  {
+    "id": "GK142",
+    "en": {
+      "question": "What is the currency of China?",
+      "options": [
+        "Yuan",
+        "Yen",
+        "Won",
+        "Ringgit"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "चीन की मुद्रा क्या है?",
+      "options": [
+        "युआन",
+        "येन",
+        "वोन",
+        "रिंगित"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK143",
+    "en": {
+      "question": "Who wrote the national anthem of Bangladesh?",
+      "options": [
+        "Muhammad Iqbal",
+        "Kazi Nazrul Islam",
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "बांग्लादेश का राष्ट्रगान किसने लिखा था?",
+      "options": [
+        "मुहम्मद इकबाल",
+        "काज़ी नज़रुल इस्लाम",
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK145",
+    "en": {
+      "question": "Which disease is caused by deficiency of Vitamin D?",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Night blindness",
+        "Beriberi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विटामिन डी की कमी से कौन सा रोग होता है?",
+      "options": [
+        "स्कर्वी",
+        "रिकेट्स",
+        "रतौंधी",
+        "बेरी-बेरी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK146",
+    "en": {
+      "question": "Who was the first person to walk on the Moon?",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Alan Shepard"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "चंद्रमा पर चलने वाले पहले व्यक्ति कौन थे?",
+      "options": [
+        "यूरी गगारिन",
+        "नील आर्मस्ट्रांग",
+        "बज़ एल्ड्रिन",
+        "एलन शेपर्ड"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "space_exploration"
+  },
+  {
+    "id": "GK147",
+    "en": {
+      "question": "Which instrument is used to measure humidity?",
+      "options": [
+        "Barometer",
+        "Hygrometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "आर्द्रता मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "हाइग्रोमीटर",
+        "थर्मामीटर",
+        "एनीमोमीटर"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "science_instruments"
+  },
+  {
+    "id": "GK150",
+    "en": {
+      "question": "Who founded Apple Inc.?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs and Steve Wozniak",
+        "Mark Zuckerberg",
+        "Larry Page and Sergey Brin"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ऐप्पल इंक. की स्थापना किसने की थी?",
+      "options": [
+        "बिल गेट्स",
+        "स्टीव जॉब्स और स्टीव वोज़नियाक",
+        "मार्क जुकरबर्ग",
+        "लैरी पेज और सर्गेई ब्रिन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK151",
+    "en": {
+      "question": "The Taj Mahal is located in which Indian city?",
+      "options": [
+        "Delhi",
+        "Jaipur",
+        "Agra",
+        "Lucknow"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ताज महल भारत के किस शहर में स्थित है?",
+      "options": [
+        "दिल्ली",
+        "जयपुर",
+        "आगरा",
+        "लखनऊ"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK152",
+    "en": {
+      "question": "What is the world's largest rainforest?",
+      "options": [
+        "Congo Rainforest",
+        "Daintree Rainforest",
+        "Amazon Rainforest",
+        "Sundarbans"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा वर्षावन कौन सा है?",
+      "options": [
+        "कांगो वर्षावन",
+        "डेनट्री वर्षावन",
+        "अमेज़न वर्षावन",
+        "सुंदरबन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK153",
+    "en": {
+      "question": "Which acid is present in lemon?",
+      "options": [
+        "Acetic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Tartaric acid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "नींबू में कौन सा अम्ल पाया जाता है?",
+      "options": [
+        "एसिटिक अम्ल",
+        "साइट्रिक अम्ल",
+        "लैक्टिक अम्ल",
+        "टार्टरिक अम्ल"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK154",
+    "en": {
+      "question": "Who is known as the 'Missile Man of India'?",
+      "options": [
+        "Dr. C.V. Raman",
+        "Dr. A.P.J. Abdul Kalam",
+        "Dr. Homi Bhabha",
+        "Dr. Vikram Sarabhai"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'भारत का मिसाइल मैन' कहा जाता है?",
+      "options": [
+        "डॉ. सी.वी. रमन",
+        "डॉ. ए.पी.जे. अब्दुल कलाम",
+        "डॉ. होमी भाभा",
+        "डॉ. विक्रम साराभाई"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_scientists"
+  },
+  {
+    "id": "GK155",
+    "en": {
+      "question": "Which is the largest bird in the world?",
+      "options": [
+        "Emu",
+        "Ostrich",
+        "Albatross",
+        "Condor"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा पक्षी कौन सा है?",
+      "options": [
+        "एमू",
+        "शुतुरमुर्ग",
+        "अल्बाट्रॉस",
+        "कोंडोर"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK156",
+    "en": {
+      "question": "Which country is known as the 'Land of the Midnight Sun'?",
+      "options": [
+        "Canada",
+        "Russia",
+        "Norway",
+        "Finland"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'मिडनाइट सन की भूमि' के नाम से जाना जाता है?",
+      "options": [
+        "कनाडा",
+        "रूस",
+        "नॉर्वे",
+        "फिनलैंड"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK157",
+    "en": {
+      "question": "Who invented the light bulb?",
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Albert Einstein"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "बल्ब का आविष्कार किसने किया था?",
+      "options": [
+        "थॉमस एडिसन",
+        "अलेक्जेंडर ग्राहम बेल",
+        "निकोला टेस्ला",
+        "अल्बर्ट आइंस्टाइन"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "inventions"
+  },
+  {
+    "id": "GK159",
+    "en": {
+      "question": "Which is the southernmost point of India?",
+      "options": [
+        "Kanyakumari",
+        "Indira Point",
+        "Rameshwaram",
+        "Thiruvananthapuram"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का सबसे दक्षिणी बिंदु कौन सा है?",
+      "options": [
+        "कन्याकुमारी",
+        "इंदिरा पॉइंट",
+        "रामेश्वरम",
+        "तिरुवनंतपुरम"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "id": "GK521",
+    "en": {
+      "question": "Which is the largest cell in the human body?",
+      "options": [
+        "Nerve cell",
+        "Egg cell",
+        "Muscle cell",
+        "Skin cell"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर में सबसे बड़ी कोशिका कौन सी है?",
+      "options": [
+        "तंत्रिका कोशिका",
+        "अंडाणु",
+        "मांसपेशी कोशिका",
+        "त्वचा कोशिका"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK522",
+    "en": {
+      "question": "Who is known as the founder of psychoanalysis?",
+      "options": [
+        "Carl Jung",
+        "Sigmund Freud",
+        "Jean Piaget",
+        "Ivan Pavlov"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मनोविश्लेषण के संस्थापक के रूप में किसे जाना जाता है?",
+      "options": [
+        "कार्ल जुंग",
+        "सिगमंड फ्रायड",
+        "जीन पियाजे",
+        "इवान पावलोव"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "psychology"
+  },
+  {
+    "id": "GK523",
+    "en": {
+      "question": "Which mountain range separates Europe from Asia?",
+      "options": [
+        "The Alps",
+        "The Himalayas",
+        "The Andes",
+        "The Urals"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी पर्वत श्रृंखला यूरोप को एशिया से अलग करती है?",
+      "options": [
+        "आल्प्स",
+        "हिमालय",
+        "एंडीज",
+        "यूराल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK526",
+    "en": {
+      "question": "Which Indian state has Konkani as its official language?",
+      "options": [
+        "Karnataka",
+        "Kerala",
+        "Goa",
+        "Maharashtra"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की आधिकारिक भाषा कोंकणी है?",
+      "options": [
+        "कर्नाटक",
+        "केरल",
+        "गोवा",
+        "महाराष्ट्र"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK527",
+    "en": {
+      "question": "Which metal is the best conductor of electricity?",
+      "options": [
+        "Copper",
+        "Gold",
+        "Aluminium",
+        "Silver"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी धातु बिजली की सबसे अच्छी सुचालक है?",
+      "options": [
+        "तांबा",
+        "सोना",
+        "एल्युमिनियम",
+        "चांदी"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK529",
+    "en": {
+      "question": "Which Indian film was the first to be nominated for an Oscar?",
+      "options": [
+        "Mother India",
+        "Salaam Bombay",
+        "Lagaan",
+        "The Guide"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "ऑस्कर के लिए नामांकित होने वाली पहली भारतीय फिल्म कौन सी थी?",
+      "options": [
+        "मदर इंडिया",
+        "सलाम बॉम्बे",
+        "लगान",
+        "द गाइड"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "indian_cinema"
+  },
+  {
+    "id": "GK530",
+    "en": {
+      "question": "Which vitamin helps in blood clotting?",
+      "options": [
+        "Vitamin A",
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा विटामिन रक्त के थक्के जमने में मदद करता है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन K",
+        "विटामिन D",
+        "विटामिन E"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK531",
+    "en": {
+      "question": "Which Indian state has the longest coastline?",
+      "options": [
+        "Kerala",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Gujarat"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य का समुद्र तट सबसे लंबा है?",
+      "options": [
+        "केरल",
+        "महाराष्ट्र",
+        "तमिलनाडु",
+        "गुजरात"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK532",
+    "en": {
+      "question": "Who is the author of 'Discovery of India'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Sardar Patel",
+        "Subhash Chandra Bose"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'डिस्कवरी ऑफ इंडिया' के लेखक कौन हैं?",
+      "options": [
+        "जवाहरलाल नेहरू",
+        "महात्मा गांधी",
+        "सरदार पटेल",
+        "सुभाष चंद्र बोस"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK533",
+    "en": {
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बल का SI मात्रक क्या है?",
+      "options": [
+        "जूल",
+        "न्यूटन",
+        "वाट",
+        "पास्कल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "physics"
+  },
+  {
+    "id": "GK534",
+    "en": {
+      "question": "Which Indian classical dance form originated in Kerala?",
+      "options": [
+        "Bharatanatyam",
+        "Kathakali",
+        "Odissi",
+        "Kuchipudi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा भारतीय शास्त्रीय नृत्य केरल में उत्पन्न हुआ?",
+      "options": [
+        "भरतनाट्यम",
+        "कथकली",
+        "ओडिसी",
+        "कुचिपुड़ी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK535",
+    "en": {
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "वर्ल्ड वाइड वेब का आविष्कार किसने किया?",
+      "options": [
+        "टिम बर्नर्स-ली",
+        "बिल गेट्स",
+        "स्टीव जॉब्स",
+        "मार्क जकरबर्ग"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK537",
+    "en": {
+      "question": "What is the capital of Mizoram?",
+      "options": [
+        "Imphal",
+        "Aizawl",
+        "Shillong",
+        "Kohima"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मिजोरम की राजधानी क्या है?",
+      "options": [
+        "इंफाल",
+        "आइजोल",
+        "शिलांग",
+        "कोहिमा"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK538",
+    "en": {
+      "question": "Which organ in the human body produces bile?",
+      "options": [
+        "Pancreas",
+        "Liver",
+        "Kidney",
+        "Gallbladder"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर का कौन सा अंग पित्त का उत्पादन करता है?",
+      "options": [
+        "अग्नाशय",
+        "यकृत",
+        "गुर्दा",
+        "पित्ताशय"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK540",
+    "en": {
+      "question": "Which of these is not a programming language?",
+      "options": [
+        "Python",
+        "Java",
+        "Oracle",
+        "Ruby"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन सी प्रोग्रामिंग भाषा नहीं है?",
+      "options": [
+        "पायथन",
+        "जावा",
+        "ओरेकल",
+        "रूबी"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "technology"
+  }
+]

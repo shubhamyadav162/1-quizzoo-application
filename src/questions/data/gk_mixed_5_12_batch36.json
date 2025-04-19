@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK801",
+    "en": {
+      "question": "Which is the largest living bird on Earth?",
+      "options": [
+        "Albatross",
+        "Ostrich",
+        "Emu",
+        "Condor"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे बड़ा जीवित पक्षी कौन सा है?",
+      "options": [
+        "अल्बाट्रॉस",
+        "शुतुरमुर्ग",
+        "एमू",
+        "कोंडोर"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK802",
+    "en": {
+      "question": "Who is known as the 'Nightingale of India'?",
+      "options": [
+        "Lata Mangeshkar",
+        "M.S. Subbulakshmi",
+        "Sarojini Naidu",
+        "Asha Bhosle"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारत की कोकिला' कहा जाता है?",
+      "options": [
+        "लता मंगेशकर",
+        "एम.एस. सुब्बुलक्ष्मी",
+        "सरोजिनी नायडू",
+        "आशा भोसले"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK805",
+    "en": {
+      "question": "Which famous monument is located in Agra?",
+      "options": [
+        "Red Fort",
+        "Qutub Minar",
+        "Taj Mahal",
+        "Hawa Mahal"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आगरा में कौन सा प्रसिद्ध स्मारक स्थित है?",
+      "options": [
+        "लाल किला",
+        "कुतुब मीनार",
+        "ताज महल",
+        "हवा महल"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK806",
+    "en": {
+      "question": "Who is the author of 'The God of Small Things'?",
+      "options": [
+        "Vikram Seth",
+        "Arundhati Roy",
+        "Jhumpa Lahiri",
+        "Chetan Bhagat"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'द गॉड ऑफ स्मॉल थिंग्स' के लेखक कौन हैं?",
+      "options": [
+        "विक्रम सेठ",
+        "अरुंधति रॉय",
+        "झुम्पा लाहिड़ी",
+        "चेतन भगत"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK811",
+    "en": {
+      "question": "Which city is the capital of Uttarakhand?",
+      "options": [
+        "Dehradun",
+        "Nainital",
+        "Haridwar",
+        "Rishikesh"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "उत्तराखंड की राजधानी कौन सा शहर है?",
+      "options": [
+        "देहरादून",
+        "नैनीताल",
+        "हरिद्वार",
+        "ऋषिकेश"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK813",
+    "en": {
+      "question": "Which of these is a fundamental particle of an atom?",
+      "options": [
+        "Molecule",
+        "Cell",
+        "Electron",
+        "DNA"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन परमाणु का मौलिक कण है?",
+      "options": [
+        "अणु",
+        "कोशिका",
+        "इलेक्ट्रॉन",
+        "डीएनए"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK814",
+    "en": {
+      "question": "Which state in India has the highest literacy rate?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "Maharashtra",
+        "Punjab"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत में किस राज्य की साक्षरता दर सबसे अधिक है?",
+      "options": [
+        "तमिलनाडु",
+        "केरल",
+        "महाराष्ट्र",
+        "पंजाब"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_education"
+  },
+  {
+    "id": "GK815",
+    "en": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मोनालिसा की पेंटिंग किसने बनाई?",
+      "options": [
+        "विन्सेंट वैन गॉग",
+        "पाब्लो पिकासो",
+        "लियोनार्दो दा विंची",
+        "माइकेलएंजेलो"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_art"
+  },
+  {
+    "id": "GK818",
+    "en": {
+      "question": "Which is the deepest ocean in the world?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विश्व का सबसे गहरा महासागर कौन सा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK820",
+    "en": {
+      "question": "Which Indian state is known as the 'Spice Garden of India'?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'भारत का मसाला उद्यान' कहा जाता है?",
+      "options": [
+        "तमिलनाडु",
+        "केरल",
+        "कर्नाटक",
+        "आंध्र प्रदेश"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_agriculture"
+  }
+]

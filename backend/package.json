@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "supertest": "^6.3.4"
+  }
+}

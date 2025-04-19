@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK242",
+    "en": {
+      "question": "Who wrote the Indian National Anthem 'Jana Gana Mana'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee",
+        "Mahatma Gandhi",
+        "Sarojini Naidu"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रगान 'जन गण मन' किसने लिखा था?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "महात्मा गांधी",
+        "सरोजिनी नायडू"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK243",
+    "en": {
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        "Zinc",
+        "Mercury",
+        "Lead",
+        "Aluminum"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सी धातु कमरे के तापमान पर तरल अवस्था में होती है?",
+      "options": [
+        "जिंक",
+        "पारा",
+        "सीसा",
+        "एल्युमिनियम"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK244",
+    "en": {
+      "question": "Where is the headquarters of the International Olympic Committee located?",
+      "options": [
+        "Geneva",
+        "Paris",
+        "Lausanne",
+        "Vienna"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अंतर्राष्ट्रीय ओलंपिक समिति का मुख्यालय कहां स्थित है?",
+      "options": [
+        "जिनेवा",
+        "पेरिस",
+        "लॉज़ेन",
+        "वियना"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "sports"
+  },
+  {
+    "id": "GK245",
+    "en": {
+      "question": "Who discovered the theory of evolution by natural selection?",
+      "options": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Alexander Fleming"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्राकृतिक चयन द्वारा विकास के सिद्धांत की खोज किसने की थी?",
+      "options": [
+        "ग्रेगर मेंडल",
+        "चार्ल्स डार्विन",
+        "लुई पाश्चर",
+        "अलेक्जेंडर फ्लेमिंग"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK249",
+    "en": {
+      "question": "Which is the longest bone in the human body?",
+      "options": [
+        "Tibia",
+        "Humerus",
+        "Femur",
+        "Radius"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे लंबी हड्डी कौन सी है?",
+      "options": [
+        "टिबिया",
+        "ह्यूमरस",
+        "फीमर",
+        "रेडियस"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK251",
+    "en": {
+      "question": "Who is the founder of Tesla Motors?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Elon Musk",
+        "Jeff Bezos"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "टेस्ला मोटर्स के संस्थापक कौन हैं?",
+      "options": [
+        "बिल गेट्स",
+        "स्टीव जॉब्स",
+        "एलन मस्क",
+        "जेफ बेज़ोस"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "technology"
+  },
+  {
+    "id": "GK254",
+    "en": {
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में कौन सी गैस सबसे अधिक मात्रा में पाई जाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK256",
+    "en": {
+      "question": "What is the average adult human body temperature in degrees Celsius?",
+      "options": [
+        "35°C",
+        "36.8°C",
+        "38°C",
+        "40°C"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "डिग्री सेल्सियस में वयस्क मानव शरीर का औसत तापमान क्या है?",
+      "options": [
+        "35°C",
+        "36.8°C",
+        "38°C",
+        "40°C"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK257",
+    "en": {
+      "question": "In which year was the United Nations established?",
+      "options": [
+        "1945",
+        "1950",
+        "1942",
+        "1948"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "संयुक्त राष्ट्र की स्थापना किस वर्ष हुई थी?",
+      "options": [
+        "1945",
+        "1950",
+        "1942",
+        "1948"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "world_history"
+  },
+  {
+    "id": "GK259",
+    "en": {
+      "question": "What is the unit of measurement for sound intensity?",
+      "options": [
+        "Lumen",
+        "Joule",
+        "Watt",
+        "Decibel"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ध्वनि तीव्रता की माप इकाई क्या है?",
+      "options": [
+        "लुमेन",
+        "जूल",
+        "वाट",
+        "डेसिबल"
+      ],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "physics"
+  }
+]

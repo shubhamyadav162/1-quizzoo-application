@@ -1,0 +1,327 @@
+[
+  {
+    "id": "GK581",
+    "en": {
+      "question": "Who wrote the book 'Geetanjali'?",
+      "options": [
+        "Bankim Chandra Chattopadhyay",
+        "Rabindranath Tagore",
+        "Munshi Premchand",
+        "Sarojini Naidu"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'गीतांजलि' पुस्तक किसने लिखी?",
+      "options": [
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "रवींद्रनाथ टैगोर",
+        "मुंशी प्रेमचंद",
+        "सरोजिनी नायडू"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK582",
+    "en": {
+      "question": "Which is the largest gland in the human body?",
+      "options": [
+        "Thyroid",
+        "Pituitary",
+        "Liver",
+        "Pancreas"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर में सबसे बड़ी ग्रंथि कौन सी है?",
+      "options": [
+        "थायरॉयड",
+        "पीयूष ग्रंथि",
+        "यकृत",
+        "अग्न्याशय"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK585",
+    "en": {
+      "question": "Which is the smallest state in India by area?",
+      "options": [
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Manipur"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "क्षेत्रफल के अनुसार भारत का सबसे छोटा राज्य कौन सा है?",
+      "options": [
+        "सिक्किम",
+        "गोवा",
+        "त्रिपुरा",
+        "मणिपुर"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK587",
+    "en": {
+      "question": "Who is known as the 'Father of Computer'?",
+      "options": [
+        "Bill Gates",
+        "Charles Babbage",
+        "Alan Turing",
+        "Steve Jobs"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'कंप्यूटर के जनक' के रूप में जाना जाता है?",
+      "options": [
+        "बिल गेट्स",
+        "चार्ल्स बैबेज",
+        "एलन ट्यूरिंग",
+        "स्टीव जॉब्स"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK589",
+    "en": {
+      "question": "Which disease is caused by the deficiency of Vitamin D?",
+      "options": [
+        "Scurvy",
+        "Beri-beri",
+        "Rickets",
+        "Night blindness"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विटामिन D की कमी से कौन सी बीमारी होती है?",
+      "options": [
+        "स्कर्वी",
+        "बेरी-बेरी",
+        "रिकेट्स",
+        "रतौंधी"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "medicine"
+  },
+  {
+    "id": "GK590",
+    "en": {
+      "question": "Who was the first female Prime Minister of India?",
+      "options": [
+        "Sonia Gandhi",
+        "Indira Gandhi",
+        "Sarojini Naidu",
+        "Sushma Swaraj"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत की पहली महिला प्रधानमंत्री कौन थीं?",
+      "options": [
+        "सोनिया गांधी",
+        "इंदिरा गांधी",
+        "सरोजिनी नायडू",
+        "सुषमा स्वराज"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK591",
+    "en": {
+      "question": "Which is the largest mammal in the world?",
+      "options": [
+        "African Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Rhinoceros"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा स्तनधारी कौन सा है?",
+      "options": [
+        "अफ्रीकी हाथी",
+        "नीली व्हेल",
+        "जिराफ",
+        "गैंडा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK592",
+    "en": {
+      "question": "Who is known as the 'Flying Sikh'?",
+      "options": [
+        "Gurbachan Singh Randhawa",
+        "Milkha Singh",
+        "PT Usha",
+        "Dara Singh"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'उड़न सिख' के नाम से जाना जाता है?",
+      "options": [
+        "गुरबचन सिंह रंधावा",
+        "मिल्खा सिंह",
+        "पीटी ऊषा",
+        "दारा सिंह"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_sports"
+  },
+  {
+    "id": "GK593",
+    "en": {
+      "question": "Which is the smallest bone in the human ear?",
+      "options": [
+        "Malleus",
+        "Incus",
+        "Stapes",
+        "Cochlea"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव कान में सबसे छोटी हड्डी कौन सी है?",
+      "options": [
+        "मैलियस",
+        "इनकस",
+        "स्टेप्स",
+        "कॉक्लिया"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK595",
+    "en": {
+      "question": "Which organ is responsible for producing insulin in the human body?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Stomach"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर में इंसुलिन का उत्पादन करने के लिए कौन सा अंग जिम्मेदार है?",
+      "options": [
+        "यकृत",
+        "गुर्दा",
+        "अग्न्याशय",
+        "पेट"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK596",
+    "en": {
+      "question": "Who is credited with the discovery of penicillin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Joseph Lister"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पेनिसिलिन की खोज का श्रेय किसे दिया जाता है?",
+      "options": [
+        "अलेक्जेंडर फ्लेमिंग",
+        "लुई पास्चर",
+        "मैरी क्यूरी",
+        "जोसेफ लिस्टर"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "medicine"
+  },
+  {
+    "id": "GK598",
+    "en": {
+      "question": "Which is the world's largest democracy?",
+      "options": [
+        "United States",
+        "Russia",
+        "India",
+        "Brazil"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा लोकतंत्र कौन सा है?",
+      "options": [
+        "संयुक्त राज्य अमेरिका",
+        "रूस",
+        "भारत",
+        "ब्राजील"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "politics"
+  },
+  {
+    "id": "GK599",
+    "en": {
+      "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+      "options": [
+        "Haryana",
+        "Uttar Pradesh",
+        "Punjab",
+        "Bihar"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'पंच नदियों की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "हरियाणा",
+        "उत्तर प्रदेश",
+        "पंजाब",
+        "बिहार"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  }
+]

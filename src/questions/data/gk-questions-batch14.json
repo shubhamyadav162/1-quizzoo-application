@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-121",
+      "question_text": "Which language has the most words?",
+      "options": [
+        "English",
+        "Mandarin Chinese",
+        "Spanish",
+        "Arabic"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "English has the largest documented vocabulary of any language, with over one million words. The Oxford English Dictionary contains about 600,000 word forms, but when technical and scientific terms are included, the total exceeds one million. This extensive vocabulary is due to English's history of borrowing words from many other languages and its willingness to incorporate new terminology.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-121",
+      "question_text": "किस भाषा में सबसे अधिक शब्द हैं?",
+      "options": [
+        "अंग्रेजी",
+        "मंदारिन चीनी",
+        "स्पेनिश",
+        "अरबी"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "अंग्रेजी में किसी भी भाषा का सबसे बड़ा प्रलेखित शब्दावली है, जिसमें दस लाख से अधिक शब्द हैं। ऑक्सफोर्ड इंग्लिश डिक्शनरी में लगभग 600,000 शब्द रूप हैं, लेकिन जब तकनीकी और वैज्ञानिक शब्दों को शामिल किया जाता है, तो कुल संख्या दस लाख से अधिक हो जाती है। यह विस्तृत शब्दावली अंग्रेजी के कई अन्य भाषाओं से शब्द उधार लेने के इतिहास और नई शब्दावली को शामिल करने की इसकी इच्छा के कारण है।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-122",
+      "question_text": "What ancient civilization built the Nazca Lines?",
+      "options": [
+        "The Mayans",
+        "The Incas",
+        "The Nazca Culture",
+        "The Olmecs"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "The Nazca Lines were created by the Nazca culture, which flourished in Peru from around 100 BCE to 800 CE. These massive geoglyphs etched into the desert floor include figures of animals, plants, and geometric shapes, some extending over 1,200 feet. Created by removing the reddish surface pebbles to reveal the lighter soil beneath, they've been preserved for centuries due to the region's extreme aridity and lack of wind.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-122",
+      "question_text": "किस प्राचीन सभ्यता ने नाज़्का लाइन्स का निर्माण किया?",
+      "options": [
+        "माया",
+        "इंका",
+        "नाज़्का संस्कृति",
+        "ओल्मेक"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "नाज़्का लाइन्स का निर्माण नाज़्का संस्कृति द्वारा किया गया था, जो लगभग 100 ईसा पूर्व से 800 ईस्वी तक पेरू में फली-फूली। रेगिस्तान की सतह पर खोदे गए ये विशाल भू-आकृतियों में जानवरों, पौधों और ज्यामितीय आकृतियों के आंकड़े शामिल हैं, जिनमें से कुछ 1,200 फीट से अधिक लंबे हैं। लालिमा युक्त सतह के कंकड़ को हटाकर नीचे की हल्की मिट्टी को उजागर करके बनाई गई, वे क्षेत्र की चरम शुष्कता और हवा की कमी के कारण सदियों से संरक्षित हैं।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-123",
+      "question_text": "What unexpected creature can survive in the vacuum of space?",
+      "options": [
+        "Cockroaches",
+        "Tardigrades",
+        "Certain bacteria",
+        "Sea urchins"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Tardigrades (also known as water bears or moss piglets) can survive in the vacuum of space. These microscopic animals can enter a state called cryptobiosis, where their metabolism reduces to less than 0.01% of normal and their water content can drop to 1-3%. In this state, they can survive extreme conditions including the vacuum of space, radiation levels that would kill humans, temperatures from near absolute zero to 151°C, and pressures six times greater than those in the deepest ocean trenches.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-123",
+      "question_text": "कौन सा अप्रत्याशित जीव अंतरिक्ष के वैक्यूम में जीवित रह सकता है?",
+      "options": [
+        "कॉकरोच",
+        "टार्डिग्रेड",
+        "कुछ बैक्टीरिया",
+        "समुद्री अर्चिन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "टार्डिग्रेड (जिन्हें वाटर बेयर्स या मॉस पिगलेट्स के नाम से भी जाना जाता है) अंतरिक्ष के वैक्यूम में जीवित रह सकते हैं। ये सूक्ष्म जानवर क्रिप्टोबायोसिस नामक स्थिति में प्रवेश कर सकते हैं, जहां उनका चयापचय सामान्य से 0.01% से भी कम हो जाता है और उनकी पानी की मात्रा 1-3% तक गिर सकती है। इस स्थिति में, वे अंतरिक्ष के वैक्यूम, विकिरण स्तर जो मनुष्यों को मार देगा, लगभग परम शून्य से 151°C तक के तापमान, और सबसे गहरे समुद्री खाइयों में मौजूद दबाव से छह गुना अधिक दबाव सहित चरम परिस्थितियों में जीवित रह सकते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-124",
+      "question_text": "What familiar food was once considered poisonous in Europe?",
+      "options": [
+        "Potatoes",
+        "Tomatoes",
+        "Corn",
+        "Eggplant"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Tomatoes were once widely considered poisonous in Europe. Native to the Americas, tomatoes were introduced to Europe in the 16th century. For nearly 200 years after their introduction, many Europeans believed tomatoes were deadly because they belong to the nightshade family, which includes several poisonous plants. Additionally, wealthy Europeans ate from pewter plates, which have high lead content, and the acidic tomatoes would cause the lead to leach out, resulting in lead poisoning - reinforcing the belief that tomatoes themselves were toxic.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-124",
+      "question_text": "कौन सा परिचित खाद्य पदार्थ कभी यूरोप में विषैला माना जाता था?",
+      "options": [
+        "आलू",
+        "टमाटर",
+        "मक्का",
+        "बैंगन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "टमाटर को कभी यूरोप में व्यापक रूप से विषैला माना जाता था। अमेरिका के मूल निवासी, टमाटर 16वीं शताब्दी में यूरोप में पेश किए गए थे। उनके परिचय के बाद लगभग 200 वर्षों तक, कई यूरोपीयों का मानना था कि टमाटर घातक थे क्योंकि वे नाइटशेड परिवार से संबंधित हैं, जिसमें कई विषैले पौधे शामिल हैं। इसके अतिरिक्त, धनी यूरोपीय टिन की प्लेटों से खाते थे, जिनमें उच्च सीसा सामग्री होती है, और अम्लीय टमाटर सीसे को निकालने का कारण बनते थे, जिसके परिणामस्वरूप सीसा विषाक्तता होती थी - इस विश्वास को मजबूत करते हुए कि टमाटर स्वयं विषाक्त थे।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-125",
+      "question_text": "Which ancient wonder was destroyed by a Christian mob in 415 CE?",
+      "options": [
+        "The Colossus of Rhodes",
+        "The Hanging Gardens of Babylon",
+        "The Library of Alexandria",
+        "The Mausoleum at Halicarnassus"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "The Library of Alexandria, one of the largest and most significant libraries of the ancient world, was destroyed in stages, with one major destruction occurring when a Christian mob attacked the Serapeum (a satellite library) in 415 CE. This attack was part of religious riots and was reportedly led by Pope Theophilus of Alexandria. The Library contained hundreds of thousands of scrolls and was a major center of scholarship in the ancient world, making its destruction one of history's greatest losses of knowledge.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-125",
+      "question_text": "कौन सा प्राचीन आश्चर्य 415 ईस्वी में एक ईसाई भीड़ द्वारा नष्ट कर दिया गया था?",
+      "options": [
+        "रोड्स का विशाल",
+        "बेबीलोन के लटकते उद्यान",
+        "अलेक्जेंड्रिया का पुस्तकालय",
+        "हैलिकारनासस का मकबरा"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "अलेक्जेंड्रिया का पुस्तकालय, प्राचीन दुनिया के सबसे बड़े और सबसे महत्वपूर्ण पुस्तकालयों में से एक, चरणों में नष्ट हो गया था, जिसमें एक प्रमुख विनाश तब हुआ जब 415 ईस्वी में एक ईसाई भीड़ ने सेरापियम (एक उपग्रह पुस्तकालय) पर हमला किया था। यह हमला धार्मिक दंगों का हिस्सा था और कथित तौर पर अलेक्जेंड्रिया के पोप थियोफिलस के नेतृत्व में किया गया था। पुस्तकालय में सैकड़ों हजारों स्क्रॉल थे और यह प्राचीन दुनिया में विद्वता का एक प्रमुख केंद्र था, जिससे इसका विनाश इतिहास के सबसे बड़े ज्ञान के नुकसानों में से एक बन गया।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-001",
+      "question_text": "Which is the largest ocean in the world?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth, covering more than 60 million square miles.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-001",
+      "question_text": "विश्व का सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "प्रशांत महासागर",
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "प्रशांत महासागर पृथ्वी पर सबसे बड़ा और गहरा महासागर है, जो 60 मिलियन वर्ग मील से अधिक क्षेत्र को कवर करता है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-002",
+      "question_text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Mars is known as the Red Planet due to the reddish appearance given to it by iron oxide (rust) on its surface.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-002",
+      "question_text": "किस ग्रह को लाल ग्रह के नाम से जाना जाता है?",
+      "options": [
+        "शुक्र",
+        "मंगल",
+        "बृहस्पति",
+        "शनि"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "मंगल को लाल ग्रह के नाम से जाना जाता है क्योंकि इसकी सतह पर आयरन ऑक्साइड (जंग) की वजह से इसका रंग लाल दिखाई देता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-003",
+      "question_text": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Romeo and Juliet was written by William Shakespeare, an English playwright, poet, and actor widely regarded as the greatest writer in the English language.",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-003",
+      "question_text": "रोमियो और जूलियट' नाटक किसने लिखा था?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "विलियम शेक्सपियर",
+        "जेन ऑस्टेन",
+        "मार्क ट्वेन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "रोमियो और जूलियट विलियम शेक्सपियर द्वारा लिखा गया था, जो एक अंग्रेजी नाटककार, कवि और अभिनेता थे, जिन्हें अंग्रेजी भाषा के सबसे महान लेखक के रूप में व्यापक रूप से जाना जाता है।",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-004",
+      "question_text": "What is the capital of Japan?",
+      "options": [
+        "Beijing",
+        "Tokyo",
+        "Seoul",
+        "Bangkok"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Tokyo is the capital and largest city of Japan. It serves as the country's political, economic, and cultural center.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-004",
+      "question_text": "जापान की राजधानी क्या है?",
+      "options": [
+        "बीजिंग",
+        "टोक्यो",
+        "सियोल",
+        "बैंकॉक"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "टोक्यो जापान की राजधानी और सबसे बड़ा शहर है। यह देश का राजनीतिक, आर्थिक और सांस्कृतिक केंद्र है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-005",
+      "question_text": "Which famous scientist developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Nikola Tesla",
+        "Stephen Hawking"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Albert Einstein developed the theory of relativity, which is one of the pillars of modern physics alongside quantum mechanics.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-005",
+      "question_text": "किस प्रसिद्ध वैज्ञानिक ने सापेक्षता का सिद्धांत विकसित किया?",
+      "options": [
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "निकोला टेस्ला",
+        "स्टीफन हॉकिंग"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अल्बर्ट आइंस्टाइन ने सापेक्षता का सिद्धांत विकसित किया, जो क्वांटम यांत्रिकी के साथ आधुनिक भौतिकी के स्तंभों में से एक है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-006",
+      "question_text": "What is the largest mammal on Earth?",
+      "options": [
+        "African Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Polar Bear"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Blue Whale is the largest animal known to have existed, reaching lengths of up to 30 meters and weighing up to 200 tons.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-006",
+      "question_text": "पृथ्वी पर सबसे बड़ा स्तनधारी कौन सा है?",
+      "options": [
+        "अफ्रीकी हाथी",
+        "नीली व्हेल",
+        "जिराफ",
+        "ध्रुवीय भालू"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नीली व्हेल सबसे बड़ा जानवर है जिसके अस्तित्व के बारे में जाना जाता है, जो 30 मीटर तक की लंबाई और 200 टन तक वजन तक पहुंच सकता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-007",
+      "question_text": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "Japan",
+        "Thailand",
+        "South Korea"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Japan is known as the Land of the Rising Sun. This name comes from the Japanese characters that make up Japan's name, which mean 'sun origin'.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-007",
+      "question_text": "किस देश को उगते सूरज की भूमि के नाम से जाना जाता है?",
+      "options": [
+        "चीन",
+        "जापान",
+        "थाईलैंड",
+        "दक्षिण कोरिया"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "जापान को उगते सूरज की भूमि के नाम से जाना जाता है। यह नाम जापानी वर्णों से आता है जो जापान के नाम को बनाते हैं, जिसका अर्थ है 'सूर्य का उद्गम'।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-008",
+      "question_text": "What is the national flower of India?",
+      "options": [
+        "Rose",
+        "Lotus",
+        "Sunflower",
+        "Lily"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The lotus flower (Nelumbo nucifera) is the national flower of India. It symbolizes purity, spirituality, and divinity in Indian culture.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-008",
+      "question_text": "भारत का राष्ट्रीय फूल क्या है?",
+      "options": [
+        "गुलाब",
+        "कमल",
+        "सूरजमुखी",
+        "लिली"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "कमल का फूल (नेलुम्बो न्यूसिफेरा) भारत का राष्ट्रीय फूल है। यह भारतीय संस्कृति में शुद्धता, आध्यात्मिकता और दिव्यता का प्रतीक है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-009",
+      "question_text": "Which gas do plants absorb from the atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Plants absorb carbon dioxide from the atmosphere during photosynthesis and release oxygen as a byproduct.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-009",
+      "question_text": "पौधे वातावरण से कौन सी गैस अवशोषित करते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "पौधे प्रकाश संश्लेषण के दौरान वातावरण से कार्बन डाइऑक्साइड अवशोषित करते हैं और उपोत्पाद के रूप में ऑक्सीजन छोड़ते हैं।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-010",
+      "question_text": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Mona Lisa was painted by Leonardo da Vinci, an Italian Renaissance polymath. It is one of the most famous paintings in the world.",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-010",
+      "question_text": "मोनालिसा किसने चित्रित की थी?",
+      "options": [
+        "विंसेंट वैन गॉग",
+        "लियोनार्डो दा विंची",
+        "पाब्लो पिकासो",
+        "माइकेलएंजेलो"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "मोनालिसा लियोनार्डो दा विंची द्वारा चित्रित की गई थी, जो एक इतालवी पुनर्जागरण बहुश्रुत थे। यह दुनिया के सबसे प्रसिद्ध चित्रों में से एक है।",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "hi"
+    }
+  ]
+} 

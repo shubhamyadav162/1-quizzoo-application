@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-001",
+      "question_text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "Mars is known as the Red Planet due to its reddish appearance.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-001",
+      "question_text": "लाल ग्रह के नाम से कौन सा ग्रह जाना जाता है?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "बृहस्पति",
+        "शनि"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "मंगल को लाल ग्रह के रूप में जाना जाता है क्योंकि इसका रंग लाल होता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-002",
+      "question_text": "What is the capital of France?",
+      "options": [
+        "London",
+        "Paris",
+        "Berlin",
+        "Rome"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Paris is the capital city of France.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-002",
+      "question_text": "फ्रांस की राजधानी क्या है?",
+      "options": [
+        "लंदन",
+        "पेरिस",
+        "बर्लिन",
+        "रोम"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "पेरिस फ्रांस की राजधानी है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-003",
+      "question_text": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "The Mona Lisa was painted by Leonardo da Vinci.",
+      "category_id": 10,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-003",
+      "question_text": "मोनालिसा किसने चित्रित की थी?",
+      "options": [
+        "विन्सेंट वैन गोघ",
+        "पाब्लो पिकासो",
+        "लियोनार्दो दा विंची",
+        "माइकेलएंजेलो"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "मोनालिसा को लियोनार्दो दा विंची ने चित्रित किया था।",
+      "category_id": 10,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-004",
+      "question_text": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "The Pacific Ocean is the largest ocean on Earth.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-004",
+      "question_text": "पृथ्वी पर सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "प्रशांत महासागर पृथ्वी का सबसे बड़ा महासागर है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-005",
+      "question_text": "How many continents are there in the world?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "There are 7 continents in the world: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-005",
+      "question_text": "विश्व में कितने महाद्वीप हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "विश्व में 7 महाद्वीप हैं: एशिया, अफ्रीका, उत्तर अमेरिका, दक्षिण अमेरिका, अंटार्कटिका, यूरोप और ऑस्ट्रेलिया।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    }
+  ]
+} 

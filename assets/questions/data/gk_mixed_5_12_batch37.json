@@ -1,0 +1,227 @@
+[
+  {
+    "id": "GK821",
+    "en": {
+      "question": "Who was the first female astronaut?",
+      "options": [
+        "Sally Ride",
+        "Valentina Tereshkova",
+        "Kalpana Chawla",
+        "Sunita Williams"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पहली महिला अंतरिक्ष यात्री कौन थीं?",
+      "options": [
+        "सैली राइड",
+        "वैलेंटिना तेरेश्कोवा",
+        "कल्पना चावला",
+        "सुनीता विलियम्स"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "space_exploration"
+  },
+  {
+    "id": "GK825",
+    "en": {
+      "question": "Who is the author of 'The Jungle Book'?",
+      "options": [
+        "Charles Dickens",
+        "Rudyard Kipling",
+        "Mark Twain",
+        "Lewis Carroll"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'द जंगल बुक' के लेखक कौन हैं?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "रडयार्ड किपलिंग",
+        "मार्क ट्वेन",
+        "लुईस कैरल"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK826",
+    "en": {
+      "question": "Which musical instrument is known as the 'King of Instruments'?",
+      "options": [
+        "Piano",
+        "Violin",
+        "Organ",
+        "Guitar"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस वाद्य यंत्र को 'वाद्य यंत्रों का राजा' कहा जाता है?",
+      "options": [
+        "पियानो",
+        "वायलिन",
+        "ऑर्गन",
+        "गिटार"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "music"
+  },
+  {
+    "id": "GK830",
+    "en": {
+      "question": "Which planet has the Great Red Spot?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस ग्रह पर ग्रेट रेड स्पॉट है?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "बृहस्पति",
+        "शनि"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK831",
+    "en": {
+      "question": "Which Indian state is famous for Kuchipudi dance?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "Andhra Pradesh",
+        "Karnataka"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा भारतीय राज्य कुचिपुड़ी नृत्य के लिए प्रसिद्ध है?",
+      "options": [
+        "तमिलनाडु",
+        "केरल",
+        "आंध्र प्रदेश",
+        "कर्नाटक"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK832",
+    "en": {
+      "question": "What does 'DNA' stand for?",
+      "options": [
+        "Deoxyribose Nucleic Acid",
+        "Deoxyribonucleic Acid",
+        "Diribose Nucleic Acid",
+        "Deoxynucleic Acid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'डीएनए' का पूरा नाम क्या है?",
+      "options": [
+        "डीऑक्सीराइबोस न्यूक्लिक एसिड",
+        "डीऑक्सीराइबोन्यूक्लिक एसिड",
+        "डाइराइबोस न्यूक्लिक एसिड",
+        "डीऑक्सीन्यूक्लिक एसिड"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK833",
+    "en": {
+      "question": "Which mountain is the tallest in the world?",
+      "options": [
+        "K2",
+        "Mount Everest",
+        "Kangchenjunga",
+        "Makalu"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे ऊंचा पर्वत कौन सा है?",
+      "options": [
+        "K2",
+        "माउंट एवरेस्ट",
+        "कंचनजंगा",
+        "मकालू"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK836",
+    "en": {
+      "question": "What is the national sport of India?",
+      "options": [
+        "Cricket",
+        "Hockey",
+        "Kabaddi",
+        "Football"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय खेल क्या है?",
+      "options": [
+        "क्रिकेट",
+        "हॉकी",
+        "कबड्डी",
+        "फुटबॉल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_sports"
+  },
+  {
+    "id": "GK838",
+    "en": {
+      "question": "What is the boiling point of water in Celsius?",
+      "options": [
+        "90°C",
+        "100°C",
+        "110°C",
+        "120°C"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सेल्सियस में पानी का क्वथनांक क्या है?",
+      "options": [
+        "90°C",
+        "100°C",
+        "110°C",
+        "120°C"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "physics"
+  }
+]

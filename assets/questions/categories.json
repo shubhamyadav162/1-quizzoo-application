@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name_en": "General Knowledge",
+      "name_hi": "सामान्य ज्ञान",
+      "icon": "book-open",
+      "color": "#4C9AFF"
+    },
+    {
+      "id": "history",
+      "name_en": "History",
+      "name_hi": "इतिहास",
+      "icon": "clock",
+      "color": "#B18C51"
+    },
+    {
+      "id": "science",
+      "name_en": "Science",
+      "name_hi": "विज्ञान",
+      "icon": "flask",
+      "color": "#36B37E"
+    },
+    {
+      "id": "geography",
+      "name_en": "Geography",
+      "name_hi": "भूगोल",
+      "icon": "globe",
+      "color": "#6554C0"
+    },
+    {
+      "id": "sports",
+      "name_en": "Sports",
+      "name_hi": "खेल",
+      "icon": "activity",
+      "color": "#FF5630"
+    },
+    {
+      "id": "entertainment",
+      "name_en": "Entertainment",
+      "name_hi": "मनोरंजन",
+      "icon": "film",
+      "color": "#FFAB00"
+    },
+    {
+      "id": "technology",
+      "name_en": "Technology",
+      "name_hi": "प्रौद्योगिकी",
+      "icon": "cpu",
+      "color": "#00B8D9"
+    },
+    {
+      "id": "current_affairs",
+      "name_en": "Current Affairs",
+      "name_hi": "समसामयिक घटनाएँ",
+      "icon": "trending-up",
+      "color": "#6554C0"
+    }
+  ]
+} 

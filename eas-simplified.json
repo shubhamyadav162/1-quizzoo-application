@@ -1,0 +1,18 @@
+{
+  "build": {
+    "minimal-apk": {
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "withoutCredentials": true
+      },
+      "env": {
+        "EXPO_NO_DEV_LAUNCHER": "1"
+      },
+      "cache": {
+        "disabled": false,
+        "key": "minimal-apk-v1"
+      }
+    }
+  }
+} 

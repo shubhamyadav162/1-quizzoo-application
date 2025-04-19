@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gk_hist_021",
+    "en": {
+      "question": "The 'Doctrine of Lapse' policy was introduced by which British Governor-General of India?",
+      "options": ["Lord Dalhousie", "Lord Canning", "Lord Curzon", "Lord Cornwallis"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'व्यपगत का सिद्धांत' नीति किस ब्रिटिश गवर्नर-जनरल द्वारा भारत में शुरू की गई थी?",
+      "options": ["लॉर्ड डलहौजी", "लॉर्ड कैनिंग", "लॉर्ड कर्जन", "लॉर्ड कॉर्नवालिस"],
+      "answer": 0
+    },
+    "level": 9,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_022",
+    "en": {
+      "question": "In which year was the first Round Table Conference held?",
+      "options": ["1927", "1930", "1935", "1942"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पहला गोलमेज सम्मेलन किस वर्ष आयोजित किया गया था?",
+      "options": ["1927", "1930", "1935", "1942"],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_023",
+    "en": {
+      "question": "Who founded the Brahmo Samaj?",
+      "options": ["Dayanand Saraswati", "Raja Ram Mohan Roy", "Ishwar Chandra Vidyasagar", "Jyotiba Phule"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ब्रह्म समाज की स्थापना किसने की थी?",
+      "options": ["दयानंद सरस्वती", "राजा राम मोहन रॉय", "ईश्वर चंद्र विद्यासागर", "ज्योतिबा फुले"],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_024",
+    "en": {
+      "question": "The 'Poona Pact' of 1932 was signed between:",
+      "options": ["Mahatma Gandhi and Lord Irwin", "Mahatma Gandhi and Dr. B.R. Ambedkar", "Jawaharlal Nehru and Muhammad Ali Jinnah", "Subhas Chandra Bose and British Government"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "1932 का 'पूना पैक्ट' किनके बीच हस्ताक्षरित हुआ था?",
+      "options": ["महात्मा गांधी और लॉर्ड इरविन", "महात्मा गांधी और डॉ. बी.आर. अंबेडकर", "जवाहरलाल नेहरू और मुहम्मद अली जिन्ना", "सुभाष चंद्र बोस और ब्रिटिश सरकार"],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_025",
+    "en": {
+      "question": "Who was the founder of the 'Servants of India Society'?",
+      "options": ["Lala Lajpat Rai", "Bal Gangadhar Tilak", "Gopal Krishna Gokhale", "Bipin Chandra Pal"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'सर्वेंट्स ऑफ इंडिया सोसाइटी' के संस्थापक कौन थे?",
+      "options": ["लाला लाजपत राय", "बाल गंगाधर तिलक", "गोपाल कृष्ण गोखले", "बिपिन चंद्र पाल"],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_026",
+    "en": {
+      "question": "Which Mughal ruler is known for abolishing the pilgrimage tax and the jizya tax?",
+      "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कौन सा मुगल शासक तीर्थयात्रा कर और जजिया कर को समाप्त करने के लिए जाना जाता है?",
+      "options": ["अकबर", "जहांगीर", "शाहजहां", "औरंगजेब"],
+      "answer": 0
+    },
+    "level": 10,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_027",
+    "en": {
+      "question": "The 'Cabinet Mission' came to India in which year?",
+      "options": ["1942", "1944", "1946", "1948"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'कैबिनेट मिशन' भारत किस वर्ष आया था?",
+      "options": ["1942", "1944", "1946", "1948"],
+      "answer": 2
+    },
+    "level": 10,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_028",
+    "en": {
+      "question": "Who among the following is associated with the Swadeshi Movement?",
+      "options": ["Mahatma Gandhi", "Bal Gangadhar Tilak", "C. Rajagopalachari", "Lala Lajpat Rai"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन स्वदेशी आंदोलन से जुड़े हैं?",
+      "options": ["महात्मा गांधी", "बाल गंगाधर तिलक", "सी. राजगोपालाचारी", "लाला लाजपत राय"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_029",
+    "en": {
+      "question": "Which event led to the withdrawal of the Non-Cooperation Movement by Mahatma Gandhi in 1922?",
+      "options": ["The Jallianwala Bagh Massacre", "The Chauri Chaura incident", "The arrest of Sardar Patel", "The death of Bal Gangadhar Tilak"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "1922 में महात्मा गांधी द्वारा असहयोग आंदोलन को वापस लेने का कारण कौन सी घटना थी?",
+      "options": ["जलियांवाला बाग हत्याकांड", "चौरी चौरा की घटना", "सरदार पटेल की गिरफ्तारी", "बाल गंगाधर तिलक की मृत्यु"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_030",
+    "en": {
+      "question": "The 'Permanent Settlement' was introduced in Bengal by:",
+      "options": ["Warren Hastings", "Lord Cornwallis", "Lord Wellesley", "Lord William Bentinck"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बंगाल में 'स्थायी बंदोबस्त' किसके द्वारा पेश किया गया था?",
+      "options": ["वारेन हेस्टिंग्स", "लॉर्ड कॉर्नवालिस", "लॉर्ड वेलेजली", "लॉर्ड विलियम बेंटिक"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_031",
+    "en": {
+      "question": "The Vernacular Press Act was passed during the viceroyalty of:",
+      "options": ["Lord Lytton", "Lord Ripon", "Lord Curzon", "Lord Minto"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "वर्नाक्युलर प्रेस एक्ट किसकी वायसरायशिप के दौरान पारित किया गया था?",
+      "options": ["लॉर्ड लिटन", "लॉर्ड रिपन", "लॉर्ड कर्जन", "लॉर्ड मिंटो"],
+      "answer": 0
+    },
+    "level": 11,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_032",
+    "en": {
+      "question": "The famous slogan 'Inquilab Zindabad' was coined by:",
+      "options": ["Bhagat Singh", "Chandrashekhar Azad", "Muhammad Iqbal", "Hasrat Mohani"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्रसिद्ध नारा 'इंकलाब जिंदाबाद' किसने गढ़ा था?",
+      "options": ["भगत सिंह", "चंद्रशेखर आज़ाद", "मुहम्मद इकबाल", "हसरत मोहानी"],
+      "answer": 3
+    },
+    "level": 11,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_033",
+    "en": {
+      "question": "Which revolutionary was executed for the Kakori Conspiracy Case in 1927?",
+      "options": ["Bhagat Singh", "Ram Prasad Bismil", "Chandrashekhar Azad", "Batukeshwar Dutt"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "1927 में काकोरी षड्यंत्र केस के लिए किस क्रांतिकारी को फांसी दी गई थी?",
+      "options": ["भगत सिंह", "राम प्रसाद बिस्मिल", "चंद्रशेखर आज़ाद", "बटुकेश्वर दत्त"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_034",
+    "en": {
+      "question": "The Indian National Army trials (Red Fort Trials) were held in which year?",
+      "options": ["1945", "1946", "1947", "1948"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय सेना के मुकदमे (लाल किला मुकदमे) किस वर्ष आयोजित किए गए थे?",
+      "options": ["1945", "1946", "1947", "1948"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_035",
+    "en": {
+      "question": "Who was the president of the Indian National Congress at the time of independence?",
+      "options": ["Jawaharlal Nehru", "Maulana Abul Kalam Azad", "J.B. Kripalani", "Sardar Vallabhbhai Patel"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "स्वतंत्रता के समय भारतीय राष्ट्रीय कांग्रेस के अध्यक्ष कौन थे?",
+      "options": ["जवाहरलाल नेहरू", "मौलाना अबुल कलाम आज़ाद", "जे.बी. कृपलानी", "सरदार वल्लभभाई पटेल"],
+      "answer": 2
+    },
+    "level": 11,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_036",
+    "en": {
+      "question": "The Rowlatt Act was passed in which year?",
+      "options": ["1917", "1919", "1921", "1923"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "रौलट एक्ट किस वर्ष पारित किया गया था?",
+      "options": ["1917", "1919", "1921", "1923"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_037",
+    "en": {
+      "question": "The Moplah Rebellion of 1921 took place in which region of India?",
+      "options": ["Bengal", "Punjab", "Malabar", "Maharashtra"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "1921 का मोपला विद्रोह भारत के किस क्षेत्र में हुआ था?",
+      "options": ["बंगाल", "पंजाब", "मालाबार", "महाराष्ट्र"],
+      "answer": 2
+    },
+    "level": 12,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_038",
+    "en": {
+      "question": "Which of the following newspapers was NOT started by Bal Gangadhar Tilak?",
+      "options": ["Kesari", "Maratha", "Young India", "Mahratta"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन सा समाचार पत्र बाल गंगाधर तिलक द्वारा शुरू नहीं किया गया था?",
+      "options": ["केसरी", "मराठा", "यंग इंडिया", "महरत्ता"],
+      "answer": 2
+    },
+    "level": 12,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_039",
+    "en": {
+      "question": "The Lucknow Pact between the Indian National Congress and the Muslim League was signed in which year?",
+      "options": ["1914", "1916", "1919", "1922"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय कांग्रेस और मुस्लिम लीग के बीच लखनऊ समझौता किस वर्ष हस्ताक्षरित हुआ था?",
+      "options": ["1914", "1916", "1919", "1922"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_040",
+    "en": {
+      "question": "Who among the following formed the 'Forward Bloc' as a faction within the Indian National Congress?",
+      "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Sardar Vallabhbhai Patel", "C. Rajagopalachari"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "निम्नलिखित में से किसने भारतीय राष्ट्रीय कांग्रेस के भीतर एक गुट के रूप में 'फॉरवर्ड ब्लॉक' का गठन किया?",
+      "options": ["जवाहरलाल नेहरू", "सुभाष चंद्र बोस", "सरदार वल्लभभाई पटेल", "सी. राजगोपालाचारी"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "history"
+  }
+] 

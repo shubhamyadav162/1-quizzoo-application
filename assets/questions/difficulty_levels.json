@@ -1,0 +1,28 @@
+{
+  "difficulty_levels": [
+    {
+      "id": "easy",
+      "name_en": "Easy",
+      "name_hi": "आसान",
+      "icon": "star",
+      "color": "#36B37E",
+      "points_base": 50
+    },
+    {
+      "id": "medium",
+      "name_en": "Medium",
+      "name_hi": "मध्यम",
+      "icon": "star",
+      "color": "#FFAB00",
+      "points_base": 75
+    },
+    {
+      "id": "hard",
+      "name_en": "Hard",
+      "name_hi": "कठिन",
+      "icon": "star",
+      "color": "#FF5630",
+      "points_base": 100
+    }
+  ]
+} 

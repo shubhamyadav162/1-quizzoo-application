@@ -8,11 +8,16 @@ import {
   SafeAreaView,
   ActivityIndicator,
   Alert,
+  StatusBar as RNStatusBar,
+  Platform,
+  Image,
+  Dimensions,
 } from 'react-native';
 import { useLocalSearchParams, router } from 'expo-router';
 import { MaterialIcons } from '@expo/vector-icons';
-import { StatusBar } from 'expo-status-bar';
 import { Stack } from 'expo-router';
+import { LinearGradient } from 'expo-linear-gradient';
+import { Ionicons } from '@expo/vector-icons';
 
 import { Header } from '@/components/Header';
 import { SimpleSwipeView } from '@/components/SimpleSwipeView';
@@ -20,6 +25,12 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { Colors } from '@/constants/Colors';
 import { useTheme } from '@/app/lib/ThemeContext';
+import ThemedStatusBar from '@/components/ThemedStatusBar';
+import SafeAreaWrapper from '@/components/SafeAreaWrapper';
+import { ContestRules } from '@/components/ContestRules';
+import { GradientHeader } from '@/components/GradientHeader';
+
+const { width } = Dimensions.get('window');
 
 // Update the Contest interface 
 interface Contest {
@@ -29,7 +40,7 @@ interface Contest {
   prizePool: number;
   participants: number;
   maxParticipants: number;
-  startTime?: string;
+  startTime: Date;
   category: string;
   tier: string;
   isPrivate?: boolean;
@@ -38,15 +49,219 @@ interface Contest {
   questionCount?: number;
   duration?: number;
   prizes?: Array<{rank: number, amount: number}>;
-  categories?: string[]; // Optional categories array
-  rules?: string[]; // Optional rules array
-  createdBy?: string; // Optional creator name
-  date?: string; // Optional date
-  time?: string; // Optional time
+  categories: string[];
+  rules: string[];
+  createdBy?: string;
+  date?: string;
+  time?: string;
 }
 
 // Mock contest data with additional properties
 const getContestById = (id: string): Contest | null => {
+  // Standard Tier Contests
+  if (id.startsWith('S')) {
+    const tier = 'Standard';
+    const playerCount = 10;
+    const entryFees = {
+      S1: 10, S2: 25, S3: 50, S4: 100, S5: 250, S6: 500, S7: 1000
+    };
+    const prizePools = {
+      S1: 90, S2: 225, S3: 450, S4: 900, S5: 2250, S6: 4500, S7: 9000
+    };
+    const stakes = {
+      S1: 'Low-Stake', S2: 'Low-Stake', S3: 'Low-Stake', 
+      S4: 'Medium-Stake', S5: 'Medium-Stake', 
+      S6: 'High-Stake', S7: 'High-Stake'
+    };
+    
+    // Determine fee and pool based on ID
+    const fee = entryFees[id as keyof typeof entryFees] || 10;
+    const pool = prizePools[id as keyof typeof prizePools] || 90;
+    const stake = stakes[id as keyof typeof stakes] || 'Low-Stake';
+    
+    // Calculate prize distribution
+    const firstPrize = pool * 0.5;
+    const secondPrize = pool * 0.3;
+    const thirdPrize = pool * 0.2;
+    
+    return {
+      id,
+      name: `${tier} Quiz ${id}`,
+      entryFee: fee,
+      prizePool: pool,
+      participants: Math.floor(Math.random() * playerCount),
+      maxParticipants: playerCount,
+      startTime: new Date(Date.now() + 3600000),
+      category: 'Quiz',
+      tier: stake,
+      description: `Standard format quiz with ${playerCount} players. Answer 10 questions correctly to win.`,
+      questionCount: 10,
+      duration: 60,
+      prizes: [
+        { rank: 1, amount: firstPrize },
+        { rank: 2, amount: secondPrize },
+        { rank: 3, amount: thirdPrize },
+      ],
+      categories: ['General Knowledge', 'Current Affairs', 'Science'],
+      rules: [
+        'Each question has 6 seconds time limit',
+        'No negative marking for wrong answers',
+        'Top 3 players win cash prizes',
+        'Get bonus points for answering quickly'
+      ],
+      createdBy: 'Quizzoo',
+      date: '2023-12-15',
+      time: '20:00',
+    };
+  }
+  
+  // Medium Player Count Contests (20 Players)
+  else if (id.startsWith('M')) {
+    const tier = 'Medium';
+    const playerCount = 20;
+    const entryFees = {
+      M1: 10, M2: 25, M3: 50, M4: 100, M5: 250, M6: 500, M7: 1000
+    };
+    const prizePools = {
+      M1: 180, M2: 450, M3: 900, M4: 1800, M5: 4500, M6: 9000, M7: 18000
+    };
+    
+    // Determine fee and pool based on ID
+    const fee = entryFees[id as keyof typeof entryFees] || 10;
+    const pool = prizePools[id as keyof typeof prizePools] || 180;
+    
+    // Calculate prize distribution
+    const firstPrize = pool * 0.5;
+    const secondPrize = pool * 0.3;
+    const thirdPrize = pool * 0.2;
+    
+    return {
+      id,
+      name: `${tier} Quiz ${id}`,
+      entryFee: fee,
+      prizePool: pool,
+      participants: Math.floor(Math.random() * playerCount),
+      maxParticipants: playerCount,
+      startTime: new Date(Date.now() + 7200000),
+      category: 'Quiz',
+      tier: 'Low-Stake',
+      description: `Medium format quiz with ${playerCount} players. More competition, bigger prizes!`,
+      questionCount: 10,
+      duration: 60,
+      prizes: [
+        { rank: 1, amount: firstPrize },
+        { rank: 2, amount: secondPrize },
+        { rank: 3, amount: thirdPrize },
+      ],
+      categories: ['History', 'Sports', 'Entertainment', 'Technology'],
+      rules: [
+        'Each question has 6 seconds time limit',
+        'No negative marking for wrong answers',
+        'Top 3 players win cash prizes',
+        'Get bonus points for answering quickly'
+      ],
+      createdBy: 'Quizzoo',
+      date: '2023-12-16',
+      time: '19:00',
+    };
+  }
+  
+  // Large Player Count Contests (50 Players)
+  else if (id.startsWith('L')) {
+    const tier = 'Large';
+    const playerCount = 50;
+    const entryFees = {
+      L1: 10, L2: 25, L3: 50, L4: 100, L5: 250, L6: 500, L7: 1000
+    };
+    const prizePools = {
+      L1: 450, L2: 1125, L3: 2250, L4: 4500, L5: 11250, L6: 22500, L7: 45000
+    };
+    
+    // Determine fee and pool based on ID
+    const fee = entryFees[id as keyof typeof entryFees] || 10;
+    const pool = prizePools[id as keyof typeof prizePools] || 450;
+    
+    // Calculate prize distribution
+    const firstPrize = pool * 0.5;
+    const secondPrize = pool * 0.3;
+    const thirdPrize = pool * 0.2;
+    
+    return {
+      id,
+      name: `${tier} Quiz ${id}`,
+      entryFee: fee,
+      prizePool: pool,
+      participants: Math.floor(Math.random() * playerCount),
+      maxParticipants: playerCount,
+      startTime: new Date(Date.now() + 10800000),
+      category: 'Quiz',
+      tier: 'Low-Stake',
+      description: `Large format quiz with ${playerCount} players. Massive player pool with huge prizes!`,
+      questionCount: 10,
+      duration: 60,
+      prizes: [
+        { rank: 1, amount: firstPrize },
+        { rank: 2, amount: secondPrize },
+        { rank: 3, amount: thirdPrize },
+      ],
+      categories: ['General Knowledge', 'Science', 'Literature', 'Geography'],
+      rules: [
+        'Each question has 6 seconds time limit',
+        'No negative marking for wrong answers',
+        'Top 3 players win cash prizes',
+        'Get bonus points for answering quickly'
+      ],
+      createdBy: 'Quizzoo',
+      date: '2023-12-17',
+      time: '18:00',
+    };
+  }
+  
+  // Duel Contests (1v1)
+  else if (id.startsWith('D')) {
+    const tier = 'Duel';
+    const playerCount = 2;
+    const entryFees = {
+      D1: 10, D2: 25, D3: 50, D4: 100, D5: 250, D6: 500, D7: 1000
+    };
+    const prizePools = {
+      D1: 18, D2: 45, D3: 90, D4: 180, D5: 450, D6: 900, D7: 1800
+    };
+    
+    // Determine fee and pool based on ID
+    const fee = entryFees[id as keyof typeof entryFees] || 10;
+    const pool = prizePools[id as keyof typeof prizePools] || 18;
+    
+    return {
+      id,
+      name: `${tier} Quiz ${id}`,
+      entryFee: fee,
+      prizePool: pool,
+      participants: Math.floor(Math.random() * 2),
+      maxParticipants: playerCount,
+      startTime: new Date(Date.now() + 1800000),
+      category: 'Quiz',
+      tier: 'Duel',
+      description: `One-on-one duel format. Go head to head with another player for the win!`,
+      questionCount: 10,
+      duration: 60,
+      prizes: [
+        { rank: 1, amount: pool },
+      ],
+      categories: ['Mixed Topics'],
+      rules: [
+        'Each question has 6 seconds time limit',
+        'No negative marking for wrong answers',
+        'Winner takes all',
+        'Get bonus points for answering quickly'
+      ],
+      createdBy: 'Quizzoo',
+      date: '2023-12-18',
+      time: '20:00',
+    };
+  }
+
+  // For any other ID, fall back to the original data
   const CONTESTS: Contest[] = [
     {
       id: '1',
@@ -55,7 +270,7 @@ const getContestById = (id: string): Contest | null => {
       prizePool: 900,
       participants: 100,
       maxParticipants: 100,
-      startTime: new Date().toISOString(),
+      startTime: new Date(),
       category: 'General Knowledge',
       tier: 'Low-Stake',
       description: 'Test your general knowledge with our daily quiz challenge! Answer 10 questions correctly and win exciting prizes.',
@@ -84,7 +299,7 @@ const getContestById = (id: string): Contest | null => {
       prizePool: 4500,
       participants: 75,
       maxParticipants: 100,
-      startTime: new Date(Date.now() + 30 * 60000).toISOString(),
+      startTime: new Date(Date.now() + 30 * 60000),
       category: 'Sports',
       tier: 'Medium-Stake',
       description: 'Put your sports knowledge to the test and win exciting prizes!',
@@ -113,7 +328,7 @@ const getContestById = (id: string): Contest | null => {
       prizePool: 9000,
       participants: 45,
       maxParticipants: 100,
-      startTime: new Date(Date.now() + 60 * 60000).toISOString(),
+      startTime: new Date(Date.now() + 60 * 60000),
       category: 'Science',
       tier: 'High-Stake',
       description: 'The ultimate science quiz for the brainiacs! Show your knowledge and win big!',
@@ -142,7 +357,7 @@ const getContestById = (id: string): Contest | null => {
       prizePool: 2250,
       participants: 36,
       maxParticipants: 100,
-      startTime: new Date(Date.now() + 120 * 60000).toISOString(),
+      startTime: new Date(Date.now() + 120 * 60000),
       category: 'Entertainment',
       tier: 'Low-Stake',
       description: 'Test your movie knowledge and win prizes in this fun quiz!',
@@ -171,7 +386,7 @@ const getContestById = (id: string): Contest | null => {
       prizePool: 6750,
       participants: 28,
       maxParticipants: 100,
-      startTime: new Date(Date.now() + 180 * 60000).toISOString(),
+      startTime: new Date(Date.now() + 180 * 60000),
       category: 'Technology',
       tier: 'Medium-Stake',
       description: 'For tech enthusiasts! Show your knowledge about the latest technologies.',
@@ -198,21 +413,7 @@ const getContestById = (id: string): Contest | null => {
   return CONTESTS.find(contest => contest.id === id) || null;
 };
 
-// Update getTierColor to account for dark mode
-const getTierColor = (tier: string | undefined | null, isDark = false) => {
-  if (!tier) {
-    return isDark ? '#333333' : '#777777'; // Default color if tier is undefined/null
-  }
-  
-  if (tier === 'Low-Stake') {
-    return isDark ? '#538D22' : '#84CC16';
-  } else if (tier === 'Medium-Stake') {
-    return isDark ? '#0369A1' : '#06B6D4';
-  } else {
-    return isDark ? '#A92A67' : '#F63880';
-  }
-};
-
+// Add formatTime function directly to this file
 const formatTime = (timeStr?: string) => {
   if (!timeStr) return 'Starting Soon';
   
@@ -234,443 +435,380 @@ const formatTime = (timeStr?: string) => {
   }
 };
 
+// Update the ContestDetailScreen component
 export default function ContestDetailScreen() {
   const { id } = useLocalSearchParams();
-  const [contest, setContest] = useState<Contest | null>(null);
-  const [walletBalance, setWalletBalance] = useState(100); // Mock wallet balance
+  const { isDark } = useTheme();
+  const contest = getContestById(id as string);
   const [loading, setLoading] = useState(true);
-  const [joining, setJoining] = useState(false);
-  
-  // Get theme information
-  const { colorScheme } = useTheme();
-  const isDark = colorScheme === 'dark';
 
   useEffect(() => {
-    // Fetch contest details
-    if (id) {
-      const contestData = getContestById(id.toString());
-      setContest(contestData);
-      setLoading(false);
-    }
-  }, [id]);
+    setTimeout(() => setLoading(false), 1000);
+  }, []);
 
-  const handleJoinContest = () => {
-    if (!contest) return;
-    
-    if (walletBalance < contest.entryFee) {
-      Alert.alert(
-        "Insufficient Balance",
-        "You don't have enough balance to join this contest. Add money to your wallet?",
-        [
-          { text: "Cancel", style: "cancel" },
-          { text: "Add Money", onPress: () => router.push('/add-money' as any) }
-        ]
-      );
-      return;
-    }
-    
-    // Set joining to true to show loading state
-    setJoining(true);
-    
-    // Navigate immediately - no delay needed
-    router.push(`/game/${contest.id}` as any);
-  };
+  if (!contest) {
+    return (
+      <SafeAreaWrapper>
+        <GradientHeader title="Contest Not Found" />
+        <ThemedView style={styles.container}>
+          <ThemedText>Contest not found.</ThemedText>
+        </ThemedView>
+      </SafeAreaWrapper>
+    );
+  }
 
   if (loading) {
     return (
-      <SafeAreaView style={[styles.loadingContainer, isDark && { backgroundColor: '#121212' }]}>
-        <Stack.Screen
-          options={{
-            title: "Contest Details",
-            headerStyle: {
-              backgroundColor: isDark ? '#1E2A38' : '#FFFFFF',
-            },
-            headerTintColor: isDark ? '#FFFFFF' : '#000000',
-          }}
-        />
-        <ActivityIndicator size="large" color={isDark ? '#4CAF50' : '#3E7BFA'} />
-        <ThemedText style={styles.loadingText}>Loading contest details...</ThemedText>
-      </SafeAreaView>
+      <SafeAreaWrapper>
+        <GradientHeader title="Loading..." />
+        <ThemedView style={styles.loadingContainer}>
+          <ActivityIndicator size="large" color={Colors.primary} />
+        </ThemedView>
+      </SafeAreaWrapper>
     );
   }
 
   return (
-    <SafeAreaView style={[styles.container, isDark && { backgroundColor: '#121212' }]}>
-      <Stack.Screen
-        options={{
-          title: "Contest Details",
-          headerStyle: {
-            backgroundColor: isDark ? '#1E2A38' : '#FFFFFF',
-          },
-          headerTintColor: isDark ? '#FFFFFF' : '#000000',
-        }}
+    <SafeAreaWrapper>
+      <ThemedStatusBar
+        backgroundColor="transparent"
+        translucent={true}
+        barStyle={isDark ? 'light-content' : 'light-content'}
       />
-      <StatusBar style={isDark ? "light" : "dark"} />
-      
-      <ScrollView style={styles.scrollContent} showsVerticalScrollIndicator={false}>
-        <ThemedView style={[styles.header, isDark && { backgroundColor: '#1E2A38' }]} backgroundType="card">
-          <View style={styles.tierBadge}>
-            <View style={[
-              styles.tierBadgeInner, 
-              { backgroundColor: getTierColor(contest?.tier, isDark) }
-            ]}>
-              <ThemedText style={styles.tierText}>{contest?.tier}</ThemedText>
-            </View>
-          </View>
-          
-          <ThemedText style={[styles.contestTitle, isDark && { color: '#fff' }]}>{contest?.name}</ThemedText>
-          
-          <View style={styles.contestCreator}>
-            <MaterialIcons name="verified" size={16} color="#4CAF50" style={styles.verifiedIcon} />
-            <ThemedText style={[styles.creatorText, isDark && { color: '#ddd' }]}>By {contest?.createdBy}</ThemedText>
-          </View>
-          
-          <View style={styles.dateTimeContainer}>
-            <View style={styles.dateTimeItem}>
-              <MaterialIcons name="event" size={16} color={isDark ? '#aaa' : '#666'} style={styles.dateTimeIcon} />
-              <ThemedText style={[styles.dateTimeText, isDark && { color: '#aaa' }]}>{contest?.date}</ThemedText>
-            </View>
-            <View style={styles.dateTimeItem}>
-              <MaterialIcons name="schedule" size={16} color={isDark ? '#aaa' : '#666'} style={styles.dateTimeIcon} />
-              <ThemedText style={[styles.dateTimeText, isDark && { color: '#aaa' }]}>{contest?.time}</ThemedText>
-            </View>
-            <View style={styles.dateTimeItem}>
-              <MaterialIcons name="timer" size={16} color={isDark ? '#aaa' : '#666'} style={styles.dateTimeIcon} />
-              <ThemedText style={[styles.dateTimeText, isDark && { color: '#aaa' }]}>{contest?.duration} min</ThemedText>
-            </View>
-          </View>
-        </ThemedView>
-        
-        <ThemedView style={[styles.statsContainer, isDark && { backgroundColor: '#1E2A38' }]} backgroundType="card">
-          <View style={styles.statItem}>
-            <MaterialIcons name="attach-money" size={24} color="#4CAF50" />
-            <ThemedText style={[styles.statValue, isDark && { color: '#fff' }]}>₹{contest?.entryFee}</ThemedText>
-            <ThemedText style={[styles.statLabel, isDark && { color: '#aaa' }]}>Entry Fee</ThemedText>
-          </View>
-          
-          <View style={[styles.statDivider, isDark && { backgroundColor: 'rgba(255,255,255,0.1)' }]} />
-          
-          <View style={styles.statItem}>
-            <MaterialIcons name="emoji-events" size={24} color="#FFD700" />
-            <ThemedText style={[styles.statValue, isDark && { color: '#fff' }]}>₹{contest?.prizePool}</ThemedText>
-            <ThemedText style={[styles.statLabel, isDark && { color: '#aaa' }]}>Prize Pool</ThemedText>
-          </View>
-          
-          <View style={[styles.statDivider, isDark && { backgroundColor: 'rgba(255,255,255,0.1)' }]} />
-          
-          <View style={styles.statItem}>
-            <MaterialIcons name="people" size={24} color="#3E7BFA" />
-            <ThemedText style={[styles.statValue, isDark && { color: '#fff' }]}>{contest?.participants}/{contest?.maxParticipants}</ThemedText>
-            <ThemedText style={[styles.statLabel, isDark && { color: '#aaa' }]}>Participants</ThemedText>
-          </View>
-        </ThemedView>
-        
-        <ThemedText style={[styles.sectionTitle, isDark && { color: '#fff' }]}>Description</ThemedText>
-        
-        <ThemedView style={[styles.descriptionContainer, isDark && { backgroundColor: '#1E2A38' }]} backgroundType="card">
-          <ThemedText style={[styles.descriptionText, isDark && { color: '#ddd' }]}>{contest?.description}</ThemedText>
-          
-          <View style={styles.categoryContainer}>
-            {contest?.categories && Array.isArray(contest.categories) ? 
-              contest.categories.map((category, index) => (
-                <View key={index} style={[styles.categoryBadge, isDark && { backgroundColor: 'rgba(255,255,255,0.1)' }]}>
-                  <ThemedText style={styles.categoryText}>{category}</ThemedText>
+      <GradientHeader 
+        title={contest.name}
+        rightComponent={
+          <TouchableOpacity onPress={() => Alert.alert('Share', 'Share contest functionality coming soon!')}>
+            <Ionicons 
+              name="share-social" 
+              size={24} 
+              color={isDark ? Colors.dark.text : '#fff'} 
+            />
+          </TouchableOpacity>
+        }
+      />
+      <ScrollView style={[styles.container, { backgroundColor: isDark ? Colors.dark.background : Colors.light.background }]}>
+        {/* Contest Header with Gradient */}
+        <LinearGradient
+          colors={['#4338CA', '#6366F1']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[styles.headerGradient, { paddingTop: 0 }]}
+        >
+          <SafeAreaWrapper style={{ paddingHorizontal: 0 }} withoutBottom>
+            <View style={styles.headerContent}>
+              <TouchableOpacity 
+                style={styles.backButton}
+                onPress={() => router.back()}
+              >
+                <Ionicons name="arrow-back" size={24} color="#FFFFFF" />
+              </TouchableOpacity>
+              
+              <View style={styles.headerInfo}>
+                <Text style={styles.contestType}>{contest.tier.toUpperCase()} CONTEST</Text>
+                <Text style={styles.contestTitle}>{contest.name}</Text>
+                <View style={styles.categoriesRow}>
+                  {contest.categories && contest.categories.map((category, index) => (
+                    <View key={index} style={styles.categoryPill}>
+                      <Text style={styles.categoryText}>{category}</Text>
+                    </View>
+                  ))}
                 </View>
-              )) : null
-            }
+              </View>
+            </View>
+          </SafeAreaWrapper>
+        </LinearGradient>
+        
+        {/* Contest Details */}
+        <View style={[styles.detailsContainer, { backgroundColor: isDark ? '#1F2937' : '#FFFFFF' }]}>
+          {/* Prize Pool Info */}
+          <View style={styles.prizesContainer}>
+            <View style={styles.prizePoolSection}>
+              <Text style={[styles.sectionLabel, { color: isDark ? '#A1A1AA' : '#6B7280' }]}>Prize Pool</Text>
+              <Text style={[styles.prizePoolValue, { color: isDark ? '#FFFFFF' : '#111827' }]}>₹{contest.prizePool}</Text>
           </View>
-        </ThemedView>
-        
-        <ThemedText style={[styles.sectionTitle, isDark && { color: '#fff' }]}>Quiz Details</ThemedText>
-        
-        <ThemedView style={[styles.detailsContainer, isDark && { backgroundColor: '#1E2A38' }]} backgroundType="card">
-          <ThemedText style={[styles.rulesTitle, isDark && { color: '#fff' }]}>Rules:</ThemedText>
           
-          {contest?.rules && Array.isArray(contest.rules) ? 
-            contest.rules.map((rule, index) => (
-              <View key={index} style={styles.ruleItem}>
-                <MaterialIcons name="check-circle" size={16} color="#4CAF50" style={styles.ruleIcon} />
-                <ThemedText style={[styles.ruleText, isDark && { color: '#ddd' }]}>{rule}</ThemedText>
-              </View>
-            )) : (
-              <ThemedText style={[styles.ruleText, isDark && { color: '#ddd' }]}>No specific rules for this contest.</ThemedText>
-            )
-          }
-        </ThemedView>
-        
-        <ThemedText style={[styles.sectionTitle, isDark && { color: '#fff' }]}>Prize Distribution</ThemedText>
-        
-        <ThemedView style={[styles.prizesContainer, isDark && { backgroundColor: '#1E2A38' }]} backgroundType="card">
-          {contest?.prizes && contest.prizes.length > 0 ? (
-            contest.prizes.map((prize, index) => (
-              <View key={index} style={[styles.prizeRow, isDark && { borderBottomColor: 'rgba(255,255,255,0.1)' }]}>
-                <View style={[styles.rankBadge, { backgroundColor: getTierColor(contest.tier || '', isDark) }]}>
-                  <ThemedText style={styles.rankText}>#{prize.rank}</ThemedText>
+            <View style={styles.prizeDistribution}>
+              {contest.prizes && contest.prizes.map((prize, index) => (
+                <View key={index} style={styles.prizeItem}>
+                  <Text style={[styles.prizeRank, { color: isDark ? '#A1A1AA' : '#6B7280' }]}>
+                    {index === 0 ? '🥇' : index === 1 ? '🥈' : '🥉'} {index + 1} Place:
+                  </Text>
+                  <Text style={[styles.prizeValue, { color: isDark ? '#22C55E' : '#16A34A' }]}>₹{prize.amount}</Text>
                 </View>
-                <ThemedText style={[styles.prizeAmount, isDark && { color: '#fff' }]}>₹{prize.amount}</ThemedText>
-              </View>
-            ))
-          ) : (
-            <ThemedText style={[styles.noPrizesText, isDark && { color: '#ddd' }]}>
-              Prize information not available.
-            </ThemedText>
-          )}
-        </ThemedView>
-      </ScrollView>
-      
-      <View style={[styles.bottomBar, isDark && { backgroundColor: '#1E2A38' }]}>
-        <View style={styles.entryFeeContainer}>
-          <ThemedText style={[styles.entryFeeLabel, isDark && { color: '#aaa' }]}>Entry Fee</ThemedText>
-          <ThemedText style={[styles.entryFeeValue, isDark && { color: '#fff' }]}>₹{contest?.entryFee}</ThemedText>
+              ))}
+            </View>
+          </View>
+          
+          {/* Participants Progress */}
+          <View style={styles.participantsSection}>
+            <View style={styles.participantsHeader}>
+              <Text style={[styles.sectionLabel, { color: isDark ? '#A1A1AA' : '#6B7280' }]}>Participants</Text>
+              <Text style={[styles.participantsCount, { color: isDark ? '#FFFFFF' : '#111827' }]}>
+                {contest.participants}/{contest.maxParticipants}
+              </Text>
+            </View>
+            
+            <View style={[styles.progressBarContainer, { backgroundColor: isDark ? '#374151' : '#E5E7EB' }]}>
+              <LinearGradient
+                colors={['#22C55E', '#16A34A']}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                style={[
+                  styles.progressBarFill,
+                  { width: '100%' }
+                ]}
+              />
+            </View>
+          </View>
+          
+          {/* Contest Start Info */}
+          <View style={styles.startInfoSection}>
+            <View style={styles.startTimeContainer}>
+              <Text style={[styles.sectionLabel, { color: isDark ? '#A1A1AA' : '#6B7280' }]}>
+                Starts In
+              </Text>
+              <Text style={[styles.startTimeValue, { color: isDark ? '#FFFFFF' : '#111827' }]}>
+                {formatTime(contest.time)}
+              </Text>
         </View>
         
-        <TouchableOpacity
-          style={[styles.joinButton, { backgroundColor: getTierColor(contest?.tier, isDark) }]}
-          onPress={handleJoinContest}
-        >
-          <ThemedText style={styles.joinButtonText}>Join Contest</ThemedText>
-          <MaterialIcons name="arrow-forward" size={20} color="#FFFFFF" />
-        </TouchableOpacity>
-      </View>
-    </SafeAreaView>
+            <View style={styles.entryFeeContainer}>
+              <Text style={[styles.sectionLabel, { color: isDark ? '#A1A1AA' : '#6B7280' }]}>
+                Entry Fee
+              </Text>
+              <Text style={[styles.entryFeeValue, { color: isDark ? '#FFFFFF' : '#111827' }]}>
+                ₹{contest.entryFee}
+              </Text>
+            </View>
+        </View>
+        
+          {/* Contest Info */}
+          <View style={styles.contestInfoSection}>
+            <View style={styles.infoRow}>
+              <View style={styles.infoItem}>
+                <Ionicons name="help-circle" size={20} color={isDark ? '#A1A1AA' : '#6B7280'} />
+                <Text style={[styles.infoText, { color: isDark ? '#FFFFFF' : '#111827' }]}>
+                  {contest.questionCount} Questions
+                </Text>
+              </View>
+              <View style={styles.infoItem}>
+                <Ionicons name="time" size={20} color={isDark ? '#A1A1AA' : '#6B7280'} />
+                <Text style={[styles.infoText, { color: isDark ? '#FFFFFF' : '#111827' }]}>
+                  {contest.duration} seconds total
+                </Text>
+              </View>
+            </View>
+          </View>
+          
+          {/* Contest Rules */}
+          <ContestRules rules={contest.rules || []} isDark={isDark} />
+          
+          {/* Join Button */}
+          <View style={styles.joinButtonContainer}>
+            <TouchableOpacity 
+              style={styles.joinButton}
+              onPress={() => {
+                const poolId = typeof id === 'string' ? id.toUpperCase() : Array.isArray(id) ? id[0].toUpperCase() : 'S1';
+                console.log('Starting quiz for contest pool:', poolId);
+                
+                try {
+                  // Using relative link format
+                  router.push({
+                    pathname: "../game/[id]", 
+                    params: { 
+                      id: "quiz",
+                      contestId: poolId, 
+                      poolId: poolId, 
+                      mode: "contest", 
+                      difficulty: "medium" 
+                    }
+                  });
+                } catch (error) {
+                  console.error("Navigation error:", error);
+                  Alert.alert("Navigation Error", "Could not start the quiz. Please try again.");
+                }
+              }}
+            >
+              <Text style={styles.joinButtonText}>Join Contest</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaWrapper>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFFFFF",
   },
-  loadingContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#FFFFFF",
+  contentContainer: {
+    paddingBottom: 30,
   },
-  loadingText: {
-    marginTop: 10,
-    fontSize: 16,
+  headerGradient: {
+    width: '100%',
+    paddingBottom: 30,
   },
-  scrollContent: {
-    flex: 1,
-    padding: 16,
+  headerContent: {
+    paddingHorizontal: 16,
   },
-  header: {
-    padding: 16,
-    borderRadius: 12,
-    marginBottom: 16,
-    backgroundColor: "#FFFFFF",
-    elevation: 2,
-  },
-  tierBadge: {
-    alignSelf: "flex-start",
-    marginBottom: 8,
-  },
-  tierBadgeInner: {
-    paddingHorizontal: 12,
-    paddingVertical: 4,
+  backButton: {
+    width: 40,
+    height: 40,
     borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 16,
   },
-  tierText: {
-    color: "#FFFFFF",
-    fontWeight: "bold",
-    fontSize: 12,
+  headerInfo: {
+    marginBottom: 10,
+  },
+  contestType: {
+    color: '#FFFFFF',
+    opacity: 0.9,
+    fontSize: 14,
+    fontWeight: '500',
+    marginBottom: 8,
   },
   contestTitle: {
-    fontSize: 22,
-    fontWeight: "bold",
-    marginBottom: 8,
-  },
-  contestCreator: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 12,
-  },
-  verifiedIcon: {
-    marginRight: 4,
-  },
-  creatorText: {
-    fontSize: 14,
-    color: "#555555",
-  },
-  dateTimeContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: 8,
-  },
-  dateTimeItem: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  dateTimeIcon: {
-    marginRight: 4,
-  },
-  dateTimeText: {
-    fontSize: 13,
-    color: "#666666",
-  },
-  statsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    padding: 16,
-    borderRadius: 12,
+    color: '#FFFFFF',
+    fontSize: 28,
+    fontWeight: 'bold',
     marginBottom: 16,
-    backgroundColor: "#FFFFFF",
-    elevation: 2,
   },
-  statItem: {
-    flex: 1,
-    alignItems: "center",
+  categoriesRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
   },
-  statValue: {
-    fontSize: 18,
-    fontWeight: "bold",
-    marginTop: 4,
-  },
-  statLabel: {
-    fontSize: 12,
-    color: "#666666",
-    marginTop: 2,
-  },
-  statDivider: {
-    width: 1,
-    height: "80%",
-    backgroundColor: "#EEEEEE",
-    alignSelf: "center",
-  },
-  sectionTitle: {
-    fontSize: 18,
-    fontWeight: "bold",
-    marginTop: 8,
-    marginBottom: 12,
-    paddingHorizontal: 4,
-  },
-  descriptionContainer: {
-    padding: 16,
+  categoryPill: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
     borderRadius: 12,
-    marginBottom: 16,
-    backgroundColor: "#FFFFFF",
-    elevation: 2,
-  },
-  descriptionText: {
-    fontSize: 14,
-    lineHeight: 20,
-    color: "#444444",
-  },
-  categoryContainer: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    marginTop: 12,
-  },
-  categoryBadge: {
-    backgroundColor: "#F0F0F0",
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderRadius: 16,
     marginRight: 8,
     marginBottom: 8,
   },
   categoryText: {
+    color: '#FFFFFF',
     fontSize: 12,
-    color: "#444444",
+    fontWeight: '500',
   },
   detailsContainer: {
-    padding: 16,
-    borderRadius: 12,
-    marginBottom: 16,
-    backgroundColor: "#FFFFFF",
-    elevation: 2,
-  },
-  rulesTitle: {
-    fontSize: 16,
-    fontWeight: "bold",
-    marginBottom: 12,
-  },
-  ruleItem: {
-    flexDirection: "row",
-    alignItems: "flex-start",
-    marginBottom: 8,
-  },
-  ruleIcon: {
-    marginRight: 8,
-    marginTop: 2,
-  },
-  ruleText: {
-    fontSize: 14,
-    flex: 1,
-    color: "#444444",
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    marginTop: -20,
+    paddingHorizontal: 16,
+    paddingTop: 24,
   },
   prizesContainer: {
-    padding: 16,
-    borderRadius: 12,
-    marginBottom: 100, // To ensure scroll view content isn't hidden behind bottom bar
-    backgroundColor: "#FFFFFF",
-    elevation: 2,
+    marginBottom: 24,
   },
-  prizeRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingVertical: 12,
+  prizePoolSection: {
+    marginBottom: 16,
   },
-  rankBadge: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    justifyContent: "center",
-    alignItems: "center",
-    marginRight: 12,
-  },
-  rankText: {
-    color: "#FFFFFF",
-    fontWeight: "bold",
+  sectionLabel: {
     fontSize: 14,
+    marginBottom: 8,
   },
-  prizeAmount: {
+  prizePoolValue: {
+    fontSize: 28,
+    fontWeight: 'bold',
+  },
+  prizeDistribution: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  prizeItem: {
+    alignItems: 'center',
+  },
+  prizeRank: {
+    fontSize: 14,
+    marginBottom: 4,
+  },
+  prizeValue: {
     fontSize: 18,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
-  noPrizesText: {
-    fontSize: 14,
-    color: "#666666",
-    textAlign: "center",
+  participantsSection: {
+    marginBottom: 24,
   },
-  bottomBar: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: 16,
-    backgroundColor: "#FFFFFF",
-    borderTopWidth: 1,
-    borderTopColor: "#EEEEEE",
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
+  participantsHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  participantsCount: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  progressBarContainer: {
+    height: 8,
+    borderRadius: 4,
+    overflow: 'hidden',
+  },
+  progressBarFill: {
+    height: '100%',
+    borderRadius: 4,
+  },
+  startInfoSection: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 24,
+  },
+  startTimeContainer: {
+    flex: 1,
+  },
+  startTimeValue: {
+    fontSize: 20,
+    fontWeight: 'bold',
   },
   entryFeeContainer: {
     flex: 1,
-  },
-  entryFeeLabel: {
-    fontSize: 12,
-    color: "#666666",
+    alignItems: 'flex-end',
   },
   entryFeeValue: {
-    fontSize: 18,
-    fontWeight: "bold",
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  contestInfoSection: {
+    marginBottom: 24,
+  },
+  infoRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  infoItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  infoText: {
+    fontSize: 16,
+    marginLeft: 8,
+  },
+  joinButtonContainer: {
+    marginTop: 16,
+    marginBottom: 16,
   },
   joinButton: {
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    paddingVertical: 12,
-    paddingHorizontal: 24,
-    borderRadius: 24,
-    backgroundColor: "#3E7BFA",
+    borderRadius: 12,
+    overflow: 'hidden',
+    shadowColor: '#22C55E',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
   },
   joinButtonText: {
-    color: "#FFFFFF",
-    fontWeight: "bold",
-    marginRight: 8,
-    fontSize: 16,
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 }); 

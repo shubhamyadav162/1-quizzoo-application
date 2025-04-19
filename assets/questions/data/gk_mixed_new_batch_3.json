@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "GK5201",
+    "en": {
+      "question": "Who is credited with discovering America?",
+      "options": [
+        "Ferdinand Magellan",
+        "Vasco da Gama",
+        "Christopher Columbus",
+        "James Cook"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अमेरिका की खोज का श्रेय किसे दिया जाता है?",
+      "options": [
+        "फर्डिनेंड मैगलन",
+        "वास्को डी गामा",
+        "क्रिस्टोफर कोलंबस",
+        "जेम्स कुक"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5202",
+    "en": {
+      "question": "What is the name for a baby horse?",
+      "options": [
+        "Foal",
+        "Calf",
+        "Lamb",
+        "Pup"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "घोड़े के बच्चे का नाम क्या है?",
+      "options": [
+        "बछेड़ा",
+        "बछड़ा",
+        "मेमना",
+        "पिल्ला"
+      ],
+      "answer": 0
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5203",
+    "en": {
+      "question": "What is the main source of Vitamin C?",
+      "options": [
+        "Milk",
+        "Eggs",
+        "Oranges",
+        "Bread"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विटामिन सी का मुख्य स्रोत क्या है?",
+      "options": [
+        "दूध",
+        "अंडे",
+        "संतरे",
+        "ब्रेड"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_nutrition"
+  },
+  {
+    "id": "GK5205",
+    "en": {
+      "question": "Which instrument is used to make objects appear larger?",
+      "options": [
+        "Telescope",
+        "Microscope",
+        "Binoculars",
+        "Barometer"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "वस्तुओं को बड़ा दिखाने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "टेलीस्कोप",
+        "माइक्रोस्कोप",
+        "दूरबीन",
+        "बैरोमीटर"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5206",
+    "en": {
+      "question": "What is the name of the longest bone in the human arm?",
+      "options": [
+        "Radius",
+        "Ulna",
+        "Humerus",
+        "Femur"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव बांह की सबसे लंबी हड्डी का नाम क्या है?",
+      "options": [
+        "त्रिज्या (Radius)",
+        "अंतःप्रकोष्ठिका (Ulna)",
+        "प्रगंडिका (Humerus)",
+        "फीमर (Femur)"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5208",
+    "en": {
+      "question": "What is the main language spoken in Italy?",
+      "options": [
+        "French",
+        "German",
+        "Italian",
+        "Spanish"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इटली में बोली जाने वाली मुख्य भाषा क्या है?",
+      "options": [
+        "फ्रेंच",
+        "जर्मन",
+        "इतालवी",
+        "स्पेनिश"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5209",
+    "en": {
+      "question": "Which large cat is known for its spots?",
+      "options": [
+        "Lion",
+        "Tiger",
+        "Jaguar",
+        "Leopard"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी बड़ी बिल्ली अपने धब्बों के लिए जानी जाती है?",
+      "options": [
+        "शेर",
+        "बाघ",
+        "जगुआर",
+        "तेंदुआ"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5210",
+    "en": {
+      "question": "What is the term for the preserved remains of ancient organisms?",
+      "options": [
+        "Rocks",
+        "Minerals",
+        "Fossils",
+        "Artifacts"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "प्राचीन जीवों के संरक्षित अवशेषों के लिए क्या शब्द है?",
+      "options": [
+        "चट्टानें",
+        "खनिज",
+        "जीवाश्म",
+        "कलाकृतियाँ"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "paleontology"
+  },
+  {
+    "id": "GK5212",
+    "en": {
+      "question": "Which Indian festival is known as the festival of lights?",
+      "options": [
+        "Holi",
+        "Diwali",
+        "Navratri",
+        "Eid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा भारतीय त्योहार रोशनी के त्योहार के रूप में जाना जाता है?",
+      "options": [
+        "होली",
+        "दिवाली",
+        "नवरात्रि",
+        "ईद"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK5214",
+    "en": {
+      "question": "Which gas gives plants their green color?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Chlorophyll (pigment, not gas)",
+        "Carbon Dioxide"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी गैस पौधों को उनका हरा रंग देती है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "क्लोरोफिल (वर्णक, गैस नहीं)",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5215",
+    "en": {
+      "question": "Who wrote 'Don Quixote'?",
+      "options": [
+        "Gabriel Garcia Marquez",
+        "Miguel de Cervantes",
+        "Jorge Luis Borges",
+        "Pablo Neruda"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'डॉन क्विक्सोट' किसने लिखा?",
+      "options": [
+        "गैब्रियल गार्सिया मार्केज़",
+        "मिगुएल डे सर्वेंट्स",
+        "जॉर्ज लुइस बोर्गेस",
+        "पाब्लो नेरुदा"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5216",
+    "en": {
+      "question": "What is the currency of South Africa?",
+      "options": [
+        "Dollar",
+        "Euro",
+        "Rand",
+        "Peso"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "दक्षिण अफ्रीका की मुद्रा क्या है?",
+      "options": [
+        "डॉलर",
+        "यूरो",
+        "रैंड",
+        "पेसो"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5217",
+    "en": {
+      "question": "What is the name for a baby cow?",
+      "options": [
+        "Calf",
+        "Lamb",
+        "Foal",
+        "Kitten"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "गाय के बच्चे का नाम क्या है?",
+      "options": [
+        "बछड़ा",
+        "मेमना",
+        "बछेड़ा",
+        "बिल्ली का बच्चा"
+      ],
+      "answer": 0
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5222",
+    "en": {
+      "question": "What is the common name for H2O?",
+      "options": [
+        "Salt",
+        "Sugar",
+        "Water",
+        "Vinegar"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "H2O का सामान्य नाम क्या है?",
+      "options": [
+        "नमक",
+        "चीनी",
+        "पानी",
+        "सिरका"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5223",
+    "en": {
+      "question": "Which continent is home to the Amazon rainforest?",
+      "options": [
+        "Africa",
+        "Asia",
+        "South America",
+        "North America"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अमेज़ॅन वर्षावन किस महाद्वीप में स्थित है?",
+      "options": [
+        "अफ्रीका",
+        "एशिया",
+        "दक्षिण अमेरिका",
+        "उत्तरी अमेरिका"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5224",
+    "en": {
+      "question": "What is the national sport of Japan?",
+      "options": [
+        "Baseball",
+        "Judo",
+        "Sumo Wrestling",
+        "Karate"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जापान का राष्ट्रीय खेल क्या है?",
+      "options": [
+        "बेसबॉल",
+        "जूडो",
+        "सूमो कुश्ती",
+        "कराटे"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "sports"
+  },
+  {
+    "id": "GK5225",
+    "en": {
+      "question": "Who painted the 'Girl with a Pearl Earring'?",
+      "options": [
+        "Rembrandt",
+        "Johannes Vermeer",
+        "Peter Paul Rubens",
+        "Jan van Eyck"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'गर्ल विद ए पर्ल इयरिंग' किसने चित्रित किया?",
+      "options": [
+        "रेम्ब्रांट",
+        "जोहान्स वर्मीर",
+        "पीटर पॉल रूबेन्स",
+        "जान वैन आइक"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5226",
+    "en": {
+      "question": "What is the opposite of 'light' (referring to illumination)?",
+      "options": [
+        "Heavy",
+        "Bright",
+        "Dark",
+        "Dim"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'प्रकाश' (रोशनी के संदर्भ में) का विपरीत क्या है?",
+      "options": [
+        "भारी",
+        "उज्ज्वल",
+        "अंधेरा",
+        "मंद"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "language_basics"
+  },
+  {
+    "id": "GK5227",
+    "en": {
+      "question": "Which animal is the tallest land mammal?",
+      "options": [
+        "Elephant",
+        "Giraffe",
+        "Rhino",
+        "Hippo"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सबसे लंबा स्थलीय स्तनपायी कौन सा जानवर है?",
+      "options": [
+        "हाथी",
+        "जिराफ",
+        "गैंडा",
+        "दरियाई घोड़ा"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5228",
+    "en": {
+      "question": "What type of energy is stored in a battery?",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Chemical energy",
+        "Thermal energy"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "बैटरी में किस प्रकार की ऊर्जा संग्रहीत होती है?",
+      "options": [
+        "गतिज ऊर्जा",
+        "स्थितिज ऊर्जा",
+        "रासायनिक ऊर्जा",
+        "तापीय ऊर्जा"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "physics_energy"
+  },
+  {
+    "id": "GK5230",
+    "en": {
+      "question": "What is the main ingredient in traditional Mexican tortillas?",
+      "options": [
+        "Wheat flour",
+        "Rice flour",
+        "Corn flour (Masa harina)",
+        "Potato flour"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पारंपरिक मैक्सिकन टॉर्टिला में मुख्य सामग्री क्या है?",
+      "options": [
+        "गेहूं का आटा",
+        "चावल का आटा",
+        "मकई का आटा (मासा हरिना)",
+        "आलू का आटा"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_food"
+  },
+  {
+    "id": "GK5231",
+    "en": {
+      "question": "Which Mughal emperor built the Taj Mahal?",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan",
+        "Aurangzeb"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस मुगल सम्राट ने ताज महल बनवाया था?",
+      "options": [
+        "अकबर",
+        "जहाँगीर",
+        "शाहजहाँ",
+        "औरंगजेब"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK5232",
+    "en": {
+      "question": "What is the name for a baby goose?",
+      "options": [
+        "Duckling",
+        "Gosling",
+        "Chick",
+        "Cygnet"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हंस के बच्चे का नाम क्या है?",
+      "options": [
+        "बत्तख का बच्चा",
+        "बत्तख का बच्चा (Goose)",
+        "चूजा",
+        "हंसशावक (Swan)"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5233",
+    "en": {
+      "question": "What does a thermometer measure?",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Humidity",
+        "Wind speed"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "थर्मामीटर क्या मापता है?",
+      "options": [
+        "दबाव",
+        "तापमान",
+        "आर्द्रता",
+        "हवा की गति"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5235",
+    "en": {
+      "question": "Which sense is primarily used to see colors?",
+      "options": [
+        "Hearing",
+        "Touch",
+        "Smell",
+        "Sight"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रंगों को देखने के लिए मुख्य रूप से किस इंद्रिय का उपयोग किया जाता है?",
+      "options": [
+        "श्रवण",
+        "स्पर्श",
+        "गंध",
+        "दृष्टि"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5237",
+    "en": {
+      "question": "Who wrote 'The Great Gatsby'?",
+      "options": [
+        "Ernest Hemingway",
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "John Steinbeck"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'द ग्रेट गैट्सबी' किसने लिखा?",
+      "options": [
+        "अर्नेस्ट हेमिंग्वे",
+        "एफ. स्कॉट फिट्जगेराल्ड",
+        "विलियम फॉकनर",
+        "जॉन स्टीनबेक"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5238",
+    "en": {
+      "question": "What is the process called when water vapor turns into liquid water?",
+      "options": [
+        "Evaporation",
+        "Freezing",
+        "Melting",
+        "Condensation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब जल वाष्प तरल पानी में बदल जाती है तो उस प्रक्रिया को क्या कहा जाता है?",
+      "options": [
+        "वाष्पीकरण",
+        "जमना",
+        "पिघलना",
+        "संघनन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "physics"
+  },
+  {
+    "id": "GK5239",
+    "en": {
+      "question": "Which famous Italian city is known for its canals?",
+      "options": [
+        "Rome",
+        "Florence",
+        "Venice",
+        "Milan"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा प्रसिद्ध इतालवी शहर अपनी नहरों के लिए जाना जाता है?",
+      "options": [
+        "रोम",
+        "फ्लोरेंस",
+        "वेनिस",
+        "मिलान"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5240",
+    "en": {
+      "question": "What is the national tree of India?",
+      "options": [
+        "Mango Tree",
+        "Neem Tree",
+        "Banyan Tree",
+        "Peepal Tree"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय वृक्ष कौन सा है?",
+      "options": [
+        "आम का पेड़",
+        "नीम का पेड़",
+        "बरगद का पेड़",
+        "पीपल का पेड़"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "indian_symbols"
+  },
+  {
+    "id": "GK5241",
+    "en": {
+      "question": "What is the name for a baby pig?",
+      "options": [
+        "Piglet",
+        "Pup",
+        "Calf",
+        "Kid"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "सूअर के बच्चे का नाम क्या है?",
+      "options": [
+        "सूअर का बच्चा",
+        "पिल्ला",
+        "बछड़ा",
+        "बकरी का बच्चा"
+      ],
+      "answer": 0
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5242",
+    "en": {
+      "question": "Which gas is used by plants for photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "प्रकाश संश्लेषण के लिए पौधे किस गैस का उपयोग करते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5247",
+    "en": {
+      "question": "Which is the highest mountain peak in Africa?",
+      "options": [
+        "Mount Kenya",
+        "Mount Stanley",
+        "Mount Kilimanjaro",
+        "Ras Dashen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अफ्रीका की सबसे ऊँची पर्वत चोटी कौन सी है?",
+      "options": [
+        "माउंट केन्या",
+        "माउंट स्टेनली",
+        "माउंट किलिमंजारो",
+        "रस दशेन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5249",
+    "en": {
+      "question": "Which American president is known for the Gettysburg Address?",
+      "options": [
+        "George Washington",
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "Theodore Roosevelt"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा अमेरिकी राष्ट्रपति गेटिसबर्ग एड्रेस के लिए जाना जाता है?",
+      "options": [
+        "जॉर्ज वाशिंगटन",
+        "थॉमस जेफरसन",
+        "अब्राहम लिंकन",
+        "थियोडोर रूजवेल्ट"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5254",
+    "en": {
+      "question": "What color are sapphires usually?",
+      "options": [
+        "Red",
+        "Green",
+        "Yellow",
+        "Blue"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नीलम आमतौर पर किस रंग के होते हैं?",
+      "options": [
+        "लाल",
+        "हरा",
+        "पीला",
+        "नीला"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "geology"
+  },
+  {
+    "id": "GK5255",
+    "en": {
+      "question": "Who composed the 'Moonlight Sonata'?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Franz Schubert"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'मूनलाइट सोनाटा' की रचना किसने की?",
+      "options": [
+        "वोल्फगैंग अमाडेस मोजार्ट",
+        "जोहान सेबेस्टियन बाख",
+        "लुडविग वैन बीथोवेन",
+        "फ्रांज शूबर्ट"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "music_history"
+  },
+  {
+    "id": "GK5257",
+    "en": {
+      "question": "What is the name for a baby swan?",
+      "options": [
+        "Duckling",
+        "Gosling",
+        "Cygnet",
+        "Chick"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हंस (Swan) के बच्चे का नाम क्या है?",
+      "options": [
+        "बत्तख का बच्चा",
+        "बत्तख का बच्चा (Goose)",
+        "हंसशावक",
+        "चूजा"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5258",
+    "en": {
+      "question": "What state of matter is ice?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "बर्फ पदार्थ की कौन सी अवस्था है?",
+      "options": [
+        "ठोस",
+        "तरल",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "answer": 0
+    },
+    "level": 2,
+    "category": "physics"
+  },
+  {
+    "id": "GK5259",
+    "en": {
+      "question": "Which country is known as the 'Land Down Under'?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "Chile",
+        "Australia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस देश को 'लैंड डाउन अंडर' के नाम से जाना जाता है?",
+      "options": [
+        "न्यूजीलैंड",
+        "दक्षिण अफ्रीका",
+        "चिली",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5260",
+    "en": {
+      "question": "What is the study of animals called?",
+      "options": [
+        "Botany",
+        "Geology",
+        "Zoology",
+        "Ecology"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जानवरों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "वनस्पति विज्ञान",
+        "भूविज्ञान",
+        "प्राणीशास्त्र",
+        "पारिस्थितिकी"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_fields"
+  },
+  {
+    "id": "GK5262",
+    "en": {
+      "question": "Which sense allows us to feel textures?",
+      "options": [
+        "Sight",
+        "Hearing",
+        "Smell",
+        "Touch"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें बनावट महसूस करने की अनुमति देती है?",
+      "options": [
+        "दृष्टि",
+        "श्रवण",
+        "गंध",
+        "स्पर्श"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5264",
+    "en": {
+      "question": "Who wrote 'Moby Dick'?",
+      "options": [
+        "Herman Melville",
+        "Nathaniel Hawthorne",
+        "Mark Twain",
+        "Edgar Allan Poe"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'मोबी डिक' किसने लिखा?",
+      "options": [
+        "हरमन मेलविल",
+        "नथानिएल हॉथोर्न",
+        "मार्क ट्वेन",
+        "एडगर एलन पो"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5265",
+    "en": {
+      "question": "What is the name for a baby goat?",
+      "options": [
+        "Lamb",
+        "Kid",
+        "Foal",
+        "Calf"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बकरी के बच्चे का नाम क्या है?",
+      "options": [
+        "मेमना",
+        "बकरी का बच्चा",
+        "बछेड़ा",
+        "बछड़ा"
+      ],
+      "answer": 1
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5268",
+    "en": {
+      "question": "What powers a car?",
+      "options": [
+        "Electricity (sometimes)",
+        "Gasoline/Diesel (usually)",
+        "Water",
+        "Wind"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "एक कार किससे चलती है?",
+      "options": [
+        "बिजली (कभी-कभी)",
+        "गैसोलीन/डीजल (आमतौर पर)",
+        "पानी",
+        "हवा"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "technology_basics"
+  },
+  {
+    "id": "GK5269",
+    "en": {
+      "question": "Which Indian state is famous for the Golden Temple?",
+      "options": [
+        "Rajasthan",
+        "Punjab",
+        "Gujarat",
+        "Haryana"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा भारतीय राज्य स्वर्ण मंदिर के लिए प्रसिद्ध है?",
+      "options": [
+        "राजस्थान",
+        "पंजाब",
+        "गुजरात",
+        "हरियाणा"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "indian_landmarks"
+  },
+  {
+    "id": "GK5270",
+    "en": {
+      "question": "What is the main function of the skin?",
+      "options": [
+        "Digestion",
+        "Protection",
+        "Breathing",
+        "Circulation"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "त्वचा का मुख्य कार्य क्या है?",
+      "options": [
+        "पाचन",
+        "सुरक्षा",
+        "सांस लेना",
+        "रक्त परिसंचरण"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5272",
+    "en": {
+      "question": "Which bird is a symbol of peace?",
+      "options": [
+        "Eagle",
+        "Dove",
+        "Owl",
+        "Crow"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा पक्षी शांति का प्रतीक है?",
+      "options": [
+        "ईगल",
+        "कबूतर",
+        "उल्लू",
+        "कौआ"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "symbols"
+  },
+  {
+    "id": "GK5274",
+    "en": {
+      "question": "Which ancient civilization built Machu Picchu?",
+      "options": [
+        "Maya",
+        "Aztec",
+        "Inca",
+        "Egyptian"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस प्राचीन सभ्यता ने माचू पिचू का निर्माण किया था?",
+      "options": [
+        "माया",
+        "एज़्टेक",
+        "इंका",
+        "मिस्र"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5275",
+    "en": {
+      "question": "What is the name for a baby deer?",
+      "options": [
+        "Fawn",
+        "Colt",
+        "Pup",
+        "Joey"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "हिरण के बच्चे का नाम क्या है?",
+      "options": [
+        "हिरणशावक",
+        "बछेड़ा",
+        "पिल्ला",
+        "जोई"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5277",
+    "en": {
+      "question": "What is the main gas that makes up the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल का निर्माण करने वाली मुख्य गैस कौन सी है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "आर्गन"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5278",
+    "en": {
+      "question": "Who painted 'The Persistence of Memory' (melting clocks)?",
+      "options": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Salvador Dalí"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द पर्सिस्टेंस ऑफ मेमोरी' (पिघलती घड़ियाँ) किसने चित्रित किया?",
+      "options": [
+        "पाब्लो पिकासो",
+        "क्लॉड मोनेट",
+        "विंसेंट वैन गॉग",
+        "साल्वाडोर डाली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5281",
+    "en": {
+      "question": "What is the name for a baby lion?",
+      "options": [
+        "Pup",
+        "Cub",
+        "Kitten",
+        "Fawn"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "शेर के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "शावक",
+        "बिल्ली का बच्चा",
+        "हिरणशावक"
+      ],
+      "answer": 1
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5282",
+    "en": {
+      "question": "What musical instrument has black and white keys?",
+      "options": [
+        "Guitar",
+        "Violin",
+        "Trumpet",
+        "Piano"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस संगीत वाद्ययंत्र में काली और सफेद चाबियाँ होती हैं?",
+      "options": [
+        "गिटार",
+        "वायलिन",
+        "तुरही",
+        "पियानो"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "music"
+  },
+  {
+    "id": "GK5285",
+    "en": {
+      "question": "Which organ pumps blood around the human body?",
+      "options": [
+        "Lungs",
+        "Brain",
+        "Liver",
+        "Heart"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा अंग मानव शरीर में रक्त पंप करता है?",
+      "options": [
+        "फेफड़े",
+        "मस्तिष्क",
+        "यकृत",
+        "हृदय"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5287",
+    "en": {
+      "question": "Who wrote 'War and Peace'?",
+      "options": [
+        "Fyodor Dostoevsky",
+        "Anton Chekhov",
+        "Leo Tolstoy",
+        "Ivan Turgenev"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'वॉर एंड पीस' किसने लिखा?",
+      "options": [
+        "फ्योदोर दोस्तोवस्की",
+        "एंटोन चेखव",
+        "लियो टॉल्स्टॉय",
+        "इवान तुर्गनेव"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5288",
+    "en": {
+      "question": "What is the term for the Earth's movement around the Sun?",
+      "options": [
+        "Rotation",
+        "Revolution",
+        "Orbit",
+        "Axis"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सूर्य के चारों ओर पृथ्वी की गति के लिए क्या शब्द है?",
+      "options": [
+        "घूर्णन",
+        "परिक्रमण",
+        "कक्षा",
+        "धुरी"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5289",
+    "en": {
+      "question": "Which metal is used in thermometers?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Mercury",
+        "Aluminum"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "थर्मामीटर में किस धातु का उपयोग किया जाता है?",
+      "options": [
+        "लोहा",
+        "तांबा",
+        "पारा",
+        "एल्यूमीनियम"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5290",
+    "en": {
+      "question": "What is the name for a baby fox?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Cub",
+        "Fawn"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "लोमड़ी के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "शावक",
+        "हिरणशावक"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5292",
+    "en": {
+      "question": "What is the chemical symbol for Sulfur?",
+      "options": [
+        "S",
+        "Su",
+        "Sf",
+        "Sl"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "सल्फर (Sulfur) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "S",
+        "Su",
+        "Sf",
+        "Sl"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5293",
+    "en": {
+      "question": "Which famous scientist proposed the theory of evolution by natural selection?",
+      "options": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Alfred Russel Wallace"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध वैज्ञानिक ने प्राकृतिक चयन द्वारा विकास के सिद्धांत का प्रस्ताव रखा?",
+      "options": [
+        "ग्रेगर मेंडल",
+        "चार्ल्स डार्विन",
+        "लुई पाश्चर",
+        "अल्फ्रेड रसेल वालेस"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "science_history"
+  },
+  {
+    "id": "GK5294",
+    "en": {
+      "question": "What is the main language spoken in Germany?",
+      "options": [
+        "French",
+        "English",
+        "German",
+        "Dutch"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जर्मनी में बोली जाने वाली मुख्य भाषा क्या है?",
+      "options": [
+        "फ्रेंच",
+        "अंग्रेजी",
+        "जर्मन",
+        "डच"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5295",
+    "en": {
+      "question": "Which part of the body helps us to smell?",
+      "options": [
+        "Eyes",
+        "Ears",
+        "Nose",
+        "Mouth"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "शरीर का कौन सा अंग हमें सूंघने में मदद करता है?",
+      "options": [
+        "आंखें",
+        "कान",
+        "नाक",
+        "मुंह"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5296",
+    "en": {
+      "question": "What is the name for a baby elephant?",
+      "options": [
+        "Calf",
+        "Cub",
+        "Pup",
+        "Foal"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "हाथी के बच्चे का नाम क्या है?",
+      "options": [
+        "बछड़ा",
+        "शावक",
+        "पिल्ला",
+        "बछेड़ा"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5298",
+    "en": {
+      "question": "Which state of matter has a definite shape and volume?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पदार्थ की किस अवस्था का एक निश्चित आकार और आयतन होता है?",
+      "options": [
+        "ठोस",
+        "तरल",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5299",
+    "en": {
+      "question": "Which desert is the largest hot desert in the world?",
+      "options": [
+        "Gobi Desert",
+        "Kalahari Desert",
+        "Arabian Desert",
+        "Sahara Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा गर्म रेगिस्तान कौन सा है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "अरब रेगिस्तान",
+        "सहारा रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5300",
+    "en": {
+      "question": "What is the national fruit of India?",
+      "options": [
+        "Banana",
+        "Mango",
+        "Apple",
+        "Orange"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय फल कौन सा है?",
+      "options": [
+        "केला",
+        "आम",
+        "सेब",
+        "संतरा"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "indian_symbols"
+  }
+]

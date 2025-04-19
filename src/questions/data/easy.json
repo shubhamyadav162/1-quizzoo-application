@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "category": "general",
+    "difficulty": "easy",
+    "language": "hindi",
+    "version": "1.0",
+    "total_questions": 10
+  },
+  "questions": [
+    {
+      "question_id": "gen_easy_001",
+      "text": "भारत का राष्ट्रीय पक्षी कौन सा है?",
+      "options": [
+        "मोर",
+        "कबूतर",
+        "बुलबुल",
+        "तोता"
+      ],
+      "correct_option_index": 0,
+      "explanation": "मोर (पीकॉक) भारत का राष्ट्रीय पक्षी है।",
+      "tags": ["animals", "national_symbols"]
+    },
+    {
+      "question_id": "gen_easy_002",
+      "text": "भारत का राष्ट्रीय पशु कौन सा है?",
+      "options": [
+        "शेर",
+        "बाघ",
+        "हाथी",
+        "गाय"
+      ],
+      "correct_option_index": 1,
+      "explanation": "बाघ (टाइगर) भारत का राष्ट्रीय पशु है।",
+      "tags": ["animals", "national_symbols"]
+    },
+    {
+      "question_id": "gen_easy_003",
+      "text": "भारत का राष्ट्रीय फूल कौन सा है?",
+      "options": [
+        "गुलाब",
+        "कमल",
+        "सूरजमुखी",
+        "गेंदा"
+      ],
+      "correct_option_index": 1,
+      "explanation": "कमल (लोटस) भारत का राष्ट्रीय फूल है।",
+      "tags": ["plants", "national_symbols"]
+    },
+    {
+      "question_id": "gen_easy_004",
+      "text": "भारत की राष्ट्रीय भाषा कौन सी है?",
+      "options": [
+        "हिंदी",
+        "अंग्रेजी",
+        "संस्कृत",
+        "भारत की कोई राष्ट्रीय भाषा नहीं है"
+      ],
+      "correct_option_index": 3,
+      "explanation": "भारत की कोई राष्ट्रीय भाषा नहीं है। हिंदी और अंग्रेजी आधिकारिक भाषाएँ हैं।",
+      "tags": ["language", "politics"]
+    },
+    {
+      "question_id": "gen_easy_005",
+      "text": "भारत का सबसे बड़ा राज्य (क्षेत्रफल के अनुसार) कौन सा है?",
+      "options": [
+        "उत्तर प्रदेश",
+        "राजस्थान",
+        "मध्य प्रदेश",
+        "महाराष्ट्र"
+      ],
+      "correct_option_index": 1,
+      "explanation": "राजस्थान भारत का सबसे बड़ा राज्य है, क्षेत्रफल के अनुसार।",
+      "tags": ["geography", "states"]
+    },
+    {
+      "question_id": "gen_easy_006",
+      "text": "भारत की पहली महिला प्रधानमंत्री कौन थीं?",
+      "options": [
+        "सरोजिनी नायडू",
+        "इंदिरा गांधी",
+        "प्रतिभा पाटिल",
+        "सोनिया गांधी"
+      ],
+      "correct_option_index": 1,
+      "explanation": "इंदिरा गांधी भारत की पहली महिला प्रधानमंत्री थीं।",
+      "tags": ["politics", "history"]
+    },
+    {
+      "question_id": "gen_easy_007",
+      "text": "भारत के राष्ट्रीय ध्वज में कितने रंग होते हैं?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option_index": 1,
+      "explanation": "भारत के राष्ट्रीय ध्वज में 3 रंग होते हैं - केसरिया, सफेद और हरा।",
+      "tags": ["national_symbols", "flag"]
+    },
+    {
+      "question_id": "gen_easy_008",
+      "text": "हिमालय पर्वत किस राज्य में स्थित नहीं है?",
+      "options": [
+        "हिमाचल प्रदेश",
+        "उत्तराखंड",
+        "सिक्किम",
+        "राजस्थान"
+      ],
+      "correct_option_index": 3,
+      "explanation": "हिमालय पर्वत राजस्थान में स्थित नहीं है।",
+      "tags": ["geography", "mountains"]
+    },
+    {
+      "question_id": "gen_easy_009",
+      "text": "भारत का राष्ट्रीय वृक्ष कौन सा है?",
+      "options": [
+        "पीपल",
+        "नीम",
+        "बरगद",
+        "आम"
+      ],
+      "correct_option_index": 2,
+      "explanation": "बरगद (बन्यान) भारत का राष्ट्रीय वृक्ष है।",
+      "tags": ["plants", "national_symbols"]
+    },
+    {
+      "question_id": "gen_easy_010",
+      "text": "भारतीय संविधान कब लागू हुआ?",
+      "options": [
+        "15 अगस्त 1947",
+        "26 जनवरी 1950",
+        "2 अक्टूबर 1948",
+        "30 जनवरी 1948"
+      ],
+      "correct_option_index": 1,
+      "explanation": "भारतीय संविधान 26 जनवरी 1950 को लागू हुआ था।",
+      "tags": ["history", "constitution"]
+    }
+  ]
+} 

@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-041",
+      "question_text": "Which instrument is used to measure wind speed?",
+      "options": [
+        "Barometer",
+        "Anemometer",
+        "Hygrometer",
+        "Thermometer"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "An anemometer is an instrument used to measure wind speed. The most common type consists of cups that catch the wind and rotate at a speed proportional to wind velocity.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-041",
+      "question_text": "हवा की गति मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "एनीमोमीटर",
+        "हाइग्रोमीटर",
+        "थर्मामीटर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "एनीमोमीटर एक उपकरण है जिसका उपयोग हवा की गति मापने के लिए किया जाता है। सबसे आम प्रकार में कप होते हैं जो हवा को पकड़ते हैं और हवा के वेग के अनुपात में घूमते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-042",
+      "question_text": "Which famous scientist is known for the theory of evolution?",
+      "options": [
+        "Isaac Newton",
+        "Charles Darwin",
+        "Marie Curie",
+        "Galileo Galilei"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Charles Darwin is known for his theory of evolution by natural selection, which he published in his book 'On the Origin of Species' in 1859.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-042",
+      "question_text": "विकास के सिद्धांत के लिए कौन सा प्रसिद्ध वैज्ञानिक जाना जाता है?",
+      "options": [
+        "आइजैक न्यूटन",
+        "चार्ल्स डार्विन",
+        "मैरी क्यूरी",
+        "गैलीलियो गैलीली"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "चार्ल्स डार्विन प्राकृतिक चयन द्वारा विकास के अपने सिद्धांत के लिए जाने जाते हैं, जिसे उन्होंने 1859 में अपनी पुस्तक 'ऑन द ओरिजिन ऑफ स्पीशीज' में प्रकाशित किया था।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-043",
+      "question_text": "Which river is considered sacred in Hinduism?",
+      "options": [
+        "Nile",
+        "Ganges",
+        "Yangtze",
+        "Amazon"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Ganges (Ganga) is considered the most sacred river in Hinduism. It is personified as the goddess Ganga and is believed to cleanse sins and facilitate liberation from the cycle of life and death.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-043",
+      "question_text": "हिंदू धर्म में कौन सी नदी पवित्र मानी जाती है?",
+      "options": [
+        "नील",
+        "गंगा",
+        "यांग्त्ज़ी",
+        "अमेज़न"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "गंगा नदी हिंदू धर्म में सबसे पवित्र नदी मानी जाती है। इसे देवी गंगा के रूप में देखा जाता है और यह माना जाता है कि यह पापों को धो देती है और जीवन और मृत्यु के चक्र से मुक्ति प्राप्त करने में मदद करती है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-044",
+      "question_text": "Which is the largest coral reef system in the world?",
+      "options": [
+        "Maldives Coral Reef",
+        "Great Barrier Reef",
+        "Red Sea Coral Reef",
+        "Florida Reef"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It stretches over 2,300 kilometers and can be seen from outer space.",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-044",
+      "question_text": "विश्व की सबसे बड़ी प्रवाल भित्ति प्रणाली कौन सी है?",
+      "options": [
+        "मालदीव प्रवाल भित्ति",
+        "ग्रेट बैरियर रीफ",
+        "लाल सागर प्रवाल भित्ति",
+        "फ्लोरिडा रीफ"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ग्रेट बैरियर रीफ, जो ऑस्ट्रेलिया के क्वींसलैंड तट के पास स्थित है, दुनिया की सबसे बड़ी प्रवाल भित्ति प्रणाली है। यह 2,300 किलोमीटर से अधिक फैली हुई है और बाहरी अंतरिक्ष से देखी जा सकती है।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-045",
+      "question_text": "Who invented the World Wide Web (WWW)?",
+      "options": [
+        "Steve Jobs",
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Mark Zuckerberg"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He created the first web browser, web server, and wrote the first web page editor.",
+      "category_id": 7,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-045",
+      "question_text": "वर्ल्ड वाइड वेब (WWW) का आविष्कार किसने किया था?",
+      "options": [
+        "स्टीव जॉब्स",
+        "टिम बर्नर्स-ली",
+        "बिल गेट्स",
+        "मार्क जुकरबर्ग"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "टिम बर्नर्स-ली ने 1989 में CERN में काम करते हुए वर्ल्ड वाइड वेब का आविष्कार किया था। उन्होंने पहला वेब ब्राउज़र, वेब सर्वर बनाया और पहला वेब पेज एडिटर लिखा।",
+      "category_id": 7,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-046",
+      "question_text": "What is the capital of Brazil?",
+      "options": [
+        "Rio de Janeiro",
+        "Brasília",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Brasília is the capital city of Brazil. It was inaugurated in 1960, replacing Rio de Janeiro as the country's capital.",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-046",
+      "question_text": "ब्राजील की राजधानी क्या है?",
+      "options": [
+        "रियो डी जनेरियो",
+        "ब्रासीलिया",
+        "साओ पाउलो",
+        "सल्वाडोर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ब्रासीलिया ब्राजील की राजधानी है। इसका उद्घाटन 1960 में हुआ था, जिसने देश की राजधानी के रूप में रियो डी जनेरियो की जगह ली।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-047",
+      "question_text": "Which is the hardest naturally occurring mineral on the Mohs scale?",
+      "options": [
+        "Quartz",
+        "Diamond",
+        "Topaz",
+        "Corundum"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Diamond is the hardest naturally occurring mineral on the Mohs scale, with a hardness of 10. It is made of pure carbon arranged in a crystal structure.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-047",
+      "question_text": "मोह स्केल पर प्राकृतिक रूप से पाया जाने वाला सबसे कठोर खनिज कौन सा है?",
+      "options": [
+        "क्वार्ट्ज",
+        "हीरा",
+        "टोपाज",
+        "कोरंडम"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "हीरा मोह स्केल पर प्राकृतिक रूप से पाया जाने वाला सबसे कठोर खनिज है, जिसकी कठोरता 10 है। यह क्रिस्टल संरचना में व्यवस्थित शुद्ध कार्बन से बना है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-048",
+      "question_text": "What is the main language spoken in Brazil?",
+      "options": [
+        "Spanish",
+        "Portuguese",
+        "English",
+        "French"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Portuguese is the main language spoken in Brazil. It is the only Portuguese-speaking country in South America and the largest Portuguese-speaking country in the world.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-048",
+      "question_text": "ब्राजील में मुख्य रूप से कौन सी भाषा बोली जाती है?",
+      "options": [
+        "स्पेनिश",
+        "पुर्तगाली",
+        "अंग्रेजी",
+        "फ्रेंच"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "पुर्तगाली ब्राजील में मुख्य रूप से बोली जाने वाली भाषा है। यह दक्षिण अमेरिका में पुर्तगाली भाषी एकमात्र देश है और दुनिया का सबसे बड़ा पुर्तगाली भाषी देश है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-049",
+      "question_text": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Venus is known as the 'Morning Star' or 'Evening Star' because it is often visible in the early morning or evening sky, shortly before sunrise or after sunset.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-049",
+      "question_text": "किस ग्रह को 'मॉर्निंग स्टार' या 'इवनिंग स्टार' के नाम से जाना जाता है?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "बृहस्पति",
+        "बुध"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "शुक्र को 'मॉर्निंग स्टार' या 'इवनिंग स्टार' के नाम से जाना जाता है क्योंकि यह अक्सर सूर्योदय से पहले या सूर्यास्त के बाद सुबह या शाम के आसमान में दिखाई देता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-050",
+      "question_text": "Which metal is liquid at room temperature?",
+      "options": [
+        "Aluminum",
+        "Mercury",
+        "Lead",
+        "Copper"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Mercury is the only metal that is liquid at room temperature and normal atmospheric pressure. It has a melting point of -38.83°C (-37.89°F).",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-050",
+      "question_text": "कौन सी धातु कमरे के तापमान पर तरल अवस्था में रहती है?",
+      "options": [
+        "एल्युमिनियम",
+        "पारा",
+        "सीसा",
+        "तांबा"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "पारा एकमात्र ऐसी धातु है जो कमरे के तापमान और सामान्य वायुमंडलीय दबाव पर तरल अवस्था में रहती है। इसका गलनांक -38.83°C (-37.89°F) है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    }
+  ]
+} 

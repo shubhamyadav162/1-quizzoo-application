@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-011",
+      "question_text": "Which is the largest continent in the world?",
+      "options": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Europe"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Asia is the largest continent in the world by both land area and population, spanning around 44.6 million square kilometers.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-011",
+      "question_text": "विश्व का सबसे बड़ा महाद्वीप कौन सा है?",
+      "options": [
+        "अफ्रीका",
+        "एशिया",
+        "उत्तरी अमेरिका",
+        "यूरोप"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "एशिया भूमि क्षेत्र और जनसंख्या दोनों के हिसाब से दुनिया का सबसे बड़ा महाद्वीप है, जो लगभग 44.6 मिलियन वर्ग किलोमीटर में फैला है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-012",
+      "question_text": "Who is known as the Father of the Indian Constitution?",
+      "options": [
+        "Mahatma Gandhi",
+        "Dr. B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution. He was the chairman of the drafting committee that wrote the Indian Constitution.",
+      "category_id": 3,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-012",
+      "question_text": "भारतीय संविधान के जनक के रूप में किसे जाना जाता है?",
+      "options": [
+        "महात्मा गांधी",
+        "डॉ. बी.आर. अम्बेडकर",
+        "जवाहरलाल नेहरू",
+        "सरदार वल्लभभाई पटेल"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "डॉ. बी.आर. अम्बेडकर को भारतीय संविधान के जनक के रूप में जाना जाता है। वह प्रारूप समिति के अध्यक्ष थे जिन्होंने भारतीय संविधान लिखा था।",
+      "category_id": 3,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-013",
+      "question_text": "Which vitamin is also known as ascorbic acid?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Vitamin C is also known as ascorbic acid. It is an essential nutrient involved in the repair of tissues and enzymatic production of certain neurotransmitters.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-013",
+      "question_text": "किस विटामिन को एस्कॉर्बिक एसिड के नाम से भी जाना जाता है?",
+      "options": [
+        "विटामिन ए",
+        "विटामिन सी",
+        "विटामिन डी",
+        "विटामिन ई"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "विटामिन सी को एस्कॉर्बिक एसिड के नाम से भी जाना जाता है। यह ऊतकों की मरम्मत और कुछ न्यूरोट्रांसमीटर्स के एंजाइमेटिक उत्पादन में शामिल एक आवश्यक पोषक तत्व है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-014",
+      "question_text": "Which is the longest river in the world?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Nile River is considered the longest river in the world, flowing about 6,650 kilometers (4,130 miles) northward through northeastern Africa to the Mediterranean Sea.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-014",
+      "question_text": "विश्व की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "अमेज़न नदी",
+        "नील नदी",
+        "यांग्त्ज़ी नदी",
+        "मिसिसिपी नदी"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नील नदी को दुनिया की सबसे लंबी नदी माना जाता है, जो उत्तरपूर्वी अफ्रीका से होकर भूमध्य सागर तक लगभग 6,650 किलोमीटर (4,130 मील) उत्तर की ओर बहती है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-015",
+      "question_text": "What is the national bird of India?",
+      "options": [
+        "Eagle",
+        "Peacock",
+        "Parrot",
+        "Swan"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The peacock (Indian peafowl) is the national bird of India. It is known for its vibrant colors and beautiful tail feathers.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-015",
+      "question_text": "भारत का राष्ट्रीय पक्षी क्या है?",
+      "options": [
+        "चील",
+        "मोर",
+        "तोता",
+        "हंस"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "मोर (भारतीय नीलकंठ) भारत का राष्ट्रीय पक्षी है। यह अपने चमकीले रंगों और सुंदर पूंछ के पंखों के लिए जाना जाता है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-016",
+      "question_text": "Who invented the telephone?",
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone. He patented his invention in 1876.",
+      "category_id": 7,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-016",
+      "question_text": "टेलीफोन का आविष्कार किसने किया था?",
+      "options": [
+        "थॉमस एडिसन",
+        "अलेक्जेंडर ग्राहम बेल",
+        "निकोला टेस्ला",
+        "गुग्लिएल्मो मार्कोनी"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अलेक्जेंडर ग्राहम बेल को पहला व्यावहारिक टेलीफोन का आविष्कार करने का श्रेय दिया जाता है। उन्होंने 1876 में अपने आविष्कार का पेटेंट कराया था।",
+      "category_id": 7,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-017",
+      "question_text": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Nitrogen is the most abundant gas in Earth's atmosphere, making up approximately 78% of the air we breathe.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-017",
+      "question_text": "पृथ्वी के वातावरण में कौन सी गैस सबसे अधिक मात्रा में है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नाइट्रोजन पृथ्वी के वातावरण में सबसे प्रचुर मात्रा में पाई जाने वाली गैस है, जो हमारे द्वारा सांस ली जाने वाली हवा का लगभग 78% हिस्सा बनाती है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-018",
+      "question_text": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "A barometer is an instrument used to measure atmospheric pressure. It can help predict short-term changes in the weather.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-018",
+      "question_text": "वायुमंडलीय दबाव को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "बैरोमीटर एक उपकरण है जिसका उपयोग वायुमंडलीय दबाव को मापने के लिए किया जाता है। यह मौसम में अल्पकालिक परिवर्तनों की भविष्यवाणी करने में मदद कर सकता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-019",
+      "question_text": "Which famous monument in India is also known as the 'Symbol of Love'?",
+      "options": [
+        "Red Fort",
+        "Taj Mahal",
+        "Qutub Minar",
+        "India Gate"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Taj Mahal in Agra is known as the 'Symbol of Love'. It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+      "category_id": 3,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-019",
+      "question_text": "भारत में किस प्रसिद्ध स्मारक को 'प्रेम का प्रतीक' के नाम से भी जाना जाता है?",
+      "options": [
+        "लाल किला",
+        "ताज महल",
+        "कुतुब मीनार",
+        "इंडिया गेट"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "आगरा में स्थित ताज महल को 'प्रेम का प्रतीक' के रूप में जाना जाता है। इसे मुगल सम्राट शाहजहां ने अपनी पत्नी मुमताज महल की याद में बनवाया था।",
+      "category_id": 3,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-020",
+      "question_text": "Which is the smallest country in the world by land area?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "Maldives",
+        "Liechtenstein"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Vatican City is the smallest country in the world by land area, encompassing only about 49 hectares (121 acres).",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-020",
+      "question_text": "भूमि क्षेत्र के अनुसार विश्व का सबसे छोटा देश कौन सा है?",
+      "options": [
+        "मोनाको",
+        "वेटिकन सिटी",
+        "मालदीव",
+        "लिचेंस्टीन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "वेटिकन सिटी भूमि क्षेत्र के अनुसार दुनिया का सबसे छोटा देश है, जो केवल लगभग 49 हेक्टेयर (121 एकड़) में फैला है।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

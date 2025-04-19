@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK701",
+    "en": {
+      "question": "Which country is known as the 'Land of Rising Sun'?",
+      "options": [
+        "China",
+        "Korea",
+        "Japan",
+        "Thailand"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'उगते सूरज की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "चीन",
+        "कोरिया",
+        "जापान",
+        "थाईलैंड"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK706",
+    "en": {
+      "question": "Who is known as the 'Father of Indian Space Program'?",
+      "options": [
+        "A.P.J. Abdul Kalam",
+        "Vikram Sarabhai",
+        "Homi Bhabha",
+        "C.V. Raman"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'भारतीय अंतरिक्ष कार्यक्रम का जनक' कहा जाता है?",
+      "options": [
+        "ए.पी.जे. अब्दुल कलाम",
+        "विक्रम साराभाई",
+        "होमी भाभा",
+        "सी.वी. रमन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK707",
+    "en": {
+      "question": "Which of these diseases is caused by a virus?",
+      "options": [
+        "Malaria",
+        "Tuberculosis",
+        "Influenza",
+        "Cholera"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन सी बीमारी वायरस के कारण होती है?",
+      "options": [
+        "मलेरिया",
+        "क्षय रोग",
+        "इन्फ्लुएंजा",
+        "हैजा"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK709",
+    "en": {
+      "question": "Which is the largest desert in India?",
+      "options": [
+        "Thar Desert",
+        "Ladakh Desert",
+        "Kutch Desert",
+        "Spiti Valley Desert"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत का सबसे बड़ा रेगिस्तान कौन सा है?",
+      "options": [
+        "थार रेगिस्तान",
+        "लद्दाख रेगिस्तान",
+        "कच्छ रेगिस्तान",
+        "स्पीति घाटी रेगिस्तान"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK710",
+    "en": {
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में कौन सी गैस सबसे अधिक मात्रा में पाई जाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "environmental_science"
+  },
+  {
+    "id": "GK712",
+    "en": {
+      "question": "What is the main ingredient in guacamole?",
+      "options": [
+        "Avocado",
+        "Tomato",
+        "Onion",
+        "Lime"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "गुआकामोले में मुख्य सामग्री क्या है?",
+      "options": [
+        "एवोकाडो",
+        "टमाटर",
+        "प्याज",
+        "नींबू"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "food"
+  },
+  {
+    "id": "GK714",
+    "en": {
+      "question": "Who was the founder of Buddhism?",
+      "options": [
+        "Mahavira",
+        "Gautama Buddha",
+        "Adi Shankaracharya",
+        "Guru Nanak"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बौद्ध धर्म के संस्थापक कौन थे?",
+      "options": [
+        "महावीर",
+        "गौतम बुद्ध",
+        "आदि शंकराचार्य",
+        "गुरु नानक"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK717",
+    "en": {
+      "question": "Which is the highest waterfall in the world?",
+      "options": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Angel Falls",
+        "Iguazu Falls"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे ऊंचा जलप्रपात कौन सा है?",
+      "options": [
+        "नियाग्रा फॉल्स",
+        "विक्टोरिया फॉल्स",
+        "एंजेल फॉल्स",
+        "इगुआज़ू फॉल्स"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK719",
+    "en": {
+      "question": "What is the study of ancient inscriptions called?",
+      "options": [
+        "Archaeology",
+        "Paleontology",
+        "Epigraphy",
+        "Numismatics"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "प्राचीन शिलालेखों के अध्ययन को क्या कहते हैं?",
+      "options": [
+        "पुरातत्व विज्ञान",
+        "जीवाश्म विज्ञान",
+        "अभिलेख विज्ञान",
+        "मुद्राशास्त्र"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "archaeology"
+  },
+  {
+    "id": "GK720",
+    "en": {
+      "question": "Which Indian state has Konkani as its official language?",
+      "options": [
+        "Kerala",
+        "Karnataka",
+        "Goa",
+        "Maharashtra"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की कोंकणी आधिकारिक भाषा है?",
+      "options": [
+        "केरल",
+        "कर्नाटक",
+        "गोवा",
+        "महाराष्ट्र"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_culture"
+  }
+]

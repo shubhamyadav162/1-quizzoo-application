@@ -1,0 +1,352 @@
+[
+  {
+    "id": "GK542",
+    "en": {
+      "question": "What is the name of the longest river in India?",
+      "options": [
+        "Yamuna",
+        "Ganges",
+        "Brahmaputra",
+        "Godavari"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत की सबसे लंबी नदी का नाम क्या है?",
+      "options": [
+        "यमुना",
+        "गंगा",
+        "ब्रह्मपुत्र",
+        "गोदावरी"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK544",
+    "en": {
+      "question": "Which among these is not a Fundamental Right in the Indian Constitution?",
+      "options": [
+        "Right to Equality",
+        "Right to Freedom",
+        "Right to Property",
+        "Right against Exploitation"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन भारतीय संविधान में मौलिक अधिकार नहीं है?",
+      "options": [
+        "समानता का अधिकार",
+        "स्वतंत्रता का अधिकार",
+        "संपत्ति का अधिकार",
+        "शोषण के विरुद्ध अधिकार"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK546",
+    "en": {
+      "question": "Which vitamin is also known as Retinol?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किस विटामिन को रेटिनॉल के रूप में भी जाना जाता है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन B",
+        "विटामिन C",
+        "विटामिन D"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK547",
+    "en": {
+      "question": "Who composed the Indian National Anthem 'Jana Gana Mana'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Sarojini Naidu",
+        "Muhammad Iqbal"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रगान 'जन गण मन' की रचना किसने की?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "मुहम्मद इकबाल"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK548",
+    "en": {
+      "question": "Which Indian state is known as the 'Jewel of the East'?",
+      "options": [
+        "Assam",
+        "Arunachal Pradesh",
+        "Manipur",
+        "Meghalaya"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'पूर्व का रत्न' के रूप में जाना जाता है?",
+      "options": [
+        "असम",
+        "अरुणाचल प्रदेश",
+        "मणिपुर",
+        "मेघालय"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK549",
+    "en": {
+      "question": "What does CPU stand for in computer terminology?",
+      "options": [
+        "Central Process Unit",
+        "Central Programming Unit",
+        "Central Processing Unit",
+        "Control Processing Unit"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कंप्यूटर शब्दावली में CPU का क्या अर्थ है?",
+      "options": [
+        "सेंट्रल प्रोसेस यूनिट",
+        "सेंट्रल प्रोग्रामिंग यूनिट",
+        "सेंट्रल प्रोसेसिंग यूनिट",
+        "कंट्रोल प्रोसेसिंग यूनिट"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "technology"
+  },
+  {
+    "id": "GK552",
+    "en": {
+      "question": "Which is the first national park established in India?",
+      "options": [
+        "Bandipur National Park",
+        "Jim Corbett National Park",
+        "Kaziranga National Park",
+        "Gir National Park"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत में स्थापित पहला राष्ट्रीय उद्यान कौन सा है?",
+      "options": [
+        "बांदीपुर राष्ट्रीय उद्यान",
+        "जिम कॉर्बेट राष्ट्रीय उद्यान",
+        "काजीरंगा राष्ट्रीय उद्यान",
+        "गिर राष्ट्रीय उद्यान"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK553",
+    "en": {
+      "question": "Who wrote the book 'Malgudi Days'?",
+      "options": [
+        "R.K. Narayan",
+        "Mulk Raj Anand",
+        "Khushwant Singh",
+        "Ruskin Bond"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'मालगुडी डेज़' पुस्तक किसने लिखी?",
+      "options": [
+        "आर.के. नारायण",
+        "मुल्क राज आनंद",
+        "खुशवंत सिंह",
+        "रस्किन बॉन्ड"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK554",
+    "en": {
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में कौन सी गैस सबसे अधिक मात्रा में है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "environmental_science"
+  },
+  {
+    "id": "GK555",
+    "en": {
+      "question": "Which historical monument was built by Shah Jahan in memory of his wife?",
+      "options": [
+        "Red Fort",
+        "Taj Mahal",
+        "Qutub Minar",
+        "Jama Masjid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "शाहजहां ने अपनी पत्नी की याद में कौन सा ऐतिहासिक स्मारक बनवाया था?",
+      "options": [
+        "लाल किला",
+        "ताज महल",
+        "कुतुब मीनार",
+        "जामा मस्जिद"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK556",
+    "en": {
+      "question": "Which is the main ingredient in guacamole?",
+      "options": [
+        "Tomato",
+        "Avocado",
+        "Onion",
+        "Chili pepper"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ग्वाकामोल में मुख्य सामग्री क्या है?",
+      "options": [
+        "टमाटर",
+        "एवोकाडो",
+        "प्याज",
+        "मिर्च"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "food"
+  },
+  {
+    "id": "GK557",
+    "en": {
+      "question": "What is the official language of Brazil?",
+      "options": [
+        "Spanish",
+        "Portuguese",
+        "English",
+        "French"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ब्राजील की आधिकारिक भाषा क्या है?",
+      "options": [
+        "स्पेनिश",
+        "पुर्तगाली",
+        "अंग्रेजी",
+        "फ्रेंच"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK558",
+    "en": {
+      "question": "Which Indian dance form is also known as the 'dance of the enchantress'?",
+      "options": [
+        "Kathak",
+        "Bharatanatyam",
+        "Mohiniattam",
+        "Kuchipudi"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय नृत्य रूप को 'मोहिनी का नृत्य' के रूप में भी जाना जाता है?",
+      "options": [
+        "कथक",
+        "भरतनाट्यम",
+        "मोहिनीअट्टम",
+        "कुचिपुड़ी"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK559",
+    "en": {
+      "question": "Who wrote 'Origin of Species'?",
+      "options": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Louis Pasteur",
+        "Alexander Fleming"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'ऑरिजिन ऑफ स्पीशीज' किसने लिखी?",
+      "options": [
+        "चार्ल्स डार्विन",
+        "ग्रेगर मेंडल",
+        "लुई पास्चर",
+        "अलेक्जेंडर फ्लेमिंग"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "biology"
+  }
+]

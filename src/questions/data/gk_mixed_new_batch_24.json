@@ -1,0 +1,2377 @@
+[
+  {
+    "id": "GK7301",
+    "en": {
+      "question": "What is the capital of Morocco?",
+      "options": [
+        "Casablanca",
+        "Marrakech",
+        "Fes",
+        "Rabat"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मोरक्को की राजधानी क्या है?",
+      "options": [
+        "कैसाब्लांका",
+        "माराकेश",
+        "फेस",
+        "रबात"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7303",
+    "en": {
+      "question": "What is the largest artery in the human body?",
+      "options": [
+        "Pulmonary Artery",
+        "Femoral Artery",
+        "Carotid Artery",
+        "Aorta"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे बड़ी धमनी कौन सी है?",
+      "options": [
+        "फुफ्फुसीय धमनी",
+        "ऊरु धमनी",
+        "कैरोटिड धमनी",
+        "महाधमनी (Aorta)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7304",
+    "en": {
+      "question": "Who wrote 'The Lord of the Rings'?",
+      "options": [
+        "George R.R. Martin",
+        "C.S. Lewis",
+        "Ursula K. Le Guin",
+        "J.R.R. Tolkien"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लॉर्ड ऑफ द रिंग्स' किसने लिखा था?",
+      "options": [
+        "जॉर्ज आर.आर. मार्टिन",
+        "सी.एस. लुईस",
+        "उर्सुला के. ले गुइन",
+        "जे.आर.आर. टोल्किन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature_fantasy"
+  },
+  {
+    "id": "GK7305",
+    "en": {
+      "question": "What is the capital of Nigeria?",
+      "options": [
+        "Lagos",
+        "Kano",
+        "Ibadan",
+        "Abuja"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नाइजीरिया की राजधानी क्या है?",
+      "options": [
+        "लागोस",
+        "कानो",
+        "इबादान",
+        "अबुजा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7306",
+    "en": {
+      "question": "What is the process of gas turning into liquid called?",
+      "options": [
+        "Evaporation",
+        "Freezing",
+        "Melting",
+        "Condensation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गैस के तरल में बदलने की प्रक्रिया को क्या कहते हैं?",
+      "options": [
+        "वाष्पीकरण",
+        "जमना",
+        "पिघलना",
+        "संघनन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_physics_chemistry"
+  },
+  {
+    "id": "GK7307",
+    "en": {
+      "question": "Which famous landmark is located in Agra, India?",
+      "options": [
+        "India Gate",
+        "Gateway of India",
+        "Qutub Minar",
+        "Taj Mahal"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा प्रसिद्ध स्थल आगरा, भारत में स्थित है?",
+      "options": [
+        "इंडिया गेट",
+        "गेटवे ऑफ इंडिया",
+        "कुतुब मीनार",
+        "ताज महल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_landmarks_india"
+  },
+  {
+    "id": "GK7308",
+    "en": {
+      "question": "Who painted 'Water Lilies' series?",
+      "options": [
+        "Edgar Degas",
+        "Pierre-Auguste Renoir",
+        "Camille Pissarro",
+        "Claude Monet"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'वॉटर लिलीज़' श्रृंखला किसने चित्रित की थी?",
+      "options": [
+        "एडगर डेगास",
+        "पियरे-अगस्टे रेनॉयर",
+        "कैमिल पिसारो",
+        "क्लॉड मोनेट"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7309",
+    "en": {
+      "question": "What is the chemical symbol for Mercury?",
+      "options": [
+        "Me",
+        "Mc",
+        "My",
+        "Hg"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पारा (Mercury) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Me",
+        "Mc",
+        "My",
+        "Hg"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7310",
+    "en": {
+      "question": "What is the capital of Singapore?",
+      "options": [
+        "Jurong East",
+        "Tampines",
+        "Woodlands",
+        "Singapore"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिंगापुर की राजधानी क्या है?",
+      "options": [
+        "जुरोंग ईस्ट",
+        "टैम्पाइन्स",
+        "वुडलैंड्स",
+        "सिंगापुर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7311",
+    "en": {
+      "question": "What layer protects Earth from the sun's harmful ultraviolet radiation?",
+      "options": [
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere",
+        "Ozone Layer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी परत पृथ्वी को सूर्य की हानिकारक पराबैंगनी विकिरण से बचाती है?",
+      "options": [
+        "क्षोभमंडल",
+        "मध्यमंडल",
+        "थर्मोस्फीयर",
+        "ओजोन परत"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_atmosphere"
+  },
+  {
+    "id": "GK7312",
+    "en": {
+      "question": "Who was the primary author of the US Declaration of Independence?",
+      "options": [
+        "Benjamin Franklin",
+        "John Adams",
+        "George Washington",
+        "Thomas Jefferson"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अमेरिकी स्वतंत्रता की घोषणा के प्राथमिक लेखक कौन थे?",
+      "options": [
+        "बेंजामिन फ्रैंकलिन",
+        "जॉन एडम्स",
+        "जॉर्ज वाशिंगटन",
+        "थॉमस जेफरसन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_us"
+  },
+  {
+    "id": "GK7313",
+    "en": {
+      "question": "What is the currency of South Korea?",
+      "options": [
+        "Yen",
+        "Dollar",
+        "Yuan",
+        "Won"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दक्षिण कोरिया की मुद्रा क्या है?",
+      "options": [
+        "येन",
+        "डॉलर",
+        "युआन",
+        "वोन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_economics"
+  },
+  {
+    "id": "GK7314",
+    "en": {
+      "question": "What is the capital of Scotland? (Part of UK)",
+      "options": [
+        "Glasgow",
+        "Aberdeen",
+        "Dundee",
+        "Edinburgh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्कॉटलैंड की राजधानी क्या है? (यूके का हिस्सा)",
+      "options": [
+        "ग्लासगो",
+        "एबरडीन",
+        "डंडी",
+        "एडिनबर्ग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_uk"
+  },
+  {
+    "id": "GK7315",
+    "en": {
+      "question": "What type of animal is a penguin?",
+      "options": [
+        "Mammal",
+        "Fish",
+        "Reptile",
+        "Bird"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पेंगुइन किस प्रकार का जानवर है?",
+      "options": [
+        "स्तनपायी",
+        "मछली",
+        "सरीसृप",
+        "पक्षी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7316",
+    "en": {
+      "question": "Who is known as the 'Maid of Orléans'?",
+      "options": [
+        "Marie Antoinette",
+        "Catherine the Great",
+        "Queen Elizabeth I",
+        "Joan of Arc"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'मेड ऑफ ऑरलियन्स' के नाम से किसे जाना जाता है?",
+      "options": [
+        "मैरी एंटोनेट",
+        "कैथरीन द ग्रेट",
+        "महारानी एलिजाबेथ प्रथम",
+        "जोन ऑफ आर्क"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_france"
+  },
+  {
+    "id": "GK7317",
+    "en": {
+      "question": "What is the chemical symbol for Helium? (Reprise)",
+      "options": [
+        "H",
+        "Hy",
+        "Hm",
+        "He"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हीलियम का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "H",
+        "Hy",
+        "Hm",
+        "He"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7318",
+    "en": {
+      "question": "In which country would you find the ancient city of Petra?",
+      "options": [
+        "Egypt",
+        "Syria",
+        "Israel",
+        "Jordan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्राचीन शहर पेट्रा आपको किस देश में मिलेगा?",
+      "options": [
+        "मिस्र",
+        "सीरिया",
+        "इज़राइल",
+        "जॉर्डन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_history_landmarks"
+  },
+  {
+    "id": "GK7319",
+    "en": {
+      "question": "Who wrote 'A Brief History of Time'?",
+      "options": [
+        "Carl Sagan",
+        "Richard Feynman",
+        "Neil deGrasse Tyson",
+        "Stephen Hawking"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'ए ब्रीफ हिस्ट्री ऑफ टाइम' किसने लिखा था?",
+      "options": [
+        "कार्ल सागन",
+        "रिचर्ड फेनमैन",
+        "नील डेग्रसे टायसन",
+        "स्टीफन हॉकिंग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_science"
+  },
+  {
+    "id": "GK7320",
+    "en": {
+      "question": "What is the capital of Switzerland?",
+      "options": [
+        "Zurich",
+        "Geneva",
+        "Basel",
+        "Bern"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्विट्जरलैंड की राजधानी क्या है?",
+      "options": [
+        "ज्यूरिख",
+        "जिनेवा",
+        "बेसल",
+        "बर्न"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7321",
+    "en": {
+      "question": "What animal is known for having a hump (or two)?",
+      "options": [
+        "Elephant",
+        "Rhino",
+        "Buffalo",
+        "Camel"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर कूबड़ (एक या दो) रखने के लिए जाना जाता है?",
+      "options": [
+        "हाथी",
+        "गैंडा",
+        "भैंस",
+        "ऊंट"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology_animals"
+  },
+  {
+    "id": "GK7322",
+    "en": {
+      "question": "What is the study of plants called?",
+      "options": [
+        "Zoology",
+        "Geology",
+        "Ecology",
+        "Botany"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "जंतु विज्ञान",
+        "भूविज्ञान",
+        "पारिस्थितिकी",
+        "वनस्पति विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7323",
+    "en": {
+      "question": "What instrument measures wind speed?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा उपकरण हवा की गति मापता है?",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK7324",
+    "en": {
+      "question": "Who painted 'The Night Watch'?",
+      "options": [
+        "Johannes Vermeer",
+        "Peter Paul Rubens",
+        "Frans Hals",
+        "Rembrandt"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द नाइट वॉच' किसने चित्रित किया था?",
+      "options": [
+        "जोहान्स वर्मीर",
+        "पीटर पॉल रूबेंस",
+        "फ्रांस हाल्स",
+        "रेम्ब्रांट"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7325",
+    "en": {
+      "question": "What is the capital of Cuba?",
+      "options": [
+        "Santiago de Cuba",
+        "Camagüey",
+        "Holguín",
+        "Havana"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्यूबा की राजधानी क्या है?",
+      "options": [
+        "सेंटियागो डे क्यूबा",
+        "कैमागुए",
+        "होल्गुइन",
+        "हवाना"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7326",
+    "en": {
+      "question": "What element is essential for strong bones and teeth?",
+      "options": [
+        "Iron",
+        "Sodium",
+        "Potassium",
+        "Calcium"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मजबूत हड्डियों और दांतों के लिए कौन सा तत्व आवश्यक है?",
+      "options": [
+        "लोहा",
+        "सोडियम",
+        "पोटेशियम",
+        "कैल्शियम"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology_chemistry"
+  },
+  {
+    "id": "GK7327",
+    "en": {
+      "question": "Which famous river flows through Egypt?",
+      "options": [
+        "Amazon",
+        "Congo",
+        "Niger",
+        "Nile"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी प्रसिद्ध नदी मिस्र से होकर बहती है?",
+      "options": [
+        "अमेज़न",
+        "कांगो",
+        "नाइजर",
+        "नील"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7328",
+    "en": {
+      "question": "What galaxy is closest to the Milky Way?",
+      "options": [
+        "Triangulum Galaxy",
+        "Whirlpool Galaxy",
+        "Sombrero Galaxy",
+        "Andromeda Galaxy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिल्की वे के सबसे नजदीक कौन सी आकाशगंगा है?",
+      "options": [
+        "ट्राएंगुलम गैलेक्सी",
+        "व्हर्लपूल गैलेक्सी",
+        "सोम्ब्रेरो गैलेक्सी",
+        "एंड्रोमेडा गैलेक्सी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7329",
+    "en": {
+      "question": "Who wrote 'The Picture of Dorian Gray'?",
+      "options": [
+        "Charles Dickens",
+        "George Eliot",
+        "Thomas Hardy",
+        "Oscar Wilde"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द पिक्चर ऑफ डोरियन ग्रे' किसने लिखा था?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "जॉर्ज एलियट",
+        "थॉमस हार्डी",
+        "ऑस्कर वाइल्ड"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK7330",
+    "en": {
+      "question": "What is the capital of Israel?",
+      "options": [
+        "Tel Aviv",
+        "Haifa",
+        "Eilat",
+        "Jerusalem"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इज़राइल की राजधानी क्या है?",
+      "options": [
+        "तेल अवीव",
+        "हाइफा",
+        "इलात",
+        "यरूशलेम"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7331",
+    "en": {
+      "question": "What is the study of fungi called?",
+      "options": [
+        "Botany",
+        "Zoology",
+        "Bacteriology",
+        "Mycology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कवक (fungi) के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "वनस्पति विज्ञान",
+        "जंतु विज्ञान",
+        "जीवाणु विज्ञान",
+        "कवक विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7332",
+    "en": {
+      "question": "What famous statue depicts a man thinking with his chin on his hand?",
+      "options": [
+        "David (Michelangelo)",
+        "Discobolus",
+        "Venus de Milo",
+        "The Thinker (Rodin)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी प्रसिद्ध मूर्ति एक आदमी को अपने हाथ पर ठोड़ी रखकर सोचते हुए दर्शाती है?",
+      "options": [
+        "डेविड (माइकल एंजेलो)",
+        "डिस्कोबोलस",
+        "वीनस डी मिलो",
+        "द थिंकर (रोडिन)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history_sculpture"
+  },
+  {
+    "id": "GK7334",
+    "en": {
+      "question": "Which mountain range runs along the western side of South America?",
+      "options": [
+        "Rocky Mountains",
+        "Alps",
+        "Himalayas",
+        "Andes"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी पर्वत श्रृंखला दक्षिण अमेरिका के पश्चिमी हिस्से के साथ चलती है?",
+      "options": [
+        "रॉकी पर्वत",
+        "आल्प्स",
+        "हिमालय",
+        "एंडीज़"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7335",
+    "en": {
+      "question": "What is the capital of Pakistan?",
+      "options": [
+        "Karachi",
+        "Lahore",
+        "Faisalabad",
+        "Islamabad"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पाकिस्तान की राजधानी क्या है?",
+      "options": [
+        "कराची",
+        "लाहौर",
+        "फैसलाबाद",
+        "इस्लामाबाद"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7336",
+    "en": {
+      "question": "What is the name of the pigment that gives plants their green color?",
+      "options": [
+        "Carotene",
+        "Anthocyanin",
+        "Xanthophyll",
+        "Chlorophyll"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस वर्णक का नाम क्या है जो पौधों को उनका हरा रंग देता है?",
+      "options": [
+        "कैरोटीन",
+        "एंथोसायनिन",
+        "जैंथोफिल",
+        "क्लोरोफिल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7337",
+    "en": {
+      "question": "What is the standard unit of frequency?",
+      "options": [
+        "Watt",
+        "Volt",
+        "Ampere",
+        "Hertz"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आवृत्ति की मानक इकाई क्या है?",
+      "options": [
+        "वाट",
+        "वोल्ट",
+        "एम्पीयर",
+        "हर्ट्ज़"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7338",
+    "en": {
+      "question": "Which Dutch Post-Impressionist artist painted 'Sunflowers'?",
+      "options": [
+        "Paul Gauguin",
+        "Georges Seurat",
+        "Henri de Toulouse-Lautrec",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस डच पोस्ट-इंप्रेशनिस्ट कलाकार ने 'सनफ्लावर्स' चित्रित किया था?",
+      "options": [
+        "पॉल गाउगिन",
+        "जॉर्जेस सेराट",
+        "हेनरी डी टूलूज़-लॉट्रेक",
+        "विन्सेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7340",
+    "en": {
+      "question": "What part of the cell contains the genetic material?",
+      "options": [
+        "Mitochondria",
+        "Ribosome",
+        "Cytoplasm",
+        "Nucleus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोशिका के किस भाग में आनुवंशिक पदार्थ होता है?",
+      "options": [
+        "माइटोकॉन्ड्रिया",
+        "राइबोसोम",
+        "साइटोप्लाज्म",
+        "केन्द्रक (Nucleus)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7341",
+    "en": {
+      "question": "What is the capital of Romania?",
+      "options": [
+        "Cluj-Napoca",
+        "Timisoara",
+        "Iasi",
+        "Bucharest"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रोमानिया की राजधानी क्या है?",
+      "options": [
+        "क्लुज-नापोका",
+        "तिमिसोआरा",
+        "इयासी",
+        "बुखारेस्ट"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7342",
+    "en": {
+      "question": "How many legs does a spider have?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "8"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मकड़ी के कितने पैर होते हैं?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "8"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology_animals"
+  },
+  {
+    "id": "GK7343",
+    "en": {
+      "question": "Who wrote 'One Hundred Years of Solitude'?",
+      "options": [
+        "Jorge Luis Borges",
+        "Mario Vargas Llosa",
+        "Isabel Allende",
+        "Gabriel Garcia Marquez"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'वन हंड्रेड इयर्स ऑफ सॉलिट्यूड' किसने लिखा था?",
+      "options": [
+        "जॉर्ज लुइस बोर्गेस",
+        "मारियो वर्गास ल्लोसा",
+        "इसाबेल अलेंदे",
+        "गैब्रियल गार्सिया मार्केज़"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_world"
+  },
+  {
+    "id": "GK7344",
+    "en": {
+      "question": "What is the chemical symbol for Zinc?",
+      "options": [
+        "Zc",
+        "Zi",
+        "Nk",
+        "Zn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जिंक (Zinc) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Zc",
+        "Zi",
+        "Nk",
+        "Zn"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7345",
+    "en": {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "South Korea",
+        "Vietnam",
+        "Japan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस देश को उगते सूरज की भूमि के रूप में जाना जाता है?",
+      "options": [
+        "चीन",
+        "दक्षिण कोरिया",
+        "वियतनाम",
+        "जापान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK7346",
+    "en": {
+      "question": "What is the term for the movement of water through a plant and its evaporation from leaves?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Absorption",
+        "Transpiration"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे के माध्यम से पानी की गति और पत्तियों से उसके वाष्पीकरण के लिए क्या शब्द है?",
+      "options": [
+        "प्रकाश संश्लेषण",
+        "श्वसन",
+        "अवशोषण",
+        "वाष्पोत्सर्जन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7347",
+    "en": {
+      "question": "What is the capital of Ukraine?",
+      "options": [
+        "Kharkiv",
+        "Odesa",
+        "Lviv",
+        "Kyiv"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यूक्रेन की राजधानी क्या है?",
+      "options": [
+        "खार्किव",
+        "ओडेसा",
+        "लविव",
+        "कीव"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7348",
+    "en": {
+      "question": "What instrument measures humidity in the air?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Anemometer",
+        "Hygrometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा उपकरण हवा में नमी मापता है?",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "एनीमोमीटर",
+        "हाइग्रोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK7349",
+    "en": {
+      "question": "What is the largest coral reef system in the world?",
+      "options": [
+        "Red Sea Coral Reef",
+        "New Caledonia Barrier Reef",
+        "Florida Reef",
+        "Great Barrier Reef"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया की सबसे बड़ी प्रवाल भित्ति प्रणाली कौन सी है?",
+      "options": [
+        "लाल सागर प्रवाल भित्ति",
+        "न्यू कैलेडोनिया बैरियर रीफ",
+        "फ्लोरिडा रीफ",
+        "ग्रेट बैरियर रीफ"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_nature"
+  },
+  {
+    "id": "GK7350",
+    "en": {
+      "question": "Who developed the polio vaccine?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Edward Jenner",
+        "Jonas Salk"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पोलियो का टीका किसने विकसित किया?",
+      "options": [
+        "अलेक्जेंडर फ्लेमिंग",
+        "लुई पाश्चर",
+        "एडवर्ड जेनर",
+        "जोनास साल्क"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_science_medicine"
+  },
+  {
+    "id": "GK7351",
+    "en": {
+      "question": "What is the capital of the United Arab Emirates?",
+      "options": [
+        "Dubai",
+        "Sharjah",
+        "Ajman",
+        "Abu Dhabi"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संयुक्त अरब अमीरात की राजधानी क्या है?",
+      "options": [
+        "दुबई",
+        "शारजाह",
+        "अजमान",
+        "अबू धाबी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7353",
+    "en": {
+      "question": "Who wrote 'The Old Man and the Sea'?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "John Steinbeck",
+        "William Faulkner",
+        "Ernest Hemingway"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द ओल्ड मैन एंड द सी' किसने लिखा था?",
+      "options": [
+        "एफ. स्कॉट फिट्ज़गेराल्ड",
+        "जॉन स्टीनबेक",
+        "विलियम फॉकनर",
+        "अर्नेस्ट हेमिंग्वे"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_us"
+  },
+  {
+    "id": "GK7354",
+    "en": {
+      "question": "What is the red liquid that circulates in the arteries and veins of humans?",
+      "options": [
+        "Lymph",
+        "Plasma",
+        "Water",
+        "Blood"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मनुष्यों की धमनियों और नसों में प्रसारित होने वाला लाल तरल क्या है?",
+      "options": [
+        "लसीका",
+        "प्लाज्मा",
+        "पानी",
+        "रक्त"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7355",
+    "en": {
+      "question": "What is the capital of Iraq?",
+      "options": [
+        "Mosul",
+        "Basra",
+        "Erbil",
+        "Baghdad"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इराक की राजधानी क्या है?",
+      "options": [
+        "मोसुल",
+        "बसरा",
+        "एर्बिल",
+        "बगदाद"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7356",
+    "en": {
+      "question": "Which artist created the sculpture 'David' before Michelangelo?",
+      "options": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Ghiberti",
+        "Donatello"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "माइकल एंजेलो से पहले किस कलाकार ने 'डेविड' मूर्ति बनाई थी?",
+      "options": [
+        "लियोनार्डो दा विंची",
+        "राफेल",
+        "घिबेर्टी",
+        "डोनाटेलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7357",
+    "en": {
+      "question": "What is the chemical symbol for Copper?",
+      "options": [
+        "Co",
+        "Cp",
+        "Cr",
+        "Cu"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तांबा (Copper) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Co",
+        "Cp",
+        "Cr",
+        "Cu"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7358",
+    "en": {
+      "question": "In which continent is the Amazon Rainforest primarily located?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Australia",
+        "South America"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अमेज़ॅन वर्षावन मुख्य रूप से किस महाद्वीप में स्थित है?",
+      "options": [
+        "अफ्रीका",
+        "एशिया",
+        "ऑस्ट्रेलिया",
+        "दक्षिण अमेरिका"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_nature"
+  },
+  {
+    "id": "GK7359",
+    "en": {
+      "question": "Who wrote 'The Canterbury Tales'?",
+      "options": [
+        "William Shakespeare",
+        "John Milton",
+        "Edmund Spenser",
+        "Geoffrey Chaucer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द कैंटरबरी टेल्स' किसने लिखा था?",
+      "options": [
+        "विलियम शेक्सपियर",
+        "जॉन मिल्टन",
+        "एडमंड स्पेंसर",
+        "जेफ्री चौसर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_medieval"
+  },
+  {
+    "id": "GK7360",
+    "en": {
+      "question": "What is the capital of Qatar?",
+      "options": [
+        "Al Khor",
+        "Al Wakrah",
+        "Lusail",
+        "Doha"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कतर की राजधानी क्या है?",
+      "options": [
+        "अल खोर",
+        "अल वकराह",
+        "लुसैल",
+        "दोहा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7361",
+    "en": {
+      "question": "What is the process called when a solid turns directly into a gas?",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Melting",
+        "Sublimation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब कोई ठोस सीधे गैस में बदल जाता है तो उस प्रक्रिया को क्या कहते हैं?",
+      "options": [
+        "वाष्पीकरण",
+        "संघनन",
+        "पिघलना",
+        "ऊर्ध्वपातन (Sublimation)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_physics_chemistry"
+  },
+  {
+    "id": "GK7362",
+    "en": {
+      "question": "What is the largest moon in the Solar System?",
+      "options": [
+        "Titan (Saturn)",
+        "Europa (Jupiter)",
+        "Moon (Earth)",
+        "Ganymede (Jupiter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सौर मंडल का सबसे बड़ा चंद्रमा कौन सा है?",
+      "options": [
+        "टाइटन (शनि)",
+        "यूरोपा (बृहस्पति)",
+        "चंद्रमा (पृथ्वी)",
+        "गैनीमेड (बृहस्पति)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7363",
+    "en": {
+      "question": "Which French Impressionist artist is famous for paintings of dancers?",
+      "options": [
+        "Claude Monet",
+        "Pierre-Auguste Renoir",
+        "Camille Pissarro",
+        "Edgar Degas"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा फ्रांसीसी प्रभाववादी कलाकार नर्तकियों के चित्रों के लिए प्रसिद्ध है?",
+      "options": [
+        "क्लॉड मोनेट",
+        "पियरे-अगस्टे रेनॉयर",
+        "कैमिल पिसारो",
+        "एडगर डेगास"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7364",
+    "en": {
+      "question": "What is the capital of Ghana?",
+      "options": [
+        "Kumasi",
+        "Tamale",
+        "Sekondi-Takoradi",
+        "Accra"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "घाना की राजधानी क्या है?",
+      "options": [
+        "कुमासी",
+        "तमाले",
+        "सेकोंडी-तकोराडी",
+        "अकरा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7365",
+    "en": {
+      "question": "What is the chemical symbol for Sodium? (Reprise)",
+      "options": [
+        "So",
+        "S",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोडियम का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "So",
+        "S",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7366",
+    "en": {
+      "question": "How many sides does an octagon have?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अष्टभुज (octagon) की कितनी भुजाएँ होती हैं?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "geometry"
+  },
+  {
+    "id": "GK7367",
+    "en": {
+      "question": "Who wrote 'Brave New World'?",
+      "options": [
+        "George Orwell",
+        "Ray Bradbury",
+        "Philip K. Dick",
+        "Aldous Huxley"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'ब्रेव न्यू वर्ल्ड' किसने लिखा था?",
+      "options": [
+        "जॉर्ज ऑरवेल",
+        "रे ब्रैडबरी",
+        "फिलिप के. डिक",
+        "एल्डस हक्सले"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK7368",
+    "en": {
+      "question": "What is the capital of Venezuela?",
+      "options": [
+        "Maracaibo",
+        "Valencia",
+        "Barquisimeto",
+        "Caracas"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वेनेजुएला की राजधानी क्या है?",
+      "options": [
+        "माराकैबो",
+        "वालेंसिया",
+        "बरक्विसिमेटो",
+        "कराकस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7369",
+    "en": {
+      "question": "What is the study of birds called?",
+      "options": [
+        "Herpetology",
+        "Entomology",
+        "Ichthyology",
+        "Ornithology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पक्षियों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "सरीसृप विज्ञान",
+        "कीट विज्ञान",
+        "मत्स्य विज्ञान",
+        "पक्षीविज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7370",
+    "en": {
+      "question": "What is the chemical symbol for Silver? (Reprise)",
+      "options": [
+        "Si",
+        "Sv",
+        "Sl",
+        "Ag"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चांदी (Silver) का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "Si",
+        "Sv",
+        "Sl",
+        "Ag"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7371",
+    "en": {
+      "question": "What is the capital of Bangladesh?",
+      "options": [
+        "Chittagong",
+        "Khulna",
+        "Sylhet",
+        "Dhaka"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बांग्लादेश की राजधानी क्या है?",
+      "options": [
+        "चटगांव",
+        "खुलना",
+        "सिलहट",
+        "ढाका"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7372",
+    "en": {
+      "question": "What is the unit of measurement for electric current?",
+      "options": [
+        "Volt",
+        "Ohm",
+        "Watt",
+        "Ampere"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विद्युत धारा के मापन की इकाई क्या है?",
+      "options": [
+        "वोल्ट",
+        "ओम",
+        "वाट",
+        "एम्पीयर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7373",
+    "en": {
+      "question": "Which artist is known for his surrealist paintings featuring melting clocks?",
+      "options": [
+        "René Magritte",
+        "Max Ernst",
+        "Joan Miró",
+        "Salvador Dalí"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कलाकार पिघलती घड़ियों वाली अपनी अतियथार्थवादी पेंटिंग के लिए जाना जाता है?",
+      "options": [
+        "रेने मैग्रेट",
+        "मैक्स अर्न्स्ट",
+        "जोन मिरो",
+        "साल्वाडोर डाली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7374",
+    "en": {
+      "question": "What is the largest planet in our solar system? (Reprise)",
+      "options": [
+        "Earth",
+        "Mars",
+        "Saturn",
+        "Jupiter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का सबसे बड़ा ग्रह कौन सा है? (पुनरावृत्ति)",
+      "options": [
+        "पृथ्वी",
+        "मंगल",
+        "शनि",
+        "बृहस्पति"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_astronomy"
+  },
+  {
+    "id": "GK7375",
+    "en": {
+      "question": "What is the capital of Iceland?",
+      "options": [
+        "Akureyri",
+        "Kópavogur",
+        "Hafnarfjörður",
+        "Reykjavik"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आइसलैंड की राजधानी क्या है?",
+      "options": [
+        "अकुरेरी",
+        "कोपावोगुर",
+        "हाफनारफजोरुदुर",
+        "रेक्जाविक"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7376",
+    "en": {
+      "question": "What is the main component of Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल का मुख्य घटक क्या है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "आर्गन",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_atmosphere"
+  },
+  {
+    "id": "GK7377",
+    "en": {
+      "question": "Who wrote 'Hamlet'?",
+      "options": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Webster",
+        "William Shakespeare"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'हैमलेट' किसने लिखा था?",
+      "options": [
+        "क्रिस्टोफर मार्लो",
+        "बेन जोंसन",
+        "जॉन वेबस्टर",
+        "विलियम शेक्सपियर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK7378",
+    "en": {
+      "question": "What is the chemical symbol for Plutonium?",
+      "options": [
+        "Pl",
+        "Pt",
+        "Pm",
+        "Pu"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्लूटोनियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Pl",
+        "Pt",
+        "Pm",
+        "Pu"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7379",
+    "en": {
+      "question": "What is the capital of Tanzania?",
+      "options": [
+        "Dar es Salaam",
+        "Mwanza",
+        "Arusha",
+        "Dodoma"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तंजानिया की राजधानी क्या है?",
+      "options": [
+        "दार एस सलाम",
+        "मवाज़ा",
+        "अरुशा",
+        "डोडोमा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7380",
+    "en": {
+      "question": "What molecule is essential for all known forms of life?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Water (H2O)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जीवन के सभी ज्ञात रूपों के लिए कौन सा अणु आवश्यक है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "पानी (H2O)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology_chemistry"
+  },
+  {
+    "id": "GK7381",
+    "en": {
+      "question": "Who painted 'The School of Athens'?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Titian",
+        "Raphael"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द स्कूल ऑफ एथेंस' किसने चित्रित किया था?",
+      "options": [
+        "माइकल एंजेलो",
+        "लियोनार्डो दा विंची",
+        "टिटियन",
+        "राफेल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7382",
+    "en": {
+      "question": "What is the currency of Japan? (Reprise)",
+      "options": [
+        "Won",
+        "Yuan",
+        "Dollar",
+        "Yen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जापान की मुद्रा क्या है? (पुनरावृत्ति)",
+      "options": [
+        "वोन",
+        "युआन",
+        "डॉलर",
+        "येन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_economics"
+  },
+  {
+    "id": "GK7383",
+    "en": {
+      "question": "What is the capital of Croatia?",
+      "options": [
+        "Split",
+        "Dubrovnik",
+        "Rijeka",
+        "Zagreb"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्रोएशिया की राजधानी क्या है?",
+      "options": [
+        "स्प्लिट",
+        "डबरोवनिक",
+        "रिजेका",
+        "ज़गरेब"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7385",
+    "en": {
+      "question": "What is the longest river in Europe?",
+      "options": [
+        "Danube",
+        "Rhine",
+        "Elbe",
+        "Volga"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यूरोप की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "डेन्यूब",
+        "राइन",
+        "एल्बे",
+        "वोल्गा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_europe"
+  },
+  {
+    "id": "GK7386",
+    "en": {
+      "question": "Who wrote 'Pride and Prejudice'? (Reprise)",
+      "options": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "George Eliot",
+        "Jane Austen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'प्राइड एंड प्रेजुडिस' किसने लिखा था? (पुनरावृत्ति)",
+      "options": [
+        "एमिली ब्रोंटे",
+        "शार्लोट ब्रोंटे",
+        "जॉर्ज एलियट",
+        "जेन ऑस्टेन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK7387",
+    "en": {
+      "question": "What is the capital of Slovakia?",
+      "options": [
+        "Prague",
+        "Budapest",
+        "Vienna",
+        "Bratislava"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्लोवाकिया की राजधानी क्या है?",
+      "options": [
+        "प्राग",
+        "बुडापेस्ट",
+        "वियना",
+        "ब्रातिस्लावा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7388",
+    "en": {
+      "question": "What is the name for the center of an atom?",
+      "options": [
+        "Electron Shell",
+        "Proton Cloud",
+        "Neutron Star",
+        "Nucleus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "परमाणु के केंद्र का नाम क्या है?",
+      "options": [
+        "इलेक्ट्रॉन शेल",
+        "प्रोटॉन क्लाउड",
+        "न्यूट्रॉन स्टार",
+        "नाभिक (Nucleus)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry_physics"
+  },
+  {
+    "id": "GK7389",
+    "en": {
+      "question": "What is the highest mountain in North America?",
+      "options": [
+        "Mount Logan",
+        "Mount Whitney",
+        "Pico de Orizaba",
+        "Denali (Mount McKinley)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उत्तरी अमेरिका का सबसे ऊँचा पर्वत कौन सा है?",
+      "options": [
+        "माउंट लोगान",
+        "माउंट व्हिटनी",
+        "पिको डी ओरिज़ाबा",
+        "डेनाली (माउंट मैकिनले)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_north_america"
+  },
+  {
+    "id": "GK7390",
+    "en": {
+      "question": "Which artist is associated with the Campbell's Soup Cans artwork?",
+      "options": [
+        "Jackson Pollock",
+        "Roy Lichtenstein",
+        "Jasper Johns",
+        "Andy Warhol"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कलाकार कैंपबेल सूप कैन्स कलाकृति से जुड़ा है?",
+      "options": [
+        "जैक्सन पोलक",
+        "रॉय लिचेंस्टीन",
+        "जैस्पर जॉन्स",
+        "एंडी वारहोल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history_pop"
+  },
+  {
+    "id": "GK7391",
+    "en": {
+      "question": "What is the capital of Cyprus?",
+      "options": [
+        "Limassol",
+        "Larnaca",
+        "Paphos",
+        "Nicosia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "साइप्रस की राजधानी क्या है?",
+      "options": [
+        "लिमासोल",
+        "लारनाका",
+        "पाफोस",
+        "निकोसिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7392",
+    "en": {
+      "question": "What is the chemical symbol for Tungsten?",
+      "options": [
+        "Tu",
+        "Tg",
+        "Ts",
+        "W"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "टंगस्टन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Tu",
+        "Tg",
+        "Ts",
+        "W"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7393",
+    "en": {
+      "question": "Which country is the origin of the Olympic Games?",
+      "options": [
+        "Italy",
+        "Egypt",
+        "Rome",
+        "Greece"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ओलंपिक खेलों का उद्गम किस देश में हुआ?",
+      "options": [
+        "इटली",
+        "मिस्र",
+        "रोम",
+        "ग्रीस"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "history_sports"
+  },
+  {
+    "id": "GK7394",
+    "en": {
+      "question": "Who wrote 'Jane Eyre'?",
+      "options": [
+        "Jane Austen",
+        "Emily Brontë",
+        "George Eliot",
+        "Charlotte Brontë"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'जेन आयर' किसने लिखा था?",
+      "options": [
+        "जेन ऑस्टेन",
+        "एमिली ब्रोंटे",
+        "जॉर्ज एलियट",
+        "शार्लोट ब्रोंटे"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK7395",
+    "en": {
+      "question": "What is the capital of Estonia?",
+      "options": [
+        "Riga",
+        "Vilnius",
+        "Helsinki",
+        "Tallinn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एस्टोनिया की राजधानी क्या है?",
+      "options": [
+        "रीगा",
+        "विनियस",
+        "हेलसिंकी",
+        "तेलिन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7396",
+    "en": {
+      "question": "What gas is commonly used to fill balloons to make them float?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Helium"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गुब्बारों को तैराने के लिए आमतौर पर किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हीलियम"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry_physics"
+  },
+  {
+    "id": "GK7397",
+    "en": {
+      "question": "What type of animal is a snake?",
+      "options": [
+        "Mammal",
+        "Amphibian",
+        "Fish",
+        "Reptile"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सांप किस प्रकार का जानवर है?",
+      "options": [
+        "स्तनपायी",
+        "उभयचर",
+        "मछली",
+        "सरीसृप"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology_animals"
+  },
+  {
+    "id": "GK7398",
+    "en": {
+      "question": "Which artist painted 'The Starry Night'? (Reprise)",
+      "options": [
+        "Claude Monet",
+        "Edgar Degas",
+        "Pierre-Auguste Renoir",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस कलाकार ने 'द स्टारी नाइट' चित्रित किया था? (पुनरावृत्ति)",
+      "options": [
+        "क्लॉड मोनेट",
+        "एडगर डेगास",
+        "पियरे-अगस्टे रेनॉयर",
+        "विन्सेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7399",
+    "en": {
+      "question": "What is the capital of Slovenia?",
+      "options": [
+        "Zagreb",
+        "Bratislava",
+        "Vienna",
+        "Ljubljana"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्लोवेनिया की राजधानी क्या है?",
+      "options": [
+        "ज़गरेब",
+        "ब्रातिस्लावा",
+        "वियना",
+        "ज़ुब्लज़ाना"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7400",
+    "en": {
+      "question": "What is the chemical symbol for Iron? (Reprise)",
+      "options": [
+        "Ir",
+        "I",
+        "In",
+        "Fe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लोहे (Iron) का रासायनिक प्रतीक क्या है? (पुनरावृत्ति)",
+      "options": [
+        "Ir",
+        "I",
+        "In",
+        "Fe"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  }
+]

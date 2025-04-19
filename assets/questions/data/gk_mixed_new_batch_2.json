@@ -1,0 +1,1977 @@
+[
+  {
+    "id": "GK5101",
+    "en": {
+      "question": "What is the main currency used in most countries of the European Union?",
+      "options": [
+        "Dollar",
+        "Pound",
+        "Euro",
+        "Yen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "यूरोपीय संघ के अधिकांश देशों में उपयोग की जाने वाली मुख्य मुद्रा क्या है?",
+      "options": [
+        "डॉलर",
+        "पाउंड",
+        "यूरो",
+        "येन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5102",
+    "en": {
+      "question": "Which of these is NOT a primary color?",
+      "options": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन सा प्राथमिक रंग नहीं है?",
+      "options": [
+        "लाल",
+        "नीला",
+        "पीला",
+        "हरा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "art_basics"
+  },
+  {
+    "id": "GK5103",
+    "en": {
+      "question": "What is the name of the galaxy we live in?",
+      "options": [
+        "Andromeda",
+        "Triangulum",
+        "Milky Way",
+        "Whirlpool"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हम जिस आकाशगंगा में रहते हैं उसका नाम क्या है?",
+      "options": [
+        "एंड्रोमेडा",
+        "त्रिकोणीय",
+        "मिल्की वे",
+        "व्हर्लपूल"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5104",
+    "en": {
+      "question": "Which famous Indian monument was built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal?",
+      "options": [
+        "Qutub Minar",
+        "India Gate",
+        "Taj Mahal",
+        "Red Fort"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सम्राट शाहजहाँ ने अपनी पत्नी मुमताज महल की याद में कौन सा प्रसिद्ध भारतीय स्मारक बनवाया था?",
+      "options": [
+        "कुतुब मीनार",
+        "इंडिया गेट",
+        "ताज महल",
+        "लाल किला"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK5105",
+    "en": {
+      "question": "What device is used to measure atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer",
+        "Barometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वायुमंडलीय दाब मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर",
+        "बैरोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5106",
+    "en": {
+      "question": "What is the capital of Thailand?",
+      "options": [
+        "Phuket",
+        "Chiang Mai",
+        "Bangkok",
+        "Pattaya"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "थाईलैंड की राजधानी क्या है?",
+      "options": [
+        "फुकेत",
+        "चियांग माई",
+        "बैंकॉक",
+        "पटाया"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5107",
+    "en": {
+      "question": "Which gas do humans breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मनुष्य कौन सी गैस बाहर निकालते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5108",
+    "en": {
+      "question": "How many strings does a standard violin have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "एक मानक वायलिन में कितने तार होते हैं?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "music"
+  },
+  {
+    "id": "GK5110",
+    "en": {
+      "question": "Which country is known for its tulips and windmills?",
+      "options": [
+        "Belgium",
+        "Denmark",
+        "Netherlands",
+        "Switzerland"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा देश अपने ट्यूलिप और पवन चक्कियों के लिए जाना जाता है?",
+      "options": [
+        "बेल्जियम",
+        "डेनमार्क",
+        "नीदरलैंड",
+        "स्विट्जरलैंड"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5111",
+    "en": {
+      "question": "What is the name for a baby cat?",
+      "options": [
+        "Pup",
+        "Kitten",
+        "Cub",
+        "Chick"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बिल्ली के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "बिल्ली का बच्चा",
+        "शावक",
+        "चूजा"
+      ],
+      "answer": 1
+    },
+    "level": 1,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5113",
+    "en": {
+      "question": "Who is the author of the Harry Potter series?",
+      "options": [
+        "J.R.R. Tolkien",
+        "George R.R. Martin",
+        "J.K. Rowling",
+        "C.S. Lewis"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हैरी पॉटर श्रृंखला के लेखक कौन हैं?",
+      "options": [
+        "जे.आर.आर. टोल्किन",
+        "जॉर्ज आर.आर. मार्टिन",
+        "जे.के. राउलिंग",
+        "सी.एस. लुईस"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "literature"
+  },
+  {
+    "id": "GK5114",
+    "en": {
+      "question": "What is the capital of Greece?",
+      "options": [
+        "Thessaloniki",
+        "Patras",
+        "Heraklion",
+        "Athens"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीस की राजधानी क्या है?",
+      "options": [
+        "थेसालोनिकी",
+        "पत्रास",
+        "हेराक्लिओन",
+        "एथेंस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5115",
+    "en": {
+      "question": "What part of the plant absorbs water and nutrients from the soil?",
+      "options": [
+        "Leaves",
+        "Stem",
+        "Flower",
+        "Roots"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे का कौन सा भाग मिट्टी से पानी और पोषक तत्वों को अवशोषित करता है?",
+      "options": [
+        "पत्तियाँ",
+        "तना",
+        "फूल",
+        "जड़ें"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5116",
+    "en": {
+      "question": "Which ocean is bordered by Africa, Asia, Australia, and the Southern Ocean?",
+      "options": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा महासागर अफ्रीका, एशिया, ऑस्ट्रेलिया और दक्षिणी महासागर से घिरा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "प्रशांत महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5117",
+    "en": {
+      "question": "What is the process of liquid turning into gas called?",
+      "options": [
+        "Freezing",
+        "Melting",
+        "Condensation",
+        "Evaporation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तरल के गैस में बदलने की प्रक्रिया क्या कहलाती है?",
+      "options": [
+        "जमना",
+        "पिघलना",
+        "संघनन",
+        "वाष्पीकरण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "physics"
+  },
+  {
+    "id": "GK5118",
+    "en": {
+      "question": "Which country is the largest by area?",
+      "options": [
+        "China",
+        "USA",
+        "Canada",
+        "Russia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्षेत्रफल की दृष्टि से सबसे बड़ा देश कौन सा है?",
+      "options": [
+        "चीन",
+        "यूएसए",
+        "कनाडा",
+        "रूस"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5119",
+    "en": {
+      "question": "What is the main structural material of the human skeleton?",
+      "options": [
+        "Cartilage",
+        "Muscle",
+        "Bone",
+        "Tendon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव कंकाल की मुख्य संरचनात्मक सामग्री क्या है?",
+      "options": [
+        "उपास्थि",
+        "मांसपेशी",
+        "हड्डी",
+        "कण्डरा"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5120",
+    "en": {
+      "question": "Who painted 'The Last Supper'?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Donatello",
+        "Leonardo da Vinci"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लास्ट सपर' किसने चित्रित किया?",
+      "options": [
+        "माइकल एंजेलो",
+        "राफेल",
+        "डोनाटेलो",
+        "लियोनार्डो दा विंची"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5122",
+    "en": {
+      "question": "Which insect is known for producing silk?",
+      "options": [
+        "Bee",
+        "Ant",
+        "Silkworm",
+        "Butterfly"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा कीट रेशम उत्पादन के लिए जाना जाता है?",
+      "options": [
+        "मधुमक्खी",
+        "चींटी",
+        "रेशमकीट",
+        "तितली"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_insects"
+  },
+  {
+    "id": "GK5123",
+    "en": {
+      "question": "What is the unit of electrical resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Watt",
+        "Ohm"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विद्युत प्रतिरोध की इकाई क्या है?",
+      "options": [
+        "वोल्ट",
+        "एम्पीयर",
+        "वाट",
+        "ओम"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK5124",
+    "en": {
+      "question": "Which river flows through Egypt?",
+      "options": [
+        "Congo River",
+        "Niger River",
+        "Nile River",
+        "Zambezi River"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मिस्र से होकर कौन सी नदी बहती है?",
+      "options": [
+        "कांगो नदी",
+        "नाइजर नदी",
+        "नील नदी",
+        "ज़ाम्बेज़ी नदी"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5125",
+    "en": {
+      "question": "What is the name for a group of lions?",
+      "options": [
+        "Herd",
+        "Flock",
+        "Pride",
+        "Pack"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "शेरों के समूह को क्या कहते हैं?",
+      "options": [
+        "झुंड",
+        "झुंड (पक्षियों का)",
+        "प्राइड",
+        "झुंड (भेड़ियों/कुत्तों का)"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5126",
+    "en": {
+      "question": "What is the main language spoken in Spain?",
+      "options": [
+        "Portuguese",
+        "Catalan",
+        "Spanish",
+        "Basque"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "स्पेन में बोली जाने वाली मुख्य भाषा क्या है?",
+      "options": [
+        "पुर्तगाली",
+        "कैटलन",
+        "स्पेनिश",
+        "बास्क"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5128",
+    "en": {
+      "question": "In which city is the famous Colosseum located?",
+      "options": [
+        "Athens",
+        "Rome",
+        "Florence",
+        "Venice"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्रसिद्ध कोलोसियम किस शहर में स्थित है?",
+      "options": [
+        "एथेंस",
+        "रोम",
+        "फ्लोरेंस",
+        "वेनिस"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5129",
+    "en": {
+      "question": "What is the fastest bird in the world?",
+      "options": [
+        "Eagle",
+        "Ostrich",
+        "Peregrine Falcon",
+        "Hummingbird"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "दुनिया का सबसे तेज़ पक्षी कौन सा है?",
+      "options": [
+        "ईगल",
+        "शुतुरमुर्ग",
+        "पेरेग्रीन फाल्कन",
+        "हमिंगबर्ड"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5130",
+    "en": {
+      "question": "What is the main ingredient in pasta?",
+      "options": [
+        "Rice",
+        "Potatoes",
+        "Wheat (semolina flour)",
+        "Corn"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पास्ता में मुख्य सामग्री क्या है?",
+      "options": [
+        "चावल",
+        "आलू",
+        "गेहूं (सूजी का आटा)",
+        "मक्का"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "world_food"
+  },
+  {
+    "id": "GK5131",
+    "en": {
+      "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Jupiter"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस ग्रह को 'भोर का तारा' या 'सांझ का तारा' कहा जाता है?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "बुध",
+        "बृहस्पति"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5133",
+    "en": {
+      "question": "What measurement is used for the loudness of sound?",
+      "options": [
+        "Hertz",
+        "Decibel",
+        "Lumen",
+        "Volt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ध्वनि की प्रबलता के लिए किस माप का उपयोग किया जाता है?",
+      "options": [
+        "हर्ट्ज़",
+        "डेसिबल",
+        "ल्यूमेन",
+        "वोल्ट"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "physics"
+  },
+  {
+    "id": "GK5135",
+    "en": {
+      "question": "Which large body of water separates Europe and Africa?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Mediterranean Sea",
+        "Black Sea"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा बड़ा जल निकाय यूरोप और अफ्रीका को अलग करता है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "भूमध्य सागर",
+        "काला सागर"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5136",
+    "en": {
+      "question": "What gas is necessary for fire to burn?",
+      "options": [
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Oxygen",
+        "Helium"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आग जलने के लिए कौन सी गैस आवश्यक है?",
+      "options": [
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "ऑक्सीजन",
+        "हीलियम"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5137",
+    "en": {
+      "question": "What type of organism is yeast?",
+      "options": [
+        "Bacteria",
+        "Virus",
+        "Fungus",
+        "Algae"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "खमीर किस प्रकार का जीव है?",
+      "options": [
+        "बैक्टीरिया",
+        "वायरस",
+        "कवक",
+        "शैवाल"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK5138",
+    "en": {
+      "question": "In which country did the Olympic Games originate?",
+      "options": [
+        "Italy",
+        "Egypt",
+        "Greece",
+        "Rome"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ओलंपिक खेलों की उत्पत्ति किस देश में हुई?",
+      "options": [
+        "इटली",
+        "मिस्र",
+        "ग्रीस",
+        "रोम"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5139",
+    "en": {
+      "question": "What is the name for a baby sheep?",
+      "options": [
+        "Calf",
+        "Foal",
+        "Lamb",
+        "Kid"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भेड़ के बच्चे का नाम क्या है?",
+      "options": [
+        "बछड़ा",
+        "घोड़े का बच्चा",
+        "मेमना",
+        "बकरी का बच्चा"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5141",
+    "en": {
+      "question": "What instrument is used to measure wind speed?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हवा की गति मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5142",
+    "en": {
+      "question": "What is the official language of Egypt?",
+      "options": [
+        "English",
+        "French",
+        "Arabic",
+        "Coptic"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मिस्र की आधिकारिक भाषा क्या है?",
+      "options": [
+        "अंग्रेजी",
+        "फ्रेंच",
+        "अरबी",
+        "कॉप्टिक"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5143",
+    "en": {
+      "question": "Who wrote '1984'?",
+      "options": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "Philip K. Dick"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'1984' किसने लिखा?",
+      "options": [
+        "एल्डस हक्सले",
+        "जॉर्ज ऑरवेल",
+        "रे ब्रैडबरी",
+        "फिलिप के. डिक"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5145",
+    "en": {
+      "question": "What is the world's largest island?",
+      "options": [
+        "Borneo",
+        "Madagascar",
+        "Greenland",
+        "New Guinea"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा द्वीप कौन सा है?",
+      "options": [
+        "बोर्नियो",
+        "मेडागास्कर",
+        "ग्रीनलैंड",
+        "न्यू गिनी"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5146",
+    "en": {
+      "question": "Which part of the human brain is responsible for thinking?",
+      "options": [
+        "Cerebellum",
+        "Brainstem",
+        "Cerebrum",
+        "Medulla"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव मस्तिष्क का कौन सा भाग सोचने के लिए जिम्मेदार है?",
+      "options": [
+        "अनुमस्तिष्क",
+        "ब्रेनस्टेम",
+        "प्रमस्तिष्क",
+        "मज्जा"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5147",
+    "en": {
+      "question": "What is the main ingredient in traditional Indian curry?",
+      "options": [
+        "Coconut milk",
+        "Yogurt",
+        "Spices",
+        "Tomato paste"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पारंपरिक भारतीय करी में मुख्य सामग्री क्या है?",
+      "options": [
+        "नारियल का दूध",
+        "दही",
+        "मसाले",
+        "टमाटर का पेस्ट"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "indian_food"
+  },
+  {
+    "id": "GK5148",
+    "en": {
+      "question": "How many players are on a basketball court for one team?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "एक टीम के लिए बास्केटबॉल कोर्ट पर कितने खिलाड़ी होते हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "sports"
+  },
+  {
+    "id": "GK5149",
+    "en": {
+      "question": "What is the capital of the United States?",
+      "options": [
+        "New York City",
+        "Los Angeles",
+        "Chicago",
+        "Washington, D.C."
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका की राजधानी क्या है?",
+      "options": [
+        "न्यूयॉर्क शहर",
+        "लॉस एंजिल्स",
+        "शिकागो",
+        "वाशिंगटन, डी.सी."
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5150",
+    "en": {
+      "question": "Which metal is attracted to a magnet?",
+      "options": [
+        "Aluminum",
+        "Copper",
+        "Iron",
+        "Silver"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी धातु चुंबक की ओर आकर्षित होती है?",
+      "options": [
+        "एल्यूमीनियम",
+        "तांबा",
+        "लोहा",
+        "चांदी"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5151",
+    "en": {
+      "question": "What is the name for the young of a deer?",
+      "options": [
+        "Fawn",
+        "Colt",
+        "Pup",
+        "Joey"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "हिरण के बच्चे का नाम क्या है?",
+      "options": [
+        "हिरणशावक",
+        "बछेड़ा",
+        "पिल्ला",
+        "जोई (कंगारू बच्चा)"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5153",
+    "en": {
+      "question": "What is the process of gas turning into liquid called?",
+      "options": [
+        "Evaporation",
+        "Sublimation",
+        "Melting",
+        "Condensation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गैस के तरल में बदलने की प्रक्रिया क्या कहलाती है?",
+      "options": [
+        "वाष्पीकरण",
+        "ऊर्ध्वपातन",
+        "पिघलना",
+        "संघनन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "physics"
+  },
+  {
+    "id": "GK5154",
+    "en": {
+      "question": "Which ocean is the smallest?",
+      "options": [
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा महासागर सबसे छोटा है?",
+      "options": [
+        "हिंद महासागर",
+        "अटलांटिक महासागर",
+        "प्रशांत महासागर",
+        "आर्कटिक महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5155",
+    "en": {
+      "question": "What is the main job of the roots of a plant?",
+      "options": [
+        "Make food",
+        "Produce flowers",
+        "Anchor the plant and absorb water",
+        "Attract insects"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पौधे की जड़ों का मुख्य कार्य क्या है?",
+      "options": [
+        "भोजन बनाना",
+        "फूल पैदा करना",
+        "पौधे को स्थिर रखना और पानी अवशोषित करना",
+        "कीड़ों को आकर्षित करना"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5156",
+    "en": {
+      "question": "Who was the first Prime Minister of India?",
+      "options": [
+        "Sardar Patel",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rajendra Prasad"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत के पहले प्रधान मंत्री कौन थे?",
+      "options": [
+        "सरदार पटेल",
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "राजेंद्र प्रसाद"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK5157",
+    "en": {
+      "question": "What color do you get when you mix red and blue?",
+      "options": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Brown"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "लाल और नीले रंग को मिलाने पर आपको कौन सा रंग मिलता है?",
+      "options": [
+        "हरा",
+        "नारंगी",
+        "बैंगनी",
+        "भूरा"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "art_basics"
+  },
+  {
+    "id": "GK5160",
+    "en": {
+      "question": "What is the control center of the human body?",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Stomach",
+        "Brain"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर का नियंत्रण केंद्र क्या है?",
+      "options": [
+        "हृदय",
+        "फेफड़े",
+        "पेट",
+        "मस्तिष्क"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5161",
+    "en": {
+      "question": "What is the name for a baby dog?",
+      "options": [
+        "Kitten",
+        "Puppy",
+        "Cub",
+        "Foal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कुत्ते के बच्चे का नाम क्या है?",
+      "options": [
+        "बिल्ली का बच्चा",
+        "पिल्ला",
+        "शावक",
+        "बछेड़ा"
+      ],
+      "answer": 1
+    },
+    "level": 1,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5162",
+    "en": {
+      "question": "What is the main ingredient in chocolate?",
+      "options": [
+        "Milk",
+        "Sugar",
+        "Cocoa beans",
+        "Butter"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "चॉकलेट में मुख्य सामग्री क्या है?",
+      "options": [
+        "दूध",
+        "चीनी",
+        "कोको बीन्स",
+        "मक्खन"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "general_food"
+  },
+  {
+    "id": "GK5163",
+    "en": {
+      "question": "Which of the five senses allows us to taste food?",
+      "options": [
+        "Sight",
+        "Smell",
+        "Touch",
+        "Taste"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पांच इंद्रियों में से कौन सी हमें भोजन का स्वाद लेने की अनुमति देती है?",
+      "options": [
+        "दृष्टि",
+        "गंध",
+        "स्पर्श",
+        "स्वाद"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5165",
+    "en": {
+      "question": "What gas makes drinks fizzy?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Helium"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी गैस पेय पदार्थों को फ़िज़ी बनाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हीलियम"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5166",
+    "en": {
+      "question": "Who wrote 'The Adventures of Tom Sawyer'?",
+      "options": [
+        "Herman Melville",
+        "Mark Twain",
+        "Nathaniel Hawthorne",
+        "Edgar Allan Poe"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'द एडवेंचर्स ऑफ टॉम सॉयर' किसने लिखा?",
+      "options": [
+        "हरमन मेलविल",
+        "मार्क ट्वेन",
+        "नथानिएल हॉथोर्न",
+        "एडगर एलन पो"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5167",
+    "en": {
+      "question": "What is the movement of air called?",
+      "options": [
+        "Rain",
+        "Cloud",
+        "Wind",
+        "Snow"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हवा की गति को क्या कहते हैं?",
+      "options": [
+        "बारिश",
+        "बादल",
+        "हवा",
+        "बर्फ"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "science_weather"
+  },
+  {
+    "id": "GK5168",
+    "en": {
+      "question": "Which planet is farthest from the Sun?",
+      "options": [
+        "Saturn",
+        "Uranus",
+        "Neptune",
+        "Jupiter"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सूर्य से सबसे दूर कौन सा ग्रह है?",
+      "options": [
+        "शनि",
+        "अरुण",
+        "वरुण",
+        "बृहस्पति"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5170",
+    "en": {
+      "question": "Which famous artist is known for cubism?",
+      "options": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Salvador Dalí"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा प्रसिद्ध कलाकार क्यूबिज़्म के लिए जाना जाता है?",
+      "options": [
+        "क्लॉड मोनेट",
+        "विंसेंट वैन गॉग",
+        "पाब्लो पिकासो",
+        "साल्वाडोर डाली"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5171",
+    "en": {
+      "question": "What is the currency of Russia?",
+      "options": [
+        "Euro",
+        "Dollar",
+        "Ruble",
+        "Won"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "रूस की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "डॉलर",
+        "रूबल",
+        "वोन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5173",
+    "en": {
+      "question": "Which famous building in London houses the Crown Jewels?",
+      "options": [
+        "Buckingham Palace",
+        "Westminster Abbey",
+        "Tower of London",
+        "Houses of Parliament"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "लंदन की किस प्रसिद्ध इमारत में क्राउन ज्वेल्स रखे गए हैं?",
+      "options": [
+        "बकिंघम पैलेस",
+        "वेस्टमिंस्टर एब्बे",
+        "टॉवर ऑफ लंदन",
+        "संसद भवन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5175",
+    "en": {
+      "question": "What is the study of weather called?",
+      "options": [
+        "Geology",
+        "Biology",
+        "Meteorology",
+        "Astronomy"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मौसम के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "भूविज्ञान",
+        "जीव विज्ञान",
+        "मौसम विज्ञान",
+        "खगोल विज्ञान"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "science_fields"
+  },
+  {
+    "id": "GK5177",
+    "en": {
+      "question": "Which part of a flower attracts insects like bees?",
+      "options": [
+        "Roots",
+        "Stem",
+        "Leaves",
+        "Petals"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फूल का कौन सा भाग मधुमक्खियों जैसे कीड़ों को आकर्षित करता है?",
+      "options": [
+        "जड़ें",
+        "तना",
+        "पत्तियाँ",
+        "पंखुड़ियाँ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5179",
+    "en": {
+      "question": "What type of energy comes from the sun?",
+      "options": [
+        "Wind energy",
+        "Solar energy",
+        "Hydro energy",
+        "Geothermal energy"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सूर्य से किस प्रकार की ऊर्जा आती है?",
+      "options": [
+        "पवन ऊर्जा",
+        "सौर ऊर्जा",
+        "जल ऊर्जा",
+        "भूतापीय ऊर्जा"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "science_energy"
+  },
+  {
+    "id": "GK5180",
+    "en": {
+      "question": "How many rings are in the Olympic logo?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ओलंपिक लोगो में कितने छल्ले होते हैं?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "sports_symbols"
+  },
+  {
+    "id": "GK5182",
+    "en": {
+      "question": "Which sense helps us hear sounds?",
+      "options": [
+        "Sight",
+        "Smell",
+        "Hearing",
+        "Taste"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें ध्वनियाँ सुनने में मदद करती है?",
+      "options": [
+        "दृष्टि",
+        "गंध",
+        "श्रवण",
+        "स्वाद"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5183",
+    "en": {
+      "question": "What is the name for a baby kangaroo?",
+      "options": [
+        "Pup",
+        "Joey",
+        "Cub",
+        "Calf"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कंगारू के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "जोई",
+        "शावक",
+        "बछड़ा"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5184",
+    "en": {
+      "question": "Which war involved the Axis and Allied powers?",
+      "options": [
+        "World War I",
+        "Vietnam War",
+        "World War II",
+        "Korean War"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस युद्ध में धुरी और मित्र राष्ट्र शामिल थे?",
+      "options": [
+        "प्रथम विश्व युद्ध",
+        "वियतनाम युद्ध",
+        "द्वितीय विश्व युद्ध",
+        "कोरियाई युद्ध"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5185",
+    "en": {
+      "question": "What is the capital of Turkey?",
+      "options": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Bursa"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "तुर्की की राजधानी क्या है?",
+      "options": [
+        "इस्तांबुल",
+        "अंकारा",
+        "इज़मिर",
+        "बर्सा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5186",
+    "en": {
+      "question": "What is the hardest known mineral?",
+      "options": [
+        "Quartz",
+        "Topaz",
+        "Corundum",
+        "Diamond"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ज्ञात सबसे कठोर खनिज कौन सा है?",
+      "options": [
+        "क्वार्ट्ज",
+        "पुखराज",
+        "कोरंडम",
+        "हीरा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "geology"
+  },
+  {
+    "id": "GK5187",
+    "en": {
+      "question": "Who wrote 'Alice's Adventures in Wonderland'?",
+      "options": [
+        "Lewis Carroll",
+        "J.M. Barrie",
+        "A.A. Milne",
+        "Roald Dahl"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'एलिस एडवेंचर्स इन वंडरलैंड' किसने लिखा?",
+      "options": [
+        "लुईस कैरोल",
+        "जे.एम. बैरी",
+        "ए.ए. मिल्ने",
+        "रोआल्ड डाल"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK5189",
+    "en": {
+      "question": "What is the primary function of leaves on a plant?",
+      "options": [
+        "Absorb water",
+        "Support the plant",
+        "Produce seeds",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे पर पत्तियों का प्राथमिक कार्य क्या है?",
+      "options": [
+        "पानी अवशोषित करना",
+        "पौधे को सहारा देना",
+        "बीज पैदा करना",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5191",
+    "en": {
+      "question": "Which continent is known as the 'Dark Continent'?",
+      "options": [
+        "Asia",
+        "Africa",
+        "South America",
+        "Australia"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस महाद्वीप को 'अंध महाद्वीप' के रूप में जाना जाता है?",
+      "options": [
+        "एशिया",
+        "अफ्रीका",
+        "दक्षिण अमेरिका",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5192",
+    "en": {
+      "question": "How many days are in a leap year?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "एक लीप वर्ष में कितने दिन होते हैं?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "GK5193",
+    "en": {
+      "question": "What is the name for a baby bear?",
+      "options": [
+        "Pup",
+        "Kitten",
+        "Cub",
+        "Fawn"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भालू के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "बिल्ली का बच्चा",
+        "शावक",
+        "हिरणशावक"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5194",
+    "en": {
+      "question": "Which country is famous for kangaroos?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "Australia",
+        "Brazil"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा देश कंगारुओं के लिए प्रसिद्ध है?",
+      "options": [
+        "न्यूजीलैंड",
+        "दक्षिण अफ्रीका",
+        "ऑस्ट्रेलिया",
+        "ब्राजील"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5195",
+    "en": {
+      "question": "What is the process of solid turning directly into gas called?",
+      "options": [
+        "Melting",
+        "Evaporation",
+        "Condensation",
+        "Sublimation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ठोस के सीधे गैस में बदलने की प्रक्रिया क्या कहलाती है?",
+      "options": [
+        "पिघलना",
+        "वाष्पीकरण",
+        "संघनन",
+        "ऊर्ध्वपातन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK5196",
+    "en": {
+      "question": "What is the capital of Portugal?",
+      "options": [
+        "Porto",
+        "Lisbon",
+        "Faro",
+        "Coimbra"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पुर्तगाल की राजधानी क्या है?",
+      "options": [
+        "पोर्टो",
+        "लिस्बन",
+        "फ़ारो",
+        "कोयम्ब्रा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5197",
+    "en": {
+      "question": "Which organ system is responsible for breaking down food?",
+      "options": [
+        "Respiratory System",
+        "Nervous System",
+        "Digestive System",
+        "Circulatory System"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भोजन को तोड़ने के लिए कौन सी अंग प्रणाली जिम्मेदार है?",
+      "options": [
+        "श्वसन प्रणाली",
+        "तंत्रिका प्रणाली",
+        "पाचन प्रणाली",
+        "संचार प्रणाली"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5199",
+    "en": {
+      "question": "Which city hosted the 2016 Summer Olympics?",
+      "options": [
+        "London",
+        "Beijing",
+        "Rio de Janeiro",
+        "Tokyo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस शहर ने 2016 ग्रीष्मकालीन ओलंपिक की मेजबानी की थी?",
+      "options": [
+        "लंदन",
+        "बीजिंग",
+        "रियो डी जनेरियो",
+        "टोक्यो"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "sports_history"
+  },
+  {
+    "id": "GK5200",
+    "en": {
+      "question": "What color are emeralds?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पन्ने का रंग क्या होता है?",
+      "options": [
+        "लाल",
+        "नीला",
+        "हरा",
+        "पीला"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "geology"
+  }
+]

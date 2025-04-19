@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gk_geo_021",
+    "en": {
+      "question": "Which of the following is NOT a type of plate tectonic boundary?",
+      "options": ["Convergent boundary", "Divergent boundary", "Transform boundary", "Longitudinal boundary"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक प्रकार की प्लेट टेक्टोनिक सीमा नहीं है?",
+      "options": ["अभिसारी सीमा", "अपसारी सीमा", "रूपांतरण सीमा", "अनुदैर्ध्य सीमा"],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_022",
+    "en": {
+      "question": "Which of the following is a cold ocean current?",
+      "options": ["Gulf Stream", "Kuroshio Current", "Benguela Current", "Brazil Current"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक ठंडी समुद्री धारा है?",
+      "options": ["गल्फ स्ट्रीम", "कुरोशियो धारा", "बेंगुएला धारा", "ब्राजील धारा"],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_023",
+    "en": {
+      "question": "What type of cloud is characterized by its flat base and fluffy, cotton-like appearance?",
+      "options": ["Cirrus", "Stratus", "Cumulus", "Nimbus"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस प्रकार के बादल की विशेषता इसका समतल आधार और फुलझड़ी, कपास जैसा दिखावट है?",
+      "options": ["सिरस", "स्ट्रेटस", "क्यूम्युलस", "निम्बस"],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_024",
+    "en": {
+      "question": "Which of the following countries does NOT border the Mediterranean Sea?",
+      "options": ["Spain", "Italy", "Portugal", "Greece"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से किस देश की सीमा भूमध्य सागर से नहीं लगती है?",
+      "options": ["स्पेन", "इटली", "पुर्तगाल", "ग्रीस"],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_025",
+    "en": {
+      "question": "Which of the following is NOT a factor affecting climate?",
+      "options": ["Latitude", "Altitude", "Distance from the sea", "Political boundaries"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन जलवायु को प्रभावित करने वाला कारक नहीं है?",
+      "options": ["अक्षांश", "ऊंचाई", "समुद्र से दूरी", "राजनीतिक सीमाएं"],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_026",
+    "en": {
+      "question": "Which of the following is a tropical grassland?",
+      "options": ["Taiga", "Savanna", "Tundra", "Coniferous forest"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक उष्णकटिबंधीय घास का मैदान है?",
+      "options": ["टैगा", "सवाना", "टुंड्रा", "शंकुधारी वन"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_027",
+    "en": {
+      "question": "What is the term for a narrow strip of land connecting two larger land areas?",
+      "options": ["Peninsula", "Isthmus", "Strait", "Archipelago"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "दो बड़े भूमि क्षेत्रों को जोड़ने वाली भूमि की एक संकरी पट्टी को क्या कहते हैं?",
+      "options": ["प्रायद्वीप", "स्थलसंधि", "जलडमरूमध्य", "द्वीपसमूह"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_028",
+    "en": {
+      "question": "Which river forms the longest tributary of the Amazon River?",
+      "options": ["Rio Negro", "Madeira River", "Paraná River", "Orinoco River"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सी नदी अमेज़न नदी की सबसे लंबी सहायक नदी बनाती है?",
+      "options": ["रियो नेग्रो", "मदेइरा नदी", "पराना नदी", "ओरिनोको नदी"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_029",
+    "en": {
+      "question": "What is the study of the distribution of species and ecosystems called?",
+      "options": ["Geology", "Biogeography", "Meteorology", "Demography"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्रजातियों और पारिस्थितिक तंत्रों के वितरण के अध्ययन को क्या कहते हैं?",
+      "options": ["भूविज्ञान", "जैवभूगोल", "मौसम विज्ञान", "जनसांख्यिकी"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_030",
+    "en": {
+      "question": "Which of the following is an example of a rain shadow desert?",
+      "options": ["Sahara Desert", "Gobi Desert", "Atacama Desert", "Thar Desert"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन वर्षा छाया मरुस्थल का एक उदाहरण है?",
+      "options": ["सहारा मरुस्थल", "गोबी मरुस्थल", "अटाकामा मरुस्थल", "थार मरुस्थल"],
+      "answer": 2
+    },
+    "level": 10,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_031",
+    "en": {
+      "question": "Which one of the following factors is NOT responsible for monsoon rainfall in India?",
+      "options": ["Thermal contrast between land and sea", "Inter Tropical Convergence Zone", "Jet Streams", "El Niño Southern Oscillation"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन सा कारक भारत में मानसूनी वर्षा के लिए जिम्मेदार नहीं है?",
+      "options": ["भूमि और समुद्र के बीच तापीय विषमता", "अंतर-उष्णकटिबंधीय अभिसरण क्षेत्र", "जेट स्ट्रीम", "अल नीनो दक्षिणी दोलन"],
+      "answer": 3
+    },
+    "level": 11,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_032",
+    "en": {
+      "question": "Which of the following is the correct sequence of layers of the Earth's atmosphere from the surface upward?",
+      "options": ["Troposphere, Stratosphere, Mesosphere, Thermosphere", "Stratosphere, Troposphere, Mesosphere, Thermosphere", "Troposphere, Mesosphere, Stratosphere, Thermosphere", "Troposphere, Stratosphere, Thermosphere, Mesosphere"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन सा पृथ्वी के वायुमंडल की परतों का सतह से ऊपर की ओर सही क्रम है?",
+      "options": ["क्षोभमंडल, समतापमंडल, मध्यमंडल, तापमंडल", "समतापमंडल, क्षोभमंडल, मध्यमंडल, तापमंडल", "क्षोभमंडल, मध्यमंडल, समतापमंडल, तापमंडल", "क्षोभमंडल, समतापमंडल, तापमंडल, मध्यमंडल"],
+      "answer": 0
+    },
+    "level": 11,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_033",
+    "en": {
+      "question": "Which is the largest mangrove forest in the world?",
+      "options": ["Amazon Mangrove", "Sundarbans", "Everglades", "Niger Delta Mangrove"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा मैंग्रोव वन कौन सा है?",
+      "options": ["अमेज़न मैंग्रोव", "सुंदरबन", "एवरग्लेड्स", "नाइजर डेल्टा मैंग्रोव"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_034",
+    "en": {
+      "question": "The 'Doldrums' are characterized by which of the following?",
+      "options": ["High pressure and strong winds", "Low pressure and light winds", "Low pressure and strong winds", "High pressure and light winds"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'डोलड्रम्स' की विशेषता निम्नलिखित में से किसके द्वारा होती है?",
+      "options": ["उच्च दबाव और तेज हवाएं", "निम्न दबाव और हल्की हवाएं", "निम्न दबाव और तेज हवाएं", "उच्च दबाव और हल्की हवाएं"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_035",
+    "en": {
+      "question": "In which of the following regions would you find the 'Pampas' grasslands?",
+      "options": ["North America", "South America", "Africa", "Australia"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "निम्नलिखित में से किस क्षेत्र में आपको 'पम्पास' घास के मैदान मिलेंगे?",
+      "options": ["उत्तरी अमेरिका", "दक्षिण अमेरिका", "अफ्रीका", "ऑस्ट्रेलिया"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_036",
+    "en": {
+      "question": "Which of the following is NOT a part of the 'Ring of Fire'?",
+      "options": ["Japan", "Philippines", "Hawaii", "Madagascar"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन 'रिंग ऑफ फायर' का हिस्सा नहीं है?",
+      "options": ["जापान", "फिलीपींस", "हवाई", "मेडागास्कर"],
+      "answer": 3
+    },
+    "level": 12,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_037",
+    "en": {
+      "question": "The 'Great Barrier Reef' is located along the coast of which country?",
+      "options": ["Mexico", "Australia", "Indonesia", "Brazil"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ग्रेट बैरियर रीफ' किस देश के तट के साथ स्थित है?",
+      "options": ["मेक्सिको", "ऑस्ट्रेलिया", "इंडोनेशिया", "ब्राजील"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_038",
+    "en": {
+      "question": "Which of the following is NOT a primary feature of a mature karst landscape?",
+      "options": ["Sinkholes", "Cave systems", "Volcanic cones", "Limestone pavements"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक परिपक्व कार्स्ट परिदृश्य की प्राथमिक विशेषता नहीं है?",
+      "options": ["सिंकहोल", "गुफा प्रणाली", "ज्वालामुखी शंकु", "चूना पत्थर फर्श"],
+      "answer": 2
+    },
+    "level": 12,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_039",
+    "en": {
+      "question": "Which of these is NOT a type of mass movement in geomorphology?",
+      "options": ["Landslide", "Rockfall", "Soil creep", "Sublimation"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन भू-आकृति विज्ञान में द्रव्यमान आंदोलन का प्रकार नहीं है?",
+      "options": ["भूस्खलन", "चट्टान का गिरना", "मिट्टी का रेंगना", "ऊर्ध्वपातन"],
+      "answer": 3
+    },
+    "level": 12,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_040",
+    "en": {
+      "question": "The 'Humboldt Current' flows along the western coast of which continent?",
+      "options": ["Africa", "Europe", "South America", "Australia"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'हम्बोल्ट धारा' किस महाद्वीप के पश्चिमी तट के साथ बहती है?",
+      "options": ["अफ्रीका", "यूरोप", "दक्षिण अमेरिका", "ऑस्ट्रेलिया"],
+      "answer": 2
+    },
+    "level": 12,
+    "category": "geography"
+  }
+] 

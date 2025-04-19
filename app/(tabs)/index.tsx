@@ -1,1416 +1,2130 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   StyleSheet,
   ScrollView,
   View,
   TouchableOpacity,
   Image,
-  ImageBackground,
+  Platform,
+  FlatList,
   SafeAreaView,
   StatusBar,
-  Platform,
   Dimensions,
-  Text,
-  FlatList,
   Animated,
-  Modal,
+  ImageBackground,
+  ActivityIndicator,
+  RefreshControl,
   Pressable,
+  Text,
+  Modal,
 } from 'react-native';
-import { router } from 'expo-router';
-import { ThemedView } from '@/components/ThemedView';
-import { ThemedText } from '@/components/ThemedText';
-import { Colors } from '@/constants/Colors';
-import { SimpleSwipeView } from '@/components/SimpleSwipeView';
-import { Header } from '@/components/Header';
-import { MaterialIcons, FontAwesome5 } from '@expo/vector-icons';
-import { useTheme } from '@/app/lib/ThemeContext';
+import { router, useFocusEffect } from 'expo-router';
+import { useTheme } from '../../app/lib/ThemeContext';
+import { ThemedView } from '../../components/ThemedView';
+import { ThemedText } from '../../components/ThemedText';
+import { Colors } from '../../constants/Colors';
+import { MaterialIcons, FontAwesome5, Ionicons } from '@expo/vector-icons';
+import { useColorScheme } from 'react-native';
+import { SimplePlayerList } from '../../components/SimplePlayerList';
+import { InstantPlayFab } from '../../components/InstantPlayFab';
+import { useLanguage } from '../../app/lib/LanguageContext';
+import { SafeAreaWrapper } from '../../components/SafeAreaWrapper';
+import { getUserProfile, UserProfile } from '../../app/lib/LocalStorage';
+import { useAuth } from '@/app/lib/AuthContext';
+import { LinearGradient } from 'expo-linear-gradient';
+import * as Animatable from 'react-native-animatable';
+import { UnifiedStatusBar } from '@/components/UnifiedStatusBar';
+import { ThemedStatusBar } from '@/components/ThemedStatusBar';
+import { supabase } from '@/lib/supabase';
+import { WalletService } from '@/app/lib/WalletService';
+import { LANGUAGE_EN, LANGUAGE_HI } from '../../app/lib/constants';
 
-// Types
-interface Contest {
+// For backward compatibility with other screens
+let GLOBAL_LIVE_USERS = Math.floor(1000 + Math.random() * 1000);
+
+// This function is used by other screens (like contests.tsx)
+export const getGlobalLiveUsers = () => GLOBAL_LIVE_USERS;
+
+// Types for our app
+interface QuizContest {
   id: string;
   name: string;
-  description: string;
-  image: string;
-  prize: string;
   entryFee: string;
-  participants: number;
-  maxParticipants: number;
-  startTime: Date;
-  categories: string[];
-  tier: string;
-  status: string;
+  prize: string;
+  image: string;
+  joinedPlayers: number;
+  totalPlayers: number;
+  poolId?: number;
 }
 
-// Recent Winners type
-interface Winner {
+interface QuizWinner {
   id: string;
-  name: string;
+  username: string;
+  amount: string;
   avatar: string;
-  amount: number;
-  contestName: string;
-  date: string;
 }
 
-// Top Players type
-interface TopPlayer {
-  id: string;
-  name: string;
-  avatar: string;
-  winnings: number;
-  totalWins: number;
+interface QuizTopPlayer {
   rank: number;
+  username: string;
+  points: number;
+  avatar: string;
 }
 
-// Mock featured contests
-const FEATURED_CONTESTS: Contest[] = [
-  {
-    id: '1',
-    name: 'Mega Brain Battle',
-    description: 'Test your knowledge across multiple categories in this ultimate brain challenge!',
-    image: 'https://images.unsplash.com/photo-1546776310-eef45dd6d63c',
-    prize: '₹5,000',
-    entryFee: '₹99',
-    participants: 45,
-    maxParticipants: 100,
-    startTime: new Date(), // Changed to current date so it's joinable now
-    categories: ['General Knowledge', 'Science', 'History'],
-    tier: 'High-Stake',
-    status: 'joinable',
-  },
-  {
-    id: '2',
-    name: 'Daily Quiz Challenge',
-    description: 'Join the daily quiz challenge and compete with players from around the country!',
-    image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b',
-    prize: '₹1,000',
-    entryFee: '₹49',
-    participants: 78,
-    maxParticipants: 100,
-    startTime: new Date(), // Changed to current date so it's joinable now
-    categories: ['Current Affairs', 'Politics', 'Sports'],
-    tier: 'Medium-Stake',
-    status: 'joinable',
-  },
-  {
-    id: '3',
-    name: 'Sports Trivia Master',
-    description: 'Are you the ultimate sports fan? Prove your knowledge in this sports-only contest!',
-    image: 'https://images.unsplash.com/photo-1471295253337-3ceaaedca402',
-    prize: '₹2,500',
-    entryFee: '₹79',
-    participants: 32,
-    maxParticipants: 100,
-    startTime: new Date(), // Changed to current date so it's joinable now
-    categories: ['Cricket', 'Football', 'Tennis', 'Olympics'],
-    tier: 'Medium-Stake',
-    status: 'joinable',
-  },
-];
-
-// Add this large list of diverse Indian names and contest types
-const INDIAN_NAMES = [
-  // Hindu names
-  {name: 'Aarav Sharma', avatar: '👨', gender: 'male'},
-  {name: 'Aditi Patel', avatar: '👩', gender: 'female'},
-  {name: 'Arjun Gupta', avatar: '👨', gender: 'male'},
-  {name: 'Ananya Singh', avatar: '👩', gender: 'female'},
-  {name: 'Rohan Verma', avatar: '👨', gender: 'male'},
-  {name: 'Diya Mishra', avatar: '👩', gender: 'female'},
-  {name: 'Kabir Joshi', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Ishita Reddy', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Vivaan Agarwal', avatar: '👨', gender: 'male'},
-  {name: 'Anika Desai', avatar: '👩', gender: 'female'},
-  {name: 'Vihaan Malhotra', avatar: '👦', gender: 'male'},
-  {name: 'Avni Iyer', avatar: '👧', gender: 'female'},
-  {name: 'Reyansh Kumar', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Myra Nair', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Arnav Mehra', avatar: '👨', gender: 'male'},
-  {name: 'Prisha Rao', avatar: '👩', gender: 'female'},
-  {name: 'Dhruv Chauhan', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Saanvi Kapoor', avatar: '👧', gender: 'female'},
-  {name: 'Ayush Bansal', avatar: '👨', gender: 'male'},
-  {name: 'Amaira Trivedi', avatar: '👩', gender: 'female'},
-  {name: 'Rudra Thakur', avatar: '👦', gender: 'male'},
-  {name: 'Pihu Tiwari', avatar: '👧', gender: 'female'},
-  {name: 'Madhav Srinivasan', avatar: '👨', gender: 'male'},
-  {name: 'Lavanya Das', avatar: '👩‍🦱', gender: 'female'},
-  {name: 'Atharv Saxena', avatar: '👨', gender: 'male'},
-  
-  // Muslim names
-  {name: 'Adil Khan', avatar: '👨', gender: 'male'},
-  {name: 'Zara Ahmed', avatar: '👩', gender: 'female'},
-  {name: 'Rehan Pathan', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Aisha Shaikh', avatar: '👩', gender: 'female'},
-  {name: 'Zain Siddiqui', avatar: '👨', gender: 'male'},
-  {name: 'Inaya Mirza', avatar: '👧', gender: 'female'},
-  {name: 'Faiz Mohammad', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Aliya Qureshi', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Ayaan Malik', avatar: '👦', gender: 'male'},
-  {name: 'Zoya Rizvi', avatar: '👩', gender: 'female'},
-  {name: 'Hamza Ansari', avatar: '👨', gender: 'male'},
-  {name: 'Samaira Javed', avatar: '👧', gender: 'female'},
-  {name: 'Ibrahim Hussain', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Amara Azmi', avatar: '👩', gender: 'female'},
-  {name: 'Rayyan Ali', avatar: '👨', gender: 'male'},
-  
-  // Sikh names
-  {name: 'Gurpreet Singh', avatar: '👨', gender: 'male'},
-  {name: 'Simran Kaur', avatar: '👩', gender: 'female'},
-  {name: 'Harjot Brar', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Navdeep Dhillon', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Jasjit Sandhu', avatar: '👨', gender: 'male'},
-  {name: 'Manpreet Gill', avatar: '👩', gender: 'female'},
-  {name: 'Arjun Grewal', avatar: '👦', gender: 'male'},
-  {name: 'Prabhleen Bajwa', avatar: '👧', gender: 'female'},
-  {name: 'Sukhwinder Dhaliwal', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Kiranpreet Sidhu', avatar: '👩', gender: 'female'},
-  {name: 'Gurmeet Virk', avatar: '👨', gender: 'male'},
-  {name: 'Jasleen Chawla', avatar: '👩‍🦱', gender: 'female'},
-  {name: 'Inderpal Gujral', avatar: '👨', gender: 'male'},
-  
-  // Christian names
-  {name: 'Aiden Thomas', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Sophia D\'Souza', avatar: '👩', gender: 'female'},
-  {name: 'Ryan Fernandes', avatar: '👨', gender: 'male'},
-  {name: 'Ava Monteiro', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Ethan Lobo', avatar: '👦', gender: 'male'},
-  {name: 'Olivia Sequeira', avatar: '👧', gender: 'female'},
-  {name: 'Joel Vincent', avatar: '👨', gender: 'male'},
-  {name: 'Emma Pereira', avatar: '👩', gender: 'female'},
-  {name: 'Nathan David', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Isabella George', avatar: '👩‍🦰', gender: 'female'},
-  
-  // Other names representing India's diversity
-  {name: 'Tenzin Dorje', avatar: '👨', gender: 'male'},
-  {name: 'Lakshmi Thampi', avatar: '👩', gender: 'female'},
-  {name: 'Karma Sherpa', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Nandita Bora', avatar: '👩', gender: 'female'},
-  {name: 'Dorjee Lama', avatar: '👨', gender: 'male'},
-  {name: 'Padma Lepcha', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Nikhil Mizo', avatar: '👨', gender: 'male'},
-  {name: 'Lovi Nadar', avatar: '👩', gender: 'female'},
-  {name: 'Ajit Thapa', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Rekha Ao', avatar: '👩', gender: 'female'},
-  {name: 'Prashant Basu', avatar: '👨', gender: 'male'},
-  {name: 'Maya Khatoon', avatar: '👩‍🦱', gender: 'female'},
-  {name: 'Mrinal Gogoi', avatar: '👨', gender: 'male'},
-  {name: 'Rita Chakma', avatar: '👩', gender: 'female'},
-  {name: 'Kumar Dixit', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Jaya Tamang', avatar: '👩‍🦰', gender: 'female'},
-  {name: 'Bijoy Deka', avatar: '👨', gender: 'male'},
-  {name: 'Leela Chettri', avatar: '👩', gender: 'female'},
-  {name: 'Ramesh Bordoloi', avatar: '👨', gender: 'male'},
-  {name: 'Sunita Roy', avatar: '👩‍🦱', gender: 'female'},
-  {name: 'Prakash Sen', avatar: '👨‍🦱', gender: 'male'},
-  {name: 'Meena Devi', avatar: '👩', gender: 'female'},
-  {name: 'Rajiv Bhatt', avatar: '👨', gender: 'male'},
-  {name: 'Geeta Rathore', avatar: '👩‍🦰', gender: 'female'}
-];
-
-const CONTEST_TYPES = [
-  'Daily Quiz', 'Tech Trivia', 'Science Battle', 'Sports Quiz',
-  'Music Mania', 'Movie Buffs', 'General Knowledge', 'History Master',
-  'Math Challenge', 'Geography Genius', 'Wildlife Quiz', 'Food Quiz',
-  'Literature Test', 'Current Affairs', 'Business Quiz', 'Coding Challenge',
-  'Art & Culture', 'Politics Quiz', 'Economy Test', 'Cricket Match',
-  'Bollywood Quiz', 'Nature & Space', 'Health Quiz', 'Agriculture Quiz'
-];
-
-// Mock recent winners
-const RECENT_WINNERS: Winner[] = [
-  {
-    id: '1',
-    name: 'Rahul Sharma',
-    avatar: '👨',
-    amount: 2500,
-    contestName: 'Science Quiz',
-    date: '5 mins ago',
-  },
-  {
-    id: '2',
-    name: 'Anjali Singh',
-    avatar: '👩',
-    amount: 1200,
-    contestName: 'Movie Trivia',
-    date: '15 mins ago',
-  },
-  {
-    id: '3',
-    name: 'Vikram Patel',
-    avatar: '👨',
-    amount: 1800,
-    contestName: 'Sports Quiz',
-    date: '30 mins ago',
-  },
-];
-
-// Mock top players
-const TOP_PLAYERS: TopPlayer[] = [
-  {
-    id: '1',
-    name: 'Aditya Verma',
-    avatar: '👨',
-    winnings: 15000,
-    totalWins: 25,
-    rank: 1,
-  },
-  {
-    id: '2',
-    name: 'Priya Sharma',
-    avatar: '👩',
-    winnings: 12000,
-    totalWins: 22,
-    rank: 2,
-  },
-  {
-    id: '3',
-    name: 'Raj Kumar',
-    avatar: '👨',
-    winnings: 10000,
-    totalWins: 18,
-    rank: 3,
-  },
-];
-
-// Quick action types
 interface QuickAction {
+  title: string;
+  icon: string;
+  bgColor: string;
+  textColor: string;
+  onPress: () => void;
+  gradient: [string, string];
+}
+
+// Extended User type to include user_metadata
+interface ExtendedUser {
+  user_metadata?: {
+    name?: string;
+    full_name?: string;
+  };
+}
+
+// Extended UserProfile type to include walletBalance
+interface ExtendedUserProfile extends UserProfile {
+  walletBalance?: number;
+}
+
+// Featured promo banners
+interface PromoBanner {
   id: string;
   title: string;
-  icon: React.ReactNode;
-  color: string;
-  route: string;
+  description: string;
+  image: string;
+  gradient: [string, string];
+  action: string;
 }
 
-// Mock quick actions
-const QUICK_ACTIONS: QuickAction[] = [
+// Quiz pool data for general knowledge
+const quizPools: QuizPool[] = [
   {
-    id: 'all-contests',
-    title: 'All Contests',
-    icon: <MaterialIcons name="emoji-events" size={24} color="#fff" />,
-    color: '#4CAF50',
-    route: '/contests',
+    id: 'pool-1',
+    title: 'Starter Quiz',
+    description: 'Perfect for beginners. 3-minute quiz, low entry.',
+    icon: 'star-outline',
+    playerCount: 3,
+    entryFee: 5,
+    prize: 15,
+    timeLimit: 3,
   },
   {
-    id: 'add-money',
-    title: 'Add Money',
-    icon: <MaterialIcons name="account-balance-wallet" size={22} color="#fff" />,
-    color: '#FF9800',
-    route: '/add-money',
+    id: 'pool-3',
+    title: 'Regular Quiz',
+    description: 'Standard 10-minute quiz, medium stakes.',
+    icon: 'people',
+    playerCount: 10,
+    entryFee: 25,
+    prize: 200,
+    timeLimit: 10,
   },
   {
-    id: 'withdraw',
-    title: 'Withdraw',
-    icon: <FontAwesome5 name="money-bill-wave" size={20} color="#fff" />,
-    color: '#2196F3',
-    route: '/withdraw',
+    id: 'pool-4',
+    title: 'Premium Quiz',
+    description: 'Premium pool for higher rewards.',
+    icon: 'diamond-outline',
+    playerCount: 15,
+    entryFee: 40,
+    prize: 400,
+    timeLimit: 12,
   },
   {
-    id: 'invite',
-    title: 'Invite Friends',
-    icon: <MaterialIcons name="group-add" size={24} color="#fff" />,
-    color: '#F44336',
-    route: '/invite',
+    id: 'pool-5',
+    title: 'Advanced Quiz',
+    description: 'Challenging questions, bigger pool.',
+    icon: 'school-outline',
+    playerCount: 20,
+    entryFee: 50,
+    prize: 750,
+    timeLimit: 15,
   },
   {
-    id: 'my-contests',
-    title: 'My Contests',
-    icon: <MaterialIcons name="history" size={24} color="#fff" />,
-    color: '#9C27B0',
-    route: '/my-contests',
+    id: 'pool-6',
+    title: 'Expert Quiz',
+    description: 'For experts only! 25 players, high prize.',
+    icon: 'medal-outline',
+    playerCount: 25,
+    entryFee: 75,
+    prize: 1200,
+    timeLimit: 18,
   },
   {
-    id: 'rewards',
-    title: 'Rewards',
-    icon: <MaterialIcons name="card-giftcard" size={24} color="#fff" />,
-    color: '#FF5722',
-    route: '/rewards',
+    id: 'pool-7',
+    title: 'Master Quiz',
+    description: 'Master level, 30 players, big rewards.',
+    icon: 'trophy',
+    playerCount: 30,
+    entryFee: 100,
+    prize: 2000,
+    timeLimit: 20,
+  },
+  {
+    id: 'pool-8',
+    title: 'Pro Starter Quiz',
+    description: 'For pro beginners, 8 players, quick fun.',
+    icon: 'flash',
+    playerCount: 8,
+    entryFee: 15,
+    prize: 70,
+    timeLimit: 6,
+  },
+  {
+    id: 'pool-9',
+    title: 'Mega Match',
+    description: 'Competitive 15-minute quiz with high stakes',
+    icon: 'trophy',
+    playerCount: 20,
+    entryFee: 50,
+    prize: 750,
+    timeLimit: 15,
   },
 ];
 
-const { width } = Dimensions.get('window');
+// Interface for quiz pools
+interface QuizPool {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  playerCount: number;
+  entryFee: number;
+  prize: number;
+  timeLimit: number;
+}
 
-// Add celebration emojis
-const CELEBRATION_EMOJIS = ['🎉', '💰', '🔥', '💸', '🤑', '🏆', '💎', '🎊', '💵', '🙌', '✨', '💯', '🐦', '📈', '👑'];
-
-// Function to get a random emoji for celebration
-const getRandomCelebrationEmoji = (): string => {
-  // Make Twitter bird emoji (🐦) appear less frequently (10% chance)
-  if (Math.random() < 0.1) {
-    return '🐦';
+// Mock data for contests
+const contests: QuizContest[] = [
+  {
+    id: '1',
+    name: 'Bollywood Special',
+    entryFee: '50',
+    prize: '1000',
+    image: 'https://images.unsplash.com/photo-1618641986557-1ecd230959aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    joinedPlayers: 45,
+    totalPlayers: 100
+  },
+  {
+    id: '2',
+    name: 'Cricket Fever',
+    entryFee: '100',
+    prize: '2500',
+    image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    joinedPlayers: 72,
+    totalPlayers: 100
+  },
+  {
+    id: '3',
+    name: 'Indian Culture Quiz',
+    entryFee: '75',
+    prize: '1500',
+    image: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    joinedPlayers: 30,
+    totalPlayers: 50
+  },
+  {
+    id: '4',
+    name: 'Tech Wizards',
+    entryFee: '120',
+    prize: '3000',
+    image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    joinedPlayers: 25,
+    totalPlayers: 60
   }
-  // Return other celebration emojis for remaining 90% cases
-  const otherEmojis = CELEBRATION_EMOJIS.filter(emoji => emoji !== '🐦');
-  return otherEmojis[Math.floor(Math.random() * otherEmojis.length)];
+];
+
+// Mock data for winners
+const winners: QuizWinner[] = [
+  { id: 'w1', username: 'Priya Sharma', amount: '₹1,000', avatar: '👩🏽' },
+  { id: 'w2', username: 'Rahul Verma', amount: '₹750', avatar: '🧑🏽‍🦱' },
+  { id: 'w3', username: 'Amit Singh', amount: '₹500', avatar: '👨🏾' },
+  { id: 'w4', username: 'Sunita Patel', amount: '₹1,200', avatar: '👵🏽' },
+  { id: 'w5', username: 'Deepak Joshi', amount: '₹900', avatar: '🧔🏽' },
+  { id: 'w6', username: 'Anjali Mehra', amount: '₹1,500', avatar: '👩🏽‍🦰' },
+  { id: 'w7', username: 'Rohit Kumar', amount: '₹2,000', avatar: '👳🏽‍♂️' },
+  { id: 'w8', username: 'Sneha Reddy', amount: '₹1,100', avatar: '👩🏽‍🎓' },
+  { id: 'w9', username: 'Vikas Gupta', amount: '₹800', avatar: '👨🏽‍💼' },
+  { id: 'w10', username: 'Meena Nair', amount: '₹1,300', avatar: '👩🏽‍💼' },
+];
+
+// Mock data for top players
+const topPlayers: QuizTopPlayer[] = [
+  { rank: 1, username: 'Neha Rathi', points: 9820, avatar: '👩🏽' },
+  { rank: 2, username: 'Vikram Malhotra', points: 9500, avatar: '🧑🏽‍🦱' },
+  { rank: 3, username: 'Ananya Pandey', points: 9300, avatar: '👩🏽‍🦰' },
+  { rank: 4, username: 'Rohit Sinha', points: 9100, avatar: '👨🏾' },
+  { rank: 5, username: 'Priya Desai', points: 9000, avatar: '👩🏽‍🎓' },
+  { rank: 6, username: 'Amitabh Rao', points: 8900, avatar: '🧔🏽' },
+  { rank: 7, username: 'Sneha Pillai', points: 8800, avatar: '👩🏽‍💼' },
+  { rank: 8, username: 'Deepak Yadav', points: 8700, avatar: '👨🏽‍💼' },
+  { rank: 9, username: 'Meena Iyer', points: 8600, avatar: '👵🏽' },
+  { rank: 10, username: 'Suresh Patil', points: 8500, avatar: '👳🏽‍♂️' },
+];
+
+// Featured promo banners
+const promotionBanners: PromoBanner[] = [
+  {
+    id: 'promo1',
+    title: 'Mega Gaming Hole',
+    description: 'Dive into the ultimate gaming experience and win mega prizes!',
+    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80',
+    gradient: ['#0f2027', '#2c5364'],
+    action: 'Play Mega'
+  },
+  {
+    id: 'promo2',
+    title: 'Semi Mega Gaming Pool',
+    description: 'Join the semi mega pool for big fun and great rewards!',
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+    gradient: ['#56ab2f', '#a8e063'],
+    action: 'Play Semi Mega'
+  },
+  {
+    id: 'promo3',
+    title: 'Refer & Earn',
+    description: 'Get ₹50 for each friend who joins',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80',
+    gradient: ['#834d9b', '#d04ed6'],
+    action: 'Invite'
+  }
+];
+
+// Game stats
+const gameStats = {
+  totalGamesPlayed: 42,
+  totalPointsEarned: 3850,
+  winRate: 68,
+  averageScore: 78,
+  highestStreak: 7,
+  rank: 'Expert'
 };
 
-// Create a global variable to share live user count between screens
-export let globalLiveUsers = 1532;
-
-// Function to ensure consistent live user count across screens
-export function getGlobalLiveUsers(): number {
-  return globalLiveUsers;
-}
-
-// Function to update global live user count
-export function updateGlobalLiveUsers(newCount: number): void {
-  globalLiveUsers = newCount;
-}
-
-export default function HomeScreen() {
-  const [user, setUser] = useState({
-    name: 'Rahul',
-    balance: 1200,
-  });
-  const [featuredContests, setFeaturedContests] = useState(FEATURED_CONTESTS);
-  const [recentWinners, setRecentWinners] = useState<Winner[]>(RECENT_WINNERS);
-  const [topPlayers, setTopPlayers] = useState(TOP_PLAYERS);
-  const [liveUsers, setLiveUsers] = useState(globalLiveUsers);
-  const [allTopPlayers, setAllTopPlayers] = useState<TopPlayer[]>([]);
-  const [showAllTopPlayers, setShowAllTopPlayers] = useState(false);
-  const [showAllWinners, setShowAllWinners] = useState(false);
-  const [celebrationEmojis, setCelebrationEmojis] = useState<{[key: string]: string}>({});
-  const [dailyBonusModalVisible, setDailyBonusModalVisible] = useState(false);
-  const [couponModalVisible, setCouponModalVisible] = useState(false);
-  
-  // Enhanced animation for live pulse effect with opacity
-  const pulseAnim = useRef(new Animated.Value(1)).current;
-  const opacityAnim = useRef(new Animated.Value(0.3)).current;
-  
-  // Get theme information
-  const { colorScheme } = useTheme();
-  const isDark = colorScheme === 'dark';
-  
-  // Function to generate a realistic winning amount
-  const generateWinningAmount = (): number => {
-    // Generate different ranges of winning amounts with different probabilities
-    const random = Math.random();
+// Function to fetch latest contests from Varsal Admin Dashboard
+const fetchVarsalContests = async () => {
+  try {
+    // Try to query the table directly, Supabase will handle the error if table doesn't exist
+    const { data, error } = await supabase
+      .from('admin_contests')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .limit(10);
     
-    if (random < 0.4) {
-      // 40% chance for small amounts (₹10-₹100)
-      return Math.floor(Math.random() * 91) + 10;
-    } else if (random < 0.7) {
-      // 30% chance for medium amounts (₹101-₹500)
-      return Math.floor(Math.random() * 400) + 101;
-    } else if (random < 0.9) {
-      // 20% chance for large amounts (₹501-₹2000)
-      return Math.floor(Math.random() * 1500) + 501;
-    } else {
-      // 10% chance for very large amounts (₹2001-₹7000)
-      return Math.floor(Math.random() * 5000) + 2001;
+    // If there's an error (like table doesn't exist) or no data
+    if (error || !data || data.length === 0) {
+      // Check if it's specifically a "relation does not exist" error
+      if (error && error.code === '42P01') {
+        console.log('Admin contests table not available, using mock data instead');
+      } else if (error) {
+        console.error('Error fetching Varsal contests:', error);
+      }
+      
+      return contests; // Return mock contests instead
     }
-  };
-  
-  // Function to generate a recent time
-  const generateRecentTime = (): string => {
-    const units = ['sec', 'min'];
-    const unit = units[Math.floor(Math.random() * units.length)];
-    const value = Math.floor(Math.random() * 59) + 1;
-    return `${value} ${unit} ago`;
-  };
-  
-  // Function to generate a new winner with celebration emoji
-  const generateNewWinner = (): Winner => {
-    // Get a random name from the list
-    const randomPerson = INDIAN_NAMES[Math.floor(Math.random() * INDIAN_NAMES.length)];
-    const randomContest = CONTEST_TYPES[Math.floor(Math.random() * CONTEST_TYPES.length)];
-    const winnerId = Date.now().toString();
     
-    // Add a celebration emoji for this winner
-    setCelebrationEmojis(prev => ({
-      ...prev,
-      [winnerId]: getRandomCelebrationEmoji()
+    // Map admin contest data to our QuizContest interface
+    const mappedContests = data.map((contest: any) => ({
+      id: contest.id || Math.random().toString(36).substring(7),
+      name: contest.title || 'Contest',
+      entryFee: contest.entry_fee?.toString() || '0',
+      prize: contest.prize_pool?.toString() || '1000',
+      image: contest.image_url || 'https://images.unsplash.com/photo-1546776310-eef45dd6d63c',
+      joinedPlayers: contest.joined_players || Math.floor(Math.random() * 200) + 50,
+      totalPlayers: contest.total_slots || 500,
+      poolId: contest.pool_id || 1 // Map pool_id to poolId for navigation
     }));
     
-    return {
-      id: winnerId,
-      name: randomPerson.name,
-      avatar: randomPerson.avatar,
-      amount: generateWinningAmount(),
-      contestName: randomContest,
-      date: generateRecentTime()
-    };
-  };
-  
-  // Generate lots of random top players for the full leaderboard
-  const generateAllTopPlayers = () => {
-    const players: TopPlayer[] = [];
-    
-    // Create 50 random top players
-    for (let i = 0; i < 50; i++) {
-      const randomPerson = INDIAN_NAMES[Math.floor(Math.random() * INDIAN_NAMES.length)];
-      const totalWins = Math.floor(Math.random() * 50) + 1;
-      const winningsBase = Math.floor(Math.random() * 10000) + 5000;
-      
-      players.push({
-        id: (i+4).toString(),
-        name: randomPerson.name,
-        avatar: randomPerson.avatar,
-        winnings: winningsBase,
-        totalWins: totalWins,
-        rank: i+4 // Start at rank 4 (after the initial top 3)
-      });
-    }
-    
-    // Sort by winnings descending
-    players.sort((a, b) => b.winnings - a.winnings);
-    
-    // Update ranks after sorting
-    players.forEach((player, index) => {
-      player.rank = index + 4; // Start at rank 4
-    });
-    
-    return players;
-  };
-  
-  useEffect(() => {
-    Animated.loop(
-      Animated.parallel([
-        Animated.sequence([
-          Animated.timing(pulseAnim, {
-            toValue: 1.2,
-            duration: 800,
-            useNativeDriver: true,
-          }),
-          Animated.timing(pulseAnim, {
-            toValue: 1,
-            duration: 800,
-            useNativeDriver: true,
-          }),
-        ]),
-        Animated.sequence([
-          Animated.timing(opacityAnim, {
-            toValue: 0.6,
-            duration: 800,
-            useNativeDriver: true,
-          }),
-          Animated.timing(opacityAnim, {
-            toValue: 0.3,
-            duration: 800,
-            useNativeDriver: true,
-          }),
-        ]),
-      ])
-    ).start();
+    return mappedContests.length > 0 ? mappedContests : contests;
+  } catch (err) {
+    console.error('Exception fetching Varsal contests:', err);
+    return contests; // Return mock contests on any error
+  }
+};
 
-    // Generate all top players for leaderboard
-    setAllTopPlayers(generateAllTopPlayers());
-  }, []);
-
-  const formatTime = (time: Date) => {
-    if (time <= new Date()) {
-      return 'Available Now';
-    }
-    
-    const options: Intl.DateTimeFormatOptions = { 
-      hour: '2-digit', 
-      minute: '2-digit',
-      hour12: true 
-    };
-    return time.toLocaleTimeString(undefined, options);
-  };
-
-  const handleJoinContest = useCallback((contestId: string) => {
-    console.log(`Joining contest ${contestId}`);
-    router.push(`/contest/${contestId}` as any);
-  }, []);
-
-  const handleQuickAction = useCallback((actionRoute: string) => {
-    if (actionRoute === '/contests') {
-      router.push('/(tabs)/contests');
-    } else if (actionRoute === '/add-money') {
-      router.push('/add-money');
-    } else {
-      console.log(`Navigating to ${actionRoute}`);
-    }
-  }, []);
-
-  // Add function to get color based on tier and theme
-  const getTierBackgroundColor = (tier: string, isDark: boolean) => {
-    switch (tier) {
-      case 'High-Stake':
-        return isDark ? '#4a148c' : '#8e24aa';
-      case 'Medium-Stake':
-        return isDark ? '#01579b' : '#0277bd';
-      case 'Low-Stake':
-        return isDark ? '#004d40' : '#00796b';
-      default:
-        return isDark ? '#212121' : '#424242';
-    }
-  };
-
-  const getTierTextColor = (tier: string, isDark: boolean) => {
-    // For both dark and light mode, we'll use white text 
-    // as the backgrounds are dark enough
-    return '#fff';
-  };
-
-  // Get rank style function
-  const getRankStyle = (rank: number) => {
-    switch (rank) {
-      case 1:
-        return { color: '#FFD700' }; // Gold
-      case 2:
-        return { color: '#C0C0C0' }; // Silver
-      case 3:
-        return { color: '#CD7F32' }; // Bronze
-      default:
-        return { color: isDark ? '#bbb' : '#666' };
-    }
-  };
-
-  // Custom header right component
-  const headerRight = (
-    <View style={styles.headerRightContainer}>
-      <TouchableOpacity style={styles.liveUsersButton}>
-        <Animated.View style={[
-          styles.livePulse,
-          { 
-            transform: [{ scale: pulseAnim }],
-            opacity: opacityAnim
-          }
-        ]}>
-          <View style={styles.liveIndicator} />
-        </Animated.View>
-        <Text style={styles.liveText}>{liveUsers} LIVE</Text>
-      </TouchableOpacity>
-    </View>
-  );
-
-  // Render featured contest
-  const renderFeaturedContest = (item: Contest) => {
-    const tierTextColor = getTierTextColor(item.tier, isDark);
-    
-    return (
-      <Pressable
-        key={item.id}
-        style={[
-          styles.featuredCard,
-          { backgroundColor: getTierBackgroundColor(item.tier, isDark) }
-        ]}
-        onPress={() => handleJoinContest(item.id)}
-      >
-        <Image
-          source={{ uri: item.image }}
-          style={styles.featuredImage}
-        />
-        <View style={styles.featuredContent}>
-          <ThemedText
-            style={[styles.featuredTitle, { color: tierTextColor }]}
-            numberOfLines={1}
-          >
-            {item.name}
-          </ThemedText>
-          <View style={styles.featuredDetails}>
-            <View style={styles.featuredDetail}>
-              <MaterialIcons
-                name="attach-money"
-                size={16}
-                color={tierTextColor}
-              />
-              <ThemedText
-                style={[
-                  styles.featuredDetailText,
-                  { color: tierTextColor }
-                ]}
-              >
-                {item.prize}
-              </ThemedText>
-            </View>
-            <View style={styles.featuredDetail}>
-              <MaterialIcons
-                name="people"
-                size={16}
-                color={tierTextColor}
-              />
-              <ThemedText
-                style={[
-                  styles.featuredDetailText,
-                  { color: tierTextColor }
-                ]}
-              >
-                {item.participants}/{item.maxParticipants}
-              </ThemedText>
-            </View>
-            <View style={styles.featuredDetail}>
-              <MaterialIcons
-                name="alarm"
-                size={16}
-                color={tierTextColor}
-              />
-              <ThemedText
-                style={[
-                  styles.featuredDetailText,
-                  { color: tierTextColor }
-                ]}
-              >
-                {formatTime(item.startTime)}
-              </ThemedText>
-            </View>
-          </View>
-          <TouchableOpacity
-            style={[
-              styles.featuredJoinButton,
-              {
-                backgroundColor:
-                  item.status === 'joinable'
-                    ? '#4CAF50'
-                    : 'rgba(255,255,255,0.2)',
-              },
-            ]}
-            onPress={() => handleJoinContest(item.id)}
-            disabled={item.status !== 'joinable'}
-          >
-            <ThemedText style={styles.featuredJoinText}>
-              {item.status === 'joinable' ? 'Join Now' : 'View'}
-            </ThemedText>
-          </TouchableOpacity>
-        </View>
-      </Pressable>
-    );
-  };
-
-  // Render winner item
-  const renderWinnerItem = ({ item }: { item: Winner }) => (
-    <ThemedView style={[styles.winnerCard, isDark && styles.winnerCardDark]}>
-      <ThemedView style={[styles.winnerIconContainer, isDark && styles.winnerIconContainerDark]}>
-        <ThemedText style={styles.winnerEmoji}>{item.avatar}</ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.winnerInfo}>
-        <ThemedView style={styles.winnerNameContainer}>
-          <ThemedText style={[styles.winnerName, isDark && { color: '#fff' }]}>{item.name}</ThemedText>
-        </ThemedView>
-        <ThemedText style={[styles.winnerTime, isDark && { color: '#aaa' }]}>{item.date}</ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.winnerAmount}>
-        <ThemedText style={styles.winnerAmountText}>₹{item.amount}</ThemedText>
-        <MaterialIcons name="arrow-upward" size={16} color="#4CAF50" />
-      </ThemedView>
-    </ThemedView>
-  );
-
-  // Render top player item
-  const renderTopPlayerItem = ({ item }: { item: TopPlayer }) => (
-    <ThemedView style={[styles.topPlayerCard, isDark && styles.topPlayerCardDark]}>
-      <ThemedView style={styles.rankContainer}>
-        <ThemedText style={[styles.rankText, getRankStyle(item.rank)]}>#{item.rank}</ThemedText>
-      </ThemedView>
-      <ThemedView style={[styles.playerIconContainer, isDark && styles.playerIconContainerDark]}>
-        <ThemedText style={styles.playerEmoji}>{item.avatar}</ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.playerInfoContainer}>
-        <ThemedText style={[styles.playerName, isDark && { color: '#fff' }]}>{item.name}</ThemedText>
-        <ThemedView style={styles.playerStats}>
-          <ThemedView style={[styles.statBadge, isDark && styles.statBadgeDark]}>
-            <MaterialIcons name="emoji-events" size={12} color={isDark ? "#FFD700" : "#FFC107"} />
-            <ThemedText style={[styles.statText, isDark && { color: '#ddd' }]}>{item.totalWins} wins</ThemedText>
-          </ThemedView>
-        </ThemedView>
-      </ThemedView>
-      <ThemedView style={styles.playerWinnings}>
-        <ThemedText style={styles.playerWinningsText}>₹{item.winnings}</ThemedText>
-      </ThemedView>
-    </ThemedView>
-  );
-
-  return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <SimpleSwipeView>
-        <ThemedView style={styles.container}>
-          <Header 
-            title={`Hi, ${user.name}`}
-            subtitle="Welcome back to Quizzoo"
-            right={headerRight}
-          />
-          
-          <ScrollView 
-            showsVerticalScrollIndicator={false}
-            bounces={true}
-            contentContainerStyle={{ paddingBottom: 20 }}
-          >
-            {/* Daily bonus banner */}
-            <TouchableOpacity 
-              style={[styles.dailyBonusContainer, isDark && styles.dailyBonusContainerDark]} 
-              onPress={() => setDailyBonusModalVisible(true)}
-            >
-              <ThemedView style={styles.dailyBonusContent}>
-                <MaterialIcons name="card-giftcard" size={24} color={isDark ? "#FFD700" : "#FFC107"} />
-                <ThemedView style={styles.dailyBonusTextContainer}>
-                  <ThemedText style={[styles.dailyBonusTitle, isDark && { color: '#fff' }]}>Daily Bonus</ThemedText>
-                  <ThemedText style={[styles.dailyBonusDescription, isDark && { color: '#bbb' }]}>
-                    Tap to claim your free daily bonus
-                  </ThemedText>
-                </ThemedView>
-                <MaterialIcons name="chevron-right" size={24} color={isDark ? "#aaa" : "#666"} />
-              </ThemedView>
-            </TouchableOpacity>
-          
-            <ThemedView style={styles.quickActionsContainer}>
-              <ThemedView style={styles.quickActionsList}>
-                {QUICK_ACTIONS.map(item => (
-                  <TouchableOpacity 
-                    key={item.id}
-                    style={styles.quickActionItem}
-                    onPress={() => handleQuickAction(item.route)}
-                  >
-                    <ThemedView style={[styles.actionIconContainer, { backgroundColor: item.color }]}>
-                      {item.icon}
-                    </ThemedView>
-                    <ThemedText style={[styles.actionTitle, isDark && { color: '#ddd' }]} numberOfLines={1}>
-                      {item.title}
-                    </ThemedText>
-                  </TouchableOpacity>
-                ))}
-              </ThemedView>
-            </ThemedView>
-            
-            <ThemedView style={styles.featuredContainer}>
-              <ThemedView style={[styles.sectionHeader, isDark && styles.sectionHeaderDark]}>
-                <ThemedView style={styles.sectionTitleContainer}>
-                  <MaterialIcons name="star" size={20} color="#FFC107" style={{ marginRight: 6 }} />
-                  <ThemedText style={[styles.sectionTitle, isDark && { color: '#fff' }]}>Featured Contests</ThemedText>
-                </ThemedView>
-                <TouchableOpacity onPress={() => router.push('/(tabs)/contests')}>
-                  <ThemedText style={[styles.viewAllText, isDark && { color: '#64B5F6' }]}>View All</ThemedText>
-                </TouchableOpacity>
-              </ThemedView>
-              
-              <ScrollView
-                horizontal
-                showsHorizontalScrollIndicator={false}
-                contentContainerStyle={styles.contestListContainer}
-              >
-                {FEATURED_CONTESTS.map(item => renderFeaturedContest(item))}
-              </ScrollView>
-            </ThemedView>
-            
-            <ThemedView style={styles.recentWinnersContainer}>
-              <ThemedView style={[styles.sectionHeader, isDark && styles.sectionHeaderDark]}>
-                <ThemedView style={styles.sectionTitleContainer}>
-                  <MaterialIcons name="emoji-events" size={20} color="#FFC107" style={{ marginRight: 6 }} />
-                  <ThemedText style={[styles.sectionTitle, isDark && { color: '#fff' }]}>Recent Winners</ThemedText>
-                </ThemedView>
-                <TouchableOpacity onPress={() => setShowAllWinners(true)}>
-                  <ThemedText style={[styles.viewAllText, isDark && { color: '#64B5F6' }]}>View All</ThemedText>
-                </TouchableOpacity>
-              </ThemedView>
-              
-              <FlatList
-                data={recentWinners}
-                renderItem={renderWinnerItem}
-                keyExtractor={item => item.id}
-                horizontal
-                showsHorizontalScrollIndicator={false}
-                contentContainerStyle={styles.winnersListContainer}
-              />
-            </ThemedView>
-            
-            <ThemedView style={styles.topPlayersContainer}>
-              <ThemedView style={[styles.sectionHeader, isDark && styles.sectionHeaderDark]}>
-                <ThemedView style={styles.sectionTitleContainer}>
-                  <MaterialIcons name="leaderboard" size={20} color="#FFC107" style={{ marginRight: 6 }} />
-                  <ThemedText style={[styles.sectionTitle, isDark && { color: '#fff' }]}>Top Players</ThemedText>
-                </ThemedView>
-                <TouchableOpacity onPress={() => setShowAllTopPlayers(true)}>
-                  <ThemedText style={[styles.viewAllText, isDark && { color: '#64B5F6' }]}>View All</ThemedText>
-                </TouchableOpacity>
-              </ThemedView>
-              
-              <ThemedView style={[styles.topPlayersList, isDark && styles.topPlayersListDark]}>
-                {topPlayers.map(player => (
-                  <ThemedView key={player.id} style={[styles.topPlayerItem, isDark && styles.topPlayerItemDark]}>
-                    {renderTopPlayerItem({ item: player })}
-                  </ThemedView>
-                ))}
-              </ThemedView>
-            </ThemedView>
-          </ScrollView>
-        </ThemedView>
-      </SimpleSwipeView>
-      
-      {/* Modal for viewing all recent winners */}
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={showAllWinners}
-        onRequestClose={() => setShowAllWinners(false)}
-      >
-        <ThemedView style={styles.modalContainer}>
-          <ThemedView style={[styles.modalContent, isDark && styles.modalContentDark]} backgroundType="card">
-            <ThemedView style={[styles.modalHeader, isDark && { borderBottomColor: '#333' }]}>
-              <ThemedText style={[styles.modalTitle, isDark && { color: '#fff' }]}>Recent Winners</ThemedText>
-              <TouchableOpacity onPress={() => setShowAllWinners(false)}>
-                <MaterialIcons name="close" size={24} color={isDark ? "#fff" : "#000"} />
-              </TouchableOpacity>
-            </ThemedView>
-            
-            <FlatList
-              data={recentWinners}
-              renderItem={renderWinnerItem}
-              keyExtractor={item => item.id}
-              contentContainerStyle={styles.allWinnersListContainer}
-            />
-          </ThemedView>
-        </ThemedView>
-      </Modal>
-      
-      {/* Modal for viewing all top players */}
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={showAllTopPlayers}
-        onRequestClose={() => setShowAllTopPlayers(false)}
-      >
-        <ThemedView style={styles.modalContainer}>
-          <ThemedView style={[styles.modalContent, isDark && styles.modalContentDark]} backgroundType="card">
-            <ThemedView style={[styles.modalHeader, isDark && { borderBottomColor: '#333' }]}>
-              <ThemedText style={[styles.modalTitle, isDark && { color: '#fff' }]}>Top Players</ThemedText>
-              <TouchableOpacity onPress={() => setShowAllTopPlayers(false)}>
-                <MaterialIcons name="close" size={24} color={isDark ? "#fff" : "#000"} />
-              </TouchableOpacity>
-            </ThemedView>
-            
-            <FlatList
-              data={allTopPlayers}
-              renderItem={renderTopPlayerItem}
-              keyExtractor={item => item.id}
-              contentContainerStyle={styles.allTopPlayersListContainer}
-            />
-          </ThemedView>
-        </ThemedView>
-      </Modal>
-
-      {/* Daily Bonus Modal */}
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={dailyBonusModalVisible}
-        onRequestClose={() => setDailyBonusModalVisible(false)}
-      >
-        <ThemedView style={styles.modalContainer}>
-          <ThemedView style={[styles.modalContent, isDark && styles.modalContentDark]} backgroundType="card">
-            <ThemedView style={[styles.modalHeader, isDark && { borderBottomColor: '#333' }]}>
-              <ThemedText style={[styles.modalTitle, isDark && { color: '#fff' }]}>Daily Bonus</ThemedText>
-              <TouchableOpacity onPress={() => setDailyBonusModalVisible(false)}>
-                <MaterialIcons name="close" size={24} color={isDark ? "#fff" : "#000"} />
-              </TouchableOpacity>
-            </ThemedView>
-            
-            <ThemedView style={styles.bonusContentContainer}>
-              <ThemedView style={[styles.bonusImageContainer, isDark && { backgroundColor: 'rgba(255, 215, 0, 0.1)' }]}>
-                <MaterialIcons name="card-giftcard" size={80} color={isDark ? "#FFD700" : "#FFC107"} />
-              </ThemedView>
-              
-              <ThemedText style={[styles.bonusTitle, isDark && { color: '#fff' }]}>
-                Congratulations!
-              </ThemedText>
-              
-              <ThemedText style={[styles.bonusDescription, isDark && { color: '#ddd' }]}>
-                You have unlocked your daily bonus reward
-              </ThemedText>
-              
-              <ThemedView style={[styles.bonusAmountContainer, isDark && styles.bonusAmountContainerDark]}>
-                <ThemedText style={styles.bonusAmount}>+₹10</ThemedText>
-              </ThemedView>
-              
-              <TouchableOpacity
-                style={[styles.claimButton, isDark && styles.claimButtonDark]}
-                onPress={() => {
-                  // Add logic to claim bonus
-                  setDailyBonusModalVisible(false);
-                }}
-              >
-                <ThemedText style={styles.claimButtonText}>Claim Now</ThemedText>
-              </TouchableOpacity>
-            </ThemedView>
-          </ThemedView>
-        </ThemedView>
-      </Modal>
-
-      {/* Coupon Apply Modal */}
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={couponModalVisible}
-        onRequestClose={() => setCouponModalVisible(false)}
-      >
-        <ThemedView style={styles.modalContainer}>
-          <ThemedView style={[styles.modalContent, isDark && styles.modalContentDark]} backgroundType="card">
-            <ThemedView style={[styles.modalHeader, isDark && { borderBottomColor: '#333' }]}>
-              <ThemedText style={[styles.modalTitle, isDark && { color: '#fff' }]}>Apply Coupon</ThemedText>
-              <TouchableOpacity onPress={() => setCouponModalVisible(false)}>
-                <MaterialIcons name="close" size={24} color={isDark ? "#fff" : "#000"} />
-              </TouchableOpacity>
-            </ThemedView>
-            
-            {/* Coupon modal content */}
-            
-          </ThemedView>
-        </ThemedView>
-      </Modal>
-    </SafeAreaView>
-  );
-}
-
+// Move styles definition above HomeScreen
 const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
   container: {
     flex: 1,
   },
-  headerRightContainer: {
+  scrollView: {
+    flex: 1,
+  },
+  header: {
+    width: '100%',
+    paddingHorizontal: 20,
+    paddingBottom: 16,
+    borderBottomWidth: 0,
+    marginBottom: 0,
+  },
+  headerContent: {
+    width: '100%',
+    marginTop: 10,
+  },
+  headerTopRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
   },
-  liveUsersButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    paddingVertical: 6,
-    paddingHorizontal: 10,
-    borderRadius: 20,
-    marginRight: 10,
-  },
-  livePulse: {
+  logoContainer: {
+    height: 70,
+    width: 70,
     justifyContent: 'center',
     alignItems: 'center',
+    marginRight: 12,
   },
-  liveIndicator: {
+  logo: {
+    width: 60,
+    height: 60,
+  },
+  welcomeContainer: {
+    alignItems: 'flex-end',
+  },
+  welcomeText: {
+    fontSize: 16,
+    fontWeight: '600',
+    marginBottom: 4,
+  },
+  walletBalance: {
+    fontSize: 22,
+    fontWeight: 'bold',
+  },
+  livePlayersContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+    marginBottom: 8,
+  },
+  liveIndicatorContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginRight: 8,
+  },
+  liveDot: {
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#4CAF50',
-    marginRight: 5,
+    backgroundColor: '#FF5252',
+    marginRight: 6,
   },
   liveText: {
-    color: '#fff',
     fontSize: 12,
     fontWeight: 'bold',
+    color: '#FF5252',
+    marginRight: 8,
   },
-  balanceContainer: {
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    paddingVertical: 8,
-    paddingHorizontal: 12,
-    borderRadius: 10,
-    alignItems: 'center',
-    minWidth: 80,
+  playerCountText: {
+    fontSize: 14,
   },
-  balanceLabel: {
-    color: 'rgba(255, 255, 255, 0.8)',
-    fontSize: 12,
-    marginBottom: 2,
-  },
-  balanceAmount: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-  
-  // Daily Bonus
-  dailyBonusContainer: {
-    marginHorizontal: 16,
-    marginVertical: 12,
-    borderRadius: 12,
-    backgroundColor: '#E8F5E9',
-    padding: 12,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-  },
-  dailyBonusContainerDark: {
-    backgroundColor: '#1E3A2B',
-  },
-  dailyBonusContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  dailyBonusTextContainer: {
-    flex: 1,
-    marginHorizontal: 12,
-  },
-  dailyBonusTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginBottom: 4,
-  },
-  dailyBonusDescription: {
-    fontSize: 12,
-    color: '#666',
-  },
-
-  // Quick Actions
   quickActionsContainer: {
-    padding: 15,
-    paddingTop: 10,
+    padding: 16,
+    marginBottom: 16,
   },
-  quickActionsList: {
+  quickActionsGrid: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    marginTop: 12,
   },
-  quickActionItem: {
-    width: Dimensions.get('window').width / 3 - 20,
+  quickActionButton: {
+    width: '30%',
+    marginBottom: 12,
+    borderRadius: 12,
+    overflow: 'hidden',
+  },
+  quickActionGradient: {
+    padding: 12,
     alignItems: 'center',
-    marginBottom: 15,
-  },
-  actionIconContainer: {
-    width: 50,
-    height: 50,
-    borderRadius: 25,
     justifyContent: 'center',
-    alignItems: 'center',
+    borderRadius: 12,
+    height: 100,
+  },
+  quickActionIcon: {
+    fontSize: 24,
     marginBottom: 8,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
   },
-  actionTitle: {
+  quickActionText: {
     fontSize: 12,
+    fontWeight: '600',
     textAlign: 'center',
-    fontWeight: '500',
-  },
-  
-  // Sections
-  featuredContainer: {
-    marginTop: 5,
-    paddingHorizontal: 15,
-  },
-  recentWinnersContainer: {
-    marginTop: 20,
-    paddingHorizontal: 15,
-  },
-  topPlayersContainer: {
-    marginTop: 20,
-    paddingHorizontal: 15,
-    paddingBottom: 20,
   },
   sectionHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 15,
-  },
-  sectionHeaderDark: {
-    borderBottomColor: '#333',
-  },
-  sectionTitleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    marginBottom: 12,
+    paddingHorizontal: 16,
   },
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
   },
   viewAllText: {
+    fontSize: 14,
     color: Colors.primary,
-    fontWeight: '500',
   },
-
-  // Featured Contests
-  contestListContainer: {
-    paddingRight: 5,
-    paddingBottom: 10,
+  contestsContainer: {
+    marginBottom: 24,
   },
-  featuredCard: {
+  contestsScrollContent: {
+    paddingLeft: 16,
+    paddingRight: 8,
+  },
+  contestCard: {
     width: 280,
-    height: 180,
-    borderRadius: 12,
-    marginRight: 12,
+    marginRight: 16,
+    borderRadius: 16,
     overflow: 'hidden',
-    elevation: 3,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  contestCardGradient: {
+    borderRadius: 16,
+  },
+  contestImage: {
+    width: '100%',
+    height: 120,
+    borderTopLeftRadius: 16,
+    borderTopRightRadius: 16,
+  },
+  contestInfo: {
+    padding: 12,
+  },
+  contestName: {
+    fontSize: 16,
+    fontWeight: '600',
+    marginBottom: 8,
+  },
+  contestStats: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  entryFee: {
+    fontSize: 14,
+  },
+  prizeContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  prize: {
+    fontSize: 14,
+    fontWeight: '600',
+    marginLeft: 4,
+  },
+  progressBarContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  progressBar: {
+    flex: 1,
+    height: 6,
+    backgroundColor: '#E0E0E0',
+    borderRadius: 3,
+    marginRight: 8,
+    overflow: 'hidden',
+  },
+  progressFill: {
+    height: '100%',
+    borderRadius: 3,
+  },
+  playerCount: {
+    fontSize: 12,
+    width: 50,
+    textAlign: 'right',
+  },
+  joinButton: {
+    borderRadius: 50,
+    overflow: 'hidden',
+  },
+  joinButtonGradient: {
+    paddingVertical: 8,
+    paddingHorizontal: 0,
+    alignItems: 'center',
+    borderRadius: 50,
+  },
+  joinButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  winnersContainer: {
+    marginBottom: 24,
+  },
+  winnersScrollContent: {
+    paddingLeft: 16,
+    paddingRight: 8,
+  },
+  winnerCard: {
+    width: 130,
+    marginRight: 12,
+    borderRadius: 12,
+    padding: 12,
+    alignItems: 'center',
+  },
+  winnerAvatar: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    marginBottom: 8,
+  },
+  winnerName: {
+    fontSize: 14,
+    fontWeight: '600',
+    textAlign: 'center',
+    marginBottom: 4,
+  },
+  winnerAmount: {
+    fontSize: 14,
+    color: Colors.success,
+    fontWeight: 'bold',
+  },
+  topPlayersContainer: {
+    marginBottom: 24,
+  },
+  playersList: {
+    marginTop: 12,
+  },
+  topPlayerCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+  },
+  rankBadge: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 12,
+  },
+  rankText: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  playerAvatar: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    marginRight: 12,
+  },
+  playerInfo: {
+    flex: 1,
+  },
+  playerName: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  playerScore: {
+    fontSize: 12,
+    color: Colors.secondary,
+  },
+  darkCard: {
+    backgroundColor: '#2a2a2a',
+  },
+  lightCard: {
+    backgroundColor: '#ffffff',
+  },
+  prizeTag: {
+    position: 'absolute',
+    top: 8,
+    right: 8,
+    backgroundColor: 'rgba(0,0,0,0.7)',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  prizeTagText: {
+    color: 'white',
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  contestCardBody: {
+    padding: 12,
+  },
+  contestTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 8,
+  },
+  contestDetailsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  contestEntryFee: {
+    fontSize: 12,
+  },
+  playerCountBadge: {
+    backgroundColor: '#e0f2f1',
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    borderRadius: 10,
+  },
+  darkText: {
+    color: '#ffffff',
+  },
+  lightText: {
+    color: '#333333',
+  },
+  darkSubText: {
+    color: '#aaaaaa',
+  },
+  lightSubText: {
+    color: '#666666',
+  },
+  collectedBadge: {
+    backgroundColor: '#4CAF50',
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderRadius: 12,
+    minWidth: 100,
+  },
+  collectedText: {
+    color: '#ffffff',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  // Promo banner styles
+  sectionContainer: {
+    marginVertical: 8,
+  },
+  promoBannersContainer: {
+    paddingHorizontal: 16,
+    paddingVertical: 4,
+  },
+  promoBannerContainer: {
+    width: Dimensions.get('window').width - 40,
+    marginRight: 12,
+  },
+  promoBanner: {
+    borderRadius: 16,
+    overflow: 'hidden',
+    height: 140,
+  },
+  promoBannerContent: {
+    padding: 16,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    height: '100%',
+  },
+  promoTextContainer: {
+    flex: 1,
+    justifyContent: 'space-between',
+  },
+  promoTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 4,
+  },
+  promoDescription: {
+    fontSize: 14,
+    color: 'rgba(255, 255, 255, 0.9)',
+    marginBottom: 8,
+  },
+  promoActionContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  promoActionText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#fff',
+    marginRight: 4,
+  },
+  promoBannerImageContainer: {
+    width: 80,
+    height: 80,
+    borderRadius: 8,
+    overflow: 'hidden',
+    alignSelf: 'center',
+  },
+  promoBannerImage: {
+    width: '100%',
+    height: '100%',
+  },
+  
+  // Game stats styles
+  statsSection: {
+    marginBottom: 24,
+    paddingHorizontal: 16,
+  },
+  statsContainer: {
+    borderRadius: 16,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  statsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 16,
+  },
+  statItem: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  statValue: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  statLabel: {
+    fontSize: 12,
+    opacity: 0.7,
+  },
+  
+  // Footer styles
+  footerContainer: {
+    alignItems: 'center',
+    paddingVertical: 24,
+    paddingHorizontal: 16,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(0,0,0,0.05)',
+  },
+  footerLogo: {
+    width: 80,
+    height: 40,
+    marginBottom: 8,
+  },
+  footerText: {
+    fontSize: 12,
+    marginBottom: 4,
+  },
+  footerCopyright: {
+    fontSize: 10,
+    opacity: 0.7,
+  },
+  bottomSpacing: {
+    height: 24,
+  },
+  // New styles for Quick Play section
+  quickPlaySection: {
+    margin: 16,
+    marginTop: 20,
+    borderRadius: 16,
+    overflow: 'hidden',
+    elevation: 4,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
   },
-  featuredImage: {
+  quickPlayGradient: {
     width: '100%',
-    height: '100%',
-    resizeMode: 'cover',
+    borderRadius: 16,
   },
-  featuredContent: {
-    flex: 1,
-    padding: 15,
-  },
-  featuredTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#fff',
-    marginBottom: 10,
-  },
-  featuredDetails: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 15,
-  },
-  featuredDetail: {
+  quickPlayContent: {
+    padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
   },
-  featuredDetailText: {
+  quickPlayTextContainer: {
+    flex: 1,
+  },
+  quickPlayTitle: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  quickPlaySubtitle: {
+    color: '#E9D5FF',
+    fontSize: 12,
+  },
+  quickPlayButton: {
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  quickPlayButtonGradient: {
+    borderRadius: 8,
+  },
+  quickPlayButtonContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+  },
+  quickPlayButtonText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
+    marginLeft: 6,
+  },
+  brandHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingBottom: 12,
+    // paddingTop is set dynamically
+  },
+  brandHeaderContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+  },
+  brandLogo: {
+    width: 48,
+    height: 48,
+  },
+  brandTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginLeft: 14,
+    letterSpacing: 0.5,
+  },
+  megaPoolCard: {
+    width: Dimensions.get('window').width - 32,
+    height: 180,
+    borderRadius: 20,
+    overflow: 'hidden',
+    marginRight: 16,
+    marginBottom: 12,
+  },
+  megaPoolImage: {
+    width: '100%',
+    height: '100%',
+  },
+  megaPoolGradient: {
+    flex: 1,
+    paddingHorizontal: 16,
+    paddingTop: 12,
+    paddingBottom: 18,
+    borderRadius: 20,
+    justifyContent: 'flex-end',
+  },
+  megaPoolCardTitle: {
     fontSize: 15,
     fontWeight: 'bold',
     color: '#fff',
-    marginLeft: 4,
-  },
-  featuredJoinButton: {
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    paddingVertical: 4,
-    paddingHorizontal: 12,
-    borderRadius: 16,
-  },
-  joinButtonDark: {
-    backgroundColor: 'rgba(255, 255, 255, 0.15)',
-  },
-  featuredJoinText: {
-    color: '#FFFFFF',
-    fontSize: 14,
-    fontWeight: 'bold',
-  },
-  
-  // Winners
-  winnersListContainer: {
-    paddingRight: 5,
-    paddingBottom: 10,
-  },
-  winnerCard: {
-    width: Dimensions.get('window').width * 0.7,
-    marginRight: 15,
-    padding: 15,
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    flexDirection: 'row',
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 2,
-  },
-  winnerCardDark: {
-    backgroundColor: '#1E2A38',
-    shadowOpacity: 0.3,
-  },
-  winnerIconContainer: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    backgroundColor: '#f0f0f0',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 12,
-  },
-  winnerIconContainerDark: {
-    backgroundColor: '#333',
-  },
-  winnerEmoji: {
-    fontSize: 20,
-  },
-  winnerInfo: {
-    flex: 1,
-  },
-  winnerNameContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  winnerName: {
-    fontSize: 14,
-    fontWeight: 'bold',
     marginBottom: 2,
   },
-  winnerTime: {
-    fontSize: 11,
-    color: '#999',
+  megaPoolPrize: {
+    fontSize: 12,
+    color: '#fff',
+    marginBottom: 2,
   },
-  winnerAmount: {
+  megaPoolEntry: {
+    fontSize: 12,
+    color: '#fff',
+    marginBottom: 2,
+  },
+  megaPoolPlayers: {
+    fontSize: 12,
+    color: '#fff',
+    marginBottom: 8,
+  },
+  megaPoolJoinBtn: {
+    borderRadius: 8,
+    overflow: 'hidden',
+    paddingVertical: 8,
+    paddingHorizontal: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+  },
+  megaPoolJoinText: {
+    fontSize: 13,
+    fontWeight: 'bold',
+    color: '#388e3c',
+  },
+  instructionSection: {
+    marginTop: 16,
+    marginBottom: 8,
+    paddingHorizontal: 0,
+  },
+  instructionCardsRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginBottom: 8,
   },
-  winnerAmountText: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#4CAF50',
-    marginRight: 2,
+  languageIconBtn: {
+    marginLeft: 12,
+    marginRight: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 60,
+    width: 40,
   },
-  
-  // Top Players
-  topPlayersList: {
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    padding: 10,
+  instructionCardsScroll: {
+    paddingLeft: 0,
+    paddingRight: 12,
+    paddingBottom: 8,
+  },
+  instructionCardWrapper: {
+    marginRight: 16,
+    width: 260,
+    height: 140,
+  },
+  instructionCard: {
+    borderRadius: 18,
+    padding: 20,
+    minHeight: 140,
+    height: 140,
+    justifyContent: 'center',
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 6,
     elevation: 2,
   },
-  topPlayersListDark: {
-    backgroundColor: '#1E2A38',
-    shadowOpacity: 0.3,
-  },
-  topPlayerItem: {
-    marginBottom: 10,
-  },
-  topPlayerItemDark: {
-    borderBottomColor: '#333',
-  },
-  topPlayerCard: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
-  },
-  topPlayerCardDark: {
-    borderBottomColor: '#333',
-  },
-  playerIconContainer: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: '#f0f0f0',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 12,
-  },
-  playerIconContainerDark: {
-    backgroundColor: '#333',
-  },
-  playerEmoji: {
+  instructionCardTitle: {
     fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 8,
   },
-  playerInfoContainer: {
-    flex: 1,
-  },
-  playerName: {
+  instructionCardText: {
     fontSize: 14,
-    fontWeight: 'bold',
-    marginBottom: 4,
+    lineHeight: 20,
   },
-  playerStats: {
-    flexDirection: 'row',
+  darkCard: {
+    backgroundColor: '#232526',
   },
-  statBadge: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#FFF8E1',
-    paddingHorizontal: 6,
-    paddingVertical: 2,
-    borderRadius: 10,
-  },
-  statBadgeDark: {
-    backgroundColor: 'rgba(255, 248, 225, 0.2)',
-  },
-  statText: {
-    fontSize: 10,
-    color: '#555',
-    marginLeft: 2,
-  },
-  playerWinnings: {
-    alignItems: 'flex-end',
-  },
-  playerWinningsText: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#4CAF50',
-  },
-  
-  // Modal
-  modalContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  },
-  modalContent: {
-    width: '90%',
-    borderRadius: 20,
-    overflow: 'hidden',
-    elevation: 5,
-    maxHeight: '80%',
+  lightCard: {
     backgroundColor: '#fff',
   },
-  modalContentDark: {
-    backgroundColor: '#222',
-  },
-  modalHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
-  },
-  modalTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-  },
-  allWinnersListContainer: {
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-  },
-  allTopPlayersListContainer: {
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-  },
-  
-  // Bonus Modal
-  bonusContentContainer: {
-    flexDirection: 'column',
-    alignItems: 'center',
-    padding: 20,
-  },
-  bonusImageContainer: {
-    width: 80,
-    height: 80,
-    borderRadius: 40,
-    backgroundColor: '#fff',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 16,
-    marginBottom: 20,
-  },
-  bonusTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 4,
-  },
-  bonusDescription: {
-    fontSize: 14,
-    color: 'rgba(51, 51, 51, 0.8)',
-    marginBottom: 20,
-    textAlign: 'center',
-  },
-  bonusAmountContainer: {
-    backgroundColor: '#E8F5E9',
-    paddingVertical: 12,
-    paddingHorizontal: 24,
-    borderRadius: 16,
-    marginBottom: 24,
-  },
-  bonusAmountContainerDark: {
-    backgroundColor: '#1E3A2B',
-  },
-  bonusAmount: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#4CAF50',
-  },
-  claimButton: {
-    backgroundColor: Colors.primary,
-    paddingVertical: 12,
-    paddingHorizontal: 24,
-    borderRadius: 8,
-    marginTop: 16,
-  },
-  claimButtonDark: {
-    backgroundColor: '#1976D2',
-  },
-  claimButtonText: {
+  darkText: {
     color: '#fff',
+  },
+  lightText: {
+    color: '#111',
+  },
+  languageToggleActive: {
+    backgroundColor: '#6C63FF',
+  },
+  languageToggleText: {
+    color: '#222',
     fontWeight: 'bold',
-    fontSize: 12,
+    fontSize: 15,
+  },
+  languageToggleTextActive: {
+    color: '#fff',
+  },
+  instructionCardWhiteText: {
+    color: '#fff',
   },
 });
+
+export default function HomeScreen() {
+  const { isDark } = useTheme();
+  const { t } = useLanguage();
+  const { user } = useAuth();
+  const [livePlayerCount, setLivePlayerCount] = useState(GLOBAL_LIVE_USERS);
+  const [showBonusClaimed, setShowBonusClaimed] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [varsal, setVarsal] = useState<any[]>([]);
+  const [showAll, setShowAll] = useState<Record<string, boolean>>({});
+  const [walletBalance, setWalletBalance] = useState<number | null>(null);
+  const [profile, setProfile] = useState<ExtendedUserProfile | null>(null);
+  const [varsalContests, setVarsalContests] = useState<QuizContest[]>([]);
+  const [showWinnersModal, setShowWinnersModal] = useState(false);
+  const [showPlayersModal, setShowPlayersModal] = useState(false);
+  const [showRegisterModal, setShowRegisterModal] = useState(false);
+  const [registeredPool, setRegisteredPool] = useState<string | null>(null);
+  const { quizLanguage, setQuizLanguage } = useLanguage();
+  
+  // Theme-based gradient colors
+  const primaryGradient: [string, string] = isDark 
+    ? ['#8B5CF6', '#6D28D9'] // Dark mode purple gradient
+    : ['#6C63FF', '#3b36ce']; // Light mode blue gradient
+    
+  const secondaryGradient: [string, string] = isDark
+    ? ['#1F2937', '#111827'] // Dark mode background gradient
+    : ['#F9FAFB', '#F3F4F6']; // Light mode background gradient
+  
+  const cardGradient: [string, string] = isDark
+    ? ['#374151', '#1F2937'] // Dark mode card gradient
+    : ['#ffffff', '#f5f5f5']; // Light mode card gradient
+    
+  const accentGradient: [string, string] = isDark
+    ? ['#7C3AED', '#5B21B6'] // Dark mode accent gradient
+    : ['#8B5CF6', '#6D28D9']; // Light mode accent gradient
+
+  // Helper functions memoized for theme support
+  const themeHelpers = useMemo(() => {
+    // Helper function to generate random pastel colors for tags
+    const getRandomPastelColor = (index: number) => {
+      const colors = isDark ? [
+        '#4B5563', '#6B7280', '#4B5563', '#6B7280', '#4B5563',
+        '#6B7280', '#4B5563', '#6B7280', '#4B5563', '#6B7280'
+      ] : [
+        '#FFD6E0', '#FFEFCF', '#D1F5FF', '#C5F0D8', '#E0D4FF',
+        '#FFD6A5', '#CAFFBF', '#9BF6FF', '#BDB2FF', '#FFC6FF'
+      ];
+      
+      return colors[index % colors.length];
+    };
+
+    // Helper function to darken a color
+    const darkenColor = (color: string, amount: number) => {
+      return color;
+    };
+
+    // Helper function to lighten a color
+    const lightenColor = (color: string, amount: number) => {
+      return color;
+    };
+
+    return {
+      getRandomPastelColor,
+      darkenColor,
+      lightenColor
+    };
+  }, [isDark]);
+
+  // Function to load user profile
+  const loadUserProfile = useCallback(async () => {
+    try {
+      const userProfile = await getUserProfile();
+      setProfile(userProfile);
+    } catch (error) {
+      console.error('Error loading user profile:', error);
+    }
+  }, []);
+  
+  // Load profile when user changes
+  useEffect(() => {
+    loadUserProfile();
+  }, [user, loadUserProfile]);
+  
+  // Refresh profile when screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      loadUserProfile();
+    }, [loadUserProfile])
+  );
+  
+  // Load Varsal contests when screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      loadVarsalContests();
+    }, [])
+  );
+  
+  // Moved function outside of useFocusEffect callback
+  const loadVarsalContests = useCallback(async () => {
+    try {
+      // Try to query the table directly, Supabase will handle the error if table doesn't exist
+      const { data, error } = await supabase
+        .from('admin_contests')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(10);
+      
+      // If there's an error (like table doesn't exist) or no data
+      if (error || !data || data.length === 0) {
+        // Check if it's specifically a "relation does not exist" error
+        if (error && error.code === '42P01') {
+          console.log('Admin contests table not available, using mock contests instead');
+        } else if (error) {
+          console.error('Error fetching Varsal contests:', error);
+        }
+        
+        // Use mock contests data if no contest data available
+        setVarsalContests(contests);
+        
+        // Also update the promotion banner with mock data
+        if (contests.length > 0) {
+          const firstContest = contests[0];
+          // Create a new banner object instead of mutating the original array
+          const updatedBanner = {
+            id: 'promo1',
+            title: firstContest.name,
+            description: `Join our ${firstContest.name} - ₹${firstContest.prize} prize pool!`,
+            image: firstContest.image,
+            gradient: ['#FF4E50', '#F9D423'],
+            action: 'Join Now'
+          };
+          // Update promotionBanners in a React-friendly way
+          const updatedBanners = [...promotionBanners];
+          updatedBanners[0] = updatedBanner;
+        }
+        
+        return;
+      }
+      
+      // Map admin contest data to our QuizContest interface
+      const mappedContests: QuizContest[] = data.map((item: any) => ({
+        id: item.id || String(Math.random()),
+        name: item.title || 'Contest',
+        entryFee: String(item.entry_fee || 0),
+        prize: String(item.prize_pool || 1000),
+        image: item.image_url || 'https://images.unsplash.com/photo-1546776310-eef45dd6d63c',
+        joinedPlayers: item.joined_players || Math.floor(Math.random() * 200) + 50,
+        totalPlayers: item.total_slots || 500,
+        poolId: item.pool_id || 1 // Map pool_id to poolId for navigation
+      }));
+      
+      setVarsalContests(mappedContests);
+      
+      // Update promotionBanners with first contest if available
+      if (mappedContests.length > 0) {
+        const firstContest = mappedContests[0];
+        // Create a new banner object instead of mutating the original array
+        const updatedBanner = {
+          id: 'promo1',
+          title: firstContest.name,
+          description: `Join our ${firstContest.name} - ₹${firstContest.prize} prize pool!`,
+          image: firstContest.image,
+          gradient: ['#FF4E50', '#F9D423'],
+          action: 'Join Now'
+        };
+        // Update promotionBanners in a React-friendly way
+        const updatedBanners = [...promotionBanners];
+        updatedBanners[0] = updatedBanner;
+      }
+    } catch (err) {
+      console.error('Exception in loadVarsalContests:', err);
+      setVarsalContests(contests);
+    }
+  }, []);  // Add empty dependency array to only create this function once
+  
+  // Function to get user's name
+  const getUserName = () => {
+    let name = '';
+    try {
+      if (profile?.name && profile.name !== 'Player') {
+        name = profile.name;
+      } else if ((user as ExtendedUser)?.user_metadata?.name) {
+        name = (user as ExtendedUser)?.user_metadata?.name || 'there';
+      } else if ((user as ExtendedUser)?.user_metadata?.full_name) {
+        name = (user as ExtendedUser)?.user_metadata?.full_name || 'there';
+      } else {
+        name = 'there';
+      }
+      
+      // Ensure first letter is capitalized
+      return name.charAt(0).toUpperCase() + name.slice(1);
+    } catch (error) {
+      console.error('Error getting user name:', error);
+      return 'Friend';
+    }
+  };
+  
+  // Fetch wallet balance from WalletService and database
+  useEffect(() => {
+    const fetchWalletBalance = async () => {
+      if (user) {
+        try {
+          // Method 1: Try to get wallet balance from WalletService
+          const session = await supabase.auth.getSession();
+          if (session.data.session) {
+            const walletService = new WalletService(session.data.session);
+            const wallet = await walletService.getWallet();
+            if (wallet) {
+              setWalletBalance(wallet.balance);
+              return;
+            }
+          }
+          
+          // Method 2: If WalletService fails, query directly
+          if (user.id) {
+            const { data, error } = await supabase
+              .from('wallets')
+              .select('balance')
+              .eq('user_id', user.id)
+              .single();
+              
+            if (!error && data) {
+              setWalletBalance(data.balance);
+              return;
+            }
+          }
+          
+          // Method 3: Fall back to wallets by ID if user_id fails
+          if (user.id) {
+            const { data, error } = await supabase
+              .from('wallets')
+              .select('balance')
+              .eq('id', user.id)
+              .single();
+              
+            if (!error && data) {
+              setWalletBalance(data.balance);
+              return;
+            }
+          }
+          
+          console.log('Could not fetch wallet balance from any source');
+        } catch (error) {
+          console.error('Error fetching wallet balance:', error);
+        }
+      }
+    };
+    
+    fetchWalletBalance();
+    
+    // Refresh balance every 60 seconds
+    const intervalId = setInterval(fetchWalletBalance, 60000);
+    return () => clearInterval(intervalId);
+  }, [user]);
+  
+  // Safely render wallet balance
+  const getWalletBalance = () => {
+    try {
+      // If we have a wallet balance from the service, use it
+      if (walletBalance !== null) {
+        return `₹${walletBalance.toFixed(2)}`;
+      }
+      
+      // Fallback to profile balance if available
+      const balance = profile?.walletBalance || 0;
+      return `₹${balance.toFixed(2)}`;
+    } catch (error) {
+      console.error('Error formatting wallet balance:', error);
+      return '₹0.00';
+    }
+  };
+  
+  // Function to handle bonus collection
+  const handleCollectBonus = () => {
+    // Simulate adding bonus to wallet
+    console.log('Bonus collected and added to wallet');
+    setShowBonusClaimed(true);
+    
+    // Reset after 3 seconds
+    setTimeout(() => {
+      setShowBonusClaimed(false);
+    }, 3000);
+    
+    // Navigate to wallet to show the updated balance
+    setTimeout(() => {
+      router.replace('/(tabs)/wallet');
+    }, 1000);
+  };
+  
+  // Create a pulse animation for the live dot
+  const pulseAnim = React.useRef(new Animated.Value(1)).current;
+  
+  // Set up the pulse animation
+  React.useEffect(() => {
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulseAnim, {
+          toValue: 1.2,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+        Animated.timing(pulseAnim, {
+          toValue: 1,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
+  }, []);
+
+  // Update GLOBAL_LIVE_USERS when livePlayerCount changes
+  useEffect(() => {
+    GLOBAL_LIVE_USERS = livePlayerCount;
+  }, [livePlayerCount]);
+  
+  // Quick action buttons with gradient background
+  const quickActions: QuickAction[] = [
+    {
+      title: "All Contests",
+      icon: "🏆",
+      bgColor: isDark ? "#FF6A00" : "#FFB347",
+      textColor: "white",
+      onPress: () => router.replace('/(tabs)/contests'),
+      gradient: isDark
+        ? ["#FF6A00", "#FFB347"] // Vibrant orange to yellow
+        : ["#FFB347", "#FF6A00"],
+    },
+    {
+      title: "Withdraw",
+      icon: "💳",
+      bgColor: isDark ? "#00C6FB" : "#005BEA",
+      textColor: "white",
+      onPress: () => router.replace('/(tabs)/wallet'),
+      gradient: isDark
+        ? ["#00C6FB", "#005BEA"] // Bright blue to deep blue
+        : ["#005BEA", "#00C6FB"],
+    },
+    {
+      title: "My Contests",
+      icon: "🎟️",
+      bgColor: isDark ? "#43E97B" : "#38F9D7",
+      textColor: "white",
+      onPress: () => router.replace({ pathname: './contests', params: { autoExpandMyContests: 'true' } }),
+      gradient: isDark
+        ? ["#43E97B", "#38F9D7"] // Green to teal
+        : ["#38F9D7", "#43E97B"],
+    },
+    {
+      title: "Invite Friends",
+      icon: "👥",
+      bgColor: isDark ? "#A770EF" : "#F6D365",
+      textColor: "white",
+      onPress: () => router.push({ pathname: '/refer' }),
+      gradient: isDark
+        ? ["#A770EF", "#F6D365"] // Purple to yellow
+        : ["#F6D365", "#A770EF"],
+    },
+    {
+      title: "Rewards",
+      icon: "🎖️",
+      bgColor: isDark ? "#F7971E" : "#FFD200",
+      textColor: "white",
+      onPress: () => router.push({ pathname: '/refer' }),
+      gradient: isDark
+        ? ["#F7971E", "#FFD200"] // Yellow to orange
+        : ["#FFD200", "#F7971E"],
+    },
+    {
+      title: "Demo Play",
+      icon: "🕹️",
+      bgColor: isDark ? "#FF5858" : "#FBCA1F",
+      textColor: "white",
+      onPress: () => router.push('../game/instructions-demo'),
+      gradient: isDark
+        ? ["#FF5858", "#FBCA1F"] // Red to yellow
+        : ["#FBCA1F", "#FF5858"],
+    },
+  ];
+
+  // Active contests
+  const activeContests: QuizContest[] = [
+    {
+      id: '1',
+      name: "Animal Kingdom Quiz",
+      entryFee: "₹20",
+      prize: "₹1000",
+      image: "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      joinedPlayers: 243,
+      totalPlayers: 500
+    },
+    {
+      id: '2',
+      name: "Science Trivia",
+      entryFee: "₹50",
+      prize: "₹5000",
+      image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      joinedPlayers: 412,
+      totalPlayers: 1000
+    },
+    {
+      id: '3',
+      name: "History Masters",
+      entryFee: "₹30", 
+      prize: "₹2500",
+      image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      joinedPlayers: 156,
+      totalPlayers: 300
+    },
+    {
+      id: '4',
+      name: "Movie Buffs Quiz",
+      entryFee: "₹25",
+      prize: "₹1500",
+      image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      joinedPlayers: 328,
+      totalPlayers: 600
+    }
+  ];
+
+  // Top players
+  const topPlayers: QuizTopPlayer[] = [
+    { rank: 1, username: "Amit Kumar", points: 9850, avatar: "🧑🏽‍🦱" },
+    { rank: 2, username: "Ananya Desai", points: 9340, avatar: "👩🏽‍🦰" },
+    { rank: 3, username: "Suresh Mehta", points: 8970, avatar: "👨🏾" },
+  ];
+  
+  // Create a scale animation for the promotion banners
+  const scaleAnim = React.useRef(new Animated.Value(1)).current;
+  
+  // Set up the scale animation
+  React.useEffect(() => {
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(scaleAnim, {
+          toValue: 1.03,
+          duration: 1500,
+          useNativeDriver: true,
+        }),
+        Animated.timing(scaleAnim, {
+          toValue: 1,
+          duration: 1500,
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
+  }, []);
+
+  // Render promo banner item
+  const renderPromoBanner = ({ item, index }: { item: PromoBanner; index: number }) => (
+    <Animatable.View 
+      animation="fadeInRight" 
+      delay={index * 100} 
+      style={styles.promoBannerContainer}
+    >
+      <TouchableOpacity 
+        activeOpacity={0.9}
+        onPress={() => router.push('/instant-match')}
+      >
+        <LinearGradient
+          colors={item.gradient}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 0 }}
+          style={styles.promoBanner}
+        >
+          <View style={styles.promoBannerContent}>
+            <View style={styles.promoTextContainer}>
+              <Text style={styles.promoTitle}>{item.title}</Text>
+              <Text style={styles.promoDescription}>{item.description}</Text>
+              <View style={styles.promoActionContainer}>
+                <Text style={styles.promoActionText}>{item.action}</Text>
+                <MaterialIcons name="arrow-forward" size={14} color="#fff" />
+              </View>
+            </View>
+            <View style={styles.promoBannerImageContainer}>
+              <Image 
+                source={{ uri: item.image }} 
+                style={styles.promoBannerImage} 
+                resizeMode="cover"
+              />
+            </View>
+          </View>
+        </LinearGradient>
+      </TouchableOpacity>
+    </Animatable.View>
+  );
+
+  // Render quiz pool item
+  const renderQuizPool = ({item}: {item: QuizPool}) => {
+    return (
+      <Animatable.View 
+        animation="fadeInRight" 
+        duration={500}
+        delay={200 * Number(item.id.split('-')[1])}
+        style={dynamicStyles.quizPoolCard}
+      >
+        <TouchableOpacity 
+          onPress={() => router.push({
+            pathname: '/instant-match',
+            params: { poolId: item.id }
+          })}
+          activeOpacity={0.7}
+        >
+          <LinearGradient
+            colors={cardGradient}
+            style={dynamicStyles.quizPoolCardGradient}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+          >
+            <View style={dynamicStyles.quizPoolIconContainer}>
+              <Ionicons name={item.icon as any} size={28} color={isDark ? '#8B5CF6' : '#6C63FF'} style={dynamicStyles.quizPoolIcon} />
+            </View>
+            <View style={dynamicStyles.quizPoolContent}>
+              <Text style={dynamicStyles.quizPoolTitle}>{item.title}</Text>
+              <Text style={dynamicStyles.quizPoolDescription}>{item.description}</Text>
+              
+              <View style={dynamicStyles.quizPoolDetailsContainer}>
+                <View style={dynamicStyles.quizPoolDetailItem}>
+                  <Ionicons name="people" size={16} color={isDark ? '#E5E7EB' : '#4B5563'} />
+                  <Text style={dynamicStyles.quizPoolDetailText}>{item.playerCount} Players</Text>
+                </View>
+                <View style={dynamicStyles.quizPoolDetailItem}>
+                  <Ionicons name="time" size={16} color={isDark ? '#E5E7EB' : '#4B5563'} />
+                  <Text style={dynamicStyles.quizPoolDetailText}>{item.timeLimit} mins</Text>
+                </View>
+              </View>
+              
+              <View style={dynamicStyles.quizPoolDetailsContainer}>
+                <View style={dynamicStyles.quizPoolDetailItem}>
+                  <Ionicons name="wallet" size={16} color={isDark ? '#E5E7EB' : '#4B5563'} />
+                  <Text style={dynamicStyles.quizPoolDetailText}>₹{item.entryFee} Entry</Text>
+                </View>
+                <View style={dynamicStyles.quizPoolDetailItem}>
+                  <Ionicons name="trophy" size={16} color={isDark ? '#E5E7EB' : '#4B5563'} />
+                  <Text style={dynamicStyles.quizPoolDetailText}>₹{item.prize} Prize</Text>
+                </View>
+              </View>
+            </View>
+          </LinearGradient>
+        </TouchableOpacity>
+      </Animatable.View>
+    );
+  };
+  
+  // Contest item renderer
+  const renderContestItem = ({ item, index }: { item: QuizContest; index: number }) => (
+    <Pressable
+      style={[styles.contestCard, { backgroundColor: isDark ? '#1F2937' : '#ffffff' }]}
+      onPress={() => {
+        // Navigate to contest with poolId parameter if available
+        router.push({
+          pathname: '/game/quiz',
+          params: { 
+            contestId: item.id,
+            mode: 'contest',
+            poolId: item.poolId || 1 // Pass poolId if available, defaulting to 1
+          }
+        });
+      }}
+    >
+      <LinearGradient
+        colors={cardGradient}
+        style={styles.contestCardGradient}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+      >
+        <Image source={{ uri: item.image }} style={styles.contestImage} />
+        <View style={styles.contestInfo}>
+          <ThemedText style={styles.contestName}>{item.name}</ThemedText>
+          <View style={styles.contestStats}>
+            <ThemedText style={styles.entryFee}>Entry: ₹{item.entryFee}</ThemedText>
+            <View style={styles.prizeContainer}>
+              <MaterialIcons name="emoji-events" size={16} color={isDark ? "#8B5CF6" : "#6C63FF"} />
+              <ThemedText style={styles.prize}>₹{item.prize}</ThemedText>
+            </View>
+          </View>
+          <View style={styles.progressBarContainer}>
+            <View style={styles.progressBar}>
+              <LinearGradient
+                colors={primaryGradient}
+                style={[
+                  styles.progressFill,
+                  { width: `${(item.joinedPlayers / item.totalPlayers) * 100}%` }
+                ]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+              />
+            </View>
+            <ThemedText style={styles.playerCount}>
+              {item.joinedPlayers}/{item.totalPlayers}
+            </ThemedText>
+          </View>
+        </View>
+      </LinearGradient>
+    </Pressable>
+  );
+  
+  // Render winner item for FlatList
+  const renderWinnerItem = ({ item, index }: { item: QuizWinner; index: number }) => (
+    <Animatable.View 
+      animation="fadeIn" 
+      delay={index * 100} 
+      style={[styles.winnerCard, isDark ? styles.darkCard : styles.lightCard]}
+    >
+      <View style={{ width: 60, height: 60, borderRadius: 30, marginBottom: 8, backgroundColor: 'transparent', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 36 }}>{item.avatar}</Text>
+      </View>
+      <ThemedText style={styles.winnerName} numberOfLines={1}>{item.username}</ThemedText>
+      <Text style={styles.winnerAmount}>{item.amount}</Text>
+    </Animatable.View>
+  );
+
+  // Create dynamic styles that depend on theme
+  const dynamicStyles = useMemo(() => StyleSheet.create({
+    quizPoolHeaderContainer: {
+      padding: 16,
+      backgroundColor: isDark ? '#374151' : '#f8f9fa',
+      borderRadius: 12,
+      marginBottom: 16,
+    },
+    quizPoolHeaderText: {
+      fontSize: 14,
+      color: isDark ? '#ffffff' : '#333',
+      marginBottom: 8,
+    },
+    quizPoolListContainer: {
+      paddingLeft: 16,
+      paddingRight: 8,
+    },
+    quizPoolCard: {
+      width: 280,
+      marginRight: 16,
+      marginBottom: 8,
+      borderRadius: 16,
+      overflow: 'hidden',
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 2,
+    },
+    quizPoolCardGradient: {
+      padding: 16,
+      borderRadius: 16,
+      height: 200,
+    },
+    quizPoolIconContainer: {
+      width: 48,
+      height: 48,
+      borderRadius: 24,
+      backgroundColor: isDark ? 'rgba(139, 92, 246, 0.2)' : 'rgba(108, 99, 255, 0.1)',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginBottom: 12,
+    },
+    quizPoolIcon: {
+      textAlign: 'center',
+    },
+    quizPoolContent: {
+      flex: 1,
+    },
+    quizPoolTitle: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: isDark ? '#FFFFFF' : '#111827',
+      marginBottom: 4,
+    },
+    quizPoolDescription: {
+      fontSize: 14,
+      color: isDark ? '#D1D5DB' : '#4B5563',
+      marginBottom: 12,
+    },
+    quizPoolDetailsContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      marginBottom: 8,
+    },
+    quizPoolDetailItem: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    quizPoolDetailText: {
+      fontSize: 14,
+      color: isDark ? '#E5E7EB' : '#4B5563',
+      marginLeft: 4,
+    },
+    gameInfoCard: {
+      borderRadius: 16,
+      padding: 16,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 2,
+    },
+    gameInfoItem: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: 12,
+    },
+    gameInfoNumberCircle: {
+      width: 36,
+      height: 36,
+      borderRadius: 18,
+      backgroundColor: isDark ? '#8B5CF6' : '#6C63FF',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginRight: 12,
+    },
+    gameInfoNumber: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: '#fff',
+    },
+    gameInfoText: {
+      flex: 1,
+      fontSize: 14,
+      color: isDark ? '#ffffff' : '#333',
+    },
+    gameInfoDivider: {
+      height: 1,
+      backgroundColor: isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)',
+      marginVertical: 12,
+    }
+  }), [isDark]);
+
+  // Handler for registering to a pool (copied from contests.tsx)
+  const handleRegisterPool = (poolName: string) => {
+    setRegisteredPool(poolName);
+    setShowRegisterModal(true);
+  };
+
+  return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
+      <View style={styles.mainContainer}>
+        <ThemedStatusBar
+          backgroundColor="transparent"
+          translucent={true}
+          barStyle="light-content"
+        />
+        <ThemedView style={styles.container}>
+          <ScrollView style={styles.scrollView}>
+            {/* --- Custom Gradient Header with Logo and App Name (now scrollable) --- */}
+            <LinearGradient
+              colors={isDark ? ['#4F46E5', '#3730A3'] : ['#6C63FF', '#3b36ce']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 0 }}
+              style={[
+                styles.brandHeader,
+                { paddingTop: Platform.OS === 'android' ? (StatusBar.currentHeight || 32) : 44 }
+              ]}
+            >
+              <View style={styles.brandHeaderContent}>
+                <Image
+                  source={require('../../assets/images/craiyon_203413_transparent.png')}
+                  style={styles.brandLogo}
+                  resizeMode="contain"
+                />
+                <Text style={styles.brandTitle}>
+                  Quizzoo
+                </Text>
+              </View>
+            </LinearGradient>
+            {/* --- End Custom Header --- */}
+
+            {/* Instruction Cards Section (English/Hindi toggle) */}
+            <View style={styles.instructionSection}>
+              <View style={styles.instructionCardsRow}>
+                <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.instructionCardsScroll}>
+                  {/* Card 1: Play Quiz, Win Big! */}
+                  <Animatable.View animation="fadeInUp" delay={100} duration={700} style={styles.instructionCardWrapper}>
+                    <LinearGradient
+                      colors={isDark ? ['#FF5858', '#FBCA1F'] : ['#FF6A00', '#FFB347']}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={[styles.instructionCard]}
+                    >
+                      <Text style={[styles.instructionCardTitle, styles.instructionCardWhiteText]}>Play Quiz, Win Big!</Text>
+                      <Text style={[styles.instructionCardText, styles.instructionCardWhiteText]}>Pay just ₹10, win up to ₹1000 in 1 minute! Your knowledge = instant cash.</Text>
+                    </LinearGradient>
+                  </Animatable.View>
+                  {/* Card 2: How It Works */}
+                  <Animatable.View animation="fadeInUp" delay={200} duration={700} style={styles.instructionCardWrapper}>
+                    <LinearGradient
+                      colors={isDark ? ['#00C6FB', '#005BEA'] : ['#43E97B', '#38F9D7']}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={[styles.instructionCard]}
+                    >
+                      <Text style={[styles.instructionCardTitle, styles.instructionCardWhiteText]}>How It Works</Text>
+                      <Text style={[styles.instructionCardText, styles.instructionCardWhiteText]}>Join a pool, answer fast, top the leaderboard. The fastest and smartest win the biggest prizes.</Text>
+                    </LinearGradient>
+                  </Animatable.View>
+                  {/* Card 3: Transparent & Fair */}
+                  <Animatable.View animation="fadeInUp" delay={300} duration={700} style={styles.instructionCardWrapper}>
+                    <LinearGradient
+                      colors={isDark ? ['#A770EF', '#F6D365'] : ['#F7971E', '#FFD200']}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={[styles.instructionCard]}
+                    >
+                      <Text style={[styles.instructionCardTitle, styles.instructionCardWhiteText]}>
+                        Transparent & Fair
+                      </Text>
+                      <Text style={[styles.instructionCardText, styles.instructionCardWhiteText]}>
+                        See entry, prize, time, and your rank live. No hidden rules. Everything is clear.
+                      </Text>
+                    </LinearGradient>
+                  </Animatable.View>
+                </ScrollView>
+              </View>
+            </View>
+            {/* Mega Gaming Pools Section (replaces promo banners) */}
+            <Animatable.View animation="fadeIn" delay={100} duration={800}>
+              <View style={styles.sectionContainer}>
+                <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingVertical: 8, paddingLeft: 8, paddingRight: 8 }}>
+                  {/* Super Mega Pool */}
+                  <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff', marginLeft: 0 }]} activeOpacity={0.93}>
+                    <ImageBackground
+                      source={{uri: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'}}
+                      style={styles.megaPoolImage}
+                      imageStyle={{borderRadius: 20, opacity: 0.85}}
+                    >
+                      <LinearGradient
+                        colors={["#ff512f", "#dd2476"]}
+                        style={styles.megaPoolGradient}
+                      >
+                        <Text style={styles.megaPoolCardTitle}>🔥 मेगा पूल (Mega Pool) 🏆</Text>
+                        <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                        <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹1</Text>
+                        <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 1,00,000</Text>
+                        <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Mega Pool')}>
+                          <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                        </TouchableOpacity>
+                      </LinearGradient>
+                    </ImageBackground>
+                  </TouchableOpacity>
+                  {/* Semi Mega Pool */}
+                  <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff' }]} activeOpacity={0.93}>
+                    <ImageBackground
+                      source={{uri: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80'}}
+                      style={styles.megaPoolImage}
+                      imageStyle={{borderRadius: 20, opacity: 0.85}}
+                    >
+                      <LinearGradient
+                        colors={["#11998e", "#38ef7d"]}
+                        style={styles.megaPoolGradient}
+                      >
+                        <Text style={styles.megaPoolCardTitle}>⚡ सेमी-मेगा पूल (Semi-Mega Pool) 🥈</Text>
+                        <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹2,50,000</Text>
+                        <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹5</Text>
+                        <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 50,000</Text>
+                        <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Semi-Mega Pool')}>
+                          <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                        </TouchableOpacity>
+                      </LinearGradient>
+                    </ImageBackground>
+                  </TouchableOpacity>
+                  {/* Small Mega Pool */}
+                  <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff' }]} activeOpacity={0.93}>
+                    <ImageBackground
+                      source={{uri: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80'}}
+                      style={styles.megaPoolImage}
+                      imageStyle={{borderRadius: 20, opacity: 0.85}}
+                    >
+                      <LinearGradient
+                        colors={["#fc4a1a", "#f7b733"]}
+                        style={styles.megaPoolGradient}
+                      >
+                        <Text style={styles.megaPoolCardTitle}>🎯 स्मॉल-मेगा पूल (Small-Mega Pool) 🥉</Text>
+                        <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                        <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹10</Text>
+                        <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 10,000</Text>
+                        <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Small-Mega Pool')}>
+                          <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                        </TouchableOpacity>
+                      </LinearGradient>
+                    </ImageBackground>
+                  </TouchableOpacity>
+                  {/* Mini Pool */}
+                  <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff' }]} activeOpacity={0.93}>
+                    <ImageBackground
+                      source={{uri: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80'}}
+                      style={styles.megaPoolImage}
+                      imageStyle={{borderRadius: 20, opacity: 0.85}}
+                    >
+                      <LinearGradient
+                        colors={["#43cea2", "#185a9d"]}
+                        style={styles.megaPoolGradient}
+                      >
+                        <Text style={styles.megaPoolCardTitle}>🌟 मिनी पूल (Mini Pool) 🎲</Text>
+                        <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                        <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹20</Text>
+                        <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 5,000</Text>
+                        <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Mini Pool')}>
+                          <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                        </TouchableOpacity>
+                      </LinearGradient>
+                    </ImageBackground>
+                  </TouchableOpacity>
+                  {/* Micro Pool (last card) */}
+                  <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff', marginRight: 0, marginLeft: 0 }]} activeOpacity={0.93}>
+                    <ImageBackground
+                      source={{uri: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3c91?auto=format&fit=crop&w=800&q=80'}}
+                      style={styles.megaPoolImage}
+                      imageStyle={{borderRadius: 20, opacity: 0.85}}
+                    >
+                      <LinearGradient
+                        colors={["#ff9966", "#ff5e62"]}
+                        style={styles.megaPoolGradient}
+                      >
+                        <Text style={styles.megaPoolCardTitle}>🎮 माइक्रो पूल (Micro Pool) 🎮</Text>
+                        <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                        <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹50</Text>
+                        <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 2,000</Text>
+                        <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Micro Pool')}>
+                          <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                        </TouchableOpacity>
+                      </LinearGradient>
+                    </ImageBackground>
+                  </TouchableOpacity>
+                </ScrollView>
+              </View>
+            </Animatable.View>
+            {/* End Mega Gaming Pools Section */}
+
+            {/* Registration Confirmation Modal */}
+            <Modal
+              animationType="slide"
+              transparent={true}
+              visible={showRegisterModal}
+              onRequestClose={() => setShowRegisterModal(false)}
+            >
+              <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(0,0,0,0.5)'}}>
+                <LinearGradient
+                  colors={isDark ? ['#232526', '#414345', '#6D28D9'] : ['#a18cd1', '#fbc2eb', '#8EC5FC']}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
+                  style={{ width: '90%', borderRadius: 16, padding: 24 }}
+                >
+                  <Text style={{ fontSize: 20, fontWeight: 'bold', color: isDark ? '#fff' : '#222', marginBottom: 12 }}>Registration Successful / पंजीकरण सफल</Text>
+                  <Text style={{ fontSize: 16, color: isDark ? '#fff' : '#222', marginBottom: 12 }}>You have registered for the {registeredPool}.
+आपने {registeredPool} के लिए पंजीकरण कर लिया है।</Text>
+                  <Text style={{ fontSize: 15, color: isDark ? '#fff' : '#222', marginBottom: 12 }}>You will receive a notification 12 hours before the contest starts. Please come back at the exact time to join and play!
+प्रतियोगिता शुरू होने से 12 घंटे पहले आपको सूचना मिलेगी। कृपया ठीक समय पर वापस आएं और भाग लें!</Text>
+                  <TouchableOpacity onPress={() => setShowRegisterModal(false)} style={{ marginTop: 16, alignSelf: 'center', backgroundColor: '#388e3c', borderRadius: 8, paddingHorizontal: 24, paddingVertical: 10 }}>
+                    <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 16 }}>Close</Text>
+                  </TouchableOpacity>
+                </LinearGradient>
+              </View>
+            </Modal>
+
+            {/* Quick Actions Grid */}
+            <Animatable.View animation="fadeInUp" delay={200} duration={800}>
+              <View style={styles.quickActionsContainer}>
+                <ThemedText style={styles.sectionTitle}>Quick Actions</ThemedText>
+                <View style={styles.quickActionsGrid}>
+                  {quickActions.map((action, index) => (
+                    <TouchableOpacity
+                      key={index}
+                      style={styles.quickActionButton}
+                      onPress={action.onPress}
+                    >
+                      <LinearGradient
+                        colors={action.gradient}
+                        style={styles.quickActionGradient}
+                        start={{ x: 0, y: 0 }}
+                        end={{ x: 1, y: 1 }}
+                      >
+                        <Text style={styles.quickActionIcon}>{action.icon}</Text>
+                        <Text style={[styles.quickActionText, { color: action.textColor }]}>
+                          {action.title}
+                        </Text>
+                      </LinearGradient>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              </View>
+            </Animatable.View>
+            
+            {/* Recent Winners */}
+            <Animatable.View animation="fadeInUp" delay={450} duration={800}>
+              <View style={styles.winnersContainer}>
+                <View style={styles.sectionHeader}>
+                  <ThemedText style={styles.sectionTitle}>Recent Winners</ThemedText>
+                  <TouchableOpacity onPress={() => setShowWinnersModal(true)}>
+                    <ThemedText style={styles.viewAllText}>View All</ThemedText>
+                  </TouchableOpacity>
+                </View>
+                
+                <FlatList
+                  data={winners.slice(0, 5)}
+                  renderItem={renderWinnerItem}
+                  keyExtractor={item => item.id}
+                  horizontal
+                  showsHorizontalScrollIndicator={false}
+                  contentContainerStyle={styles.winnersScrollContent}
+                />
+              </View>
+            </Animatable.View>
+          
+            {/* Top Players Section */}
+            <Animatable.View animation="fadeInUp" delay={500} duration={800}>
+              <View style={styles.topPlayersContainer}>
+                <View style={styles.sectionHeader}>
+                  <ThemedText style={styles.sectionTitle}>Top Players</ThemedText>
+                  <TouchableOpacity onPress={() => setShowPlayersModal(true)}>
+                    <ThemedText style={styles.viewAllText}>View All</ThemedText>
+                  </TouchableOpacity>
+                </View>
+                <View style={styles.playersList}>
+                  {topPlayers.slice(0, 5).map((player, index) => (
+                    <View key={player.rank} style={styles.topPlayerCard}>
+                      <View style={[
+                        styles.rankBadge, 
+                        { backgroundColor: player.rank === 1 ? '#FFD700' : player.rank === 2 ? '#C0C0C0' : player.rank === 3 ? '#CD7F32' : Colors.primary }
+                      ]}>
+                        <Text style={styles.rankText}>{player.rank}</Text>
+                      </View>
+                      <View style={{ width: 40, height: 40, borderRadius: 20, marginRight: 12, backgroundColor: 'transparent', alignItems: 'center', justifyContent: 'center' }}>
+                        <Text style={{ fontSize: 28 }}>{player.avatar}</Text>
+                      </View>
+                      <View style={styles.playerInfo}>
+                        <ThemedText style={styles.playerName}>{player.username}</ThemedText>
+                        <Text style={styles.playerScore}>{player.points} points</Text>
+                      </View>
+                    </View>
+                  ))}
+                </View>
+              </View>
+            </Animatable.View>
+            
+            {/* Footer with app info */}
+            <Animatable.View animation="fadeIn" delay={550} duration={800}>
+              <View style={styles.footerContainer}>
+                <ThemedText style={styles.footerText}>
+                  Quizzoo v1.0.0
+                </ThemedText>
+                <ThemedText style={styles.footerCopyright}>
+                  © 2025 QUICWITS IT TECH LLP. All rights reserved.
+                </ThemedText>
+                {/* NOTE: Whenever the company name is needed in the app, use 'QUICWITS IT TECH LLP' (English only) */}
+              </View>
+            </Animatable.View>
+            
+            {/* Bottom spacing */}
+            <View style={styles.bottomSpacing} />
+          </ScrollView>
+        </ThemedView>
+        {/* Winners Modal */}
+        {showWinnersModal && (
+          <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', alignItems: 'center', zIndex: 100 }}>
+            <View style={{ backgroundColor: '#fff', borderRadius: 16, padding: 24, width: '90%', maxHeight: '80%' }}>
+              <Text style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 16 }}>All Recent Winners</Text>
+              <ScrollView>
+                {winners.map((item) => (
+                  <View key={item.id} style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 12 }}>
+                    <View style={{ width: 48, height: 48, borderRadius: 24, marginRight: 12, backgroundColor: 'transparent', alignItems: 'center', justifyContent: 'center' }}>
+                      <Text style={{ fontSize: 32 }}>{item.avatar}</Text>
+                    </View>
+                    <Text style={{ fontSize: 16, fontWeight: '600', flex: 1 }}>{item.username}</Text>
+                    <Text style={{ fontSize: 16, color: '#388e3c', fontWeight: 'bold' }}>{item.amount}</Text>
+                  </View>
+                ))}
+              </ScrollView>
+              <TouchableOpacity onPress={() => setShowWinnersModal(false)} style={{ marginTop: 16, alignSelf: 'center', backgroundColor: '#388e3c', borderRadius: 8, paddingHorizontal: 24, paddingVertical: 10 }}>
+                <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 16 }}>Close</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        )}
+        {/* Players Modal */}
+        {showPlayersModal && (
+          <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', alignItems: 'center', zIndex: 100 }}>
+            <View style={{ backgroundColor: '#fff', borderRadius: 16, padding: 24, width: '90%', maxHeight: '80%' }}>
+              <Text style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 16 }}>All Top Players</Text>
+              <ScrollView>
+                {topPlayers.map((player) => (
+                  <View key={player.rank} style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 12 }}>
+                    <View style={[
+                      styles.rankBadge, 
+                      { backgroundColor: player.rank === 1 ? '#FFD700' : player.rank === 2 ? '#C0C0C0' : player.rank === 3 ? '#CD7F32' : Colors.primary, marginRight: 8 }
+                    ]}>
+                      <Text style={styles.rankText}>{player.rank}</Text>
+                    </View>
+                    <View style={{ width: 48, height: 48, borderRadius: 24, marginRight: 12, backgroundColor: 'transparent', alignItems: 'center', justifyContent: 'center' }}>
+                      <Text style={{ fontSize: 32 }}>{player.avatar}</Text>
+                    </View>
+                    <Text style={{ fontSize: 16, fontWeight: '600', flex: 1 }}>{player.username}</Text>
+                    <Text style={{ fontSize: 16, color: '#1e40af', fontWeight: 'bold' }}>{player.points} pts</Text>
+                  </View>
+                ))}
+              </ScrollView>
+              <TouchableOpacity onPress={() => setShowPlayersModal(false)} style={{ marginTop: 16, alignSelf: 'center', backgroundColor: '#1e40af', borderRadius: 8, paddingHorizontal: 24, paddingVertical: 10 }}>
+                <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 16 }}>Close</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        )}
+      </View>
+    </SafeAreaView>
+  );
+}

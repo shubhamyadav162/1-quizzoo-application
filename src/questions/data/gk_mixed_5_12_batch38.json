@@ -1,0 +1,177 @@
+[
+  {
+    "id": "GK845",
+    "en": {
+      "question": "Which Indian classical dance form originated in Kerala?",
+      "options": [
+        "Bharatanatyam",
+        "Kathakali",
+        "Odissi",
+        "Kuchipudi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा भारतीय शास्त्रीय नृत्य केरल से उत्पन्न हुआ?",
+      "options": [
+        "भरतनाट्यम",
+        "कथकली",
+        "ओडिसी",
+        "कुचिपुड़ी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK846",
+    "en": {
+      "question": "Which Indian satellite is dedicated to ocean research?",
+      "options": [
+        "RISAT",
+        "Cartosat",
+        "Oceansat",
+        "Resourcesat"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा भारतीय उपग्रह समुद्र अनुसंधान के लिए समर्पित है?",
+      "options": [
+        "RISAT",
+        "कार्टोसैट",
+        "ओशनसैट",
+        "रिसोर्ससैट"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK847",
+    "en": {
+      "question": "Who is known as the 'Lady with the Lamp'?",
+      "options": [
+        "Mother Teresa",
+        "Florence Nightingale",
+        "Marie Curie",
+        "Helen Keller"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'लैम्प वाली लेडी' के रूप में जाना जाता है?",
+      "options": [
+        "मदर टेरेसा",
+        "फ्लोरेंस नाइटिंगेल",
+        "मैरी क्यूरी",
+        "हेलेन केलर"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK849",
+    "en": {
+      "question": "Which vitamin is produced when our skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हमारी त्वचा के धूप के संपर्क में आने पर कौन सा विटामिन उत्पन्न होता है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन C",
+        "विटामिन D",
+        "विटामिन E"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK852",
+    "en": {
+      "question": "Who is the author of 'Anandmath'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Premchand",
+        "Maithili Sharan Gupt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'आनंदमठ' के लेखक कौन हैं?",
+      "options": [
+        "रबीन्द्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "प्रेमचंद",
+        "मैथिलीशरण गुप्त"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK856",
+    "en": {
+      "question": "Which is the largest butterfly in the world?",
+      "options": [
+        "Monarch Butterfly",
+        "Queen Alexandra's Birdwing",
+        "Blue Morpho",
+        "Goliath Birdwing"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "दुनिया की सबसे बड़ी तितली कौन सी है?",
+      "options": [
+        "मोनार्क तितली",
+        "क्वीन अलेक्जेंड्रा बर्डविंग",
+        "ब्लू मोर्फो",
+        "गोलिएथ बर्डविंग"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK859",
+    "en": {
+      "question": "What is the full form of CPU?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Program Unit",
+        "Control Processing Unit"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "CPU का पूरा नाम क्या है?",
+      "options": [
+        "सेंट्रल प्रोसेसिंग यूनिट",
+        "कंप्यूटर प्रोसेसिंग यूनिट",
+        "सेंट्रल प्रोग्राम यूनिट",
+        "कंट्रोल प्रोसेसिंग यूनिट"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "technology"
+  }
+]

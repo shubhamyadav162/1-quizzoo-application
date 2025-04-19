@@ -1,0 +1,352 @@
+[
+  {
+    "id": "gk_sci_001",
+    "en": {
+      "question": "What is the process by which plants make their food using sunlight?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Transpiration",
+        "Germination"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "वह प्रक्रिया क्या है जिसके द्वारा पौधे सूर्य के प्रकाश का उपयोग करके अपना भोजन बनाते हैं?",
+      "options": [
+        "प्रकाश संश्लेषण",
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अंकुरण"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_002",
+    "en": {
+      "question": "Which of these is NOT a state of matter?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Rock"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन पदार्थ की अवस्था नहीं है?",
+      "options": [
+        "ठोस",
+        "तरल",
+        "गैस",
+        "चट्टान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_003",
+    "en": {
+      "question": "What is the closest planet to the Sun?",
+      "options": [
+        "Earth",
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सूरज के सबसे नजदीक कौन सा ग्रह है?",
+      "options": [
+        "पृथ्वी",
+        "शुक्र",
+        "बुध",
+        "मंगल"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_004",
+    "en": {
+      "question": "Which of the following is NOT a sense organ?",
+      "options": [
+        "Eyes",
+        "Ears",
+        "Heart",
+        "Nose"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक संवेदी अंग नहीं है?",
+      "options": [
+        "आंखें",
+        "कान",
+        "हृदय",
+        "नाक"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_005",
+    "en": {
+      "question": "What do you call an animal that eats both plants and animals?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Decomposer"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "उस जानवर को क्या कहते हैं जो पौधे और जानवर दोनों को खाता है?",
+      "options": [
+        "शाकाहारी",
+        "मांसाहारी",
+        "सर्वाहारी",
+        "अपघटक"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_007",
+    "en": {
+      "question": "What is the main function of the skeleton in the human body?",
+      "options": [
+        "Production of blood cells",
+        "Support and protection",
+        "Digestion of food",
+        "Regulation of body temperature"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर में कंकाल का मुख्य कार्य क्या है?",
+      "options": [
+        "रक्त कोशिकाओं का उत्पादन",
+        "समर्थन और सुरक्षा",
+        "भोजन का पाचन",
+        "शरीर के तापमान का नियमन"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_009",
+    "en": {
+      "question": "What causes an echo?",
+      "options": [
+        "Refraction of sound",
+        "Reflection of sound",
+        "Absorption of sound",
+        "Transmission of sound"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्रतिध्वनि किस कारण होती है?",
+      "options": [
+        "ध्वनि का अपवर्तन",
+        "ध्वनि का परावर्तन",
+        "ध्वनि का अवशोषण",
+        "ध्वनि का संचरण"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_010",
+    "en": {
+      "question": "What is the basic unit of life?",
+      "options": [
+        "Atom",
+        "Cell",
+        "Tissue",
+        "Organ"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जीवन की मूल इकाई क्या है?",
+      "options": [
+        "परमाणु",
+        "कोशिका",
+        "ऊतक",
+        "अंग"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_011",
+    "en": {
+      "question": "Which of these is a renewable source of energy?",
+      "options": [
+        "Coal",
+        "Natural gas",
+        "Solar energy",
+        "Petroleum"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन ऊर्जा का नवीकरणीय स्रोत है?",
+      "options": [
+        "कोयला",
+        "प्राकृतिक गैस",
+        "सौर ऊर्जा",
+        "पेट्रोलियम"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_014",
+    "en": {
+      "question": "Which part of the brain controls balance and coordination?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla",
+        "Hypothalamus"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मस्तिष्क का कौन सा भाग संतुलन और समन्वय को नियंत्रित करता है?",
+      "options": [
+        "सेरेब्रम",
+        "सेरेबेलम",
+        "मेडुला",
+        "हाइपोथैलेमस"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_015",
+    "en": {
+      "question": "What do we call the change of a liquid to a gas?",
+      "options": [
+        "Melting",
+        "Freezing",
+        "Condensation",
+        "Evaporation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तरल से गैस में परिवर्तन को क्या कहते हैं?",
+      "options": [
+        "पिघलना",
+        "जमना",
+        "संघनन",
+        "वाष्पीकरण"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_016",
+    "en": {
+      "question": "Which of these is NOT a noble gas?",
+      "options": [
+        "Helium",
+        "Neon",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन एक उत्कृष्ट गैस नहीं है?",
+      "options": [
+        "हीलियम",
+        "नियॉन",
+        "नाइट्रोजन",
+        "आर्गन"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_018",
+    "en": {
+      "question": "Which device is used to measure atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "वायुमंडलीय दबाव को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "हाइग्रोमीटर",
+        "एनिमोमीटर"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_020",
+    "en": {
+      "question": "Which of these animals is warm-blooded?",
+      "options": [
+        "Snake",
+        "Fish",
+        "Frog",
+        "Bird"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन सा जानवर समोष्ण (गर्म रक्त वाला) है?",
+      "options": [
+        "सांप",
+        "मछली",
+        "मेंढक",
+        "पक्षी"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "science"
+  }
+]

@@ -1,6 +1,7 @@
 import { Text, type TextProps, StyleSheet } from 'react-native';
 import { useThemeColor } from '@/hooks/useThemeColor';
 import { useTheme } from '@/app/lib/ThemeContext';
+import { useLanguage } from '@/app/lib/LanguageContext';
 import { Colors } from '@/constants/Colors';
 
 export type ThemedTextProps = TextProps & {
@@ -8,6 +9,9 @@ export type ThemedTextProps = TextProps & {
   darkColor?: string;
   type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link' | 'caption' | 'label';
   colorType?: 'primary' | 'secondary' | 'muted';
+  translate?: boolean;
+  translationKey?: string;
+  skipTranslation?: boolean;
 };
 
 export function ThemedText({
@@ -16,9 +20,14 @@ export function ThemedText({
   darkColor,
   type = 'default',
   colorType,
+  translate = true,
+  translationKey,
+  skipTranslation = false,
+  children,
   ...rest
 }: ThemedTextProps) {
   const { isDark } = useTheme();
+  const { t } = useLanguage();
   
   // Get base color from theme system
   let color = useThemeColor({ light: lightColor, dark: darkColor }, 'text');
@@ -30,6 +39,28 @@ export function ThemedText({
     color = Colors.secondary;
   } else if (colorType === 'muted') {
     color = isDark ? '#888888' : '#666666';
+  }
+
+  // Handle translation if needed
+  let content = children;
+  
+  // Only attempt to translate if it's a string and translation isn't explicitly skipped
+  if (!skipTranslation && typeof children === 'string') {
+    if (translationKey) {
+      // If a specific translation key is provided, use that
+      content = t(translationKey);
+    } else if (translate) {
+      // Otherwise try to translate the text directly as a key
+      content = t(children as string);
+    }
+    // Fallback: if translation is missing or not a string, use children as string
+    if (typeof content !== 'string') {
+      content = children as string;
+    }
+    // Final fallback: if still not a string, use the key itself
+    if (typeof content !== 'string') {
+      content = translationKey || (children as string) || '';
+    }
   }
 
   return (
@@ -46,7 +77,9 @@ export function ThemedText({
         style,
       ]}
       {...rest}
-    />
+    >
+      {content}
+    </Text>
   );
 }
 

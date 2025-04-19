@@ -1,0 +1,2377 @@
+[
+  {
+    "id": "GK5901",
+    "en": {
+      "question": "What sense helps us smell things?",
+      "options": [
+        "Sight",
+        "Hearing",
+        "Taste",
+        "Smell"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें चीजों को सूंघने में मदद करती है?",
+      "options": [
+        "दृष्टि",
+        "श्रवण",
+        "स्वाद",
+        "गंध"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5902",
+    "en": {
+      "question": "What is the opposite of 'slow'?",
+      "options": [
+        "Leisurely",
+        "Unhurried",
+        "Gradual",
+        "Fast/Quick"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'धीमा' का विपरीत क्या है?",
+      "options": [
+        "आराम से",
+        "बिना जल्दी के",
+        "धीरे-धीरे",
+        "तेज़/त्वरित"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_speed"
+  },
+  {
+    "id": "GK5903",
+    "en": {
+      "question": "What tool is used to measure temperature?",
+      "options": [
+        "Ruler",
+        "Scale",
+        "Clock",
+        "Thermometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तापमान मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "रूलर",
+        "पैमाना",
+        "घड़ी",
+        "थर्मामीटर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_tools_measurement"
+  },
+  {
+    "id": "GK5904",
+    "en": {
+      "question": "What do you call the place where a king and queen live?",
+      "options": [
+        "House",
+        "Cottage",
+        "Hut",
+        "Castle/Palace"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस स्थान को आप क्या कहते हैं जहाँ राजा और रानी रहते हैं?",
+      "options": [
+        "घर",
+        "कुटीर",
+        "झोपड़ी",
+        "किला/महल"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "history_royalty_buildings"
+  },
+  {
+    "id": "GK5905",
+    "en": {
+      "question": "What animal says 'baa'?",
+      "options": [
+        "Cow",
+        "Pig",
+        "Horse",
+        "Sheep"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर 'बा' कहता है?",
+      "options": [
+        "गाय",
+        "सुअर",
+        "घोड़ा",
+        "भेड़"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_sounds_farm"
+  },
+  {
+    "id": "GK5907",
+    "en": {
+      "question": "What is the name of the little mermaid in the Disney movie?",
+      "options": [
+        "Belle",
+        "Jasmine",
+        "Aurora",
+        "Ariel"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "डिज्नी फिल्म में छोटी जलपरी का नाम क्या है?",
+      "options": [
+        "बेल",
+        "जैस्मीन",
+        "अरोरा",
+        "एरियल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5908",
+    "en": {
+      "question": "What gas do we need to breathe to live?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Helium",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जीवित रहने के लिए हमें किस गैस की आवश्यकता होती है?",
+      "options": [
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हीलियम",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human_respiration"
+  },
+  {
+    "id": "GK5909",
+    "en": {
+      "question": "What is the term for a baby kangaroo?",
+      "options": [
+        "Pup",
+        "Cub",
+        "Kit",
+        "Joey"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कंगारू के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "शावक",
+        "किट",
+        "जोई"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_marsupials"
+  },
+  {
+    "id": "GK5910",
+    "en": {
+      "question": "Which country is known for inventing pizza?",
+      "options": [
+        "France",
+        "Spain",
+        "Greece",
+        "Italy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश पिज्जा का आविष्कार करने के लिए जाना जाता है?",
+      "options": [
+        "फ्रांस",
+        "स्पेन",
+        "ग्रीस",
+        "इटली"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "food_history"
+  },
+  {
+    "id": "GK5911",
+    "en": {
+      "question": "What is the opposite of 'heavy'?",
+      "options": [
+        "Weighty",
+        "Massive",
+        "Bulky",
+        "Light"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'भारी' का विपरीत क्या है?",
+      "options": [
+        "वजनदार",
+        "विशाल",
+        "स्थूल",
+        "हल्का"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_weight"
+  },
+  {
+    "id": "GK5913",
+    "en": {
+      "question": "What sweet treat is often eaten on birthdays with candles on top?",
+      "options": [
+        "Cookies",
+        "Pie",
+        "Brownies",
+        "Cake"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जन्मदिन पर अक्सर कौन सी मीठी चीज़ मोमबत्तियों के साथ खाई जाती है?",
+      "options": [
+        "कुकीज़",
+        "पाई",
+        "ब्राउनीज़",
+        "केक"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_desserts_celebrations"
+  },
+  {
+    "id": "GK5914",
+    "en": {
+      "question": "What do you call a person who makes food in a restaurant?",
+      "options": [
+        "Waiter",
+        "Manager",
+        "Cashier",
+        "Chef/Cook"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रेस्तरां में खाना बनाने वाले व्यक्ति को आप क्या कहते हैं?",
+      "options": [
+        "वेटर",
+        "मैनेजर",
+        "कैशियर",
+        "शेफ/कुक"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "professions_food"
+  },
+  {
+    "id": "GK5915",
+    "en": {
+      "question": "What is the term for a baby duck?",
+      "options": [
+        "Chick",
+        "Gosling",
+        "Cygnet",
+        "Duckling"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बत्तख के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "चूजा",
+        "कलहंसशावक",
+        "हंसशावक",
+        "बत्तख का बच्चा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_young_birds"
+  },
+  {
+    "id": "GK5916",
+    "en": {
+      "question": "Which continent is known as the 'Dark Continent' historically, though the term is now considered outdated and potentially offensive?",
+      "options": [
+        "Asia",
+        "South America",
+        "Australia",
+        "Africa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस महाद्वीप को ऐतिहासिक रूप से 'अंध महाद्वीप' के रूप में जाना जाता था, हालांकि यह शब्द अब पुराना और संभावित रूप से आपत्तिजनक माना जाता है?",
+      "options": [
+        "एशिया",
+        "दक्षिण अमेरिका",
+        "ऑस्ट्रेलिया",
+        "अफ्रीका"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_geography_terms"
+  },
+  {
+    "id": "GK5917",
+    "en": {
+      "question": "Who is the famous cat known for hating Mondays and loving lasagna?",
+      "options": [
+        "Tom (Tom and Jerry)",
+        "Sylvester",
+        "Hello Kitty",
+        "Garfield"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी प्रसिद्ध बिल्ली सोमवार से नफरत करने और लज़ान्या पसंद करने के लिए जानी जाती है?",
+      "options": [
+        "टॉम (टॉम एंड जेरी)",
+        "सिल्वेस्टर",
+        "हैलो किटी",
+        "गारफील्ड"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_comics_characters"
+  },
+  {
+    "id": "GK5918",
+    "en": {
+      "question": "What is the chemical symbol for Hydrogen?",
+      "options": [
+        "He",
+        "Hy",
+        "Ho",
+        "H"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हाइड्रोजन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "He",
+        "Hy",
+        "Ho",
+        "H"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry_elements_gases"
+  },
+  {
+    "id": "GK5919",
+    "en": {
+      "question": "What precious stone is typically green?",
+      "options": [
+        "Ruby",
+        "Sapphire",
+        "Diamond",
+        "Emerald"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कीमती पत्थर आमतौर पर हरा होता है?",
+      "options": [
+        "माणिक",
+        "नीलम",
+        "हीरा",
+        "पन्ना"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "geology_gemstones"
+  },
+  {
+    "id": "GK5920",
+    "en": {
+      "question": "What is the opposite of 'old'?",
+      "options": [
+        "Ancient",
+        "Aged",
+        "Mature",
+        "New/Young"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पुराना' का विपरीत क्या है?",
+      "options": [
+        "प्राचीन",
+        "वृद्ध",
+        "परिपक्व",
+        "नया/युवा"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_age"
+  },
+  {
+    "id": "GK5921",
+    "en": {
+      "question": "What sense helps us feel things, like hot or cold?",
+      "options": [
+        "Sight",
+        "Hearing",
+        "Smell",
+        "Touch"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें चीजों को महसूस करने में मदद करती है, जैसे गर्म या ठंडा?",
+      "options": [
+        "दृष्टि",
+        "श्रवण",
+        "गंध",
+        "स्पर्श"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5922",
+    "en": {
+      "question": "What is the capital of China?",
+      "options": [
+        "Shanghai",
+        "Guangzhou",
+        "Shenzhen",
+        "Beijing"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चीन की राजधानी क्या है?",
+      "options": [
+        "शंघाई",
+        "गुआंगज़ौ",
+        "शेन्ज़ेन",
+        "बीजिंग"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_capitals_asia"
+  },
+  {
+    "id": "GK5923",
+    "en": {
+      "question": "What farm animal says 'cock-a-doodle-doo'?",
+      "options": [
+        "Duck",
+        "Goose",
+        "Turkey",
+        "Rooster"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'कुकड़ू-कू' कहता है?",
+      "options": [
+        "बत्तख",
+        "हंस",
+        "टर्की",
+        "मुर्गा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_sounds_farm"
+  },
+  {
+    "id": "GK5924",
+    "en": {
+      "question": "What is the name of the city where Batman lives?",
+      "options": [
+        "Metropolis",
+        "Central City",
+        "Star City",
+        "Gotham City"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस शहर का नाम क्या है जहाँ बैटमैन रहता है?",
+      "options": [
+        "मेट्रोपोलिस",
+        "सेंट्रल सिटी",
+        "स्टार सिटी",
+        "गोथम सिटी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_comics_locations"
+  },
+  {
+    "id": "GK5925",
+    "en": {
+      "question": "What is the term for a baby bear?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Foal",
+        "Cub"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भालू के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "फोल",
+        "शावक"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_wild"
+  },
+  {
+    "id": "GK5926",
+    "en": {
+      "question": "What is the name of the instrument with strings that you pluck or strum?",
+      "options": [
+        "Piano",
+        "Drums",
+        "Flute",
+        "Guitar"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तारों वाले उस वाद्य यंत्र का नाम क्या है जिसे आप तोड़ते या बजाते हैं?",
+      "options": [
+        "पियानो",
+        "ड्रम",
+        "बांसुरी",
+        "गिटार"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "music_instruments_string"
+  },
+  {
+    "id": "GK5927",
+    "en": {
+      "question": "What state of matter is water when it is ice?",
+      "options": [
+        "Liquid",
+        "Gas",
+        "Plasma",
+        "Solid"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब पानी बर्फ होता है तो पदार्थ की कौन सी अवस्था होती है?",
+      "options": [
+        "तरल",
+        "गैस",
+        "प्लाज्मा",
+        "ठोस"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "chemistry_states_of_matter"
+  },
+  {
+    "id": "GK5928",
+    "en": {
+      "question": "What is the opposite of 'true'?",
+      "options": [
+        "Correct",
+        "Accurate",
+        "Right",
+        "False"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सच' का विपरीत क्या है?",
+      "options": [
+        "सही",
+        "सटीक",
+        "ठीक",
+        "झूठ"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_logic"
+  },
+  {
+    "id": "GK5929",
+    "en": {
+      "question": "What is the name of the warthog in 'The Lion King'?",
+      "options": [
+        "Timon",
+        "Zazu",
+        "Rafiki",
+        "Pumbaa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लायन किंग' में वॉर्थोग का नाम क्या है?",
+      "options": [
+        "टिमोन",
+        "ज़ाज़ू",
+        "रफ़ीकी",
+        "पुम्बा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5930",
+    "en": {
+      "question": "What is the term for a baby horse?",
+      "options": [
+        "Pup",
+        "Kitten",
+        "Calf",
+        "Foal"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "घोड़े के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "बिल्ली का बच्चा",
+        "बछड़ा",
+        "फोल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_farm"
+  },
+  {
+    "id": "GK5931",
+    "en": {
+      "question": "What is the chemical symbol for Calcium?",
+      "options": [
+        "C",
+        "Cl",
+        "Co",
+        "Ca"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कैल्शियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "C",
+        "Cl",
+        "Co",
+        "Ca"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_elements_metals"
+  },
+  {
+    "id": "GK5932",
+    "en": {
+      "question": "Which country is shaped like a boot?",
+      "options": [
+        "Greece",
+        "Spain",
+        "France",
+        "Italy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश जूते के आकार का है?",
+      "options": [
+        "ग्रीस",
+        "स्पेन",
+        "फ्रांस",
+        "इटली"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_shapes"
+  },
+  {
+    "id": "GK5933",
+    "en": {
+      "question": "What is the opposite of 'beautiful'?",
+      "options": [
+        "Pretty",
+        "Lovely",
+        "Attractive",
+        "Ugly"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सुंदर' का विपरीत क्या है?",
+      "options": [
+        "सुन्दर",
+        "प्यारा",
+        "आकर्षक",
+        "बदसूरत"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_appearance"
+  },
+  {
+    "id": "GK5934",
+    "en": {
+      "question": "What green character is known for saying 'It's not easy bein' green'?",
+      "options": [
+        "Yoda",
+        "Hulk",
+        "Shrek",
+        "Kermit the Frog"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा हरा चरित्र 'हरा होना आसान नहीं है' कहने के लिए जाना जाता है?",
+      "options": [
+        "योडा",
+        "हल्क",
+        "श्रेक",
+        "कर्मिट द फ्रॉग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_puppets_quotes"
+  },
+  {
+    "id": "GK5935",
+    "en": {
+      "question": "What is the main job of the heart?",
+      "options": [
+        "Thinking",
+        "Digesting food",
+        "Breathing",
+        "Pumping blood"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हृदय का मुख्य कार्य क्या है?",
+      "options": [
+        "सोचना",
+        "भोजन पचाना",
+        "सांस लेना",
+        "रक्त पंप करना"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human_organs"
+  },
+  {
+    "id": "GK5936",
+    "en": {
+      "question": "What is the term for a baby cow?",
+      "options": [
+        "Foal",
+        "Lamb",
+        "Kid",
+        "Calf"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गाय के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "फोल",
+        "मेमना",
+        "बकरी का बच्चा",
+        "बछड़ा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_young_farm"
+  },
+  {
+    "id": "GK5937",
+    "en": {
+      "question": "What is the opposite of 'win'?",
+      "options": [
+        "Succeed",
+        "Triumph",
+        "Achieve",
+        "Lose/Fail"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'जीत' का विपरीत क्या है?",
+      "options": [
+        "सफल होना",
+        "विजय",
+        "हासिल करना",
+        "हारना/असफल होना"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_outcomes"
+  },
+  {
+    "id": "GK5938",
+    "en": {
+      "question": "What is the name of the coffee chain with a green mermaid logo?",
+      "options": [
+        "Dunkin'",
+        "Tim Hortons",
+        "Costa Coffee",
+        "Starbucks"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हरे रंग की जलपरी वाले लोगो वाली कॉफी श्रृंखला का नाम क्या है?",
+      "options": [
+        "डंकिन'",
+        "टिम हॉर्टन्स",
+        "कोस्टा कॉफी",
+        "स्टारबक्स"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "business_brands_food"
+  },
+  {
+    "id": "GK5939",
+    "en": {
+      "question": "What is the chemical symbol for Lead?",
+      "options": [
+        "L",
+        "Le",
+        "Ld",
+        "Pb"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सीसा का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "L",
+        "Le",
+        "Ld",
+        "Pb"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_metals"
+  },
+  {
+    "id": "GK5940",
+    "en": {
+      "question": "What is the term for a baby lion, tiger, or bear?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Foal",
+        "Cub"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शेर, बाघ या भालू के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "फोल",
+        "शावक"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_wild"
+  },
+  {
+    "id": "GK5942",
+    "en": {
+      "question": "What is the opposite of 'right' (as in direction)?",
+      "options": [
+        "Correct",
+        "Up",
+        "Straight",
+        "Left"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'दाएँ' (दिशा के रूप में) का विपरीत क्या है?",
+      "options": [
+        "सही",
+        "ऊपर",
+        "सीधा",
+        "बाएँ"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_directions"
+  },
+  {
+    "id": "GK5943",
+    "en": {
+      "question": "What yellow, sour fruit is often used in lemonade?",
+      "options": [
+        "Orange",
+        "Grapefruit",
+        "Lime",
+        "Lemon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पीला, खट्टा फल अक्सर नींबू पानी में इस्तेमाल किया जाता है?",
+      "options": [
+        "संतरा",
+        "चकोतरा",
+        "चूना",
+        "नींबू"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_fruits_citrus"
+  },
+  {
+    "id": "GK5944",
+    "en": {
+      "question": "What animal is known for having a very long neck?",
+      "options": [
+        "Elephant",
+        "Rhino",
+        "Hippo",
+        "Giraffe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर बहुत लंबी गर्दन रखने के लिए जाना जाता है?",
+      "options": [
+        "हाथी",
+        "गैंडा",
+        "दरियाई घोड़ा",
+        "जिराफ़"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_mammals"
+  },
+  {
+    "id": "GK5945",
+    "en": {
+      "question": "What do you call a person who fights fires?",
+      "options": [
+        "Police Officer",
+        "Doctor",
+        "Teacher",
+        "Firefighter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आग बुझाने वाले व्यक्ति को आप क्या कहते हैं?",
+      "options": [
+        "पुलिस अधिकारी",
+        "डॉक्टर",
+        "शिक्षक",
+        "फायरफाइटर"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "professions_emergency"
+  },
+  {
+    "id": "GK5946",
+    "en": {
+      "question": "What is the capital of Brazil?",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Brasília"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ब्राजील की राजधानी क्या है?",
+      "options": [
+        "रियो डी जनेरियो",
+        "साओ पाउलो",
+        "साल्वाडोर",
+        "ब्रासीलिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_capitals_sa"
+  },
+  {
+    "id": "GK5947",
+    "en": {
+      "question": "What is the name of the young lion who becomes king in 'The Lion King'?",
+      "options": [
+        "Mufasa",
+        "Scar",
+        "Kovu",
+        "Simba"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लायन किंग' में राजा बनने वाले युवा शेर का नाम क्या है?",
+      "options": [
+        "मुफासा",
+        "स्कार",
+        "कोवु",
+        "सिम्बा"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5948",
+    "en": {
+      "question": "What gas is essential for fire to burn?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Helium",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आग जलने के लिए कौन सी गैस आवश्यक है?",
+      "options": [
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हीलियम",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_combustion"
+  },
+  {
+    "id": "GK5949",
+    "en": {
+      "question": "What is the term for a baby deer?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Foal",
+        "Fawn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हिरण के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "फोल",
+        "हिरणशावक"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_wild"
+  },
+  {
+    "id": "GK5950",
+    "en": {
+      "question": "What is the highest mountain in Africa?",
+      "options": [
+        "Mount Kenya",
+        "Mount Stanley",
+        "Mount Meru",
+        "Mount Kilimanjaro"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अफ्रीका का सबसे ऊँचा पर्वत कौन सा है?",
+      "options": [
+        "माउंट केन्या",
+        "माउंट स्टेनली",
+        "माउंट मेरु",
+        "माउंट किलिमंजारो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_mountains_africa"
+  },
+  {
+    "id": "GK5951",
+    "en": {
+      "question": "What is the opposite of 'top'?",
+      "options": [
+        "Peak",
+        "Summit",
+        "Apex",
+        "Bottom"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'शीर्ष' का विपरीत क्या है?",
+      "options": [
+        "शिखर",
+        "शिखर",
+        "सर्वोच्च बिन्दु",
+        "तल"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_positions"
+  },
+  {
+    "id": "GK5952",
+    "en": {
+      "question": "What large, black and white bear is native to China?",
+      "options": [
+        "Polar Bear",
+        "Grizzly Bear",
+        "Black Bear",
+        "Giant Panda"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा बड़ा, काला और सफेद भालू चीन का मूल निवासी है?",
+      "options": [
+        "ध्रुवीय भालू",
+        "ग्रिजली भालू",
+        "काला भालू",
+        "विशाल पांडा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_mammals_asia"
+  },
+  {
+    "id": "GK5953",
+    "en": {
+      "question": "What popular dish consists of ground meat in a bun?",
+      "options": [
+        "Hot Dog",
+        "Taco",
+        "Pizza",
+        "Hamburger"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस लोकप्रिय व्यंजन में बन में कीमा होता है?",
+      "options": [
+        "हॉट डॉग",
+        "टैको",
+        "पिज्जा",
+        "हैमबर्गर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "food_dishes_fastfood"
+  },
+  {
+    "id": "GK5954",
+    "en": {
+      "question": "What is the name of the dog in the 'Peanuts' comic strip?",
+      "options": [
+        "Pluto",
+        "Goofy",
+        "Scooby-Doo",
+        "Snoopy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पीनट्स' कॉमिक स्ट्रिप में कुत्ते का नाम क्या है?",
+      "options": [
+        "प्लूटो",
+        "गूफी",
+        "स्कूबी-डू",
+        "स्नूपी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_comics_characters"
+  },
+  {
+    "id": "GK5955",
+    "en": {
+      "question": "What do you call the hard, outer layer of a tree?",
+      "options": [
+        "Leaves",
+        "Roots",
+        "Branches",
+        "Bark"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पेड़ की कठोर, बाहरी परत को आप क्या कहते हैं?",
+      "options": [
+        "पत्तियाँ",
+        "जड़ें",
+        "शाखाएँ",
+        "छाल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants_anatomy"
+  },
+  {
+    "id": "GK5956",
+    "en": {
+      "question": "What is the chemical symbol for Tin?",
+      "options": [
+        "T",
+        "Ti",
+        "Tn",
+        "Sn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "टिन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "T",
+        "Ti",
+        "Tn",
+        "Sn"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_metals"
+  },
+  {
+    "id": "GK5957",
+    "en": {
+      "question": "What is the term for a baby frog?",
+      "options": [
+        "Pup",
+        "Kitten",
+        "Fish",
+        "Tadpole"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेंढक के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "बिल्ली का बच्चा",
+        "मछली",
+        "टैडपोल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_amphibians"
+  },
+  {
+    "id": "GK5958",
+    "en": {
+      "question": "What is the opposite of 'in'?",
+      "options": [
+        "On",
+        "Under",
+        "Beside",
+        "Out"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'अंदर' का विपरीत क्या है?",
+      "options": [
+        "पर",
+        "नीचे",
+        "बगल में",
+        "बाहर"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_prepositions"
+  },
+  {
+    "id": "GK5959",
+    "en": {
+      "question": "What is the largest country in the world by land area?",
+      "options": [
+        "China",
+        "USA",
+        "Canada",
+        "Russia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूमि क्षेत्र के हिसाब से दुनिया का सबसे बड़ा देश कौन सा है?",
+      "options": [
+        "चीन",
+        "यूएसए",
+        "कनाडा",
+        "रूस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_countries_size"
+  },
+  {
+    "id": "GK5960",
+    "en": {
+      "question": "What do you call the person who catches criminals?",
+      "options": [
+        "Doctor",
+        "Teacher",
+        "Chef",
+        "Police Officer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अपराधियों को पकड़ने वाले व्यक्ति को आप क्या कहते हैं?",
+      "options": [
+        "डॉक्टर",
+        "शिक्षक",
+        "शेफ",
+        "पुलिस अधिकारी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "professions_law_enforcement"
+  },
+  {
+    "id": "GK5961",
+    "en": {
+      "question": "What animal says 'quack'?",
+      "options": [
+        "Chicken",
+        "Goose",
+        "Turkey",
+        "Duck"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर 'क्वैक' कहता है?",
+      "options": [
+        "मुर्गी",
+        "हंस",
+        "टर्की",
+        "बत्तख"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_sounds_birds"
+  },
+  {
+    "id": "GK5963",
+    "en": {
+      "question": "What is the name of the snowman in Disney's 'Frozen'?",
+      "options": [
+        "Sven",
+        "Kristoff",
+        "Hans",
+        "Olaf"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "डिज्नी की 'फ्रोजन' में स्नोमैन का नाम क्या है?",
+      "options": [
+        "स्वेन",
+        "क्रिस्टोफ",
+        "हांस",
+        "ओलाफ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5964",
+    "en": {
+      "question": "What is the term for a baby sheep?",
+      "options": [
+        "Foal",
+        "Kid",
+        "Calf",
+        "Lamb"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भेड़ के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "फोल",
+        "बकरी का बच्चा",
+        "बछड़ा",
+        "मेमना"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_young_farm"
+  },
+  {
+    "id": "GK5965",
+    "en": {
+      "question": "What is the opposite of 'tall'?",
+      "options": [
+        "High",
+        "Long",
+        "Big",
+        "Short"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'लंबा' का विपरीत क्या है?",
+      "options": [
+        "ऊँचा",
+        "लंबा",
+        "बड़ा",
+        "छोटा"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_size"
+  },
+  {
+    "id": "GK5966",
+    "en": {
+      "question": "What is the chemical symbol for Silicon?",
+      "options": [
+        "S",
+        "Sl",
+        "Sc",
+        "Si"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिलिकॉन का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "S",
+        "Sl",
+        "Sc",
+        "Si"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_metalloids"
+  },
+  {
+    "id": "GK5967",
+    "en": {
+      "question": "What is the name of the fictional school attended by Harry Potter?",
+      "options": [
+        "Beauxbatons",
+        "Durmstrang",
+        "Ilvermorny",
+        "Hogwarts"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हैरी पॉटर द्वारा उपस्थित काल्पनिक स्कूल का नाम क्या है?",
+      "options": [
+        "ब्यूक्सबैटन्स",
+        "डर्मस्ट्रांग",
+        "इलवरमॉर्नी",
+        "हॉगवर्ट्स"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_literature_locations"
+  },
+  {
+    "id": "GK5968",
+    "en": {
+      "question": "What is the currency used in Japan?",
+      "options": [
+        "Won",
+        "Dollar",
+        "Euro",
+        "Yen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जापान में कौन सी मुद्रा का उपयोग किया जाता है?",
+      "options": [
+        "वोन",
+        "डॉलर",
+        "यूरो",
+        "येन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "economics_currencies_asia"
+  },
+  {
+    "id": "GK5969",
+    "en": {
+      "question": "What is the term for a baby dog?",
+      "options": [
+        "Kitten",
+        "Cub",
+        "Foal",
+        "Puppy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कुत्ते के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "बिल्ली का बच्चा",
+        "शावक",
+        "फोल",
+        "पिल्ला"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_young_pets"
+  },
+  {
+    "id": "GK5970",
+    "en": {
+      "question": "What sport is known as 'The Beautiful Game'?",
+      "options": [
+        "Basketball",
+        "Tennis",
+        "Cricket",
+        "Soccer (Football)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल को 'द ब्यूटीफुल गेम' के नाम से जाना जाता है?",
+      "options": [
+        "बास्केटबॉल",
+        "टेनिस",
+        "क्रिकेट",
+        "सॉकर (फुटबॉल)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "sports_nicknames"
+  },
+  {
+    "id": "GK5971",
+    "en": {
+      "question": "What is the opposite of 'start'?",
+      "options": [
+        "Begin",
+        "Commence",
+        "Initiate",
+        "Stop/End/Finish"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'शुरू' का विपरीत क्या है?",
+      "options": [
+        "प्रारंभ",
+        "आरंभ",
+        "शुरू करना",
+        "रोकना/समाप्त करना"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_actions"
+  },
+  {
+    "id": "GK5972",
+    "en": {
+      "question": "What round, red fruit is often used in salads?",
+      "options": [
+        "Apple",
+        "Grape",
+        "Strawberry",
+        "Tomato"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा गोल, लाल फल अक्सर सलाद में इस्तेमाल किया जाता है?",
+      "options": [
+        "सेब",
+        "अंगूर",
+        "स्ट्रॉबेरी",
+        "टमाटर"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_vegetables_fruits"
+  },
+  {
+    "id": "GK5973",
+    "en": {
+      "question": "What vehicle travels on tracks and carries many people?",
+      "options": [
+        "Car",
+        "Bus",
+        "Airplane",
+        "Train"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा वाहन पटरियों पर चलता है और कई लोगों को ले जाता है?",
+      "options": [
+        "कार",
+        "बस",
+        "हवाई जहाज",
+        "ट्रेन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "technology_transport_public"
+  },
+  {
+    "id": "GK5974",
+    "en": {
+      "question": "What is the name of the princess in 'Aladdin'?",
+      "options": [
+        "Belle",
+        "Ariel",
+        "Aurora",
+        "Jasmine"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'अलादीन' में राजकुमारी का नाम क्या है?",
+      "options": [
+        "बेल",
+        "एरियल",
+        "अरोरा",
+        "जैस्मीन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5975",
+    "en": {
+      "question": "What part of your body do you use to smell?",
+      "options": [
+        "Eyes",
+        "Ears",
+        "Mouth",
+        "Nose"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप सूंघने के लिए अपने शरीर के किस हिस्से का उपयोग करते हैं?",
+      "options": [
+        "आंखें",
+        "कान",
+        "मुंह",
+        "नाक"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5976",
+    "en": {
+      "question": "What is the term for a baby cat?",
+      "options": [
+        "Pup",
+        "Cub",
+        "Foal",
+        "Kitten"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिल्ली के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "शावक",
+        "फोल",
+        "बिल्ली का बच्चा"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_young_pets"
+  },
+  {
+    "id": "GK5977",
+    "en": {
+      "question": "What state of matter is the air we breathe?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Plasma",
+        "Gas"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम जिस हवा में सांस लेते हैं वह पदार्थ की कौन सी अवस्था है?",
+      "options": [
+        "ठोस",
+        "तरल",
+        "प्लाज्मा",
+        "गैस"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "chemistry_states_of_matter"
+  },
+  {
+    "id": "GK5978",
+    "en": {
+      "question": "What is the opposite of 'good'?",
+      "options": [
+        "Great",
+        "Excellent",
+        "Fine",
+        "Bad/Evil"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'अच्छा' का विपरीत क्या है?",
+      "options": [
+        "महान",
+        "उत्कृष्ट",
+        "ठीक",
+        "बुरा/शैतान"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_morality"
+  },
+  {
+    "id": "GK5979",
+    "en": {
+      "question": "What is the chemical symbol for Helium?",
+      "options": [
+        "H",
+        "Hy",
+        "Hm",
+        "He"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हीलियम का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "H",
+        "Hy",
+        "Hm",
+        "He"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_elements_gases"
+  },
+  {
+    "id": "GK5980",
+    "en": {
+      "question": "What is the name of the talking donkey in the 'Shrek' movies?",
+      "options": [
+        "Puss in Boots",
+        "Gingy",
+        "Dragon",
+        "Donkey"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'श्रेक' फिल्मों में बोलने वाले गधे का नाम क्या है?",
+      "options": [
+        "पुस इन बूट्स",
+        "जिंजी",
+        "ड्रैगन",
+        "डोंकी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_dreamworks"
+  },
+  {
+    "id": "GK5981",
+    "en": {
+      "question": "What is the term for a baby goose?",
+      "options": [
+        "Duckling",
+        "Chick",
+        "Cygnet",
+        "Gosling"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हंस के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "बत्तख का बच्चा",
+        "चूजा",
+        "हंसशावक",
+        "कलहंसशावक"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_birds"
+  },
+  {
+    "id": "GK5982",
+    "en": {
+      "question": "What is the opposite of 'empty'?",
+      "options": [
+        "Vacant",
+        "Bare",
+        "Void",
+        "Full"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'खाली' का विपरीत क्या है?",
+      "options": [
+        "रिक्त",
+        "नंगा",
+        "शून्य",
+        "भरा हुआ"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_states"
+  },
+  {
+    "id": "GK5983",
+    "en": {
+      "question": "What is the longest river in Asia?",
+      "options": [
+        "Yellow River",
+        "Mekong River",
+        "Ganges River",
+        "Yangtze River"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एशिया की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "पीली नदी",
+        "मेकांग नदी",
+        "गंगा नदी",
+        "यांग्त्ज़ी नदी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_rivers_asia"
+  },
+  {
+    "id": "GK5984",
+    "en": {
+      "question": "What fruit shares its name with a color?",
+      "options": [
+        "Apple",
+        "Banana",
+        "Grape",
+        "Orange"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा फल अपना नाम एक रंग के साथ साझा करता है?",
+      "options": [
+        "सेब",
+        "केला",
+        "अंगूर",
+        "संतरा"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_fruits"
+  },
+  {
+    "id": "GK5986",
+    "en": {
+      "question": "What is the name of the boy who never grew up?",
+      "options": [
+        "Pinocchio",
+        "Aladdin",
+        "Mowgli",
+        "Peter Pan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस लड़के का नाम क्या है जो कभी बड़ा नहीं हुआ?",
+      "options": [
+        "पिनोच्चियो",
+        "अलादीन",
+        "मोगली",
+        "पीटर पैन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK5987",
+    "en": {
+      "question": "What part of your body do you use to see?",
+      "options": [
+        "Nose",
+        "Ears",
+        "Mouth",
+        "Eyes"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप देखने के लिए अपने शरीर के किस हिस्से का उपयोग करते हैं?",
+      "options": [
+        "नाक",
+        "कान",
+        "मुंह",
+        "आंखें"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5988",
+    "en": {
+      "question": "What is the term for a baby rabbit?",
+      "options": [
+        "Pup",
+        "Kitten",
+        "Foal",
+        "Kit/Bunny"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "खरगोश के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "बिल्ली का बच्चा",
+        "फोल",
+        "किट/बनी"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young"
+  },
+  {
+    "id": "GK5989",
+    "en": {
+      "question": "What is the opposite of 'summer'?",
+      "options": [
+        "Spring",
+        "Autumn/Fall",
+        "Season",
+        "Winter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'गर्मी' का विपरीत क्या है?",
+      "options": [
+        "वसंत",
+        "पतझड़",
+        "मौसम",
+        "सर्दी"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_seasons"
+  },
+  {
+    "id": "GK5990",
+    "en": {
+      "question": "What planet are we living on?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Earth"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम किस ग्रह पर रह रहे हैं?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "बृहस्पति",
+        "पृथ्वी"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "science_space_earth"
+  },
+  {
+    "id": "GK5991",
+    "en": {
+      "question": "What liquid is essential for most life on Earth?",
+      "options": [
+        "Oil",
+        "Juice",
+        "Soda",
+        "Water"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी पर अधिकांश जीवन के लिए कौन सा तरल आवश्यक है?",
+      "options": [
+        "तेल",
+        "रस",
+        "सोडा",
+        "पानी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_basics_life"
+  },
+  {
+    "id": "GK5992",
+    "en": {
+      "question": "What farm animal is known for its wool?",
+      "options": [
+        "Cow",
+        "Pig",
+        "Horse",
+        "Sheep"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर अपने ऊन के लिए जाना जाता है?",
+      "options": [
+        "गाय",
+        "सुअर",
+        "घोड़ा",
+        "भेड़"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_products"
+  },
+  {
+    "id": "GK5993",
+    "en": {
+      "question": "What is the name of the clownfish in 'Finding Nemo'?",
+      "options": [
+        "Dory",
+        "Bruce",
+        "Gill",
+        "Nemo/Marlin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'फाइंडिंग निमो' में क्लाउनफ़िश का नाम क्या है?",
+      "options": [
+        "डोरी",
+        "ब्रूस",
+        "गिल",
+        "निमो/मार्लिन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_pixar"
+  },
+  {
+    "id": "GK5994",
+    "en": {
+      "question": "What is the opposite of 'difficult'?",
+      "options": [
+        "Hard",
+        "Challenging",
+        "Tough",
+        "Easy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'कठिन' का विपरीत क्या है?",
+      "options": [
+        "कठोर",
+        "चुनौतीपूर्ण",
+        "कठिन",
+        "आसान"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_difficulty"
+  },
+  {
+    "id": "GK5995",
+    "en": {
+      "question": "What is the term for a baby swan?",
+      "options": [
+        "Duckling",
+        "Gosling",
+        "Chick",
+        "Cygnet"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हंस के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "बत्तख का बच्चा",
+        "कलहंसशावक",
+        "चूजा",
+        "हंसशावक"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_young_birds"
+  },
+  {
+    "id": "GK5996",
+    "en": {
+      "question": "What is the chemical symbol for Sodium Chloride (Table Salt)?",
+      "options": [
+        "SoCl",
+        "SCl",
+        "NaC",
+        "NaCl"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोडियम क्लोराइड (टेबल नमक) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "SoCl",
+        "SCl",
+        "NaC",
+        "NaCl"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_compounds"
+  },
+  {
+    "id": "GK5997",
+    "en": {
+      "question": "What is the name of the main character in 'The Jungle Book'?",
+      "options": [
+        "Baloo",
+        "Bagheera",
+        "Shere Khan",
+        "Mowgli"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द जंगल बुक' के मुख्य पात्र का नाम क्या है?",
+      "options": [
+        "बल्लू",
+        "बघीरा",
+        "शेर खान",
+        "मोगली"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK5998",
+    "en": {
+      "question": "What part of your body do you use to hear?",
+      "options": [
+        "Eyes",
+        "Nose",
+        "Mouth",
+        "Ears"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप सुनने के लिए अपने शरीर के किस हिस्से का उपयोग करते हैं?",
+      "options": [
+        "आंखें",
+        "नाक",
+        "मुंह",
+        "कान"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5999",
+    "en": {
+      "question": "What is the opposite of 'on'?",
+      "options": [
+        "Over",
+        "Above",
+        "Beside",
+        "Off/Under"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पर' का विपरीत क्या है?",
+      "options": [
+        "ऊपर",
+        "ऊपर",
+        "बगल में",
+        "बंद/नीचे"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_prepositions"
+  },
+  {
+    "id": "GK6000",
+    "en": {
+      "question": "What sweet, sticky substance is made by bees?",
+      "options": [
+        "Syrup",
+        "Jam",
+        "Molasses",
+        "Honey"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मधुमक्खियों द्वारा कौन सा मीठा, चिपचिपा पदार्थ बनाया जाता है?",
+      "options": [
+        "सिरप",
+        "जैम",
+        "गुड़",
+        "शहद"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_natural_products"
+  }
+]

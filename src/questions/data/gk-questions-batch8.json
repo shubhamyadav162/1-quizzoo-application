@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-071",
+      "question_text": "What happens if you drop a penny from the Empire State Building?",
+      "options": [
+        "It could kill someone below",
+        "It would just hurt a little if it hit someone",
+        "It would embed into the sidewalk",
+        "It would reach terminal velocity and melt"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Contrary to popular belief, a penny dropped from the Empire State Building would not kill someone. Due to its aerodynamic properties and light weight, it would reach terminal velocity quickly (about 30-50 mph) and would feel like getting flicked in the head - painful but not deadly.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-071",
+      "question_text": "क्या होता है अगर आप एम्पायर स्टेट बिल्डिंग से एक सिक्का गिराते हैं?",
+      "options": [
+        "यह नीचे किसी को मार सकता है",
+        "अगर यह किसी को मारता है तो थोड़ा दर्द होगा",
+        "यह फुटपाथ में धंस जाएगा",
+        "यह टर्मिनल वेलोसिटी तक पहुंचकर पिघल जाएगा"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "लोकप्रिय धारणा के विपरीत, एम्पायर स्टेट बिल्डिंग से गिराया गया सिक्का किसी को नहीं मारेगा। इसके एयरोडायनामिक गुणों और हल्के वजन के कारण, यह जल्दी से टर्मिनल वेलोसिटी (लगभग 30-50 मील प्रति घंटे) तक पहुंच जाएगा और सिर पर फ्लिक किए जाने जैसा महसूस होगा - दर्दनाक लेकिन घातक नहीं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-072",
+      "question_text": "What would happen if all insects on Earth disappeared?",
+      "options": [
+        "The planet would be cleaner",
+        "Human life would collapse within decades",
+        "Only certain plants would die out",
+        "Bird populations would adapt quickly"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "If all insects disappeared, human civilization would face collapse within decades. Insects pollinate about 80% of plant species, including 75% of the crops we eat. They also break down waste, aerate soil, and serve as food for many animals. Without them, ecosystems would collapse, leading to mass extinctions and food shortages.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-072",
+      "question_text": "क्या होगा अगर पृथ्वी पर सभी कीड़े गायब हो जाएं?",
+      "options": [
+        "ग्रह अधिक स्वच्छ होगा",
+        "मानव जीवन कुछ दशकों के भीतर नष्ट हो जाएगा",
+        "केवल कुछ पौधे विलुप्त हो जाएंगे",
+        "पक्षी आबादी जल्दी से अनुकूलित हो जाएगी"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अगर सभी कीड़े गायब हो जाएं, तो मानव सभ्यता कुछ दशकों के भीतर पतन का सामना करेगी। कीड़े लगभग 80% पौधों की प्रजातियों का परागण करते हैं, जिनमें 75% फसलें शामिल हैं जिन्हें हम खाते हैं। वे कचरे को भी तोड़ते हैं, मिट्टी को हवादार बनाते हैं, और कई जानवरों के लिए भोजन के रूप में काम करते हैं। उनके बिना, पारिस्थितिकी तंत्र ध्वस्त हो जाएगा, जिससे बड़े पैमाने पर विलुप्ति और खाद्य कमी होगी।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-073",
+      "question_text": "Which fruit in the world has the most varieties?",
+      "options": [
+        "Bananas",
+        "Apples",
+        "Oranges",
+        "Mangoes"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Apples have the most varieties of any fruit in the world, with over 7,500 cultivars. These varieties range widely in size, color, flavor, texture, and growing conditions. Only about 100 varieties are grown commercially in the United States, with even fewer available in typical supermarkets.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-073",
+      "question_text": "दुनिया में किस फल की सबसे अधिक किस्में हैं?",
+      "options": [
+        "केले",
+        "सेब",
+        "संतरे",
+        "आम"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "दुनिया में किसी भी फल की सबसे अधिक किस्में सेब की हैं, जिनकी 7,500 से अधिक किस्में हैं। ये किस्में आकार, रंग, स्वाद, बनावट और उगाने की स्थितियों में व्यापक रूप से भिन्न होती हैं। संयुक्त राज्य अमेरिका में केवल लगभग 100 किस्में व्यावसायिक रूप से उगाई जाती हैं, और इससे भी कम सामान्य सुपरमार्केट में उपलब्ध हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-074",
+      "question_text": "What unusual feature do armadillos exhibit when startled?",
+      "options": [
+        "They can scream at 90 decibels",
+        "They can jump 3-4 feet straight up in the air",
+        "They change color like chameleons",
+        "They release a foul-smelling liquid"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "When startled, armadillos can jump 3-4 feet straight up into the air, which is quite impressive for their size and weight. Unfortunately, this reflex often leads to collisions with car undercarriages on highways, contributing to their high road mortality rates.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-074",
+      "question_text": "डरने पर आर्मेडिलोस कौन सी असामान्य विशेषता प्रदर्शित करते हैं?",
+      "options": [
+        "वे 90 डेसिबल पर चिल्ला सकते हैं",
+        "वे हवा में सीधे 3-4 फीट ऊपर कूद सकते हैं",
+        "वे गिरगिट की तरह रंग बदलते हैं",
+        "वे एक दुर्गंधयुक्त तरल पदार्थ छोड़ते हैं"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "डरने पर, आर्मेडिलोस हवा में सीधे 3-4 फीट ऊपर कूद सकते हैं, जो उनके आकार और वजन के लिए काफी प्रभावशाली है। दुर्भाग्य से, यह प्रतिक्रिया अक्सर राजमार्गों पर कारों के निचले हिस्से के साथ टकराव का कारण बनती है, जिससे सड़कों पर उनकी मृत्यु दर अधिक होती है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-075",
+      "question_text": "What strange phenomenon can happen to astronauts' height in space?",
+      "options": [
+        "They permanently shrink by up to 1 inch",
+        "They temporarily grow taller by 2-3 inches",
+        "Their feet grow one shoe size larger",
+        "Their head circumference increases by 5%"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "In the microgravity environment of space, astronauts temporarily grow 2-3 inches taller. Without Earth's gravity compressing the spine, the vertebrae spread apart slightly, resulting in increased height. This extra height disappears once they return to Earth and gravity compresses their spine again.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-075",
+      "question_text": "अंतरिक्ष में अंतरिक्ष यात्रियों की ऊंचाई के साथ कौन सी अजीब घटना हो सकती है?",
+      "options": [
+        "वे स्थायी रूप से 1 इंच तक सिकुड़ जाते हैं",
+        "वे अस्थायी रूप से 2-3 इंच लंबे हो जाते हैं",
+        "उनके पैर एक जूता आकार बड़े हो जाते हैं",
+        "उनके सिर का परिधि 5% बढ़ जाता है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अंतरिक्ष के सूक्ष्म गुरुत्वाकर्षण वातावरण में, अंतरिक्ष यात्री अस्थायी रूप से 2-3 इंच लंबे हो जाते हैं। पृथ्वी के गुरुत्वाकर्षण द्वारा रीढ़ को संकुचित किए बिना, कशेरुकाएं थोड़ी दूर फैल जाती हैं, जिसके परिणामस्वरूप ऊंचाई बढ़ जाती है। यह अतिरिक्त ऊंचाई तब गायब हो जाती है जब वे पृथ्वी पर लौटते हैं और गुरुत्वाकर्षण फिर से उनकी रीढ़ को संकुचित कर देता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-076",
+      "question_text": "What unique adaptation allows flamingos to drink boiling water?",
+      "options": [
+        "They have special cooling glands in their throat",
+        "They can rapidly pump blood to their beaks to cool it",
+        "Their beaks have heat-resistant keratin layers",
+        "They have special filters in their throat"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Flamingos can drink water that would scald most animals because they can rapidly pump blood to their beaks and tongues. This creates a natural radiator effect that cools the water before it enters their digestive system, allowing them to drink from hot springs and geothermal lakes that reach near-boiling temperatures.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-076",
+      "question_text": "कौन सा अनूठा अनुकूलन फ्लेमिंगो को उबलते पानी को पीने की अनुमति देता है?",
+      "options": [
+        "उनके गले में विशेष शीतलन ग्रंथियां होती हैं",
+        "वे इसे ठंडा करने के लिए अपनी चोंच में तेजी से रक्त पंप कर सकते हैं",
+        "उनकी चोंच में गर्मी-प्रतिरोधी केराटिन परतें होती हैं",
+        "उनके गले में विशेष फिल्टर होते हैं"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "फ्लेमिंगो ऐसा पानी पी सकते हैं जो अधिकांश जानवरों को जला देगा क्योंकि वे अपनी चोंच और जीभ में तेजी से रक्त पंप कर सकते हैं। यह एक प्राकृतिक रेडिएटर प्रभाव पैदा करता है जो पानी को उनके पाचन तंत्र में प्रवेश करने से पहले ठंडा करता है, जिससे उन्हें गर्म झरनों और भूतापीय झीलों से पीने की अनुमति मिलती है जो लगभग उबलते तापमान तक पहुंचती हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-077",
+      "question_text": "What surprising skill do octopuses demonstrate that shows their intelligence?",
+      "options": [
+        "They can count to ten",
+        "They can open jars from the inside",
+        "They can mimic human speech underwater",
+        "They can predict soccer match outcomes"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Octopuses can open jars from the inside, demonstrating remarkable problem-solving abilities. They can figure out complex puzzles, recognize individual humans, use tools, and even escape from sealed containers by unscrewing lids from the inside - a skill that has led to many aquarium breakouts.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-077",
+      "question_text": "ऑक्टोपस किस आश्चर्यजनक कौशल का प्रदर्शन करते हैं जो उनकी बुद्धिमत्ता दिखाता है?",
+      "options": [
+        "वे दस तक गिन सकते हैं",
+        "वे अंदर से जार खोल सकते हैं",
+        "वे पानी के नीचे मानव भाषण की नकल कर सकते हैं",
+        "वे फुटबॉल मैच के परिणामों की भविष्यवाणी कर सकते हैं"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ऑक्टोपस अंदर से जार खोल सकते हैं, जो उल्लेखनीय समस्या-समाधान क्षमताओं का प्रदर्शन करता है। वे जटिल पहेलियों को हल कर सकते हैं, व्यक्तिगत मनुष्यों को पहचान सकते हैं, उपकरणों का उपयोग कर सकते हैं, और यहां तक कि अंदर से ढक्कन खोलकर सीलबंद कंटेनरों से भी बच सकते हैं - एक कौशल जिसने कई एक्वेरियम ब्रेकआउट का कारण बना है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-078",
+      "question_text": "What common food item was once considered so exotic that King Louis XIV of France had special greenhouses built to grow it?",
+      "options": [
+        "Potatoes",
+        "Pineapples",
+        "Tomatoes",
+        "Bananas"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Pineapples were once so rare and exotic in Europe that King Louis XIV of France had special heated greenhouses called 'pineries' built at Versailles just to grow them. A single pineapple could cost the equivalent of $8,000 today, and they were often rented by the day for display at parties rather than eaten.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-078",
+      "question_text": "कौन सा आम खाद्य पदार्थ कभी इतना अनोखा माना जाता था कि फ्रांस के राजा लुई XIV ने इसे उगाने के लिए विशेष ग्रीनहाउस बनवाए थे?",
+      "options": [
+        "आलू",
+        "अनानास",
+        "टमाटर",
+        "केले"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अनानास एक समय यूरोप में इतने दुर्लभ और अनोखे थे कि फ्रांस के राजा लुई XIV ने वर्साय में उन्हें उगाने के लिए 'पाइनरीज' नामक विशेष गर्म ग्रीनहाउस बनवाए थे। एक अनानास आज $8,000 के बराबर कीमत का हो सकता था, और उन्हें अक्सर खाने के बजाय पार्टियों में प्रदर्शन के लिए दिन के हिसाब से किराए पर लिया जाता था।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-079",
+      "question_text": "What everyday object is actually a 'duplex device'?",
+      "options": [
+        "Microwave oven",
+        "Oreo cookie",
+        "USB cable",
+        "Ballpoint pen"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "An Oreo cookie is technically a 'duplex device' - the official term used by its manufacturer, Nabisco. The term refers to the unique two-sided design with filling in the middle that allows you to twist it apart. The very specific pattern on the cookie was designed to make it instantly recognizable even if broken.",
+      "category_id": 1,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-079",
+      "question_text": "कौन सी रोजमर्रा की वस्तु वास्तव में एक 'डुप्लेक्स डिवाइस' है?",
+      "options": [
+        "माइक्रोवेव ओवन",
+        "ओरियो कुकी",
+        "यूएसबी केबल",
+        "बॉलपॉइंट पेन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ओरियो कुकी तकनीकी रूप से एक 'डुप्लेक्स डिवाइस' है - इसके निर्माता, नाबिस्को द्वारा उपयोग किया जाने वाला आधिकारिक शब्द। यह शब्द बीच में फिलिंग के साथ अद्वितीय दो-तरफा डिजाइन को संदर्भित करता है जो आपको इसे मरोड़कर अलग करने की अनुमति देता है। कुकी पर बहुत विशिष्ट पैटर्न इसे टूटने पर भी तुरंत पहचानने योग्य बनाने के लिए डिज़ाइन किया गया था।",
+      "category_id": 1,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-080",
+      "question_text": "What was invented by a 14-year-old student for a science project?",
+      "options": [
+        "The television remote control",
+        "The trampoline",
+        "Braille",
+        "Earmuffs"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "Earmuffs were invented in 1873 by a 15-year-old student named Chester Greenwood. Frustrated by the cold while ice skating in Maine, he designed the first ear protectors using beaver fur, cloth, and wire. He received a patent at age 19 and built a factory that produced earmuffs for soldiers during World War I.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-080",
+      "question_text": "एक विज्ञान परियोजना के लिए एक 14 वर्षीय छात्र द्वारा क्या आविष्कार किया गया था?",
+      "options": [
+        "टेलीविजन रिमोट कंट्रोल",
+        "ट्रैम्पोलिन",
+        "ब्रेल",
+        "ईयरमफ्स"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "ईयरमफ्स का आविष्कार 1873 में चेस्टर ग्रीनवुड नामक एक 15 वर्षीय छात्र द्वारा किया गया था। मेन में आइस स्केटिंग करते समय ठंड से परेशान होकर, उन्होंने बीवर फर, कपड़े और तार का उपयोग करके पहले कान सुरक्षक डिजाइन किए। उन्हें 19 वर्ष की आयु में एक पेटेंट मिला और एक कारखाना बनाया जिसने प्रथम विश्व युद्ध के दौरान सैनिकों के लिए ईयरमफ्स का निर्माण किया।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

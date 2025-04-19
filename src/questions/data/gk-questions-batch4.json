@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-031",
+      "question_text": "Which element has the chemical symbol 'Au'?",
+      "options": [
+        "Silver",
+        "Gold",
+        "Aluminum",
+        "Copper"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Au is the chemical symbol for Gold. It comes from the Latin word 'aurum', meaning 'gold'.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-031",
+      "question_text": "किस तत्व का रासायनिक प्रतीक 'Au' है?",
+      "options": [
+        "चांदी",
+        "सोना",
+        "एल्युमिनियम",
+        "तांबा"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Au सोने का रासायनिक प्रतीक है। यह लैटिन शब्द 'aurum' से आता है, जिसका अर्थ है 'सोना'।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-032",
+      "question_text": "Which animal is known as the 'Ship of the Desert'?",
+      "options": [
+        "Horse",
+        "Camel",
+        "Elephant",
+        "Donkey"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The camel is known as the 'Ship of the Desert' because it can travel long distances across deserts with heavy loads, and can survive for days without food and water.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-032",
+      "question_text": "किस जानवर को 'रेगिस्तान का जहाज' कहा जाता है?",
+      "options": [
+        "घोड़ा",
+        "ऊंट",
+        "हाथी",
+        "गधा"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ऊंट को 'रेगिस्तान का जहाज' कहा जाता है क्योंकि यह भारी बोझ के साथ रेगिस्तान में लंबी दूरी तय कर सकता है, और बिना भोजन और पानी के कई दिनों तक जीवित रह सकता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-033",
+      "question_text": "Which planet has the most moons in our solar system?",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Saturn has the most confirmed moons in our solar system, with 83 confirmed moons as of 2023, slightly ahead of Jupiter's 79 confirmed moons.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-033",
+      "question_text": "हमारे सौर मंडल में किस ग्रह के पास सबसे अधिक चंद्रमा हैं?",
+      "options": [
+        "पृथ्वी",
+        "शनि",
+        "बृहस्पति",
+        "नेपच्यून"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "शनि के पास हमारे सौर मंडल में सबसे अधिक पुष्ट चंद्रमा हैं, 2023 तक 83 पुष्ट चंद्रमा हैं, जो बृहस्पति के 79 पुष्ट चंद्रमाओं से थोड़ा आगे है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-034",
+      "question_text": "Which is the largest species of big cat in the world?",
+      "options": [
+        "African Lion",
+        "Siberian Tiger",
+        "Jaguar",
+        "Leopard"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Siberian Tiger (Panthera tigris altaica) is the largest species of big cat in the world. Males can weigh up to 320 kg (700 lbs) and reach lengths of up to 3.3 meters (10.8 feet).",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-034",
+      "question_text": "विश्व में बड़ी बिल्ली की सबसे बड़ी प्रजाति कौन सी है?",
+      "options": [
+        "अफ्रीकी शेर",
+        "साइबेरियन बाघ",
+        "जगुआर",
+        "तेंदुआ"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "साइबेरियन बाघ (पैंथरा टाइग्रिस अल्टाइका) विश्व में बड़ी बिल्ली की सबसे बड़ी प्रजाति है। नर 320 किलोग्राम (700 पाउंड) तक वजन और 3.3 मीटर (10.8 फीट) तक लंबाई प्राप्त कर सकते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-035",
+      "question_text": "Who discovered Penicillin?",
+      "options": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Marie Curie",
+        "Joseph Lister"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Alexander Fleming discovered penicillin in 1928, when he noticed that a mold called Penicillium notatum had contaminated one of his petri dishes and was killing the bacteria growing in it.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-035",
+      "question_text": "पेनिसिलिन की खोज किसने की थी?",
+      "options": [
+        "लुई पाश्चर",
+        "अलेक्जेंडर फ्लेमिंग",
+        "मैरी क्यूरी",
+        "जोसेफ लिस्टर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अलेक्जेंडर फ्लेमिंग ने 1928 में पेनिसिलिन की खोज की थी, जब उन्होंने देखा कि पेनिसिलियम नोटाटम नामक एक फफूंद ने उनकी पेट्री डिश में से एक को दूषित कर दिया था और उसमें उग रहे बैक्टीरिया को मार रहा था।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-036",
+      "question_text": "What is the currency of Japan?",
+      "options": [
+        "Yuan",
+        "Yen",
+        "Won",
+        "Ringgit"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Yen is the official currency of Japan. It is the third most traded currency in the foreign exchange market after the US dollar and the Euro.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-036",
+      "question_text": "जापान की मुद्रा क्या है?",
+      "options": [
+        "युआन",
+        "येन",
+        "वॉन",
+        "रिंगित"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "येन जापान की आधिकारिक मुद्रा है। यह विदेशी मुद्रा बाजार में अमेरिकी डॉलर और यूरो के बाद तीसरी सबसे अधिक कारोबार वाली मुद्रा है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-037",
+      "question_text": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "options": [
+        "Marie Curie",
+        "Amelia Earhart",
+        "Florence Nightingale",
+        "Helen Keller"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Amelia Earhart became the first woman to fly solo across the Atlantic Ocean in 1932, flying from Harbor Grace, Newfoundland to Culmore, Northern Ireland.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-037",
+      "question_text": "अटलांटिक महासागर को अकेले पार करने वाली पहली महिला कौन थी?",
+      "options": [
+        "मैरी क्यूरी",
+        "अमेलिया इयरहार्ट",
+        "फ्लोरेंस नाइटिंगेल",
+        "हेलेन केलर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अमेलिया इयरहार्ट 1932 में अटलांटिक महासागर को अकेले पार करने वाली पहली महिला बनीं, जो हार्बर ग्रेस, न्यूफाउंडलैंड से कलमोर, उत्तरी आयरलैंड तक उड़ीं।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-038",
+      "question_text": "What is the national animal of India?",
+      "options": [
+        "Lion",
+        "Tiger",
+        "Elephant",
+        "Leopard"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Royal Bengal Tiger (Panthera tigris tigris) is the national animal of India. It symbolizes power, strength, and majesty in Indian culture.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-038",
+      "question_text": "भारत का राष्ट्रीय पशु क्या है?",
+      "options": [
+        "शेर",
+        "बाघ",
+        "हाथी",
+        "तेंदुआ"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "रॉयल बंगाल टाइगर (पैंथरा टाइग्रिस टाइग्रिस) भारत का राष्ट्रीय पशु है। यह भारतीय संस्कृति में शक्ति, ताकत और महानता का प्रतीक है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-039",
+      "question_text": "Which is the tallest waterfall in the world?",
+      "options": [
+        "Niagara Falls",
+        "Angel Falls",
+        "Victoria Falls",
+        "Iguazu Falls"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Angel Falls in Venezuela is the world's tallest waterfall, with a height of 979 meters (3,212 feet) and a plunge of 807 meters (2,648 feet).",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-039",
+      "question_text": "विश्व का सबसे ऊंचा जलप्रपात कौन सा है?",
+      "options": [
+        "नियाग्रा फॉल्स",
+        "एंजेल फॉल्स",
+        "विक्टोरिया फॉल्स",
+        "इगुआज़ू फॉल्स"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "वेनेजुएला में एंजेल फॉल्स दुनिया का सबसे ऊंचा जलप्रपात है, जिसकी ऊंचाई 979 मीटर (3,212 फीट) और गिरावट 807 मीटर (2,648 फीट) है।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-040",
+      "question_text": "Which is the smallest continent by land area?",
+      "options": [
+        "Europe",
+        "Australia",
+        "Antarctica",
+        "South America"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Australia is the smallest continent by land area, covering approximately 8.5 million square kilometers (3.3 million square miles).",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-040",
+      "question_text": "भूमि क्षेत्र के अनुसार सबसे छोटा महाद्वीप कौन सा है?",
+      "options": [
+        "यूरोप",
+        "ऑस्ट्रेलिया",
+        "अंटार्कटिका",
+        "दक्षिण अमेरिका"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ऑस्ट्रेलिया भूमि क्षेत्र के अनुसार सबसे छोटा महाद्वीप है, जो लगभग 8.5 मिलियन वर्ग किलोमीटर (3.3 मिलियन वर्ग मील) में फैला है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    }
+  ]
+} 

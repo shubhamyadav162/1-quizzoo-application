@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-101",
+      "question_text": "What unusual property does the metal gallium have?",
+      "options": [
+        "It floats on water",
+        "It melts in your hand",
+        "It glows in the dark naturally",
+        "It repels all other metals"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Gallium has the unusual property of melting at just 29.76°C (85.57°F), which is slightly above room temperature but below human body temperature. This means that a solid piece of gallium will literally melt in your hand as it absorbs your body heat. It's one of only a few metals that can be liquid near room temperature, with mercury and cesium being others.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-101",
+      "question_text": "धातु गैलियम में कौन सा असामान्य गुण होता है?",
+      "options": [
+        "यह पानी पर तैरता है",
+        "यह आपके हाथ में पिघल जाता है",
+        "यह स्वाभाविक रूप से अंधेरे में चमकता है",
+        "यह सभी अन्य धातुओं को विकर्षित करता है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "गैलियम में असामान्य गुण है कि यह केवल 29.76°C (85.57°F) पर पिघलता है, जो कमरे के तापमान से थोड़ा ऊपर लेकिन मानव शरीर के तापमान से कम है। इसका मतलब है कि गैलियम का एक ठोस टुकड़ा शाब्दिक रूप से आपके हाथ में पिघल जाएगा क्योंकि यह आपके शरीर की गर्मी को अवशोषित करता है। यह कुछ ही धातुओं में से एक है जो कमरे के तापमान के पास तरल हो सकती है, जिसमें पारा और सीज़ियम अन्य हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-102",
+      "question_text": "What surprising thing happens to astronauts' height in space?",
+      "options": [
+        "They permanently lose about 1% of their height",
+        "Their height doesn't change at all",
+        "They become 1-2 inches shorter",
+        "They grow 2-3 inches taller"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "Astronauts in space typically grow 2-3 inches (5-7.6 cm) taller during their missions. This happens because in microgravity, the spine is no longer compressed by Earth's gravity, allowing the vertebrae to spread apart slightly. This extra height is temporary - astronauts return to their normal height shortly after returning to Earth's gravity. Some astronauts experience back pain during this readjustment period.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-102",
+      "question_text": "अंतरिक्ष में अंतरिक्ष यात्रियों की ऊंचाई के साथ क्या आश्चर्यजनक चीज होती है?",
+      "options": [
+        "वे स्थायी रूप से अपनी ऊंचाई का लगभग 1% खो देते हैं",
+        "उनकी ऊंचाई बिल्कुल नहीं बदलती",
+        "वे 1-2 इंच छोटे हो जाते हैं",
+        "वे 2-3 इंच लंबे हो जाते हैं"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "अंतरिक्ष में अंतरिक्ष यात्री आमतौर पर अपने मिशनों के दौरान 2-3 इंच (5-7.6 सेमी) लंबे हो जाते हैं। ऐसा इसलिए होता है क्योंकि सूक्ष्म गुरुत्वाकर्षण में, रीढ़ की हड्डी अब पृथ्वी के गुरुत्वाकर्षण द्वारा संपीड़ित नहीं होती है, जिससे कशेरुकाओं को थोड़ा अलग होने की अनुमति मिलती है। यह अतिरिक्त ऊंचाई अस्थायी है - अंतरिक्ष यात्री पृथ्वी के गुरुत्वाकर्षण पर लौटने के कुछ समय बाद अपनी सामान्य ऊंचाई पर वापस आ जाते हैं। कुछ अंतरिक्ष यात्री इस पुनर्समायोजन अवधि के दौरान पीठ दर्द का अनुभव करते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-103",
+      "question_text": "Which civilization created a musical instrument that could only be heard by the player?",
+      "options": [
+        "Ancient Greeks",
+        "Incas",
+        "Ancient Chinese",
+        "Egyptians"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Incas created a unique musical instrument called the 'earth flute' or 'whistling vessel' that could only be heard by the person playing it. These ceramic vessels were designed with two chambers connected by a small tube and would produce sounds when water flowed between the chambers as the player tilted the vessel. The vibrations were transmitted directly to the inner ear through the bones of the hands, making the sound inaudible to bystanders.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-103",
+      "question_text": "किस सभ्यता ने एक ऐसा वाद्य यंत्र बनाया था जिसे केवल बजाने वाला ही सुन सकता था?",
+      "options": [
+        "प्राचीन यूनानी",
+        "इंका",
+        "प्राचीन चीनी",
+        "मिस्रवासी"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "इंका ने 'अर्थ फ्लूट' या 'व्हिसलिंग वेसल' नामक एक अनूठा वाद्य यंत्र बनाया था जिसे केवल उसे बजाने वाला व्यक्ति ही सुन सकता था। ये मिट्टी के बर्तन दो कक्षों के साथ डिज़ाइन किए गए थे जो एक छोटी ट्यूब से जुड़े थे और जब खिलाड़ी बर्तन को झुकाता था तो कक्षों के बीच पानी के प्रवाह से ध्वनियां उत्पन्न होती थीं। कंपन सीधे हाथों की हड्डियों के माध्यम से आंतरिक कान तक पहुंचाई जाती थीं, जिससे ध्वनि दर्शकों के लिए अश्रव्य हो जाती थी।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-104",
+      "question_text": "What unexpected effect does space travel have on astronauts' sense of smell?",
+      "options": [
+        "It becomes much more sensitive",
+        "They temporarily lose it completely",
+        "Food smells different in space",
+        "They can detect odors from greater distances"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "Astronauts report that food and other things smell different in space. This is partly due to fluid shifts in microgravity affecting the nasal passages, but also because odor molecules behave differently without gravity - they don't rise naturally as they do on Earth. Additionally, the confined environment of a spacecraft, with its unique mixture of machinery, electronics, and materials, creates a distinctive background odor that affects how other smells are perceived.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-104",
+      "question_text": "अंतरिक्ष यात्रा का अंतरिक्ष यात्रियों की गंध की भावना पर क्या अप्रत्याशित प्रभाव पड़ता है?",
+      "options": [
+        "यह बहुत अधिक संवेदनशील हो जाता है",
+        "वे अस्थायी रूप से इसे पूरी तरह से खो देते हैं",
+        "अंतरिक्ष में भोजन की गंध अलग होती है",
+        "वे अधिक दूरी से गंध का पता लगा सकते हैं"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "अंतरिक्ष यात्री बताते हैं कि अंतरिक्ष में भोजन और अन्य चीजों की गंध अलग होती है। यह आंशिक रूप से नासिका मार्गों को प्रभावित करने वाले सूक्ष्म गुरुत्वाकर्षण में तरल पदार्थ के स्थानांतरण के कारण है, लेकिन इसलिए भी क्योंकि गंध अणु गुरुत्वाकर्षण के बिना अलग तरह से व्यवहार करते हैं - वे पृथ्वी पर जैसे स्वाभाविक रूप से नहीं उठते हैं। इसके अतिरिक्त, अंतरिक्ष यान का सीमित वातावरण, मशीनरी, इलेक्ट्रॉनिक्स और सामग्रियों के अपने अनूठे मिश्रण के साथ, एक विशिष्ट पृष्ठभूमि गंध बनाता है जो प्रभावित करता है कि अन्य गंधों को कैसे महसूस किया जाता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-105",
+      "question_text": "What common domestic animal is completely absent from Antarctica?",
+      "options": [
+        "Dogs",
+        "Cats",
+        "Both dogs and cats",
+        "Neither - both are present in research stations"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "Both cats and dogs are completely absent from Antarctica. The Antarctic Treaty and related agreements (the Antarctic Treaty System) prohibit bringing non-native species to the continent, including pets. This ban was implemented to protect Antarctica's fragile ecosystem from introduced diseases, parasites, and potential invasive species. Even sled dogs, which were once used in Antarctic expeditions, were removed from the continent by April 1994.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-105",
+      "question_text": "कौन सा आम घरेलू जानवर अंटार्कटिका में पूरी तरह से अनुपस्थित है?",
+      "options": [
+        "कुत्ते",
+        "बिल्लियाँ",
+        "कुत्ते और बिल्लियाँ दोनों",
+        "कोई नहीं - दोनों अनुसंधान स्टेशनों में मौजूद हैं"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "बिल्लियाँ और कुत्ते दोनों अंटार्कटिका से पूरी तरह से अनुपस्थित हैं। अंटार्कटिक संधि और संबंधित समझौते (अंटार्कटिक संधि प्रणाली) पालतू जानवरों सहित गैर-देशी प्रजातियों को महाद्वीप पर लाने पर प्रतिबंध लगाते हैं। यह प्रतिबंध अंटार्कटिका के नाजुक पारिस्थितिकी तंत्र को परिचित बीमारियों, परजीवियों और संभावित आक्रामक प्रजातियों से बचाने के लिए लागू किया गया था। यहां तक कि स्लेज डॉग्स, जिनका उपयोग कभी अंटार्कटिक अभियानों में किया जाता था, अप्रैल 1994 तक महाद्वीप से हटा दिए गए थे।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-106",
+      "question_text": "Which animal can survive being frozen solid?",
+      "options": [
+        "Arctic fox",
+        "Emperor penguin",
+        "Wood frog",
+        "Polar bear"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "The wood frog (Lithobates sylvaticus) can survive being frozen solid during winter. Up to 65% of the water in their body turns to ice, and they stop breathing and their heart stops beating. They produce special antifreeze proteins and accumulate glucose in their tissues, which prevents complete freezing of cells. When spring arrives and temperatures warm, the frogs thaw out and resume normal biological functions with no apparent harm.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-106",
+      "question_text": "कौन सा जानवर ठोस रूप से जमे होने पर भी जीवित रह सकता है?",
+      "options": [
+        "आर्कटिक लोमड़ी",
+        "सम्राट पेंगुइन",
+        "वुड फ्रॉग",
+        "ध्रुवीय भालू"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "वुड फ्रॉग (लिथोबेट्स सिल्वाटिकस) सर्दियों के दौरान ठोस रूप से जमे होने पर भी जीवित रह सकता है। उनके शरीर में मौजूद पानी का 65% तक बर्फ में बदल जाता है, और वे सांस लेना बंद कर देते हैं और उनका दिल धड़कना बंद कर देता है। वे विशेष एंटीफ्रीज प्रोटीन का उत्पादन करते हैं और अपने ऊतकों में ग्लूकोज जमा करते हैं, जो कोशिकाओं के पूरी तरह से जमने से रोकता है। जब वसंत आता है और तापमान गर्म होता है, तो मेंढक पिघल जाते हैं और बिना किसी स्पष्ट नुकसान के सामान्य जैविक कार्यों को फिर से शुरू करते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-107",
+      "question_text": "What surprising feature do banana plants have?",
+      "options": [
+        "They're not trees but giant herbs",
+        "They glow faintly in ultraviolet light",
+        "They can communicate with each other",
+        "They change gender during their lifecycle"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "Despite their tree-like appearance, banana plants are actually giant herbs, not trees. They lack the woody stem that characterizes true trees, and instead have a pseudostem made of tightly packed leaf sheaths. Botanically, they're more closely related to ginger and cardamom than to trees. Each banana plant produces just one bunch of bananas in its lifetime before dying, though new plants sprout from the same rhizome system.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-107",
+      "question_text": "केले के पौधों में क्या आश्चर्यजनक विशेषता होती है?",
+      "options": [
+        "वे पेड़ नहीं बल्कि विशाल जड़ी-बूटियां हैं",
+        "वे पराबैंगनी प्रकाश में हल्के से चमकते हैं",
+        "वे एक दूसरे के साथ संवाद कर सकते हैं",
+        "वे अपने जीवनचक्र के दौरान लिंग बदलते हैं"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "पेड़ जैसी दिखने के बावजूद, केले के पौधे वास्तव में विशाल जड़ी-बूटियां हैं, पेड़ नहीं। उनमें लकड़ी का तना नहीं होता है जो वास्तविक पेड़ों की विशेषता है, और इसके बजाय उनमें कसकर पैक किए गए पत्ती आवरणों से बना एक छद्म तना होता है। वनस्पति विज्ञान की दृष्टि से, वे पेड़ों की तुलना में अदरक और इलायची से अधिक निकटता से संबंधित हैं। प्रत्येक केले का पौधा मरने से पहले अपने जीवनकाल में केवल एक गुच्छा केले का उत्पादन करता है, हालांकि नए पौधे उसी प्रकंद प्रणाली से अंकुरित होते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-108",
+      "question_text": "What unusual property does room-temperature volcanic ash have?",
+      "options": [
+        "It's highly magnetic",
+        "It conducts electricity",
+        "It repels water",
+        "It glows in the dark"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Volcanic ash at room temperature has the unusual property of conducting electricity, which has caused problems for power grids following volcanic eruptions. This conductivity is due to the ash's composition of fine particles of pulverized rock and glass, often coated with conductive salts and acids from volcanic gases. When the ash settles on power lines and electrical equipment (especially when damp), it can create short circuits and cause widespread power failures.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-108",
+      "question_text": "कमरे के तापमान पर ज्वालामुखी राख में क्या असामान्य गुण होता है?",
+      "options": [
+        "यह अत्यधिक चुंबकीय है",
+        "यह बिजली का संचालन करता है",
+        "यह पानी को विकर्षित करता है",
+        "यह अंधेरे में चमकता है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "कमरे के तापमान पर ज्वालामुखी राख में बिजली का संचालन करने का असामान्य गुण होता है, जिसने ज्वालामुखी विस्फोटों के बाद बिजली ग्रिड के लिए समस्याएं पैदा की हैं। यह चालकता राख की पिसी हुई चट्टान और कांच के महीन कणों की संरचना के कारण होती है, जो अक्सर ज्वालामुखी गैसों से चालक नमक और अम्लों से लेपित होती है। जब राख बिजली की लाइनों और बिजली के उपकरणों पर जमती है (विशेष रूप से नम होने पर), तो यह शॉर्ट सर्किट पैदा कर सकती है और व्यापक बिजली की विफलता का कारण बन सकती है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-109",
+      "question_text": "What unusual object did ancient Egyptians use as pillows?",
+      "options": [
+        "Woven papyrus baskets",
+        "Bags of grain",
+        "Wooden or stone headrests",
+        "Folded animal skins"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "Ancient Egyptians used wooden or stone headrests as pillows, rather than the soft pillows we use today. These headrests were curved structures that supported the head by cradling the neck, leaving the head elevated without direct contact with the support. They were used by both the living (to keep elaborate hairstyles intact during sleep) and the dead (placed in tombs to support the head of the deceased). Many beautifully carved examples have been found in Egyptian tombs.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-109",
+      "question_text": "प्राचीन मिस्रवासियों ने तकिये के रूप में किस असामान्य वस्तु का उपयोग किया?",
+      "options": [
+        "बुने हुए पेपीरस टोकरी",
+        "अनाज के बैग",
+        "लकड़ी या पत्थर के सिरहाने",
+        "मुड़े हुए जानवरों की खाल"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "प्राचीन मिस्रवासियों ने आज हम जिन नरम तकियों का उपयोग करते हैं, उनके बजाय लकड़ी या पत्थर के सिरहाने का उपयोग तकिये के रूप में किया। ये सिरहाने वक्र संरचनाएं थीं जो गर्दन को पालना देकर सिर को सहारा देती थीं, जिससे सिर को सीधे समर्थन के संपर्क के बिना ऊंचा रखा जाता था। इनका उपयोग जीवित लोगों (नींद के दौरान विस्तृत केश विन्यास को अक्षुण्ण रखने के लिए) और मृतकों (मकबरों में मृतक के सिर को सहारा देने के लिए रखा जाता था) दोनों द्वारा किया जाता था। मिस्र के मकबरों में कई सुंदर नक्काशीदार उदाहरण पाए गए हैं।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-110",
+      "question_text": "What strange event occurred when Apollo 11 astronauts returned to Earth?",
+      "options": [
+        "They had to fill out customs forms",
+        "They were quarantined for three weeks",
+        "They lost their astronaut status temporarily",
+        "They had to reapply for their driver's licenses"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "When the Apollo 11 astronauts returned to Earth after the first moon landing in 1969, they were placed in quarantine for three weeks. This precaution was taken because scientists weren't completely sure that the moon was sterile and free of potentially dangerous organisms or pathogens. The astronauts were kept in a Mobile Quarantine Facility and later transferred to the Lunar Receiving Laboratory. This protocol was followed for Apollo missions 11, 12, and 14 before being discontinued when no lunar pathogens were found.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-110",
+      "question_text": "अपोलो 11 के अंतरिक्ष यात्रियों के पृथ्वी पर लौटने पर कौन सी अजीब घटना हुई?",
+      "options": [
+        "उन्हें सीमा शुल्क फॉर्म भरने पड़े",
+        "उन्हें तीन सप्ताह के लिए संगरोध में रखा गया",
+        "उन्होंने अस्थायी रूप से अपना अंतरिक्ष यात्री का दर्जा खो दिया",
+        "उन्हें अपने ड्राइविंग लाइसेंस के लिए फिर से आवेदन करना पड़ा"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "1969 में पहली चंद्र लैंडिंग के बाद जब अपोलो 11 के अंतरिक्ष यात्री पृथ्वी पर लौटे, तो उन्हें तीन सप्ताह के लिए संगरोध में रखा गया था। यह सावधानी इसलिए बरती गई थी क्योंकि वैज्ञानिक पूरी तरह से आश्वस्त नहीं थे कि चंद्रमा जीवाणु रहित है और संभावित रूप से खतरनाक जीवों या रोगजनकों से मुक्त है। अंतरिक्ष यात्रियों को एक मोबाइल क्वारंटाइन फैसिलिटी में रखा गया था और बाद में लूनर रिसीविंग लेबोरेटरी में स्थानांतरित कर दिया गया था। जब कोई चंद्र रोगजनक नहीं पाया गया, तो इस प्रोटोकॉल का पालन अपोलो मिशन 11, 12 और 14 के लिए किया गया था।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

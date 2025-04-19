@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK261",
+    "en": {
+      "question": "In which year did India win its first Cricket World Cup?",
+      "options": [
+        "1975",
+        "1983",
+        "1992",
+        "2007"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत ने अपना पहला क्रिकेट विश्व कप किस वर्ष जीता था?",
+      "options": [
+        "1975",
+        "1983",
+        "1992",
+        "2007"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_sports"
+  },
+  {
+    "id": "GK267",
+    "en": {
+      "question": "Who painted the famous artwork 'The Last Supper'?",
+      "options": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Pablo Picasso",
+        "Vincent van Gogh"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "प्रसिद्ध कलाकृति 'द लास्ट सपर' किसने चित्रित की थी?",
+      "options": [
+        "लियोनार्डो दा विंची",
+        "माइकेलएंजेलो",
+        "पाब्लो पिकासो",
+        "विन्सेंट वैन गोघ"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "arts"
+  },
+  {
+    "id": "GK268",
+    "en": {
+      "question": "What is the smallest continent by land area?",
+      "options": [
+        "Europe",
+        "Asia",
+        "Australia",
+        "South America"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भूमि क्षेत्र के अनुसार सबसे छोटा महाद्वीप कौन सा है?",
+      "options": [
+        "यूरोप",
+        "एशिया",
+        "ऑस्ट्रेलिया",
+        "दक्षिण अमेरिका"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK269",
+    "en": {
+      "question": "What is the pH value of pure water?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "14"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "शुद्ध पानी का pH मान क्या है?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "14"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK272",
+    "en": {
+      "question": "Which Indian state is known for Kathakali dance form?",
+      "options": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कथकली नृत्य शैली के लिए कौन सा भारतीय राज्य प्रसिद्ध है?",
+      "options": [
+        "केरल",
+        "तमिलनाडु",
+        "कर्नाटक",
+        "आंध्र प्रदेश"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK273",
+    "en": {
+      "question": "Who is known as the 'Father of the Computer'?",
+      "options": [
+        "Bill Gates",
+        "Charles Babbage",
+        "Alan Turing",
+        "Steve Jobs"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कंप्यूटर के जनक के रूप में किसे जाना जाता है?",
+      "options": [
+        "बिल गेट्स",
+        "चार्ल्स बैबेज",
+        "एलन ट्यूरिंग",
+        "स्टीव जॉब्स"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK274",
+    "en": {
+      "question": "What is the unit of pressure?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "दबाव की इकाई क्या है?",
+      "options": [
+        "न्यूटन",
+        "पास्कल",
+        "जूल",
+        "वाट"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK277",
+    "en": {
+      "question": "Who is the composer of the Indian national song 'Vande Mataram'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee",
+        "Sarojini Naidu",
+        "Muhammad Iqbal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय गीत 'वंदे मातरम' के रचयिता कौन हैं?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "मुहम्मद इकबाल"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK279",
+    "en": {
+      "question": "Which is the largest vertebrate?",
+      "options": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Whale Shark"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सबसे बड़ा कशेरुकी कौन सा है?",
+      "options": [
+        "हाथी",
+        "नीली व्हेल",
+        "जिराफ",
+        "व्हेल शार्क"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK280",
+    "en": {
+      "question": "Who wrote the book 'A Brief History of Time'?",
+      "options": [
+        "Albert Einstein",
+        "Stephen Hawking",
+        "Isaac Newton",
+        "Niels Bohr"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ए ब्रीफ हिस्ट्री ऑफ टाइम' पुस्तक किसने लिखी थी?",
+      "options": [
+        "अल्बर्ट आइंस्टाइन",
+        "स्टीफन हॉकिंग",
+        "आइजैक न्यूटन",
+        "नील्स बोर"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "science_literature"
+  }
+]

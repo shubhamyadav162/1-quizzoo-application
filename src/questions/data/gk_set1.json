@@ -1,0 +1,77 @@
+[
+  {
+    "id": "GK002",
+    "en": {
+      "question": "Who wrote the Indian National Anthem?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee",
+        "Sarojini Naidu",
+        "Mahatma Gandhi"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत के राष्ट्रगान के रचयिता कौन हैं?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "महात्मा गांधी"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK003",
+    "en": {
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में सबसे अधिक मात्रा में कौन सी गैस पाई जाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "geography"
+  },
+  {
+    "id": "GK005",
+    "en": {
+      "question": "Which state is known as the 'Spice Garden of India'?",
+      "options": [
+        "Kerala",
+        "Karnataka",
+        "Himachal Pradesh",
+        "Gujarat"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत के 'मसालों का बगीचा' के नाम से किस राज्य को जाना जाता है?",
+      "options": [
+        "केरल",
+        "कर्नाटक",
+        "हिमाचल प्रदेश",
+        "गुजरात"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "indian_geography"
+  }
+]

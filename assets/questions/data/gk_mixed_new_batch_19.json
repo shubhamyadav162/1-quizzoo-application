@@ -1,0 +1,2152 @@
+[
+  {
+    "id": "GK6801",
+    "en": {
+      "question": "What kind of tree can you carry in your hand?",
+      "options": [
+        "A Bonsai Tree",
+        "A Redwood Seedling",
+        "A Coconut Tree",
+        "A palm!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप किस तरह का पेड़ अपने हाथ में ले जा सकते हैं?",
+      "options": [
+        "एक बोनसाई पेड़",
+        "एक रेडवुड का पौधा",
+        "एक नारियल का पेड़",
+        "एक हथेली (palm)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_nature"
+  },
+  {
+    "id": "GK6802",
+    "en": {
+      "question": "What English word has three consecutive double letters?",
+      "options": [
+        "Mississippi",
+        "Committee",
+        "Possession",
+        "Bookkeeper!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंग्रेजी के किस शब्द में लगातार तीन दोहरे अक्षर हैं?",
+      "options": [
+        "Mississippi",
+        "Committee",
+        "Possession",
+        "Bookkeeper!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language_trick"
+  },
+  {
+    "id": "GK6803",
+    "en": {
+      "question": "What has cities, but no houses; forests, but no trees; and water, but no fish?",
+      "options": [
+        "A Painting",
+        "A Dream",
+        "A Book",
+        "A map!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पास शहर हैं, लेकिन घर नहीं; जंगल हैं, लेकिन पेड़ नहीं; और पानी है, लेकिन मछली नहीं?",
+      "options": [
+        "एक पेंटिंग",
+        "एक सपना",
+        "एक किताब",
+        "एक नक्शा!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_description"
+  },
+  {
+    "id": "GK6804",
+    "en": {
+      "question": "What can fill a room but takes up no space?",
+      "options": [
+        "Air",
+        "Silence",
+        "Darkness",
+        "Light!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या एक कमरा भर सकता है लेकिन कोई जगह नहीं लेता है?",
+      "options": [
+        "हवा",
+        "खामोशी",
+        "अंधेरा",
+        "प्रकाश!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_phenomena_abstract"
+  },
+  {
+    "id": "GK6805",
+    "en": {
+      "question": "What is always coming but never arrives?",
+      "options": [
+        "The Future",
+        "Dawn",
+        "The Mailman",
+        "Tomorrow!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या हमेशा आ रहा है लेकिन कभी नहीं आता है?",
+      "options": [
+        "भविष्य",
+        "भोर",
+        "डाकिया",
+        "कल!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_time"
+  },
+  {
+    "id": "GK6806",
+    "en": {
+      "question": "What is lighter than a feather, but even the world's strongest man couldn't hold it for much longer than a minute?",
+      "options": [
+        "A Bubble",
+        "A Thought",
+        "A Secret",
+        "Your breath!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पंख से हल्का क्या है, लेकिन दुनिया का सबसे मजबूत आदमी भी इसे एक मिनट से ज्यादा नहीं रोक सकता?",
+      "options": [
+        "एक बुलबुला",
+        "एक विचार",
+        "एक रहस्य",
+        "आपकी सांस!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_abstract_physical"
+  },
+  {
+    "id": "GK6808",
+    "en": {
+      "question": "What runs around the whole yard without moving?",
+      "options": [
+        "A Dog",
+        "A Sprinkler",
+        "A Child",
+        "A fence!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना हिले पूरे यार्ड के चारों ओर क्या दौड़ता है?",
+      "options": [
+        "एक कुत्ता",
+        "एक स्प्रिंकलर",
+        "एक बच्चा",
+        "एक बाड़!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_position"
+  },
+  {
+    "id": "GK6810",
+    "en": {
+      "question": "What kind of band never plays music?",
+      "options": [
+        "A Wedding Band",
+        "A Marching Band",
+        "A Rock Band",
+        "A rubber band!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस तरह का बैंड (band) कभी संगीत नहीं बजाता?",
+      "options": [
+        "एक वेडिंग बैंड",
+        "एक मार्चिंग बैंड",
+        "एक रॉक बैंड",
+        "एक रबर बैंड!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6811",
+    "en": {
+      "question": "Why was 6 afraid of 7?",
+      "options": [
+        "7 was bigger",
+        "7 was mean",
+        "They had a fight",
+        "Because 7, 8 (ate), 9!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "6, 7 से क्यों डरता था?",
+      "options": [
+        "7 बड़ा था",
+        "7 मतलबी था",
+        "उनकी लड़ाई हुई थी",
+        "क्योंकि 7, 8 (ate), 9!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_numbers_classic"
+  },
+  {
+    "id": "GK6812",
+    "en": {
+      "question": "What do you call a fish with no eyes?",
+      "options": [
+        "A Blind Fish",
+        "A Dark Fish",
+        "A Cave Fish",
+        "Fsh!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना आँखों वाली मछली (fish) को आप क्या कहते हैं?",
+      "options": [
+        "एक अंधी मछली",
+        "एक काली मछली",
+        "एक गुफा मछली",
+        "Fsh! (बिना 'i' के)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals_letters"
+  },
+  {
+    "id": "GK6813",
+    "en": {
+      "question": "Why did the scarecrow win an award?",
+      "options": [
+        "He was brave",
+        "He worked hard",
+        "He looked good",
+        "Because he was outstanding in his field!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिजूका ने पुरस्कार क्यों जीता?",
+      "options": [
+        "वह बहादुर था",
+        "उसने कड़ी मेहनत की",
+        "वह अच्छा लग रहा था",
+        "क्योंकि वह अपने क्षेत्र (field) में उत्कृष्ट (outstanding) था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6815",
+    "en": {
+      "question": "What do elves learn in school?",
+      "options": [
+        "Magic",
+        "History",
+        "Woodworking",
+        "The elf-abet!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एल्व्स स्कूल में क्या सीखते हैं?",
+      "options": [
+        "जादू",
+        "इतिहास",
+        "लकड़ी का काम",
+        "एल्फ-एबेट (elf-abet)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_mythology"
+  },
+  {
+    "id": "GK6816",
+    "en": {
+      "question": "What do you call a lazy plumber?",
+      "options": [
+        "A Drip",
+        "A Slow Fixer",
+        "A Pipe Dreamer",
+        "A Drain on society!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी प्लम्बर को क्या कहते हैं?",
+      "options": [
+        "ए ड्रिप",
+        "ए स्लो फिक्सर",
+        "ए पाइप ड्रीमर",
+        "समाज पर एक बोझ (A Drain on society)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_wordplay"
+  },
+  {
+    "id": "GK6819",
+    "en": {
+      "question": "What has a neck without a head, and a body without legs?",
+      "options": [
+        "A Snake",
+        "A Worm",
+        "A Shirt",
+        "A bottle!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी गर्दन बिना सिर के और शरीर बिना पैरों के होता है?",
+      "options": [
+        "एक सांप",
+        "एक कीड़ा",
+        "एक शर्ट",
+        "एक बोतल!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6820",
+    "en": {
+      "question": "What is harder to catch the faster you run?",
+      "options": [
+        "A Train",
+        "A Racecar",
+        "The Wind",
+        "Your breath!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जितना तेज आप दौड़ते हैं, उसे पकड़ना उतना ही कठिन होता है?",
+      "options": [
+        "एक ट्रेन",
+        "एक रेसकार",
+        "हवा",
+        "आपकी सांस!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_physical"
+  },
+  {
+    "id": "GK6821",
+    "en": {
+      "question": "Forward I am heavy, but backward I am not. What am I?",
+      "options": [
+        "A Truck",
+        "A Snail",
+        "A Word",
+        "The word 'ton'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आगे की ओर मैं भारी हूँ, लेकिन पीछे की ओर नहीं। मैं क्या हूँ?",
+      "options": [
+        "एक ट्रक",
+        "एक घोंघा",
+        "एक शब्द",
+        "शब्द 'ton'! (पीछे 'not')"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK6822",
+    "en": {
+      "question": "What is white when it's dirty and black when it's clean?",
+      "options": [
+        "A Towel",
+        "A White Shirt",
+        "Snow",
+        "A blackboard!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गंदा होने पर सफेद और साफ होने पर काला क्या होता है?",
+      "options": [
+        "एक तौलिया",
+        "एक सफेद शर्ट",
+        "बर्फ",
+        "एक ब्लैकबोर्ड!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_properties"
+  },
+  {
+    "id": "GK6823",
+    "en": {
+      "question": "What belongs to you but others use more than you do?",
+      "options": [
+        "Your Car",
+        "Your Phone",
+        "Your Computer",
+        "Your name!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या आपका है, लेकिन दूसरे लोग आपसे ज्यादा इस्तेमाल करते हैं?",
+      "options": [
+        "आपकी कार",
+        "आपका फोन",
+        "आपका कंप्यूटर",
+        "आपका नाम!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts_personal"
+  },
+  {
+    "id": "GK6825",
+    "en": {
+      "question": "What has a thousand needles but cannot sew?",
+      "options": [
+        "A Cactus",
+        "A Sea Urchin",
+        "A Sewing Kit",
+        "A pine tree / porcupine!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पास हजार सुइयां होती हैं लेकिन वह सिल नहीं सकता?",
+      "options": [
+        "एक कैक्टस",
+        "एक समुद्री अर्चिन",
+        "एक सिलाई किट",
+        "एक चीड़ का पेड़ / साही!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_nature_parts"
+  },
+  {
+    "id": "GK6826",
+    "en": {
+      "question": "What do you call a dog magician?",
+      "options": [
+        "A Howl-dini",
+        "A Pup-pet Master",
+        "A Canine Conjurer",
+        "A Labracadabrador!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक कुत्ते जादूगर को क्या कहते हैं?",
+      "options": [
+        "ए हाउल-दिनी",
+        "ए पप-पेट मास्टर",
+        "ए कैनाइन कॉन्ज्यूरर",
+        "ए लैब्राकडाब्रेडोर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6828",
+    "en": {
+      "question": "What do you call a sad strawberry?",
+      "options": [
+        "A Cryberry",
+        "A Tear-fruit",
+        "A Melon-choly",
+        "A blueberry!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक उदास स्ट्रॉबेरी को क्या कहते हैं?",
+      "options": [
+        "ए क्राइबेरी",
+        "ए टियर-फ्रूट",
+        "ए मेलन-कॉली",
+        "एक ब्लूबेरी (blueberry)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food"
+  },
+  {
+    "id": "GK6829",
+    "en": {
+      "question": "How do you organize a space party?",
+      "options": [
+        "Send invitations",
+        "Find a venue",
+        "Hire a DJ",
+        "You planet!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक अंतरिक्ष पार्टी का आयोजन कैसे करते हैं?",
+      "options": [
+        "निमंत्रण भेजें",
+        "एक स्थान खोजें",
+        "एक डीजे किराए पर लें",
+        "आप इसे प्लान (planet) करते हैं!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_space"
+  },
+  {
+    "id": "GK6832",
+    "en": {
+      "question": "What is at the end of a rainbow?",
+      "options": [
+        "Pot of gold",
+        "Leprechaun",
+        "Clouds",
+        "The letter 'W'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इंद्रधनुष (rainbow) के अंत में क्या है?",
+      "options": [
+        "सोने का बर्तन",
+        "लेप्रेचुन",
+        "बादल",
+        "अक्षर 'W'!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_letters"
+  },
+  {
+    "id": "GK6833",
+    "en": {
+      "question": "What instrument can you hear but never see?",
+      "options": [
+        "A Piano",
+        "A Drum",
+        "A Flute",
+        "Your voice!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप कौन सा वाद्य यंत्र सुन सकते हैं लेकिन कभी देख नहीं सकते?",
+      "options": [
+        "एक पियानो",
+        "एक ड्रम",
+        "एक बांसुरी",
+        "आपकी आवाज!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_sound"
+  },
+  {
+    "id": "GK6835",
+    "en": {
+      "question": "What can travel around the world while staying in a corner? (Repeat of Stamp)",
+      "options": [
+        "A Snail",
+        "A Turtle",
+        "A Suitcase",
+        "A stamp!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोने में रहते हुए दुनिया भर में क्या यात्रा कर सकता है? (डाक टिकट का दोहराव)",
+      "options": [
+        "एक घोंघा",
+        "एक कछुआ",
+        "एक सूटकेस",
+        "एक डाक टिकट!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function_repeat"
+  },
+  {
+    "id": "GK6836",
+    "en": {
+      "question": "What do you call a lazy person who is good at chemistry?",
+      "options": [
+        "A Periodic Slacker",
+        "A Reactionary Relaxer",
+        "A Molecular Malingerer",
+        "A Noble Gas-bag!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी व्यक्ति को क्या कहते हैं जो रसायन विज्ञान में अच्छा है?",
+      "options": [
+        "ए पीरियोडिक स्लैकर",
+        "ए रिएक्शनरी रिलैक्सर",
+        "ए मॉलिक्यूलर मालिंगरर",
+        "ए नोबल गैस-बैग!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "jokes_puns_science_wordplay"
+  },
+  {
+    "id": "GK6839",
+    "en": {
+      "question": "What do you call a sleeping piece of paper?",
+      "options": [
+        "A Dozing Document",
+        "A Resting Report",
+        "A Slumbering Sheet",
+        "A napkin!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कागज के सोते हुए टुकड़े को आप क्या कहते हैं?",
+      "options": [
+        "ए डोजिंग डॉक्यूमेंट",
+        "ए रेस्टिंग रिपोर्ट",
+        "ए स्लम्बरिंग शीट",
+        "एक नैपकिन (napkin)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6840",
+    "en": {
+      "question": "Why did the coffee file a police report?",
+      "options": [
+        "It was too strong",
+        "It was spilled",
+        "It tasted bad",
+        "It got mugged!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कॉफी ने पुलिस रिपोर्ट क्यों दर्ज कराई?",
+      "options": [
+        "यह बहुत मजबूत थी",
+        "यह गिर गई थी",
+        "इसका स्वाद खराब था",
+        "इसे लूट (mugged) लिया गया था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_food_objects"
+  },
+  {
+    "id": "GK6841",
+    "en": {
+      "question": "What can be measured but has no length, width or height?",
+      "options": [
+        "Time",
+        "Weight",
+        "Speed",
+        "Temperature!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या मापा जा सकता है लेकिन उसकी कोई लंबाई, चौड़ाई या ऊंचाई नहीं होती है?",
+      "options": [
+        "समय",
+        "वजन",
+        "गति",
+        "तापमान!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_measurement"
+  },
+  {
+    "id": "GK6842",
+    "en": {
+      "question": "If a plane crashes on the border between the USA and Canada, where do they bury the survivors?",
+      "options": [
+        "USA",
+        "Canada",
+        "Neutral Ground",
+        "You don't bury survivors!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि कोई विमान यूएसए और कनाडा के बीच की सीमा पर दुर्घटनाग्रस्त हो जाता है, तो वे बचे लोगों को कहाँ दफनाते हैं?",
+      "options": [
+        "यूएसए",
+        "कनाडा",
+        "तटस्थ जमीन",
+        "आप बचे लोगों को नहीं दफनाते हैं!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_trick_classic"
+  },
+  {
+    "id": "GK6843",
+    "en": {
+      "question": "What is held by the right hand, but never by the left hand?",
+      "options": [
+        "A Pen",
+        "A Sword",
+        "A Hammer",
+        "Your left elbow/hand!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दाहिने हाथ से क्या पकड़ा जाता है, लेकिन बाएं हाथ से कभी नहीं?",
+      "options": [
+        "एक कलम",
+        "एक तलवार",
+        "एक हथौड़ा",
+        "आपकी बाईं कोहनी/हाथ!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_physical"
+  },
+  {
+    "id": "GK6844",
+    "en": {
+      "question": "What has two hands but cannot clap?",
+      "options": [
+        "A Monkey",
+        "A Robot",
+        "A Scarecrow",
+        "A clock!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके दो हाथ होते हैं लेकिन ताली नहीं बजा सकते?",
+      "options": [
+        "एक बंदर",
+        "एक रोबोट",
+        "एक बिजूका",
+        "एक घड़ी!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6845",
+    "en": {
+      "question": "How many sides does a circle have?",
+      "options": [
+        "Zero",
+        "One",
+        "Infinite",
+        "Two (inside and outside)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक वृत्त के कितने पक्ष होते हैं?",
+      "options": [
+        "शून्य",
+        "एक",
+        "अनंत",
+        "दो (अंदर और बाहर)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_geometry_trick"
+  },
+  {
+    "id": "GK6846",
+    "en": {
+      "question": "Why did the orange stop running?",
+      "options": [
+        "It got tired",
+        "It reached the finish line",
+        "It fell down",
+        "Because it ran out of juice!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संतरा दौड़ना क्यों बंद कर दिया?",
+      "options": [
+        "वह थक गया था",
+        "वह फिनिश लाइन पर पहुंच गया",
+        "वह नीचे गिर गया",
+        "क्योंकि उसका रस (juice) खत्म हो गया था!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food"
+  },
+  {
+    "id": "GK6847",
+    "en": {
+      "question": "What do you call a boomerang that doesn't come back? (Repeat)",
+      "options": [
+        "A Lost Item",
+        "A Failed Throw",
+        "A Bad Boomerang",
+        "A stick!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जो बूमरैंग वापस नहीं आता उसे आप क्या कहते हैं? (दोहराव)",
+      "options": [
+        "एक खोई हुई वस्तु",
+        "एक असफल थ्रो",
+        "एक खराब बूमरैंग",
+        "एक छड़ी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects_repeat"
+  },
+  {
+    "id": "GK6848",
+    "en": {
+      "question": "What do you call a lazy chandelier?",
+      "options": [
+        "A Dim Light",
+        "A Slow Glow",
+        "A Hanging Slouch",
+        "Something that's just hanging around!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी झूमर को क्या कहते हैं?",
+      "options": [
+        "एक मंद प्रकाश",
+        "एक धीमी चमक",
+        "एक लटकता हुआ आलसी",
+        "कुछ जो बस इधर-उधर लटक (hanging around) रहा हो!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects_wordplay"
+  },
+  {
+    "id": "GK6850",
+    "en": {
+      "question": "Why did the teddy bear say no to dessert? (Repeat Stuffed)",
+      "options": [
+        "He was on a diet",
+        "He didn't like it",
+        "He was sleepy",
+        "Because he was already stuffed!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "टेडी बियर ने मिठाई के लिए ना क्यों कहा? (दोहराव भरवां)",
+      "options": [
+        "वह डाइट पर था",
+        "उसे यह पसंद नहीं आया",
+        "उसे नींद आ रही थी",
+        "क्योंकि वह पहले से ही भरा हुआ (stuffed) था!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects_repeat"
+  },
+  {
+    "id": "GK6851",
+    "en": {
+      "question": "What is the chemical formula for water? (Asked as a riddle)",
+      "options": [
+        "O2",
+        "CO2",
+        "NaCl",
+        "H to O! (H2O)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी का रासायनिक सूत्र क्या है? (पहेली के रूप में पूछा गया)",
+      "options": [
+        "O2",
+        "CO2",
+        "NaCl",
+        "H से O! (H2O)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_science_wordplay"
+  },
+  {
+    "id": "GK6852",
+    "en": {
+      "question": "What kind of music do mummies listen to?",
+      "options": [
+        "Rock",
+        "Pop",
+        "Classical",
+        "Wrap music!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ममी किस तरह का संगीत सुनती हैं?",
+      "options": [
+        "रॉक",
+        "पॉप",
+        "क्लासिकल",
+        "रैप (Wrap) संगीत!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_supernatural"
+  },
+  {
+    "id": "GK6853",
+    "en": {
+      "question": "What falls in winter but never gets hurt?",
+      "options": [
+        "Leaves",
+        "Rain",
+        "Temperature",
+        "Snow!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सर्दियों में क्या गिरता है लेकिन कभी चोट नहीं लगती?",
+      "options": [
+        "पत्ते",
+        "बारिश",
+        "तापमान",
+        "बर्फ!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_nature_properties"
+  },
+  {
+    "id": "GK6854",
+    "en": {
+      "question": "What is the capital of France? (Asked like a joke)",
+      "options": [
+        "London",
+        "Rome",
+        "Berlin",
+        "F! (It's the only capital letter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फ्रांस (France) की राजधानी (capital) क्या है? (मजाक की तरह पूछा गया)",
+      "options": [
+        "लंदन",
+        "रोम",
+        "बर्लिन",
+        "F! (यह एकमात्र कैपिटल अक्षर है)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_geography_wordplay"
+  },
+  {
+    "id": "GK6855",
+    "en": {
+      "question": "What is a pirate's favorite letter?",
+      "options": [
+        "P",
+        "R",
+        "X",
+        "You might think it's R, but it be the C! (Sea)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "समुद्री डाकू का पसंदीदा अक्षर कौन सा है?",
+      "options": [
+        "P",
+        "R",
+        "X",
+        "आप सोच सकते हैं कि यह R है, लेकिन यह C (Sea - समुद्र) है!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_popculture_classic"
+  },
+  {
+    "id": "GK6856",
+    "en": {
+      "question": "What do you call a lazy baker?",
+      "options": [
+        "A Dough-nothing",
+        "A Loafer",
+        "A Crumb Bum",
+        "Someone who kneads more motivation!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी बेकर को क्या कहते हैं?",
+      "options": [
+        "ए डो-नथिंग",
+        "ए लोफर",
+        "ए क्रम्ब बम",
+        "कोई जिसे अधिक प्रेरणा की आवश्यकता (kneads) है!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_food_wordplay"
+  },
+  {
+    "id": "GK6857",
+    "en": {
+      "question": "Why did the cookie go to the doctor? (Repeat Crumbly)",
+      "options": [
+        "It felt sick",
+        "It was old",
+        "It fell",
+        "Because it felt crummy!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कुकी डॉक्टर के पास क्यों गई? (दोहराव क्रम्बली)",
+      "options": [
+        "यह बीमार महसूस कर रही थी",
+        "यह पुरानी थी",
+        "यह गिर गई थी",
+        "क्योंकि यह टुकड़े-टुकड़े (crummy) महसूस कर रही थी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food_repeat"
+  },
+  {
+    "id": "GK6858",
+    "en": {
+      "question": "What starts with P, ends with E, and has thousands of letters?",
+      "options": [
+        "Puzzle",
+        "Package",
+        "Penelope",
+        "Post Office!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या P से शुरू होता है, E पर समाप्त होता है, और हजारों अक्षर (letters - पत्र) होते हैं?",
+      "options": [
+        "Puzzle (पहेली)",
+        "Package (पैकेज)",
+        "Penelope (पेनेलोप)",
+        "Post Office (डाकघर)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6859",
+    "en": {
+      "question": "What has to be broken before you can use it? (Repeat Egg)",
+      "options": [
+        "A Promise",
+        "A Record",
+        "A Code",
+        "An egg!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उपयोग करने से पहले किसे तोड़ना पड़ता है? (दोहराव अंडा)",
+      "options": [
+        "एक वादा",
+        "एक रिकॉर्ड",
+        "एक कोड",
+        "एक अंडा!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_function_repeat"
+  },
+  {
+    "id": "GK6860",
+    "en": {
+      "question": "What question can you never answer yes to?",
+      "options": [
+        "Are you lying?",
+        "Are you okay?",
+        "Can I ask a question?",
+        "Are you asleep yet?"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप किस प्रश्न का उत्तर कभी हाँ में नहीं दे सकते?",
+      "options": [
+        "क्या तुम झूठ बोल रहे हो?",
+        "क्या तुम ठीक हो?",
+        "क्या मैं एक प्रश्न पूछ सकता हूँ?",
+        "क्या तुम अभी सो रहे हो?"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_paradox"
+  },
+  {
+    "id": "GK6861",
+    "en": {
+      "question": "What is black and white and read all over? (Repeat Newspaper)",
+      "options": [
+        "A Book",
+        "A Magazine",
+        "A Comic",
+        "A newspaper!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "काला और सफेद क्या है और हर जगह पढ़ा (read/red) जाता है? (दोहराव समाचार पत्र)",
+      "options": [
+        "एक किताब",
+        "एक पत्रिका",
+        "एक कॉमिक",
+        "एक अखबार!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects_classic_repeat"
+  },
+  {
+    "id": "GK6862",
+    "en": {
+      "question": "What is full of holes but still holds water?",
+      "options": [
+        "A Net",
+        "A Colander",
+        "A Bucket with holes",
+        "A sponge!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या छेदों से भरा है लेकिन फिर भी पानी रखता है?",
+      "options": [
+        "एक जाल",
+        "एक कोलंडर",
+        "छेद वाली बाल्टी",
+        "एक स्पंज!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_properties"
+  },
+  {
+    "id": "GK6863",
+    "en": {
+      "question": "What has one head, one foot, and four legs?",
+      "options": [
+        "A Monster",
+        "A Centaur",
+        "A Person on a horse",
+        "A bed!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका एक सिर, एक पैर और चार पैर होते हैं?",
+      "options": [
+        "एक राक्षस",
+        "एक सेंटौर",
+        "घोड़े पर एक व्यक्ति",
+        "एक बिस्तर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6865",
+    "en": {
+      "question": "What has an eye but cannot see? (Repeat Needle)",
+      "options": [
+        "A Potato",
+        "A Storm",
+        "A Hook",
+        "A needle!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी आँख होती है लेकिन देख नहीं सकती? (दोहराव सुई)",
+      "options": [
+        "एक आलू",
+        "एक तूफान",
+        "एक हुक",
+        "एक सुई!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK6866",
+    "en": {
+      "question": "What do you call a lazy kangaroo? (Simplified from ghost/fibs)",
+      "options": [
+        "A Slow Roo",
+        "A Sleepy Marsupial",
+        "A Hopping Hazard",
+        "Pouch potato!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी कंगारू को क्या कहते हैं? (भूत/झूठ से सरलीकृत)",
+      "options": [
+        "ए स्लो रू",
+        "ए स्लीपी मार्सुपियल",
+        "ए हॉपिंग हैज़र्ड",
+        "पाउच पोटैटो!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6867",
+    "en": {
+      "question": "Why was the math book sad? (Repeat Problems)",
+      "options": [
+        "It was boring",
+        "It was too long",
+        "It had errors",
+        "Because it had too many problems!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गणित की किताब दुखी क्यों थी? (दोहराव समस्याएं)",
+      "options": [
+        "यह उबाऊ थी",
+        "यह बहुत लंबी थी",
+        "इसमें त्रुटियां थीं",
+        "क्योंकि इसमें बहुत सारी समस्याएं (problems) थीं!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects_repeat"
+  },
+  {
+    "id": "GK6868",
+    "en": {
+      "question": "What do you call a fish with no eyes? (Repeat Fsh)",
+      "options": [
+        "Eyeless Fish",
+        "Blindfish",
+        "Seeless",
+        "Fsh!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना आँखों वाली मछली (fish) को आप क्या कहते हैं? (दोहराव Fsh)",
+      "options": [
+        "आईलेस फिश",
+        "ब्लाइंडफिश",
+        "सीलेस",
+        "Fsh! (बिना 'i' के)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals_letters_repeat"
+  },
+  {
+    "id": "GK6869",
+    "en": {
+      "question": "What is orange and sounds like a parrot? (Repeat Carrot)",
+      "options": [
+        "An Orange Bird",
+        "A Sweet Potato",
+        "Squash",
+        "A carrot!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नारंगी क्या है और तोते की तरह लगता है? (दोहराव गाजर)",
+      "options": [
+        "एक नारंगी पक्षी",
+        "एक शकरकंद",
+        "स्क्वैश",
+        "एक गाजर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_food_repeat"
+  },
+  {
+    "id": "GK6870",
+    "en": {
+      "question": "Why did the scarecrow win an award? (Repeat Outstanding)",
+      "options": [
+        "He was the best",
+        "He scared birds well",
+        "He was well-made",
+        "Because he was outstanding in his field!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिजूका ने पुरस्कार क्यों जीता? (दोहराव उत्कृष्ट)",
+      "options": [
+        "वह सबसे अच्छा था",
+        "उसने पक्षियों को अच्छी तरह से डराया",
+        "वह अच्छी तरह से बनाया गया था",
+        "क्योंकि वह अपने क्षेत्र (field) में उत्कृष्ट (outstanding) था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects_repeat"
+  },
+  {
+    "id": "GK6871",
+    "en": {
+      "question": "What is white when dirty, black when clean? (Repeat Blackboard)",
+      "options": [
+        "Chalk",
+        "Paper",
+        "Cloth",
+        "A blackboard!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गंदा होने पर सफेद, साफ होने पर काला क्या होता है? (दोहराव ब्लैकबोर्ड)",
+      "options": [
+        "चाक",
+        "कागज",
+        "कपड़ा",
+        "एक ब्लैकबोर्ड!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_properties_repeat"
+  },
+  {
+    "id": "GK6872",
+    "en": {
+      "question": "What belongs to you but others use more than you do?",
+      "options": [
+        "Your Bed",
+        "Your Chair",
+        "Your Pen",
+        "Your name!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या आपका है लेकिन दूसरे लोग आपसे ज्यादा इस्तेमाल करते हैं?",
+      "options": [
+        "आपका बिस्तर",
+        "आपकी कुर्सी",
+        "आपकी कलम",
+        "आपका नाम!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts_personal_repeat"
+  },
+  {
+    "id": "GK6873",
+    "en": {
+      "question": "How many months have 28 days? (Repeat All)",
+      "options": [
+        "One",
+        "Two",
+        "Eleven",
+        "All of them!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कितने महीनों में 28 दिन होते हैं? (दोहराव सभी)",
+      "options": [
+        "एक",
+        "दो",
+        "ग्यारह",
+        "वे सभी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_calendar_trick_repeat"
+  },
+  {
+    "id": "GK6874",
+    "en": {
+      "question": "What word looks same upside down & backward? (Repeat SWIMS)",
+      "options": [
+        "NOON",
+        "LEVEL",
+        "RADAR",
+        "SWIMS!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा शब्द उल्टा और पीछे से एक जैसा दिखता है? (दोहराव SWIMS)",
+      "options": [
+        "NOON",
+        "LEVEL",
+        "RADAR",
+        "SWIMS!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_palindrome_ambigram_repeat"
+  },
+  {
+    "id": "GK6875",
+    "en": {
+      "question": "What is at the end of a rainbow? (Repeat W)",
+      "options": [
+        "Rain",
+        "Sun",
+        "Colors",
+        "The letter 'W'"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इंद्रधनुष (rainbow) के अंत में क्या है? (दोहराव W)",
+      "options": [
+        "बारिश",
+        "सूरज",
+        "रंग",
+        "अक्षर 'W'"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_letters_repeat"
+  },
+  {
+    "id": "GK6876",
+    "en": {
+      "question": "What begins T, ends T, has T in it? (Repeat Teapot)",
+      "options": [
+        "Testament",
+        "Thought",
+        "Torrent",
+        "A teapot!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या T से शुरू होता है, T पर समाप्त होता है, उसमें T होता है? (दोहराव चायदानी)",
+      "options": [
+        "टेस्टामेंट",
+        "थॉट",
+        "टोरेंट",
+        "एक चायदानी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_letters_repeat"
+  },
+  {
+    "id": "GK6877",
+    "en": {
+      "question": "Why don't scientists trust atoms? (Repeat Make up)",
+      "options": [
+        "They're moody",
+        "They bond too easily",
+        "They're negative",
+        "Because they make up everything!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वैज्ञानिक परमाणुओं (atoms) पर भरोसा क्यों नहीं करते? (दोहराव Make up)",
+      "options": [
+        "वे मूडी होते हैं",
+        "वे बहुत आसानी से बंध जाते हैं",
+        "वे नकारात्मक होते हैं",
+        "क्योंकि वे सब कुछ बनाते (make up everything) हैं!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_science_repeat"
+  },
+  {
+    "id": "GK6878",
+    "en": {
+      "question": "What do you call a sad strawberry? (Repeat Blueberry)",
+      "options": [
+        "A Weep-berry",
+        "A Sob-fruit",
+        "A Glum-berry",
+        "A blueberry!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक उदास स्ट्रॉबेरी को क्या कहते हैं? (दोहराव ब्लूबेरी)",
+      "options": [
+        "ए वीप-बेरी",
+        "ए सोब-फ्रूट",
+        "ए ग्लम-बेरी",
+        "एक ब्लूबेरी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food_repeat"
+  },
+  {
+    "id": "GK6879",
+    "en": {
+      "question": "How do you organize a space party? (Repeat Planet)",
+      "options": [
+        "Book a rocket",
+        "Invite aliens",
+        "Make star charts",
+        "You planet!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक अंतरिक्ष पार्टी का आयोजन कैसे करते हैं? (दोहराव Planet)",
+      "options": [
+        "एक रॉकेट बुक करें",
+        "एलियंस को आमंत्रित करें",
+        "स्टार चार्ट बनाएं",
+        "आप इसे प्लान (planet) करते हैं!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_space_repeat"
+  },
+  {
+    "id": "GK6880",
+    "en": {
+      "question": "Why did the invisible man turn down the job offer? (Repeat See himself)",
+      "options": [
+        "Bad commute",
+        "Low salary",
+        "Wanted vacation",
+        "He couldn't see himself doing it!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अदृश्य आदमी ने नौकरी क्यों ठुकरा दी? (दोहराव See himself)",
+      "options": [
+        "खराब आवागमन",
+        "कम वेतन",
+        "छुट्टी चाहता था",
+        "वह खुद को ऐसा करते हुए नहीं देख (see himself doing it) सकता था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_supernatural_repeat"
+  },
+  {
+    "id": "GK6881",
+    "en": {
+      "question": "Why don't eggs tell jokes? (Repeat Crack up)",
+      "options": [
+        "They lack humor",
+        "They are fragile",
+        "They are too round",
+        "They'd crack each other up!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंडे चुटकुले क्यों नहीं सुनाते? (दोहराव Crack up)",
+      "options": [
+        "उनमें हास्य की कमी होती है",
+        "वे नाजुक होते हैं",
+        "वे बहुत गोल होते हैं",
+        "वे एक-दूसरे को हंसा-हंसा कर तोड़ (crack each other up) देंगे!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food_repeat"
+  },
+  {
+    "id": "GK6882",
+    "en": {
+      "question": "What instrument in the bathroom? (Repeat Tuba Toothpaste)",
+      "options": [
+        "Trumpet",
+        "Trombone",
+        "Saxophone",
+        "A tuba toothpaste!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बाथरूम में कौन सा वाद्य यंत्र? (दोहराव टूबा टूथपेस्ट)",
+      "options": [
+        "ट्रम्पेट",
+        "ट्रॉम्बोन",
+        "सैक्सोफोन",
+        "एक टूबा टूथपेस्ट!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects_repeat"
+  },
+  {
+    "id": "GK6883",
+    "en": {
+      "question": "What do you call a sleeping paper? (Repeat Napkin)",
+      "options": [
+        "Paper Rest",
+        "Sheet Sleep",
+        "Docu-Doze",
+        "A napkin!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोते हुए कागज को आप क्या कहते हैं? (दोहराव नैपकिन)",
+      "options": [
+        "पेपर रेस्ट",
+        "शीट स्लीप",
+        "डॉक्यू-डोज़",
+        "एक नैपकिन!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects_repeat"
+  },
+  {
+    "id": "GK6884",
+    "en": {
+      "question": "Why coffee file police report? (Repeat Mugged)",
+      "options": [
+        "It was cold",
+        "It was bitter",
+        "Someone stole it",
+        "It got mugged!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कॉफी ने पुलिस रिपोर्ट क्यों दर्ज कराई? (दोहराव Mugged)",
+      "options": [
+        "यह ठंडी थी",
+        "यह कड़वी थी",
+        "किसी ने इसे चुरा लिया था",
+        "इसे लूट (mugged) लिया गया था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_food_objects_repeat"
+  },
+  {
+    "id": "GK6885",
+    "en": {
+      "question": "What can be measured, no length/width/height? (Repeat Temp)",
+      "options": [
+        "Volume",
+        "Density",
+        "Age",
+        "Temperature!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या मापा जा सकता है, कोई लंबाई/चौड़ाई/ऊंचाई नहीं? (दोहराव Temp)",
+      "options": [
+        "आयतन",
+        "घनत्व",
+        "आयु",
+        "तापमान!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_measurement_repeat"
+  },
+  {
+    "id": "GK6886",
+    "en": {
+      "question": "Plane crash border, where bury survivors? (Repeat Don't)",
+      "options": [
+        "Their home country",
+        "Where they were found",
+        "Split between countries",
+        "You don't bury survivors!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विमान दुर्घटना सीमा, बचे लोगों को कहाँ दफनाएं? (दोहराव Don't)",
+      "options": [
+        "उनका गृह देश",
+        "जहां वे पाए गए थे",
+        "देशों के बीच विभाजित",
+        "आप बचे लोगों को नहीं दफनाते हैं!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_trick_classic_repeat"
+  },
+  {
+    "id": "GK6887",
+    "en": {
+      "question": "Held by right hand, never left? (Repeat Left Elbow)",
+      "options": [
+        "Right Elbow",
+        "Right Foot",
+        "Right Shoulder",
+        "Your left elbow/hand!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दाहिने हाथ से पकड़ा, कभी बाएं से नहीं? (दोहराव बायां कोहनी)",
+      "options": [
+        "दाहिनी कोहनी",
+        "दाहिना पैर",
+        "दाहिना कंधा",
+        "आपकी बाईं कोहनी/हाथ!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_physical_repeat"
+  },
+  {
+    "id": "GK6888",
+    "en": {
+      "question": "What has two hands but cannot clap?",
+      "options": [
+        "A Statue",
+        "A Mannequin",
+        "A Sign Language Interpreter",
+        "A clock!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके दो हाथ होते हैं, ताली नहीं बजा सकते?",
+      "options": [
+        "एक मूर्ति",
+        "एक पुतला",
+        "एक सांकेतिक भाषा दुभाषिया",
+        "एक घड़ी!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK6889",
+    "en": {
+      "question": "How many sides does a circle have? (Repeat Two)",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "Two (inside and outside)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक वृत्त के कितने पक्ष होते हैं? (दोहराव दो)",
+      "options": [
+        "0",
+        "1",
+        "अनंत",
+        "दो (अंदर और बाहर)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_geometry_trick_repeat"
+  },
+  {
+    "id": "GK6890",
+    "en": {
+      "question": "Why did the orange stop running? (Repeat Juice)",
+      "options": [
+        "It tripped",
+        "It saw a peel",
+        "It got squeezed",
+        "Because it ran out of juice!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संतरा दौड़ना क्यों बंद कर दिया? (दोहराव रस)",
+      "options": [
+        "यह फिसल गया",
+        "इसने एक छिलका देखा",
+        "इसे निचोड़ा गया",
+        "क्योंकि इसका रस (juice) खत्म हो गया था!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food_repeat"
+  },
+  {
+    "id": "GK6891",
+    "en": {
+      "question": "What kind of shoes do ninjas wear? (Repeat Sneakers)",
+      "options": [
+        "Tabi boots",
+        "Stealth shoes",
+        "Silent slippers",
+        "Sneakers!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निंजा किस तरह के जूते पहनते हैं? (दोहराव स्नीकर्स)",
+      "options": [
+        "टाबी बूट",
+        "स्टेल्थ शूज़",
+        "साइलेंट स्लिपर",
+        "स्नीकर्स!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_popculture_repeat"
+  },
+  {
+    "id": "GK6892",
+    "en": {
+      "question": "What is the chemical formula for water riddle? (Repeat H to O)",
+      "options": [
+        "OH2",
+        "HOH",
+        "Aqua",
+        "H to O! (H2O)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी की पहेली का रासायनिक सूत्र क्या है? (दोहराव H से O)",
+      "options": [
+        "OH2",
+        "HOH",
+        "एक्वा",
+        "H से O! (H2O)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_science_wordplay_repeat"
+  },
+  {
+    "id": "GK6893",
+    "en": {
+      "question": "What music do mummies listen to? (Repeat Wrap)",
+      "options": [
+        "Soul",
+        "Metal",
+        "Funk",
+        "Wrap music!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ममी कौन सा संगीत सुनती हैं? (दोहराव Wrap)",
+      "options": [
+        "सोल",
+        "मेटल",
+        "फंक",
+        "रैप (Wrap) संगीत!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_supernatural_repeat"
+  },
+  {
+    "id": "GK6894",
+    "en": {
+      "question": "What falls in winter, never hurt? (Repeat Snow)",
+      "options": [
+        "Hail",
+        "Sleet",
+        "Ice",
+        "Snow!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सर्दियों में क्या गिरता है, कभी चोट नहीं लगती?",
+      "options": [
+        "ओले",
+        "स्लीट",
+        "बर्फ",
+        "बर्फ!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_nature_properties_repeat"
+  },
+  {
+    "id": "GK6895",
+    "en": {
+      "question": "Capital of France joke? (Repeat F)",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "F! (It's the only capital letter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फ्रांस (France) की राजधानी (capital) का मजाक? (दोहराव F)",
+      "options": [
+        "पेरिस",
+        "ल्योन",
+        "मार्सिले",
+        "F! (यह एकमात्र कैपिटल अक्षर है)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_geography_wordplay_repeat"
+  },
+  {
+    "id": "GK6896",
+    "en": {
+      "question": "Pirate's favorite letter? (Repeat C/Sea)",
+      "options": [
+        "A",
+        "I",
+        "O",
+        "You might think it's R, but it be the C! (Sea)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "समुद्री डाकू का पसंदीदा अक्षर कौन सा है?",
+      "options": [
+        "A",
+        "I",
+        "O",
+        "आप सोच सकते हैं कि यह R है, लेकिन यह C (Sea - समुद्र) है!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_popculture_classic_repeat"
+  },
+  {
+    "id": "GK6897",
+    "en": {
+      "question": "What starts P, ends E, thousands letters? (Repeat Post Office)",
+      "options": [
+        "Province",
+        "People",
+        "Example",
+        "Post Office!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या P से शुरू होता है, E पर समाप्त होता है, हजारों अक्षर (letters - पत्र)? (दोहराव डाकघर)",
+      "options": [
+        "प्रांत",
+        "लोग",
+        "उदाहरण",
+        "डाकघर!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_objects_repeat"
+  },
+  {
+    "id": "GK6898",
+    "en": {
+      "question": "Question never answer yes to? (Repeat Asleep)",
+      "options": [
+        "Are you awake?",
+        "Do you understand?",
+        "Are you sure?",
+        "Are you asleep yet?"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्रश्न जिसका उत्तर कभी हाँ नहीं? (दोहराव सो रहा है)",
+      "options": [
+        "क्या तुम जाग रहे हो?",
+        "क्या तुम समझते हो?",
+        "क्या तुम निश्चित हो?",
+        "क्या तुम अभी सो रहे हो?"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_paradox_repeat"
+  },
+  {
+    "id": "GK6899",
+    "en": {
+      "question": "Full of holes, still holds water? (Repeat Sponge)",
+      "options": [
+        "A Sieve",
+        "A Filter",
+        "A Leaky Pipe",
+        "A sponge!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "छेद से भरा, फिर भी पानी रखता है?",
+      "options": [
+        "एक छलनी",
+        "एक फिल्टर",
+        "एक लीक पाइप",
+        "एक स्पंज!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_properties_repeat"
+  },
+  {
+    "id": "GK6900",
+    "en": {
+      "question": "Always in front, can't be seen? (Repeat Future)",
+      "options": [
+        "Your Shadow",
+        "Your Reflection",
+        "Your Past",
+        "The future!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमेशा सामने, देखा नहीं जा सकता?",
+      "options": [
+        "आपकी छाया",
+        "आपका प्रतिबिंब",
+        "आपका अतीत",
+        "भविष्य!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts_repeat"
+  }
+]

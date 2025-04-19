@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "GK7001",
+    "en": {
+      "question": "What has an eye, but cannot see? (A different answer this time!)",
+      "options": [
+        "A Needle",
+        "A Potato",
+        "A Person winking",
+        "A hurricane!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी आँख होती है, पर देख नहीं सकती? (इस बार एक अलग जवाब!)",
+      "options": [
+        "एक सुई",
+        "एक आलू",
+        "आंख मारता हुआ व्यक्ति",
+        "एक तूफान!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_nature_phenomena"
+  },
+  {
+    "id": "GK7002",
+    "en": {
+      "question": "What is full of keys but opens no locks? (Another one!)",
+      "options": [
+        "A Piano",
+        "A Keyboard",
+        "A Locksmith's Shop",
+        "A map legend (key)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या चाबियों (keys) से भरा है लेकिन कोई ताला नहीं खोलता? (एक और!)",
+      "options": [
+        "एक पियानो",
+        "एक कीबोर्ड",
+        "एक ताला बनाने वाले की दुकान",
+        "एक नक्शे की कुंजी (key)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK7003",
+    "en": {
+      "question": "I have lakes with no water, mountains with no stone, and cities with no buildings. What am I?",
+      "options": [
+        "A Painting",
+        "A Globe",
+        "A Dream",
+        "A map! (Again)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेरे पास बिना पानी की झीलें हैं, बिना पत्थर के पहाड़ हैं, और बिना इमारतों के शहर हैं। मैं क्या हूँ?",
+      "options": [
+        "एक पेंटिंग",
+        "एक ग्लोब",
+        "एक सपना",
+        "एक नक्शा! (फिर से)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_description_repeat"
+  },
+  {
+    "id": "GK7004",
+    "en": {
+      "question": "What is something you can keep, even after giving it to someone else?",
+      "options": [
+        "Money",
+        "A Gift",
+        "A Secret",
+        "Your word!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ऐसी कौन सी चीज़ है जिसे आप किसी और को देने के बाद भी रख सकते हैं?",
+      "options": [
+        "पैसा",
+        "एक उपहार",
+        "एक रहस्य",
+        "आपका वचन!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts"
+  },
+  {
+    "id": "GK7005",
+    "en": {
+      "question": "What is made of water but if you put it into water it will disappear?",
+      "options": [
+        "Ice",
+        "Snow",
+        "Steam",
+        "An ice cube!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी से क्या बना है लेकिन अगर आप इसे पानी में डालते हैं तो यह गायब हो जाएगा?",
+      "options": [
+        "बर्फ",
+        "हिमपात",
+        "भाप",
+        "बर्फ का टुकड़ा!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_nature_properties"
+  },
+  {
+    "id": "GK7006",
+    "en": {
+      "question": "What has a thumb and four fingers but is not a hand?",
+      "options": [
+        "A Foot",
+        "A Paw",
+        "A Fork",
+        "A glove!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका अंगूठा और चार उंगलियाँ होती हैं लेकिन वह हाथ नहीं है?",
+      "options": [
+        "एक पैर",
+        "एक पंजा",
+        "एक कांटा",
+        "एक दस्ताना!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7007",
+    "en": {
+      "question": "What month of the year has 28 days? (Trick!) ",
+      "options": [
+        "February",
+        "Only February in non-leap years",
+        "None",
+        "All of them!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वर्ष के किस महीने में 28 दिन होते हैं? (चाल!)",
+      "options": [
+        "फरवरी",
+        "केवल गैर-लीप वर्षों में फरवरी",
+        "कोई नहीं",
+        "वे सभी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_calendar_trick_repeat"
+  },
+  {
+    "id": "GK7008",
+    "en": {
+      "question": "What has one head, one foot, and four legs, but isn't an animal?",
+      "options": [
+        "A Table",
+        "A Chair",
+        "A Stool",
+        "A bed!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका एक सिर, एक पैर और चार पैर होते हैं, लेकिन वह जानवर नहीं है?",
+      "options": [
+        "एक मेज़",
+        "एक कुर्सी",
+        "एक स्टूल",
+        "एक बिस्तर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7009",
+    "en": {
+      "question": "What is always in front of you but can't be seen clearly?",
+      "options": [
+        "Air",
+        "Your nose",
+        "Your glasses",
+        "The future!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या हमेशा आपके सामने होता है लेकिन स्पष्ट रूप से देखा नहीं जा सकता है?",
+      "options": [
+        "हवा",
+        "आपकी नाक",
+        "आपका चश्मा",
+        "भविष्य!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts_repeat"
+  },
+  {
+    "id": "GK7010",
+    "en": {
+      "question": "If you drop me, I'm sure to crack. Give me a smile, and I'll always smile back. What am I?",
+      "options": [
+        "An Egg",
+        "A Phone",
+        "A Glass",
+        "A mirror!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि तुम मुझे गिराओगे, तो मैं निश्चित रूप से टूट जाऊँगा। मुझे एक मुस्कान दो, और मैं हमेशा वापस मुस्कुराऊंगा। मैं क्या हूँ?",
+      "options": [
+        "एक अंडा",
+        "एक फोन",
+        "एक गिलास",
+        "एक दर्पण!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_properties"
+  },
+  {
+    "id": "GK7011",
+    "en": {
+      "question": "What is so fragile that saying its name breaks it?",
+      "options": [
+        "Glass",
+        "Ice",
+        "A Secret",
+        "Silence!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इतना नाजुक क्या है कि उसका नाम लेने से वह टूट जाता है?",
+      "options": [
+        "कांच",
+        "बर्फ",
+        "एक रहस्य",
+        "खामोशी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts"
+  },
+  {
+    "id": "GK7013",
+    "en": {
+      "question": "I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "options": [
+        "A Plant",
+        "A Balloon",
+        "A Sponge",
+        "Fire!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मैं जीवित नहीं हूँ, लेकिन मैं बढ़ता हूँ; मेरे फेफड़े नहीं हैं, लेकिन मुझे हवा चाहिए; मेरा मुँह नहीं है, लेकिन पानी मुझे मार डालता है। मैं क्या हूँ?",
+      "options": [
+        "एक पौधा",
+        "एक गुब्बारा",
+        "एक स्पंज",
+        "आग!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_phenomena_properties"
+  },
+  {
+    "id": "GK7014",
+    "en": {
+      "question": "What has an eye but cannot see? (Yet another one!)",
+      "options": [
+        "A Needle",
+        "A Potato",
+        "A Hurricane",
+        "A needle (of a record player)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी आंख होती है पर देख नहीं सकती? (एक और!)",
+      "options": [
+        "एक सुई",
+        "एक आलू",
+        "एक तूफान",
+        "एक सुई (रिकॉर्ड प्लेयर की)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_objects_parts_wordplay"
+  },
+  {
+    "id": "GK7015",
+    "en": {
+      "question": "What five-letter word becomes shorter when you add two letters to it?",
+      "options": [
+        "Small",
+        "Little",
+        "Brief",
+        "Short! (Shorter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पाँच अक्षर का कौन सा शब्द उसमें दो अक्षर जोड़ने पर छोटा हो जाता है?",
+      "options": [
+        "Small (छोटा)",
+        "Little (थोड़ा)",
+        "Brief (संक्षिप्त)",
+        "Short! (Shorter - छोटा)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK7016",
+    "en": {
+      "question": "What is black when you buy it, red when you use it, and gray when you throw it away?",
+      "options": [
+        "Ink Cartridge",
+        "Matches",
+        "Firewood",
+        "Charcoal!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब आप इसे खरीदते हैं तो यह काला होता है, जब आप इसका उपयोग करते हैं तो लाल होता है, और जब आप इसे फेंक देते हैं तो ग्रे होता है?",
+      "options": [
+        "स्याही कारतूस",
+        "माचिस",
+        "जलाऊ लकड़ी",
+        "चारकोल!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_lifecycle"
+  },
+  {
+    "id": "GK7017",
+    "en": {
+      "question": "What invention allows people to walk through walls?",
+      "options": [
+        "Teleporter",
+        "Phase Device",
+        "Magic Spell",
+        "Doors!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा आविष्कार लोगों को दीवारों से चलने की अनुमति देता है?",
+      "options": [
+        "टेलीपोर्टर",
+        "फेज डिवाइस",
+        "जादुई मंत्र",
+        "दरवाजे!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function_literal"
+  },
+  {
+    "id": "GK7018",
+    "en": {
+      "question": "What comes down but never goes up?",
+      "options": [
+        "Age",
+        "Temperature",
+        "An Elevator",
+        "Rain!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या नीचे आता है लेकिन कभी ऊपर नहीं जाता?",
+      "options": [
+        "उम्र",
+        "तापमान",
+        "एक लिफ्ट",
+        "बारिश!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_nature_phenomena"
+  },
+  {
+    "id": "GK7019",
+    "en": {
+      "question": "How can you make seven even?",
+      "options": [
+        "Add one",
+        "Multiply by two",
+        "Divide by 0.5",
+        "Remove the 'S'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सात (seven) को सम (even) कैसे बनाएं?",
+      "options": [
+        "एक जोड़ें",
+        "दो से गुणा करें",
+        "0.5 से विभाजित करें",
+        "'S' हटा दें!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_numbers_letters"
+  },
+  {
+    "id": "GK7020",
+    "en": {
+      "question": "What English word retains the same pronunciation, even when you take away four of its five letters?",
+      "options": [
+        "Alone",
+        "Stone",
+        "Audio",
+        "Queue!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंग्रेजी का कौन सा शब्द समान उच्चारण रखता है, भले ही आप उसके पांच अक्षरों में से चार हटा दें?",
+      "options": [
+        "Alone (अकेला)",
+        "Stone (पत्थर)",
+        "Audio (ऑडियो)",
+        "Queue (क्यू)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK7021",
+    "en": {
+      "question": "What is always wandering but never gets lost?",
+      "options": [
+        "A Cloud",
+        "A River",
+        "A Nomad",
+        "The Moon!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या हमेशा भटकता रहता है पर कभी खोता नहीं?",
+      "options": [
+        "एक बादल",
+        "एक नदी",
+        "एक खानाबदोश",
+        "चंद्रमा!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_nature_personification"
+  },
+  {
+    "id": "GK7022",
+    "en": {
+      "question": "What has a neck but no head? (Repeat Bottle variation)",
+      "options": [
+        "A Shirt",
+        "A Guitar",
+        "A Vase",
+        "A bottle!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी गर्दन है पर सिर नहीं? (दोहराव बोतल भिन्नता)",
+      "options": [
+        "एक शर्ट",
+        "एक गिटार",
+        "एक फूलदान",
+        "एक बोतल!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7023",
+    "en": {
+      "question": "What is full of holes but holds water? (Repeat Sponge)",
+      "options": [
+        "Net",
+        "Sieve",
+        "Chainmail",
+        "A sponge!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "छेद से भरा लेकिन पानी रखता है? (दोहराव स्पंज)",
+      "options": [
+        "जाल",
+        "छलनी",
+        "चेनमेल",
+        "एक स्पंज!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_properties_repeat"
+  },
+  {
+    "id": "GK7024",
+    "en": {
+      "question": "What can fill a room but takes no space? (Repeat Light/Sound variation)",
+      "options": [
+        "Air",
+        "Darkness",
+        "Smell",
+        "Sound!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कमरा भर सकता है पर जगह नहीं लेता? (दोहराव प्रकाश/ध्वनि भिन्नता)",
+      "options": [
+        "हवा",
+        "अंधेरा",
+        "गंध",
+        "ध्वनि!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_phenomena_abstract_repeat"
+  },
+  {
+    "id": "GK7025",
+    "en": {
+      "question": "If you're running in a race and pass the person in second place, what place are you in?",
+      "options": [
+        "First",
+        "Third",
+        "Fourth",
+        "Second!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि आप एक दौड़ में दौड़ रहे हैं और दूसरे स्थान पर व्यक्ति को पार करते हैं, तो आप किस स्थान पर हैं?",
+      "options": [
+        "पहला",
+        "तीसरा",
+        "चौथा",
+        "दूसरा!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_logic_situation"
+  },
+  {
+    "id": "GK7026",
+    "en": {
+      "question": "What has 4 legs in the morning, 2 legs at noon, and 3 legs in the evening? (Classic Sphinx Riddle)",
+      "options": [
+        "A Monster",
+        "A Table",
+        "A Growing Animal",
+        "A Human (crawls, walks, uses cane)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके सुबह 4 पैर, दोपहर में 2 पैर और शाम को 3 पैर होते हैं? (क्लासिक स्फिंक्स पहेली)",
+      "options": [
+        "एक राक्षस",
+        "एक मेज",
+        "एक बढ़ता हुआ जानवर",
+        "एक इंसान (रेंगता है, चलता है, बेंत का उपयोग करता है)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_classic_metaphor"
+  },
+  {
+    "id": "GK7027",
+    "en": {
+      "question": "What number comes next in the sequence: 1, 11, 21, 1211, 111221, ...?",
+      "options": [
+        "312211",
+        "13112221",
+        "211211",
+        "312211 (Look and Say Sequence)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अनुक्रम में अगला नंबर कौन सा आता है: 1, 11, 21, 1211, 111221, ...?",
+      "options": [
+        "312211",
+        "13112221",
+        "211211",
+        "312211 (देखो और कहो अनुक्रम)"
+      ],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "riddles_pattern_logic"
+  },
+  {
+    "id": "GK7028",
+    "en": {
+      "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+      "options": [
+        "A Ghost",
+        "A Radio",
+        "A Whisper",
+        "An echo!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मैं बिना मुंह के बोलता हूं और बिना कान के सुनता हूं। मेरा कोई शरीर नहीं है, लेकिन मैं हवा से जीवित हो जाता हूं। मैं क्या हूँ?",
+      "options": [
+        "एक भूत",
+        "एक रेडियो",
+        "एक फुसफुसाहट",
+        "एक गूंज!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_phenomena_personification"
+  },
+  {
+    "id": "GK7029",
+    "en": {
+      "question": "You see a boat filled with people. It has not sunk, but when you look again you don't see a single person on the boat. Why?",
+      "options": [
+        "They jumped off",
+        "They hid",
+        "It was a ghost ship",
+        "All the people were married! (No single people)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप लोगों से भरी एक नाव देखते हैं। यह डूबी नहीं है, लेकिन जब आप फिर से देखते हैं तो आपको नाव पर एक भी व्यक्ति (single person) नहीं दिखता है। क्यों?",
+      "options": [
+        "वे कूद गए",
+        "वे छिप गए",
+        "यह एक भूतिया जहाज था",
+        "सभी लोग शादीशुदा थे! (कोई अकेला व्यक्ति नहीं)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_situation"
+  },
+  {
+    "id": "GK7030",
+    "en": {
+      "question": "What disappears as soon as you say its name? (Repeat Silence)",
+      "options": [
+        "A Bubble",
+        "A Thought",
+        "A Secret",
+        "Silence!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जैसे ही आप उसका नाम लेते हैं, क्या गायब हो जाता है? (दोहराव खामोशी)",
+      "options": [
+        "एक बुलबुला",
+        "एक विचार",
+        "एक रहस्य",
+        "खामोशी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts_repeat"
+  },
+  {
+    "id": "GK7031",
+    "en": {
+      "question": "What is made of water but putting it in water makes it disappear? (Repeat Ice Cube)",
+      "options": [
+        "Salt",
+        "Sugar",
+        "Effervescent Tablet",
+        "An ice cube!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी से बना है पर पानी में डालने से गायब हो जाता है? (दोहराव बर्फ का टुकड़ा)",
+      "options": [
+        "नमक",
+        "चीनी",
+        "घुलनशील गोली",
+        "एक बर्फ का टुकड़ा!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_nature_properties_repeat"
+  },
+  {
+    "id": "GK7032",
+    "en": {
+      "question": "What runs but never walks, mouth never talks, head never weeps, bed never sleeps? (Repeat River)",
+      "options": [
+        "A Car Engine",
+        "A Fan",
+        "A Leaky Faucet",
+        "A river!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दौड़ता है पर चलता नहीं, मुंह है पर बोलता नहीं, सिर है पर रोता नहीं, बिस्तर है पर सोता नहीं? (दोहराव नदी)",
+      "options": [
+        "एक कार इंजन",
+        "एक पंखा",
+        "एक टपकता हुआ नल",
+        "एक नदी!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_nature_personification_repeat"
+  },
+  {
+    "id": "GK7033",
+    "en": {
+      "question": "Not alive, but grows; no lungs, needs air; no mouth, water kills? (Repeat Fire)",
+      "options": [
+        "Mold",
+        "Crystal",
+        "Yeast",
+        "Fire!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जीवित नहीं, पर बढ़ता है; फेफड़े नहीं, हवा चाहिए; मुंह नहीं, पानी मारता है? (दोहराव आग)",
+      "options": [
+        "फफूंद",
+        "क्रिस्टल",
+        "खमीर",
+        "आग!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_phenomena_properties_repeat"
+  },
+  {
+    "id": "GK7034",
+    "en": {
+      "question": "Five-letter word shorter when you add two letters? (Repeat Short)",
+      "options": [
+        "Wide (Wider)",
+        "Large (Larger)",
+        "Tall (Taller)",
+        "Short! (Shorter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पाँच अक्षर का शब्द दो अक्षर जोड़ने पर छोटा? (दोहराव Short)",
+      "options": [
+        "Wide (Wider - चौड़ा)",
+        "Large (Larger - बड़ा)",
+        "Tall (Taller - लंबा)",
+        "Short! (Shorter - छोटा)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language_repeat"
+  },
+  {
+    "id": "GK7035",
+    "en": {
+      "question": "Black when buy, red when use, gray when discard? (Repeat Charcoal)",
+      "options": [
+        "A Candle",
+        "A Log",
+        "Brake Pads",
+        "Charcoal!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "खरीदने पर काला, उपयोग पर लाल, फेंकने पर ग्रे? (दोहराव चारकोल)",
+      "options": [
+        "एक मोमबत्ती",
+        "एक लट्ठा",
+        "ब्रेक पैड",
+        "चारकोल!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_lifecycle_repeat"
+  },
+  {
+    "id": "GK7036",
+    "en": {
+      "question": "Invention lets people walk through walls? (Repeat Doors)",
+      "options": [
+        "Secret Passage",
+        "Elevator",
+        "Stairs",
+        "Doors!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आविष्कार जो लोगों को दीवारों से चलने देता है? (दोहराव दरवाजे)",
+      "options": [
+        "गुप्त मार्ग",
+        "लिफ्ट",
+        "सीढ़ियाँ",
+        "दरवाजे!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function_literal_repeat"
+  },
+  {
+    "id": "GK7037",
+    "en": {
+      "question": "Comes down but never goes up? (Repeat Rain)",
+      "options": [
+        "Snow",
+        "Hail",
+        "Sleet",
+        "Rain!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नीचे आता है पर ऊपर नहीं जाता? (दोहराव बारिश)",
+      "options": [
+        "बर्फ",
+        "ओले",
+        "स्लीट",
+        "बारिश!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_nature_phenomena_repeat"
+  },
+  {
+    "id": "GK7038",
+    "en": {
+      "question": "How make seven even? (Repeat Remove S)",
+      "options": [
+        "Double it",
+        "Add 3",
+        "Square it",
+        "Remove the 'S'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सात को सम कैसे बनाएं? (दोहराव S हटाएं)",
+      "options": [
+        "इसे दोगुना करें",
+        "3 जोड़ें",
+        "इसका वर्ग करें",
+        "'S' हटा दें!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_numbers_letters_repeat"
+  },
+  {
+    "id": "GK7039",
+    "en": {
+      "question": "Word retains pronunciation when 4/5 letters removed? (Repeat Queue)",
+      "options": [
+        "Though",
+        "Through",
+        "Eight",
+        "Queue!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "4/5 अक्षर हटाने पर शब्द उच्चारण बनाए रखता है? (दोहराव Queue)",
+      "options": [
+        "Though (हालांकि)",
+        "Through (के माध्यम से)",
+        "Eight (आठ)",
+        "Queue (क्यू)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_wordplay_language_repeat"
+  },
+  {
+    "id": "GK7040",
+    "en": {
+      "question": "Seen middle March/April, not beginning/end? (Repeat R)",
+      "options": [
+        "Equinox",
+        "Holiday",
+        "Weather change",
+        "The letter 'R'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मार्च/अप्रैल के मध्य में देखा गया, शुरुआत/अंत में नहीं? (दोहराव R)",
+      "options": [
+        "विषुव",
+        "छुट्टी",
+        "मौसम परिवर्तन",
+        "अक्षर 'R'!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_calendar_letters_repeat"
+  },
+  {
+    "id": "GK7041",
+    "en": {
+      "question": "Weightless, seen, put in barrel makes lighter? (Repeat Hole)",
+      "options": [
+        "Smoke",
+        "A Shadow",
+        "Foam",
+        "A hole!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारहीन, देखा गया, बैरल में डालने से हल्का होता है? (दोहराव छेद)",
+      "options": [
+        "धुआं",
+        "एक छाया",
+        "फोम",
+        "एक छेद!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_logic_physical_complex_repeat"
+  },
+  {
+    "id": "GK7042",
+    "en": {
+      "question": "Where find ocean with no water? (Repeat Map)",
+      "options": [
+        "Dry Dock",
+        "Empty Pool",
+        "Bathtub",
+        "On a map!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना पानी वाला समुद्र कहाँ मिलेगा? (दोहराव नक्शा)",
+      "options": [
+        "ड्राई डॉक",
+        "खाली पूल",
+        "बाथटब",
+        "एक नक्शे पर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_representation_repeat"
+  },
+  {
+    "id": "GK7043",
+    "en": {
+      "question": "Has head, tail, no body? (Repeat Coin)",
+      "options": [
+        "A Tadpole",
+        "A Matchstick",
+        "A Hammer",
+        "A coin!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिर है, पूंछ है, शरीर नहीं? (दोहराव सिक्का)",
+      "options": [
+        "एक टैडपोल",
+        "एक माचिस की तीली",
+        "एक हथौड़ा",
+        "एक सिक्का!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7044",
+    "en": {
+      "question": "What keep after giving to someone? (Repeat Your Word)",
+      "options": [
+        "A Favor",
+        "A Loan",
+        "Respect",
+        "Your word!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसी को देने के बाद क्या रखें? (दोहराव आपका वचन)",
+      "options": [
+        "एक एहसान",
+        "एक ऋण",
+        "सम्मान",
+        "आपका वचन!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts_repeat"
+  },
+  {
+    "id": "GK7045",
+    "en": {
+      "question": "Break, even if never pick up/touch? (Repeat Promise)",
+      "options": [
+        "A Rule",
+        "A Law",
+        "A Heart",
+        "A promise!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तोड़ें, भले ही कभी उठाएं/स्पर्श न करें? (दोहराव वादा)",
+      "options": [
+        "एक नियम",
+        "एक कानून",
+        "एक दिल",
+        "एक वादा!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_actions_repeat"
+  },
+  {
+    "id": "GK7046",
+    "en": {
+      "question": "End of everything? (Repeat G)",
+      "options": [
+        "Omega",
+        "Finish",
+        "Conclusion",
+        "The letter 'G'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सब कुछ (everything) का अंत? (दोहराव G)",
+      "options": [
+        "ओमेगा",
+        "समाप्त",
+        "निष्कर्ष",
+        "अक्षर 'G'!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_letters_repeat"
+  },
+  {
+    "id": "GK7047",
+    "en": {
+      "question": "Once in minute, twice in moment, never in 1000 years? (Repeat M)",
+      "options": [
+        "Letter E",
+        "Letter O",
+        "Letter T",
+        "The letter 'M'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिनट में एक बार, क्षण में दो बार, 1000 साल में कभी नहीं? (दोहराव M)",
+      "options": [
+        "अक्षर E",
+        "अक्षर O",
+        "अक्षर T",
+        "अक्षर 'M'!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_letters_time_repeat"
+  },
+  {
+    "id": "GK7048",
+    "en": {
+      "question": "How far walk into woods? (Repeat Halfway)",
+      "options": [
+        "To the edge",
+        "Until dark",
+        "To the center",
+        "Only halfway (then you're walking out)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जंगल में कितनी दूर चलें? (दोहराव आधा रास्ता)",
+      "options": [
+        "किनारे तक",
+        "अंधेरा होने तक",
+        "केंद्र तक",
+        "केवल आधा रास्ता (फिर आप बाहर निकल रहे हैं)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_situation_repeat"
+  },
+  {
+    "id": "GK7049",
+    "en": {
+      "question": "Boat filled, not sunk, no single person? (Repeat Married)",
+      "options": [
+        "It was a toy boat",
+        "It was night",
+        "They were all couples",
+        "All the people were married! (No single people)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नाव भरी, डूबी नहीं, कोई अकेला व्यक्ति नहीं? (दोहराव विवाहित)",
+      "options": [
+        "यह एक खिलौना नाव थी",
+        "रात थी",
+        "वे सभी जोड़े थे",
+        "सभी लोग शादीशुदा थे! (कोई अकेला व्यक्ति नहीं)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_situation_repeat"
+  },
+  {
+    "id": "GK7050",
+    "en": {
+      "question": "What has 4 legs morning, 2 noon, 3 evening? (Repeat Human)",
+      "options": [
+        "A Chair with a walker",
+        "A Pet growing up",
+        "A Transformer",
+        "A Human (crawls, walks, uses cane)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सुबह 4 पैर, दोपहर 2, शाम 3 किसके होते हैं? (दोहराव इंसान)",
+      "options": [
+        "वॉकर वाली कुर्सी",
+        "एक पालतू जानवर बड़ा हो रहा है",
+        "एक ट्रांसफॉर्मर",
+        "एक इंसान (रेंगता है, चलता है, बेंत का उपयोग करता है)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_classic_metaphor_repeat"
+  },
+  {
+    "id": "GK7051",
+    "en": {
+      "question": "What number comes next: 1, 4, 9, 16, 25, ...?",
+      "options": [
+        "30",
+        "35",
+        "49",
+        "36 (Squares of numbers)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अगला नंबर कौन सा आता है: 1, 4, 9, 16, 25, ...?",
+      "options": [
+        "30",
+        "35",
+        "49",
+        "36 (संख्याओं के वर्ग)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_pattern_math"
+  },
+  {
+    "id": "GK7052",
+    "en": {
+      "question": "What has rivers, but no water; forests, but no trees; and cities, but no buildings?",
+      "options": [
+        "A Painting",
+        "A Dream",
+        "A Book",
+        "A map! (Again, slightly different wording)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पास नदियाँ हैं, पर पानी नहीं; जंगल हैं, पर पेड़ नहीं; और शहर हैं, पर इमारतें नहीं?",
+      "options": [
+        "एक पेंटिंग",
+        "एक सपना",
+        "एक किताब",
+        "एक नक्शा! (फिर से, थोड़े अलग शब्दों में)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_description_repeat"
+  },
+  {
+    "id": "GK7053",
+    "en": {
+      "question": "I have keys, but open no doors. I have space, but no rooms. You can enter, but can't go outside. What am I?",
+      "options": [
+        "A Piano",
+        "A Map",
+        "A Safe",
+        "A keyboard!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेरे पास चाबियाँ (keys) हैं, पर दरवाजे नहीं खोलता। मेरे पास स्पेस (space) है, पर कमरे नहीं। आप एंटर (enter) कर सकते हैं, पर बाहर नहीं जा सकते। मैं क्या हूँ?",
+      "options": [
+        "एक पियानो",
+        "एक नक्शा",
+        "एक तिजोरी",
+        "एक कीबोर्ड!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_objects_wordplay"
+  },
+  {
+    "id": "GK7054",
+    "en": {
+      "question": "What is full of holes but is strong as steel? (Repeat Chain again)",
+      "options": [
+        "Woven Basket",
+        "Netting",
+        "Armor",
+        "A chain!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "छेद से भरा लेकिन स्टील जितना मजबूत? (दोहराव जंजीर फिर से)",
+      "options": [
+        "बुनी हुई टोकरी",
+        "जाली",
+        "कवच",
+        "एक जंजीर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_properties_repeat"
+  },
+  {
+    "id": "GK7055",
+    "en": {
+      "question": "Where does today come before yesterday?",
+      "options": [
+        "In Time Travel",
+        "In a Dream",
+        "In Reverse Order",
+        "In the dictionary!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आज कल (बीते हुए) से पहले कहाँ आता है?",
+      "options": [
+        "टाइम ट्रैवल में",
+        "एक सपने में",
+        "उल्टे क्रम में",
+        "शब्दकोश में!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_calendar_time"
+  },
+  {
+    "id": "GK7056",
+    "en": {
+      "question": "What has cities, forests, mountains, and roads, but cannot travel?",
+      "options": [
+        "A Painting",
+        "A Globe",
+        "A Book",
+        "A map! (Final repeat)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पास शहर, जंगल, पहाड़ और सड़कें हैं, लेकिन यात्रा नहीं कर सकता?",
+      "options": [
+        "एक पेंटिंग",
+        "एक ग्लोब",
+        "एक किताब",
+        "एक नक्शा! (अंतिम दोहराव)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_description_repeat"
+  },
+  {
+    "id": "GK7057",
+    "en": {
+      "question": "What has an eye but cannot see? (Final Needle repeat)",
+      "options": [
+        "A Potato Sprout",
+        "A Knot in Wood",
+        "The center of a storm",
+        "A needle!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी आंख होती है पर देख नहीं सकती? (अंतिम सुई दोहराव)",
+      "options": [
+        "एक आलू का अंकुर",
+        "लकड़ी में एक गाँठ",
+        "तूफान का केंद्र",
+        "एक सुई!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7058",
+    "en": {
+      "question": "What is full of keys but opens no locks? (Final Piano repeat)",
+      "options": [
+        "A Set of Answers",
+        "A Computer Keyboard",
+        "A Map Legend",
+        "A piano!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या चाबियों से भरा है पर ताले नहीं खोलता? (अंतिम पियानो दोहराव)",
+      "options": [
+        "उत्तरों का एक सेट",
+        "एक कंप्यूटर कीबोर्ड",
+        "एक नक्शा कुंजी",
+        "एक पियानो!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_wordplay_repeat"
+  },
+  {
+    "id": "GK7059",
+    "en": {
+      "question": "What can you keep after giving it away? (Final Your Word repeat)",
+      "options": [
+        "A Promise",
+        "A Secret",
+        "A Cold",
+        "Your word!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "देने के बाद आप क्या रख सकते हैं? (अंतिम आपका वचन दोहराव)",
+      "options": [
+        "एक वादा",
+        "एक रहस्य",
+        "एक जुकाम",
+        "आपका वचन!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts_repeat"
+  },
+  {
+    "id": "GK7060",
+    "en": {
+      "question": "What has a thumb and four fingers but isn't a hand? (Final Glove repeat)",
+      "options": [
+        "A Mitten",
+        "A Rake",
+        "A Robot Hand",
+        "A glove!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका अंगूठा और चार उंगलियां हैं पर हाथ नहीं? (अंतिम दस्ताना दोहराव)",
+      "options": [
+        "एक मिट्टन",
+        "एक रेक",
+        "एक रोबोट हाथ",
+        "एक दस्ताना!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7061",
+    "en": {
+      "question": "What month has 28 days? (Final All repeat)",
+      "options": [
+        "February",
+        "Jan, Mar, May, Jul, Aug, Oct, Dec",
+        "April, June, Sep, Nov",
+        "All of them!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस महीने में 28 दिन होते हैं? (अंतिम सभी दोहराव)",
+      "options": [
+        "फरवरी",
+        "जन, मार्च, मई, जुलाई, अगस्त, अक्टूबर, दिसंबर",
+        "अप्रैल, जून, सितंबर, नवंबर",
+        "वे सभी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_calendar_trick_repeat"
+  },
+  {
+    "id": "GK7062",
+    "en": {
+      "question": "What is always in front but can't be seen?",
+      "options": [
+        "Tomorrow",
+        "Next Year",
+        "Your Path",
+        "The future!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या हमेशा सामने होता है पर देखा नहीं जा सकता?",
+      "options": [
+        "कल",
+        "अगला साल",
+        "आपका रास्ता",
+        "भविष्य!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts_repeat"
+  },
+  {
+    "id": "GK7063",
+    "en": {
+      "question": "If you drop me, I crack. Smile at me, I smile back?",
+      "options": [
+        "Window Pane",
+        "Ice Sculpture",
+        "Ceramic Plate",
+        "A mirror!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गिराओ तो टूटूं। मुस्कुराओ तो मुस्कुराऊं?",
+      "options": [
+        "खिड़की का शीशा",
+        "बर्फ की मूर्ति",
+        "सिरेमिक प्लेट",
+        "एक दर्पण!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_properties_repeat"
+  },
+  {
+    "id": "GK7064",
+    "en": {
+      "question": "What disappears when you say its name?",
+      "options": [
+        "Mystery",
+        "Magic",
+        "A Ghost",
+        "Silence!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नाम लेते ही क्या गायब हो जाता है?",
+      "options": [
+        "रहस्य",
+        "जादू",
+        "एक भूत",
+        "खामोशी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts_repeat"
+  },
+  {
+    "id": "GK7065",
+    "en": {
+      "question": "Five-letter word shorter when adding two letters?",
+      "options": [
+        "Young (Younger)",
+        "Old (Older)",
+        "Fast (Faster)",
+        "Short! (Shorter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पाँच अक्षर का शब्द दो अक्षर जोड़ने पर छोटा?",
+      "options": [
+        "Young (Younger - युवा)",
+        "Old (Older - बूढ़ा)",
+        "Fast (Faster - तेज)",
+        "Short! (Shorter - छोटा)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language_repeat"
+  },
+  {
+    "id": "GK7066",
+    "en": {
+      "question": "Black when buy, red use, gray discard?",
+      "options": [
+        "Lead Pencil",
+        "Crayon",
+        "Lipstick",
+        "Charcoal!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "खरीदने पर काला, उपयोग पर लाल, फेंकने पर ग्रे?",
+      "options": [
+        "लेड पेंसिल",
+        "क्रेयॉन",
+        "लिपस्टिक",
+        "चारकोल!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_lifecycle_repeat"
+  },
+  {
+    "id": "GK7067",
+    "en": {
+      "question": "Invention lets people walk through walls?",
+      "options": [
+        "Window",
+        "Gate",
+        "Archway",
+        "Doors!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आविष्कार जो दीवारों से चलने देता है?",
+      "options": [
+        "खिड़की",
+        "गेट",
+        "मेहराब",
+        "दरवाजे!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function_literal_repeat"
+  },
+  {
+    "id": "GK7068",
+    "en": {
+      "question": "How make seven even?",
+      "options": [
+        "Use Roman numerals",
+        "Write it backwards",
+        "Add zero",
+        "Remove the 'S'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सात को सम कैसे बनाएं?",
+      "options": [
+        "रोमन अंकों का प्रयोग करें",
+        "इसे उल्टा लिखें",
+        "शून्य जोड़ें",
+        "'S' हटा दें!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_numbers_letters_repeat"
+  },
+  {
+    "id": "GK7069",
+    "en": {
+      "question": "Word same pronunciation minus 4/5 letters?",
+      "options": [
+        "Where",
+        "Wear",
+        "Were",
+        "Queue!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "4/5 अक्षर हटाने पर शब्द उच्चारण बनाए रखता है?",
+      "options": [
+        "Where (कहाँ)",
+        "Wear (पहनना)",
+        "Were (थे)",
+        "Queue (क्यू)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_wordplay_language_repeat"
+  },
+  {
+    "id": "GK7070",
+    "en": {
+      "question": "What is seen middle March/April, not beginning/end?",
+      "options": [
+        "Easter",
+        "April Fools' Day",
+        "Tax Day",
+        "The letter 'R'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मार्च/अप्रैल के मध्य में देखा गया, शुरुआत/अंत में नहीं?",
+      "options": [
+        "ईस्टर",
+        "अप्रैल फूल्स डे",
+        "टैक्स डे",
+        "अक्षर 'R'!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_calendar_letters_repeat"
+  },
+  {
+    "id": "GK7071",
+    "en": {
+      "question": "Weightless, seen, put in barrel makes lighter?",
+      "options": [
+        "A Bubble",
+        "A Flame",
+        "A Feather",
+        "A hole!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारहीन, देखा गया, बैरल में डालने से हल्का?",
+      "options": [
+        "एक बुलबुला",
+        "एक लौ",
+        "एक पंख",
+        "एक छेद!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_logic_physical_complex_repeat"
+  },
+  {
+    "id": "GK7072",
+    "en": {
+      "question": "Has head, tail, no body?",
+      "options": [
+        "A Screw",
+        "A Nail",
+        "A Comet's Tail",
+        "A coin!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिर है, पूंछ है, शरीर नहीं?",
+      "options": [
+        "एक पेंच",
+        "एक कील",
+        "एक धूमकेतु की पूंछ",
+        "एक सिक्का!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7073",
+    "en": {
+      "question": "Break, even if never pick up/touch?",
+      "options": [
+        "A Habit",
+        "A Record",
+        "The News",
+        "A promise!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तोड़ें, भले ही कभी उठाएं/स्पर्श न करें?",
+      "options": [
+        "एक आदत",
+        "एक रिकॉर्ड",
+        "समाचार",
+        "एक वादा!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_actions_repeat"
+  },
+  {
+    "id": "GK7074",
+    "en": {
+      "question": "End of everything?",
+      "options": [
+        "Zero",
+        "Nothing",
+        "The End",
+        "The letter 'G'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सब कुछ (everything) का अंत?",
+      "options": [
+        "शून्य",
+        "कुछ नहीं",
+        "अंत",
+        "अक्षर 'G'!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_letters_repeat"
+  },
+  {
+    "id": "GK7075",
+    "en": {
+      "question": "Once in minute, twice in moment, never 1000 years?",
+      "options": [
+        "A Heartbeat",
+        "A Blink",
+        "A Sound",
+        "The letter 'M'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिनट में एक बार, क्षण में दो बार, 1000 साल में कभी नहीं?",
+      "options": [
+        "एक दिल की धड़कन",
+        "एक पलक",
+        "एक ध्वनि",
+        "अक्षर 'M'!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_letters_time_repeat"
+  },
+  {
+    "id": "GK7076",
+    "en": {
+      "question": "How far walk into woods?",
+      "options": [
+        "1 mile",
+        "10 miles",
+        "To the other side",
+        "Only halfway (then you're walking out)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जंगल में कितनी दूर चलें?",
+      "options": [
+        "1 मील",
+        "10 मील",
+        "दूसरी तरफ",
+        "केवल आधा रास्ता (फिर आप बाहर निकल रहे हैं)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_situation_repeat"
+  },
+  {
+    "id": "GK7077",
+    "en": {
+      "question": "Boat filled, not sunk, no single person?",
+      "options": [
+        "It was a toy boat",
+        "It was night",
+        "They were all couples",
+        "All the people were married! (No single people)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नाव भरी, डूबी नहीं, कोई अकेला व्यक्ति नहीं?",
+      "options": [
+        "यह एक खिलौना नाव थी",
+        "रात थी",
+        "वे सभी जोड़े थे",
+        "सभी लोग शादीशुदा थे! (कोई अकेला व्यक्ति नहीं)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_situation_repeat"
+  },
+  {
+    "id": "GK7078",
+    "en": {
+      "question": "4 legs morning, 2 noon, 3 evening?",
+      "options": [
+        "A Mythical Beast",
+        "A Shape Shifter",
+        "An Evolving Robot",
+        "A Human (crawls, walks, uses cane)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सुबह 4 पैर, दोपहर 2, शाम 3?",
+      "options": [
+        "एक पौराणिक जानवर",
+        "एक आकार बदलने वाला",
+        "एक विकसित रोबोट",
+        "एक इंसान (रेंगता है, चलता है, बेंत का उपयोग करता है)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_classic_metaphor_repeat"
+  },
+  {
+    "id": "GK7079",
+    "en": {
+      "question": "What number comes next: 2, 3, 5, 7, 11, ...?",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "13 (Prime Numbers)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अगला नंबर कौन सा आता है: 2, 3, 5, 7, 11, ...?",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "13 (अभाज्य संख्याएँ)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_pattern_math"
+  },
+  {
+    "id": "GK7080",
+    "en": {
+      "question": "I have keys but no locks, space but no room, enter but can't go outside?",
+      "options": [
+        "A Treasure Chest Map",
+        "A Video Game",
+        "A Musical Score",
+        "A keyboard!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेरे पास चाबियाँ पर ताले नहीं, स्पेस पर कमरा नहीं, एंटर पर बाहर नहीं जा सकते?",
+      "options": [
+        "एक खजाने का नक्शा",
+        "एक वीडियो गेम",
+        "एक संगीत स्कोर",
+        "एक कीबोर्ड!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_objects_wordplay_repeat"
+  },
+  {
+    "id": "GK7082",
+    "en": {
+      "question": "What flies without wings?",
+      "options": [
+        "A Bat",
+        "A Glider",
+        "A Rumor",
+        "Time!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना पंखों के क्या उड़ता है?",
+      "options": [
+        "एक चमगादड़",
+        "एक ग्लाइडर",
+        "एक अफवाह",
+        "समय!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_wordplay"
+  },
+  {
+    "id": "GK7083",
+    "en": {
+      "question": "I am an odd number. Take away a letter and I become even. What number am I?",
+      "options": [
+        "One",
+        "Three",
+        "Five",
+        "Seven! (Remove S)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मैं एक विषम संख्या हूँ। एक अक्षर हटा दो और मैं सम बन जाता हूँ। मैं कौन सी संख्या हूँ?",
+      "options": [
+        "एक",
+        "तीन",
+        "पांच",
+        "सात! (S हटाएं)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_numbers_letters_repeat"
+  },
+  {
+    "id": "GK7084",
+    "en": {
+      "question": "What is cut on a table but never eaten?",
+      "options": [
+        "Birthday Cake",
+        "Pizza Slice",
+        "Watermelon Wedge",
+        "A deck of cards!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेज पर काटा जाता है पर कभी खाया नहीं जाता?",
+      "options": [
+        "जन्मदिन का केक",
+        "पिज्जा स्लाइस",
+        "तरबूज का टुकड़ा",
+        "ताश की गड्डी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects_repeat"
+  },
+  {
+    "id": "GK7085",
+    "en": {
+      "question": "What can you hold in your left hand, but never in your right hand?",
+      "options": [
+        "A Pen",
+        "A Ball",
+        "A Cup",
+        "Your right elbow!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप अपने बाएं हाथ में क्या पकड़ सकते हैं, लेकिन अपने दाहिने हाथ में कभी नहीं?",
+      "options": [
+        "एक कलम",
+        "एक गेंद",
+        "एक कप",
+        "आपकी दाहिनी कोहनी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_physical"
+  },
+  {
+    "id": "GK7086",
+    "en": {
+      "question": "If two's company, and three's a crowd, what are four and five?",
+      "options": [
+        "A Party",
+        "A Mob",
+        "A Group",
+        "Nine! (4 + 5)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि दो की कंपनी है, और तीन की भीड़ है, तो चार और पांच क्या हैं?",
+      "options": [
+        "एक पार्टी",
+        "एक भीड़",
+        "एक समूह",
+        "नौ! (4 + 5)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_numbers_phrases"
+  },
+  {
+    "id": "GK7087",
+    "en": {
+      "question": "What word begins and ends with an E but only has one letter?",
+      "options": [
+        "Eye",
+        "Eke",
+        "Eve",
+        "Envelope! (Containing one letter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा शब्द E से शुरू होता है और E पर समाप्त होता है लेकिन केवल एक अक्षर (letter - पत्र) होता है?",
+      "options": [
+        "Eye (आँख)",
+        "Eke (कठिनाई)",
+        "Eve (पूर्व संध्या)",
+        "Envelope (लिफाफा)! (एक पत्र युक्त)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_doublemeaning_repeat"
+  },
+  {
+    "id": "GK7088",
+    "en": {
+      "question": "How many letters are in the alphabet?",
+      "options": [
+        "26",
+        "24 (No I or U sometimes)",
+        "Depends on the language",
+        "Eleven (T-h-e a-l-p-h-a-b-e-t)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वर्णमाला (the alphabet) में कितने अक्षर हैं?",
+      "options": [
+        "26",
+        "24 (कभी-कभी I या U नहीं)",
+        "भाषा पर निर्भर करता है",
+        "ग्यारह (T-h-e a-l-p-h-a-b-e-t)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_letters_trick"
+  },
+  {
+    "id": "GK7089",
+    "en": {
+      "question": "What has four wheels and flies?",
+      "options": [
+        "Airplane on runway",
+        "Car off a cliff",
+        "Hovercraft",
+        "A garbage truck! (flies - the insects)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके चार पहिए होते हैं और उड़ता (flies) है?",
+      "options": [
+        "रनवे पर विमान",
+        "चट्टान से कार",
+        "होवरक्राफ्ट",
+        "एक कचरा ट्रक! (flies - मक्खियाँ)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_doublemeaning_repeat"
+  },
+  {
+    "id": "GK7090",
+    "en": {
+      "question": "What two things can you never eat for breakfast?",
+      "options": [
+        "Dinner and Supper",
+        "Cake and Ice Cream",
+        "Rocks and Dirt",
+        "Lunch and Dinner!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी दो चीजें आप नाश्ते में कभी नहीं खा सकते?",
+      "options": [
+        "रात का खाना और सपर",
+        "केक और आइसक्रीम",
+        "चट्टानें और गंदगी",
+        "दोपहर का भोजन और रात का खाना!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_logic_time_food"
+  },
+  {
+    "id": "GK7091",
+    "en": {
+      "question": "What gets wetter the more it dries?",
+      "options": [
+        "A Sponge",
+        "A Plant",
+        "Hair",
+        "A towel!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जितना सूखता है उतना गीला क्या होता है?",
+      "options": [
+        "एक स्पंज",
+        "एक पौधा",
+        "बाल",
+        "एक तौलिया!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function"
+  },
+  {
+    "id": "GK7092",
+    "en": {
+      "question": "What is found over your head but under your hat?",
+      "options": [
+        "Sky",
+        "Ceiling",
+        "Ideas",
+        "Your hair!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आपके सिर के ऊपर लेकिन आपकी टोपी के नीचे क्या पाया जाता है?",
+      "options": [
+        "आसमान",
+        "छत",
+        "विचार",
+        "आपके बाल!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_logic_physical"
+  },
+  {
+    "id": "GK7093",
+    "en": {
+      "question": "What can you catch but not throw?",
+      "options": [
+        "A Butterfly",
+        "A Fish",
+        "A Ball",
+        "A cold!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप क्या पकड़ सकते हैं पर फेंक नहीं सकते?",
+      "options": [
+        "एक तितली",
+        "एक मछली",
+        "एक गेंद",
+        "एक जुकाम!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_concepts_repeat"
+  },
+  {
+    "id": "GK7094",
+    "en": {
+      "question": "What gets bigger the more you take away?",
+      "options": [
+        "A Debt",
+        "A Problem",
+        "A Pile of Dirt",
+        "A hole!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जितना आप हटाते हैं उतना बड़ा क्या होता जाता है?",
+      "options": [
+        "एक कर्ज",
+        "एक समस्या",
+        "गंदगी का ढेर",
+        "एक छेद!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_logic_physical_repeat"
+  },
+  {
+    "id": "GK7095",
+    "en": {
+      "question": "What is full of eyes but cannot see?",
+      "options": [
+        "A Crowd",
+        "A Peacock Feather",
+        "A Fly",
+        "A potato!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या आँखों से भरा है पर देख नहीं सकती?",
+      "options": [
+        "एक भीड़",
+        "एक मोर पंख",
+        "एक मक्खी",
+        "एक आलू!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK7096",
+    "en": {
+      "question": "What has one head, one foot, four legs?",
+      "options": [
+        "A Mythical Creature",
+        "A Piece of Furniture",
+        "An Animal",
+        "A bed!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका एक सिर, एक पैर, चार पैर होते हैं?",
+      "options": [
+        "एक पौराणिक प्राणी",
+        "फर्नीचर का एक टुकड़ा",
+        "एक जानवर",
+        "एक बिस्तर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_parts_repeat"
+  },
+  {
+    "id": "GK7097",
+    "en": {
+      "question": "What invention lets you look right through a wall?",
+      "options": [
+        "X-Ray Glasses",
+        "Thermal Camera",
+        "A Hole",
+        "A window!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा आविष्कार आपको दीवार के आर-पार देता है?",
+      "options": [
+        "एक्स-रे चश्मा",
+        "थर्मल कैमरा",
+        "एक छेद",
+        "एक खिड़की!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function_literal_repeat"
+  },
+  {
+    "id": "GK7100",
+    "en": {
+      "question": "What building has the most stories?",
+      "options": [
+        "Bookstore",
+        "Apartment Building",
+        "Office Tower",
+        "A library!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस इमारत में सबसे ज्यादा कहानियाँ हैं?",
+      "options": [
+        "किताबों की दुकान",
+        "अपार्टमेंट बिल्डिंग",
+        "ऑफिस टॉवर",
+        "एक पुस्तकालय!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects_repeat"
+  }
+]

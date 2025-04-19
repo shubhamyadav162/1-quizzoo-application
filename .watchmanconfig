@@ -1,0 +1,13 @@
+{
+  "ignore_dirs": [
+    ".git",
+    "node_modules",
+    ".expo",
+    "quizzoo-app",
+    "temp-fix",
+    "temp-app",
+    "fix-dir",
+    "empty_dir",
+    "empty"
+  ]
+} 

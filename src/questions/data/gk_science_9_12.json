@@ -1,0 +1,377 @@
+[
+  {
+    "id": "gk_sci_022",
+    "en": {
+      "question": "Which of the following is NOT a noble gas?",
+      "options": [
+        "Helium",
+        "Neon",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक उत्कृष्ट गैस नहीं है?",
+      "options": [
+        "हीलियम",
+        "नियॉन",
+        "नाइट्रोजन",
+        "आर्गन"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_023",
+    "en": {
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Pascal",
+        "Newton",
+        "Joule",
+        "Watt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बल की SI इकाई क्या है?",
+      "options": [
+        "पास्कल",
+        "न्यूटन",
+        "जूल",
+        "वाट"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_024",
+    "en": {
+      "question": "Which of these is NOT a law of thermodynamics?",
+      "options": [
+        "First law",
+        "Second law",
+        "Third law",
+        "Fourth law"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन ऊष्मागतिकी का नियम नहीं है?",
+      "options": [
+        "प्रथम नियम",
+        "द्वितीय नियम",
+        "तृतीय नियम",
+        "चतुर्थ नियम"
+      ],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_025",
+    "en": {
+      "question": "What is the chemical formula of sulfuric acid?",
+      "options": [
+        "H2SO3",
+        "H2SO4",
+        "H2S2O7",
+        "HSO4"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सल्फ्यूरिक अम्ल का रासायनिक सूत्र क्या है?",
+      "options": [
+        "H2SO3",
+        "H2SO4",
+        "H2S2O7",
+        "HSO4"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_026",
+    "en": {
+      "question": "Which scientist proposed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Niels Bohr",
+        "Max Planck"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस वैज्ञानिक ने सापेक्षता का सिद्धांत प्रस्तुत किया?",
+      "options": [
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "नील्स बोर",
+        "मैक्स प्लांक"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_027",
+    "en": {
+      "question": "What is the pH value of a neutral solution?",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "एक उदासीन घोल का pH मान क्या होता है?",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_029",
+    "en": {
+      "question": "Which part of the human brain is responsible for maintaining balance and posture?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla oblongata",
+        "Hypothalamus"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव मस्तिष्क का कौन सा भाग संतुलन और मुद्रा बनाए रखने के लिए जिम्मेदार है?",
+      "options": [
+        "सेरेब्रम",
+        "सेरेबेलम",
+        "मेडुला ऑब्लोंगाटा",
+        "हाइपोथैलेमस"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_030",
+    "en": {
+      "question": "What is the study of heredity and variation in organisms called?",
+      "options": [
+        "Ecology",
+        "Genetics",
+        "Physiology",
+        "Anatomy"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जीवों में वंशानुगति और विविधता के अध्ययन को क्या कहते हैं?",
+      "options": [
+        "पारिस्थितिकी",
+        "आनुवंशिकी",
+        "शरीर क्रिया विज्ञान",
+        "शरीर रचना विज्ञान"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_031",
+    "en": {
+      "question": "Which law of motion states that 'For every action, there is an equal and opposite reaction'?",
+      "options": [
+        "First law",
+        "Second law",
+        "Third law",
+        "Fourth law"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "गति का कौन सा नियम कहता है कि 'हर क्रिया के लिए, एक समान और विपरीत प्रतिक्रिया होती है'?",
+      "options": [
+        "पहला नियम",
+        "दूसरा नियम",
+        "तीसरा नियम",
+        "चौथा नियम"
+      ],
+      "answer": 2
+    },
+    "level": 11,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_032",
+    "en": {
+      "question": "What is the process by which plants lose water vapor from their leaves called?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Transpiration",
+        "Translocation"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "वह प्रक्रिया जिसके द्वारा पौधे अपनी पत्तियों से जल वाष्प खोते हैं, क्या कहलाती है?",
+      "options": [
+        "प्रकाश संश्लेषण",
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "स्थानांतरण"
+      ],
+      "answer": 2
+    },
+    "level": 11,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_033",
+    "en": {
+      "question": "Which molecule stores genetic information in living organisms?",
+      "options": [
+        "RNA",
+        "DNA",
+        "ATP",
+        "ADP"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जीवित जीवों में आनुवंशिक जानकारी किस अणु में संग्रहित होती है?",
+      "options": [
+        "आरएनए",
+        "डीएनए",
+        "एटीपी",
+        "एडीपी"
+      ],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_034",
+    "en": {
+      "question": "What is the chemical formula of methane?",
+      "options": [
+        "CO2",
+        "H2O",
+        "CH4",
+        "O2"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मीथेन का रासायनिक सूत्र क्या है?",
+      "options": [
+        "CO2",
+        "H2O",
+        "CH4",
+        "O2"
+      ],
+      "answer": 2
+    },
+    "level": 11,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_035",
+    "en": {
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Mass",
+        "Temperature",
+        "Time",
+        "Velocity"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन सी एक सदिश राशि है?",
+      "options": [
+        "द्रव्यमान",
+        "तापमान",
+        "समय",
+        "वेग"
+      ],
+      "answer": 3
+    },
+    "level": 11,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_037",
+    "en": {
+      "question": "Which of the following particles has a positive charge?",
+      "options": [
+        "Electron",
+        "Proton",
+        "Neutron",
+        "Photon"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "निम्नलिखित में से किस कण पर सकारात्मक आवेश होता है?",
+      "options": [
+        "इलेक्ट्रॉन",
+        "प्रोटॉन",
+        "न्यूट्रॉन",
+        "फोटॉन"
+      ],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "science"
+  },
+  {
+    "id": "gk_sci_039",
+    "en": {
+      "question": "What is the phenomenon of bending of light as it passes from one medium to another called?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Dispersion"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्रकाश के एक माध्यम से दूसरे माध्यम में जाने पर मुड़ने की घटना को क्या कहते हैं?",
+      "options": [
+        "परावर्तन",
+        "अपवर्तन",
+        "विवर्तन",
+        "परिक्षेपण"
+      ],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "science"
+  }
+]

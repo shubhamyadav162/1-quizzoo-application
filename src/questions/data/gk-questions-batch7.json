@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-061",
+      "question_text": "Which fictional city is home to Batman?",
+      "options": [
+        "Metropolis",
+        "Gotham City",
+        "Star City",
+        "Central City"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Gotham City is the fictional city where Batman operates. Created by Bill Finger and Bob Kane, it's portrayed as a dark, crime-ridden urban center, often resembling New York City at night.",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-061",
+      "question_text": "बैटमैन किस काल्पनिक शहर का निवासी है?",
+      "options": [
+        "मेट्रोपोलिस",
+        "गोथम सिटी",
+        "स्टार सिटी",
+        "सेंट्रल सिटी"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "गोथम सिटी वह काल्पनिक शहर है जहां बैटमैन काम करता है। बिल फिंगर और बॉब केन द्वारा बनाया गया, इसे एक अंधेरे, अपराध-ग्रस्त शहरी केंद्र के रूप में चित्रित किया गया है, जो अक्सर रात में न्यूयॉर्क शहर जैसा दिखता है।",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-062",
+      "question_text": "What happens to a water bubble in space?",
+      "options": [
+        "It evaporates quickly",
+        "It forms a perfect sphere",
+        "It explodes violently",
+        "It freezes instantly"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "In the microgravity environment of space, a water bubble forms a perfect sphere. Without gravity pulling it down, surface tension pulls the water equally in all directions, creating a spherical shape that floats in place.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-062",
+      "question_text": "अंतरिक्ष में पानी के बुलबुले का क्या होता है?",
+      "options": [
+        "यह जल्दी वाष्पित हो जाता है",
+        "यह एक परिपूर्ण गोला बनाता है",
+        "यह जोर से फटता है",
+        "यह तुरंत जम जाता है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अंतरिक्ष के सूक्ष्म गुरुत्वाकर्षण वातावरण में, पानी का बुलबुला एक परिपूर्ण गोला बनाता है। गुरुत्वाकर्षण द्वारा नीचे खींचे बिना, सतह तनाव पानी को सभी दिशाओं में समान रूप से खींचता है, जिससे एक गोलाकार आकार बनता है जो स्थान में तैरता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-063",
+      "question_text": "Which animal's fingerprints are virtually indistinguishable from human fingerprints?",
+      "options": [
+        "Gorillas",
+        "Koalas",
+        "Chimpanzees",
+        "Dolphins"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Koalas have fingerprints that are virtually indistinguishable from human fingerprints, even under a microscope. This is an example of convergent evolution, as they developed independently to help them grip tree branches.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-063",
+      "question_text": "किस जानवर के फिंगरप्रिंट मानव फिंगरप्रिंट से लगभग अप्रभेद्य हैं?",
+      "options": [
+        "गोरिल्ला",
+        "कोआला",
+        "चिंपांजी",
+        "डॉल्फिन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "कोआला के फिंगरप्रिंट मानव फिंगरप्रिंट से लगभग अप्रभेद्य हैं, यहां तक कि माइक्रोस्कोप के नीचे भी। यह अभिसरण विकास का एक उदाहरण है, क्योंकि वे पेड़ की शाखाओं को पकड़ने में मदद करने के लिए स्वतंत्र रूप से विकसित हुए।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-064",
+      "question_text": "What color is a mirror?",
+      "options": [
+        "Transparent",
+        "Slight green",
+        "Silver",
+        "Colorless"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "While mirrors appear to reflect all colors perfectly, they actually have a slight green tint. This is because glass used in mirrors contains iron oxide, which absorbs some red light wavelengths, giving mirrors a very slight green color.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-064",
+      "question_text": "दर्पण का रंग क्या होता है?",
+      "options": [
+        "पारदर्शी",
+        "हल्का हरा",
+        "चांदी",
+        "रंगहीन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "हालांकि दर्पण सभी रंगों को पूरी तरह से प्रतिबिंबित करते प्रतीत होते हैं, वास्तव में उनमें हल्का हरा रंग होता है। ऐसा इसलिए है क्योंकि दर्पण में प्रयुक्त कांच में आयरन ऑक्साइड होता है, जो कुछ लाल प्रकाश तरंगदैर्ध्य को अवशोषित करता है, जिससे दर्पण को बहुत हल्का हरा रंग मिलता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-065",
+      "question_text": "Which historical figure was known as 'The Maid of Orléans'?",
+      "options": [
+        "Marie Antoinette",
+        "Joan of Arc",
+        "Catherine the Great",
+        "Eleanor of Aquitaine"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Joan of Arc, a peasant girl who led French troops to victory against the English in the 15th century, was known as 'The Maid of Orléans'. She claimed divine guidance and was later canonized as a Roman Catholic saint.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-065",
+      "question_text": "किस ऐतिहासिक व्यक्ति को 'द मेड ऑफ ऑरलियंस' के नाम से जाना जाता था?",
+      "options": [
+        "मैरी एंटोइनेट",
+        "जोन ऑफ आर्क",
+        "कैथरीन द ग्रेट",
+        "एलियनोर ऑफ एक्विटेन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "जोन ऑफ आर्क, एक किसान लड़की जिसने 15वीं शताब्दी में अंग्रेजों के खिलाफ फ्रांसीसी सैनिकों को विजय दिलाई थी, उसे 'द मेड ऑफ ऑरलियंस' के नाम से जाना जाता था। उसने दैवीय मार्गदर्शन का दावा किया और बाद में उसे रोमन कैथोलिक संत के रूप में घोषित किया गया।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-066",
+      "question_text": "What unusual ingredient did the ancient Egyptians use in their eye makeup?",
+      "options": [
+        "Gold dust",
+        "Ground beetle shells",
+        "Crushed pearls",
+        "Powdered lapis lazuli"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Ancient Egyptians used ground beetle shells (specifically from the green beetle species) to create their distinctive eye makeup. This mixture, called 'kohl', also contained lead salts which had antibacterial properties that helped prevent eye infections.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-066",
+      "question_text": "प्राचीन मिस्रवासियों ने अपने आंखों के मेकअप में किस असामान्य सामग्री का उपयोग किया था?",
+      "options": [
+        "सोने का चूरा",
+        "पिसे हुए बीटल के खोल",
+        "कुचले हुए मोती",
+        "पाउडर लैपिस लाजुली"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "प्राचीन मिस्रवासियों ने अपना विशिष्ट आंखों का मेकअप बनाने के लिए पिसे हुए बीटल के खोल (विशेष रूप से हरे बीटल प्रजाति से) का उपयोग किया था। इस मिश्रण, जिसे 'कोहल' कहा जाता था, में लेड साल्ट भी शामिल थे जिनमें एंटीबैक्टीरियल गुण थे जो आंखों के संक्रमण को रोकने में मदद करते थे।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-067",
+      "question_text": "What happens if you try to suppress a sneeze?",
+      "options": [
+        "Nothing, it's perfectly safe",
+        "It can cause injuries like damaged blood vessels",
+        "Your next sneeze will be twice as powerful",
+        "You'll sneeze in your sleep instead"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Suppressing a sneeze can be dangerous. By blocking the air's exit through your nose and mouth, pressure builds up that can rupture blood vessels in your eyes, nose, or eardrums, and in rare cases even cause brain aneurysms or pneumomediastinum (air trapped in the chest).",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-067",
+      "question_text": "यदि आप छींक को दबाने की कोशिश करते हैं तो क्या होता है?",
+      "options": [
+        "कुछ नहीं, यह पूरी तरह से सुरक्षित है",
+        "यह क्षतिग्रस्त रक्त वाहिकाओं जैसी चोटें पहुंचा सकता है",
+        "आपकी अगली छींक दोगुनी शक्तिशाली होगी",
+        "आप इसके बजाय नींद में छींकेंगे"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "छींक को दबाना खतरनाक हो सकता है। आपकी नाक और मुंह के माध्यम से हवा के निकास को अवरुद्ध करके, दबाव बढ़ता है जो आपकी आंखों, नाक या कानों के पर्दे में रक्त वाहिकाओं को फाड़ सकता है, और दुर्लभ मामलों में मस्तिष्क एन्यूरिज्म या न्यूमोमेडिएस्टिनम (छाती में फंसी हवा) भी पैदा कर सकता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-068",
+      "question_text": "What is the only food that never spoils?",
+      "options": [
+        "White sugar",
+        "Honey",
+        "Dried beans",
+        "Salt"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Honey is the only food that never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible. This is due to its low moisture content and acidic pH, which makes it impossible for bacteria and microorganisms to survive in it.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-068",
+      "question_text": "कौन सा एकमात्र खाद्य पदार्थ है जो कभी खराब नहीं होता?",
+      "options": [
+        "सफेद चीनी",
+        "शहद",
+        "सूखे बीन्स",
+        "नमक"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "शहद एकमात्र ऐसा खाद्य पदार्थ है जो कभी खराब नहीं होता। पुरातत्वविदों ने प्राचीन मिस्र के मकबरों में शहद के बर्तन पाए हैं जो 3,000 साल से अधिक पुराने हैं और अभी भी पूरी तरह से खाने योग्य हैं। यह इसकी कम नमी सामग्री और अम्लीय पीएच के कारण है, जो बैक्टीरिया और सूक्ष्मजीवों के लिए इसमें जीवित रहना असंभव बना देता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-069",
+      "question_text": "Which country has square-shaped watermelons?",
+      "options": [
+        "United States",
+        "Japan",
+        "Brazil",
+        "India"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Japan grows square-shaped watermelons, which are cultivated by placing the growing fruit inside square glass or plastic boxes that force them to take the cubic shape. They were originally created to fit more easily in refrigerators and are often given as luxury gifts rather than eaten.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-069",
+      "question_text": "किस देश में वर्गाकार तरबूज होते हैं?",
+      "options": [
+        "संयुक्त राज्य अमेरिका",
+        "जापान",
+        "ब्राजील",
+        "भारत"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "जापान वर्गाकार तरबूज उगाता है, जो बढ़ते फल को वर्ग काँच या प्लास्टिक के बक्से के अंदर रखकर उगाए जाते हैं जो उन्हें घन आकार लेने के लिए मजबूर करते हैं। वे मूल रूप से रेफ्रिजरेटर में आसानी से फिट होने के लिए बनाए गए थे और अक्सर खाने के बजाय लक्जरी उपहार के रूप में दिए जाते हैं।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-070",
+      "question_text": "What unusual pet did Lord Byron keep in his college dorm room?",
+      "options": [
+        "A fox",
+        "A bear",
+        "A monkey",
+        "A wolf"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The famous British poet Lord Byron kept a bear as a pet while studying at Cambridge University. He acquired the bear to protest the college's rule against keeping dogs, as they hadn't specifically banned bears. He would even take it for walks on a chain, like a dog.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-070",
+      "question_text": "लॉर्ड बायरन अपने कॉलेज डॉर्म रूम में कौन सा असामान्य पालतू जानवर रखते थे?",
+      "options": [
+        "एक लोमड़ी",
+        "एक भालू",
+        "एक बंदर",
+        "एक भेड़िया"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "प्रसिद्ध ब्रिटिश कवि लॉर्ड बायरन कैम्ब्रिज विश्वविद्यालय में पढ़ाई करते समय एक भालू को पालतू जानवर के रूप में रखते थे। उन्होंने कुत्ते रखने के खिलाफ कॉलेज के नियम का विरोध करने के लिए भालू प्राप्त किया था, क्योंकि उन्होंने विशेष रूप से भालू पर प्रतिबंध नहीं लगाया था। वह उसे एक कुत्ते की तरह जंजीर पर लेकर टहलने भी जाते थे।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

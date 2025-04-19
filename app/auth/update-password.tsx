@@ -4,7 +4,6 @@ import {
   View,
   TouchableOpacity,
   SafeAreaView,
-  StatusBar,
   ActivityIndicator,
   TextInput,
   Alert,
@@ -17,6 +16,7 @@ import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
 import { supabase } from '../lib/supabase';
 import { Colors } from '@/constants/Colors';
+import ThemedStatusBar from '@/components/ThemedStatusBar';
 
 export default function UpdatePasswordScreen() {
   const params = useLocalSearchParams();
@@ -81,7 +81,7 @@ export default function UpdatePasswordScreen() {
   
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
+      <ThemedStatusBar barStyle="dark" backgroundColor="#FFFFFF" />
       <KeyboardAvoidingView 
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         style={{ flex: 1 }}

@@ -7,7 +7,10 @@
     "icon": "./assets/images/craiyon_203413_transparent.png",
     "scheme": "quizzoo",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "sdkVersion": "51.0.0",
+    "developmentClient": {
+      "silentLaunch": true
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.quizzoo.app",
@@ -15,7 +18,8 @@
         "usesNonExemptEncryption": false
       },
       "associatedDomains": [
-        "applinks:quizzoo.app"
+        "applinks:quizzoo.app",
+        "applinks:ozapkrljynijpffngjtt.supabase.co"
       ],
       "infoPlist": {
         "CFBundleURLTypes": [
@@ -41,7 +45,8 @@
           "data": [
             {
               "scheme": "quizzoo",
-              "host": "*"
+              "host": "auth",
+              "pathPrefix": "/callback"
             },
             {
               "scheme": "https",
@@ -49,11 +54,14 @@
             },
             {
               "scheme": "https",
-              "host": "pkryfgfnykkolmcdcvza.supabase.co",
+              "host": "ozapkrljynijpffngjtt.supabase.co",
               "pathPrefix": "/auth/v1/callback"
             }
           ],
-          "category": ["BROWSABLE", "DEFAULT"]
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ]
     },
@@ -64,7 +72,6 @@
     },
     "plugins": [
       "expo-router",
-      "expo-dev-client",
       [
         "expo-splash-screen",
         {
@@ -73,18 +80,40 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          },
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ],
+      "expo-font"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths": true
     },
     "extra": {
       "router": {
-        "origin": "https://pkryfgfnykkolmcdcvza.supabase.co"
+        "origin": "https://ozapkrljynijpffngjtt.supabase.co"
       },
       "eas": {
         "projectId": "your-project-id"
-      }
+      },
+      "EXPO_NO_DEV_LAUNCHER": "1",
+      "disableDevLauncher": true
+    },
+    "owner": "your-expo-account",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/your-project-id"
     }
   }
 }

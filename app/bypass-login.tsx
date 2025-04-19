@@ -6,7 +6,6 @@ import {
   TouchableOpacity, 
   ActivityIndicator,
   SafeAreaView,
-  StatusBar,
   Alert
 } from 'react-native';
 import { Stack, router } from 'expo-router';
@@ -14,6 +13,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Colors } from '@/constants/Colors';
 import { ThemedText } from '@/components/ThemedText';
 import { supabase } from './lib/supabase';
+import ThemedStatusBar from '@/components/ThemedStatusBar';
 
 export default function BypassLogin() {
   const [isLoading, setIsLoading] = useState(false);
@@ -22,52 +22,12 @@ export default function BypassLogin() {
     try {
       setIsLoading(true);
       
-      // Generate a timestamp-based user ID
-      const tempUserId = `temp_${Date.now()}`;
+      console.log('Bypassing login - going directly to tabs...');
       
-      // Create a mock user
-      const mockUser = {
-        id: tempUserId,
-        email: `user_${Math.floor(Math.random() * 10000)}@example.com`,
-        user_metadata: {
-          full_name: 'Quizzoo User',
-          avatar_url: null
-        }
-      };
-      
-      console.log('Creating mock user:', mockUser);
-      
-      // Create profile in Supabase
-      try {
-        const { error: insertError } = await supabase
-          .from('profiles')
-          .insert([
-            {
-              id: mockUser.id,
-              display_name: mockUser.user_metadata.full_name,
-              email: mockUser.email,
-              avatar_url: null,
-              created_at: new Date().toISOString(),
-              updated_at: new Date().toISOString()
-            }
-          ]);
-          
-        if (insertError) {
-          console.log('Error creating profile, but continuing:', insertError);
-        } else {
-          console.log('Profile created in Supabase');
-        }
-      } catch (profileError) {
-        console.error('Profile creation error:', profileError);
-        // Continue anyway
-      }
-      
-      // Store mock user in AsyncStorage
-      await AsyncStorage.setItem('quizzoo-user', JSON.stringify(mockUser));
-      console.log('User stored in AsyncStorage');
-      
-      // Go directly to main app
-      router.replace('/(tabs)');
+      // Add a slight delay to ensure state updates
+      setTimeout(() => {
+        router.replace('/(tabs)');
+      }, 100);
     } catch (error) {
       console.error('Direct login error:', error);
       Alert.alert('लॉगिन त्रुटि', 'एक त्रुटि हुई। कृपया पुनः प्रयास करें।');
@@ -77,7 +37,7 @@ export default function BypassLogin() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
+      <ThemedStatusBar barStyle="dark" backgroundColor="#FFFFFF" />
       <Stack.Screen options={{ headerShown: false }} />
       
       <View style={styles.content}>

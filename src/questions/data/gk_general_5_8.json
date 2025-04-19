@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gk_gen_001",
+    "en": {
+      "question": "Who invented the telephone?",
+      "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Albert Einstein"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "टेलीफोन का आविष्कार किसने किया था?",
+      "options": ["थॉमस एडिसन", "अलेक्जेंडर ग्राहम बेल", "निकोला टेस्ला", "अल्बर्ट आइंस्टाइन"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_002",
+    "en": {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस ग्रह को लाल ग्रह के नाम से जाना जाता है?",
+      "options": ["शुक्र", "मंगल", "बृहस्पति", "शनि"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_003",
+    "en": {
+      "question": "What is the largest mammal in the world?",
+      "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा स्तनधारी कौन सा है?",
+      "options": ["हाथी", "जिराफ", "नीली व्हेल", "दरियाई घोड़ा"],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_004",
+    "en": {
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पौधे वातावरण से कौन सी गैस अवशोषित करते हैं?",
+      "options": ["ऑक्सीजन", "कार्बन डाइऑक्साइड", "नाइट्रोजन", "हाइड्रोजन"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_005",
+    "en": {
+      "question": "What is the capital of Japan?",
+      "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जापान की राजधानी क्या है?",
+      "options": ["बीजिंग", "सियोल", "टोक्यो", "बैंकॉक"],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_006",
+    "en": {
+      "question": "In which year did India gain independence from British rule?",
+      "options": ["1945", "1947", "1950", "1952"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत ने ब्रिटिश शासन से स्वतंत्रता किस वर्ष प्राप्त की थी?",
+      "options": ["1945", "1947", "1950", "1952"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_007",
+    "en": {
+      "question": "What is the largest organ in the human body?",
+      "options": ["Heart", "Brain", "Liver", "Skin"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+      "options": ["हृदय", "मस्तिष्क", "यकृत", "त्वचा"],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_008",
+    "en": {
+      "question": "Which instrument is used to measure air pressure?",
+      "options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "वायु दाब मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": ["थर्मामीटर", "बैरोमीटर", "हाइग्रोमीटर", "एनिमोमीटर"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_009",
+    "en": {
+      "question": "What is the national flower of India?",
+      "options": ["Rose", "Lotus", "Sunflower", "Jasmine"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय फूल क्या है?",
+      "options": ["गुलाब", "कमल", "सूरजमुखी", "चमेली"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_010",
+    "en": {
+      "question": "Which vitamin is also known as ascorbic acid?",
+      "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस विटामिन को एस्कॉर्बिक एसिड के नाम से भी जाना जाता है?",
+      "options": ["विटामिन A", "विटामिन B", "विटामिन C", "विटामिन D"],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_011",
+    "en": {
+      "question": "What is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सबसे छोटी अभाज्य संख्या कौन सी है?",
+      "options": ["0", "1", "2", "3"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_012",
+    "en": {
+      "question": "Which of these is not a primary color?",
+      "options": ["Red", "Blue", "Green", "Yellow"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "इनमें से कौन प्राथमिक रंग नहीं है?",
+      "options": ["लाल", "नीला", "हरा", "पीला"],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_013",
+    "en": {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'रोमियो और जूलियट' नाटक किसने लिखा था?",
+      "options": ["चार्ल्स डिकेंस", "विलियम शेक्सपियर", "जेन ऑस्टेन", "मार्क ट्वेन"],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_014",
+    "en": {
+      "question": "Which planet has the most moons?",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस ग्रह के सबसे अधिक चंद्रमा हैं?",
+      "options": ["बृहस्पति", "शनि", "यूरेनस", "नेप्च्यून"],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_015",
+    "en": {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे कठोर प्राकृतिक पदार्थ क्या है?",
+      "options": ["सोना", "लोहा", "हीरा", "प्लैटिनम"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_016",
+    "en": {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सोने का रासायनिक प्रतीक क्या है?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_017",
+    "en": {
+      "question": "Which famous scientist developed the theory of relativity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध वैज्ञानिक ने सापेक्षता का सिद्धांत विकसित किया?",
+      "options": ["आइजैक न्यूटन", "अल्बर्ट आइंस्टाइन", "गैलीलियो गैलिली", "स्टीफन हॉकिंग"],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_018",
+    "en": {
+      "question": "Which layer of the Earth's atmosphere contains the ozone layer?",
+      "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल की किस परत में ओजोन परत पाई जाती है?",
+      "options": ["क्षोभमंडल", "समतापमंडल", "मध्यमंडल", "थर्मोस्फीयर"],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_019",
+    "en": {
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा महासागर सबसे बड़ा है?",
+      "options": ["अटलांटिक महासागर", "हिंद महासागर", "आर्कटिक महासागर", "प्रशांत महासागर"],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_020",
+    "en": {
+      "question": "Which animal is known as the 'Ship of the Desert'?",
+      "options": ["Horse", "Camel", "Elephant", "Donkey"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस जानवर को 'रेगिस्तान का जहाज' कहा जाता है?",
+      "options": ["घोड़ा", "ऊंट", "हाथी", "गधा"],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "general_knowledge"
+  }
+] 

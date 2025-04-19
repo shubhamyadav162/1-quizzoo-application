@@ -1,0 +1,452 @@
+[
+  {
+    "id": "GK501",
+    "en": {
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Saturn"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस ग्रह को लाल ग्रह के रूप में जाना जाता है?",
+      "options": [
+        "शुक्र",
+        "बृहस्पति",
+        "मंगल",
+        "शनि"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK502",
+    "en": {
+      "question": "Where is the headquarters of ISRO located?",
+      "options": [
+        "Mumbai",
+        "Bengaluru",
+        "New Delhi",
+        "Hyderabad"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ISRO का मुख्यालय कहां स्थित है?",
+      "options": [
+        "मुंबई",
+        "बेंगलुरु",
+        "नई दिल्ली",
+        "हैदराबाद"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_organizations"
+  },
+  {
+    "id": "GK503",
+    "en": {
+      "question": "Who invented the polio vaccine?",
+      "options": [
+        "Jonas Salk",
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Edward Jenner"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पोलियो वैक्सीन का आविष्कार किसने किया?",
+      "options": [
+        "जोनास साल्क",
+        "लुई पास्चर",
+        "अलेक्जेंडर फ्लेमिंग",
+        "एडवर्ड जेनर"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "medicine"
+  },
+  {
+    "id": "GK504",
+    "en": {
+      "question": "Which Indian state has the largest population?",
+      "options": [
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Bihar",
+        "West Bengal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की जनसंख्या सबसे अधिक है?",
+      "options": [
+        "महाराष्ट्र",
+        "उत्तर प्रदेश",
+        "बिहार",
+        "पश्चिम बंगाल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK505",
+    "en": {
+      "question": "Which country is known as the 'Land of the Midnight Sun'?",
+      "options": [
+        "Finland",
+        "Norway",
+        "Iceland",
+        "Sweden"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस देश को 'मिडनाइट सन की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "फिनलैंड",
+        "नॉर्वे",
+        "आइसलैंड",
+        "स्वीडन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK506",
+    "en": {
+      "question": "Which part of the human body produces insulin?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Stomach"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर का कौन सा हिस्सा इंसुलिन का उत्पादन करता है?",
+      "options": [
+        "यकृत",
+        "गुर्दा",
+        "अग्न्याशय",
+        "पेट"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK507",
+    "en": {
+      "question": "Which river is known as the 'Ganges of the South'?",
+      "options": [
+        "Krishna",
+        "Godavari",
+        "Cauvery",
+        "Narmada"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस नदी को 'दक्षिण की गंगा' के रूप में जाना जाता है?",
+      "options": [
+        "कृष्णा",
+        "गोदावरी",
+        "कावेरी",
+        "नर्मदा"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK509",
+    "en": {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Hyper Text Modern Links"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "HTML का पूरा नाम क्या है?",
+      "options": [
+        "हाइपर टेक्स्ट मार्कअप लैंग्वेज",
+        "हाई टेक मॉडर्न लैंग्वेज",
+        "हाइपर ट्रांसफर मार्कअप लैंग्वेज",
+        "हाइपर टेक्स्ट मॉडर्न लिंक्स"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK510",
+    "en": {
+      "question": "Which Indian festival is known as the 'Festival of Lights'?",
+      "options": [
+        "Holi",
+        "Diwali",
+        "Durga Puja",
+        "Eid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय त्योहार को 'रोशनी का त्योहार' के रूप में जाना जाता है?",
+      "options": [
+        "होली",
+        "दिवाली",
+        "दुर्गा पूजा",
+        "ईद"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK511",
+    "en": {
+      "question": "What is the largest species of tiger?",
+      "options": [
+        "Bengal Tiger",
+        "Siberian Tiger",
+        "Sumatran Tiger",
+        "Malayan Tiger"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बाघ की सबसे बड़ी प्रजाति कौन सी है?",
+      "options": [
+        "बंगाल टाइगर",
+        "साइबेरियन टाइगर",
+        "सुमात्रन टाइगर",
+        "मलायन टाइगर"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK512",
+    "en": {
+      "question": "What is the chemical symbol for iron?",
+      "options": [
+        "Ir",
+        "Fe",
+        "In",
+        "I"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "लोहे का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Ir",
+        "Fe",
+        "In",
+        "I"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK513",
+    "en": {
+      "question": "Who wrote 'Satyarth Prakash'?",
+      "options": [
+        "Swami Dayanand Saraswati",
+        "Swami Vivekananda",
+        "Maharishi Dayanand",
+        "Sri Aurobindo"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'सत्यार्थ प्रकाश' किसने लिखी?",
+      "options": [
+        "स्वामी दयानंद सरस्वती",
+        "स्वामी विवेकानंद",
+        "महर्षि दयानंद",
+        "श्री अरबिंदो"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK514",
+    "en": {
+      "question": "In which year did India win its first Cricket World Cup?",
+      "options": [
+        "1975",
+        "1983",
+        "1987",
+        "1992"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत ने अपना पहला क्रिकेट विश्व कप किस वर्ष जीता?",
+      "options": [
+        "1975",
+        "1983",
+        "1987",
+        "1992"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "sports"
+  },
+  {
+    "id": "GK515",
+    "en": {
+      "question": "Which gas is commonly known as laughing gas?",
+      "options": [
+        "Nitrous Oxide",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किस गैस को आमतौर पर हंसी गैस के रूप में जाना जाता है?",
+      "options": [
+        "नाइट्रस ऑक्साइड",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK517",
+    "en": {
+      "question": "Which is the hottest planet in our solar system?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हमारे सौरमंडल का सबसे गर्म ग्रह कौन सा है?",
+      "options": [
+        "बुध",
+        "शुक्र",
+        "मंगल",
+        "बृहस्पति"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK518",
+    "en": {
+      "question": "Which vitamin is also known as Ascorbic Acid?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस विटामिन को एस्कॉर्बिक एसिड के रूप में भी जाना जाता है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन B",
+        "विटामिन C",
+        "विटामिन D"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK519",
+    "en": {
+      "question": "Who wrote the book 'The God of Small Things'?",
+      "options": [
+        "Arundhati Roy",
+        "Vikram Seth",
+        "Khushwant Singh",
+        "Salman Rushdie"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'द गॉड ऑफ स्मॉल थिंग्स' पुस्तक किसने लिखी?",
+      "options": [
+        "अरुंधती रॉय",
+        "विक्रम सेठ",
+        "खुशवंत सिंह",
+        "सलमान रुश्दी"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK520",
+    "en": {
+      "question": "Which of the following is not a member of the vitamin B complex?",
+      "options": [
+        "Thiamine",
+        "Riboflavin",
+        "Folic Acid",
+        "Ascorbic Acid"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन विटामिन B कॉम्प्लेक्स का सदस्य नहीं है?",
+      "options": [
+        "थायमीन",
+        "राइबोफ्लेविन",
+        "फोलिक एसिड",
+        "एस्कॉर्बिक एसिड"
+      ],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "biology"
+  }
+]

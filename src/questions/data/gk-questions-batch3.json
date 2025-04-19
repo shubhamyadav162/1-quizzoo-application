@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-021",
+      "question_text": "Who wrote the epic 'Ramayana'?",
+      "options": [
+        "Tulsidas",
+        "Valmiki",
+        "Vyasa",
+        "Kalidasa"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Valmiki wrote the original Sanskrit version of the Ramayana, one of the two major Sanskrit epics of ancient India.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-021",
+      "question_text": "रामायण' महाकाव्य किसने लिखा था?",
+      "options": [
+        "तुलसीदास",
+        "वाल्मीकि",
+        "व्यास",
+        "कालिदास"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "वाल्मीकि ने रामायण का मूल संस्कृत संस्करण लिखा था, जो प्राचीन भारत के दो प्रमुख संस्कृत महाकाव्यों में से एक है।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-022",
+      "question_text": "What is the largest internal organ in the human body?",
+      "options": [
+        "Brain",
+        "Liver",
+        "Heart",
+        "Lungs"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The liver is the largest internal organ in the human body, weighing about 1.5 kg in an adult. It performs many essential functions related to digestion, metabolism, and detoxification.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-022",
+      "question_text": "मानव शरीर का सबसे बड़ा आंतरिक अंग कौन सा है?",
+      "options": [
+        "मस्तिष्क",
+        "यकृत (लिवर)",
+        "हृदय",
+        "फेफड़े"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "यकृत (लिवर) मानव शरीर का सबसे बड़ा आंतरिक अंग है, जिसका वजन एक वयस्क में लगभग 1.5 किलोग्राम होता है। यह पाचन, चयापचय और विषहरण से संबंधित कई आवश्यक कार्य करता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-023",
+      "question_text": "Which is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Diamond",
+        "Platinum",
+        "Iron"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Diamond is the hardest known natural material on Earth, scoring 10 on the Mohs scale of mineral hardness.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-023",
+      "question_text": "पृथ्वी पर सबसे कठोर प्राकृतिक पदार्थ कौन सा है?",
+      "options": [
+        "सोना",
+        "हीरा",
+        "प्लैटिनम",
+        "लोहा"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "हीरा पृथ्वी पर ज्ञात सबसे कठोर प्राकृतिक पदार्थ है, जो खनिज कठोरता के मोह्स पैमाने पर 10 अंक प्राप्त करता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-024",
+      "question_text": "What is the capital of Australia?",
+      "options": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Perth"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Canberra is the capital city of Australia. It was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne.",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-024",
+      "question_text": "ऑस्ट्रेलिया की राजधानी क्या है?",
+      "options": [
+        "सिडनी",
+        "कैनबरा",
+        "मेलबर्न",
+        "पर्थ"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "कैनबरा ऑस्ट्रेलिया की राजधानी है। इसे 1908 में प्रतिद्वंद्वी शहरों सिडनी और मेलबर्न के बीच एक समझौते के रूप में राजधानी के रूप में चुना गया था।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-025",
+      "question_text": "Who is known as the 'Father of Computer Science'?",
+      "options": [
+        "Bill Gates",
+        "Alan Turing",
+        "Steve Jobs",
+        "Charles Babbage"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Alan Turing is considered the father of computer science and artificial intelligence. His Turing machine concept laid the foundation for modern computing.",
+      "category_id": 7,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-025",
+      "question_text": "कंप्यूटर विज्ञान के जनक के रूप में किसे जाना जाता है?",
+      "options": [
+        "बिल गेट्स",
+        "एलन ट्यूरिंग",
+        "स्टीव जॉब्स",
+        "चार्ल्स बैबेज"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "एलन ट्यूरिंग को कंप्यूटर विज्ञान और आर्टिफिशियल इंटेलिजेंस का जनक माना जाता है। उनकी ट्यूरिंग मशीन की अवधारणा ने आधुनिक कंप्यूटिंग की नींव रखी।",
+      "category_id": 7,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-026",
+      "question_text": "Which is the smallest bone in the human body?",
+      "options": [
+        "Femur",
+        "Stapes",
+        "Radius",
+        "Ulna"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The stapes (stirrup) is the smallest bone in the human body, located in the middle ear. It is approximately 3 mm in length.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-026",
+      "question_text": "मानव शरीर की सबसे छोटी हड्डी कौन सी है?",
+      "options": [
+        "फीमर",
+        "स्टेप्स",
+        "रेडियस",
+        "अल्ना"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "स्टेप्स (रकाब) मानव शरीर की सबसे छोटी हड्डी है, जो मध्य कान में स्थित होती है। यह लगभग 3 मिमी लंबी होती है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-027",
+      "question_text": "Which festival is known as the 'Festival of Lights'?",
+      "options": [
+        "Holi",
+        "Diwali",
+        "Navratri",
+        "Eid"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Diwali or Deepavali is known as the Festival of Lights. It is celebrated by Hindus, Jains, Sikhs, and some Buddhists worldwide.",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-027",
+      "question_text": "किस त्योहार को 'रोशनी का त्योहार' कहा जाता है?",
+      "options": [
+        "होली",
+        "दिवाली",
+        "नवरात्रि",
+        "ईद"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "दिवाली या दीपावली को रोशनी का त्योहार कहा जाता है। यह दुनिया भर में हिंदुओं, जैनों, सिखों और कुछ बौद्धों द्वारा मनाया जाता है।",
+      "category_id": 1,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-028",
+      "question_text": "Which is the largest desert in the world?",
+      "options": [
+        "Gobi Desert",
+        "Sahara Desert",
+        "Kalahari Desert",
+        "Arabian Desert"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Sahara Desert is the largest hot desert in the world, covering about 9.2 million square kilometers across North Africa.",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-028",
+      "question_text": "विश्व का सबसे बड़ा रेगिस्तान कौन सा है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "सहारा रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "अरब रेगिस्तान"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "सहारा रेगिस्तान दुनिया का सबसे बड़ा गर्म रेगिस्तान है, जो उत्तरी अफ्रीका में लगभग 9.2 मिलियन वर्ग किलोमीटर क्षेत्र में फैला है।",
+      "category_id": 4,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-029",
+      "question_text": "Who is the author of 'Harry Potter' series?",
+      "options": [
+        "Stephen King",
+        "J.K. Rowling",
+        "Dan Brown",
+        "J.R.R. Tolkien"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "J.K. Rowling (Joanne Rowling) is the author of the popular 'Harry Potter' fantasy series, which has sold more than 500 million copies worldwide.",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-029",
+      "question_text": "'हैरी पॉटर' श्रृंखला के लेखक कौन हैं?",
+      "options": [
+        "स्टीफन किंग",
+        "जे.के. रोलिंग",
+        "डैन ब्राउन",
+        "जे.आर.आर. टॉलकिन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "जे.के. रोलिंग (जोआन रोलिंग) लोकप्रिय 'हैरी पॉटर' फैंटेसी श्रृंखला की लेखिका हैं, जिसकी दुनिया भर में 500 मिलियन से अधिक प्रतियां बिक चुकी हैं।",
+      "category_id": 5,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-030",
+      "question_text": "Which country is known as the 'Land of the Midnight Sun'?",
+      "options": [
+        "Canada",
+        "Norway",
+        "Russia",
+        "Finland"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Norway is often called the 'Land of the Midnight Sun' because during summer months, in areas north of the Arctic Circle, the sun never sets for weeks or months.",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-030",
+      "question_text": "किस देश को 'मिडनाइट सन की भूमि' के नाम से जाना जाता है?",
+      "options": [
+        "कनाडा",
+        "नॉर्वे",
+        "रूस",
+        "फिनलैंड"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नॉर्वे को अक्सर 'मिडनाइट सन की भूमि' कहा जाता है क्योंकि गर्मियों के महीनों में, आर्कटिक सर्कल के उत्तर में स्थित क्षेत्रों में, सूरज कई हफ्तों या महीनों तक अस्त नहीं होता है।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

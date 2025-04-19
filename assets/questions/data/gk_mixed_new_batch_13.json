@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "GK6201",
+    "en": {
+      "question": "What is the opposite of 'open'?",
+      "options": [
+        "Enter",
+        "Admit",
+        "Unblock",
+        "Close/Shut"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'खुला' का विपरीत क्या है?",
+      "options": [
+        "प्रवेश करना",
+        "स्वीकार करना",
+        "खोलना",
+        "बंद करना"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_states"
+  },
+  {
+    "id": "GK6202",
+    "en": {
+      "question": "What farm animal says 'oink'?",
+      "options": [
+        "Cow",
+        "Sheep",
+        "Horse",
+        "Pig"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'ओइंक' कहता है?",
+      "options": [
+        "गाय",
+        "भेड़",
+        "घोड़ा",
+        "सुअर"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_sounds_farm"
+  },
+  {
+    "id": "GK6205",
+    "en": {
+      "question": "What is the name of the boy who can fly and lives in Neverland?",
+      "options": [
+        "Pinocchio",
+        "Aladdin",
+        "Tarzan",
+        "Peter Pan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नेवरलैंड में रहने वाले उड़ने वाले लड़के का नाम क्या है?",
+      "options": [
+        "पिनोच्चियो",
+        "अलादीन",
+        "टार्ज़न",
+        "पीटर पैन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK6206",
+    "en": {
+      "question": "What is the opposite of 'start'?",
+      "options": [
+        "Begin",
+        "Commence",
+        "Initiate",
+        "Stop/End/Finish"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'शुरू करना' का विपरीत क्या है?",
+      "options": [
+        "शुरू करना",
+        "प्रारंभ करना",
+        "पहल करना",
+        "रुकना/समाप्त करना"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_actions"
+  },
+  {
+    "id": "GK6207",
+    "en": {
+      "question": "What animal is known as the 'king of the jungle'?",
+      "options": [
+        "Tiger",
+        "Elephant",
+        "Gorilla",
+        "Lion"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस जानवर को 'जंगल का राजा' कहा जाता है?",
+      "options": [
+        "बाघ",
+        "हाथी",
+        "गोरिल्ला",
+        "शेर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_mammals_titles"
+  },
+  {
+    "id": "GK6208",
+    "en": {
+      "question": "What round, red fruit is often used in salads and sandwiches?",
+      "options": [
+        "Apple",
+        "Orange",
+        "Bell Pepper",
+        "Tomato"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा गोल, लाल फल अक्सर सलाद और सैंडविच में इस्तेमाल किया जाता है?",
+      "options": [
+        "सेब",
+        "संतरा",
+        "शिमला मिर्च",
+        "टमाटर"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_fruits_vegetables"
+  },
+  {
+    "id": "GK6209",
+    "en": {
+      "question": "What is the name of the sea witch in 'The Little Mermaid'?",
+      "options": [
+        "Maleficent",
+        "Cruella de Vil",
+        "Evil Queen",
+        "Ursula"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लिटिल मरमेड' में समुद्री डायन का नाम क्या है?",
+      "options": [
+        "मैलेफिसेंट",
+        "क्रूला डी विल",
+        "ईविल क्वीन",
+        "उर्सुला"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6210",
+    "en": {
+      "question": "What gas do humans breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon Dioxide"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मनुष्य कौन सी गैस बाहर निकालते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हाइड्रोजन",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_human_respiration"
+  },
+  {
+    "id": "GK6211",
+    "en": {
+      "question": "What is the opposite of 'true'?",
+      "options": [
+        "Correct",
+        "Right",
+        "Accurate",
+        "False"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सत्य' का विपरीत क्या है?",
+      "options": [
+        "सही",
+        "उचित",
+        "सटीक",
+        "असत्य/गलत"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_truth"
+  },
+  {
+    "id": "GK6212",
+    "en": {
+      "question": "What is the term for a baby alligator or crocodile?",
+      "options": [
+        "Pup",
+        "Chick",
+        "Fry",
+        "Hatchling"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "घड़ियाल या मगरमच्छ के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "चूजा",
+        "फ्राई (मछली का बच्चा)",
+        "हैचलिंग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_animals_young_reptiles"
+  },
+  {
+    "id": "GK6214",
+    "en": {
+      "question": "What continent is known for kangaroos and koalas?",
+      "options": [
+        "Africa",
+        "Asia",
+        "South America",
+        "Australia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा महाद्वीप कंगारुओं और कोआला के लिए जाना जाता है?",
+      "options": [
+        "अफ्रीका",
+        "एशिया",
+        "दक्षिण अमेरिका",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_continents_wildlife"
+  },
+  {
+    "id": "GK6215",
+    "en": {
+      "question": "What is the name of the blue genie in 'Aladdin'?",
+      "options": [
+        "Jafar",
+        "Abu",
+        "Iago",
+        "Genie"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'अलादीन' में नीले जिन्न का नाम क्या है?",
+      "options": [
+        "जफर",
+        "अबू",
+        "इयागो",
+        "जिनी"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK6217",
+    "en": {
+      "question": "What farm animal says 'baa'?",
+      "options": [
+        "Cow",
+        "Pig",
+        "Horse",
+        "Sheep/Goat"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'बा' कहता है?",
+      "options": [
+        "गाय",
+        "सुअर",
+        "घोड़ा",
+        "भेड़/बकरी"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_sounds_farm"
+  },
+  {
+    "id": "GK6218",
+    "en": {
+      "question": "What food is made by churning cream?",
+      "options": [
+        "Cheese",
+        "Yogurt",
+        "Ice Cream",
+        "Butter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्रीम को मथने से कौन सा भोजन बनता है?",
+      "options": [
+        "पनीर",
+        "दही",
+        "आइसक्रीम",
+        "मक्खन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "food_dairy_products"
+  },
+  {
+    "id": "GK6219",
+    "en": {
+      "question": "What is the name of the villainous pirate captain in 'Peter Pan'?",
+      "options": [
+        "Smee",
+        "Jafar",
+        "Gaston",
+        "Captain Hook"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पीटर पैन' में खलनायक समुद्री डाकू कप्तान का नाम क्या है?",
+      "options": [
+        "स्मी",
+        "जफर",
+        "गैस्टन",
+        "कैप्टन हुक"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_characters_villains"
+  },
+  {
+    "id": "GK6220",
+    "en": {
+      "question": "What is the main source of energy for Earth?",
+      "options": [
+        "Moon",
+        "Stars",
+        "Geothermal Heat",
+        "The Sun"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी के लिए ऊर्जा का मुख्य स्रोत क्या है?",
+      "options": [
+        "चंद्रमा",
+        "तारे",
+        "भूतापीय गर्मी",
+        "सूर्य"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_earth_energy"
+  },
+  {
+    "id": "GK6221",
+    "en": {
+      "question": "What is the opposite of 'inside'?",
+      "options": [
+        "Within",
+        "Interior",
+        "Inward",
+        "Outside"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'अंदर' का विपरीत क्या है?",
+      "options": [
+        "भीतर",
+        "आंतरिक",
+        "अंदर की ओर",
+        "बाहर"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_position"
+  },
+  {
+    "id": "GK6222",
+    "en": {
+      "question": "What is the term for a baby snake?",
+      "options": [
+        "Pup",
+        "Chick",
+        "Hatchling",
+        "Snakelet"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सांप के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "चूजा",
+        "हैचलिंग",
+        "स्नेक्लेट"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_young_reptiles"
+  },
+  {
+    "id": "GK6224",
+    "en": {
+      "question": "What long river runs through Egypt?",
+      "options": [
+        "Amazon River",
+        "Congo River",
+        "Mississippi River",
+        "Nile River"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिस्र से होकर कौन सी लंबी नदी बहती है?",
+      "options": [
+        "अमेज़न नदी",
+        "कांगो नदी",
+        "मिसिसिपी नदी",
+        "नील नदी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_rivers_africa"
+  },
+  {
+    "id": "GK6225",
+    "en": {
+      "question": "What is the name of the toy cowboy in 'Toy Story'?",
+      "options": [
+        "Buzz Lightyear",
+        "Mr. Potato Head",
+        "Slinky Dog",
+        "Woody"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'टॉय स्टोरी' में खिलौने वाले काउबॉय का नाम क्या है?",
+      "options": [
+        "बज़ लाइटईयर",
+        "मिस्टर पोटैटो हेड",
+        "स्लिंकी डॉग",
+        "वुडी"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_pixar"
+  },
+  {
+    "id": "GK6227",
+    "en": {
+      "question": "What bird is a symbol of peace?",
+      "options": [
+        "Eagle",
+        "Hawk",
+        "Owl",
+        "Dove"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पक्षी शांति का प्रतीक है?",
+      "options": [
+        "ईगल",
+        "हॉक",
+        "उल्लू",
+        "डव (कपोत/फाख्ता)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "culture_symbols_birds"
+  },
+  {
+    "id": "GK6228",
+    "en": {
+      "question": "What sweet, cold dessert is often served in a cone?",
+      "options": [
+        "Cake",
+        "Pie",
+        "Pudding",
+        "Ice Cream"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा मीठा, ठंडा डेज़र्ट अक्सर कोन में परोसा जाता है?",
+      "options": [
+        "केक",
+        "पाई",
+        "पुडिंग",
+        "आइसक्रीम"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_desserts"
+  },
+  {
+    "id": "GK6229",
+    "en": {
+      "question": "What is the name of the villain in 'Hercules' (Disney movie)?",
+      "options": [
+        "Jafar",
+        "Scar",
+        "Ursula",
+        "Hades"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'हरक्यूलिस' (डिज्नी फिल्म) में खलनायक का नाम क्या है?",
+      "options": [
+        "जफर",
+        "स्कार",
+        "उर्सुला",
+        "हेड्स"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6230",
+    "en": {
+      "question": "How many continents are there on Earth?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी पर कितने महाद्वीप हैं?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography_continents_count"
+  },
+  {
+    "id": "GK6235",
+    "en": {
+      "question": "What is the name of the toy space ranger in 'Toy Story'?",
+      "options": [
+        "Woody",
+        "Mr. Potato Head",
+        "Slinky Dog",
+        "Buzz Lightyear"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'टॉय स्टोरी' में खिलौने वाले स्पेस रेंजर का नाम क्या है?",
+      "options": [
+        "वुडी",
+        "मिस्टर पोटैटो हेड",
+        "स्लिंकी डॉग",
+        "बज़ लाइटईयर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_pixar"
+  },
+  {
+    "id": "GK6236",
+    "en": {
+      "question": "What is the opposite of 'first'?",
+      "options": [
+        "Initial",
+        "Beginning",
+        "Leading",
+        "Last"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पहला' का विपरीत क्या है?",
+      "options": [
+        "प्रारंभिक",
+        "शुरुआत",
+        "अग्रणी",
+        "अंतिम"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_order"
+  },
+  {
+    "id": "GK6237",
+    "en": {
+      "question": "What animal is known for changing its color to match its surroundings?",
+      "options": [
+        "Frog",
+        "Snake",
+        "Lizard",
+        "Chameleon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर अपने परिवेश से मेल खाने के लिए अपना रंग बदलने के लिए जाना जाता है?",
+      "options": [
+        "मेंढक",
+        "सांप",
+        "छिपकली",
+        "गिरगिट"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_animals_reptiles_camouflage"
+  },
+  {
+    "id": "GK6238",
+    "en": {
+      "question": "What popular Mexican dish involves a tortilla filled with ingredients?",
+      "options": [
+        "Enchilada",
+        "Quesadilla",
+        "Burrito",
+        "Taco"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस लोकप्रिय मैक्सिकन व्यंजन में सामग्री से भरी टॉर्टिला होती है?",
+      "options": [
+        "एनचिलाडा",
+        "क्वेसाडिला",
+        "बुरिटो",
+        "टैको"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "food_dishes_mexican"
+  },
+  {
+    "id": "GK6239",
+    "en": {
+      "question": "What is the name of the villain in 'Tarzan' (Disney movie)?",
+      "options": [
+        "Scar",
+        "Jafar",
+        "Shere Khan",
+        "Clayton"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'टार्ज़न' (डिज्नी फिल्म) में खलनायक का नाम क्या है?",
+      "options": [
+        "स्कार",
+        "जफर",
+        "शेर खान",
+        "क्लेटन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6240",
+    "en": {
+      "question": "What body of water surrounds the continent of Antarctica?",
+      "options": [
+        "Arctic Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Southern Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंटार्कटिका महाद्वीप के चारों ओर कौन सा जल निकाय है?",
+      "options": [
+        "आर्कटिक महासागर",
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "दक्षिणी महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_oceans_poles"
+  },
+  {
+    "id": "GK6241",
+    "en": {
+      "question": "What is the opposite of 'bottom'?",
+      "options": [
+        "Base",
+        "Floor",
+        "Underneath",
+        "Top"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'तल' का विपरीत क्या है?",
+      "options": [
+        "आधार",
+        "फर्श",
+        "नीचे",
+        "शीर्ष"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_position"
+  },
+  {
+    "id": "GK6244",
+    "en": {
+      "question": "What desert covers much of Northern Africa?",
+      "options": [
+        "Gobi Desert",
+        "Kalahari Desert",
+        "Arabian Desert",
+        "Sahara Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उत्तरी अफ्रीका के अधिकांश भाग को कौन सा रेगिस्तान कवर करता है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "अरब रेगिस्तान",
+        "सहारा रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_deserts_africa"
+  },
+  {
+    "id": "GK6245",
+    "en": {
+      "question": "What is the name of the warthog in 'The Lion King'?",
+      "options": [
+        "Timon",
+        "Zazu",
+        "Rafiki",
+        "Pumbaa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लायन किंग' में जंगली सूअर का नाम क्या है?",
+      "options": [
+        "टिमोन",
+        "ज़ाज़ू",
+        "रफ़ीकी",
+        "पुम्बा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK6246",
+    "en": {
+      "question": "What is the opposite of 'interesting'?",
+      "options": [
+        "Fascinating",
+        "Engaging",
+        "Captivating",
+        "Boring/Dull"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'रोचक' का विपरीत क्या है?",
+      "options": [
+        "दिलचस्प",
+        "आकर्षक",
+        "मनोरम",
+        "उबाऊ/नीरस"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_qualities"
+  },
+  {
+    "id": "GK6247",
+    "en": {
+      "question": "What animal is the fastest land mammal?",
+      "options": [
+        "Lion",
+        "Horse",
+        "Gazelle",
+        "Cheetah"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सबसे तेज ज़मीनी स्तनपायी जानवर कौन सा है?",
+      "options": [
+        "शेर",
+        "घोड़ा",
+        "गज़ेल",
+        "चीता"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_animals_mammals_speed"
+  },
+  {
+    "id": "GK6248",
+    "en": {
+      "question": "What red fruit grows on a vine and is used to make wine?",
+      "options": [
+        "Strawberry",
+        "Cherry",
+        "Raspberry",
+        "Grape"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा लाल फल बेल पर उगता है और शराब बनाने के लिए इस्तेमाल किया जाता है?",
+      "options": [
+        "स्ट्राबेरी",
+        "चेरी",
+        "रास्पबेरी",
+        "अंगूर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "food_fruits_beverages"
+  },
+  {
+    "id": "GK6249",
+    "en": {
+      "question": "What is the name of the villain in 'Pocahontas' (Disney movie)?",
+      "options": [
+        "Captain Hook",
+        "Jafar",
+        "Gaston",
+        "Governor Ratcliffe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'पोकाहोंटस' (डिज्नी फिल्म) में खलनायक का नाम क्या है?",
+      "options": [
+        "कैप्टन हुक",
+        "जफर",
+        "गैस्टन",
+        "गवर्नर रैटक्लिफ"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6251",
+    "en": {
+      "question": "What is the opposite of 'straight'?",
+      "options": [
+        "Direct",
+        "Linear",
+        "Unbending",
+        "Curved/Bent/Crooked"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सीधा' का विपरीत क्या है?",
+      "options": [
+        "प्रत्यक्ष",
+        "रेखीय",
+        "अटल",
+        "घुमावदार/मुड़ा हुआ/टेढ़ा"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_shape"
+  },
+  {
+    "id": "GK6252",
+    "en": {
+      "question": "What is the term for a baby lion?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Joey",
+        "Cub"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शेर के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "जोई",
+        "शावक"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_wild"
+  },
+  {
+    "id": "GK6254",
+    "en": {
+      "question": "What mountain range includes Mount Everest?",
+      "options": [
+        "Andes",
+        "Alps",
+        "Rocky Mountains",
+        "Himalayas"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "माउंट एवरेस्ट किस पर्वत श्रृंखला में शामिल है?",
+      "options": [
+        "एंडीज",
+        "आल्प्स",
+        "रॉकी पर्वत",
+        "हिमालय"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_mountains_asia"
+  },
+  {
+    "id": "GK6255",
+    "en": {
+      "question": "What is the name of the meerkat in 'The Lion King'?",
+      "options": [
+        "Pumbaa",
+        "Zazu",
+        "Rafiki",
+        "Timon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लायन किंग' में मीरकैट का नाम क्या है?",
+      "options": [
+        "पुम्बा",
+        "ज़ाज़ू",
+        "रफ़ीकी",
+        "टिमोन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK6256",
+    "en": {
+      "question": "What is the opposite of 'safe'?",
+      "options": [
+        "Secure",
+        "Protected",
+        "Guarded",
+        "Dangerous/Unsafe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सुरक्षित' का विपरीत क्या है?",
+      "options": [
+        "सुरक्षित",
+        "संरक्षित",
+        "रक्षित",
+        "खतरनाक/असुरक्षित"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_states"
+  },
+  {
+    "id": "GK6257",
+    "en": {
+      "question": "What slow-moving animal carries its home on its back?",
+      "options": [
+        "Slug",
+        "Worm",
+        "Millipede",
+        "Snail/Tortoise"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा धीमी गति से चलने वाला जानवर अपना घर अपनी पीठ पर रखता है?",
+      "options": [
+        "स्लग",
+        "कीड़ा",
+        "मिलीपीड",
+        "घोंघा/कछुआ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_characteristics"
+  },
+  {
+    "id": "GK6258",
+    "en": {
+      "question": "What type of pasta is shaped like long, thin strands?",
+      "options": [
+        "Penne",
+        "Fusilli",
+        "Macaroni",
+        "Spaghetti"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रकार का पास्ता लंबे, पतले धागों के आकार का होता है?",
+      "options": [
+        "पेने",
+        "फुसिली",
+        "मैकरोनी",
+        "स्पेगेटी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "food_dishes_italian_pasta"
+  },
+  {
+    "id": "GK6259",
+    "en": {
+      "question": "What is the name of the villain in 'Mulan' (Disney movie)?",
+      "options": [
+        "Jafar",
+        "Hades",
+        "Scar",
+        "Shan Yu"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'मुलान' (डिज्नी फिल्म) में खलनायक का नाम क्या है?",
+      "options": [
+        "जफर",
+        "हेड्स",
+        "स्कार",
+        "शान यू"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6260",
+    "en": {
+      "question": "What layer protects Earth from the Sun's harmful radiation?",
+      "options": [
+        "Troposphere",
+        "Mesosphere",
+        "Ionosphere",
+        "Ozone Layer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी परत पृथ्वी को सूर्य की हानिकारक विकिरण से बचाती है?",
+      "options": [
+        "क्षोभमंडल",
+        "मध्यमंडल",
+        "आयनमंडल",
+        "ओजोन परत"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_earth_atmosphere_layers"
+  },
+  {
+    "id": "GK6263",
+    "en": {
+      "question": "What is the chemical symbol for Copper?",
+      "options": [
+        "C",
+        "Co",
+        "Cp",
+        "Cu"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कॉपर (तांबा) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "C",
+        "Co",
+        "Cp",
+        "Cu"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_elements_metals"
+  },
+  {
+    "id": "GK6266",
+    "en": {
+      "question": "What is the opposite of 'asleep'?",
+      "options": [
+        "Sleeping",
+        "Resting",
+        "Napping",
+        "Awake"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'सोया हुआ' का विपरीत क्या है?",
+      "options": [
+        "सो रहा है",
+        "आराम कर रहा है",
+        "झपकी ले रहा है",
+        "जागा हुआ"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_states"
+  },
+  {
+    "id": "GK6267",
+    "en": {
+      "question": "What insect is known for its hard shell and rolling into a ball?",
+      "options": [
+        "Beetle",
+        "Ant",
+        "Ladybug",
+        "Pill Bug / Roly-Poly"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कीट अपने कठोर खोल और गेंद में लुढ़कने के लिए जाना जाता है?",
+      "options": [
+        "भृंग",
+        "चींटी",
+        "लेडीबग",
+        "पिल बग / रोली-पोली"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_crustaceans_defense"
+  },
+  {
+    "id": "GK6269",
+    "en": {
+      "question": "What is the name of the villain in 'The Emperor's New Groove'?",
+      "options": [
+        "Kronk",
+        "Pacha",
+        "Kuzco",
+        "Yzma"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द एम्परर्स न्यू ग्रूव' में खलनायक का नाम क्या है?",
+      "options": [
+        "क्रोंक",
+        "पाचा",
+        "कुज्को",
+        "यिज्मा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6270",
+    "en": {
+      "question": "What galaxy do we live in?",
+      "options": [
+        "Andromeda Galaxy",
+        "Triangulum Galaxy",
+        "Whirlpool Galaxy",
+        "Milky Way Galaxy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम किस आकाशगंगा में रहते हैं?",
+      "options": [
+        "एंड्रोमेडा गैलेक्सी",
+        "ट्रायंगुलम गैलेक्सी",
+        "व्हर्लपूल गैलेक्सी",
+        "मिल्की वे गैलेक्सी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_space_galaxies"
+  },
+  {
+    "id": "GK6271",
+    "en": {
+      "question": "What is the opposite of 'polite'?",
+      "options": [
+        "Courteous",
+        "Respectful",
+        "Well-mannered",
+        "Rude/Impolite"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'विनम्र' का विपरीत क्या है?",
+      "options": [
+        "शिष्ट",
+        "सम्मानजनक",
+        "सुसंस्कृत",
+        "असभ्य/अशिष्ट"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_manners"
+  },
+  {
+    "id": "GK6273",
+    "en": {
+      "question": "What is the chemical symbol for Nickel?",
+      "options": [
+        "N",
+        "Nk",
+        "Nc",
+        "Ni"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निकेल का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "N",
+        "Nk",
+        "Nc",
+        "Ni"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_metals"
+  },
+  {
+    "id": "GK6275",
+    "en": {
+      "question": "What is the name of the snowman in 'Frozen'?",
+      "options": [
+        "Kristoff",
+        "Sven",
+        "Hans",
+        "Olaf"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'फ्रोजन' में स्नोमैन का नाम क्या है?",
+      "options": [
+        "क्रिस्टोफ",
+        "स्वेन",
+        "हांस",
+        "ओलाफ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK6276",
+    "en": {
+      "question": "What is the opposite of 'above'?",
+      "options": [
+        "Over",
+        "On top",
+        "Higher",
+        "Below/Underneath"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'ऊपर' का विपरीत क्या है?",
+      "options": [
+        "ऊपर",
+        "शीर्ष पर",
+        "उच्चतर",
+        "नीचे"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_position"
+  },
+  {
+    "id": "GK6277",
+    "en": {
+      "question": "What animal is known for its long trunk?",
+      "options": [
+        "Giraffe",
+        "Rhino",
+        "Hippo",
+        "Elephant"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर अपनी लंबी सूंड के लिए जाना जाता है?",
+      "options": [
+        "जिराफ़",
+        "गैंडा",
+        "दरियाई घोड़ा",
+        "हाथी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_mammals_features"
+  },
+  {
+    "id": "GK6278",
+    "en": {
+      "question": "What yellow fruit is known for its peelable skin and curved shape?",
+      "options": [
+        "Lemon",
+        "Orange",
+        "Pineapple",
+        "Banana"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पीला फल अपनी छीलने वाली त्वचा और घुमावदार आकार के लिए जाना जाता है?",
+      "options": [
+        "नींबू",
+        "संतरा",
+        "अनानास",
+        "केला"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_fruits"
+  },
+  {
+    "id": "GK6279",
+    "en": {
+      "question": "What is the name of the villain in 'The Hunchback of Notre Dame' (Disney movie)?",
+      "options": [
+        "Gaston",
+        "Clayton",
+        "Scar",
+        "Frollo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द हंचबैक ऑफ नोट्रे डेम' (डिज्नी फिल्म) में खलनायक का नाम क्या है?",
+      "options": [
+        "गैस्टन",
+        "क्लेटन",
+        "स्कार",
+        "फ्रोलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6280",
+    "en": {
+      "question": "What is the smallest planet in our solar system?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Earth",
+        "Mercury"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का सबसे छोटा ग्रह कौन सा है?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "पृथ्वी",
+        "बुध"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_space_planets_size"
+  },
+  {
+    "id": "GK6282",
+    "en": {
+      "question": "What is the term for a baby tiger?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Joey",
+        "Cub"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बाघ के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "जोई",
+        "शावक"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_wild"
+  },
+  {
+    "id": "GK6284",
+    "en": {
+      "question": "Which country is shaped like a boot?",
+      "options": [
+        "Greece",
+        "Spain",
+        "France",
+        "Italy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस देश का आकार जूते जैसा है?",
+      "options": [
+        "ग्रीस",
+        "स्पेन",
+        "फ्रांस",
+        "इटली"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_countries_shape_europe"
+  },
+  {
+    "id": "GK6287",
+    "en": {
+      "question": "What large bird is the national symbol of the United States?",
+      "options": [
+        "Turkey",
+        "Hawk",
+        "Owl",
+        "Bald Eagle"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका का राष्ट्रीय प्रतीक कौन सा बड़ा पक्षी है?",
+      "options": [
+        "टर्की",
+        "हॉक",
+        "उल्लू",
+        "बाल्ड ईगल"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "culture_symbols_birds_national"
+  },
+  {
+    "id": "GK6288",
+    "en": {
+      "question": "What flat, round bread is often topped with sauce and cheese?",
+      "options": [
+        "Pita",
+        "Naan",
+        "Tortilla",
+        "Pizza"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी चपटी, गोल रोटी पर अक्सर सॉस और पनीर डाला जाता है?",
+      "options": [
+        "पीटा",
+        "नान",
+        "टॉर्टिला",
+        "पिज्जा"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "food_dishes_international"
+  },
+  {
+    "id": "GK6289",
+    "en": {
+      "question": "What is the name of the villain in 'Alice in Wonderland' (Disney movie)?",
+      "options": [
+        "Maleficent",
+        "Ursula",
+        "Captain Hook",
+        "Queen of Hearts"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'ऐलिस इन वंडरलैंड' (डिज्नी फिल्म) में खलनायक का नाम क्या है?",
+      "options": [
+        "मैलेफिसेंट",
+        "उर्सुला",
+        "कैप्टन हुक",
+        "क्वीन ऑफ हार्ट्स"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6290",
+    "en": {
+      "question": "What is the Hottest Planet in our Solar System?",
+      "options": [
+        "Mercury",
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का सबसे गर्म ग्रह कौन सा है?",
+      "options": [
+        "बुध",
+        "मंगल",
+        "बृहस्पति",
+        "शुक्र"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_space_planets_temperature"
+  },
+  {
+    "id": "GK6291",
+    "en": {
+      "question": "What is the opposite of 'right' (direction)?",
+      "options": [
+        "Correct",
+        "Straight",
+        "Forward",
+        "Left"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'दाहिना' (दिशा) का विपरीत क्या है?",
+      "options": [
+        "सही",
+        "सीधा",
+        "आगे",
+        "बायां"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_direction"
+  },
+  {
+    "id": "GK6292",
+    "en": {
+      "question": "What is the term for a baby frog or toad?",
+      "options": [
+        "Pup",
+        "Chick",
+        "Fry",
+        "Tadpole"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेंढक या टॉड के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "चूजा",
+        "फ्राई (मछली का बच्चा)",
+        "टैडपोल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_young_amphibians"
+  },
+  {
+    "id": "GK6295",
+    "en": {
+      "question": "What is the name of the piglet in Winnie-the-Pooh?",
+      "options": [
+        "Tigger",
+        "Eeyore",
+        "Rabbit",
+        "Piglet"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विनी-द-पूह में सूअर के बच्चे का नाम क्या है?",
+      "options": [
+        "टाइगर",
+        "ईयोर",
+        "रैबिट",
+        "पिगलेट"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK6297",
+    "en": {
+      "question": "What creature builds a dam in rivers?",
+      "options": [
+        "Otter",
+        "Muskrat",
+        "Fish",
+        "Beaver"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नदियों में बांध कौन सा प्राणी बनाता है?",
+      "options": [
+        "ऊदबिलाव",
+        "कस्तूरी चूहा",
+        "मछली",
+        "बीवर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_animals_mammals_behavior"
+  },
+  {
+    "id": "GK6298",
+    "en": {
+      "question": "What drink is made from roasted beans, often served hot?",
+      "options": [
+        "Tea",
+        "Hot Chocolate",
+        "Juice",
+        "Coffee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भुनी हुई बीन्स से बना कौन सा पेय अक्सर गर्म परोसा जाता है?",
+      "options": [
+        "चाय",
+        "हॉट चॉकलेट",
+        "जूस",
+        "कॉफी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "food_beverages_hot"
+  },
+  {
+    "id": "GK6299",
+    "en": {
+      "question": "What is the name of the villain in 'The Rescuers Down Under'?",
+      "options": [
+        "Sykes",
+        "Madame Medusa",
+        "Frollo",
+        "Percival C. McLeach"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द रेस्क्यूअर्स डाउन अंडर' में खलनायक का नाम क्या है?",
+      "options": [
+        "साइक्स",
+        "मैडम मेडुसा",
+        "फ्रोलो",
+        "पर्सिवल सी. मैकलीच"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "pop_culture_animation_disney_villains"
+  },
+  {
+    "id": "GK6300",
+    "en": {
+      "question": "Which is the only planet in our solar system known to support life?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Earth"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का एकमात्र ग्रह कौन सा है जो जीवन का समर्थन करने के लिए जाना जाता है?",
+      "options": [
+        "मंगल",
+        "शुक्र",
+        "बृहस्पति",
+        "पृथ्वी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "science_space_planets_life"
+  }
+]

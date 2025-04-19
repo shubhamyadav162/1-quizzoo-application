@@ -1,7 +1,7 @@
 import { useTheme } from '@/app/lib/ThemeContext';
 
-// Use the ThemeContext's colorScheme value
+// Use the ThemeContext's isDark value to determine colorScheme
 export function useColorScheme() {
-  const { colorScheme } = useTheme();
-  return colorScheme as 'light' | 'dark';
+  const { isDark } = useTheme();
+  return isDark ? 'dark' : 'light';
 }

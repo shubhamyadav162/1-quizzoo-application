@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "GK7101",
+    "en": {
+      "question": "What is the capital city of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Canberra"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ऑस्ट्रेलिया की राजधानी कौन सा शहर है?",
+      "options": [
+        "सिडनी",
+        "मेलबर्न",
+        "ब्रिस्बेन",
+        "कैनबरा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7102",
+    "en": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Donatello",
+        "Leonardo da Vinci"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मोना लिसा किसने चित्रित की थी?",
+      "options": [
+        "माइकल एंजेलो",
+        "राफेल",
+        "डोनाटेलो",
+        "लियोनार्डो दा विंची"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7104",
+    "en": {
+      "question": "What element does 'O' represent on the periodic table?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Osmium",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आवर्त सारणी पर 'O' किस तत्व का प्रतिनिधित्व करता है?",
+      "options": [
+        "सोना",
+        "चांदी",
+        "ओस्मियम",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7105",
+    "en": {
+      "question": "In which country would you find the Eiffel Tower?",
+      "options": [
+        "Italy",
+        "Spain",
+        "Germany",
+        "France"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एफिल टॉवर आपको किस देश में मिलेगा?",
+      "options": [
+        "इटली",
+        "स्पेन",
+        "जर्मनी",
+        "फ्रांस"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography_landmarks"
+  },
+  {
+    "id": "GK7108",
+    "en": {
+      "question": "What is the main currency used in Japan?",
+      "options": [
+        "Dollar",
+        "Euro",
+        "Pound",
+        "Yen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जापान में प्रयुक्त मुख्य मुद्रा क्या है?",
+      "options": [
+        "डॉलर",
+        "यूरो",
+        "पाउंड",
+        "येन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_economics"
+  },
+  {
+    "id": "GK7109",
+    "en": {
+      "question": "What is the process by which plants make their food called?",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Germination",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे जिस प्रक्रिया से अपना भोजन बनाते हैं उसे क्या कहते हैं?",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अंकुरण",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7111",
+    "en": {
+      "question": "Who is known as the 'Father of Computers'?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Alan Turing",
+        "Charles Babbage"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'कंप्यूटर का जनक' किसे कहा जाता है?",
+      "options": [
+        "बिल गेट्स",
+        "स्टीव जॉब्स",
+        "एलन ट्यूरिंग",
+        "चार्ल्स बैबेज"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history_technology"
+  },
+  {
+    "id": "GK7112",
+    "en": {
+      "question": "What is the hardest natural substance found on Earth?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Quartz",
+        "Diamond"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी पर पाया जाने वाला सबसे कठोर प्राकृतिक पदार्थ कौन सा है?",
+      "options": [
+        "सोना",
+        "लोहा",
+        "क्वार्ट्ज",
+        "हीरा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_geology"
+  },
+  {
+    "id": "GK7113",
+    "en": {
+      "question": "In which year did the Titanic sink?",
+      "options": [
+        "1905",
+        "1920",
+        "1915",
+        "1912"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "टाइटैनिक किस वर्ष डूबा था?",
+      "options": [
+        "1905",
+        "1920",
+        "1915",
+        "1912"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history"
+  },
+  {
+    "id": "GK7115",
+    "en": {
+      "question": "What gas do humans breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon Dioxide"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मनुष्य कौन सी गैस साँस छोड़ते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हाइड्रोजन",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7116",
+    "en": {
+      "question": "What is the main language spoken in Brazil?",
+      "options": [
+        "Spanish",
+        "English",
+        "French",
+        "Portuguese"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ब्राजील में बोली जाने वाली मुख्य भाषा कौन सी है?",
+      "options": [
+        "स्पेनिश",
+        "अंग्रेजी",
+        "फ्रेंच",
+        "पुर्तगाली"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture_language"
+  },
+  {
+    "id": "GK7117",
+    "en": {
+      "question": "How many continents are there in the world?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया में कितने महाद्वीप हैं?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7120",
+    "en": {
+      "question": "What is the highest mountain in the world?",
+      "options": [
+        "K2",
+        "Kangchenjunga",
+        "Makalu",
+        "Mount Everest"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे ऊँचा पर्वत कौन सा है?",
+      "options": [
+        "के2",
+        "कंचनजंगा",
+        "मकालू",
+        "माउंट एवरेस्ट"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7122",
+    "en": {
+      "question": "What is the main ingredient in traditional Japanese miso soup?",
+      "options": [
+        "Tofu",
+        "Seaweed",
+        "Rice",
+        "Soybean paste"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पारंपरिक जापानी मिसो सूप में मुख्य सामग्री क्या है?",
+      "options": [
+        "टोफू",
+        "समुद्री शैवाल",
+        "चावल",
+        "सोयाबीन पेस्ट"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "food_culture"
+  },
+  {
+    "id": "GK7124",
+    "en": {
+      "question": "What is the boiling point of water in Celsius?",
+      "options": [
+        "90°C",
+        "120°C",
+        "50°C",
+        "100°C"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सेल्सियस में पानी का क्वथनांक (boiling point) क्या है?",
+      "options": [
+        "90°C",
+        "120°C",
+        "50°C",
+        "100°C"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7126",
+    "en": {
+      "question": "What is the primary function of the heart?",
+      "options": [
+        "Digesting food",
+        "Filtering blood",
+        "Producing hormones",
+        "Pumping blood"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हृदय का प्राथमिक कार्य क्या है?",
+      "options": [
+        "भोजन पचाना",
+        "रक्त छानना",
+        "हार्मोन बनाना",
+        "रक्त पंप करना"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7128",
+    "en": {
+      "question": "What is the largest mammal in the world?",
+      "options": [
+        "Elephant",
+        "Giraffe",
+        "Hippopotamus",
+        "Blue Whale"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा स्तनपायी कौन सा है?",
+      "options": [
+        "हाथी",
+        "जिराफ",
+        "दरियाई घोड़ा",
+        "ब्लू व्हेल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7131",
+    "en": {
+      "question": "What is the study of stars and planets called?",
+      "options": [
+        "Geology",
+        "Biology",
+        "Meteorology",
+        "Astronomy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सितारों और ग्रहों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "भूविज्ञान",
+        "जीव विज्ञान",
+        "मौसम विज्ञान",
+        "खगोल विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science"
+  },
+  {
+    "id": "GK7132",
+    "en": {
+      "question": "Which country is home to the kangaroo?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "Brazil",
+        "Australia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कंगारू किस देश का घर है?",
+      "options": [
+        "न्यूजीलैंड",
+        "दक्षिण अफ्रीका",
+        "ब्राजील",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography_animals"
+  },
+  {
+    "id": "GK7134",
+    "en": {
+      "question": "What year did World War II end?",
+      "options": [
+        "1942",
+        "1950",
+        "1948",
+        "1945"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "द्वितीय विश्व युद्ध किस वर्ष समाप्त हुआ?",
+      "options": [
+        "1942",
+        "1950",
+        "1948",
+        "1945"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history_world"
+  },
+  {
+    "id": "GK7139",
+    "en": {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "George Eliot",
+        "Jane Austen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'प्राइड एंड प्रेजुडिस' किसने लिखा था?",
+      "options": [
+        "एमिली ब्रोंटे",
+        "शार्लोट ब्रोंटे",
+        "जॉर्ज एलियट",
+        "जेन ऑस्टेन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK7140",
+    "en": {
+      "question": "What force keeps us grounded on Earth?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Tension",
+        "Gravity"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी शक्ति हमें पृथ्वी पर टिकाए रखती है?",
+      "options": [
+        "चुंबकत्व",
+        "घर्षण",
+        "तनाव",
+        "गुरुत्वाकर्षण"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7142",
+    "en": {
+      "question": "How many sides does a hexagon have?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "षट्भुज (hexagon) की कितनी भुजाएँ होती हैं?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "geometry"
+  },
+  {
+    "id": "GK7143",
+    "en": {
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "options": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Donatello",
+        "Michelangelo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिस्टिन चैपल की छत किसने चित्रित की थी?",
+      "options": [
+        "लियोनार्डो दा विंची",
+        "राफेल",
+        "डोनाटेलो",
+        "माइकल एंजेलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7144",
+    "en": {
+      "question": "What is the chemical symbol for Iron?",
+      "options": [
+        "Ir",
+        "I",
+        "In",
+        "Fe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लोहे (Iron) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Ir",
+        "I",
+        "In",
+        "Fe"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7145",
+    "en": {
+      "question": "What is the largest ocean animal?",
+      "options": [
+        "Great White Shark",
+        "Giant Squid",
+        "Killer Whale",
+        "Blue Whale"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सबसे बड़ा समुद्री जानवर कौन सा है?",
+      "options": [
+        "ग्रेट व्हाइट शार्क",
+        "विशाल स्क्विड",
+        "किलर व्हेल",
+        "ब्लू व्हेल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7146",
+    "en": {
+      "question": "In Greek mythology, who is the god of the sea?",
+      "options": [
+        "Zeus",
+        "Hades",
+        "Apollo",
+        "Poseidon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रीक पौराणिक कथाओं में, समुद्र का देवता कौन है?",
+      "options": [
+        "ज़ीउस",
+        "हेडीस",
+        "अपोलो",
+        "पोसीडॉन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "mythology"
+  },
+  {
+    "id": "GK7149",
+    "en": {
+      "question": "Which country is famous for its pyramids?",
+      "options": [
+        "Greece",
+        "Mexico",
+        "Peru",
+        "Egypt"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश अपने पिरामिडों के लिए प्रसिद्ध है?",
+      "options": [
+        "ग्रीस",
+        "मेक्सिको",
+        "पेरू",
+        "मिस्र"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_history_landmarks"
+  },
+  {
+    "id": "GK7150",
+    "en": {
+      "question": "Who developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Stephen Hawking",
+        "Albert Einstein"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सापेक्षता का सिद्धांत किसने विकसित किया?",
+      "options": [
+        "आइज़क न्यूटन",
+        "गैलीलियो गैलीली",
+        "स्टीफन हॉकिंग",
+        "अल्बर्ट आइंस्टीन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_science_physics"
+  },
+  {
+    "id": "GK7151",
+    "en": {
+      "question": "What is the freezing point of water in Celsius?",
+      "options": [
+        "-10°C",
+        "10°C",
+        "5°C",
+        "0°C"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सेल्सियस में पानी का हिमांक (freezing point) क्या है?",
+      "options": [
+        "-10°C",
+        "10°C",
+        "5°C",
+        "0°C"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_physics"
+  },
+  {
+    "id": "GK7153",
+    "en": {
+      "question": "What is the main gas found in the air we breathe (about 78%)?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जिस हवा में हम सांस लेते हैं उसमें पाई जाने वाली मुख्य गैस कौन सी है (लगभग 78%)?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "आर्गन",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_chemistry_atmosphere"
+  },
+  {
+    "id": "GK7154",
+    "en": {
+      "question": "Who wrote 'The Adventures of Huckleberry Finn'?",
+      "options": [
+        "Herman Melville",
+        "Nathaniel Hawthorne",
+        "Ernest Hemingway",
+        "Mark Twain"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द एडवेंचर्स ऑफ हकलबेरी फिन' किसने लिखा था?",
+      "options": [
+        "हरमन मेलविल",
+        "नथानिएल हॉथोर्न",
+        "जॉन स्टीनबेक",
+        "हार्पर ली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_us"
+  },
+  {
+    "id": "GK7155",
+    "en": {
+      "question": "What is the largest country in the world by area?",
+      "options": [
+        "Canada",
+        "China",
+        "USA",
+        "Russia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्षेत्रफल की दृष्टि से दुनिया का सबसे बड़ा देश कौन सा है?",
+      "options": [
+        "कनाडा",
+        "चीन",
+        "यूएसए",
+        "रूस"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7156",
+    "en": {
+      "question": "What is the study of earthquakes called?",
+      "options": [
+        "Volcanology",
+        "Meteorology",
+        "Geology",
+        "Seismology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूकंपों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "ज्वालामुखी विज्ञान",
+        "मौसम विज्ञान",
+        "भूविज्ञान",
+        "भूकंप विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_geology"
+  },
+  {
+    "id": "GK7157",
+    "en": {
+      "question": "Which famous scientist developed the laws of motion and universal gravitation?",
+      "options": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Copernicus",
+        "Isaac Newton"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध वैज्ञानिक ने गति और सार्वभौमिक गुरुत्वाकर्षण के नियम विकसित किए?",
+      "options": [
+        "अल्बर्ट आइंस्टीन",
+        "गैलीलियो गैलीली",
+        "कोपरनिकस",
+        "आइज़क न्यूटन"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_science_physics"
+  },
+  {
+    "id": "GK7160",
+    "en": {
+      "question": "Who painted 'Starry Night'?",
+      "options": [
+        "Claude Monet",
+        "Edgar Degas",
+        "Pierre-Auguste Renoir",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'स्टारी नाइट' किसने चित्रित की थी?",
+      "options": [
+        "क्लॉड मोनेट",
+        "एडगर डेगास",
+        "पियरे-अगस्टे रेनॉयर",
+        "विन्सेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7161",
+    "en": {
+      "question": "What is the tallest mammal?",
+      "options": [
+        "Elephant",
+        "Whale",
+        "Horse",
+        "Giraffe"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सबसे लंबा स्तनपायी कौन सा है?",
+      "options": [
+        "हाथी",
+        "व्हेल",
+        "घोड़ा",
+        "जिराफ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7163",
+    "en": {
+      "question": "In which country is the Great Wall located?",
+      "options": [
+        "Japan",
+        "India",
+        "Mongolia",
+        "China"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "महान दीवार किस देश में स्थित है?",
+      "options": [
+        "जापान",
+        "भारत",
+        "मंगोलिया",
+        "चीन"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_history_landmarks"
+  },
+  {
+    "id": "GK7164",
+    "en": {
+      "question": "What instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer",
+        "Barometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा उपकरण वायुमंडलीय दाब मापता है?",
+      "options": [
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर",
+        "बैरोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK7165",
+    "en": {
+      "question": "Who wrote '1984'?",
+      "options": [
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "Philip K. Dick",
+        "George Orwell"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'1984' किसने लिखा था?",
+      "options": [
+        "एल्डस हक्सले",
+        "रे ब्रैडबरी",
+        "फिलिप के. डिक",
+        "जॉर्ज ऑरवेल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK7168",
+    "en": {
+      "question": "What is the currency of India?",
+      "options": [
+        "Dollar",
+        "Euro",
+        "Baht",
+        "Rupee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारत की मुद्रा क्या है?",
+      "options": [
+        "डॉलर",
+        "यूरो",
+        "बात",
+        "रुपया"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_economics_india"
+  },
+  {
+    "id": "GK7169",
+    "en": {
+      "question": "Who was the first man to walk on the moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Michael Collins",
+        "Yuri Gagarin",
+        "Neil Armstrong"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चंद्रमा पर चलने वाला पहला व्यक्ति कौन था?",
+      "options": [
+        "बज़ एल्ड्रिन",
+        "माइकल कॉलिन्स",
+        "यूरी गगारिन",
+        "नील आर्मस्ट्रांग"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "history_space"
+  },
+  {
+    "id": "GK7172",
+    "en": {
+      "question": "Which element is necessary for rusting to occur?",
+      "options": [
+        "Nitrogen",
+        "Carbon",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जंग लगने के लिए कौन सा तत्व आवश्यक है?",
+      "options": [
+        "नाइट्रोजन",
+        "कार्बन",
+        "हाइड्रोजन",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7174",
+    "en": {
+      "question": "In which city is the famous landmark 'Christ the Redeemer' located?",
+      "options": [
+        "São Paulo",
+        "Brasília",
+        "Salvador",
+        "Rio de Janeiro"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्रसिद्ध लैंडमार्क 'क्राइस्ट द रिडीमर' किस शहर में स्थित है?",
+      "options": [
+        "साओ पाउलो",
+        "ब्रासीलिया",
+        "सल्वाडोर",
+        "रियो डी जनेरियो"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_landmarks"
+  },
+  {
+    "id": "GK7175",
+    "en": {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "Harper Lee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'टू किल अ मॉकिंगबर्ड' किसने लिखा था?",
+      "options": [
+        "एफ. स्कॉट फिट्ज़गेराल्ड",
+        "अर्नेस्ट हेमिंग्वे",
+        "जॉन स्टीनबेक",
+        "हार्पर ली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_us"
+  },
+  {
+    "id": "GK7177",
+    "en": {
+      "question": "What is the process of liquid turning into gas called?",
+      "options": [
+        "Condensation",
+        "Freezing",
+        "Melting",
+        "Evaporation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तरल के गैस में बदलने की प्रक्रिया को क्या कहते हैं?",
+      "options": [
+        "संघनन",
+        "जमना",
+        "पिघलना",
+        "वाष्पीकरण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_physics_chemistry"
+  },
+  {
+    "id": "GK7180",
+    "en": {
+      "question": "Who was the main leader of the Indian independence movement against British rule?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Sardar Patel",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ब्रिटिश शासन के खिलाफ भारतीय स्वतंत्रता आंदोलन के मुख्य नेता कौन थे?",
+      "options": [
+        "जवाहरलाल नेहरू",
+        "सरदार पटेल",
+        "सुभाष चंद्र बोस",
+        "महात्मा गांधी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "history_india"
+  },
+  {
+    "id": "GK7181",
+    "en": {
+      "question": "What is the capital of Sweden?",
+      "options": [
+        "Oslo",
+        "Copenhagen",
+        "Helsinki",
+        "Stockholm"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्वीडन की राजधानी क्या है?",
+      "options": [
+        "ओस्लो",
+        "कोपेनहेगन",
+        "हेलसिंकी",
+        "स्टॉकहोम"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7182",
+    "en": {
+      "question": "How many bones are in the adult human body?",
+      "options": [
+        "200",
+        "212",
+        "198",
+        "206"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वयस्क मानव शरीर में कितनी हड्डियाँ होती हैं?",
+      "options": [
+        "200",
+        "212",
+        "198",
+        "206"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  },
+  {
+    "id": "GK7183",
+    "en": {
+      "question": "What is the name of the famous clock tower in London?",
+      "options": [
+        "London Eye Clock",
+        "Westminster Clock",
+        "Tower Bridge Clock",
+        "Big Ben (Elizabeth Tower)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लंदन में प्रसिद्ध क्लॉक टॉवर का नाम क्या है?",
+      "options": [
+        "लंदन आई क्लॉक",
+        "वेस्टमिंस्टर क्लॉक",
+        "टॉवर ब्रिज क्लॉक",
+        "बिग बेन (एलिजाबेथ टॉवर)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_landmarks"
+  },
+  {
+    "id": "GK7185",
+    "en": {
+      "question": "What is the capital of South Africa? (Administrative)",
+      "options": [
+        "Cape Town",
+        "Johannesburg",
+        "Durban",
+        "Pretoria"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दक्षिण अफ्रीका की राजधानी क्या है? (प्रशासनिक)",
+      "options": [
+        "केप टाउन",
+        "जोहान्सबर्ग",
+        "डरबन",
+        "प्रिटोरिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7186",
+    "en": {
+      "question": "What is the primary color trio?",
+      "options": [
+        "Red, Green, Blue",
+        "Orange, Green, Violet",
+        "Black, White, Gray",
+        "Red, Yellow, Blue"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्राथमिक रंग तिकड़ी क्या है?",
+      "options": [
+        "लाल, हरा, नीला",
+        "नारंगी, हरा, बैंगनी",
+        "काला, सफेद, ग्रे",
+        "लाल, पीला, नीला"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "art_basics"
+  },
+  {
+    "id": "GK7187",
+    "en": {
+      "question": "Who wrote 'The Great Gatsby'?",
+      "options": [
+        "Ernest Hemingway",
+        "William Faulkner",
+        "John Steinbeck",
+        "F. Scott Fitzgerald"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द ग्रेट गैट्सबी' किसने लिखा था?",
+      "options": [
+        "अर्नेस्ट हेमिंग्वे",
+        "विलियम फॉकनर",
+        "जॉन स्टीनबेक",
+        "एफ. स्कॉट फिट्ज़गेराल्ड"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_us"
+  },
+  {
+    "id": "GK7189",
+    "en": {
+      "question": "What is the chemical symbol for Silver?",
+      "options": [
+        "Si",
+        "Sv",
+        "Sl",
+        "Ag"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चांदी (Silver) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Si",
+        "Sv",
+        "Sl",
+        "Ag"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_chemistry"
+  },
+  {
+    "id": "GK7190",
+    "en": {
+      "question": "How many players are on a standard soccer (football) team on the field at one time?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक मानक सॉकर (फुटबॉल) टीम में एक समय में मैदान पर कितने खिलाड़ी होते हैं?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_rules"
+  },
+  {
+    "id": "GK7193",
+    "en": {
+      "question": "In which continent is the Sahara Desert located?",
+      "options": [
+        "Asia",
+        "South America",
+        "Australia",
+        "Africa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सहारा रेगिस्तान किस महाद्वीप में स्थित है?",
+      "options": [
+        "एशिया",
+        "दक्षिण अमेरिका",
+        "ऑस्ट्रेलिया",
+        "अफ्रीका"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7194",
+    "en": {
+      "question": "Who is credited with inventing the World Wide Web?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Vint Cerf",
+        "Tim Berners-Lee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वर्ल्ड वाइड वेब का आविष्कार करने का श्रेय किसे दिया जाता है?",
+      "options": [
+        "बिल गेट्स",
+        "स्टीव जॉब्स",
+        "विंट सेर्फ़",
+        "टिम बर्नर्स-ली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_technology"
+  },
+  {
+    "id": "GK7195",
+    "en": {
+      "question": "What is the capital of Norway?",
+      "options": [
+        "Stockholm",
+        "Copenhagen",
+        "Helsinki",
+        "Oslo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नॉर्वे की राजधानी क्या है?",
+      "options": [
+        "स्टॉकहोम",
+        "कोपेनहेगन",
+        "हेलसिंकी",
+        "ओस्लो"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK7196",
+    "en": {
+      "question": "What scale is used to measure the intensity of earthquakes?",
+      "options": [
+        "Celsius Scale",
+        "Fahrenheit Scale",
+        "Kelvin Scale",
+        "Richter Scale"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूकंप की तीव्रता मापने के लिए किस पैमाने का उपयोग किया जाता है?",
+      "options": [
+        "सेल्सियस स्केल",
+        "फारेनहाइट स्केल",
+        "केल्विन स्केल",
+        "रिक्टर स्केल"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_geology_tools"
+  },
+  {
+    "id": "GK7197",
+    "en": {
+      "question": "Who painted 'The Persistence of Memory' (melting clocks)?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "René Magritte",
+        "Salvador Dalí"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द पर्सिस्टेंस ऑफ मेमोरी' (पिघलती घड़ियाँ) किसने चित्रित की थी?",
+      "options": [
+        "पाब्लो पिकासो",
+        "हेनरी मैटिस",
+        "रेने मैग्रेट",
+        "साल्वाडोर डाली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK7199",
+    "en": {
+      "question": "What is the official language of China?",
+      "options": [
+        "Cantonese",
+        "Shanghainese",
+        "Tibetan",
+        "Mandarin Chinese"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चीन की आधिकारिक भाषा क्या है?",
+      "options": [
+        "कैंटोनीज़",
+        "शंघाईनीज़",
+        "तिब्बती",
+        "मंदारिन चीनी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture_language"
+  },
+  {
+    "id": "GK7200",
+    "en": {
+      "question": "What is the name of the longest bone in the human body?",
+      "options": [
+        "Humerus",
+        "Tibia",
+        "Fibula",
+        "Femur"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे लंबी हड्डी का नाम क्या है?",
+      "options": [
+        "ह्यूमरस",
+        "टिबिया",
+        "फिबुला",
+        "फीमर (जांघ की हड्डी)"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_biology"
+  }
+]

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "GK5001",
+    "en": {
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हमारे सौर मंडल का सबसे बड़ा ग्रह कौन सा है?",
+      "options": [
+        "पृथ्वी",
+        "मंगल",
+        "बृहस्पति",
+        "शनि"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5002",
+    "en": {
+      "question": "What is the chemical symbol for water?",
+      "options": [
+        "O2",
+        "H2O",
+        "CO2",
+        "NaCl"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पानी का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "O2",
+        "H2O",
+        "CO2",
+        "NaCl"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5003",
+    "en": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Leonardo da Vinci",
+        "Donatello"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मोना लिसा को किसने चित्रित किया?",
+      "options": [
+        "माइकल एंजेलो",
+        "राफेल",
+        "लियोनार्डो दा विंची",
+        "डोनाटेलो"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5005",
+    "en": {
+      "question": "Which animal is known as the 'King of the Jungle'?",
+      "options": [
+        "Tiger",
+        "Elephant",
+        "Lion",
+        "Gorilla"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस जानवर को 'जंगल का राजा' कहा जाता है?",
+      "options": [
+        "बाघ",
+        "हाथी",
+        "शेर",
+        "गोरिल्ला"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5006",
+    "en": {
+      "question": "What is the primary language spoken in Brazil?",
+      "options": [
+        "Spanish",
+        "English",
+        "Portuguese",
+        "French"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ब्राजील में बोली जाने वाली प्राथमिक भाषा क्या है?",
+      "options": [
+        "स्पेनिश",
+        "अंग्रेजी",
+        "पुर्तगाली",
+        "फ्रेंच"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5007",
+    "en": {
+      "question": "How many continents are there in the world?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व में कितने महाद्वीप हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5008",
+    "en": {
+      "question": "Who invented the light bulb?",
+      "options": [
+        "Nikola Tesla",
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Benjamin Franklin"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बिजली के बल्ब का आविष्कार किसने किया?",
+      "options": [
+        "निकोला टेस्ला",
+        "थॉमस एडिसन",
+        "अलेक्जेंडर ग्राहम बेल",
+        "बेंजामिन फ्रैंकलिन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "science_invention"
+  },
+  {
+    "id": "GK5009",
+    "en": {
+      "question": "What is the longest river in the world?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "दुनिया की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "अमेज़ॅन नदी",
+        "नील नदी",
+        "यांग्त्ज़ी नदी",
+        "मिसिसिपी नदी"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5011",
+    "en": {
+      "question": "What do bees produce?",
+      "options": [
+        "Silk",
+        "Honey",
+        "Wax",
+        "Pollen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मधुमक्खियां क्या पैदा करती हैं?",
+      "options": [
+        "रेशम",
+        "शहद",
+        "मोम",
+        "पराग"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "biology_insects"
+  },
+  {
+    "id": "GK5012",
+    "en": {
+      "question": "What is the currency of the United Kingdom?",
+      "options": [
+        "Euro",
+        "Dollar",
+        "Pound Sterling",
+        "Yen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "यूनाइटेड किंगडम की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "डॉलर",
+        "पाउंड स्टर्लिंग",
+        "येन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5013",
+    "en": {
+      "question": "Who wrote 'Hamlet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Leo Tolstoy"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'हेमलेट' किसने लिखा?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "विलियम शेक्सपियर",
+        "जेन ऑस्टेन",
+        "लियो टॉल्स्टॉय"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5014",
+    "en": {
+      "question": "What is the main gas found in the air we breathe?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon Dioxide",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम जो हवा सांस लेते हैं उसमें मुख्य गैस कौन सी है?",
+      "options": [
+        "ऑक्सीजन",
+        "हाइड्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5015",
+    "en": {
+      "question": "Which country is famous for the pyramids?",
+      "options": [
+        "Greece",
+        "Italy",
+        "Egypt",
+        "Mexico"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा देश पिरामिडों के लिए प्रसिद्ध है?",
+      "options": [
+        "ग्रीस",
+        "इटली",
+        "मिस्र",
+        "मेक्सिको"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5017",
+    "en": {
+      "question": "What instrument is used to measure temperature?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Microscope",
+        "Telescope"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "तापमान मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "माइक्रोस्कोप",
+        "टेलीस्कोप"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5018",
+    "en": {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Quartz"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे कठोर प्राकृतिक पदार्थ कौन सा है?",
+      "options": [
+        "सोना",
+        "लोहा",
+        "हीरा",
+        "क्वार्ट्ज"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "geology"
+  },
+  {
+    "id": "GK5019",
+    "en": {
+      "question": "How many players are there in a standard soccer team?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "एक मानक सॉकर टीम में कितने खिलाड़ी होते हैं?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "sports"
+  },
+  {
+    "id": "GK5020",
+    "en": {
+      "question": "What is the main ingredient in traditional Japanese sushi?",
+      "options": [
+        "Rice",
+        "Noodles",
+        "Bread",
+        "Potatoes"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पारंपरिक जापानी सुशी में मुख्य सामग्री क्या है?",
+      "options": [
+        "चावल",
+        "नूडल्स",
+        "ब्रेड",
+        "आलू"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "world_food"
+  },
+  {
+    "id": "GK5021",
+    "en": {
+      "question": "Which color is used for the top stripe of the Indian flag?",
+      "options": [
+        "White",
+        "Green",
+        "Saffron",
+        "Blue"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारतीय ध्वज की ऊपरी पट्टी के लिए किस रंग का प्रयोग किया जाता है?",
+      "options": [
+        "सफेद",
+        "हरा",
+        "केसरिया",
+        "नीला"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "indian_symbols"
+  },
+  {
+    "id": "GK5022",
+    "en": {
+      "question": "What is the study of stars and planets called?",
+      "options": [
+        "Geology",
+        "Biology",
+        "Astronomy",
+        "Chemistry"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "तारों और ग्रहों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "भूविज्ञान",
+        "जीव विज्ञान",
+        "खगोल विज्ञान",
+        "रसायन विज्ञान"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_fields"
+  },
+  {
+    "id": "GK5023",
+    "en": {
+      "question": "In which country is the Eiffel Tower located?",
+      "options": [
+        "Italy",
+        "Spain",
+        "France",
+        "Germany"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "एफिल टॉवर किस देश में स्थित है?",
+      "options": [
+        "इटली",
+        "स्पेन",
+        "फ्रांस",
+        "जर्मनी"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5024",
+    "en": {
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पौधे वायुमंडल से कौन सी गैस अवशोषित करते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5025",
+    "en": {
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "George Washington",
+        "John Adams"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका के पहले राष्ट्रपति कौन थे?",
+      "options": [
+        "अब्राहम लिंकन",
+        "थॉमस जेफरसन",
+        "जॉर्ज वाशिंगटन",
+        "जॉन एडम्स"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5027",
+    "en": {
+      "question": "What is the freezing point of water in Celsius?",
+      "options": [
+        "100°C",
+        "0°C",
+        "50°C",
+        "-10°C"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सेल्सियस में पानी का हिमांक क्या है?",
+      "options": [
+        "100°C",
+        "0°C",
+        "50°C",
+        "-10°C"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5028",
+    "en": {
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "options": [
+        "Eagle",
+        "Owl",
+        "Parrot",
+        "Penguin"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा पक्षी मानव भाषण की नकल करने की क्षमता के लिए जाना जाता है?",
+      "options": [
+        "ईगल",
+        "उल्लू",
+        "तोता",
+        "पेंगुइन"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5030",
+    "en": {
+      "question": "What force keeps us on the ground?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Tension"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी शक्ति हमें जमीन पर रखती है?",
+      "options": [
+        "चुंबकत्व",
+        "घर्षण",
+        "गुरुत्वाकर्षण",
+        "तनाव"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5032",
+    "en": {
+      "question": "What is the main source of energy for the Earth?",
+      "options": [
+        "Moon",
+        "Stars",
+        "Sun",
+        "Wind"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के लिए ऊर्जा का मुख्य स्रोत क्या है?",
+      "options": [
+        "चंद्रमा",
+        "तारे",
+        "सूर्य",
+        "हवा"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5033",
+    "en": {
+      "question": "What is the national animal of India?",
+      "options": [
+        "Lion",
+        "Elephant",
+        "Tiger",
+        "Leopard"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय पशु कौन सा है?",
+      "options": [
+        "शेर",
+        "हाथी",
+        "बाघ",
+        "तेंदुआ"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "indian_symbols"
+  },
+  {
+    "id": "GK5034",
+    "en": {
+      "question": "What type of energy does a windmill use?",
+      "options": [
+        "Solar energy",
+        "Wind energy",
+        "Hydro energy",
+        "Geothermal energy"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पवनचक्की किस प्रकार की ऊर्जा का उपयोग करती है?",
+      "options": [
+        "सौर ऊर्जा",
+        "पवन ऊर्जा",
+        "जल ऊर्जा",
+        "भूतापीय ऊर्जा"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "science_energy"
+  },
+  {
+    "id": "GK5035",
+    "en": {
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "options": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Donatello",
+        "Michelangelo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सिस्टिन चैपल की छत को किसने चित्रित किया?",
+      "options": [
+        "लियोनार्डो दा विंची",
+        "राफेल",
+        "डोनाटेलो",
+        "माइकल एंजेलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5036",
+    "en": {
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        "Iron",
+        "Gold",
+        "Mercury",
+        "Silver"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी धातु कमरे के तापमान पर तरल होती है?",
+      "options": [
+        "लोहा",
+        "सोना",
+        "पारा",
+        "चांदी"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5037",
+    "en": {
+      "question": "What is the tallest mountain in the world?",
+      "options": [
+        "K2",
+        "Kangchenjunga",
+        "Mount Everest",
+        "Makalu"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "दुनिया का सबसे ऊँचा पर्वत कौन सा है?",
+      "options": [
+        "K2",
+        "कंचनजंगा",
+        "माउंट एवरेस्ट",
+        "मकालू"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5038",
+    "en": {
+      "question": "Which country gifted the Statue of Liberty to the USA?",
+      "options": [
+        "United Kingdom",
+        "France",
+        "Spain",
+        "Germany"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस देश ने संयुक्त राज्य अमेरिका को स्टैच्यू ऑफ लिबर्टी उपहार में दिया था?",
+      "options": [
+        "यूनाइटेड किंगडम",
+        "फ्रांस",
+        "स्पेन",
+        "जर्मनी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK5039",
+    "en": {
+      "question": "What is the process by which plants make their food called?",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Photosynthesis",
+        "Pollination"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "वह प्रक्रिया क्या कहलाती है जिसके द्वारा पौधे अपना भोजन बनाते हैं?",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "प्रकाश संश्लेषण",
+        "परागण"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5040",
+    "en": {
+      "question": "What is the main function of the heart?",
+      "options": [
+        "To digest food",
+        "To pump blood",
+        "To filter waste",
+        "To help breathe"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हृदय का मुख्य कार्य क्या है?",
+      "options": [
+        "भोजन पचाना",
+        "रक्त पंप करना",
+        "अपशिष्ट छानना",
+        "सांस लेने में मदद करना"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5041",
+    "en": {
+      "question": "What is the capital of Spain?",
+      "options": [
+        "Barcelona",
+        "Seville",
+        "Madrid",
+        "Valencia"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "स्पेन की राजधानी क्या है?",
+      "options": [
+        "बार्सिलोना",
+        "सेविले",
+        "मैड्रिड",
+        "वालेंसिया"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5042",
+    "en": {
+      "question": "Which element is represented by the symbol 'O' in the periodic table?",
+      "options": [
+        "Gold",
+        "Oxygen",
+        "Osmium",
+        "Oganesson"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "आवर्त सारणी में 'O' प्रतीक द्वारा किस तत्व का प्रतिनिधित्व किया जाता है?",
+      "options": [
+        "सोना",
+        "ऑक्सीजन",
+        "ओस्मियम",
+        "ओगेनेसन"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5045",
+    "en": {
+      "question": "What is the primary color combination that makes green?",
+      "options": [
+        "Red and Yellow",
+        "Blue and Yellow",
+        "Red and Blue",
+        "Blue and White"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हरा रंग बनाने वाला प्राथमिक रंग संयोजन क्या है?",
+      "options": [
+        "लाल और पीला",
+        "नीला और पीला",
+        "लाल और नीला",
+        "नीला और सफेद"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "art_basics"
+  },
+  {
+    "id": "GK5048",
+    "en": {
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सूर्य के सबसे निकट कौन सा ग्रह है?",
+      "options": [
+        "शुक्र",
+        "पृथ्वी",
+        "बुध",
+        "मंगल"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5049",
+    "en": {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Bronte",
+        "Emily Bronte",
+        "George Eliot"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'प्राइड एंड प्रेजुडिस' किसने लिखा?",
+      "options": [
+        "जेन ऑस्टेन",
+        "चार्लोट ब्रोंटे",
+        "एमिली ब्रोंटे",
+        "जॉर्ज एलियट"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5050",
+    "en": {
+      "question": "What is the main ingredient in guacamole?",
+      "options": [
+        "Tomato",
+        "Onion",
+        "Avocado",
+        "Lime"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ग्वाकामोले में मुख्य सामग्री क्या है?",
+      "options": [
+        "टमाटर",
+        "प्याज",
+        "एवोकैडो",
+        "नींबू"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "world_food"
+  },
+  {
+    "id": "GK5053",
+    "en": {
+      "question": "Which continent is the largest by land area?",
+      "options": [
+        "Africa",
+        "North America",
+        "Asia",
+        "South America"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भूमि क्षेत्र के हिसाब से सबसे बड़ा महाद्वीप कौन सा है?",
+      "options": [
+        "अफ्रीका",
+        "उत्तरी अमेरिका",
+        "एशिया",
+        "दक्षिण अमेरिका"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5054",
+    "en": {
+      "question": "What animal is featured on the Porsche logo?",
+      "options": [
+        "Lion",
+        "Horse",
+        "Bull",
+        "Eagle"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पोर्श लोगो पर कौन सा जानवर चित्रित है?",
+      "options": [
+        "शेर",
+        "घोड़ा",
+        "बैल",
+        "ईगल"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "GK5055",
+    "en": {
+      "question": "What is the national flower of India?",
+      "options": [
+        "Rose",
+        "Lotus",
+        "Sunflower",
+        "Marigold"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय फूल कौन सा है?",
+      "options": [
+        "गुलाब",
+        "कमल",
+        "सूरजमुखी",
+        "गेंदा"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "indian_symbols"
+  },
+  {
+    "id": "GK5056",
+    "en": {
+      "question": "What is the capital of Italy?",
+      "options": [
+        "Venice",
+        "Florence",
+        "Rome",
+        "Milan"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इटली की राजधानी क्या है?",
+      "options": [
+        "वेनिस",
+        "फ्लोरेंस",
+        "रोम",
+        "मिलान"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5057",
+    "en": {
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में कौन सी गैस सबसे प्रचुर मात्रा में है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "आर्गन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5058",
+    "en": {
+      "question": "How many legs does a spider have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "एक मकड़ी के कितने पैर होते हैं?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "biology_insects"
+  },
+  {
+    "id": "GK5059",
+    "en": {
+      "question": "Who discovered gravity?",
+      "options": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Nikola Tesla"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "गुरुत्वाकर्षण की खोज किसने की?",
+      "options": [
+        "अल्बर्ट आइंस्टीन",
+        "गैलीलियो गैलिली",
+        "आइजैक न्यूटन",
+        "निकोला टेस्ला"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "science_history"
+  },
+  {
+    "id": "GK5060",
+    "en": {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "South Korea",
+        "Japan",
+        "Thailand"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'उगते सूरज की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "चीन",
+        "दक्षिण कोरिया",
+        "जापान",
+        "थाईलैंड"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5061",
+    "en": {
+      "question": "What is the largest bone in the human body?",
+      "options": [
+        "Skull",
+        "Femur",
+        "Humerus",
+        "Tibia"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे बड़ी हड्डी कौन सी है?",
+      "options": [
+        "खोपड़ी",
+        "फीमर (जांघ की हड्डी)",
+        "ह्यूमरस (बांह की हड्डी)",
+        "टिबिया (पिंडली की हड्डी)"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5062",
+    "en": {
+      "question": "What is the capital of Germany?",
+      "options": [
+        "Munich",
+        "Hamburg",
+        "Frankfurt",
+        "Berlin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जर्मनी की राजधानी क्या है?",
+      "options": [
+        "म्यूनिख",
+        "हैम्बर्ग",
+        "फ्रैंकफर्ट",
+        "बर्लिन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5063",
+    "en": {
+      "question": "Which element is essential for human bones?",
+      "options": [
+        "Iron",
+        "Calcium",
+        "Potassium",
+        "Sodium"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव हड्डियों के लिए कौन सा तत्व आवश्यक है?",
+      "options": [
+        "लोहा",
+        "कैल्शियम",
+        "पोटेशियम",
+        "सोडियम"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5065",
+    "en": {
+      "question": "Who painted 'Starry Night'?",
+      "options": [
+        "Claude Monet",
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dalí"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'स्टारी नाइट' किसने चित्रित किया?",
+      "options": [
+        "क्लॉड मोनेट",
+        "पाब्लो पिकासो",
+        "विंसेंट वैन गॉग",
+        "साल्वाडोर डाली"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5066",
+    "en": {
+      "question": "What is the common name for Sodium Chloride?",
+      "options": [
+        "Sugar",
+        "Vinegar",
+        "Salt",
+        "Baking Soda"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सोडियम क्लोराइड का सामान्य नाम क्या है?",
+      "options": [
+        "चीनी",
+        "सिरका",
+        "नमक",
+        "बेकिंग सोडा"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5067",
+    "en": {
+      "question": "Which sport uses a shuttlecock?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Table Tennis"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस खेल में शटलकॉक का उपयोग किया जाता है?",
+      "options": [
+        "टेनिस",
+        "बैडमिंटन",
+        "स्क्वैश",
+        "टेबल टेनिस"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "sports"
+  },
+  {
+    "id": "GK5069",
+    "en": {
+      "question": "Which organ in the human body filters blood?",
+      "options": [
+        "Lungs",
+        "Liver",
+        "Kidneys",
+        "Stomach"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मानव शरीर में कौन सा अंग रक्त को फ़िल्टर करता है?",
+      "options": [
+        "फेफड़े",
+        "यकृत",
+        "गुर्दे",
+        "पेट"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5070",
+    "en": {
+      "question": "What is the main language spoken in China?",
+      "options": [
+        "Cantonese",
+        "Mandarin",
+        "Shanghai",
+        "Tibetan"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "चीन में बोली जाने वाली मुख्य भाषा क्या है?",
+      "options": [
+        "कैंटोनीज़",
+        "मंदारिन",
+        "शंघाई",
+        "तिब्बती"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5071",
+    "en": {
+      "question": "What precious gem is red?",
+      "options": [
+        "Emerald",
+        "Sapphire",
+        "Ruby",
+        "Diamond"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा कीमती रत्न लाल होता है?",
+      "options": [
+        "पन्ना",
+        "नीलम",
+        "माणिक",
+        "हीरा"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "geology"
+  },
+  {
+    "id": "GK5072",
+    "en": {
+      "question": "Who is known as the 'Father of India'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Sardar Patel",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारत का राष्ट्रपिता' कहा जाता है?",
+      "options": [
+        "जवाहरलाल नेहरू",
+        "सरदार पटेल",
+        "महात्मा गांधी",
+        "सुभाष चंद्र बोस"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK5075",
+    "en": {
+      "question": "How many colors are there in a rainbow?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इंद्रधनुष में कितने रंग होते हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "science_light"
+  },
+  {
+    "id": "GK5078",
+    "en": {
+      "question": "What type of animal is a dolphin?",
+      "options": [
+        "Fish",
+        "Mammal",
+        "Reptile",
+        "Amphibian"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "डॉल्फिन किस प्रकार का जानवर है?",
+      "options": [
+        "मछली",
+        "स्तनपायी",
+        "सरीसृप",
+        "उभयचर"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5079",
+    "en": {
+      "question": "What is the main ingredient in bread?",
+      "options": [
+        "Sugar",
+        "Flour",
+        "Eggs",
+        "Butter"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ब्रेड में मुख्य सामग्री क्या है?",
+      "options": [
+        "चीनी",
+        "आटा",
+        "अंडे",
+        "मक्खन"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "general_food"
+  },
+  {
+    "id": "GK5080",
+    "en": {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Bronte",
+        "William Shakespeare",
+        "Leo Tolstoy"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'रोमियो और जूलियट' किसने लिखा?",
+      "options": [
+        "जेन ऑस्टेन",
+        "चार्लोट ब्रोंटे",
+        "विलियम शेक्सपियर",
+        "लियो टॉल्स्टॉय"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK5082",
+    "en": {
+      "question": "What is the chemical formula for Carbon Dioxide?",
+      "options": [
+        "CO",
+        "CO2",
+        "C2O",
+        "O2C"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कार्बन डाइऑक्साइड का रासायनिक सूत्र क्या है?",
+      "options": [
+        "CO",
+        "CO2",
+        "C2O",
+        "O2C"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5083",
+    "en": {
+      "question": "Which famous structure is located in Agra, India?",
+      "options": [
+        "Red Fort",
+        "Qutub Minar",
+        "Taj Mahal",
+        "Hawa Mahal"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी प्रसिद्ध संरचना आगरा, भारत में स्थित है?",
+      "options": [
+        "लाल किला",
+        "कुतुब मीनार",
+        "ताज महल",
+        "हवा महल"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "indian_landmarks"
+  },
+  {
+    "id": "GK5084",
+    "en": {
+      "question": "What is the process of water turning into ice called?",
+      "options": [
+        "Melting",
+        "Evaporation",
+        "Condensation",
+        "Freezing"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पानी के बर्फ में बदलने की प्रक्रिया क्या कहलाती है?",
+      "options": [
+        "पिघलना",
+        "वाष्पीकरण",
+        "संघनन",
+        "जमना"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "physics"
+  },
+  {
+    "id": "GK5085",
+    "en": {
+      "question": "Which instrument is used to see distant stars and planets?",
+      "options": [
+        "Microscope",
+        "Telescope",
+        "Binoculars",
+        "Magnifying Glass"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "दूर के तारों और ग्रहों को देखने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "माइक्रोस्कोप",
+        "टेलीस्कोप",
+        "दूरबीन",
+        "आवर्धक लेंस"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5086",
+    "en": {
+      "question": "What is the largest mammal on Earth?",
+      "options": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Hippopotamus"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे बड़ा स्तनपायी कौन सा है?",
+      "options": [
+        "हाथी",
+        "ब्लू व्हेल",
+        "जिराफ",
+        "दरियाई घोड़ा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5088",
+    "en": {
+      "question": "What color is chlorophyll, the pigment in plants?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "क्लोरोफिल, पौधों में वर्णक, का रंग क्या है?",
+      "options": [
+        "लाल",
+        "नीला",
+        "हरा",
+        "पीला"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5089",
+    "en": {
+      "question": "In which country would you find the Great Wall?",
+      "options": [
+        "Japan",
+        "India",
+        "China",
+        "Mongolia"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आप किस देश में महान दीवार पाएंगे?",
+      "options": [
+        "जापान",
+        "भारत",
+        "चीन",
+        "मंगोलिया"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5090",
+    "en": {
+      "question": "What is the main function of the lungs?",
+      "options": [
+        "Pumping blood",
+        "Digesting food",
+        "Filtering waste",
+        "Breathing"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फेफड़ों का मुख्य कार्य क्या है?",
+      "options": [
+        "रक्त पंप करना",
+        "भोजन पचाना",
+        "अपशिष्ट छानना",
+        "सांस लेना"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5091",
+    "en": {
+      "question": "Who wrote the Indian national anthem?",
+      "options": [
+        "Bankim Chandra Chatterjee",
+        "Rabindranath Tagore",
+        "Sarojini Naidu",
+        "Mahatma Gandhi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रगान किसने लिखा?",
+      "options": [
+        "बंकिम चंद्र चटर्जी",
+        "रवींद्रनाथ टैगोर",
+        "सरोजिनी नायडू",
+        "महात्मा गांधी"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK5093",
+    "en": {
+      "question": "What is the capital of Mexico?",
+      "options": [
+        "Guadalajara",
+        "Cancun",
+        "Mexico City",
+        "Tijuana"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मेक्सिको की राजधानी क्या है?",
+      "options": [
+        "गुआडलाजारा",
+        "कैनकन",
+        "मेक्सिको सिटी",
+        "तिजुआना"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5094",
+    "en": {
+      "question": "Which vitamin is obtained from sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा विटामिन धूप से प्राप्त होता है?",
+      "options": [
+        "विटामिन ए",
+        "विटामिन सी",
+        "विटामिन डी",
+        "विटामिन ई"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_nutrition"
+  },
+  {
+    "id": "GK5095",
+    "en": {
+      "question": "How many sides does a triangle have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "एक त्रिभुज की कितनी भुजाएँ होती हैं?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    },
+    "level": 2,
+    "category": "geometry_basics"
+  },
+  {
+    "id": "GK5097",
+    "en": {
+      "question": "Which artist cut off part of his own ear?",
+      "options": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Salvador Dalí",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस कलाकार ने अपने ही कान का हिस्सा काट दिया था?",
+      "options": [
+        "पाब्लो पिकासो",
+        "क्लॉड मोनेट",
+        "साल्वाडोर डाली",
+        "विंसेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5098",
+    "en": {
+      "question": "What planet is famous for its rings?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा ग्रह अपने छल्लों के लिए प्रसिद्ध है?",
+      "options": [
+        "बृहस्पति",
+        "शनि",
+        "अरुण",
+        "वरुण"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "science_space"
+  },
+  {
+    "id": "GK5099",
+    "en": {
+      "question": "What is the main gas used in balloons that float?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Carbon Dioxide"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "तैरने वाले गुब्बारों में मुख्य रूप से किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हीलियम",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5100",
+    "en": {
+      "question": "Who was the first man to walk on the moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "चाँद पर चलने वाला पहला आदमी कौन था?",
+      "options": [
+        "बज़ एल्ड्रिन",
+        "यूरी गगारिन",
+        "नील आर्मस्ट्रांग",
+        "माइकल कॉलिन्स"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "space_exploration"
+  }
+]

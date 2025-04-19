@@ -1,0 +1,452 @@
+[
+  {
+    "id": "GK321",
+    "en": {
+      "question": "Who was the founder of the Maurya Empire?",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Chanakya"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मौर्य साम्राज्य के संस्थापक कौन थे?",
+      "options": [
+        "अशोक",
+        "चंद्रगुप्त मौर्य",
+        "बिंदुसार",
+        "चाणक्य"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK322",
+    "en": {
+      "question": "What is the full form of DNA?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Diribonucleic Acid",
+        "Deoxyribose Nucleic Acid",
+        "Deoxyribonucleotide Acid"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "DNA का पूरा नाम क्या है?",
+      "options": [
+        "डीऑक्सीराइबोन्यूक्लिक एसिड",
+        "डीराइबोन्यूक्लिक एसिड",
+        "डीऑक्सीराइबोज न्यूक्लिक एसिड",
+        "डीऑक्सीराइबोन्यूक्लियोटाइड एसिड"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK323",
+    "en": {
+      "question": "Which gas is used in fire extinguishers?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अग्निशामकों में किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK324",
+    "en": {
+      "question": "Which instrument is used to measure humidity?",
+      "options": [
+        "Barometer",
+        "Hygrometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "आर्द्रता को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "हाइग्रोमीटर",
+        "थर्मामीटर",
+        "एनिमोमीटर"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK325",
+    "en": {
+      "question": "Which river is known as the 'Sorrow of Bengal'?",
+      "options": [
+        "Hooghly",
+        "Damodar",
+        "Ganga",
+        "Brahmaputra"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस नदी को 'बंगाल का शोक' के रूप में जाना जाता है?",
+      "options": [
+        "हुगली",
+        "दामोदर",
+        "गंगा",
+        "ब्रह्मपुत्र"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK326",
+    "en": {
+      "question": "Which vitamin helps in blood clotting?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin E",
+        "Vitamin K"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रक्त के थक्के जमाने में कौन सा विटामिन मदद करता है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन D",
+        "विटामिन E",
+        "विटामिन K"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK327",
+    "en": {
+      "question": "Who is the author of 'To Kill a Mockingbird'?",
+      "options": [
+        "J.K. Rowling",
+        "Harper Lee",
+        "Charles Dickens",
+        "Mark Twain"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'टू किल ए मॉकिंगबर्ड' के लेखक कौन हैं?",
+      "options": [
+        "जे.के. रोलिंग",
+        "हार्पर ली",
+        "चार्ल्स डिकेंस",
+        "मार्क ट्वेन"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK328",
+    "en": {
+      "question": "What is the currency of Germany?",
+      "options": [
+        "Pound",
+        "Franc",
+        "Euro",
+        "Mark"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जर्मनी की मुद्रा क्या है?",
+      "options": [
+        "पाउंड",
+        "फ्रैंक",
+        "यूरो",
+        "मार्क"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_economics"
+  },
+  {
+    "id": "GK329",
+    "en": {
+      "question": "Which is the largest air-breathing land animal?",
+      "options": [
+        "African Elephant",
+        "White Rhinoceros",
+        "Hippopotamus",
+        "Giraffe"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "सबसे बड़ा वायु-श्वसन स्थलीय जानवर कौन सा है?",
+      "options": [
+        "अफ्रीकी हाथी",
+        "सफेद गैंडा",
+        "हिप्पोपोटेमस",
+        "जिराफ"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK330",
+    "en": {
+      "question": "Who was the first Indian woman to win a Nobel Prize?",
+      "options": [
+        "Mother Teresa",
+        "Indira Gandhi",
+        "Kalpana Chawla",
+        "Arundhati Roy"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "नोबेल पुरस्कार जीतने वाली पहली भारतीय महिला कौन थीं?",
+      "options": [
+        "मदर टेरेसा",
+        "इंदिरा गांधी",
+        "कल्पना चावला",
+        "अरुंधति रॉय"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_awards"
+  },
+  {
+    "id": "GK331",
+    "en": {
+      "question": "Who built the Taj Mahal?",
+      "options": [
+        "Akbar",
+        "Shah Jahan",
+        "Aurangzeb",
+        "Jahangir"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ताज महल किसने बनवाया था?",
+      "options": [
+        "अकबर",
+        "शाहजहाँ",
+        "औरंगजेब",
+        "जहांगीर"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK332",
+    "en": {
+      "question": "What is the normal body temperature in Fahrenheit?",
+      "options": [
+        "96.8°F",
+        "98.6°F",
+        "100.4°F",
+        "102.2°F"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "फारेनहाइट में सामान्य शरीर का तापमान क्या होता है?",
+      "options": [
+        "96.8°F",
+        "98.6°F",
+        "100.4°F",
+        "102.2°F"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK333",
+    "en": {
+      "question": "Who discovered the X-rays?",
+      "options": [
+        "Marie Curie",
+        "Wilhelm Conrad Roentgen",
+        "Albert Einstein",
+        "Isaac Newton"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "एक्स-रे की खोज किसने की थी?",
+      "options": [
+        "मैरी क्यूरी",
+        "विल्हेम कॉनराड रोंटजन",
+        "अल्बर्ट आइंस्टाइन",
+        "आइजैक न्यूटन"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK335",
+    "en": {
+      "question": "What is the capital of South Korea?",
+      "options": [
+        "Seoul",
+        "Busan",
+        "Pyongyang",
+        "Tokyo"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "दक्षिण कोरिया की राजधानी क्या है?",
+      "options": [
+        "सियोल",
+        "बुसान",
+        "प्योंगयांग",
+        "टोक्यो"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK337",
+    "en": {
+      "question": "Who is known as the 'Iron Man of India'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Sardar Vallabhbhai Patel",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत के 'लौह पुरुष' के रूप में किसे जाना जाता है?",
+      "options": [
+        "जवाहरलाल नेहरू",
+        "सरदार वल्लभभाई पटेल",
+        "महात्मा गांधी",
+        "सुभाष चंद्र बोस"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK338",
+    "en": {
+      "question": "Which is the hardest mineral on Earth?",
+      "options": [
+        "Ruby",
+        "Diamond",
+        "Topaz",
+        "Quartz"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे कठोर खनिज कौन सा है?",
+      "options": [
+        "रूबी",
+        "हीरा",
+        "टोपाज",
+        "क्वार्ट्ज"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "geology"
+  },
+  {
+    "id": "GK339",
+    "en": {
+      "question": "In which year did the First World War begin?",
+      "options": [
+        "1914",
+        "1917",
+        "1919",
+        "1939"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "प्रथम विश्व युद्ध किस वर्ष में शुरू हुआ था?",
+      "options": [
+        "1914",
+        "1917",
+        "1919",
+        "1939"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK340",
+    "en": {
+      "question": "What is the name of the highest military decoration in India?",
+      "options": [
+        "Param Vir Chakra",
+        "Ashok Chakra",
+        "Maha Vir Chakra",
+        "Kirti Chakra"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत में सर्वोच्च सैन्य सम्मान का नाम क्या है?",
+      "options": [
+        "परम वीर चक्र",
+        "अशोक चक्र",
+        "महा वीर चक्र",
+        "कीर्ति चक्र"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_awards"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gk_gen_021",
+    "en": {
+      "question": "Which particle is exchanged between nucleons in the strong nuclear force?",
+      "options": ["Photon", "Gluon", "Pion", "W boson"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मजबूत नाभिकीय बल में न्यूक्लिऑन के बीच कौन सा कण विनिमय होता है?",
+      "options": ["फोटॉन", "ग्लूऑन", "पाइऑन", "W बोसॉन"],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_022",
+    "en": {
+      "question": "Who developed the theory of relativity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सापेक्षता का सिद्धांत किसने विकसित किया था?",
+      "options": ["आइजैक न्यूटन", "अल्बर्ट आइंस्टाइन", "स्टीफन हॉकिंग", "नील्स बोर"],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_023",
+    "en": {
+      "question": "What is the chemical symbol for silver?",
+      "options": ["Si", "Sl", "Sr", "Ag"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चांदी का रासायनिक प्रतीक क्या है?",
+      "options": ["Si", "Sl", "Sr", "Ag"],
+      "answer": 3
+    },
+    "level": 9,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_024",
+    "en": {
+      "question": "Which organelle is known as the 'powerhouse of the cell'?",
+      "options": ["Nucleus", "Endoplasmic Reticulum", "Mitochondria", "Golgi Apparatus"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस कोशिकांग को 'कोशिका का पावरहाउस' कहा जाता है?",
+      "options": ["केंद्रक", "एंडोप्लाज्मिक रेटिकुलम", "माइटोकॉन्ड्रिया", "गॉल्जी उपकरण"],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_025",
+    "en": {
+      "question": "What is the smallest bone in the human body?",
+      "options": ["Stapes", "Malleus", "Incus", "Coccyx"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे छोटी हड्डी कौन सी है?",
+      "options": ["स्टेपीज़", "मैलियस", "इनकस", "कॉक्सिक्स"],
+      "answer": 0
+    },
+    "level": 9,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_026",
+    "en": {
+      "question": "Who is the author of 'To Kill a Mockingbird'?",
+      "options": ["J.K. Rowling", "Harper Lee", "George Orwell", "Ernest Hemingway"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'टू किल अ मॉकिंगबर्ड' के लेखक कौन हैं?",
+      "options": ["जे.के. रोलिंग", "हार्पर ली", "जॉर्ज ऑरवेल", "अर्नेस्ट हेमिंग्वे"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_027",
+    "en": {
+      "question": "What is the capital of Argentina?",
+      "options": ["Santiago", "Lima", "Buenos Aires", "Rio de Janeiro"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अर्जेंटीना की राजधानी क्या है?",
+      "options": ["सैंटियागो", "लीमा", "ब्यूनस आयर्स", "रियो डी जनेरियो"],
+      "answer": 2
+    },
+    "level": 10,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_028",
+    "en": {
+      "question": "Which blood type is known as the universal donor?",
+      "options": ["A+", "AB-", "B-", "O-"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस रक्त प्रकार को सार्वभौमिक दाता के रूप में जाना जाता है?",
+      "options": ["A+", "AB-", "B-", "O-"],
+      "answer": 3
+    },
+    "level": 10,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_029",
+    "en": {
+      "question": "Which layer of the Earth's atmosphere contains the ozone layer?",
+      "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल की किस परत में ओजोन परत स्थित है?",
+      "options": ["क्षोभमंडल", "समतापमंडल", "मध्यमंडल", "तापमंडल"],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_030",
+    "en": {
+      "question": "What is the SI unit of electric current?",
+      "options": ["Volt", "Watt", "Ampere", "Ohm"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विद्युत धारा की SI इकाई क्या है?",
+      "options": ["वोल्ट", "वाट", "एम्पियर", "ओम"],
+      "answer": 2
+    },
+    "level": 10,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_031",
+    "en": {
+      "question": "Which of the following is NOT a type of electromagnetic radiation?",
+      "options": ["X-rays", "Gamma rays", "Alpha rays", "Microwaves"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन विद्युतचुंबकीय विकिरण का प्रकार नहीं है?",
+      "options": ["एक्स-रे", "गामा किरणें", "अल्फा किरणें", "माइक्रोवेव"],
+      "answer": 2
+    },
+    "level": 11,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_032",
+    "en": {
+      "question": "What is the main component of natural gas?",
+      "options": ["Ethane", "Methane", "Propane", "Butane"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्राकृतिक गैस का मुख्य घटक क्या है?",
+      "options": ["एथेन", "मीथेन", "प्रोपेन", "ब्यूटेन"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_033",
+    "en": {
+      "question": "Which of these elements has the highest electronegativity?",
+      "options": ["Oxygen", "Nitrogen", "Fluorine", "Chlorine"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से किस तत्व की विद्युतऋणात्मकता सबसे अधिक है?",
+      "options": ["ऑक्सीजन", "नाइट्रोजन", "फ्लोरीन", "क्लोरीन"],
+      "answer": 2
+    },
+    "level": 11,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_034",
+    "en": {
+      "question": "Which Nobel Prize is awarded for outstanding contributions in Peace?",
+      "options": ["Nobel Prize in Peace", "Nobel Peace Prize", "International Peace Prize", "World Peace Prize"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "शांति में उत्कृष्ट योगदान के लिए कौन सा नोबेल पुरस्कार दिया जाता है?",
+      "options": ["शांति में नोबेल पुरस्कार", "नोबेल शांति पुरस्कार", "अंतर्राष्ट्रीय शांति पुरस्कार", "विश्व शांति पुरस्कार"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_035",
+    "en": {
+      "question": "Who is known as the father of modern physics?",
+      "options": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Galileo Galilei"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "आधुनिक भौतिकी के जनक के रूप में किसे जाना जाता है?",
+      "options": ["आइजैक न्यूटन", "अल्बर्ट आइंस्टाइन", "नील्स बोर", "गैलीलियो गैलिली"],
+      "answer": 1
+    },
+    "level": 11,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_036",
+    "en": {
+      "question": "What is the chemical formula for sulfuric acid?",
+      "options": ["H2SO3", "H2SO4", "HSO4", "H2S2O7"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सल्फ्यूरिक एसिड का रासायनिक सूत्र क्या है?",
+      "options": ["H2SO3", "H2SO4", "HSO4", "H2S2O7"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_037",
+    "en": {
+      "question": "Which of the following is NOT a subatomic particle?",
+      "options": ["Proton", "Neutron", "Electron", "Photon"],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक उपपरमाणविक कण नहीं है?",
+      "options": ["प्रोटॉन", "न्यूट्रॉन", "इलेक्ट्रॉन", "फोटॉन"],
+      "answer": 3
+    },
+    "level": 12,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_038",
+    "en": {
+      "question": "What is the name of the theorem that states the square of the hypotenuse equals the sum of the squares of the other two sides in a right triangle?",
+      "options": ["Euclid's Theorem", "Pythagorean Theorem", "Thales' Theorem", "Fermat's Theorem"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "उस प्रमेय का नाम क्या है जो कहता है कि समकोण त्रिभुज में कर्ण का वर्ग अन्य दो भुजाओं के वर्गों के योग के बराबर होता है?",
+      "options": ["यूक्लिड का प्रमेय", "पाइथागोरस का प्रमेय", "थेल्स का प्रमेय", "फर्मेट का प्रमेय"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_039",
+    "en": {
+      "question": "Which of these hormones is known as the 'stress hormone'?",
+      "options": ["Insulin", "Testosterone", "Cortisol", "Thyroxine"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से किस हार्मोन को 'तनाव हार्मोन' के रूप में जाना जाता है?",
+      "options": ["इंसुलिन", "टेस्टोस्टेरोन", "कॉर्टिसोल", "थायरॉक्सिन"],
+      "answer": 2
+    },
+    "level": 12,
+    "category": "general_knowledge"
+  },
+  {
+    "id": "gk_gen_040",
+    "en": {
+      "question": "What is the half-life of Carbon-14 used in radiocarbon dating?",
+      "options": ["1,570 years", "5,730 years", "10,430 years", "14,290 years"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "रेडियोकार्बन डेटिंग में उपयोग किए जाने वाले कार्बन-14 का अर्ध-जीवन क्या है?",
+      "options": ["1,570 वर्ष", "5,730 वर्ष", "10,430 वर्ष", "14,290 वर्ष"],
+      "answer": 1
+    },
+    "level": 12,
+    "category": "general_knowledge"
+  }
+] 

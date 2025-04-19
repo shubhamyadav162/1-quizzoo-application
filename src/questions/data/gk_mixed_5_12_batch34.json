@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GK761",
+    "en": {
+      "question": "Which ancient Indian university is considered the oldest university in the world?",
+      "options": [
+        "Nalanda",
+        "Takshashila",
+        "Vikramshila",
+        "Vallabhi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा प्राचीन भारतीय विश्वविद्यालय विश्व का सबसे पुराना विश्वविद्यालय माना जाता है?",
+      "options": [
+        "नालंदा",
+        "तक्षशिला",
+        "विक्रमशिला",
+        "वल्लभी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK763",
+    "en": {
+      "question": "Which Indian scientist was awarded the Nobel Prize for Physics in 1930?",
+      "options": [
+        "Homi Bhabha",
+        "C.V. Raman",
+        "Satyendra Nath Bose",
+        "Jagadish Chandra Bose"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय वैज्ञानिक को 1930 में भौतिकी के लिए नोबेल पुरस्कार से सम्मानित किया गया था?",
+      "options": [
+        "होमी भाभा",
+        "सी.वी. रमन",
+        "सत्येंद्र नाथ बोस",
+        "जगदीश चंद्र बोस"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK766",
+    "en": {
+      "question": "Which historical monument was built by Emperor Shah Jahan in memory of his wife?",
+      "options": [
+        "Red Fort",
+        "Qutub Minar",
+        "Taj Mahal",
+        "Fatehpur Sikri"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस ऐतिहासिक स्मारक का निर्माण सम्राट शाहजहां ने अपनी पत्नी की याद में करवाया था?",
+      "options": [
+        "लाल किला",
+        "कुतुब मीनार",
+        "ताज महल",
+        "फतेहपुर सीकरी"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK767",
+    "en": {
+      "question": "What is the full form of DNA?",
+      "options": [
+        "Deoxyribose Nucleic Acid",
+        "Deoxyribonucleic Acid",
+        "Dihydro Nucleic Acid",
+        "Deoxyribose Nitrogen Acid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "डीएनए का पूर्ण रूप क्या है?",
+      "options": [
+        "डीऑक्सीराइबोस न्यूक्लिक एसिड",
+        "डीऑक्सीराइबोन्यूक्लिक एसिड",
+        "डाइहाइड्रो न्यूक्लिक एसिड",
+        "डीऑक्सीराइबोस नाइट्रोजन एसिड"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK768",
+    "en": {
+      "question": "Which city is known as the 'Pink City' of India?",
+      "options": [
+        "Jaipur",
+        "Jodhpur",
+        "Udaipur",
+        "Bikaner"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत के किस शहर को 'गुलाबी शहर' के रूप में जाना जाता है?",
+      "options": [
+        "जयपुर",
+        "जोधपुर",
+        "उदयपुर",
+        "बीकानेर"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK769",
+    "en": {
+      "question": "Which gas is used for artificial ripening of fruits?",
+      "options": [
+        "Ethylene",
+        "Acetylene",
+        "Methane",
+        "Propane"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "फलों के कृत्रिम पकाने के लिए किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "एथिलीन",
+        "एसिटिलीन",
+        "मीथेन",
+        "प्रोपेन"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK772",
+    "en": {
+      "question": "What is the name of India's first satellite?",
+      "options": [
+        "Bhaskara",
+        "Rohini",
+        "Aryabhata",
+        "INSAT-1A"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत के पहले उपग्रह का नाम क्या है?",
+      "options": [
+        "भास्कर",
+        "रोहिणी",
+        "आर्यभट्ट",
+        "इनसैट-1A"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK775",
+    "en": {
+      "question": "Which Indian classical dance form originated in Tamil Nadu?",
+      "options": [
+        "Kathak",
+        "Bharatanatyam",
+        "Odissi",
+        "Kuchipudi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा भारतीय शास्त्रीय नृत्य रूप तमिलनाडु में उत्पन्न हुआ?",
+      "options": [
+        "कथक",
+        "भरतनाट्यम",
+        "ओडिसी",
+        "कुचिपुड़ी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK776",
+    "en": {
+      "question": "Which is the least populated state in India?",
+      "options": [
+        "Sikkim",
+        "Mizoram",
+        "Arunachal Pradesh",
+        "Goa"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत का सबसे कम आबादी वाला राज्य कौन सा है?",
+      "options": [
+        "सिक्किम",
+        "मिजोरम",
+        "अरुणाचल प्रदेश",
+        "गोवा"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK777",
+    "en": {
+      "question": "Who was the first Indian to receive the Nobel Prize in Economics?",
+      "options": [
+        "Rabindranath Tagore",
+        "Amartya Sen",
+        "C.V. Raman",
+        "Abhijit Banerjee"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "अर्थशास्त्र में नोबेल पुरस्कार प्राप्त करने वाले पहले भारतीय कौन थे?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "अमर्त्य सेन",
+        "सी.वी. रमन",
+        "अभिजीत बनर्जी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_economics"
+  },
+  {
+    "id": "GK778",
+    "en": {
+      "question": "Which device is used to measure blood pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Sphygmomanometer",
+        "Hygrometer"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "रक्तचाप मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "स्फिग्मोमैनोमीटर",
+        "हाइग्रोमीटर"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "medicine"
+  },
+  {
+    "id": "GK779",
+    "en": {
+      "question": "Which country is known as the 'Land of the White Elephant'?",
+      "options": [
+        "India",
+        "Sri Lanka",
+        "Thailand",
+        "Myanmar"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'सफेद हाथी की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "भारत",
+        "श्रीलंका",
+        "थाईलैंड",
+        "म्यांमार"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  }
+]

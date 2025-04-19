@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-081",
+      "question_text": "What unusual thing can a giraffe do with its tongue?",
+      "options": [
+        "Taste the air for predators",
+        "Clean its own ears",
+        "Change its color for communication",
+        "Store food for later consumption"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "A giraffe's tongue is extremely long (up to 21 inches/53 cm) and dexterous. They can use it to clean their own ears, which is an unusual adaptation that helps remove parasites and debris from places they otherwise couldn't reach.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-081",
+      "question_text": "जिराफ अपनी जीभ से क्या असामान्य काम कर सकता है?",
+      "options": [
+        "शिकारियों के लिए हवा का स्वाद लेना",
+        "अपने खुद के कान साफ करना",
+        "संचार के लिए अपना रंग बदलना",
+        "बाद में खपत के लिए भोजन संग्रहित करना"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "जिराफ की जीभ अत्यंत लंबी (21 इंच/53 सेमी तक) और कुशल होती है। वे इसका उपयोग अपने स्वयं के कानों को साफ करने के लिए कर सकते हैं, जो एक असामान्य अनुकूलन है जो परजीवियों और मलबे को उन स्थानों से हटाने में मदद करता है जहां वे अन्यथा नहीं पहुंच सकते।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-082",
+      "question_text": "Before the invention of modern refrigeration, how did people in desert regions get ice?",
+      "options": [
+        "They couldn't access ice at all",
+        "They used yakhchals - ancient evaporative coolers",
+        "They imported it by camel from mountain regions",
+        "They created it using chemical reactions"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "In ancient Persia (modern-day Iran), people built structures called yakhchals, which were large above-ground structures with underground storage spaces. These worked as evaporative coolers that could create ice even in desert environments by capturing cold winter air and keeping the space cool through summer using thick insulated walls and evaporative cooling techniques.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-082",
+      "question_text": "आधुनिक रेफ्रिजरेशन के आविष्कार से पहले, रेगिस्तानी क्षेत्रों में लोग बर्फ कैसे प्राप्त करते थे?",
+      "options": [
+        "वे बर्फ तक बिल्कुल भी नहीं पहुंच सकते थे",
+        "उन्होंने यखचाल - प्राचीन वाष्पीकरण कूलर का उपयोग किया",
+        "उन्होंने पहाड़ी क्षेत्रों से ऊंट द्वारा इसे आयात किया",
+        "उन्होंने रासायनिक प्रतिक्रियाओं का उपयोग करके इसे बनाया"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "प्राचीन फारस (आधुनिक ईरान) में, लोगों ने यखचाल नामक संरचनाएं बनाईं, जो भूमिगत भंडारण स्थानों के साथ बड़ी जमीन के ऊपर की संरचनाएं थीं। ये वाष्पीकरण कूलर के रूप में काम करते थे जो ठंडी सर्दियों की हवा को पकड़कर और मोटी इन्सुलेटेड दीवारों और वाष्पीकरण शीतलन तकनीकों का उपयोग करके गर्मियों के दौरान स्थान को ठंडा रखकर रेगिस्तानी वातावरण में भी बर्फ बना सकते थे।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-083",
+      "question_text": "What strange behavior do wombats exhibit during bushfires?",
+      "options": [
+        "They bury themselves completely underground",
+        "They allow other animals into their burrows for safety",
+        "They carry their young to rivers or lakes",
+        "They create firebreaks by clearing vegetation"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "During bushfires in Australia, wombats have been observed allowing other animals to take refuge in their burrows. These extensive burrow systems can be up to 30 meters long with multiple chambers, and during fires, they become sanctuaries where species that would normally avoid each other, including small marsupials, reptiles, and even competing wombats, shelter together.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-083",
+      "question_text": "जंगल की आग के दौरान वॉम्बैट कौन सा अजीब व्यवहार प्रदर्शित करते हैं?",
+      "options": [
+        "वे खुद को पूरी तरह से जमीन के नीचे दफन कर लेते हैं",
+        "वे सुरक्षा के लिए अन्य जानवरों को अपने बिलों में प्रवेश करने की अनुमति देते हैं",
+        "वे अपने बच्चों को नदियों या झीलों तक ले जाते हैं",
+        "वे वनस्पति को साफ करके फायरब्रेक बनाते हैं"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ऑस्ट्रेलिया में जंगल की आग के दौरान, वॉम्बैट को अन्य जानवरों को अपने बिलों में शरण लेने की अनुमति देते हुए देखा गया है। ये विस्तृत बिल प्रणालियां कई कक्षों के साथ 30 मीटर तक लंबी हो सकती हैं, और आग के दौरान, वे अभयारण्य बन जाती हैं जहां आमतौर पर एक-दूसरे से बचने वाली प्रजातियां, जिनमें छोटे मार्सुपियल, सरीसृप, और यहां तक कि प्रतिस्पर्धी वॉम्बैट भी शामिल हैं, एक साथ आश्रय लेते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-084",
+      "question_text": "What unexpected object did NASA astronauts take to the moon and leave there?",
+      "options": [
+        "A time capsule",
+        "A golf ball",
+        "A bag of unpopped popcorn",
+        "A children's book"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "During the Apollo 14 mission in 1971, astronaut Alan Shepard smuggled a golf club head on board, which he attached to a lunar sample collection tool. He then hit two golf balls on the lunar surface, becoming the first person to play golf on the moon. Those golf balls remain on the lunar surface to this day.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-084",
+      "question_text": "नासा के अंतरिक्ष यात्रियों ने चंद्रमा पर कौन सी अप्रत्याशित वस्तु ले जाकर वहां छोड़ दी?",
+      "options": [
+        "एक टाइम कैप्सूल",
+        "एक गोल्फ बॉल",
+        "बिना फूटे हुए पॉपकॉर्न का एक बैग",
+        "एक बच्चों की किताब"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "1971 में अपोलो 14 मिशन के दौरान, अंतरिक्ष यात्री एलन शेपर्ड ने बोर्ड पर एक गोल्फ क्लब हेड छिपाकर ले गए, जिसे उन्होंने चंद्र नमूना संग्रह उपकरण से जोड़ दिया। फिर उन्होंने चंद्र सतह पर दो गोल्फ बॉल हिट की, जिससे वे चंद्रमा पर गोल्फ खेलने वाले पहले व्यक्ति बन गए। वे गोल्फ बॉल आज भी चंद्र सतह पर मौजूद हैं।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-085",
+      "question_text": "What unexpected thing happens to astronauts' taste buds in space?",
+      "options": [
+        "They can only taste sweet and sour",
+        "They become more sensitive to spice",
+        "They temporarily stop working completely",
+        "Food tastes more bland due to fluid shifts"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "In the microgravity environment of space, bodily fluids shift upward, causing nasal congestion similar to having a cold. This congestion reduces astronauts' ability to smell, which is closely linked to taste. Additionally, without gravity pulling down salivary fluids, taste buds become less effective. As a result, astronauts typically prefer spicier foods in space, and NASA intentionally makes space food more heavily seasoned.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-085",
+      "question_text": "अंतरिक्ष में अंतरिक्ष यात्रियों के स्वाद कलिकाओं के साथ क्या अप्रत्याशित चीज होती है?",
+      "options": [
+        "वे केवल मीठे और खट्टे का स्वाद ले सकते हैं",
+        "वे मसाले के प्रति अधिक संवेदनशील हो जाते हैं",
+        "वे अस्थायी रूप से पूरी तरह से काम करना बंद कर देते हैं",
+        "तरल पदार्थ के स्थानांतरण के कारण भोजन अधिक फीका लगता है"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "अंतरिक्ष के सूक्ष्म गुरुत्वाकर्षण वातावरण में, शारीरिक तरल पदार्थ ऊपर की ओर स्थानांतरित होते हैं, जिससे सर्दी के समान नाक की भीड़ होती है। यह भीड़ अंतरिक्ष यात्रियों की सूंघने की क्षमता को कम करती है, जो स्वाद से निकटता से जुड़ी होती है। इसके अतिरिक्त, गुरुत्वाकर्षण द्वारा लार तरल पदार्थों को नीचे खींचे बिना, स्वाद कलिकाएं कम प्रभावी हो जाती हैं। परिणामस्वरूप, अंतरिक्ष यात्री आमतौर पर अंतरिक्ष में अधिक मसालेदार खाद्य पदार्थों को पसंद करते हैं, और नासा जानबूझकर अंतरिक्ष भोजन को अधिक मसालेदार बनाता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-086",
+      "question_text": "Which animal has a unique fingerprint just like humans?",
+      "options": [
+        "Orangutans",
+        "Koalas",
+        "Tigers",
+        "Dolphins"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Koalas have fingerprints that are virtually indistinguishable from human fingerprints, even under an electron microscope. This is a remarkable example of convergent evolution, as koalas are not closely related to humans but developed similar patterns independently. Their fingerprints are so similar that they have actually confused crime scene investigators in Australia.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-086",
+      "question_text": "किस जानवर के पास मनुष्यों की तरह एक अनूठा फिंगरप्रिंट होता है?",
+      "options": [
+        "ओरंगउटान",
+        "कोआला",
+        "बाघ",
+        "डॉल्फिन"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "कोआला के फिंगरप्रिंट इलेक्ट्रॉन माइक्रोस्कोप के नीचे भी मानव फिंगरप्रिंट से वर्चुअली अप्रभेद्य हैं। यह अभिसरण विकास का एक उल्लेखनीय उदाहरण है, क्योंकि कोआला मनुष्यों से निकटता से संबंधित नहीं हैं लेकिन उन्होंने स्वतंत्र रूप से समान पैटर्न विकसित किए। उनके फिंगरप्रिंट इतने समान हैं कि वे वास्तव में ऑस्ट्रेलिया में अपराध स्थल जांचकर्ताओं को भ्रमित कर चुके हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-087",
+      "question_text": "What surprising thing happens to a human heart during space travel?",
+      "options": [
+        "It beats at double the normal rate",
+        "It becomes slightly spherical instead of elongated",
+        "It shrinks by up to 10%",
+        "It develops a different rhythm pattern"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "In microgravity, the human heart becomes more spherical, changing from its normal elongated shape on Earth. A NASA study using ultrasound measurements on astronauts discovered the heart becomes about 9.4% more spherical in space. This adaptation happens because without gravity, the heart doesn't have to work against it to pump blood upward, allowing it to assume a more efficient shape for the space environment.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-087",
+      "question_text": "अंतरिक्ष यात्रा के दौरान मानव हृदय के साथ क्या आश्चर्यजनक चीज होती है?",
+      "options": [
+        "यह सामान्य दर से दोगुनी धड़कता है",
+        "यह लंबा होने के बजाय थोड़ा गोलाकार हो जाता है",
+        "यह 10% तक सिकुड़ जाता है",
+        "यह एक अलग लय पैटर्न विकसित करता है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "सूक्ष्म गुरुत्वाकर्षण में, मानव हृदय अधिक गोलाकार हो जाता है, पृथ्वी पर अपने सामान्य लंबे आकार से बदल जाता है। अंतरिक्ष यात्रियों पर अल्ट्रासाउंड माप का उपयोग करके एक नासा अध्ययन ने पता लगाया कि अंतरिक्ष में हृदय लगभग 9.4% अधिक गोलाकार हो जाता है। यह अनुकूलन इसलिए होता है क्योंकि गुरुत्वाकर्षण के बिना, हृदय को रक्त को ऊपर पंप करने के लिए इसके खिलाफ काम नहीं करना पड़ता है, जिससे यह अंतरिक्ष वातावरण के लिए एक अधिक कुशल आकार धारण कर सकता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-088",
+      "question_text": "Which unexpected animal can predict earthquakes?",
+      "options": [
+        "Cats",
+        "Snakes",
+        "Elephants",
+        "Chickens"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Snakes can detect earthquakes from as far as 75 miles away, up to five days before they occur. In China, researchers observed unusual behavior in snakes during the days before the 2008 Wenchuan earthquake. Snakes can detect vibrations and changes in air pressure that humans cannot sense. During winter, they even abandoned their hibernation and froze to death trying to escape the coming earthquake.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-088",
+      "question_text": "कौन सा अप्रत्याशित जानवर भूकंप की भविष्यवाणी कर सकता है?",
+      "options": [
+        "बिल्लियाँ",
+        "सांप",
+        "हाथी",
+        "मुर्गियाँ"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "सांप 75 मील दूर से भूकंप का पता लगा सकते हैं, उनके होने से पांच दिन पहले तक। चीन में, शोधकर्ताओं ने 2008 के वेनचुआन भूकंप से पहले के दिनों में सांपों के असामान्य व्यवहार को देखा। सांप कंपन और हवा के दबाव में परिवर्तन का पता लगा सकते हैं जिसे मनुष्य महसूस नहीं कर सकते। सर्दियों के दौरान, उन्होंने यहां तक कि अपने शीतनिद्रा को छोड़ दिया और आने वाले भूकंप से बचने की कोशिश करते हुए जम कर मर गए।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-089",
+      "question_text": "What was the first food eaten on the moon?",
+      "options": [
+        "A specially designed protein bar",
+        "Bacon",
+        "Applesauce",
+        "Bread and wine for communion"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "The first food consumed on the moon was bread and wine as part of a Christian communion. Buzz Aldrin, shortly after landing on the moon with Neil Armstrong in 1969, took communion privately. He brought a small communion kit given to him by his Presbyterian church, read from the Gospel of John, and took communion before stepping onto the lunar surface.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-089",
+      "question_text": "चंद्रमा पर खाया गया पहला भोजन क्या था?",
+      "options": [
+        "एक विशेष रूप से डिज़ाइन किया गया प्रोटीन बार",
+        "बेकन",
+        "सेब का मुरब्बा",
+        "प्रभु-भोज के लिए रोटी और शराब"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "चंद्रमा पर खपत किया गया पहला भोजन ईसाई प्रभु-भोज के हिस्से के रूप में रोटी और शराब था। बज़ ऑल्ड्रिन ने, 1969 में नील आर्मस्ट्रांग के साथ चंद्रमा पर उतरने के कुछ देर बाद, निजी तौर पर प्रभु-भोज लिया। वह अपने प्रेस्बिटेरियन चर्च द्वारा दिया गया एक छोटा प्रभु-भोज किट लाए, जॉन के गॉस्पेल से पढ़ा, और चंद्र सतह पर कदम रखने से पहले प्रभु-भोज लिया।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-090",
+      "question_text": "What unusual material were the first pair of LEGO bricks made from?",
+      "options": [
+        "Bakelite",
+        "Wood",
+        "Rubber",
+        "Metal"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The very first LEGO toys were made of wood, not plastic. The LEGO Group was founded in 1932 by Ole Kirk Kristiansen, a Danish carpenter who started by making wooden toys. It wasn't until 1947 that LEGO purchased its first plastic injection molding machine and began producing plastic toys. The iconic interlocking plastic brick design we know today was patented in 1958.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-090",
+      "question_text": "लेगो ब्रिक्स के पहले जोड़े किस असामान्य सामग्री से बनाए गए थे?",
+      "options": [
+        "बेकेलाइट",
+        "लकड़ी",
+        "रबड़",
+        "धातु"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "सबसे पहले लेगो खिलौने प्लास्टिक नहीं, लकड़ी से बनाए गए थे। लेगो ग्रुप की स्थापना 1932 में ओले किर्क क्रिस्टियनसेन ने की थी, जो एक डेनिश बढ़ई थे जिन्होंने लकड़ी के खिलौने बनाकर शुरुआत की थी। 1947 तक लेगो ने अपनी पहली प्लास्टिक इंजेक्शन मोल्डिंग मशीन खरीदी और प्लास्टिक के खिलौने बनाना शुरू किया। आज हम जिस प्रतिष्ठित इंटरलॉकिंग प्लास्टिक ब्रिक डिजाइन को जानते हैं, उसे 1958 में पेटेंट कराया गया था।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GK862",
+    "en": {
+      "question": "Which famous Indian mathematician discovered zero?",
+      "options": [
+        "Aryabhatta",
+        "Brahmagupta",
+        "Varahamihira",
+        "Bhaskara"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध भारतीय गणितज्ञ ने शून्य की खोज की थी?",
+      "options": [
+        "आर्यभट्ट",
+        "ब्रह्मगुप्त",
+        "वराहमिहिर",
+        "भास्कर"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_mathematics"
+  },
+  {
+    "id": "GK866",
+    "en": {
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        "Zinc",
+        "Mercury",
+        "Aluminum",
+        "Lead"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सी धातु कमरे के तापमान पर तरल अवस्था में रहती है?",
+      "options": [
+        "जिंक",
+        "पारा",
+        "एल्युमिनियम",
+        "सीसा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK867",
+    "en": {
+      "question": "Who wrote 'Discovery of India'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'डिस्कवरी ऑफ इंडिया' किसने लिखी?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "रबींद्रनाथ टैगोर",
+        "सरदार वल्लभभाई पटेल"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK868",
+    "en": {
+      "question": "Which city is known as the 'Silicon Valley of India'?",
+      "options": [
+        "Mumbai",
+        "Hyderabad",
+        "Bangalore",
+        "Chennai"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस शहर को 'भारत की सिलिकॉन वैली' के रूप में जाना जाता है?",
+      "options": [
+        "मुंबई",
+        "हैदराबाद",
+        "बैंगलोर",
+        "चेन्नई"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK869",
+    "en": {
+      "question": "What does the acronym 'UNESCO' stand for?",
+      "options": [
+        "United Nations Educational, Scientific and Cultural Organization",
+        "United Nations Environment and Social Care Organization",
+        "Universal Network for Education, Science and Cultural Operations",
+        "United Nations Economic and Social Council Organization"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'यूनेस्को' का पूरा नाम क्या है?",
+      "options": [
+        "संयुक्त राष्ट्र शैक्षिक, वैज्ञानिक और सांस्कृतिक संगठन",
+        "संयुक्त राष्ट्र पर्यावरण और सामाजिक देखभाल संगठन",
+        "शिक्षा, विज्ञान और सांस्कृतिक संचालन के लिए सार्वभौमिक नेटवर्क",
+        "संयुक्त राष्ट्र आर्थिक और सामाजिक परिषद संगठन"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "world_organizations"
+  },
+  {
+    "id": "GK870",
+    "en": {
+      "question": "Which is the smallest continent by land area?",
+      "options": [
+        "Europe",
+        "Asia",
+        "Australia",
+        "Antarctica"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भूमि क्षेत्रफल के अनुसार सबसे छोटा महाद्वीप कौन सा है?",
+      "options": [
+        "यूरोप",
+        "एशिया",
+        "ऑस्ट्रेलिया",
+        "अंटार्कटिका"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK871",
+    "en": {
+      "question": "In which year did the first modern Olympic Games take place?",
+      "options": [
+        "1886",
+        "1896",
+        "1900",
+        "1904"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पहले आधुनिक ओलंपिक खेल किस वर्ष में हुए थे?",
+      "options": [
+        "1886",
+        "1896",
+        "1900",
+        "1904"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "sports"
+  },
+  {
+    "id": "GK874",
+    "en": {
+      "question": "Which disease is caused by the deficiency of Vitamin C?",
+      "options": [
+        "Rickets",
+        "Scurvy",
+        "Night Blindness",
+        "Beriberi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विटामिन C की कमी से कौन सा रोग होता है?",
+      "options": [
+        "रिकेट्स",
+        "स्कर्वी",
+        "रतौंधी",
+        "बेरीबेरी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "medicine"
+  },
+  {
+    "id": "GK875",
+    "en": {
+      "question": "Who is credited with inventing the World Wide Web?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Tim Berners-Lee",
+        "Mark Zuckerberg"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "वर्ल्ड वाइड वेब का आविष्कार किसके द्वारा किया गया?",
+      "options": [
+        "बिल गेट्स",
+        "स्टीव जॉब्स",
+        "टिम बर्नर्स-ली",
+        "मार्क ज़करबर्ग"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK876",
+    "en": {
+      "question": "Which instrument is used to measure rainfall?",
+      "options": [
+        "Barometer",
+        "Hygrometer",
+        "Rain Gauge",
+        "Anemometer"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "वर्षा को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "हाइग्रोमीटर",
+        "रेन गेज",
+        "एनिमोमीटर"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "earth_science"
+  },
+  {
+    "id": "GK877",
+    "en": {
+      "question": "Which Indian state is known as the 'Land of High Passes'?",
+      "options": [
+        "Sikkim",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Ladakh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'ऊंचे दर्रों की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "सिक्किम",
+        "हिमाचल प्रदेश",
+        "उत्तराखंड",
+        "लद्दाख"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK878",
+    "en": {
+      "question": "Who is known as the 'Father of Indian Cinema'?",
+      "options": [
+        "Satyajit Ray",
+        "Dadasaheb Phalke",
+        "Raj Kapoor",
+        "Guru Dutt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'भारतीय सिनेमा का पिता' कहा जाता है?",
+      "options": [
+        "सत्यजीत रे",
+        "दादासाहेब फाल्के",
+        "राज कपूर",
+        "गुरु दत्त"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_cinema"
+  }
+]

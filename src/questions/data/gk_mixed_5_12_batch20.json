@@ -1,0 +1,327 @@
+[
+  {
+    "id": "GK481",
+    "en": {
+      "question": "What is the most abundant gas in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में सबसे अधिक कौन सी गैस है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "environment"
+  },
+  {
+    "id": "GK482",
+    "en": {
+      "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+      "options": [
+        "Haryana",
+        "Punjab",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य को 'पांच नदियों की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "हरियाणा",
+        "पंजाब",
+        "राजस्थान",
+        "उत्तर प्रदेश"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK483",
+    "en": {
+      "question": "Who wrote the book 'Train to Pakistan'?",
+      "options": [
+        "Ruskin Bond",
+        "Khushwant Singh",
+        "R.K. Narayan",
+        "Mulk Raj Anand"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'ट्रेन टू पाकिस्तान' पुस्तक किसने लिखी?",
+      "options": [
+        "रस्किन बॉन्ड",
+        "खुशवंत सिंह",
+        "आर.के. नारायण",
+        "मुल्क राज आनंद"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK485",
+    "en": {
+      "question": "Which is the longest highway in India?",
+      "options": [
+        "NH 44",
+        "NH 27",
+        "NH 48",
+        "NH 53"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत का सबसे लंबा राजमार्ग कौन सा है?",
+      "options": [
+        "NH 44",
+        "NH 27",
+        "NH 48",
+        "NH 53"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK487",
+    "en": {
+      "question": "Who was the first Indian to receive the Nobel Prize?",
+      "options": [
+        "C.V. Raman",
+        "Rabindranath Tagore",
+        "Mother Teresa",
+        "Amartya Sen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "नोबेल पुरस्कार प्राप्त करने वाले पहले भारतीय कौन थे?",
+      "options": [
+        "सी.वी. रमन",
+        "रबीन्द्रनाथ टैगोर",
+        "मदर टेरेसा",
+        "अमर्त्य सेन"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_awards"
+  },
+  {
+    "id": "GK489",
+    "en": {
+      "question": "Which enzyme is found in human saliva?",
+      "options": [
+        "Pepsin",
+        "Amylase",
+        "Trypsin",
+        "Lipase"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव लार में कौन सा एंजाइम पाया जाता है?",
+      "options": [
+        "पेप्सिन",
+        "अमाइलेज",
+        "ट्रिप्सिन",
+        "लाइपेज"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK490",
+    "en": {
+      "question": "In which year was the Battle of Plassey fought?",
+      "options": [
+        "1757",
+        "1764",
+        "1775",
+        "1748"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "प्लासी का युद्ध किस वर्ष लड़ा गया था?",
+      "options": [
+        "1757",
+        "1764",
+        "1775",
+        "1748"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK491",
+    "en": {
+      "question": "What is the name of the highest battlefield in the world?",
+      "options": [
+        "Kargil",
+        "Siachen Glacier",
+        "Nathu La",
+        "Doklam"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व के सबसे ऊंचे युद्धक्षेत्र का नाम क्या है?",
+      "options": [
+        "कारगिल",
+        "सियाचिन ग्लेशियर",
+        "नाथू ला",
+        "डोकलाम"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK492",
+    "en": {
+      "question": "Who is the composer of 'Vande Mataram'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Sarojini Naidu",
+        "Muhammad Iqbal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'वंदे मातरम' के रचयिता कौन हैं?",
+      "options": [
+        "रबीन्द्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "सरोजिनी नायडू",
+        "मुहम्मद इकबाल"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK494",
+    "en": {
+      "question": "Who is known as the 'Father of Indian Constitution'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Dr. B.R. Ambedkar",
+        "Sardar Patel"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारतीय संविधान का जनक' के रूप में जाना जाता है?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "डॉ. बी.आर. अम्बेडकर",
+        "सरदार पटेल"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK498",
+    "en": {
+      "question": "Who is known as the 'Grand Old Man of India'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Dadabhai Naoroji",
+        "Gopal Krishna Gokhale"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारत के ग्रैंड ओल्ड मैन' के रूप में जाना जाता है?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "दादाभाई नौरोजी",
+        "गोपाल कृष्ण गोखले"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK499",
+    "en": {
+      "question": "Which is the smallest state in India by area?",
+      "options": [
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Nagaland"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "क्षेत्रफल के हिसाब से भारत का सबसे छोटा राज्य कौन सा है?",
+      "options": [
+        "सिक्किम",
+        "गोवा",
+        "त्रिपुरा",
+        "नागालैंड"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK500",
+    "en": {
+      "question": "Who invented the light bulb?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Michael Faraday"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "बल्ब का आविष्कार किसने किया?",
+      "options": [
+        "थॉमस एडिसन",
+        "निकोला टेस्ला",
+        "अलेक्जेंडर ग्राहम बेल",
+        "माइकल फैराडे"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "technology"
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GK5702",
+    "en": {
+      "question": "How many legs does an insect typically have?",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "6"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक कीट के आमतौर पर कितने पैर होते हैं?",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "6"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_insects_anatomy"
+  },
+  {
+    "id": "GK5703",
+    "en": {
+      "question": "What is the tallest building in the world (as of early 2024)?",
+      "options": [
+        "Shanghai Tower",
+        "Makkah Royal Clock Tower",
+        "Ping An Finance Center",
+        "Burj Khalifa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया की सबसे ऊंची इमारत कौन सी है (2024 की शुरुआत तक)?",
+      "options": [
+        "शंघाई टॉवर",
+        "मक्का रॉयल क्लॉक टॉवर",
+        "पिंग एन फाइनेंस सेंटर",
+        "बुर्ज खलीफा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_landmarks_modern"
+  },
+  {
+    "id": "GK5704",
+    "en": {
+      "question": "What do you call a group of stars officially recognized as a pattern?",
+      "options": [
+        "Nebula",
+        "Galaxy",
+        "Cluster",
+        "Constellation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तारों के समूह को आप क्या कहते हैं जिसे आधिकारिक तौर पर एक पैटर्न के रूप में मान्यता प्राप्त है?",
+      "options": [
+        "नीहारिका",
+        "आकाशगंगा",
+        "क्लस्टर",
+        "नक्षत्र"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_space_astronomy"
+  },
+  {
+    "id": "GK5705",
+    "en": {
+      "question": "Which fruit is known for 'keeping the doctor away'?",
+      "options": [
+        "Banana",
+        "Orange",
+        "Grapes",
+        "Apple"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा फल 'डॉक्टर को दूर रखने' के लिए जाना जाता है?",
+      "options": [
+        "केला",
+        "संतरा",
+        "अंगूर",
+        "सेब"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_fruits"
+  },
+  {
+    "id": "GK5706",
+    "en": {
+      "question": "What is the main job of the kidneys?",
+      "options": [
+        "Pump blood",
+        "Digest food",
+        "Help breathe",
+        "Filter waste from blood"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गुर्दे का मुख्य कार्य क्या है?",
+      "options": [
+        "रक्त पंप करना",
+        "भोजन पचाना",
+        "सांस लेने में मदद करना",
+        "रक्त से अपशिष्ट छानना"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_human_organs"
+  },
+  {
+    "id": "GK5707",
+    "en": {
+      "question": "What fictional detective lived at 221B Baker Street?",
+      "options": [
+        "Hercule Poirot",
+        "Miss Marple",
+        "Sam Spade",
+        "Sherlock Holmes"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा काल्पनिक जासूस 221B बेकर स्ट्रीट में रहता था?",
+      "options": [
+        "हरक्यूल पोयरोट",
+        "मिस मार्पल",
+        "सैम स्पेड",
+        "शर्लक होम्स"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_literature_detectives"
+  },
+  {
+    "id": "GK5708",
+    "en": {
+      "question": "What is the name of the system that includes the sun, planets, and moons?",
+      "options": [
+        "Galaxy",
+        "Universe",
+        "Constellation",
+        "Solar System"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस प्रणाली का नाम क्या है जिसमें सूर्य, ग्रह और चंद्रमा शामिल हैं?",
+      "options": [
+        "आकाशगंगा",
+        "ब्रह्मांड",
+        "नक्षत्र",
+        "सौर मंडल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_space_basics"
+  },
+  {
+    "id": "GK5709",
+    "en": {
+      "question": "Which country is home to the kangaroo?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "Canada",
+        "Australia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश कंगारू का घर है?",
+      "options": [
+        "न्यूजीलैंड",
+        "दक्षिण अफ्रीका",
+        "कनाडा",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_locations"
+  },
+  {
+    "id": "GK5711",
+    "en": {
+      "question": "What do you call the home of a bee?",
+      "options": [
+        "Nest",
+        "Den",
+        "Burrow",
+        "Hive"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मधुमक्खी के घर को आप क्या कहते हैं?",
+      "options": [
+        "घोंसला",
+        "मांद",
+        "बिल",
+        "छत्ता"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_insects_homes"
+  },
+  {
+    "id": "GK5713",
+    "en": {
+      "question": "What is the name of the bear who loves honey in A.A. Milne's books?",
+      "options": [
+        "Paddington",
+        "Baloo",
+        "Yogi Bear",
+        "Winnie-the-Pooh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ए.ए. मिल्ने की किताबों में शहद पसंद करने वाले भालू का नाम क्या है?",
+      "options": [
+        "पैडिंगटन",
+        "बल्लू",
+        "योगी बेयर",
+        "विनी-द-पूह"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_childrens"
+  },
+  {
+    "id": "GK5715",
+    "en": {
+      "question": "In which sport would you perform a slam dunk?",
+      "options": [
+        "Tennis",
+        "Volleyball",
+        "Soccer",
+        "Basketball"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप किस खेल में स्लैम डंक करेंगे?",
+      "options": [
+        "टेनिस",
+        "वॉलीबॉल",
+        "सॉकर",
+        "बास्केटबॉल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_terms"
+  },
+  {
+    "id": "GK5717",
+    "en": {
+      "question": "What instrument does Lisa Simpson play?",
+      "options": [
+        "Trumpet",
+        "Flute",
+        "Drums",
+        "Saxophone"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लीसा सिम्पसन कौन सा वाद्य यंत्र बजाती है?",
+      "options": [
+        "ट्रम्पेट",
+        "बांसुरी",
+        "ड्रम",
+        "सैक्सोफोन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_cartoons_characters"
+  },
+  {
+    "id": "GK5718",
+    "en": {
+      "question": "What is the longest bone in the human body?",
+      "options": [
+        "Humerus (Upper arm)",
+        "Tibia (Shin bone)",
+        "Fibula (Lower leg)",
+        "Femur (Thigh bone)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे लंबी हड्डी कौन सी है?",
+      "options": [
+        "ह्यूमरस (ऊपरी बांह)",
+        "टिबिआ (पिंडली की हड्डी)",
+        "फिबुला (निचला पैर)",
+        "फीमर (जांघ की हड्डी)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_human_skeleton"
+  },
+  {
+    "id": "GK5719",
+    "en": {
+      "question": "What is the main language spoken in Germany?",
+      "options": [
+        "French",
+        "English",
+        "Dutch",
+        "German"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जर्मनी में बोली जाने वाली मुख्य भाषा कौन सी है?",
+      "options": [
+        "फ्रेंच",
+        "अंग्रेजी",
+        "डच",
+        "जर्मन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_languages_europe"
+  },
+  {
+    "id": "GK5722",
+    "en": {
+      "question": "In which country would you find Machu Picchu?",
+      "options": [
+        "Brazil",
+        "Chile",
+        "Colombia",
+        "Peru"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "माचू पिचू आपको किस देश में मिलेगा?",
+      "options": [
+        "ब्राजील",
+        "चिली",
+        "कोलंबिया",
+        "पेरू"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_landmarks_south_america"
+  },
+  {
+    "id": "GK5723",
+    "en": {
+      "question": "What is the currency used in the United Kingdom?",
+      "options": [
+        "Euro",
+        "Dollar",
+        "Franc",
+        "Pound Sterling"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यूनाइटेड किंगडम में कौन सी मुद्रा का उपयोग किया जाता है?",
+      "options": [
+        "यूरो",
+        "डॉलर",
+        "फ्रैंक",
+        "पाउंड स्टर्लिंग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "economics_currencies_europe"
+  },
+  {
+    "id": "GK5724",
+    "en": {
+      "question": "What is the name of the green pigment found in plant leaves?",
+      "options": [
+        "Carotene",
+        "Xanthophyll",
+        "Anthocyanin",
+        "Chlorophyll"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे की पत्तियों में पाए जाने वाले हरे वर्णक का नाम क्या है?",
+      "options": [
+        "कैरोटीन",
+        "ज़ैंथोफिल",
+        "एंथोसायनिन",
+        "क्लोरोफिल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_plants_pigments"
+  },
+  {
+    "id": "GK5726",
+    "en": {
+      "question": "How many players are on a standard basketball team on the court?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोर्ट पर एक मानक बास्केटबॉल टीम में कितने खिलाड़ी होते हैं?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_rules_teams"
+  },
+  {
+    "id": "GK5728",
+    "en": {
+      "question": "What type of animal is a frog?",
+      "options": [
+        "Reptile",
+        "Mammal",
+        "Fish",
+        "Amphibian"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेंढक किस प्रकार का जानवर है?",
+      "options": [
+        "सरीसृप",
+        "स्तनपायी",
+        "मछली",
+        "उभयचर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals_classification"
+  },
+  {
+    "id": "GK5729",
+    "en": {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "George Bernard Shaw",
+        "William Shakespeare"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नाटक 'रोमियो और जूलियट' किसने लिखा?",
+      "options": [
+        "क्रिस्टोफर मार्लो",
+        "बेन जॉनसन",
+        "जॉर्ज बर्नार्ड शॉ",
+        "विलियम शेक्सपियर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature_plays_authors"
+  },
+  {
+    "id": "GK5731",
+    "en": {
+      "question": "What planet is known as the 'Morning Star' or 'Evening Star'?",
+      "options": [
+        "Mercury",
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस ग्रह को 'भोर का तारा' या 'सांझ का तारा' कहा जाता है?",
+      "options": [
+        "बुध",
+        "मंगल",
+        "बृहस्पति",
+        "शुक्र"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_space_nicknames"
+  },
+  {
+    "id": "GK5732",
+    "en": {
+      "question": "What is the main source of Vitamin C in the following options?",
+      "options": [
+        "Milk",
+        "Bread",
+        "Meat",
+        "Oranges"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "निम्नलिखित विकल्पों में से विटामिन सी का मुख्य स्रोत क्या है?",
+      "options": [
+        "दूध",
+        "ब्रेड",
+        "मांस",
+        "संतरे"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "food_nutrition_vitamins"
+  },
+  {
+    "id": "GK5733",
+    "en": {
+      "question": "How many tentacles does a typical octopus have?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक सामान्य ऑक्टोपस के कितने स्पर्शक (tentacles) होते हैं?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_marine_invertebrates"
+  },
+  {
+    "id": "GK5735",
+    "en": {
+      "question": "What tool is used to hit a nail into wood?",
+      "options": [
+        "Screwdriver",
+        "Wrench",
+        "Pliers",
+        "Hammer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लकड़ी में कील ठोकने के लिए किस औजार का उपयोग किया जाता है?",
+      "options": [
+        "पेचकस",
+        "रिंच",
+        "प्लास",
+        "हथौड़ा"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "tools_basics"
+  },
+  {
+    "id": "GK5736",
+    "en": {
+      "question": "What is the name of the princess in Disney's 'Frozen' with ice powers?",
+      "options": [
+        "Anna",
+        "Belle",
+        "Ariel",
+        "Elsa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "डिज्नी की 'फ्रोजन' में बर्फ की शक्तियों वाली राजकुमारी का नाम क्या है?",
+      "options": [
+        "एना",
+        "बेल",
+        "एरियल",
+        "एल्सा"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5738",
+    "en": {
+      "question": "What is the name of the galaxy closest to the Milky Way?",
+      "options": [
+        "Triangulum Galaxy",
+        "Whirlpool Galaxy",
+        "Sombrero Galaxy",
+        "Andromeda Galaxy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिल्की वे के सबसे निकट की आकाशगंगा का नाम क्या है?",
+      "options": [
+        "ट्राएंगुलम गैलेक्सी",
+        "व्हर्लपूल गैलेक्सी",
+        "सोम्ब्रेरो गैलेक्सी",
+        "एंड्रोमेडा गैलेक्सी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_space_galaxies"
+  },
+  {
+    "id": "GK5739",
+    "en": {
+      "question": "Which large flightless bird is native to Australia?",
+      "options": [
+        "Ostrich",
+        "Kiwi",
+        "Penguin",
+        "Emu"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा बड़ा उड़ने में अक्षम पक्षी ऑस्ट्रेलिया का मूल निवासी है?",
+      "options": [
+        "शुतुरमुर्ग",
+        "कीवी",
+        "पेंगुइन",
+        "एमु"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_birds_flightless"
+  },
+  {
+    "id": "GK5742",
+    "en": {
+      "question": "What famous Italian landmark leans to one side?",
+      "options": [
+        "Colosseum",
+        "St. Peter's Basilica",
+        "Duomo di Milano",
+        "Leaning Tower of Pisa"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा प्रसिद्ध इतालवी स्मारक एक तरफ झुका हुआ है?",
+      "options": [
+        "कोलोसियम",
+        "सेंट पीटर बेसिलिका",
+        "डुओमो डी मिलानो",
+        "पीसा की झुकी मीनार"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_landmarks_italy"
+  },
+  {
+    "id": "GK5743",
+    "en": {
+      "question": "What is the main language spoken in China?",
+      "options": [
+        "Cantonese",
+        "English",
+        "Japanese",
+        "Mandarin Chinese"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "चीन में बोली जाने वाली मुख्य भाषा कौन सी है?",
+      "options": [
+        "कैंटोनीज़",
+        "अंग्रेजी",
+        "जापानी",
+        "मंदारिन चीनी"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_languages_asia"
+  },
+  {
+    "id": "GK5744",
+    "en": {
+      "question": "Which part of the human body is responsible for thinking?",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Stomach",
+        "Brain"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर का कौन सा अंग सोचने के लिए जिम्मेदार है?",
+      "options": [
+        "हृदय",
+        "फेफड़े",
+        "पेट",
+        "मस्तिष्क"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human_organs"
+  },
+  {
+    "id": "GK5745",
+    "en": {
+      "question": "What is the name of the wooden puppet who wants to become a real boy?",
+      "options": [
+        "Geppetto",
+        "Jiminy Cricket",
+        "Figaro",
+        "Pinocchio"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस लकड़ी की कठपुतली का नाम क्या है जो एक असली लड़का बनना चाहता है?",
+      "options": [
+        "गेपेटो",
+        "जिमिनी क्रिकेट",
+        "फिगारो",
+        "पिनोच्चियो"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK5746",
+    "en": {
+      "question": "What is the highest score possible in a single frame of bowling (excluding bonus balls)?",
+      "options": [
+        "5",
+        "15",
+        "20",
+        "10 (Strike)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बॉलिंग के एक फ्रेम में उच्चतम संभव स्कोर क्या है (बोनस गेंदों को छोड़कर)?",
+      "options": [
+        "5",
+        "15",
+        "20",
+        "10 (स्ट्राइक)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "sports_rules_bowling"
+  },
+  {
+    "id": "GK5747",
+    "en": {
+      "question": "What is the chemical process where iron rusts?",
+      "options": [
+        "Combustion",
+        "Melting",
+        "Reduction",
+        "Oxidation"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वह रासायनिक प्रक्रिया क्या है जिसमें लोहे में जंग लगता है?",
+      "options": [
+        "दहन",
+        "पिघलना",
+        "अपचयन",
+        "ऑक्सीकरण"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_reactions"
+  },
+  {
+    "id": "GK5749",
+    "en": {
+      "question": "What small, red insect is often considered lucky?",
+      "options": [
+        "Ant",
+        "Bee",
+        "Fly",
+        "Ladybug"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस छोटे, लाल कीट को अक्सर भाग्यशाली माना जाता है?",
+      "options": [
+        "चींटी",
+        "मधुमक्खी",
+        "मक्खी",
+        "लेडीबग"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_insects_common"
+  },
+  {
+    "id": "GK5751",
+    "en": {
+      "question": "Which ocean is located between North/South America and Europe/Africa?",
+      "options": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Atlantic Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा महासागर उत्तर/दक्षिण अमेरिका और यूरोप/अफ्रीका के बीच स्थित है?",
+      "options": [
+        "प्रशांत महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "अटलांटिक महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_oceans"
+  },
+  {
+    "id": "GK5753",
+    "en": {
+      "question": "Who is known as the 'Father of Computers'?",
+      "options": [
+        "Alan Turing",
+        "Bill Gates",
+        "Steve Jobs",
+        "Charles Babbage"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसे 'कंप्यूटर का पिता' कहा जाता है?",
+      "options": [
+        "एलन ट्यूरिंग",
+        "बिल गेट्स",
+        "स्टीव जॉब्स",
+        "चार्ल्स बैबेज"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "history_technology_people"
+  },
+  {
+    "id": "GK5754",
+    "en": {
+      "question": "What food is made by bees?",
+      "options": [
+        "Jam",
+        "Syrup",
+        "Nectar",
+        "Honey"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मधुमक्खियों द्वारा कौन सा भोजन बनाया जाता है?",
+      "options": [
+        "जैम",
+        "सिरप",
+        "पराग",
+        "शहद"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_natural_products"
+  },
+  {
+    "id": "GK5755",
+    "en": {
+      "question": "What color is commonly associated with envy or jealousy?",
+      "options": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा रंग आमतौर पर ईर्ष्या से जुड़ा होता है?",
+      "options": [
+        "लाल",
+        "नीला",
+        "पीला",
+        "हरा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "language_symbolism"
+  },
+  {
+    "id": "GK5757",
+    "en": {
+      "question": "In the story of 'Goldilocks', how many bears were there?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'गोल्डीलॉक्स' की कहानी में कितने भालू थे?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "pop_culture_fairytales"
+  },
+  {
+    "id": "GK5758",
+    "en": {
+      "question": "What is the closest star to Earth (besides the Sun)?",
+      "options": [
+        "Sirius",
+        "Alpha Centauri A/B",
+        "Betelgeuse",
+        "Proxima Centauri"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी के सबसे निकट का तारा कौन सा है (सूर्य के अलावा)?",
+      "options": [
+        "सीरियस",
+        "अल्फा सेंटॉरी ए/बी",
+        "बेटेलगेस",
+        "प्रोक्सिमा सेंटॉरी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_space_stars"
+  },
+  {
+    "id": "GK5761",
+    "en": {
+      "question": "What is the primary ingredient in traditional Japanese sushi rice?",
+      "options": [
+        "Brown Rice",
+        "Basmati Rice",
+        "Jasmine Rice",
+        "Short-grain white rice"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पारंपरिक जापानी सुशी चावल में प्राथमिक घटक क्या है?",
+      "options": [
+        "ब्राउन राइस",
+        "बासमती चावल",
+        "जैस्मिन चावल",
+        "छोटे दाने वाले सफेद चावल"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "food_world_cuisine_japan"
+  },
+  {
+    "id": "GK5762",
+    "en": {
+      "question": "What large, gray mammal has a trunk?",
+      "options": [
+        "Rhino",
+        "Hippo",
+        "Giraffe",
+        "Elephant"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस बड़े, भूरे स्तनपायी की सूंड होती है?",
+      "options": [
+        "गैंडा",
+        "दरियाई घोड़ा",
+        "जिराफ़",
+        "हाथी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_mammals"
+  },
+  {
+    "id": "GK5764",
+    "en": {
+      "question": "What device is used to view distant objects in space?",
+      "options": [
+        "Microscope",
+        "Magnifying Glass",
+        "Binoculars",
+        "Telescope"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंतरिक्ष में दूर की वस्तुओं को देखने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "माइक्रोस्कोप",
+        "मैग्नीफाइंग ग्लास",
+        "दूरबीन",
+        "टेलीस्कोप"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_tools_optics"
+  },
+  {
+    "id": "GK5766",
+    "en": {
+      "question": "How many rings are in the Olympic symbol?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ओलंपिक प्रतीक में कितने छल्ले हैं?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "sports_olympics"
+  },
+  {
+    "id": "GK5767",
+    "en": {
+      "question": "What is the common name for the compound NaCl?",
+      "options": [
+        "Sugar",
+        "Baking Soda",
+        "Vinegar",
+        "Table Salt"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यौगिक NaCl का सामान्य नाम क्या है?",
+      "options": [
+        "चीनी",
+        "बेकिंग सोडा",
+        "सिरका",
+        "टेबल नमक"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry_compounds"
+  },
+  {
+    "id": "GK5768",
+    "en": {
+      "question": "What part of a plant absorbs sunlight for photosynthesis?",
+      "options": [
+        "Roots",
+        "Stem",
+        "Flower",
+        "Leaves"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे का कौन सा भाग प्रकाश संश्लेषण के लिए सूर्य का प्रकाश अवशोषित करता है?",
+      "options": [
+        "जड़ें",
+        "तना",
+        "फूल",
+        "पत्तियाँ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants_photosynthesis"
+  },
+  {
+    "id": "GK5771",
+    "en": {
+      "question": "What is the name of the long river that flows through Egypt?",
+      "options": [
+        "Congo River",
+        "Niger River",
+        "Zambezi River",
+        "Nile River"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मिस्र से होकर बहने वाली लंबी नदी का नाम क्या है?",
+      "options": [
+        "कांगो नदी",
+        "नाइजर नदी",
+        "ज़ाम्बेज़ी नदी",
+        "नील नदी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_rivers_africa"
+  },
+  {
+    "id": "GK5773",
+    "en": {
+      "question": "What is the main ingredient in traditional Italian pasta?",
+      "options": [
+        "Rice flour",
+        "Corn flour",
+        "Potato flour",
+        "Durum wheat (Semolina)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पारंपरिक इतालवी पास्ता में मुख्य घटक क्या है?",
+      "options": [
+        "चावल का आटा",
+        "मक्के का आटा",
+        "आलू का आटा",
+        "ड्यूरम गेहूं (सूजी)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "food_world_cuisine_italy"
+  },
+  {
+    "id": "GK5774",
+    "en": {
+      "question": "What fictional character is known for saying 'To infinity and beyond!'?",
+      "options": [
+        "Woody",
+        "Mr. Incredible",
+        "Shrek",
+        "Buzz Lightyear"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा काल्पनिक चरित्र 'अनंत और उससे आगे!' कहने के लिए जाना जाता है?",
+      "options": [
+        "वुडी",
+        "मिस्टर इनक्रेडिबल",
+        "श्रेक",
+        "बज़ लाइटईयर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_animation_quotes"
+  },
+  {
+    "id": "GK5775",
+    "en": {
+      "question": "What do you call the study of weather?",
+      "options": [
+        "Geology",
+        "Astronomy",
+        "Biology",
+        "Meteorology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मौसम के अध्ययन को आप क्या कहते हैं?",
+      "options": [
+        "भूविज्ञान",
+        "खगोल विज्ञान",
+        "जीव विज्ञान",
+        "मौसम विज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_fields_earth"
+  },
+  {
+    "id": "GK5777",
+    "en": {
+      "question": "What animal is associated with the Chinese zodiac sign for people born in years like 2010, 1998, 1986?",
+      "options": [
+        "Dragon",
+        "Rabbit",
+        "Snake",
+        "Tiger"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "2010, 1998, 1986 जैसे वर्षों में पैदा हुए लोगों के लिए चीनी राशि चक्र से कौन सा जानवर जुड़ा है?",
+      "options": [
+        "ड्रैगन",
+        "खरगोश",
+        "सांप",
+        "बाघ"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "culture_chinese_zodiac"
+  },
+  {
+    "id": "GK5780",
+    "en": {
+      "question": "What is the name of the fairy tale character who loses a glass slipper?",
+      "options": [
+        "Sleeping Beauty",
+        "Snow White",
+        "Rapunzel",
+        "Cinderella"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कांच की चप्पल खोने वाली परी कथा चरित्र का नाम क्या है?",
+      "options": [
+        "स्लीपिंग ब्यूटी",
+        "स्नो व्हाइट",
+        "रॅपन्ज़ेल",
+        "सिंड्रेला"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_fairytales"
+  },
+  {
+    "id": "GK5781",
+    "en": {
+      "question": "What liquid do plants absorb through their roots?",
+      "options": [
+        "Oil",
+        "Juice",
+        "Milk",
+        "Water"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे अपनी जड़ों के माध्यम से कौन सा तरल अवशोषित करते हैं?",
+      "options": [
+        "तेल",
+        "रस",
+        "दूध",
+        "पानी"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_plants_basics"
+  },
+  {
+    "id": "GK5782",
+    "en": {
+      "question": "What city is famous for its canals, gondolas, and masks?",
+      "options": [
+        "Amsterdam",
+        "Bruges",
+        "St. Petersburg",
+        "Venice"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा शहर अपनी नहरों, गोंडोलों और मुखौटों के लिए प्रसिद्ध है?",
+      "options": [
+        "एम्स्टर्डम",
+        "ब्रुग्स",
+        "सेंट पीटर्सबर्ग",
+        "वेनिस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_cities_features"
+  },
+  {
+    "id": "GK5784",
+    "en": {
+      "question": "What sport is played at Wimbledon?",
+      "options": [
+        "Golf",
+        "Cricket",
+        "Soccer",
+        "Tennis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विंबलडन में कौन सा खेल खेला जाता है?",
+      "options": [
+        "गोल्फ",
+        "क्रिकेट",
+        "सॉकर",
+        "टेनिस"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "sports_tournaments"
+  },
+  {
+    "id": "GK5785",
+    "en": {
+      "question": "What gas do plants release during photosynthesis?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Methane",
+        "Oxygen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे प्रकाश संश्लेषण के दौरान कौन सी गैस छोड़ते हैं?",
+      "options": [
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "मीथेन",
+        "ऑक्सीजन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_plants_photosynthesis"
+  },
+  {
+    "id": "GK5787",
+    "en": {
+      "question": "What is the name of the sea creature who is SpongeBob's best friend?",
+      "options": [
+        "Squidward",
+        "Mr. Krabs",
+        "Sandy Cheeks",
+        "Patrick Star"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस समुद्री जीव का नाम क्या है जो स्पंजबॉब का सबसे अच्छा दोस्त है?",
+      "options": [
+        "स्क्वीडवर्ड",
+        "मिस्टर क्रैब्स",
+        "सैंडी चीक्स",
+        "पैट्रिक स्टार"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_cartoons_characters"
+  },
+  {
+    "id": "GK5788",
+    "en": {
+      "question": "What precious metal is represented by the symbol Pt?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Palladium",
+        "Platinum"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "Pt प्रतीक द्वारा किस कीमती धातु का प्रतिनिधित्व किया जाता है?",
+      "options": [
+        "सोना",
+        "चांदी",
+        "पैलेडियम",
+        "प्लैटिनम"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_elements_metals"
+  },
+  {
+    "id": "GK5789",
+    "en": {
+      "question": "What continent is also a country?",
+      "options": [
+        "Asia",
+        "Europe",
+        "Africa",
+        "Australia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा महाद्वीप एक देश भी है?",
+      "options": [
+        "एशिया",
+        "यूरोप",
+        "अफ्रीका",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_unique"
+  },
+  {
+    "id": "GK5790",
+    "en": {
+      "question": "What sense helps us hear sounds?",
+      "options": [
+        "Sight",
+        "Taste",
+        "Smell",
+        "Hearing"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें ध्वनियाँ सुनने में मदद करती है?",
+      "options": [
+        "दृष्टि",
+        "स्वाद",
+        "गंध",
+        "श्रवण"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5792",
+    "en": {
+      "question": "What do we call the star at the center of our Solar System?",
+      "options": [
+        "Moon",
+        "Mars",
+        "Sirius",
+        "Sun"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हम अपने सौर मंडल के केंद्र में स्थित तारे को क्या कहते हैं?",
+      "options": [
+        "चंद्रमा",
+        "मंगल",
+        "सीरियस",
+        "सूर्य"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "science_space_basics"
+  },
+  {
+    "id": "GK5793",
+    "en": {
+      "question": "What sweet substance is often spread on toast?",
+      "options": [
+        "Mustard",
+        "Ketchup",
+        "Mayonnaise",
+        "Jam/Jelly"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा मीठा पदार्थ अक्सर टोस्ट पर फैलाया जाता है?",
+      "options": [
+        "सरसों",
+        "केचप",
+        "मेयोनेज़",
+        "जैम/जेली"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_condiments"
+  },
+  {
+    "id": "GK5794",
+    "en": {
+      "question": "Who is the superhero known as the 'Man of Steel'?",
+      "options": [
+        "Batman",
+        "Spider-Man",
+        "Iron Man",
+        "Superman"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस सुपरहीरो को 'मैन ऑफ स्टील' के नाम से जाना जाता है?",
+      "options": [
+        "बैटमैन",
+        "स्पाइडर-मैन",
+        "आयरन मैन",
+        "सुपरमैन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_comics_dc"
+  },
+  {
+    "id": "GK5799",
+    "en": {
+      "question": "Which famous artist cut off part of his own ear?",
+      "options": [
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Claude Monet",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध कलाकार ने अपने ही कान का हिस्सा काट लिया था?",
+      "options": [
+        "पाब्लो पिकासो",
+        "साल्वाडोर डाली",
+        "क्लॉड मोनेट",
+        "विन्सेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history_artists_lives"
+  }
+]

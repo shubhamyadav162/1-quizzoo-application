@@ -1,0 +1,402 @@
+[
+  {
+    "id": "GK121",
+    "en": {
+      "question": "Who is the author of 'The Discovery of India'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Sardar Patel"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'द डिस्कवरी ऑफ इंडिया' के लेखक कौन हैं?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "रवींद्रनाथ टैगोर",
+        "सरदार पटेल"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK123",
+    "en": {
+      "question": "Which is the smallest continent by land area?",
+      "options": [
+        "Europe",
+        "Australia",
+        "Antarctica",
+        "South America"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भूमि क्षेत्र के अनुसार सबसे छोटा महाद्वीप कौन सा है?",
+      "options": [
+        "यूरोप",
+        "ऑस्ट्रेलिया",
+        "अंटार्कटिका",
+        "दक्षिण अमेरिका"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK125",
+    "en": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent Van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मोनालिसा किसने चित्रित की थी?",
+      "options": [
+        "विन्सेंट वैन गॉग",
+        "पाब्लो पिकासो",
+        "लियोनार्डो दा विंची",
+        "माइकेलएंजेलो"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK126",
+    "en": {
+      "question": "What is the capital of Egypt?",
+      "options": [
+        "Casablanca",
+        "Cairo",
+        "Alexandria",
+        "Tunis"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मिस्र की राजधानी क्या है?",
+      "options": [
+        "कासाब्लांका",
+        "काहिरा",
+        "अलेक्जेंड्रिया",
+        "ट्यूनिस"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK127",
+    "en": {
+      "question": "Which device is used to measure earthquakes?",
+      "options": [
+        "Barometer",
+        "Hydrometer",
+        "Seismograph",
+        "Thermometer"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भूकंप को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "हाइड्रोमीटर",
+        "सिस्मोग्राफ",
+        "थर्मामीटर"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "science_instruments"
+  },
+  {
+    "id": "GK128",
+    "en": {
+      "question": "What is the national animal of India?",
+      "options": [
+        "Lion",
+        "Tiger",
+        "Elephant",
+        "Leopard"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय पशु क्या है?",
+      "options": [
+        "शेर",
+        "बाघ",
+        "हाथी",
+        "तेंदुआ"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK129",
+    "en": {
+      "question": "Which is the tallest mountain in the world?",
+      "options": [
+        "K2",
+        "Mount Everest",
+        "Kangchenjunga",
+        "Makalu"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे ऊंचा पर्वत कौन सा है?",
+      "options": [
+        "K2",
+        "माउंट एवरेस्ट",
+        "कंचनजंगा",
+        "मकालू"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK130",
+    "en": {
+      "question": "Who founded Microsoft?",
+      "options": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Larry Page"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "माइक्रोसॉफ्ट की स्थापना किसने की थी?",
+      "options": [
+        "स्टीव जॉब्स",
+        "बिल गेट्स",
+        "मार्क जुकरबर्ग",
+        "लैरी पेज"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "technology"
+  },
+  {
+    "id": "GK131",
+    "en": {
+      "question": "What is the formula for water?",
+      "options": [
+        "H2O",
+        "CO2",
+        "O2",
+        "N2"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पानी का सूत्र क्या है?",
+      "options": [
+        "H2O",
+        "CO2",
+        "O2",
+        "N2"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK132",
+    "en": {
+      "question": "Who is known as the 'Iron Man of India'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Sardar Vallabhbhai Patel",
+        "Subhas Chandra Bose"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारत का लौह पुरुष' कहा जाता है?",
+      "options": [
+        "जवाहरलाल नेहरू",
+        "महात्मा गांधी",
+        "सरदार वल्लभभाई पटेल",
+        "सुभाष चंद्र बोस"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK133",
+    "en": {
+      "question": "Which is the largest river in the world by volume?",
+      "options": [
+        "Nile",
+        "Amazon",
+        "Mississippi",
+        "Yangtze"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मात्रा के हिसाब से विश्व की सबसे बड़ी नदी कौन सी है?",
+      "options": [
+        "नील",
+        "अमेज़न",
+        "मिसिसिपी",
+        "यांग्त्ज़ी"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK134",
+    "en": {
+      "question": "What does DNA stand for?",
+      "options": [
+        "Deoxyribose Nucleic Acid",
+        "Diribonucleic Acid",
+        "Deoxyribonucleic Acid",
+        "Deoxyribonucleic Alkaline"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "डीएनए का पूरा नाम क्या है?",
+      "options": [
+        "डिऑक्सीराइबोज न्यूक्लिक एसिड",
+        "डाइरिबोन्यूक्लिक एसिड",
+        "डिऑक्सीराइबोन्यूक्लिक एसिड",
+        "डिऑक्सीराइबोन्यूक्लिक अल्कलाइन"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "biology"
+  },
+  {
+    "id": "GK135",
+    "en": {
+      "question": "Who wrote the book 'War and Peace'?",
+      "options": [
+        "Charles Dickens",
+        "Leo Tolstoy",
+        "Fyodor Dostoevsky",
+        "Jane Austen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'वॉर एंड पीस' पुस्तक किसने लिखी थी?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "लियो टॉलस्टॉय",
+        "फ्योदोर दोस्तोयेव्स्की",
+        "जेन ऑस्टेन"
+      ],
+      "answer": 1
+    },
+    "level": 10,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK136",
+    "en": {
+      "question": "What is the basic unit of life?",
+      "options": [
+        "Atom",
+        "Cell",
+        "Molecule",
+        "Tissue"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जीवन की मूलभूत इकाई क्या है?",
+      "options": [
+        "परमाणु",
+        "कोशिका",
+        "अणु",
+        "ऊतक"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK137",
+    "en": {
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा ग्रह सूर्य के सबसे निकट है?",
+      "options": [
+        "शुक्र",
+        "पृथ्वी",
+        "मंगल",
+        "बुध"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK140",
+    "en": {
+      "question": "Who is the inventor of the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Stephen Hawking"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सापेक्षता के सिद्धांत के आविष्कारक कौन हैं?",
+      "options": [
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "गैलीलियो गैलिली",
+        "स्टीफन हॉकिंग"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "physics"
+  }
+]

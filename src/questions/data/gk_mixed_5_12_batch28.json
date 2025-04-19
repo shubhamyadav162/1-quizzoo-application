@@ -1,0 +1,427 @@
+[
+  {
+    "id": "GK641",
+    "en": {
+      "question": "Which is the smallest state in India by population?",
+      "options": [
+        "Goa",
+        "Sikkim",
+        "Mizoram",
+        "Tripura"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जनसंख्या के आधार पर भारत का सबसे छोटा राज्य कौन सा है?",
+      "options": [
+        "गोवा",
+        "सिक्किम",
+        "मिजोरम",
+        "त्रिपुरा"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK642",
+    "en": {
+      "question": "What is the unit of measurement of loudness of sound?",
+      "options": [
+        "Hertz",
+        "Decibel",
+        "Watt",
+        "Ohm"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ध्वनि की प्रबलता की माप इकाई क्या है?",
+      "options": [
+        "हर्ट्ज",
+        "डेसिबल",
+        "वाट",
+        "ओम"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK644",
+    "en": {
+      "question": "Which was the first artificial satellite to be launched into space?",
+      "options": [
+        "Explorer 1",
+        "Sputnik 1",
+        "Vanguard 1",
+        "Apollo 11"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "अंतरिक्ष में लॉन्च किया जाने वाला पहला कृत्रिम उपग्रह कौन सा था?",
+      "options": [
+        "एक्सप्लोरर 1",
+        "स्पुतनिक 1",
+        "वैनगार्ड 1",
+        "अपोलो 11"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "space_exploration"
+  },
+  {
+    "id": "GK645",
+    "en": {
+      "question": "Who is known as the 'Father of the Indian Constitution'?",
+      "options": [
+        "Dr. B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किसे 'भारतीय संविधान के पिता' के रूप में जाना जाता है?",
+      "options": [
+        "डॉ. बी.आर. अंबेडकर",
+        "जवाहरलाल नेहरू",
+        "महात्मा गांधी",
+        "सरदार वल्लभभाई पटेल"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK646",
+    "en": {
+      "question": "Which state in India is known for Madhubani painting?",
+      "options": [
+        "Bihar",
+        "Rajasthan",
+        "West Bengal",
+        "Odisha"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत में कौन सा राज्य मधुबनी चित्रकला के लिए जाना जाता है?",
+      "options": [
+        "बिहार",
+        "राजस्थान",
+        "पश्चिम बंगाल",
+        "ओडिशा"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_art"
+  },
+  {
+    "id": "GK647",
+    "en": {
+      "question": "What is the name of the first cloned sheep?",
+      "options": [
+        "Molly",
+        "Dolly",
+        "Polly",
+        "Sally"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पहली क्लोन की गई भेड़ का नाम क्या है?",
+      "options": [
+        "मॉली",
+        "डॉली",
+        "पॉली",
+        "सैली"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK648",
+    "en": {
+      "question": "Which element is used in pencils?",
+      "options": [
+        "Carbon",
+        "Lead",
+        "Graphite",
+        "Silicon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पेंसिल में किस तत्व का उपयोग किया जाता है?",
+      "options": [
+        "कार्बन",
+        "लेड",
+        "ग्रेफाइट",
+        "सिलिकॉन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK650",
+    "en": {
+      "question": "What is the Aadhar card?",
+      "options": [
+        "Driving License",
+        "Health Card",
+        "Unique Identification Number",
+        "Voter ID"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आधार कार्ड क्या है?",
+      "options": [
+        "ड्राइविंग लाइसेंस",
+        "हेल्थ कार्ड",
+        "विशिष्ट पहचान संख्या",
+        "वोटर आईडी"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK651",
+    "en": {
+      "question": "Which is the most populous city in India?",
+      "options": [
+        "Mumbai",
+        "Delhi",
+        "Kolkata",
+        "Chennai"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत का सबसे अधिक आबादी वाला शहर कौन सा है?",
+      "options": [
+        "मुंबई",
+        "दिल्ली",
+        "कोलकाता",
+        "चेन्नई"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK653",
+    "en": {
+      "question": "Which dance form is associated with Kerala?",
+      "options": [
+        "Bharatanatyam",
+        "Kathakali",
+        "Manipuri",
+        "Kuchipudi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा नृत्य रूप केरल से जुड़ा है?",
+      "options": [
+        "भरतनाट्यम",
+        "कथकली",
+        "मणिपुरी",
+        "कुचिपुड़ी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK654",
+    "en": {
+      "question": "Which Indian leader is known as 'Lok Nayak'?",
+      "options": [
+        "Jayaprakash Narayan",
+        "Lal Bahadur Shastri",
+        "Sardar Vallabhbhai Patel",
+        "Charan Singh"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किस भारतीय नेता को 'लोक नायक' के रूप में जाना जाता है?",
+      "options": [
+        "जयप्रकाश नारायण",
+        "लाल बहादुर शास्त्री",
+        "सरदार वल्लभभाई पटेल",
+        "चरण सिंह"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK655",
+    "en": {
+      "question": "What is the average adult human body temperature in Fahrenheit?",
+      "options": [
+        "97.7°F",
+        "98.6°F",
+        "99.5°F",
+        "100.4°F"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "फारेनहाइट में औसत वयस्क मानव शरीर का तापमान क्या है?",
+      "options": [
+        "97.7°F",
+        "98.6°F",
+        "99.5°F",
+        "100.4°F"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK656",
+    "en": {
+      "question": "Which layer of the atmosphere contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "वायुमंडल की किस परत में ओजोन परत होती है?",
+      "options": [
+        "क्षोभमंडल",
+        "समतापमंडल",
+        "मध्यमंडल",
+        "तापमंडल"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "environmental_science"
+  },
+  {
+    "id": "GK657",
+    "en": {
+      "question": "Which is the world's oldest known civilization?",
+      "options": [
+        "Egyptian Civilization",
+        "Mesopotamian Civilization",
+        "Indus Valley Civilization",
+        "Chinese Civilization"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व की सबसे पुरानी ज्ञात सभ्यता कौन सी है?",
+      "options": [
+        "मिस्र सभ्यता",
+        "मेसोपोटामिया सभ्यता",
+        "सिंधु घाटी सभ्यता",
+        "चीनी सभ्यता"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "world_history"
+  },
+  {
+    "id": "GK658",
+    "en": {
+      "question": "Who wrote the novel 'Devdas'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Sarat Chandra Chattopadhyay",
+        "Munshi Premchand"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'देवदास' उपन्यास किसने लिखा?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "शरत चंद्र चट्टोपाध्याय",
+        "मुंशी प्रेमचंद"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK659",
+    "en": {
+      "question": "Which is the largest aquatic predator?",
+      "options": [
+        "Great White Shark",
+        "Killer Whale",
+        "Blue Whale",
+        "Giant Squid"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सबसे बड़ा जलीय शिकारी कौन सा है?",
+      "options": [
+        "ग्रेट व्हाइट शार्क",
+        "किलर व्हेल",
+        "ब्लू व्हेल",
+        "विशालकाय स्क्विड"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK660",
+    "en": {
+      "question": "What is the name of the desert in China?",
+      "options": [
+        "Sahara Desert",
+        "Thar Desert",
+        "Gobi Desert",
+        "Kalahari Desert"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "चीन के रेगिस्तान का नाम क्या है?",
+      "options": [
+        "सहारा रेगिस्तान",
+        "थार रेगिस्तान",
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  }
+]

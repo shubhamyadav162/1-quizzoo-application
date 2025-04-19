@@ -1,0 +1,352 @@
+[
+  {
+    "id": "GK363",
+    "en": {
+      "question": "Which is the largest organ in the human body?",
+      "options": [
+        "Heart",
+        "Brain",
+        "Liver",
+        "Skin"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+      "options": [
+        "हृदय",
+        "मस्तिष्क",
+        "यकृत",
+        "त्वचा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK366",
+    "en": {
+      "question": "Who is the author of 'Harry Potter' series?",
+      "options": [
+        "J.K. Rowling",
+        "George R.R. Martin",
+        "J.R.R. Tolkien",
+        "Stephen King"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'हैरी पॉटर' श्रृंखला के लेखक कौन हैं?",
+      "options": [
+        "जे.के. रोलिंग",
+        "जॉर्ज आर.आर. मार्टिन",
+        "जे.आर.आर. टॉल्किन",
+        "स्टीफन किंग"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK367",
+    "en": {
+      "question": "What is the unit of electric current?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विद्युत धारा की इकाई क्या है?",
+      "options": [
+        "वोल्ट",
+        "वाट",
+        "एम्पियर",
+        "ओम"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK368",
+    "en": {
+      "question": "Which Indian state has the largest coastline?",
+      "options": [
+        "Kerala",
+        "Tamil Nadu",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की सबसे लंबी तटरेखा है?",
+      "options": [
+        "केरल",
+        "तमिलनाडु",
+        "गुजरात",
+        "महाराष्ट्र"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK369",
+    "en": {
+      "question": "Which is the tallest mountain in the world?",
+      "options": [
+        "K2",
+        "Mount Kilimanjaro",
+        "Mount Everest",
+        "Kangchenjunga"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे ऊँचा पर्वत कौन सा है?",
+      "options": [
+        "के2",
+        "माउंट किलिमंजारो",
+        "माउंट एवरेस्ट",
+        "कंचनजंगा"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK370",
+    "en": {
+      "question": "Who was the first woman Prime Minister of India?",
+      "options": [
+        "Indira Gandhi",
+        "Sarojini Naidu",
+        "Sonia Gandhi",
+        "Pratibha Patil"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत की पहली महिला प्रधानमंत्री कौन थीं?",
+      "options": [
+        "इंदिरा गांधी",
+        "सरोजिनी नायडू",
+        "सोनिया गांधी",
+        "प्रतिभा पाटिल"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK371",
+    "en": {
+      "question": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Diribonucleic Acid",
+        "Deoxyribose Nuclear Acid",
+        "Diribose Nucleic Acid"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "DNA का पूरा नाम क्या है?",
+      "options": [
+        "डीऑक्सीराइबोन्यूक्लिक एसिड",
+        "डीराइबोन्यूक्लिक एसिड",
+        "डीऑक्सीराइबोज न्यूक्लियर एसिड",
+        "डीराइबोज न्यूक्लिक एसिड"
+      ],
+      "answer": 0
+    },
+    "level": 9,
+    "category": "biology"
+  },
+  {
+    "id": "GK372",
+    "en": {
+      "question": "Which river is called the 'Ganga of the South'?",
+      "options": [
+        "Krishna",
+        "Godavari",
+        "Cauvery",
+        "Tungabhadra"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस नदी को 'दक्षिण की गंगा' कहा जाता है?",
+      "options": [
+        "कृष्णा",
+        "गोदावरी",
+        "कावेरी",
+        "तुंगभद्रा"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK373",
+    "en": {
+      "question": "What is the chemical formula for table salt?",
+      "options": [
+        "NaCl",
+        "CaCO3",
+        "H2O",
+        "MgSO4"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "खाने के नमक का रासायनिक सूत्र क्या है?",
+      "options": [
+        "NaCl",
+        "CaCO3",
+        "H2O",
+        "MgSO4"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK374",
+    "en": {
+      "question": "Who gave the slogan 'Jai Jawan Jai Kisan'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Lal Bahadur Shastri",
+        "Indira Gandhi"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'जय जवान जय किसान' का नारा किसने दिया?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "लाल बहादुर शास्त्री",
+        "इंदिरा गांधी"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK376",
+    "en": {
+      "question": "Who wrote 'Ramayana'?",
+      "options": [
+        "Maharishi Valmiki",
+        "Ved Vyasa",
+        "Tulsidas",
+        "Kalidas"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'रामायण' किसने लिखी?",
+      "options": [
+        "महर्षि वाल्मीकि",
+        "वेद व्यास",
+        "तुलसीदास",
+        "कालिदास"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK378",
+    "en": {
+      "question": "Which is the highest civilian award in India?",
+      "options": [
+        "Padma Shri",
+        "Padma Bhushan",
+        "Padma Vibhushan",
+        "Bharat Ratna"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारत का सर्वोच्च नागरिक पुरस्कार कौन सा है?",
+      "options": [
+        "पद्म श्री",
+        "पद्म भूषण",
+        "पद्म विभूषण",
+        "भारत रत्न"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "indian_awards"
+  },
+  {
+    "id": "GK379",
+    "en": {
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में सबसे अधिक कौन सी गैस है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "environment"
+  },
+  {
+    "id": "GK380",
+    "en": {
+      "question": "Who was the first person to step on the Moon?",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Michael Collins"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "चंद्रमा पर कदम रखने वाले पहले व्यक्ति कौन थे?",
+      "options": [
+        "यूरी गगारिन",
+        "नील आर्मस्ट्रांग",
+        "बज़ एल्ड्रिन",
+        "माइकल कॉलिन्स"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "space"
+  }
+]

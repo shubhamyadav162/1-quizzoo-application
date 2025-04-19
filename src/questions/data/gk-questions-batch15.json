@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-126",
+      "question_text": "Which animal has the longest gestation period?",
+      "options": [
+        "Elephant",
+        "Blue whale",
+        "Rhinoceros",
+        "Giraffe"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "Elephants have the longest gestation period of any land mammal, carrying their young for nearly 22 months before giving birth. This extended pregnancy allows elephant calves to develop more fully before birth. When born, a baby elephant typically weighs around 200-250 pounds (90-113 kg) and stands about 3 feet (1 meter) tall, making them one of the largest newborn animals on Earth.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-126",
+      "question_text": "किस जानवर का गर्भधारण काल सबसे लंबा होता है?",
+      "options": [
+        "हाथी",
+        "नीली व्हेल",
+        "गैंडा",
+        "जिराफ"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "हाथियों का गर्भधारण काल किसी भी स्थलीय स्तनधारी की तुलना में सबसे लंबा होता है, वे अपने बच्चों को जन्म देने से पहले लगभग 22 महीने तक गर्भ में रखते हैं। यह विस्तारित गर्भावस्था हाथी के बछड़ों को जन्म से पहले अधिक पूर्ण रूप से विकसित होने की अनुमति देती है। जन्म के समय, एक बेबी हाथी आमतौर पर लगभग 200-250 पाउंड (90-113 किलोग्राम) वजन और लगभग 3 फीट (1 मीटर) ऊंचा होता है, जो उन्हें पृथ्वी पर सबसे बड़े नवजात जानवरों में से एक बनाता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-127",
+      "question_text": "What was the first novel written on a typewriter?",
+      "options": [
+        "The Adventures of Tom Sawyer",
+        "War and Peace",
+        "A Tale of Two Cities",
+        "Moby Dick"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "Mark Twain's 'The Adventures of Tom Sawyer' (1876) is widely considered to be the first novel written on a typewriter. Twain claimed to be the first author to submit a typewritten manuscript to a publisher. He had purchased a Remington No. 1 typewriter in 1874 for $125 (approximately $2,800 in today's money) and used it to compose this famous work, though he reportedly found typing frustrating at first.",
+      "category_id": 3,
+      "difficulty_level": "hard",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-127",
+      "question_text": "टाइपराइटर पर लिखा गया पहला उपन्यास कौन सा था?",
+      "options": [
+        "द एडवेंचर्स ऑफ टॉम सॉयर",
+        "वॉर एंड पीस",
+        "ए टेल ऑफ टू सिटीज",
+        "मोबी डिक"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "मार्क ट्वेन का 'द एडवेंचर्स ऑफ टॉम सॉयर' (1876) को व्यापक रूप से टाइपराइटर पर लिखा गया पहला उपन्यास माना जाता है। ट्वेन ने दावा किया कि वह पहले लेखक थे जिन्होंने प्रकाशक को टाइप किया हुआ पांडुलिपि प्रस्तुत किया था। उन्होंने 1874 में $125 (आज के समय में लगभग $2,800) में एक रेमिंगटन नंबर 1 टाइपराइटर खरीदा था और इसका उपयोग इस प्रसिद्ध कार्य को रचने के लिए किया था, हालांकि उन्हें शुरू में टाइपिंग निराशाजनक लगी थी।",
+      "category_id": 3,
+      "difficulty_level": "hard",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-128",
+      "question_text": "Which country has the highest number of lakes?",
+      "options": [
+        "Russia",
+        "United States",
+        "Canada",
+        "Finland"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "Canada has the highest number of lakes of any country in the world, with over 2 million lakes. In fact, Canada contains more than 60% of all the lakes in the world. The country has so many lakes that they have not all been named or even discovered. Among these lakes is the Great Bear Lake, which is the largest lake entirely within Canada, and Lake Superior, which is the largest freshwater lake by surface area in the world (shared with the United States).",
+      "category_id": 1,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-128",
+      "question_text": "किस देश में झीलों की संख्या सबसे अधिक है?",
+      "options": [
+        "रूस",
+        "संयुक्त राज्य अमेरिका",
+        "कनाडा",
+        "फिनलैंड"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "कनाडा में विश्व के किसी भी देश की तुलना में झीलों की संख्या सबसे अधिक है, जिसमें 2 मिलियन से अधिक झीलें हैं। वास्तव में, कनाडा में दुनिया की सभी झीलों का 60% से अधिक हिस्सा है। देश में इतनी अधिक झीलें हैं कि उन सभी का नाम नहीं रखा गया है या यहां तक कि उन्हें खोजा भी नहीं गया है। इन झीलों में से ग्रेट बेयर लेक है, जो पूरी तरह से कनाडा के भीतर सबसे बड़ी झील है, और सुपीरियर झील, जो सतह क्षेत्र के आधार पर दुनिया की सबसे बड़ी मीठे पानी की झील है (संयुक्त राज्य अमेरिका के साथ साझा)।",
+      "category_id": 1,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-129",
+      "question_text": "What unusual ingredient did the ancient Romans use in their toothpaste?",
+      "options": [
+        "Honey",
+        "Human urine",
+        "Crushed oyster shells",
+        "Olive oil"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Ancient Romans used human urine as an ingredient in toothpaste because of its ammonia content. They believed that urine, particularly imported Portuguese urine which was considered especially potent, helped whiten teeth and fight gum disease. The ammonia in urine is actually an effective cleaning agent. Romans would collect urine in public vessels placed on street corners, which was then used for dental hygiene, laundry, and tanning leather.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-129",
+      "question_text": "प्राचीन रोमनों ने अपने टूथपेस्ट में कौन सी असामान्य सामग्री का उपयोग किया?",
+      "options": [
+        "शहद",
+        "मानव मूत्र",
+        "कुचले हुए सीपी के खोल",
+        "जैतून का तेल"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "प्राचीन रोमनों ने अपने अमोनिया सामग्री के कारण टूथपेस्ट में मानव मूत्र का एक सामग्री के रूप में उपयोग किया। उनका मानना था कि मूत्र, विशेष रूप से आयातित पुर्तगाली मूत्र जिसे विशेष रूप से शक्तिशाली माना जाता था, दांतों को सफेद करने और मसूड़ों की बीमारी से लड़ने में मदद करता था। मूत्र में अमोनिया वास्तव में एक प्रभावी सफाई एजेंट है। रोमन सड़क के कोनों पर रखे गए सार्वजनिक बर्तनों में मूत्र इकट्ठा करते थे, जिसका उपयोग तब दंत स्वच्छता, कपड़े धोने और चमड़े को रंगने के लिए किया जाता था।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-130",
+      "question_text": "What country has the world's only non-quadrilateral national flag?",
+      "options": [
+        "Bhutan",
+        "Nepal",
+        "Switzerland",
+        "Jamaica"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Nepal has the world's only non-quadrilateral national flag. It consists of two triangular pennants stacked on top of each other, creating a unique pennant-shaped flag. The upper triangle contains a stylized moon, while the lower triangle features a stylized sun, both symbolizing different royal houses of Nepal. This distinctive flag has been in use since 1962 and is also the only national flag that is not rectangular or square in shape.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-130",
+      "question_text": "किस देश का राष्ट्रीय ध्वज दुनिया का एकमात्र गैर-चतुर्भुज राष्ट्रीय ध्वज है?",
+      "options": [
+        "भूटान",
+        "नेपाल",
+        "स्विट्जरलैंड",
+        "जमैका"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नेपाल का दुनिया का एकमात्र गैर-चतुर्भुज राष्ट्रीय ध्वज है। इसमें एक-दूसरे के ऊपर स्टैक किए गए दो त्रिकोणीय पेनेंट होते हैं, जो एक अनोखे पेनेंट-आकार का ध्वज बनाते हैं। ऊपरी त्रिकोण में एक शैलीबद्ध चंद्रमा होता है, जबकि निचले त्रिकोण में एक शैलीबद्ध सूरज होता है, दोनों नेपाल के विभिन्न शाही घरानों का प्रतीक हैं। यह विशिष्ट ध्वज 1962 से उपयोग में है और यह एकमात्र राष्ट्रीय ध्वज भी है जो आयताकार या वर्गाकार आकार का नहीं है।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+}

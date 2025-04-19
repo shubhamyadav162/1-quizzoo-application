@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK782",
+    "en": {
+      "question": "What is the name of the pigment that gives skin and hair its color?",
+      "options": [
+        "Melanin",
+        "Keratin",
+        "Hemoglobin",
+        "Collagen"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "उस वर्णक का नाम क्या है जो त्वचा और बालों को उनका रंग देता है?",
+      "options": [
+        "मेलानिन",
+        "केराटिन",
+        "हीमोग्लोबिन",
+        "कोलेजन"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK784",
+    "en": {
+      "question": "Which is the national reptile of India?",
+      "options": [
+        "King Cobra",
+        "Gharial",
+        "Indian Python",
+        "King Cobra"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय सरीसृप कौन सा है?",
+      "options": [
+        "किंग कोबरा",
+        "घड़ियाल",
+        "भारतीय अजगर",
+        "किंग कोबरा"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK785",
+    "en": {
+      "question": "Which scientist discovered the radioactive element radium?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Marie Curie",
+        "Louis Pasteur"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस वैज्ञानिक ने रेडियोधर्मी तत्व रेडियम की खोज की?",
+      "options": [
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "मैरी क्यूरी",
+        "लुई पाश्चर"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK788",
+    "en": {
+      "question": "Which river is known as the 'Sorrow of Bihar'?",
+      "options": [
+        "Ganga",
+        "Kosi",
+        "Son",
+        "Gandak"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस नदी को 'बिहार का शोक' कहा जाता है?",
+      "options": [
+        "गंगा",
+        "कोसी",
+        "सोन",
+        "गंडक"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK793",
+    "en": {
+      "question": "Who founded the Maurya Empire?",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Chanakya"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मौर्य साम्राज्य की स्थापना किसने की?",
+      "options": [
+        "अशोक",
+        "चंद्रगुप्त मौर्य",
+        "बिंदुसार",
+        "चाणक्य"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK794",
+    "en": {
+      "question": "Which bird can fly backwards?",
+      "options": [
+        "Eagle",
+        "Sparrow",
+        "Hummingbird",
+        "Parrot"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा पक्षी पीछे की ओर उड़ सकता है?",
+      "options": [
+        "ईगल",
+        "गौरैया",
+        "हमिंगबर्ड",
+        "तोता"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK795",
+    "en": {
+      "question": "Who was the chairman of the drafting committee of the Indian Constitution?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru",
+        "Dr. B.R. Ambedkar",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारतीय संविधान की मसौदा समिति के अध्यक्ष कौन थे?",
+      "options": [
+        "डॉ. राजेंद्र प्रसाद",
+        "जवाहरलाल नेहरू",
+        "डॉ. बी.आर. अंबेडकर",
+        "सरदार वल्लभभाई पटेल"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK797",
+    "en": {
+      "question": "Which city is called the 'Silicon Valley of India'?",
+      "options": [
+        "Mumbai",
+        "Hyderabad",
+        "Pune",
+        "Bengaluru"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस शहर को 'भारत की सिलिकॉन वैली' कहा जाता है?",
+      "options": [
+        "मुंबई",
+        "हैदराबाद",
+        "पुणे",
+        "बेंगलुरु"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "indian_technology"
+  },
+  {
+    "id": "GK798",
+    "en": {
+      "question": "What is the scientific name of humans?",
+      "options": [
+        "Homo erectus",
+        "Homo sapiens",
+        "Homo neanderthalensis",
+        "Homo habilis"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मनुष्यों का वैज्ञानिक नाम क्या है?",
+      "options": [
+        "होमो इरेक्टस",
+        "होमो सेपियन्स",
+        "होमो नीएंडरथैलेंसिस",
+        "होमो हैबिलिस"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK800",
+    "en": {
+      "question": "Who is known as the 'Father of Indian Cinema'?",
+      "options": [
+        "Satyajit Ray",
+        "Dadasaheb Phalke",
+        "Raj Kapoor",
+        "Guru Dutt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'भारतीय सिनेमा का जनक' कहा जाता है?",
+      "options": [
+        "सत्यजीत रे",
+        "दादासाहेब फाल्के",
+        "राज कपूर",
+        "गुरु दत्त"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_cinema"
+  }
+]

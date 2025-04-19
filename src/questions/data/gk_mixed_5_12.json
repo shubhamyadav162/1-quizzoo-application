@@ -1,0 +1,402 @@
+[
+  {
+    "id": "GK101",
+    "en": {
+      "question": "Which is the smallest bone in the human body?",
+      "options": [
+        "Stapes",
+        "Femur",
+        "Radius",
+        "Ulna"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "मानव शरीर में सबसे छोटी हड्डी कौन सी है?",
+      "options": [
+        "स्टेपीज़",
+        "फीमर",
+        "रेडियस",
+        "अल्ना"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK102",
+    "en": {
+      "question": "Who was the first President of India?",
+      "options": [
+        "Dr. S. Radhakrishnan",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru",
+        "C. Rajagopalachari"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत के पहले राष्ट्रपति कौन थे?",
+      "options": [
+        "डॉ. एस. राधाकृष्णन",
+        "डॉ. राजेंद्र प्रसाद",
+        "जवाहरलाल नेहरू",
+        "सी. राजगोपालाचारी"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK104",
+    "en": {
+      "question": "In which year did India gain independence from British rule?",
+      "options": [
+        "1945",
+        "1947",
+        "1950",
+        "1952"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत को ब्रिटिश शासन से स्वतंत्रता किस वर्ष मिली थी?",
+      "options": [
+        "1945",
+        "1947",
+        "1950",
+        "1952"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK105",
+    "en": {
+      "question": "Which is the largest mammal on Earth?",
+      "options": [
+        "African Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Hippopotamus"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे बड़ा स्तनधारी कौन सा है?",
+      "options": [
+        "अफ्रीकी हाथी",
+        "नीली व्हेल",
+        "जिराफ",
+        "दरियाई घोड़ा"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK106",
+    "en": {
+      "question": "Who wrote the famous play 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्रसिद्ध नाटक 'रोमियो एंड जूलियट' किसने लिखा था?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "विलियम शेक्सपियर",
+        "जेन ऑस्टेन",
+        "मार्क ट्वेन"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "literature"
+  },
+  {
+    "id": "GK107",
+    "en": {
+      "question": "Which gas is commonly known as laughing gas?",
+      "options": [
+        "Oxygen",
+        "Nitrous Oxide",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस गैस को आमतौर पर हँसी गैस के नाम से जाना जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रस ऑक्साइड",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK108",
+    "en": {
+      "question": "Which river is known as the 'Ganga of the South'?",
+      "options": [
+        "Krishna",
+        "Kaveri",
+        "Godavari",
+        "Narmada"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस नदी को 'दक्षिण की गंगा' के नाम से जाना जाता है?",
+      "options": [
+        "कृष्णा",
+        "कावेरी",
+        "गोदावरी",
+        "नर्मदा"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK111",
+    "en": {
+      "question": "What is the largest desert in the world?",
+      "options": [
+        "Gobi Desert",
+        "Kalahari Desert",
+        "Sahara Desert",
+        "Antarctic Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा रेगिस्तान कौन सा है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "कालाहारी रेगिस्तान",
+        "सहारा रेगिस्तान",
+        "अंटार्कटिक रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK112",
+    "en": {
+      "question": "Which planet has the most moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस ग्रह के चारों ओर सबसे अधिक चंद्रमा हैं?",
+      "options": [
+        "बृहस्पति",
+        "शनि",
+        "यूरेनस",
+        "नेप्च्यून"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK113",
+    "en": {
+      "question": "Who is known as the 'Father of Indian Constitution'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar",
+        "Sardar Vallabhbhai Patel"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'भारतीय संविधान का जनक' कहा जाता है?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "बी.आर. अम्बेडकर",
+        "सरदार वल्लभभाई पटेल"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK114",
+    "en": {
+      "question": "Which instrument is used to measure blood pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Sphygmomanometer",
+        "Hygrometer"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "रक्तचाप मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "थर्मामीटर",
+        "बैरोमीटर",
+        "स्फिग्मोमैनोमीटर",
+        "हाइग्रोमीटर"
+      ],
+      "answer": 2
+    },
+    "level": 10,
+    "category": "science_instruments"
+  },
+  {
+    "id": "GK115",
+    "en": {
+      "question": "Which is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Platinum"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे कठोर प्राकृतिक पदार्थ कौन सा है?",
+      "options": [
+        "सोना",
+        "लोहा",
+        "हीरा",
+        "प्लैटिनम"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "geology"
+  },
+  {
+    "id": "GK116",
+    "en": {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "Thailand",
+        "Japan",
+        "South Korea"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'उगते सूरज की भूमि' के नाम से जाना जाता है?",
+      "options": [
+        "चीन",
+        "थाईलैंड",
+        "जापान",
+        "दक्षिण कोरिया"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK117",
+    "en": {
+      "question": "What is the study of fossils called?",
+      "options": [
+        "Geology",
+        "Paleontology",
+        "Archaeology",
+        "Anthropology"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "जीवाश्मों के अध्ययन को क्या कहते हैं?",
+      "options": [
+        "भूविज्ञान",
+        "जीवाश्मविज्ञान",
+        "पुरातत्वविज्ञान",
+        "मानवविज्ञान"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "science"
+  },
+  {
+    "id": "GK118",
+    "en": {
+      "question": "Who is the author of 'Malgudi Days'?",
+      "options": [
+        "Rabindranath Tagore",
+        "R.K. Narayan",
+        "Ruskin Bond",
+        "Munshi Premchand"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'मालगुडी डेज़' के लेखक कौन हैं?",
+      "options": [
+        "रवींद्रनाथ टैगोर",
+        "आर.के. नारायण",
+        "रस्किन बॉन्ड",
+        "मुंशी प्रेमचंद"
+      ],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK120",
+    "en": {
+      "question": "Who discovered the law of gravitation?",
+      "options": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Nikola Tesla"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "गुरुत्वाकर्षण के नियम की खोज किसने की थी?",
+      "options": [
+        "अल्बर्ट आइंस्टाइन",
+        "गैलीलियो गैलिली",
+        "आइजैक न्यूटन",
+        "निकोला टेस्ला"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "physics"
+  }
+]

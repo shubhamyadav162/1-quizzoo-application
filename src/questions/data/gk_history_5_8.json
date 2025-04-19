@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gk_hist_001",
+    "en": {
+      "question": "Who was the first Prime Minister of India?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Indira Gandhi", "Sardar Patel"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत के पहले प्रधानमंत्री कौन थे?",
+      "options": ["महात्मा गांधी", "जवाहरलाल नेहरू", "इंदिरा गांधी", "सरदार पटेल"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_002",
+    "en": {
+      "question": "In which year did India get independence from British rule?",
+      "options": ["1945", "1947", "1950", "1952"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत को ब्रिटिश शासन से स्वतंत्रता किस वर्ष मिली?",
+      "options": ["1945", "1947", "1950", "1952"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_003",
+    "en": {
+      "question": "Who is known as the 'Father of the Nation' in India?",
+      "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Bhagat Singh"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत में 'राष्ट्रपिता' के रूप में किसे जाना जाता है?",
+      "options": ["जवाहरलाल नेहरू", "सुभाष चंद्र बोस", "महात्मा गांधी", "भगत सिंह"],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_004",
+    "en": {
+      "question": "Who discovered America in 1492?",
+      "options": ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "Amerigo Vespucci"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "1492 में अमेरिका की खोज किसने की थी?",
+      "options": ["वास्को डा गामा", "क्रिस्टोफर कोलंबस", "फर्डिनेंड मैगलन", "अमेरिगो वेस्पुची"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_005",
+    "en": {
+      "question": "Which monument was built by Emperor Shah Jahan in memory of his wife?",
+      "options": ["Red Fort", "Taj Mahal", "Qutub Minar", "Jama Masjid"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सम्राट शाहजहां ने अपनी पत्नी की याद में कौन सा स्मारक बनवाया था?",
+      "options": ["लाल किला", "ताज महल", "कुतुब मीनार", "जामा मस्जिद"],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_006",
+    "en": {
+      "question": "Who led the Salt March (Dandi March) in 1930?",
+      "options": ["Jawaharlal Nehru", "Sardar Patel", "Mahatma Gandhi", "Subhas Chandra Bose"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "1930 में नमक यात्रा (दांडी मार्च) का नेतृत्व किसने किया था?",
+      "options": ["जवाहरलाल नेहरू", "सरदार पटेल", "महात्मा गांधी", "सुभाष चंद्र बोस"],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_007",
+    "en": {
+      "question": "Which ancient civilization built the pyramids?",
+      "options": ["Roman", "Greek", "Egyptian", "Mesopotamian"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पिरामिडों का निर्माण किस प्राचीन सभ्यता ने किया था?",
+      "options": ["रोमन", "ग्रीक", "मिस्र", "मेसोपोटामियन"],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_008",
+    "en": {
+      "question": "Who was the first emperor of the Maurya dynasty?",
+      "options": ["Ashoka", "Chandragupta Maurya", "Bindusara", "Dasharatha"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मौर्य वंश का पहला सम्राट कौन था?",
+      "options": ["अशोक", "चंद्रगुप्त मौर्य", "बिंदुसार", "दशरथ"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_009",
+    "en": {
+      "question": "Which Mughal emperor built the city of Fatehpur Sikri?",
+      "options": ["Babur", "Akbar", "Shah Jahan", "Aurangzeb"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "फतेहपुर सीकरी शहर का निर्माण किस मुगल सम्राट ने करवाया था?",
+      "options": ["बाबर", "अकबर", "शाहजहां", "औरंगजेब"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_010",
+    "en": {
+      "question": "Who started the 'Quit India Movement' in 1942?",
+      "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Subhas Chandra Bose"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "1942 में 'भारत छोड़ो आंदोलन' किसने शुरू किया था?",
+      "options": ["जवाहरलाल नेहरू", "महात्मा गांधी", "सरदार पटेल", "सुभाष चंद्र बोस"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_011",
+    "en": {
+      "question": "Who is known as the Iron Man of India?",
+      "options": ["Bhagat Singh", "Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत के लौह पुरुष के रूप में किसे जाना जाता है?",
+      "options": ["भगत सिंह", "जवाहरलाल नेहरू", "सरदार वल्लभभाई पटेल", "सुभाष चंद्र बोस"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_012",
+    "en": {
+      "question": "Who founded the Indian National Congress in 1885?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Allan Octavian Hume", "Bal Gangadhar Tilak"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "1885 में भारतीय राष्ट्रीय कांग्रेस की स्थापना किसने की थी?",
+      "options": ["महात्मा गांधी", "जवाहरलाल नेहरू", "एलन ऑक्टेवियन ह्यूम", "बाल गंगाधर तिलक"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_013",
+    "en": {
+      "question": "Which famous emperor was known for his policy of 'religious tolerance'?",
+      "options": ["Ashoka", "Akbar", "Chandragupta Maurya", "Shah Jahan"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कौन सा प्रसिद्ध सम्राट अपनी 'धार्मिक सहिष्णुता' की नीति के लिए जाना जाता था?",
+      "options": ["अशोक", "अकबर", "चंद्रगुप्त मौर्य", "शाहजहां"],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_014",
+    "en": {
+      "question": "Who was the leader of the Indian National Army (Azad Hind Fauj)?",
+      "options": ["Bhagat Singh", "Chandrashekhar Azad", "Subhas Chandra Bose", "Lala Lajpat Rai"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय सेना (आजाद हिंद फौज) के नेता कौन थे?",
+      "options": ["भगत सिंह", "चंद्रशेखर आजाद", "सुभाष चंद्र बोस", "लाला लाजपत राय"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_015",
+    "en": {
+      "question": "The famous Jallianwala Bagh massacre took place in which year?",
+      "options": ["1915", "1919", "1925", "1930"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "प्रसिद्ध जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
+      "options": ["1915", "1919", "1925", "1930"],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_016",
+    "en": {
+      "question": "Who gave the slogan 'Jai Jawan, Jai Kisan'?",
+      "options": ["Jawaharlal Nehru", "Indira Gandhi", "Lal Bahadur Shastri", "Rajiv Gandhi"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'जय जवान, जय किसान' का नारा किसने दिया था?",
+      "options": ["जवाहरलाल नेहरू", "इंदिरा गांधी", "लाल बहादुर शास्त्री", "राजीव गांधी"],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_017",
+    "en": {
+      "question": "Which ancient Indian university is considered one of the oldest in the world?",
+      "options": ["Nalanda", "Takshashila", "Vikramshila", "Vallabhi"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "कौन सा प्राचीन भारतीय विश्वविद्यालय दुनिया के सबसे पुराने विश्वविद्यालयों में से एक माना जाता है?",
+      "options": ["नालंदा", "तक्षशिला", "विक्रमशिला", "वल्लभी"],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_018",
+    "en": {
+      "question": "The Battle of Plassey was fought in which year?",
+      "options": ["1757", "1764", "1775", "1782"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "प्लासी का युद्ध किस वर्ष लड़ा गया था?",
+      "options": ["1757", "1764", "1775", "1782"],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_019",
+    "en": {
+      "question": "Who was the first woman to become the President of the Indian National Congress?",
+      "options": ["Sarojini Naidu", "Annie Besant", "Vijaya Lakshmi Pandit", "Indira Gandhi"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय कांग्रेस की अध्यक्ष बनने वाली पहली महिला कौन थी?",
+      "options": ["सरोजिनी नायडू", "एनी बेसेंट", "विजया लक्ष्मी पंडित", "इंदिरा गांधी"],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "history"
+  },
+  {
+    "id": "gk_hist_020",
+    "en": {
+      "question": "Who was the Viceroy of India during the partition of Bengal in 1905?",
+      "options": ["Lord Mountbatten", "Lord Curzon", "Lord Irwin", "Lord Wavell"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "1905 में बंगाल के विभाजन के समय भारत का वायसराय कौन था?",
+      "options": ["लॉर्ड माउंटबेटन", "लॉर्ड कर्जन", "लॉर्ड इरविन", "लॉर्ड वेवेल"],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "history"
+  }
+] 

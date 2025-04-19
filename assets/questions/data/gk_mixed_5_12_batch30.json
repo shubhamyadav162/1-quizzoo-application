@@ -1,0 +1,252 @@
+[
+  {
+    "id": "GK681",
+    "en": {
+      "question": "What is the unit of measurement of electrical resistance?",
+      "options": [
+        "Watt",
+        "Ampere",
+        "Volt",
+        "Ohm"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विद्युत प्रतिरोध की माप इकाई क्या है?",
+      "options": [
+        "वाट",
+        "एम्पियर",
+        "वोल्ट",
+        "ओम"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK684",
+    "en": {
+      "question": "The Harappan Civilization is also known as which civilization?",
+      "options": [
+        "Mesopotamian Civilization",
+        "Egyptian Civilization",
+        "Indus Valley Civilization",
+        "Chinese Civilization"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हड़प्पा सभ्यता को किस सभ्यता के रूप में भी जाना जाता है?",
+      "options": [
+        "मेसोपोटामिया सभ्यता",
+        "मिस्र सभ्यता",
+        "सिंधु घाटी सभ्यता",
+        "चीनी सभ्यता"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK685",
+    "en": {
+      "question": "Which blood group is called the universal donor?",
+      "options": [
+        "A+",
+        "B+",
+        "AB+",
+        "O-"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस रक्त समूह को सार्वभौमिक दाता कहा जाता है?",
+      "options": [
+        "A+",
+        "B+",
+        "AB+",
+        "O-"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK687",
+    "en": {
+      "question": "How many players are there in a volleyball team?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "एक वॉलीबॉल टीम में कितने खिलाड़ी होते हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "sports"
+  },
+  {
+    "id": "GK689",
+    "en": {
+      "question": "Which of the following is a greenhouse gas?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Methane",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "निम्नलिखित में से कौन एक ग्रीनहाउस गैस है?",
+      "options": [
+        "नाइट्रोजन",
+        "ऑक्सीजन",
+        "मीथेन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "environmental_science"
+  },
+  {
+    "id": "GK690",
+    "en": {
+      "question": "Which plant is known as the 'King of Spices'?",
+      "options": [
+        "Cardamom",
+        "Turmeric",
+        "Black Pepper",
+        "Cinnamon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस पौधे को 'मसालों का राजा' कहा जाता है?",
+      "options": [
+        "इलायची",
+        "हल्दी",
+        "काली मिर्च",
+        "दालचीनी"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "botany"
+  },
+  {
+    "id": "GK692",
+    "en": {
+      "question": "Who wrote 'The Ramayana'?",
+      "options": [
+        "Valmiki",
+        "Ved Vyasa",
+        "Tulsidas",
+        "Kalidas"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'रामायण' किसने लिखी?",
+      "options": [
+        "वाल्मीकि",
+        "वेद व्यास",
+        "तुलसीदास",
+        "कालिदास"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK693",
+    "en": {
+      "question": "In which year did the first moon landing occur?",
+      "options": [
+        "1965",
+        "1969",
+        "1972",
+        "1975"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पहली चंद्र लैंडिंग किस वर्ष हुई?",
+      "options": [
+        "1965",
+        "1969",
+        "1972",
+        "1975"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "space_exploration"
+  },
+  {
+    "id": "GK697",
+    "en": {
+      "question": "Which of these is not a classical dance form of India?",
+      "options": [
+        "Kathak",
+        "Bharatanatyam",
+        "Salsa",
+        "Odissi"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन भारत का शास्त्रीय नृत्य रूप नहीं है?",
+      "options": [
+        "कथक",
+        "भरतनाट्यम",
+        "साल्सा",
+        "ओडिसी"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK698",
+    "en": {
+      "question": "Who discovered the law of gravity?",
+      "options": [
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Stephen Hawking"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "गुरुत्वाकर्षण के नियम की खोज किसने की?",
+      "options": [
+        "गैलीलियो गैलिली",
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "स्टीफन हॉकिंग"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "physics"
+  }
+]

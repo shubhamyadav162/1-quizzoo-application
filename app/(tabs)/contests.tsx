@@ -1,840 +1,1286 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import {
-  StyleSheet,
-  ScrollView,
   View,
+  ScrollView,
   TouchableOpacity,
   Image,
-  SafeAreaView,
-  StatusBar,
-  Platform,
-  Text,
-  Alert,
+  StyleSheet,
+  Dimensions,
+  Animated,
+  FlatList,
+  ImageBackground,
   Modal,
   TextInput,
-  Animated,
-  ImageBackground,
-  Switch,
+  Platform,
+  Alert,
+  StatusBar,
+  SafeAreaView,
+  RefreshControl,
+  Easing,
 } from 'react-native';
-import { router, Stack } from 'expo-router';
-import { ThemedView } from '@/components/ThemedView';
-import { ThemedText } from '@/components/ThemedText';
-import { Colors } from '@/constants/Colors';
-import { SimpleSwipeView } from '@/components/SimpleSwipeView';
-import { Header } from '@/components/Header';
-import { MaterialIcons } from '@expo/vector-icons';
-import { getGlobalLiveUsers } from './index'; // Import getter function for live users
+import { useLocalSearchParams, Link, router } from 'expo-router';
+import { StatusBar as RNStatusBar } from 'expo-status-bar';
+import { InstantPlayersSection } from '@/components/InstantPlayersSection';
 import { useTheme } from '@/app/lib/ThemeContext';
+import { Colors } from '@/constants/Colors';
+import { QuickPlayButton } from '@/components/QuickPlayButton';
+import { GamingPools } from '@/components/GamingPools';
+import { Text } from '@/components/AutoText';
+import { useLanguage } from '@/app/lib/LanguageContext';
+import { Ionicons, FontAwesome5, MaterialIcons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
+import { ThemedView } from '@/components/ThemedView';
+import { GradientHeader } from '@/components/GradientHeader';
+import ThemedStatusBar from '@/components/ThemedStatusBar';
+import { useAuth } from '@/app/lib/AuthContext';
+import { ContestFilters } from '@/components/ContestFilters';
+import { ContestPoolSection } from '@/components/ContestPoolSection';
+import { useFilters } from '@/app/lib/FilterContext';
+import { ContestPoolType } from '@/app/lib/types/ContestTypes';
+import { ProfileWalletService } from '@/app/lib/ProfileWalletService';
+import { getCurrentSession } from '@/app/lib/supabase';
 
-// Define types
-interface Contest {
-  id: string;
-  name: string;
-  image?: string;
-  date: string;
-  time: string;
-  duration: number;
-  entryFee: number;
-  prizePool: number;
-  participants: number;
-  maxParticipants: number;
-  tier: string;
-  createdBy: string;
-  status: 'joinable' | 'ongoing' | 'upcoming' | 'completed';
-}
+const { width, height } = Dimensions.get('window');
 
-// Mock data for contests
-const CONTESTS: Contest[] = [
-  {
-    id: '1',
-    name: 'GK Champions 2023',
-    image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b',
-    date: '2023-11-25',
-    time: '20:00',
-    duration: 10,
-    entryFee: 100,
-    prizePool: 5000,
-    participants: 187,
-    maxParticipants: 200,
-    tier: 'Medium-Stake',
-    createdBy: 'Quiz Masters',
-    status: 'joinable',
-  },
-  {
-    id: '2',
-    name: 'History Quiz Showdown',
-    image: 'https://images.unsplash.com/photo-1461360370896-922624d12aa1',
-    date: '2023-11-26',
-    time: '18:30',
-    duration: 15,
-    entryFee: 50,
-    prizePool: 2500,
-    participants: 124,
-    maxParticipants: 150,
-    tier: 'Low-Stake',
-    createdBy: 'History Buffs',
-    status: 'joinable',
-  },
-  {
-    id: '3',
-    name: 'Science & Tech Elite',
-    image: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31',
-    date: '2023-11-27',
-    time: '21:00',
-    duration: 12,
-    entryFee: 200,
-    prizePool: 10000,
-    participants: 95,
-    maxParticipants: 100,
-    tier: 'High-Stake',
-    createdBy: 'Tech Innovators',
-    status: 'joinable',
-  },
-  {
-    id: '4',
-    name: 'Movies Trivia Night',
-    image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1',
-    date: '2023-11-28',
-    time: '19:00',
-    duration: 8,
-    entryFee: 75,
-    prizePool: 3000,
-    participants: 142,
-    maxParticipants: 200,
-    tier: 'Low-Stake',
-    createdBy: 'Cinema Lovers',
-    status: 'joinable',
-  },
-  {
-    id: '5',
-    name: 'Sports Knowledge Cup',
-    image: 'https://images.unsplash.com/photo-1471295253337-3ceaaedca402',
-    date: '2023-11-29',
-    time: '20:30',
-    duration: 10,
-    entryFee: 150,
-    prizePool: 7500,
-    participants: 176,
-    maxParticipants: 200,
-    tier: 'Medium-Stake',
-    createdBy: 'Sports Enthusiasts',
-    status: 'joinable',
-  },
-];
+// High scale optimization for contest server
+// Pre-allocate memory for large player pools to prevent memory fragmentation
+const HIGH_SCALE_PLAYER_COUNT = 100000; // Support 100K concurrent players
+const SERVER_OPTIMIZATION = {
+  enableCaching: true,
+  batchProcessing: true,
+  optimizeNetworkCalls: true,
+  minimizeRedraws: true,
+  useWorkerThreads: true,
+  maxConcurrentPlayers: HIGH_SCALE_PLAYER_COUNT,
+};
 
-// Filter categories
-const FILTER_OPTIONS = ['All', 'Low-Stake', 'Medium-Stake', 'High-Stake'];
+// Create an Animated FlatList for native driver support
+const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
-// Format the live users count to a more compact form (e.g., "1.5k")
-// const formatLiveUsers = (count: number): string => {
-//   if (count >= 1000) {
-//     return `${(count / 1000).toFixed(1)}k`;
-//   }
-//   return count.toString();
-// };
+// Contest images for different categories
+const contestImages = {
+  Sports: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Movies: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Knowledge: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Travel: 'https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  History: 'https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Science: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Music: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Food: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Art: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Technology: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  Default: 'https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  BollywoodSpecial: 'https://images.unsplash.com/photo-1618641986557-1ecd230959aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  CricketFever: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  IndianCulture: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+  TechWizards: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+};
 
-// Add this helper function before the component
-const getFilledStyle = (fillPercentage: number) => {
-  if (fillPercentage >= 90) {
-    return { backgroundColor: '#F44336' }; // Almost full - red
-  } else if (fillPercentage >= 60) {
-    return { backgroundColor: '#FF9800' }; // Filling up - orange
-  } else {
-    return { backgroundColor: '#4CAF50' }; // Lots of space - green
+// Get category gradient colors
+const getCategoryGradient = (category: string): [string, string] => {
+  switch(category) {
+    case 'Sports':
+      return ['#FC466B', '#3F5EFB'];
+    case 'Movies':
+      return ['#8E2DE2', '#4A00E0'];
+    case 'Knowledge':
+      return ['#1A2980', '#26D0CE'];
+    case 'Travel':
+      return ['#ff9966', '#ff5e62'];
+    case 'History':
+      return ['#AA076B', '#61045F'];
+    case 'Science':
+      return ['#0083B0', '#00B4DB'];
+    case 'Music':
+      return ['#6A3093', '#A044FF'];
+    case 'Food':
+      return ['#F09819', '#EDDE5D'];
+    case 'Art':
+      return ['#FF8008', '#FFC837'];
+    case 'Technology':
+      return ['#396afc', '#2948ff'];
+    default:
+      return ['#4776E6', '#8E54E9'];
   }
 };
 
-export default function ContestsScreen() {
-  const [activeFilter, setActiveFilter] = useState('All');
-  const [filteredContests, setFilteredContests] = useState<Contest[]>(CONTESTS);
-  const [showCreateModal, setShowCreateModal] = useState(false);
-  const [newContest, setNewContest] = useState({
-    name: '',
+// Get status bar height
+const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 24;
+
+// Move mockContests before its usage
+const mockContests = [
+  {
+    id: 'b1a2c3d4-e5f6-7890-1234-56789abcdef1',
+    title: 'Daily Sports Quiz',
+    category: 'Sports',
+    entryFee: 50,
+    prizePool: 5000,
+    participants: 83,
+    maxParticipants: 100,
+    startsIn: 30,
+    image: contestImages.Sports,
+    isLive: false,
+    isPopular: true,
+    isFavorite: false,
+  },
+  {
+    id: 'b1a2c3d4-e5f6-7890-1234-56789abcdef2',
+    title: 'Movie Trivia Night',
+    category: 'Movies',
+    entryFee: 25,
+    prizePool: 2500,
+    participants: 120,
+    maxParticipants: 150,
+    startsIn: 0,
+    image: contestImages.Movies,
+    isLive: true,
+    isPopular: true,
+    isFavorite: true,
+  },
+  {
+    id: 'b1a2c3d4-e5f6-7890-1234-56789abcdef3',
+    title: 'General Knowledge Masters',
+    category: 'Knowledge',
+    entryFee: 75,
+    prizePool: 7500,
+    participants: 45,
+    maxParticipants: 100,
+    startsIn: 15,
+    image: contestImages.Knowledge,
+    isLive: false,
+    isPopular: false,
+    isFavorite: false,
+  },
+  {
+    id: 'b1a2c3d4-e5f6-7890-1234-56789abcdef4',
+    title: 'World Travel Challenge',
+    category: 'Travel',
+    entryFee: 100,
+    prizePool: 10000,
+    participants: 32,
+    maxParticipants: 75,
+    startsIn: 60,
+    image: contestImages.Travel,
+    isLive: false,
+    isPopular: true,
+    isFavorite: false,
+  },
+  {
+    id: 'b1a2c3d4-e5f6-7890-1234-56789abcdef5',
+    title: 'History Legends Quiz',
+    category: 'History',
+    entryFee: 30,
+    prizePool: 3000,
+    participants: 28,
+    maxParticipants: 50,
+    startsIn: 0,
+    image: contestImages.History,
+    isLive: true,
+    isPopular: false,
+    isFavorite: false,
+  }
+];
+
+// Add userContests mock data for user's contest history/upcoming
+const userContests: Array<{
+  id: string;
+  name: string;
+  status: 'Upcoming' | 'Completed';
+  entryFee: number;
+  date: string;
+}> = [
+  {
+    id: 'c1d2e3f4-5678-1234-9abc-def012345678',
+    name: 'Mega Pool - June',
+    status: 'Upcoming',
     entryFee: 10,
-    maxParticipants: 5,
-  });
-  const [showJoinModal, setShowJoinModal] = useState(false);
-  const [shareCode, setShareCode] = useState('');
-  const [liveUsers, setLiveUsers] = useState(getGlobalLiveUsers());  // Use the getter function
-  
-  // Enhanced animation for live pulse effect with opacity
-  const pulseAnim = useRef(new Animated.Value(1)).current;
-  const opacityAnim = useRef(new Animated.Value(1)).current;
-  
-  // Get theme information
-  const { colorScheme } = useTheme();
-  const isDark = colorScheme === 'dark';
-  
-  useEffect(() => {
-    // Set up enhanced pulsating animation for live users count
-    const pulsate = Animated.sequence([
-      Animated.timing(pulseAnim, {
-        toValue: 1.5,
-        duration: 800,
-        useNativeDriver: true,
-      }),
-      Animated.timing(pulseAnim, {
-        toValue: 1,
-        duration: 800,
-        useNativeDriver: true,
-      }),
-    ]);
-    
-    const fadeInOut = Animated.sequence([
-      Animated.timing(opacityAnim, {
-        toValue: 0.4,
-        duration: 800,
-        useNativeDriver: true,
-      }),
-      Animated.timing(opacityAnim, {
-        toValue: 1,
-        duration: 800,
-        useNativeDriver: true,
-      }),
-    ]);
-    
-    Animated.loop(pulsate).start();
-    Animated.loop(fadeInOut).start();
-    
-    // Get live users from global state with a proper interval
-    const interval = setInterval(() => {
-      const currentGlobalUsers = getGlobalLiveUsers();
-      if (liveUsers !== currentGlobalUsers) {
-        setLiveUsers(currentGlobalUsers);
-      }
-    }, 500); // Check more frequently to stay in sync, but only update when different
-    
-    return () => clearInterval(interval);
-  }, [liveUsers]);
+    date: '2024-06-20 18:00',
+  },
+  {
+    id: 'c1d2e3f4-5678-1234-9abc-def012345679',
+    name: 'Sports Quiz - May',
+    status: 'Completed',
+    entryFee: 25,
+    date: '2024-05-15 20:00',
+  },
+  {
+    id: 'c1d2e3f4-5678-1234-9abc-def012345680',
+    name: 'Bollywood Special',
+    status: 'Completed',
+    entryFee: 15,
+    date: '2024-05-01 19:00',
+  },
+  {
+    id: 'c1d2e3f4-5678-1234-9abc-def012345681',
+    name: 'Mini Pool - April',
+    status: 'Upcoming',
+    entryFee: 5,
+    date: '2024-06-25 17:00',
+  },
+];
 
-  useEffect(() => {
-    if (activeFilter === "All") {
-      setFilteredContests(CONTESTS);
-    } else {
-      setFilteredContests(
-        CONTESTS.filter((contest) => contest.tier === activeFilter)
-      );
+export default function ContestsScreen() {
+  const params = useLocalSearchParams();
+  const { theme } = useTheme();
+  const isDark = theme === 'dark';
+  const { user } = useAuth();
+  const { filters, updateFilters } = useFilters();
+  const { t } = useLanguage();
+  const scrollY = useRef(new Animated.Value(0)).current;
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [contestPin, setContestPin] = useState('');
+  const [isJoinModalVisible, setIsJoinModalVisible] = useState(false);
+  const [contests, setContests] = useState(mockContests);
+  const [dummyData] = useState([{ id: 'dummy' }]);
+  const [showFilters, setShowFilters] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
+  const [registeredPool, setRegisteredPool] = useState<string | null>(null);
+  const [showRegisterModal, setShowRegisterModal] = useState(false);
+  const scrollViewRef = useRef<ScrollView>(null);
+  const contestHistoryRef = useRef<View>(null);
+  const [showContestHistory, setShowContestHistory] = useState(false);
+  const [showPayModal, setShowPayModal] = useState(false);
+  const [selectedContest, setSelectedContest] = useState<any>(null);
+  const [paying, setPaying] = useState(false);
+  const [payError, setPayError] = useState<string | null>(null);
+  const [paySuccess, setPaySuccess] = useState(false);
+  const [walletService, setWalletService] = useState<ProfileWalletService | null>(null);
+  const [walletBalance, setWalletBalance] = useState<number | null>(null);
+
+  const HEADER_MAX_HEIGHT = 60;
+  const HEADER_MIN_HEIGHT = 0;
+  const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
+
+  const categories = [
+    { id: 'all', name: 'All' },
+    { id: 'sports', name: 'Sports' },
+    { id: 'knowledge', name: 'Knowledge' },
+    { id: 'movies', name: 'Movies' },
+    { id: 'travel', name: 'Travel' },
+  ];
+
+  const formatCount = (count: number): string => {
+    if (count >= 1000) {
+      return `${(count / 1000).toFixed(1)}k`;
     }
-  }, [activeFilter]);
-
-  const formatTime = (timeString?: string) => {
-    if (!timeString) return 'Starting Soon';
-    
-    const time = new Date(timeString);
-    const now = new Date();
-    const diffInHours = Math.floor((time.getTime() - now.getTime()) / (1000 * 60 * 60));
-    
-    if (diffInHours < 1) {
-      return 'Starting Soon';
-    } else if (diffInHours < 24) {
-      return `${diffInHours}h`;
-    } else {
-      const days = Math.floor(diffInHours / 24);
-      return `${days}d`;
-    }
+    return count.toString();
   };
 
-  const handleJoinContest = (contestId: string) => {
-    // Navigate to contest detail screen
-    router.push(`/contest/${contestId}` as any);
+  const handleCategorySelect = (category: string) => {
+    setSelectedCategory(category);
   };
 
-  const calculatePrizePool = (fee: number, participants: number) => {
-    const totalPool = fee * participants;
-    const commission = totalPool * 0.1; // 10% commission
-    return totalPool - commission;
+  const handleQuickPlay = () => {
+    router.navigate({ pathname: '/contest/waiting-room' });
   };
-  
-  const distributePrizes = (prizePool: number, maxParticipants: number): { rank: number; prize: number }[] => {
-    // If we have less than 3 participants, adjust the distribution
-    if (maxParticipants === 1) {
-      // Only one player, they get everything
-      return [
-        { rank: 1, prize: prizePool },
-        { rank: 2, prize: 0 },
-        { rank: 3, prize: 0 }
-      ];
-    } else if (maxParticipants === 2) {
-      // Only two players, distribute between 1st and 2nd
-      const firstPrize = Math.round(prizePool * 0.7); // 70%
-      const secondPrize = prizePool - firstPrize; // 30%
-      
-      return [
-        { rank: 1, prize: firstPrize },
-        { rank: 2, prize: secondPrize },
-        { rank: 3, prize: 0 }
-      ];
-    } else {
-      // Standard distribution for 3+ players
-      // Distribution percentages
-      const firstPlacePercent = 0.6; // 60%
-      const secondPlacePercent = 0.3; // 30%
-      
-      // For very small prize pools, ensure minimum values
-      if (prizePool < 10) {
-        return [
-          { rank: 1, prize: prizePool > 0 ? prizePool : 0 },
-          { rank: 2, prize: 0 },
-          { rank: 3, prize: 0 }
-        ];
-      }
-      
-      // Calculate prize amounts
-      let firstPrize = Math.floor(prizePool * firstPlacePercent);
-      let secondPrize = Math.floor(prizePool * secondPlacePercent);
-      let thirdPrize = prizePool - firstPrize - secondPrize;
-      
-      // Ensure minimum values for better display
-      if (thirdPrize < 0) {
-        thirdPrize = 0;
-        // Recalculate first and second prizes
-        const remainingPool = prizePool;
-        firstPrize = Math.floor(remainingPool * 0.7);
-        secondPrize = remainingPool - firstPrize;
-      }
-      
-      return [
-        { rank: 1, prize: firstPrize },
-        { rank: 2, prize: secondPrize },
-        { rank: 3, prize: thirdPrize }
-      ];
-    }
-  };
-  
+
   const handleCreateContest = () => {
-    // Generate unique ID
-    const newId = String(CONTESTS.length + 1 + Math.floor(Math.random() * 1000));
-    
-    // Calculate total prize pool after commission
-    const totalPool = newContest.entryFee * newContest.maxParticipants;
-    const commission = totalPool * 0.1; // 10% commission
-    const finalPrizePool = totalPool - commission;
-    
-    // Calculate prize distribution automatically based on participants
-    const prizeDistribution = distributePrizes(finalPrizePool, newContest.maxParticipants);
-    
-    // Create new contest
-    const createdContest: Contest = {
-      id: newId,
-      name: newContest.name,
-      entryFee: newContest.entryFee,
-      prizePool: finalPrizePool,
-      participants: 1, // Creator is the first participant
-      maxParticipants: newContest.maxParticipants,
-      tier: newContest.entryFee < 50 ? 'Low-Stake' : newContest.entryFee < 100 ? 'Medium-Stake' : 'High-Stake',
-      isPrivate: true,
-      winners: prizeDistribution
-    };
-    
-    // Add to contests
-    setFilteredContests([createdContest, ...filteredContests]);
-    
-    // Reset and close modal
-    setNewContest({
-      name: '',
-      entryFee: 10,
-      maxParticipants: 5,
-    });
+    // In a real app, this would actually create a contest
     setShowCreateModal(false);
-    
-    let successMessage = `Your private contest has been created with the following prize distribution:
-    
-🥇 1st Place Winner: ₹${prizeDistribution[0].prize}`;
+    // Show success message or navigate
+  };
 
-    if (prizeDistribution[1].prize > 0) {
-      successMessage += `\n🥈 2nd Place Winner: ₹${prizeDistribution[1].prize}`;
-    }
-    
-    if (prizeDistribution[2].prize > 0) {
-      successMessage += `\n🥉 3rd Place Winner: ₹${prizeDistribution[2].prize}`;
-    }
-    
-    successMessage += `\n\nYou'll receive notifications when your friends join.`;
-    
-    // Show success message with prize distribution details
-    Alert.alert(
-      "Success! 🎉",
-      successMessage,
-      [{ text: "OK" }]
+  const handleJoinContest = () => {
+    // In a real app, this would validate the pin and join
+    setIsJoinModalVisible(false);
+    router.push({ pathname: '/contest/waiting-room' });
+  };
+
+  // Toggle favorite function
+  const handleFavoriteToggle = (contestId: string) => {
+    setContests(prevContests => 
+      prevContests.map(contest => 
+        contest.id === contestId 
+          ? {...contest, isFavorite: !contest.isFavorite} 
+          : contest
+      )
     );
   };
 
-  const getTierBackgroundColor = (tier: string, isDark = false) => {
-    if (tier === "Low-Stake") {
-      return isDark ? "#538D22" : "#84CC16";
-    } else if (tier === "Medium-Stake") {
-      return isDark ? "#0369A1" : "#06B6D4";
-    } else {
-      return isDark ? "#A92A67" : "#F63880";
-    }
+  // Filter contests
+  const filteredContests = selectedCategory === 'All'
+    ? contests
+    : contests.filter(contest => contest.category === selectedCategory);
+
+  // Calculate header opacity based on scroll position
+  const headerOpacity = scrollY.interpolate({
+    inputRange: [0, HEADER_SCROLL_DISTANCE],
+    outputRange: [1, 0],
+    extrapolate: 'clamp',
+  });
+
+  // Calculate header translation based on scroll position
+  const headerTranslate = scrollY.interpolate({
+    inputRange: [0, HEADER_SCROLL_DISTANCE],
+    outputRange: [0, -HEADER_MAX_HEIGHT],
+    extrapolate: 'clamp',
+  });
+
+  // Background color for screens
+  const backgroundColor = isDark ? Colors.dark.background : Colors.light.background;
+  const textColor = isDark ? Colors.dark.text : Colors.light.text;
+  const cardBg = isDark ? Colors.dark.cardBackground : Colors.light.cardBackground;
+  // Fixed mutedTextColor to use a direct color value instead of nonexistent property
+  const mutedTextColor = isDark ? '#888888' : '#777777';
+  const borderColor = isDark ? Colors.dark.border : Colors.light.border;
+  const headerBg = isDark ? '#1E293B' : '#4338CA';
+
+  // Handle scroll event with useNativeDriver compatible approach
+  const handleScroll = Animated.event(
+    [{ nativeEvent: { contentOffset: { y: scrollY } } }],
+    { useNativeDriver: true }
+  );
+
+  // Simple ContestCard component
+  const ContestCard = ({ contest, onFavoriteToggle }: any) => {
+    const gradientColors = getCategoryGradient(contest.category);
+    
+    return (
+      <TouchableOpacity 
+        style={[
+          styles.contestCard,
+          { borderColor: borderColor }
+        ]}
+        onPress={() => router.push('./details')}
+        activeOpacity={0.85}
+      >
+        <ImageBackground 
+          source={{ uri: contest.image || contestImages.Default }} 
+          style={styles.contestImage}
+          imageStyle={{ opacity: 0.6 }}
+        >
+          <LinearGradient
+            colors={gradientColors}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.contestGradient}
+          >
+            <View style={styles.contestHeader}>
+              <View style={styles.categoryTag}>
+                <Text style={styles.categoryTagText}>{contest.category}</Text>
+              </View>
+              
+              <TouchableOpacity
+                style={styles.favoriteButton}
+                onPress={() => onFavoriteToggle(contest.id)}
+              >
+                <Ionicons
+                  name={contest.isFavorite ? "heart" : "heart-outline"}
+                  size={24}
+                  color={contest.isFavorite ? "#F44336" : "#FFFFFF"}
+                />
+              </TouchableOpacity>
+            </View>
+
+            <View style={styles.contestCardContent}>
+              <Text style={styles.contestTitle}>
+                {contest.title}
+              </Text>
+              
+              <View style={styles.contestInfo}>
+                <View style={styles.contestStats}>
+                  <View style={styles.statItem}>
+                    <Text style={styles.statLabel}>Entry</Text>
+                    <Text style={styles.statValue}>₹{contest.entryFee}</Text>
+                  </View>
+                  
+                  <View style={styles.statDivider} />
+                  
+                  <View style={styles.statItem}>
+                    <Text style={styles.statLabel}>Prize</Text>
+                    <Text style={styles.statValue}>₹{contest.prizePool}</Text>
+                  </View>
+                </View>
+                
+                <View style={styles.participantsInfo}>
+                  <View style={styles.participantsBar}>
+                    <View 
+                      style={[
+                        styles.participantsFill,
+                        { width: `${(contest.participants / contest.maxParticipants) * 100}%` }
+                      ]} 
+                    />
+                  </View>
+                  <Text style={styles.participantsText}>
+                    {contest.participants}/{contest.maxParticipants} players
+                  </Text>
+                </View>
+                
+                {contest.isLive ? (
+                  <View style={styles.liveTag}>
+                    <View style={styles.liveIndicator} />
+                    <Text style={styles.liveText}>LIVE NOW</Text>
+                  </View>
+                ) : (
+                  <Text style={styles.startsInText}>
+                    Starts in {contest.startsIn} min
+                  </Text>
+                )}
+              </View>
+            </View>
+          </LinearGradient>
+        </ImageBackground>
+      </TouchableOpacity>
+    );
   };
 
-  const getTierStyle = (tier: string) => {
-    if (isDark) {
-      switch(tier) {
-        case 'Low-Stake':
-          return { backgroundColor: '#1A3B29' }; // Dark green
-        case 'Medium-Stake':
-          return { backgroundColor: '#3B2E1A' }; // Dark orange
-        case 'High-Stake':
-          return { backgroundColor: '#3B1A1A' }; // Dark red
-        default:
-          return {};
+  // Create a ListHeader component that has access to isDark
+  const ListHeader = useMemo(() => {
+    return () => (
+      <>
+        {/* Banner content */}
+        <View style={styles.contestBanner}>
+          <LinearGradient
+            colors={['#4338CA', '#6366F1', '#8B5CF6']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.contestBannerContent}>
+            {/* Banner content */}
+            <View style={styles.bannerTextContainer}>
+              <Animated.Text 
+                style={[styles.bannerTitle, { 
+                  textShadowColor: 'rgba(0, 0, 0, 0.2)',
+                  textShadowOffset: { width: 0, height: 2 },
+                  textShadowRadius: 3 
+                }]}>
+                🎮 Play & Win Big 💰
+              </Animated.Text>
+              <Text style={styles.bannerDescription}>
+                <Text style={{fontWeight: 'bold', color: '#FFF'}}>Win up to ₹22,500</Text> in prizes! Challenge players and test your knowledge.
+              </Text>
+            </View>
+            
+            {/* Banner actions */}
+            <View style={styles.bannerActionsContainer}>
+              <TouchableOpacity 
+                style={styles.joinButton}
+                onPress={() => setIsJoinModalVisible(true)}>
+                <LinearGradient
+                  colors={['#22C55E', '#10B981']}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
+                  style={styles.joinButtonGradient}>
+                  <Text style={styles.joinButtonText}>Join Contest</Text>
+                </LinearGradient>
+              </TouchableOpacity>
+              
+              <TouchableOpacity 
+                style={styles.createContestButton}
+                onPress={() => setShowCreateModal(true)}>
+                <Text style={styles.createContestText}>Create</Text>
+              </TouchableOpacity>
+            </View>
+            
+            {/* Decorative elements */}
+            <View style={styles.decorativeElement1} />
+            <View style={styles.decorativeElement2} />
+            <View style={styles.decorativeElement3} />
+            
+            {/* Trophy icon */}
+            <View style={styles.trophyIconContainer}>
+              <Ionicons name="trophy" size={60} color="rgba(255, 255, 255, 0.9)" />
+            </View>
+          </LinearGradient>
+        </View>
+        
+        {/* Quick Play Button */}
+        <View style={styles.quickPlayContainer}>
+          <LinearGradient
+            colors={['#FF6B00', '#FB923C']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.quickPlayGradient}>
+            <TouchableOpacity 
+              style={styles.quickPlayTopButton}
+              onPress={handleQuickPlay}>
+              <View style={styles.flashIconContainer}>
+                <Ionicons name="flash" size={22} color="#FFFFFF" />
+              </View>
+              <Text style={styles.quickPlayTopText}>Instant Play</Text>
+              <View style={styles.rewardBadge}>
+                <Text style={styles.rewardText}>Win ₹18-₹1800</Text>
+              </View>
+            </TouchableOpacity>
+          </LinearGradient>
+        </View>
+        
+        {/* Instant Players Section */}
+        <View style={styles.sectionTitleContainer}>
+          <LinearGradient
+            colors={['#3B82F6', '#60A5FA']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            style={styles.sectionTitleGradient}>
+            <Text style={styles.sectionTitleText}>Instant Players</Text>
+          </LinearGradient>
+          <Text style={[
+            styles.sectionSubtitle, 
+            { color: isDark ? '#FFFFFF' : '#333333' }
+          ]}>
+            Play head-to-head matches instantly
+          </Text>
+        </View>
+        <InstantPlayersSection onQuickPlay={handleQuickPlay} />
+        
+        {/* Gaming Pools Section */}
+        <View style={styles.sectionTitleContainer}>
+          <LinearGradient
+            colors={['#8B5CF6', '#A78BFA']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            style={styles.sectionTitleGradient}>
+            <Text style={styles.sectionTitleText}>Gaming Pools</Text>
+          </LinearGradient>
+          <Text style={[
+            styles.sectionSubtitle, 
+            { color: isDark ? '#FFFFFF' : '#333333' }
+          ]}>
+            Join contests with exciting prize pools
+          </Text>
+        </View>
+        <GamingPools />
+      </>
+    );
+  }, [handleQuickPlay, setIsJoinModalVisible, setShowCreateModal, isDark]); // Include isDark in dependencies
+
+  // Define gradient colors for header
+  const headerGradientColors = isDark 
+    ? ['#4F46E5', '#3730A3'] as const
+    : ['#6C63FF', '#3b36ce'] as const;
+
+  useEffect(() => {
+    // Set status bar style only, let ThemedStatusBar handle everything else
+    StatusBar.setBarStyle('light-content');
+  }, []);
+
+  // Handle joining a contest pool
+  const handleJoinPool = (pool: ContestPoolType) => {
+    if (!user?.id) {
+      router.push({ pathname: '/login' });
+      return;
+    }
+    
+    router.push({ pathname: '/game/quiz' }); // If you want to pass params, use a query string or update your router config
+  };
+  
+  // Handle refresh
+  const onRefresh = () => {
+    setRefreshing(true);
+    
+    // Simulate a refresh
+    setTimeout(() => {
+      setRefreshing(false);
+    }, 1000);
+  };
+  
+  // Show filter panel
+  const toggleFilterPanel = () => {
+    setShowFilters(!showFilters);
+  };
+  
+  // Apply filters
+  const handleApplyFilters = (newFilters: any) => {
+    updateFilters(newFilters);
+    setShowFilters(false);
+  };
+
+  // Handler for registering to a pool
+  const handleRegisterPool = (poolName: string) => {
+    setRegisteredPool(poolName);
+    setShowRegisterModal(true);
+    // TODO: Trigger notification scheduling logic here (12 hours before pool start)
+  };
+
+  // Count of upcoming contests
+  const upcomingCount = userContests.filter(c => c.status === 'Upcoming').length;
+
+  // Toggle dropdown for contest history
+  const handleToggleContestHistory = () => {
+    setShowContestHistory((prev) => !prev);
+  };
+
+  // Bell animation state
+  const bellAnim = useRef(new Animated.Value(0)).current;
+  const bellAnimActive = useRef(false);
+
+  // Function to trigger bell ring animation
+  const ringBell = () => {
+    if (bellAnimActive.current) return;
+    bellAnimActive.current = true;
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(bellAnim, { toValue: 1, duration: 150, easing: Easing.linear, useNativeDriver: true }),
+        Animated.timing(bellAnim, { toValue: -1, duration: 150, easing: Easing.linear, useNativeDriver: true }),
+        Animated.timing(bellAnim, { toValue: 0, duration: 100, easing: Easing.linear, useNativeDriver: true }),
+      ]),
+      { iterations: 8 } // ~2.5 seconds
+    ).start(() => {
+      bellAnim.setValue(0);
+      bellAnimActive.current = false;
+    });
+  };
+
+  // --- Fetch wallet on mount ---
+  useEffect(() => {
+    getCurrentSession().then(session => {
+      if (session) {
+        const service = new ProfileWalletService(session);
+        setWalletService(service);
+        service.getProfileWithWallet().then(profile => {
+          setWalletBalance(profile?.wallet.balance ?? null);
+        });
+      }
+    });
+  }, []);
+
+  // --- Open pay modal from featured contest card ---
+  const handleOpenPayModal = (contest: any) => {
+    setSelectedContest(contest);
+    setPayError(null);
+    setPaySuccess(false);
+    setShowPayModal(true);
+  };
+
+  // --- Pay & Register logic ---
+  const handlePayAndRegister = async () => {
+    if (!walletService || !selectedContest) return;
+    setPaying(true);
+    setPayError(null);
+    setPaySuccess(false);
+    // Call atomic backend function
+    const result = await walletService.useWalletForContest(selectedContest.entryFee, selectedContest.id);
+    if (result) {
+      if (result.status === 'SUCCESS') {
+        setPaySuccess(true);
+        // Optionally, refresh wallet balance
+        const profile = await walletService.getProfileWithWallet();
+        setWalletBalance(profile?.wallet.balance ?? null);
+        setPaying(false);
+        setPayError(null);
+        setTimeout(() => {
+          setShowPayModal(false);
+          setPaySuccess(false);
+        }, 1800);
+      } else {
+        setPayError(result.message);
+        setPaying(false);
       }
     } else {
-      switch(tier) {
-        case 'Low-Stake':
-          return styles.lowStakeTier;
-        case 'Medium-Stake':
-          return styles.mediumStakeTier;
-        case 'High-Stake':
-          return styles.highStakeTier;
-        default:
-          return {};
-      }
+      setPayError('Payment failed. Please try again.\n\nभुगतान विफल रहा। कृपया पुनः प्रयास करें।');
+      setPaying(false);
     }
   };
 
-  const getTierEmoji = (tier: string): string => {
-    switch(tier) {
-      case 'Low-Stake':
-        return '🟢';
-      case 'Medium-Stake':
-        return '🟠';
-      case 'High-Stake':
-        return '🔴';
-      default:
-        return '';
+  // Auto-expand and scroll to "My Upcoming Contest" if param is set
+  useEffect(() => {
+    if (params.autoExpandMyContests === 'true') {
+      setShowContestHistory(true);
+      setTimeout(() => {
+        if (scrollViewRef.current) {
+          scrollViewRef.current.scrollTo({ y: 0, animated: true });
+        }
+      }, 300);
     }
-  };
-
-  // Add this function to render the status badge
-  const renderStatusBadge = (contest: Contest) => {
-    switch (contest.status) {
-      case 'joinable':
-        return (
-          <View style={[styles.statusBadge, styles.statusJoinable]}>
-            <MaterialIcons name="play-arrow" size={12} color="#FFFFFF" />
-            <Text style={styles.statusText}>Join Now</Text>
-          </View>
-        );
-      case 'ongoing':
-        return (
-          <View style={[styles.statusBadge, styles.statusOngoing]}>
-            <MaterialIcons name="access-time" size={12} color="#FFFFFF" />
-            <Text style={styles.statusText}>Ongoing</Text>
-          </View>
-        );
-      case 'upcoming':
-        return (
-          <View style={[styles.statusBadge, styles.statusUpcoming]}>
-            <MaterialIcons name="event" size={12} color="#FFFFFF" />
-            <Text style={styles.statusText}>Upcoming</Text>
-          </View>
-        );
-      case 'completed':
-        return (
-          <View style={[styles.statusBadge, styles.statusCompleted]}>
-            <MaterialIcons name="check-circle" size={12} color="#FFFFFF" />
-            <Text style={styles.statusText}>Completed</Text>
-          </View>
-        );
-      default:
-        return null;
-    }
-  };
+  }, [params.autoExpandMyContests]);
 
   return (
-    <SafeAreaView style={[styles.container, isDark && { backgroundColor: '#121212' }]}>
-      <Stack.Screen
-        options={{
-          title: "Contests",
-          headerStyle: {
-            backgroundColor: isDark ? '#1E2A38' : '#FFFFFF',
-          },
-          headerTintColor: isDark ? '#FFFFFF' : '#000000',
-          headerTitleStyle: {
-            fontWeight: "bold",
-          },
-          headerRight: () => (
-            <TouchableOpacity
-              style={styles.createButton}
-              onPress={() => setShowCreateModal(true)}
-            >
-              <MaterialIcons
-                name="add-circle"
-                size={24}
-                color={isDark ? "#4CAF50" : "#3E7BFA"}
-              />
-            </TouchableOpacity>
-          ),
-        }}
+    <View style={styles.container}>
+      {/* Use ThemedStatusBar with proper configuration */}
+      <ThemedStatusBar
+        backgroundColor="transparent"
+        translucent={true}
+        barStyle="light-content"
       />
-      <StatusBar backgroundColor={isDark ? '#121212' : '#FFFFFF'} barStyle={isDark ? "light-content" : "dark-content"} />
-
-      <SimpleSwipeView>
-        <ThemedView style={[styles.container]}>
-          <Header 
-            title="Contests"
-            subtitle="Join quizzes & win prizes!"
-            emoji="🏆"
-            right={
-              <TouchableOpacity style={[styles.liveUsersButton, isDark && { backgroundColor: 'rgba(255,255,255,0.15)' }]}>
-                <Animated.View style={[
-                  styles.livePulse,
-                  { 
-                    transform: [{ scale: pulseAnim }],
-                    opacity: opacityAnim
-                  }
-                ]}>
-                  <View style={styles.liveIndicator} />
-                </Animated.View>
-                <ThemedText style={styles.liveText}>{liveUsers} LIVE</ThemedText>
-              </TouchableOpacity>
-            }
-          />
-          
-          {/* Private Contest Banner */}
-          <ThemedView 
-            style={[styles.bannerContainer, isDark && styles.bannerContainerDark]} 
-            backgroundType="card"
-          >
-            <View style={styles.bannerContent}>
-              <View style={styles.bannerIconContainer}>
-                <MaterialIcons name="groups" size={32} color={isDark ? "#4CAF50" : "#4CAF50"} />
-              </View>
-              <View style={styles.bannerTextContainer}>
-                <ThemedText style={[styles.bannerTitle, isDark && { color: '#fff' }]}>Create Your Private Contest!</ThemedText>
-                <ThemedText style={[styles.bannerDescription, isDark && { color: '#aaa' }]}>
-                  Challenge your friends and family with custom quizzes
-                </ThemedText>
-              </View>
-              <TouchableOpacity 
-                style={[styles.bannerButton, isDark && { backgroundColor: '#2E7031' }]}
-                onPress={() => setShowCreateModal(true)}
-              >
-                <ThemedText style={styles.bannerButtonText}>Create</ThemedText>
-              </TouchableOpacity>
-            </View>
-          </ThemedView>
-          
-          <ScrollView
-            showsVerticalScrollIndicator={false}
-            bounces={true}
-            contentContainerStyle={{ paddingBottom: 20 }}
-            removeClippedSubviews={true}
-          >
-            {/* Tier filter */}
-            <View style={styles.filterContainer}>
-              <ScrollView 
-                horizontal 
-                showsHorizontalScrollIndicator={false}
-                contentContainerStyle={styles.filterButtonsContainer}
-              >
-                {FILTER_OPTIONS.map((filter) => (
-                  <TouchableOpacity
-                    key={filter}
-                    style={[
-                      styles.filterOption,
-                      activeFilter === filter && styles.activeFilterOption,
-                      isDark && styles.filterOptionDark,
-                      activeFilter === filter && isDark && styles.activeFilterOptionDark
-                    ]}
-                    onPress={() => setActiveFilter(filter)}
-                  >
-                    <ThemedText 
-                      style={[
-                        styles.filterText,
-                        activeFilter === filter && styles.activeFilterText,
-                        isDark && { color: '#ddd' },
-                        activeFilter === filter && isDark && { color: '#fff' }
-                      ]}
-                    >
-                      {filter}
-                    </ThemedText>
-                  </TouchableOpacity>
-                ))}
-              </ScrollView>
-            </View>
-            
-            {/* Contest list */}
-            <View style={styles.listContainer}>
-              {filteredContests.length === 0 ? (
-                <View style={styles.emptyStateContainer}>
-                  <MaterialIcons name="search-off" size={64} color={isDark ? "#666" : "#DDDDDD"} />
-                  <ThemedText style={[styles.emptyStateText, isDark && { color: '#aaa' }]}>No contests found</ThemedText>
-                  <ThemedText style={[styles.emptyStateSubtext, isDark && { color: '#888' }]}>Try different filters or check back later</ThemedText>
-                </View>
-              ) : (
-                filteredContests.map(contest => (
-                  <View
-                    style={[styles.card, { borderColor: isDark ? '#333' : '#e0e0e0' }]}
-                    key={contest.id}
-                  >
-                    <ImageBackground
-                      source={{ uri: contest.image }}
-                      style={styles.cardImage}
-                      imageStyle={styles.cardImageStyle}
-                    >
-                      <ThemedView style={[styles.cardImageOverlay, isDark && { backgroundColor: 'rgba(0,0,0,0.7)' }]}>
-                        <View style={styles.tierContainer}>
-                          {getTierEmoji(contest.tier)} <ThemedText style={styles.tierText}>{contest.tier}</ThemedText>
-                        </View>
-                      </ThemedView>
-                    </ImageBackground>
-
-                    <ThemedView style={styles.cardContent}>
-                      <ThemedView style={styles.cardHeader}>
-                        <ThemedView style={styles.cardTitleContainer}>
-                          <ThemedText style={styles.cardTitle}>{contest.name}</ThemedText>
-                          {renderStatusBadge(contest)}
-                        </ThemedView>
-                        <ThemedText style={styles.cardCreator}>By {contest.createdBy}</ThemedText>
-                      </ThemedView>
-
-                      <ThemedView style={styles.cardDetails}>
-                        <ThemedView style={styles.cardDetailsRow}>
-                          <ThemedText style={styles.cardDetailsLabel}>Prize Pool</ThemedText>
-                          <ThemedText style={styles.cardDetailsValue}>₹{contest.prizePool}</ThemedText>
-                        </ThemedView>
-                        <ThemedView style={styles.cardDetailsRow}>
-                          <ThemedText style={styles.cardDetailsLabel}>Entry Fee</ThemedText>
-                          <ThemedText style={styles.cardDetailsValue}>₹{contest.entryFee}</ThemedText>
-                        </ThemedView>
-                        <ThemedView style={styles.cardDetailsRow}>
-                          <ThemedText style={styles.cardDetailsLabel}>Players</ThemedText>
-                          <ThemedText style={styles.cardDetailsValue}>{contest.participants}/{contest.maxParticipants}</ThemedText>
-                        </ThemedView>
-                      </ThemedView>
-
-                      <ThemedView style={styles.cardFooter}>
-                        <ThemedView style={styles.progressContainer}>
-                          <ThemedView style={styles.progressBar}>
-                            <ThemedView 
-                              style={[
-                                styles.progressFill, 
-                                { width: `${(contest.participants / contest.maxParticipants) * 100}%` },
-                                getFilledStyle((contest.participants / contest.maxParticipants) * 100)
-                              ]} 
-                            />
-                          </ThemedView>
-                          <ThemedView style={styles.progressNumbers}>
-                            <ThemedText style={styles.progressText}>
-                              {contest.participants}/{contest.maxParticipants}
-                            </ThemedText>
-                          </ThemedView>
-                        </ThemedView>
-
-                        <TouchableOpacity 
-                          style={[
-                            styles.joinContestButton, 
-                            { backgroundColor: contest.status === 'joinable' ? Colors.primary : '#9e9e9e' }
-                          ]}
-                          onPress={() => handleJoinContest(contest.id)}
-                          disabled={contest.status !== 'joinable'}
-                        >
-                          <ThemedText style={styles.joinButtonText}>
-                            {contest.status === 'joinable' ? 'Join Now' : 'View Details'}
-                          </ThemedText>
-                        </TouchableOpacity>
-                      </ThemedView>
-                    </ThemedView>
-                  </View>
-                ))
-              )}
-            </View>
-          </ScrollView>
-        </ThemedView>
-      </SimpleSwipeView>
-
-      {/* Create Contest Modal */}
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={showCreateModal}
-        onRequestClose={() => setShowCreateModal(false)}
+      
+      {/* Header with gradient background */}
+      <LinearGradient
+        colors={isDark ? ['#4F46E5', '#3730A3'] : ['#6C63FF', '#3b36ce']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.headerContainer}
       >
-        <ThemedView style={styles.modalContainer}>
-          <ThemedView style={[styles.modalContent, isDark && styles.modalContentDark]} backgroundType="card">
-            <ThemedView style={[styles.modalHeader, isDark && styles.modalHeaderDark]}>
-              <ThemedText style={[styles.modalHeaderText, isDark && { color: '#fff' }]}>Create Private Contest</ThemedText>
-              <TouchableOpacity onPress={() => setShowCreateModal(false)}>
-                <MaterialIcons name="close" size={24} color={isDark ? "#fff" : "#333"} />
-              </TouchableOpacity>
-            </ThemedView>
-            
-            <ScrollView style={styles.modalBody}>
-              <ThemedText style={[styles.inputLabel, isDark && { color: '#fff' }]}>Contest Name</ThemedText>
-              <TextInput
-                style={[styles.textInput, isDark && styles.textInputDark]}
-                value={newContest.name}
-                onChangeText={(text) => setNewContest({...newContest, name: text})}
-                placeholder="e.g. Family Quiz Night"
-                placeholderTextColor={isDark ? "#777" : "#999"}
-                color={isDark ? "#fff" : "#333"}
-              />
-              
-              <ThemedText style={[styles.inputLabel, isDark && { color: '#fff' }]}>Entry Fee (₹)</ThemedText>
-              <TextInput
-                style={[styles.textInput, isDark && styles.textInputDark]}
-                value={String(newContest.entryFee)}
-                onChangeText={(text) => {
-                  const fee = parseInt(text) || 0;
-                  setNewContest({...newContest, entryFee: fee});
-                }}
-                keyboardType="number-pad"
-                placeholder="10"
-                placeholderTextColor={isDark ? "#777" : "#999"}
-                color={isDark ? "#fff" : "#333"}
-              />
-              
-              <ThemedText style={[styles.inputLabel, isDark && { color: '#fff' }]}>Max Players</ThemedText>
-              <TextInput
-                style={[styles.textInput, isDark && styles.textInputDark]}
-                value={String(newContest.maxParticipants)}
-                onChangeText={(text) => {
-                  const participants = parseInt(text) || 0;
-                  setNewContest({...newContest, maxParticipants: participants});
-                }}
-                keyboardType="number-pad"
-                placeholder="5"
-                placeholderTextColor={isDark ? "#777" : "#999"}
-                color={isDark ? "#fff" : "#333"}
-              />
+        <SafeAreaView style={styles.safeAreaContainer}>
+          <View style={styles.headerContent}>
+            <Text style={styles.headerTitle}>{t('contests')}</Text>
+          </View>
+        </SafeAreaView>
+      </LinearGradient>
 
-              <ThemedText style={[styles.inputLabel, isDark && { color: '#fff' }]}>Prize Distribution</ThemedText>
-              <ThemedView style={[styles.prizeDistributionInfo, isDark && styles.prizeDistributionInfoDark]} backgroundType="card">
-                {/* Calculate prize distribution preview */}
-                {(() => {
-                  const totalPool = newContest.entryFee * newContest.maxParticipants;
-                  const finalPool = calculatePrizePool(newContest.entryFee, newContest.maxParticipants);
-                  const distribution = distributePrizes(finalPool, newContest.maxParticipants);
-                  
-                  // Helper function to format prize percentage text
-                  const getPrizePercentText = (index: number) => {
-                    if (newContest.maxParticipants === 1) {
-                      return index === 0 ? '(100%)' : '(0%)';
-                    } else if (newContest.maxParticipants === 2) {
-                      return index === 0 ? '(70%)' : index === 1 ? '(30%)' : '(0%)';
-                    } else {
-                      return index === 0 ? '(60%)' : index === 1 ? '(30%)' : '(10%)';
-                    }
-                  };
-                  
-                  return (
-                    <>
-                      <View style={styles.prizeItem}>
-                        <View style={styles.rankBadge}>
-                          <ThemedText style={styles.rankText}>1</ThemedText>
-                        </View>
-                        <View style={styles.prizeInfoContainer}>
-                          <ThemedText style={[styles.prizeTitle, isDark && { color: '#fff' }]}>🥇 1st Place Winner</ThemedText>
-                          <View style={styles.prizeValueContainer}>
-                            <ThemedText style={[styles.prizeAmount, isDark && { color: '#fff' }]}>₹{distribution[0].prize}</ThemedText>
-                            <ThemedText style={[styles.prizePercent, isDark && { color: '#aaa' }]}>{getPrizePercentText(0)}</ThemedText>
+      {/* Notification Emoji above the button */}
+      {/* Removed the big bell emoji and extra margin */}
+
+      {/* Royal Red Gradient Dropdown Button with Bell and Badge */}
+      <View style={{ width: '100%', marginTop: 0 }}>
+        <TouchableOpacity
+          style={{ borderTopLeftRadius: 0, borderTopRightRadius: 0, borderBottomLeftRadius: 16, borderBottomRightRadius: 16, overflow: 'hidden', width: '100%' }}
+          onPress={e => { handleToggleContestHistory(); ringBell(); }}
+          activeOpacity={0.92}
+        >
+          <LinearGradient
+            colors={["#4169E1", "#27408B"]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={[styles.royalRedBtn, { borderTopLeftRadius: 0, borderTopRightRadius: 0, borderBottomLeftRadius: 16, borderBottomRightRadius: 16, width: '100%' }]}
+          >
+            <Text style={styles.royalRedBtnText}>My Upcoming Contest</Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10 }}>
+              {/* Bell icon, gold, animatable, no badge */}
+              <Animated.View style={{
+                transform: [{ rotate: bellAnim.interpolate({
+                  inputRange: [-1, 0, 1],
+                  outputRange: ['-25deg', '0deg', '25deg']
+                }) }]
+              }}>
+                <Ionicons name="notifications" size={22} color="#FFD700" />
+              </Animated.View>
+              <Ionicons
+                name={showContestHistory ? 'chevron-up' : 'chevron-down'}
+                size={22}
+                color="#fff"
+                style={{ marginLeft: 8 }}
+              />
+            </View>
+          </LinearGradient>
+        </TouchableOpacity>
+      </View>
+
+      <ThemedView style={styles.contentContainer}>
+        <ScrollView
+          ref={scrollViewRef}
+          style={styles.scrollView}
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+          refreshControl={
+            <RefreshControl
+              refreshing={refreshing}
+              onRefresh={onRefresh}
+              colors={[isDark ? '#8B5CF6' : '#6D28D9']}
+              tintColor={isDark ? '#8B5CF6' : '#6D28D9'}
+            />
+          }
+        >
+          {/* Dropdown Contest History Section */}
+          {showContestHistory && (
+            <View style={styles.welcomeCardWrapper} ref={contestHistoryRef}>
+              <LinearGradient
+                colors={["#4e002a", "#8a0037", "#1a0a1a"]}
+                style={styles.maroonCard}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+              >
+                <View style={styles.welcomeCardContent}>
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.welcomeText}>
+                      Upcoming & History Contests
+                    </Text>
+                    <Text style={styles.welcomeSubText}>
+                      Here you can see all the contests you have joined, upcoming contests, and how much you have paid.
+                    </Text>
+                    {/* User Contest List */}
+                    {userContests.length === 0 ? (
+                      <Text style={[styles.welcomeSubText, { marginTop: 12 }]}>No contests found.</Text>
+                    ) : (
+                      userContests.map((contest: typeof userContests[0]) => (
+                        <TouchableOpacity
+                          key={contest.id}
+                          style={styles.userContestItem}
+                          activeOpacity={0.85}
+                          onPress={() => Alert.alert(
+                            `${contest.name} Details`,
+                            `Status: ${contest.status}\nEntry Fee: ₹${contest.entryFee}\nDate: ${contest.date}`
+                          )}
+                        >
+                          <View style={{ flex: 1 }}>
+                            <Text style={styles.userContestName}>{contest.name}</Text>
+                            <Text style={styles.userContestStatus}>
+                              {contest.status}
+                            </Text>
                           </View>
+                          <View style={{ alignItems: 'flex-end' }}>
+                            <Text style={styles.userContestFee}>₹{contest.entryFee}</Text>
+                            <Text style={styles.userContestDate}>{contest.date}</Text>
+                          </View>
+                        </TouchableOpacity>
+                      ))
+                    )}
+                  </View>
+                </View>
+              </LinearGradient>
+            </View>
+          )}
+          
+          {/* Mega Gaming Pool Section - HYPE */}
+          <View style={styles.megaPoolSection}>
+            <Text style={[styles.megaPoolTitle, { color: isDark ? Colors.dark.text : Colors.light.text }]}>🔥 Mega Gaming Pools 🔥</Text>
+            <Text style={[styles.megaPoolSubtitle, { color: isDark ? '#CCCCCC' : '#222222' }]}>Participate in these special pools and win BIG with just a small entry fee!</Text>
+            <ScrollView
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={{ paddingVertical: 8, paddingLeft: 8, paddingRight: 8 }}
+            >
+              {/* Super Mega Pool */}
+              <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff', marginLeft: 0 }]} activeOpacity={0.93}>
+                <ImageBackground
+                  source={{uri: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'}}
+                  style={styles.megaPoolImage}
+                  imageStyle={{borderRadius: 20, opacity: 0.85}}
+                >
+                  <LinearGradient
+                    colors={["#ff512f", "#dd2476"]}
+                    style={styles.megaPoolGradient}
+                  >
+                    <Text style={styles.megaPoolCardTitle}>🔥 मेगा पूल (Mega Pool) 🏆</Text>
+                    <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                    <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹1</Text>
+                    <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 1,00,000</Text>
+                    <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Mega Pool')}>
+                      <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                    </TouchableOpacity>
+                  </LinearGradient>
+                </ImageBackground>
+              </TouchableOpacity>
+              {/* Semi Mega Pool */}
+              <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff' }]} activeOpacity={0.93}>
+                <ImageBackground
+                  source={{uri: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80'}}
+                  style={styles.megaPoolImage}
+                  imageStyle={{borderRadius: 20, opacity: 0.85}}
+                >
+                  <LinearGradient
+                    colors={["#11998e", "#38ef7d"]}
+                    style={styles.megaPoolGradient}
+                  >
+                    <Text style={styles.megaPoolCardTitle}>⚡ सेमी-मेगा पूल (Semi-Mega Pool) 🥈</Text>
+                    <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹2,50,000</Text>
+                    <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹5</Text>
+                    <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 50,000</Text>
+                    <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Semi-Mega Pool')}>
+                      <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                    </TouchableOpacity>
+                  </LinearGradient>
+                </ImageBackground>
+              </TouchableOpacity>
+              {/* Small Mega Pool */}
+              <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff' }]} activeOpacity={0.93}>
+                <ImageBackground
+                  source={{uri: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80'}}
+                  style={styles.megaPoolImage}
+                  imageStyle={{borderRadius: 20, opacity: 0.85}}
+                >
+                  <LinearGradient
+                    colors={["#fc4a1a", "#f7b733"]}
+                    style={styles.megaPoolGradient}
+                  >
+                    <Text style={styles.megaPoolCardTitle}>🎯 स्मॉल-मेगा पूल (Small-Mega Pool) 🥉</Text>
+                    <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                    <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹10</Text>
+                    <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 10,000</Text>
+                    <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Small-Mega Pool')}>
+                      <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                    </TouchableOpacity>
+                  </LinearGradient>
+                </ImageBackground>
+              </TouchableOpacity>
+              {/* Mini Pool */}
+              <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff' }]} activeOpacity={0.93}>
+                <ImageBackground
+                  source={{uri: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80'}}
+                  style={styles.megaPoolImage}
+                  imageStyle={{borderRadius: 20, opacity: 0.85}}
+                >
+                  <LinearGradient
+                    colors={["#43cea2", "#185a9d"]}
+                    style={styles.megaPoolGradient}
+                  >
+                    <Text style={styles.megaPoolCardTitle}>🌟 मिनी पूल (Mini Pool) 🎲</Text>
+                    <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                    <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹20</Text>
+                    <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 5,000</Text>
+                    <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Mini Pool')}>
+                      <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                    </TouchableOpacity>
+                  </LinearGradient>
+                </ImageBackground>
+              </TouchableOpacity>
+              {/* Micro Pool (last card) */}
+              <TouchableOpacity style={[styles.megaPoolCard, { backgroundColor: '#fff', marginRight: 0, marginLeft: 0 }]} activeOpacity={0.93}>
+                <ImageBackground
+                  source={{uri: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3c91?auto=format&fit=crop&w=800&q=80'}}
+                  style={styles.megaPoolImage}
+                  imageStyle={{borderRadius: 20, opacity: 0.85}}
+                >
+                  <LinearGradient
+                    colors={["#ff9966", "#ff5e62"]}
+                    style={styles.megaPoolGradient}
+                  >
+                    <Text style={styles.megaPoolCardTitle}>�� माइक्रो पूल (Micro Pool) 🎮</Text>
+                    <Text style={styles.megaPoolPrize}>💰 कुल राशि / Prize: ₹1,00,000</Text>
+                    <Text style={styles.megaPoolEntry}>🎟️ प्रवेश शुल्क / Entry: ₹50</Text>
+                    <Text style={styles.megaPoolPlayers}>👥 खिलाड़ी / Players: 2,000</Text>
+                    <TouchableOpacity style={styles.megaPoolJoinBtn} onPress={() => handleRegisterPool('Micro Pool')}>
+                      <Text style={styles.megaPoolJoinText}>🚀 Register Now!</Text>
+                    </TouchableOpacity>
+                  </LinearGradient>
+                </ImageBackground>
+              </TouchableOpacity>
+            </ScrollView>
+          </View>
+          {/* End Mega Gaming Pool Section */}
+          
+          {/* Contest Pools Section */}
+          <ContestPoolSection />
+          
+          {/* Legacy Gaming Pools Component - Keep for backward compatibility */}
+          <View style={styles.legacySection}>
+            <Text style={[
+              styles.legacySectionTitle, 
+              { color: isDark ? Colors.dark.text : Colors.light.text }
+            ]}>
+              Featured Contests
+            </Text>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+              {filteredContests.map((contest) => (
+                <TouchableOpacity
+                  key={contest.id}
+                  style={styles.featuredContestCard}
+                  activeOpacity={0.85}
+                  onPress={() => handleOpenPayModal(contest)}
+                >
+                  <ImageBackground
+                    source={{ uri: contest.image || contestImages.Default }}
+                    style={{ width: '100%', height: '100%' }}
+                    imageStyle={{ opacity: 0.5, borderRadius: 16 }}
+                  >
+                    <LinearGradient
+                      colors={getCategoryGradient(contest.category)}
+                      style={{ flex: 1, justifyContent: 'flex-end', padding: 14, borderRadius: 16 }}
+                    >
+                      <Text style={styles.featuredContestTitle}>{contest.title}</Text>
+                      <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8 }}>
+                        <View>
+                          <Text style={styles.featuredContestStatLabel}>Entry</Text>
+                          <Text style={styles.featuredContestStatValue}>₹{contest.entryFee}</Text>
+                        </View>
+                        <View>
+                          <Text style={styles.featuredContestStatLabel}>Prize</Text>
+                          <Text style={styles.featuredContestStatValue}>₹{contest.prizePool}</Text>
                         </View>
                       </View>
-                      
-                      {(newContest.maxParticipants > 1) && (
-                        <View style={styles.prizeItem}>
-                          <View style={[styles.rankBadge, styles.secondRank]}>
-                            <ThemedText style={styles.rankText}>2</ThemedText>
-                          </View>
-                          <View style={styles.prizeInfoContainer}>
-                            <ThemedText style={[styles.prizeTitle, isDark && { color: '#fff' }]}>🥈 2nd Place Winner</ThemedText>
-                            <View style={styles.prizeValueContainer}>
-                              <ThemedText style={[styles.prizeAmount, isDark && { color: '#fff' }]}>₹{distribution[1].prize}</ThemedText>
-                              <ThemedText style={[styles.prizePercent, isDark && { color: '#aaa' }]}>{getPrizePercentText(1)}</ThemedText>
-                            </View>
-                          </View>
-                        </View>
-                      )}
-                      
-                      {(newContest.maxParticipants > 2) && (
-                        <View style={styles.prizeItem}>
-                          <View style={[styles.rankBadge, styles.thirdRank]}>
-                            <ThemedText style={styles.rankText}>3</ThemedText>
-                          </View>
-                          <View style={styles.prizeInfoContainer}>
-                            <ThemedText style={[styles.prizeTitle, isDark && { color: '#fff' }]}>🥉 3rd Place Winner</ThemedText>
-                            <View style={styles.prizeValueContainer}>
-                              <ThemedText style={[styles.prizeAmount, isDark && { color: '#fff' }]}>₹{distribution[2].prize}</ThemedText>
-                              <ThemedText style={[styles.prizePercent, isDark && { color: '#aaa' }]}>{getPrizePercentText(2)}</ThemedText>
-                            </View>
-                          </View>
-                        </View>
-                      )}
-                    </>
-                  );
-                })()}
-              </ThemedView>
-              
-              <ThemedView style={[styles.infoBox, isDark && styles.infoBoxDark]} backgroundType="card">
-                <MaterialIcons name="info" size={20} color={isDark ? "#4CAF50" : "#4CAF50"} style={styles.infoIcon} />
-                <ThemedText style={[styles.infoText, isDark && { color: '#ddd' }]}>
-                  Total Pool: ₹{newContest.entryFee * newContest.maxParticipants}{'\n'}
-                  10% Commission: ₹{newContest.entryFee * newContest.maxParticipants * 0.1}{'\n'}
-                  Final Prize Pool: ₹{calculatePrizePool(newContest.entryFee, newContest.maxParticipants)}
-                </ThemedText>
-              </ThemedView>
+                      <TouchableOpacity
+                        style={{
+                          backgroundColor: 'rgba(255,255,255,0.18)',
+                          paddingVertical: 8,
+                          borderRadius: 8,
+                          alignItems: 'center',
+                          marginTop: 4,
+                        }}
+                        onPress={() => handleOpenPayModal(contest)}
+                      >
+                        <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 15 }}>
+                          🚀 Register Now! 🎉
+                        </Text>
+                      </TouchableOpacity>
+                    </LinearGradient>
+                  </ImageBackground>
+                </TouchableOpacity>
+              ))}
             </ScrollView>
-            
-            <ThemedView style={[styles.modalFooter, isDark && styles.modalFooterDark]}>
-              <TouchableOpacity 
-                style={[styles.createContestButton, isDark && { backgroundColor: '#2E7031' }]}
-                onPress={handleCreateContest}
-                disabled={!newContest.name || newContest.entryFee <= 0 || newContest.maxParticipants <= 1}
-              >
-                <ThemedText style={styles.createContestButtonText}>Create Contest</ThemedText>
-              </TouchableOpacity>
-            </ThemedView>
-          </ThemedView>
-        </ThemedView>
-      </Modal>
-      
-      {/* Join Private Contest Modal */}
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={showJoinModal}
-        onRequestClose={() => setShowJoinModal(false)}
-      >
-        <ThemedView style={styles.modalContainer}>
-          <ThemedView style={[styles.modalContent, isDark && styles.modalContentDark]} backgroundType="card">
-            <ThemedView style={[styles.modalHeader, isDark && styles.modalHeaderDark]}>
-              <ThemedText style={[styles.modalHeaderText, isDark && { color: '#fff' }]}>Join Private Contest</ThemedText>
-              <TouchableOpacity onPress={() => setShowJoinModal(false)}>
-                <MaterialIcons name="close" size={24} color={isDark ? "#fff" : "#333"} />
-              </TouchableOpacity>
-            </ThemedView>
-            
-            <View style={styles.modalBody}>
-              <ThemedText style={[styles.inputLabel, isDark && { color: '#fff' }]}>Enter Share Code</ThemedText>
-              <TextInput
-                style={[styles.textInput, isDark && styles.textInputDark]}
-                value={shareCode}
-                onChangeText={setShareCode}
-                placeholder="Enter 6-digit code"
-                placeholderTextColor={isDark ? "#777" : "#999"}
-                color={isDark ? "#fff" : "#333"}
-              />
+          </View>
+        </ScrollView>
+        
+        {/* Create Private Contest Modal */}
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={showCreateModal}
+          onRequestClose={() => setShowCreateModal(false)}
+        >
+          <View style={styles.modalOverlay}>
+            <View style={[styles.modalContent, { backgroundColor: cardBg }]}>
+              <View style={styles.modalHeader}>
+                <Text style={[styles.modalTitle, { color: textColor }]}>
+                  Create Private Contest
+                </Text>
+                <TouchableOpacity
+                  onPress={() => setShowCreateModal(false)}
+                  style={styles.closeButton}
+                >
+                  <Ionicons
+                    name="close"
+                    size={24}
+                    color={textColor}
+                  />
+                </TouchableOpacity>
+              </View>
               
-              <TouchableOpacity 
-                style={[styles.createContestButton, isDark && { backgroundColor: '#1565C0' }]}
-                onPress={() => {
-                  // Logic to join with code
-                  setShowJoinModal(false);
-                  setShareCode('');
-                }}
+              <View style={styles.modalBody}>
+                <Text style={[styles.modalSubtitle, { color: textColor }]}>
+                  Create a private contest and invite friends with a unique code
+                </Text>
+                
+                <View style={styles.formGroup}>
+                  <Text style={[styles.inputLabel, { color: mutedTextColor }]}>
+                    Contest Name
+                  </Text>
+                  <TextInput
+                    style={[
+                      styles.textInput,
+                      {
+                        color: textColor,
+                        backgroundColor: isDark ? '#2A3240' : '#F3F4F6',
+                        borderColor: borderColor,
+                      },
+                    ]}
+                    placeholder="Enter contest name"
+                    placeholderTextColor={mutedTextColor}
+                  />
+                </View>
+                
+                <View style={styles.formGroup}>
+                  <Text style={[styles.inputLabel, { color: mutedTextColor }]}>
+                    Category
+                  </Text>
+                  <View
+                    style={[
+                      styles.selectInput,
+                      {
+                        backgroundColor: isDark ? '#2A3240' : '#F3F4F6',
+                        borderColor: borderColor,
+                      },
+                    ]}
+                  >
+                    <Text style={{ color: mutedTextColor }}>Select category</Text>
+                    <Ionicons name="chevron-down" size={20} color={mutedTextColor} />
+                  </View>
+                </View>
+                
+                <View style={styles.formGroup}>
+                  <Text style={[styles.inputLabel, { color: mutedTextColor }]}>
+                    Entry Fee (₹)
+                  </Text>
+                  <TextInput
+                    style={[
+                      styles.textInput,
+                      {
+                        color: textColor,
+                        backgroundColor: isDark ? '#2A3240' : '#F3F4F6',
+                        borderColor: borderColor,
+                      },
+                    ]}
+                    placeholder="0"
+                    placeholderTextColor={mutedTextColor}
+                    keyboardType="number-pad"
+                  />
+                </View>
+                
+                <View style={styles.formGroup}>
+                  <Text style={[styles.inputLabel, { color: mutedTextColor }]}>
+                    Max Participants
+                  </Text>
+                  <TextInput
+                    style={[
+                      styles.textInput,
+                      {
+                        color: textColor,
+                        backgroundColor: isDark ? '#2A3240' : '#F3F4F6',
+                        borderColor: borderColor,
+                      },
+                    ]}
+                    placeholder="10"
+                    placeholderTextColor={mutedTextColor}
+                    keyboardType="number-pad"
+                  />
+                </View>
+              </View>
+              
+              <TouchableOpacity
+                style={styles.createContestBtn}
+                onPress={handleCreateContest}
               >
-                <ThemedText style={styles.createContestButtonText}>Join Contest</ThemedText>
+                <Text style={styles.createContestBtnText}>Create Contest</Text>
               </TouchableOpacity>
             </View>
-          </ThemedView>
-        </ThemedView>
-      </Modal>
-    </SafeAreaView>
+          </View>
+        </Modal>
+        
+        {/* Join Contest Modal */}
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={isJoinModalVisible}
+          onRequestClose={() => setIsJoinModalVisible(false)}
+        >
+          <View style={styles.modalOverlay}>
+            <View style={[styles.modalContent, { backgroundColor: cardBg }]}>
+              <View style={styles.modalHeader}>
+                <Text style={[styles.modalTitle, { color: textColor }]}>
+                  Join Private Contest
+                </Text>
+                <TouchableOpacity
+                  onPress={() => setIsJoinModalVisible(false)}
+                  style={styles.closeButton}
+                >
+                  <Ionicons
+                    name="close"
+                    size={24}
+                    color={textColor}
+                  />
+                </TouchableOpacity>
+              </View>
+              
+              <View style={styles.modalBody}>
+                <Text style={[styles.modalSubtitle, { color: textColor }]}>
+                  Enter the contest code to join a private contest
+                </Text>
+                
+                <View style={styles.formGroup}>
+                  <Text style={[styles.inputLabel, { color: mutedTextColor }]}>
+                    Contest Code
+                  </Text>
+                  <TextInput
+                    style={[
+                      styles.textInput,
+                      {
+                        color: textColor,
+                        backgroundColor: isDark ? '#2A3240' : '#F3F4F6',
+                        borderColor: borderColor,
+                      },
+                    ]}
+                    placeholder="Enter 6-digit code"
+                    placeholderTextColor={mutedTextColor}
+                    value={contestPin}
+                    onChangeText={setContestPin}
+                    keyboardType="number-pad"
+                    maxLength={6}
+                  />
+                </View>
+              </View>
+              
+              <TouchableOpacity
+                style={styles.joinContestBtn}
+                onPress={() => {
+                  setIsJoinModalVisible(false);
+                  Alert.alert("Join Private Contest", "Private contest functionality is currently under review.");
+                }}
+              >
+                <Text style={styles.joinContestBtnText}>Join Contest</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </Modal>
+
+        {/* Registration Confirmation Modal */}
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={showRegisterModal}
+          onRequestClose={() => setShowRegisterModal(false)}
+        >
+          <View style={styles.modalOverlay}>
+            {/* LinearGradient now adapts to theme */}
+            <LinearGradient
+              colors={isDark ? ['#232526', '#414345', '#6D28D9'] : ['#a18cd1', '#fbc2eb', '#8EC5FC']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={styles.modalContent}
+            >
+              <View style={styles.modalHeader}>
+                <Text style={[styles.modalTitle, { color: textColor }]}>Registration Successful / पंजीकरण सफल</Text>
+                <TouchableOpacity onPress={() => setShowRegisterModal(false)} style={styles.closeButton}>
+                  <Ionicons name="close" size={24} color={textColor} />
+                </TouchableOpacity>
+              </View>
+              <View style={styles.modalBody}>
+                <Text style={[styles.modalSubtitle, { color: textColor }]}>You have registered for the {registeredPool}.
+                {'\n'}आपने {registeredPool} के लिए पंजीकरण कर लिया है।</Text>
+                <Text style={[styles.modalSubtitle, { color: textColor, marginTop: 12 }]}>You will receive a notification 12 hours before the contest starts. Please come back at the exact time to join and play!
+                {'\n'}प्रतियोगिता शुरू होने से 12 घंटे पहले आपको सूचना मिलेगी। कृपया ठीक समय पर वापस आएं और भाग लें!</Text>
+                <Text style={[styles.modalSubtitle, { color: textColor, marginTop: 12 }]}>Waiting Lobby Instructions / प्रतीक्षा लॉबी निर्देश:
+                {'\n'}- Contest will start at the scheduled time.
+                {'\n'}- You can view your registration status here.
+                {'\n'}- No contest or game will start until the scheduled time.
+                {'\n'}- प्रतियोगिता निर्धारित समय पर शुरू होगी।
+                {'\n'}- आप यहां अपनी पंजीकरण स्थिति देख सकते हैं।
+                {'\n'}- निर्धारित समय से पहले कोई प्रतियोगिता या गेम शुरू नहीं होगा।
+                </Text>
+              </View>
+            </LinearGradient>
+          </View>
+        </Modal>
+
+        {/* Pay Window Modal */}
+        <Modal
+          visible={showPayModal}
+          animationType="slide"
+          transparent={false}
+          onRequestClose={() => setShowPayModal(false)}
+        >
+          <LinearGradient
+            colors={["#2336a3", "#4169e1", "#27408b"]}
+            style={{ flex: 1 }}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+          >
+            <StatusBar backgroundColor="#2336a3" barStyle="light-content" translucent={false} />
+            <SafeAreaView style={{ flex: 1 }}>
+              <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', padding: 24 }}>
+                <TouchableOpacity style={{ position: 'absolute', top: 32, right: 24, zIndex: 2 }} onPress={() => setShowPayModal(false)}>
+                  <Ionicons name="close" size={32} color="#fff" />
+                </TouchableOpacity>
+                {selectedContest && (
+                  <View style={{ width: '100%', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#fff', marginBottom: 8 }}>{selectedContest.title}</Text>
+                    <Text style={{ fontSize: 18, color: '#fff', marginBottom: 8 }}>{selectedContest.category}</Text>
+                    <Text style={{ fontSize: 16, color: '#fff', marginBottom: 16, textAlign: 'center' }}>
+                      Entry Fee: ₹{selectedContest.entryFee} {'\n'}
+                      प्रवेश शुल्क: ₹{selectedContest.entryFee}
+                    </Text>
+                    <Text style={{ fontSize: 15, color: '#e0e0e0', marginBottom: 16, textAlign: 'center' }}>
+                      Prize Pool: ₹{selectedContest.prizePool} {'\n'}
+                      इनाम राशि: ₹{selectedContest.prizePool}
+                    </Text>
+                    <Text style={{ fontSize: 15, color: '#e0e0e0', marginBottom: 24, textAlign: 'center' }}>
+                      Instructions: You will be registered for this contest. The entry fee will be deducted from your wallet. Please ensure you have sufficient balance.\n\nनिर्देश: आप इस प्रतियोगिता के लिए पंजीकृत हो जाएंगे। प्रवेश शुल्क आपके वॉलेट से काट लिया जाएगा। कृपया सुनिश्चित करें कि आपके पास पर्याप्त बैलेंस है।
+                    </Text>
+                    <Text style={{ fontSize: 16, color: '#fff', marginBottom: 12 }}>
+                      Wallet Balance: ₹{walletBalance !== null ? walletBalance : '...'}
+                    </Text>
+                    {payError && <Text style={{ color: '#ffbaba', marginBottom: 12, textAlign: 'center' }}>{payError}</Text>}
+                    {paySuccess && <Text style={{ color: '#baffc9', marginBottom: 12, textAlign: 'center' }}>Registration Successful!\nपंजीकरण सफल!</Text>}
+                    <TouchableOpacity
+                      style={{
+                        backgroundColor: '#fff',
+                        paddingVertical: 14,
+                        paddingHorizontal: 40,
+                        borderRadius: 10,
+                        marginTop: 8,
+                        opacity: paying ? 0.7 : 1,
+                      }}
+                      disabled={paying || paySuccess}
+                      onPress={handlePayAndRegister}
+                    >
+                      <Text style={{ color: '#2336a3', fontWeight: 'bold', fontSize: 18 }}>
+                        {paying ? 'Processing...' : 'Pay & Register / भुगतान करें'}
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                )}
+              </View>
+            </SafeAreaView>
+          </LinearGradient>
+        </Modal>
+      </ThemedView>
+      
+      {/* Filter Modal */}
+      <ContestFilters
+        isVisible={showFilters}
+        onClose={() => setShowFilters(false)}
+        onApplyFilters={handleApplyFilters}
+        initialFilters={filters}
+        isDark={isDark}
+      />
+    </View>
   );
 }
 
@@ -842,412 +1288,299 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  fabContainer: {
-    position: 'absolute',
-    bottom: 16,
-    right: 16,
-    zIndex: 999,
-    flexDirection: 'column',
+  headerContainer: {
+    width: '100%',
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
   },
-  fabButton: {
+  safeAreaContainer: {
+    width: '100%',
+  },
+  headerContent: {
+    height: 56,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: 24,
-    paddingVertical: 8,
-    paddingHorizontal: 12,
-    elevation: 4,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
-    marginBottom: 8,
-  },
-  createFabButton: {
-    backgroundColor: '#4CAF50',
-  },
-  joinFabButton: {
-    backgroundColor: '#2196F3',
-  },
-  fabText: {
-    color: 'white',
-    marginLeft: 4,
-    fontSize: 12,
-    fontWeight: 'bold',
-  },
-  bannerContainer: {
-    margin: 12,
-    borderRadius: 12,
-    backgroundColor: '#E8F5E9',
-    overflow: 'hidden',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 1,
-  },
-  bannerContent: {
-    flexDirection: 'row',
-    padding: 12,
-    alignItems: 'center',
-  },
-  bannerIconContainer: {
-    marginRight: 12,
-  },
-  bannerTextContainer: {
-    flex: 1,
-  },
-  bannerTitle: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#333',
-  },
-  bannerDescription: {
-    fontSize: 12,
-    color: '#666',
-  },
-  bannerButton: {
-    backgroundColor: '#4CAF50',
-    paddingVertical: 6,
-    paddingHorizontal: 12,
-    borderRadius: 16,
-  },
-  bannerButtonText: {
-    color: 'white',
-    fontSize: 12,
-    fontWeight: 'bold',
-  },
-  filterContainer: {
-    marginTop: 8,
-    marginBottom: 12,
-  },
-  filterButtonsContainer: {
-    paddingHorizontal: 12,
-  },
-  filterOption: {
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 16,
-    backgroundColor: '#F0F0F0',
-    marginHorizontal: 4,
-  },
-  filterOptionDark: {
-    backgroundColor: '#333',
-  },
-  activeFilterOption: {
-    backgroundColor: Colors.primary,
-  },
-  activeFilterOptionDark: {
-    backgroundColor: '#2E7031',
-  },
-  filterText: {
-    fontSize: 12,
-    color: '#666',
-  },
-  activeFilterText: {
-    color: '#fff',
-    fontWeight: '500',
-  },
-  listContainer: {
-    paddingHorizontal: 12,
-  },
-  emptyStateContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: 40,
-  },
-  emptyStateText: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#666',
-    marginTop: 16,
-  },
-  emptyStateSubtext: {
-    fontSize: 14,
-    color: '#999',
-    marginTop: 8,
-  },
-  card: {
-    borderRadius: 12,
-    padding: 12,
-    marginBottom: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 2,
-  },
-  cardDark: {
-    shadowColor: '#000',
-    shadowOpacity: 0.3,
-  },
-  privateBadge: {
-    position: 'absolute',
-    top: 12,
-    right: 12,
-    backgroundColor: '#FF9800',
-    paddingHorizontal: 6,
-    paddingVertical: 2,
-    borderRadius: 10,
-    flexDirection: 'row',
-    alignItems: 'center',
-    zIndex: 1,
-  },
-  privateBadgeText: {
-    color: '#FFFFFF',
-    fontSize: 10,
-    fontWeight: 'bold',
-    marginLeft: 2,
-  },
-  cardHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    marginBottom: 10,
-  },
-  tierAndNameContainer: {
-    flex: 1,
-  },
-  contestName: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 2,
-  },
-  tierBadge: {
-    alignSelf: 'flex-start',
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: 10,
-    marginBottom: 6,
-  },
-  lowStakeTier: {
-    backgroundColor: '#E8F5E9',
-  },
-  mediumStakeTier: {
-    backgroundColor: '#FFF3E0',
-  },
-  highStakeTier: {
-    backgroundColor: '#FFEBEE',
-  },
-  tierText: {
-    fontSize: 10,
-    fontWeight: '500',
-  },
-  middleRow: {
-    marginBottom: 10,
-  },
-  statsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    backgroundColor: '#F8F8F8',
-    borderRadius: 8,
-    padding: 8,
-  },
-  statsContainerDark: {
-    backgroundColor: '#333',
-  },
-  statItem: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  statDivider: {
-    width: 1,
-    backgroundColor: '#E0E0E0',
-  },
-  statDividerDark: {
-    backgroundColor: '#666',
-  },
-  statLabel: {
-    fontSize: 10,
-    color: '#666',
-    marginBottom: 2,
-  },
-  statValue: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#333',
-  },
-  cardFooter: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  timeContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  timeText: {
-    fontSize: 12,
-    color: '#666',
-    marginLeft: 4,
-  },
-  joinButton: {
-    backgroundColor: Colors.primary,
     paddingHorizontal: 16,
-    paddingVertical: 6,
-    borderRadius: 16,
   },
-  joinButtonText: {
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: '600',
     color: '#fff',
-    fontSize: 12,
-    fontWeight: 'bold',
+    textShadowColor: 'rgba(0, 0, 0, 0.1)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
   },
-  modalContainer: {
+  contentContainer: {
+    flex: 1,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  scrollContent: {
+    paddingBottom: 20,
+  },
+  welcomeCardWrapper: {
+    paddingHorizontal: 16,
+    marginTop: 16,
+    marginBottom: 16,
+  },
+  maroonCard: {
+    borderRadius: 16,
+    overflow: 'hidden',
+    marginTop: 8,
+  },
+  welcomeCardContent: {
+    padding: 16,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  welcomeText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 4,
+  },
+  welcomeSubText: {
+    fontSize: 14,
+    color: 'rgba(255, 255, 255, 0.8)',
+  },
+  userContestItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(255, 255, 255, 0.2)',
+  },
+  userContestName: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  userContestStatus: {
+    fontSize: 14,
+    color: 'rgba(255, 255, 255, 0.8)',
+  },
+  userContestFee: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  userContestDate: {
+    fontSize: 14,
+    color: 'rgba(255, 255, 255, 0.8)',
+  },
+  legacySection: {
+    paddingHorizontal: 16,
+    marginTop: 16,
+    marginBottom: 16,
+  },
+  legacySectionTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 12,
+  },
+  modalOverlay: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   modalContent: {
-    width: '90%',
-    maxHeight: '80%',
-    backgroundColor: '#fff',
-    borderRadius: 12,
-    overflow: 'hidden',
+    width: width * 0.9,
+    borderRadius: 16,
+    padding: 16,
     elevation: 5,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
   },
   modalHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 15,
-    borderBottomWidth: 1,
-    borderBottomColor: '#eee',
+    marginBottom: 16,
   },
-  modalHeaderText: {
-    fontSize: 18,
+  modalTitle: {
+    fontSize: 20,
     fontWeight: 'bold',
-    color: '#333',
+  },
+  closeButton: {
+    padding: 4,
   },
   modalBody: {
-    padding: 15,
-    maxHeight: 400,
+    marginBottom: 24,
   },
-  modalFooter: {
-    padding: 15,
-    borderTopWidth: 1,
-    borderTopColor: '#eee',
+  modalSubtitle: {
+    fontSize: 14,
+    marginBottom: 24,
+  },
+  formGroup: {
+    marginBottom: 16,
   },
   inputLabel: {
-    fontSize: 16,
-    fontWeight: 'bold',
+    fontSize: 14,
     marginBottom: 8,
-    color: '#333',
   },
   textInput: {
+    height: 48,
     borderWidth: 1,
-    borderColor: '#ddd',
     borderRadius: 8,
-    padding: 12,
+    paddingHorizontal: 16,
     fontSize: 16,
-    marginBottom: 16,
-    color: '#333',
   },
-  textInputDark: {
-    borderColor: '#444',
-    color: '#fff',
-    backgroundColor: '#222',
-  },
-  prizeDistributionInfo: {
-    backgroundColor: '#F5F5F5',
-    padding: 16,
+  selectInput: {
+    height: 48,
+    borderWidth: 1,
     borderRadius: 8,
-    marginBottom: 16,
-  },
-  prizeItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 12,
-  },
-  rankBadge: {
-    width: 30,
-    height: 30,
-    borderRadius: 15,
-    backgroundColor: '#FFD700', // Gold for 1st
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 12,
-  },
-  secondRank: {
-    backgroundColor: '#C0C0C0', // Silver for 2nd
-  },
-  thirdRank: {
-    backgroundColor: '#CD7F32', // Bronze for 3rd
-  },
-  rankText: {
-    fontWeight: 'bold',
-    color: '#fff',
-  },
-  prizeAmount: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#333',
-    marginRight: 8,
-  },
-  prizePercent: {
-    fontSize: 14,
-    color: '#666',
-  },
-  createContestButton: {
-    backgroundColor: '#4CAF50',
-    padding: 15,
-    borderRadius: 8,
-    alignItems: 'center',
-  },
-  createContestButtonText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-  infoBox: {
-    backgroundColor: '#E8F5E9',
-    padding: 12,
-    borderRadius: 8,
-    flexDirection: 'row',
-    marginBottom: 16,
-  },
-  infoIcon: {
-    marginRight: 8,
-  },
-  infoText: {
-    color: '#333',
-    flex: 1,
-    lineHeight: 22,
-  },
-  prizeInfoContainer: {
-    flex: 1,
+    paddingHorizontal: 16,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  prizeValueContainer: {
-    flexDirection: 'row',
+  createContestBtn: {
+    backgroundColor: '#4338CA',
+    paddingVertical: 14,
+    borderRadius: 8,
     alignItems: 'center',
   },
-  prizeTitle: {
-    flex: 1,
-    fontSize: 14,
+  createContestBtnText: {
+    color: '#FFFFFF',
     fontWeight: 'bold',
-    color: '#333',
+    fontSize: 16,
   },
-  liveUsersButton: {
+  joinContestBtn: {
+    backgroundColor: '#22C55E',
+    paddingVertical: 14,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  joinContestBtnText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  contestCard: {
+    width: width * 0.85,
+    height: 220,
+    borderRadius: 16,
+    overflow: 'hidden',
+    marginRight: 16,
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 6,
+  },
+  contestImage: {
+    width: '100%',
+    height: '100%',
+  },
+  contestGradient: {
+    flex: 1,
+    justifyContent: 'space-between',
+    padding: 16,
+  },
+  contestHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  categoryTag: {
+    backgroundColor: 'rgba(255, 255, 255, 0.25)',
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 50,
+  },
+  categoryTagText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 12,
+  },
+  contestCardContent: {
+    justifyContent: 'flex-end',
+  },
+  contestTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 12,
+    textShadowColor: 'rgba(0, 0, 0, 0.6)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 3,
+  },
+  contestInfo: {
+    marginTop: 8,
+  },
+  contestStats: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    paddingVertical: 6,
-    paddingHorizontal: 10,
-    borderRadius: 20,
+    marginBottom: 14,
   },
-  livePulse: {
-    justifyContent: 'center',
+  statItem: {
+    flexDirection: 'column',
     alignItems: 'center',
+    flex: 1,
+  },
+  statDivider: {
+    width: 1,
+    height: 24,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+  },
+  statLabel: {
+    color: 'rgba(255, 255, 255, 0.8)',
+    fontSize: 12,
+    marginBottom: 4,
+  },
+  statValue: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 18,
+    textShadowColor: 'rgba(0, 0, 0, 0.5)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
+  },
+  favoriteButton: {
+    padding: 8,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    borderRadius: 50,
+  },
+  participantsInfo: {
+    marginBottom: 12,
+  },
+  participantsBar: {
+    height: 6,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    borderRadius: 3,
+    overflow: 'hidden',
+    marginBottom: 6,
+  },
+  participantsFill: {
+    height: '100%',
+    backgroundColor: '#4CAF50',
+    borderRadius: 3,
+  },
+  participantsText: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '500',
+  },
+  liveTag: {
+    backgroundColor: 'rgba(244, 67, 54, 0.9)',
+    borderRadius: 6,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'flex-start',
   },
   liveIndicator: {
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#FF4D4D',
+    backgroundColor: '#fff',
     marginRight: 6,
   },
   liveText: {
@@ -1255,247 +1588,316 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: 'bold',
   },
-  filterOption: {
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderRadius: 20,
-    marginRight: 10,
-    backgroundColor: '#f0f0f0',
+  startsInText: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    fontWeight: '600',
   },
-  filterOptionDark: {
-    backgroundColor: '#333',
-  },
-  filterOptionActive: {
-    backgroundColor: Colors.primary,
-  },
-  filterOptionText: {
-    color: '#666',
-    fontWeight: '500',
-  },
-  filterOptionTextDark: {
-    color: '#ccc',
-  },
-  filterOptionTextActive: {
-    color: '#fff',
-  },
-  participantsBar: {
-    height: 20,
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    borderRadius: 10,
-    marginBottom: 15,
+  contestBanner: {
+    marginHorizontal: 16,
+    marginTop: 20,
+    marginBottom: 24,
+    borderRadius: 16,
     overflow: 'hidden',
+    height: 180, // Increased height
+    elevation: 8,
+    shadowColor: '#4338CA',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+  },
+  contestBannerContent: {
     position: 'relative',
+    height: '100%',
+    padding: 16,
+    borderRadius: 16,
+    overflow: 'hidden',
   },
-  participantsBarDark: {
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+  bannerTextContainer: {
+    flex: 1,
+    justifyContent: 'center',
   },
-  participantsFill: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    backgroundColor: 'rgba(255, 255, 255, 0.3)',
-    borderRadius: 10,
+  bannerTitle: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 8,
   },
-  participantsFillDark: {
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+  bannerDescription: {
+    fontSize: 15,
+    color: '#E0E0E0',
+    maxWidth: '85%',
+    lineHeight: 20,
+  },
+  bannerActionsContainer: {
+    flexDirection: 'row',
+    marginTop: 16,
   },
   joinButton: {
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    paddingHorizontal: 15,
-    paddingVertical: 8,
-    borderRadius: 20,
-  },
-  joinButtonDark: {
-    backgroundColor: 'rgba(255, 255, 255, 0.15)',
-  },
-  tierBadgeDark: {
-    backgroundColor: 'rgba(255, 255, 255, 0.15)',
-  },
-  tierTextDark: {
-    color: '#fff',
-  },
-  modalContent: {
-    width: '90%',
-    borderRadius: 20,
-    overflow: 'hidden',
-    backgroundColor: '#fff',
-    elevation: 5,
-    maxHeight: '80%',
-  },
-  modalContentDark: {
-    backgroundColor: '#222',
-  },
-  modalHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
-  },
-  modalHeaderDark: {
-    borderBottomColor: '#333',
-  },
-  bannerContainerDark: {
-    backgroundColor: '#1E2A38',
-  },
-  filterButtonDark: {
-    backgroundColor: '#333',
-  },
-  filterButtonActiveDark: {
-    backgroundColor: Colors.primary,
-  },
-  filterTextDark: {
-    color: '#ccc',
-  },
-  prizeDistributionInfoDark: {
-    backgroundColor: '#222',
-  },
-  infoBoxDark: {
-    backgroundColor: '#1A3B29',
-  },
-  modalFooterDark: {
-    borderTopColor: '#333',
-  },
-  createButton: {
-    marginRight: 16,
-  },
-  statusBadge: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    borderRadius: 12,
-    marginLeft: 8,
-  },
-  statusJoinable: {
-    backgroundColor: '#4CAF50',
-  },
-  statusOngoing: {
-    backgroundColor: '#FF9800',
-  },
-  statusUpcoming: {
-    backgroundColor: '#2196F3',
-  },
-  statusCompleted: {
-    backgroundColor: '#757575',
-  },
-  statusText: {
-    color: '#FFFFFF',
-    fontSize: 10,
-    fontWeight: 'bold',
-    marginLeft: 2,
-  },
-  cardImage: {
-    height: 120,
-    width: '100%',
-    borderTopLeftRadius: 12,
-    borderTopRightRadius: 12,
-    overflow: 'hidden',
-  },
-  cardImageStyle: {
-    borderTopLeftRadius: 12,
-    borderTopRightRadius: 12,
-  },
-  cardImageOverlay: {
-    height: '100%',
-    width: '100%',
-    backgroundColor: 'rgba(0,0,0,0.4)',
-    justifyContent: 'flex-end',
-    padding: 10,
-  },
-  tierContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    alignSelf: 'flex-start',
-    backgroundColor: 'rgba(0,0,0,0.6)',
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    borderRadius: 12,
-  },
-  tierText: {
-    color: '#FFFFFF',
-    fontSize: 12,
-    fontWeight: 'bold',
-    marginLeft: 4,
-  },
-  cardContent: {
-    padding: 12,
-  },
-  cardHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    marginBottom: 10,
-  },
-  cardTitleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    flex: 1,
-  },
-  cardTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    flex: 1,
-  },
-  cardCreator: {
-    fontSize: 12,
-    color: '#757575',
-  },
-  cardDetails: {
-    marginBottom: 12,
-  },
-  cardDetailsRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 6,
-  },
-  cardDetailsLabel: {
-    fontSize: 13,
-    color: '#757575',
-  },
-  cardDetailsValue: {
-    fontSize: 13,
-    fontWeight: 'bold',
-  },
-  cardFooter: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-  },
-  progressContainer: {
-    flex: 1,
+    borderRadius: 8,
     marginRight: 12,
-  },
-  progressBar: {
-    height: 6,
-    backgroundColor: '#E0E0E0',
-    borderRadius: 3,
     overflow: 'hidden',
-    marginBottom: 4,
+    elevation: 4,
+    shadowColor: '#22C55E',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
   },
-  progressFill: {
-    height: '100%',
-    backgroundColor: '#4CAF50',
-  },
-  progressNumbers: {
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-  },
-  progressText: {
-    fontSize: 12,
-    color: '#757575',
-  },
-  joinContestButton: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: Colors.primary,
+  joinButtonGradient: {
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 8,
   },
   joinButtonText: {
     color: '#FFFFFF',
-    fontSize: 12,
     fontWeight: 'bold',
+    fontSize: 15,
   },
-}); 
+  createContestButton: {
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.3)',
+  },
+  createContestText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 15,
+  },
+  decorativeElement1: {
+    position: 'absolute',
+    right: -20,
+    top: -20,
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: 'rgba(255,255,255,0.1)',
+  },
+  decorativeElement2: {
+    position: 'absolute',
+    right: 40,
+    bottom: -40,
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: 'rgba(255,255,255,0.08)',
+  },
+  decorativeElement3: {
+    position: 'absolute',
+    left: -30,
+    bottom: -30,
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    backgroundColor: 'rgba(255,255,255,0.05)',
+  },
+  trophyIconContainer: {
+    position: 'absolute',
+    right: 20,
+    bottom: 20,
+    opacity: 0.9,
+  },
+  quickPlayContainer: {
+    paddingHorizontal: 16,
+    marginBottom: 16,
+  },
+  quickPlayGradient: {
+    borderRadius: 10,
+    overflow: 'hidden',
+    elevation: 6,
+    shadowColor: '#FF6B00',
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+  },
+  quickPlayTopButton: {
+    paddingVertical: 16,
+    paddingHorizontal: 16,
+    borderRadius: 10,
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  flashIconContainer: {
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  quickPlayTopText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginLeft: 12,
+  },
+  rewardBadge: {
+    backgroundColor: 'rgba(255, 255, 255, 0.25)',
+    paddingVertical: 4,
+    paddingHorizontal: 10,
+    borderRadius: 20,
+    marginLeft: 'auto',
+  },
+  rewardText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 12,
+  },
+  sectionTitleContainer: {
+    marginHorizontal: 16,
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  sectionTitleGradient: {
+    paddingVertical: 4,
+    paddingHorizontal: 12,
+    borderRadius: 20,
+    alignSelf: 'flex-start',
+    marginBottom: 6,
+  },
+  sectionTitleText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  sectionSubtitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginLeft: 4,
+  },
+  megaPoolSection: {
+    paddingHorizontal: 16,
+    marginTop: 16,
+    marginBottom: 16,
+  },
+  megaPoolTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 12,
+  },
+  megaPoolSubtitle: {
+    fontSize: 14,
+    color: '#E0E0E0',
+    marginBottom: 12,
+  },
+  megaPoolCard: {
+    width: width * 0.88,
+    height: 210,
+    borderRadius: 18,
+    overflow: 'hidden',
+    marginRight: 12,
+    marginLeft: 0,
+    marginTop: 0,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.18,
+    shadowRadius: 6,
+    elevation: 4,
+  },
+  megaPoolImage: {
+    width: '100%',
+    height: '100%',
+  },
+  megaPoolGradient: {
+    flex: 1,
+    justifyContent: 'space-between',
+    paddingVertical: 12,
+    paddingHorizontal: 12,
+  },
+  megaPoolCardTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 6,
+    textShadowColor: 'rgba(0,0,0,0.18)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
+  },
+  megaPoolPrize: {
+    fontSize: 15,
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  megaPoolEntry: {
+    fontSize: 13,
+    color: 'rgba(255, 255, 255, 0.92)',
+    marginBottom: 2,
+  },
+  megaPoolPlayers: {
+    fontSize: 13,
+    color: 'rgba(255, 255, 255, 0.92)',
+    marginBottom: 8,
+  },
+  megaPoolJoinBtn: {
+    backgroundColor: 'rgba(255, 255, 255, 0.28)',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginTop: 4,
+  },
+  megaPoolJoinText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
+    letterSpacing: 0.2,
+  },
+  royalRedBtn: {
+    paddingVertical: 14,
+    paddingHorizontal: 18,
+    borderRadius: 8,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    elevation: 4,
+    shadowColor: '#B31217',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+  },
+  royalRedBtnText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 16,
+    letterSpacing: 0.5,
+  },
+  featuredContestCard: {
+    width: width * 0.75, // Medium width
+    height: 180, // Medium height
+    borderRadius: 16,
+    overflow: 'hidden',
+    marginRight: 12,
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.18,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  featuredContestTitle: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 6,
+    textShadowColor: 'rgba(0,0,0,0.18)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
+  },
+  featuredContestStatLabel: {
+    color: 'rgba(255, 255, 255, 0.8)',
+    fontSize: 10,
+    marginBottom: 2,
+  },
+  featuredContestStatValue: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 13,
+    textShadowColor: 'rgba(0, 0, 0, 0.5)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 1,
+  },
+});

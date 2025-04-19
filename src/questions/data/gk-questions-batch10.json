@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-091",
+      "question_text": "What is unique about how flamingos eat?",
+      "options": [
+        "They can only eat with their heads upside down",
+        "They eat with their beaks upside down",
+        "They swallow their food whole without chewing",
+        "They can only eat while standing on one leg"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Flamingos have a unique feeding method where they turn their heads upside down to filter feed. Their specialized beaks are used upside down, allowing them to filter small organisms like algae, shrimp, and other aquatic creatures from the water. They pump water through their bills, using their tongues to extract food particles.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-091",
+      "question_text": "फ्लेमिंगो के खाने के तरीके में क्या अनोखा है?",
+      "options": [
+        "वे केवल अपने सिर को उल्टा करके ही खा सकते हैं",
+        "वे अपनी चोंच को उल्टा करके खाते हैं",
+        "वे अपने भोजन को बिना चबाए पूरा निगल लेते हैं",
+        "वे केवल एक पैर पर खड़े होकर ही खा सकते हैं"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "फ्लेमिंगो में एक अनोखी फीडिंग विधि है जहां वे फिल्टर फीडिंग के लिए अपना सिर उल्टा कर लेते हैं। उनकी विशेष चोंचें उल्टी स्थिति में उपयोग की जाती हैं, जिससे वे पानी से शैवाल, झींगा और अन्य जलीय जीवों जैसे छोटे जीवों को छान सकते हैं। वे अपनी चोंच के माध्यम से पानी पंप करते हैं, खाद्य कणों को निकालने के लिए अपनी जीभ का उपयोग करते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-092",
+      "question_text": "What surprising ancient invention is still used in modern spacecraft?",
+      "options": [
+        "Sundials",
+        "Water clocks",
+        "The Antikythera mechanism",
+        "Astrolabes"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "Astrolabes, ancient astronomical instruments invented around 150 BCE, are still used in modern spacecraft navigation systems. While modern versions are digital rather than physical, the mathematical principles and celestial navigation concepts behind astrolabes remain fundamental to spacecraft orientation. These devices help determine position relative to stars and planets, a concept that remains crucial for space navigation when GPS isn't available.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-092",
+      "question_text": "कौन सा आश्चर्यजनक प्राचीन आविष्कार आधुनिक अंतरिक्ष यान में अभी भी उपयोग किया जाता है?",
+      "options": [
+        "सूर्यघड़ी",
+        "जल घड़ियाँ",
+        "एंटीकिथेरा यंत्र",
+        "अस्ट्रोलेब"
+      ],
+      "correct_answer_index": 3,
+      "explanation": "अस्ट्रोलेब, लगभग 150 ईसा पूर्व में आविष्कृत प्राचीन खगोलीय उपकरण, अभी भी आधुनिक अंतरिक्ष यान नेविगेशन प्रणालियों में उपयोग किए जाते हैं। हालांकि आधुनिक संस्करण भौतिक के बजाय डिजिटल हैं, अस्ट्रोलेब के पीछे गणितीय सिद्धांत और खगोलीय नेविगेशन अवधारणाएँ अंतरिक्ष यान अभिविन्यास के लिए मौलिक बनी हुई हैं। ये उपकरण तारों और ग्रहों के सापेक्ष स्थिति निर्धारित करने में मदद करते हैं, एक अवधारणा जो अंतरिक्ष नेविगेशन के लिए महत्वपूर्ण बनी हुई है जब GPS उपलब्ध नहीं होता है।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-093",
+      "question_text": "What happens to honey in space?",
+      "options": [
+        "It evaporates quickly",
+        "It forms perfect spheres",
+        "It becomes solid",
+        "It turns into crystalline structures"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "In the microgravity environment of space, honey forms perfect spheres when dispensed from a container. This happens because surface tension pulls the honey into the shape with the least surface area (a sphere), and without gravity's effects to deform it, the honey maintains this perfect spherical shape. This property makes honey particularly interesting for fluid dynamics studies in space.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-093",
+      "question_text": "अंतरिक्ष में शहद के साथ क्या होता है?",
+      "options": [
+        "यह जल्दी वाष्पीकृत हो जाता है",
+        "यह परिपूर्ण गोले बनाता है",
+        "यह ठोस हो जाता है",
+        "यह क्रिस्टलीय संरचनाओं में बदल जाता है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अंतरिक्ष के सूक्ष्म गुरुत्वाकर्षण वातावरण में, शहद एक कंटेनर से निकालने पर परिपूर्ण गोले बनाता है। ऐसा इसलिए होता है क्योंकि सतह तनाव शहद को सबसे कम सतह क्षेत्र (एक गोला) के आकार में खींचता है, और गुरुत्वाकर्षण के प्रभावों के बिना इसे विकृत करने के लिए, शहद इस परिपूर्ण गोलाकार आकार को बनाए रखता है। यह गुण शहद को अंतरिक्ष में तरल गतिशीलता अध्ययन के लिए विशेष रूप से दिलचस्प बनाता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-094",
+      "question_text": "Which everyday food was once so valuable it was used as currency?",
+      "options": [
+        "Chocolate",
+        "Salt",
+        "Pepper",
+        "Rice"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Salt was once among the world's most valuable commodities and was used as currency in various ancient civilizations. Roman soldiers were paid a salt allowance called 'salarium' (the origin of the word 'salary'). In Africa, salt bars were used as currency well into the 20th century. Salt's value came from its essential role in preserving food and its scarcity in certain regions.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-094",
+      "question_text": "कौन सा रोजमर्रा का खाद्य पदार्थ कभी इतना मूल्यवान था कि इसे मुद्रा के रूप में उपयोग किया जाता था?",
+      "options": [
+        "चॉकलेट",
+        "नमक",
+        "काली मिर्च",
+        "चावल"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नमक एक समय दुनिया की सबसे मूल्यवान वस्तुओं में से एक था और विभिन्न प्राचीन सभ्यताओं में मुद्रा के रूप में उपयोग किया जाता था। रोमन सैनिकों को 'सैलेरियम' नामक नमक भत्ता दिया जाता था (जिससे 'सैलरी' शब्द की उत्पत्ति हुई)। अफ्रीका में, 20वीं सदी तक नमक के बार मुद्रा के रूप में उपयोग किए जाते थे। नमक का मूल्य भोजन को संरक्षित करने में इसकी आवश्यक भूमिका और कुछ क्षेत्रों में इसकी कमी से आया था।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-095",
+      "question_text": "What is the only food that never spoils?",
+      "options": [
+        "Dried beans",
+        "White rice",
+        "Honey",
+        "Salt"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "Honey is the only food that never spoils if stored properly. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible. Honey's longevity is due to its unique chemical composition - it has very low moisture content and high acidity, creating an environment where bacteria cannot survive. It also contains natural hydrogen peroxide, further preventing microbial growth.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-095",
+      "question_text": "कौन सा एकमात्र खाद्य पदार्थ है जो कभी खराब नहीं होता?",
+      "options": [
+        "सूखे बीन्स",
+        "सफेद चावल",
+        "शहद",
+        "नमक"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "शहद एकमात्र ऐसा खाद्य पदार्थ है जो ठीक से संग्रहीत किए जाने पर कभी खराब नहीं होता। पुरातत्वविदों ने प्राचीन मिस्र के मकबरों में शहद के बर्तन पाए हैं जो 3,000 साल से अधिक पुराने हैं और अभी भी पूरी तरह से खाने योग्य हैं। शहद की लंबी आयु इसकी अनूठी रासायनिक संरचना के कारण है - इसमें बहुत कम नमी सामग्री और उच्च अम्लता होती है, जिससे एक ऐसा वातावरण बनता है जहां बैक्टीरिया जीवित नहीं रह सकते। इसमें प्राकृतिक हाइड्रोजन पेरोक्साइड भी होता है, जो सूक्ष्मजीवों के विकास को और अधिक रोकता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-096",
+      "question_text": "What happens to a goldfish when placed in a dark room for an extended period?",
+      "options": [
+        "It sleeps continuously",
+        "Its fins grow longer",
+        "It will eventually turn white",
+        "It becomes aggressive"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "When kept in complete darkness for an extended period, goldfish will gradually lose their color and turn white. This happens because the pigment in their scales requires light to be produced and maintained. This process, called chromatophore adaptation, is reversible - the fish will regain their color when exposed to light again. This phenomenon demonstrates how environmental factors directly influence physical characteristics in some organisms.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-096",
+      "question_text": "लंबे समय तक अंधेरे कमरे में रखने पर गोल्डफिश के साथ क्या होता है?",
+      "options": [
+        "यह लगातार सोता रहता है",
+        "इसके पंख लंबे हो जाते हैं",
+        "यह अंततः सफेद हो जाएगा",
+        "यह आक्रामक हो जाता है"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "लंबे समय तक पूर्ण अंधेरे में रखे जाने पर, गोल्डफिश धीरे-धीरे अपना रंग खो देगी और सफेद हो जाएगी। ऐसा इसलिए होता है क्योंकि उनके स्केल्स में पिगमेंट के उत्पादन और रखरखाव के लिए प्रकाश की आवश्यकता होती है। इस प्रक्रिया को क्रोमैटोफोर अनुकूलन कहा जाता है, और यह उलट योग्य है - मछली फिर से प्रकाश के संपर्क में आने पर अपना रंग पुनः प्राप्त कर लेगी। यह घटना दर्शाती है कि कैसे पर्यावरणीय कारक कुछ जीवों में शारीरिक विशेषताओं को सीधे प्रभावित करते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-097",
+      "question_text": "What unusual adaptation do male seahorses have?",
+      "options": [
+        "They can change color at will",
+        "They give birth to the young",
+        "They can breathe air for short periods",
+        "They hibernate during winter"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Male seahorses are unique in the animal kingdom because they get pregnant and give birth to their young. The female deposits her eggs into the male's specialized pouch, where he fertilizes them internally. The male then carries the developing embryos for 2-4 weeks (depending on species) before experiencing contractions and expelling fully-developed baby seahorses from his pouch in an extraordinary birthing process.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-097",
+      "question_text": "नर समुद्री घोड़ों में कौन सा असामान्य अनुकूलन होता है?",
+      "options": [
+        "वे इच्छानुसार रंग बदल सकते हैं",
+        "वे बच्चों को जन्म देते हैं",
+        "वे थोड़े समय के लिए हवा में सांस ले सकते हैं",
+        "वे सर्दियों के दौरान सुप्त अवस्था में रहते हैं"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "नर समुद्री घोड़े जीव जगत में अद्वितीय हैं क्योंकि वे गर्भवती होते हैं और अपने बच्चों को जन्म देते हैं। मादा अपने अंडे नर के विशेष थैली में जमा करती है, जहां वह उन्हें आंतरिक रूप से निषेचित करता है। नर फिर विकासशील भ्रूण को 2-4 सप्ताह तक (प्रजाति के आधार पर) वहन करता है, इसके बाद संकुचन का अनुभव करता है और एक असाधारण प्रसव प्रक्रिया में अपनी थैली से पूरी तरह से विकसित बेबी समुद्री घोड़ों को बाहर निकालता है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-098",
+      "question_text": "Which famous historical figure was struck by lightning twice and survived?",
+      "options": [
+        "Benjamin Franklin",
+        "Nikola Tesla",
+        "Charles Darwin",
+        "Theodore Roosevelt"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "Benjamin Franklin, one of America's founding fathers and a pioneer in electricity research, was struck by lightning twice during his lifetime and survived both incidents. This is particularly ironic given his famous kite experiment studying electricity and lightning. While conducting electrical experiments, he received several severe shocks, yet continued his research. His experiences contributed to his invention of the lightning rod.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-098",
+      "question_text": "किस प्रसिद्ध ऐतिहासिक व्यक्ति पर दो बार बिजली गिरी और वह बच गए?",
+      "options": [
+        "बेंजामिन फ्रैंकलिन",
+        "निकोला टेस्ला",
+        "चार्ल्स डार्विन",
+        "थियोडोर रूजवेल्ट"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "अमेरिका के संस्थापक पिताओं में से एक और बिजली अनुसंधान में अग्रणी बेंजामिन फ्रैंकलिन पर अपने जीवनकाल के दौरान दो बार बिजली गिरी और वे दोनों घटनाओं से बच गए। यह विशेष रूप से विडंबनापूर्ण है, उनके प्रसिद्ध पतंग प्रयोग को देखते हुए जिसमें वे बिजली और तड़ित का अध्ययन कर रहे थे। विद्युत प्रयोगों के दौरान, उन्हें कई गंभीर झटके लगे, फिर भी उन्होंने अपना शोध जारी रखा। उनके अनुभवों ने तड़ित चालक के उनके आविष्कार में योगदान दिया।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-099",
+      "question_text": "What everyday item was originally invented as a medical treatment?",
+      "options": [
+        "Bubble wrap",
+        "Coca-Cola",
+        "Play-Doh",
+        "Silly Putty"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Coca-Cola was originally invented in 1886 by pharmacist John Stith Pemberton as a medicinal syrup. It was marketed as a patent medicine that could cure many diseases, including morphine addiction, indigestion, nerve disorders, headaches, and impotence. The original formula contained coca leaves (which contain small amounts of cocaine) and kola nuts (a source of caffeine). The cocaine was removed from the formula in 1903.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-099",
+      "question_text": "कौन सी रोजमर्रा की वस्तु मूल रूप से चिकित्सा उपचार के रूप में आविष्कृत की गई थी?",
+      "options": [
+        "बबल रैप",
+        "कोका-कोला",
+        "प्ले-डो",
+        "सिली पट्टी"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "कोका-कोला का आविष्कार मूल रूप से 1886 में फार्मासिस्ट जॉन स्टिथ पेम्बरटन द्वारा एक औषधीय सिरप के रूप में किया गया था। इसे एक पेटेंट दवा के रूप में बाजार में उतारा गया था जो कई बीमारियों को ठीक कर सकती थी, जिसमें मॉर्फीन की लत, अपच, तंत्रिका विकार, सिरदर्द और नपुंसकता शामिल थी। मूल फॉर्मूला में कोका के पत्ते (जिनमें कोकेन की छोटी मात्रा होती है) और कोला नट्स (कैफीन का एक स्रोत) शामिल थे। 1903 में फॉर्मूला से कोकेन को हटा दिया गया था।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-100",
+      "question_text": "What is unique about the Yaghan word 'mamihlapinatapai'?",
+      "options": [
+        "It's the longest word in any language",
+        "It describes a feeling no other language has a word for",
+        "It's the only surviving word from an extinct language",
+        "It has remained unchanged for over 10,000 years"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Yaghan word 'mamihlapinatapai' is unique because it describes a complex feeling that no other language has a single word for. It describes 'a look shared by two people, each wishing that the other would initiate something that they both desire but which neither is willing to begin.' It's often cited as the most succinct and hardest-to-translate word in the world, coming from the Yaghan language of Tierra del Fuego in southern South America.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-100",
+      "question_text": "याघान शब्द 'मामिहलपिनतपाई' के बारे में क्या अनूठा है?",
+      "options": [
+        "यह किसी भी भाषा का सबसे लंबा शब्द है",
+        "यह एक ऐसी भावना का वर्णन करता है जिसके लिए किसी अन्य भाषा में कोई शब्द नहीं है",
+        "यह एक विलुप्त भाषा से बचा एकमात्र शब्द है",
+        "यह 10,000 वर्षों से अपरिवर्तित है"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "याघान शब्द 'मामिहलपिनतपाई' अनूठा है क्योंकि यह एक जटिल भावना का वर्णन करता है जिसके लिए किसी अन्य भाषा में एक शब्द नहीं है। यह 'दो लोगों द्वारा साझा की गई एक नज़र का वर्णन करता है, जिसमें प्रत्येक यह चाहता है कि दूसरा कुछ ऐसा शुरू करे जिसे वे दोनों चाहते हैं लेकिन जिसे शुरू करने के लिए कोई भी तैयार नहीं है।' इसे अक्सर दुनिया के सबसे संक्षिप्त और अनुवाद करने में सबसे कठिन शब्द के रूप में उद्धृत किया जाता है, जो दक्षिणी दक्षिण अमेरिका में टिएरा डेल फ्यूगो की याघान भाषा से आया है।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

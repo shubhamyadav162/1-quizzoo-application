@@ -1,0 +1,1477 @@
+[
+  {
+    "id": "GK5802",
+    "en": {
+      "question": "What country is famous for the Great Wall?",
+      "options": [
+        "Japan",
+        "India",
+        "Russia",
+        "China"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश महान दीवार के लिए प्रसिद्ध है?",
+      "options": [
+        "जापान",
+        "भारत",
+        "रूस",
+        "चीन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_landmarks_asia"
+  },
+  {
+    "id": "GK5804",
+    "en": {
+      "question": "What yellow fruit grows in bunches?",
+      "options": [
+        "Lemon",
+        "Apple",
+        "Orange",
+        "Banana"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पीला फल गुच्छों में उगता है?",
+      "options": [
+        "नींबू",
+        "सेब",
+        "संतरा",
+        "केला"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_fruits"
+  },
+  {
+    "id": "GK5805",
+    "en": {
+      "question": "What device do you use to talk to people far away?",
+      "options": [
+        "Television",
+        "Radio",
+        "Computer",
+        "Telephone/Phone"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप दूर के लोगों से बात करने के लिए किस उपकरण का उपयोग करते हैं?",
+      "options": [
+        "टेलीविजन",
+        "रेडियो",
+        "कंप्यूटर",
+        "टेलीफोन/फोन"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "technology_communication"
+  },
+  {
+    "id": "GK5808",
+    "en": {
+      "question": "What gas do humans breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Carbon Dioxide"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मनुष्य कौन सी गैस बाहर छोड़ते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हीलियम",
+        "कार्बन डाइऑक्साइड"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human_respiration"
+  },
+  {
+    "id": "GK5810",
+    "en": {
+      "question": "What type of energy is stored in batteries?",
+      "options": [
+        "Solar Energy",
+        "Mechanical Energy",
+        "Thermal Energy",
+        "Chemical Energy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बैटरियों में किस प्रकार की ऊर्जा संग्रहीत होती है?",
+      "options": [
+        "सौर ऊर्जा",
+        "यांत्रिक ऊर्जा",
+        "तापीय ऊर्जा",
+        "रासायनिक ऊर्जा"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_energy_forms"
+  },
+  {
+    "id": "GK5811",
+    "en": {
+      "question": "Which planet is famous for its prominent rings?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Saturn"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा ग्रह अपने प्रमुख वलयों के लिए प्रसिद्ध है?",
+      "options": [
+        "बृहस्पति",
+        "मंगल",
+        "शुक्र",
+        "शनि"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "science_space_planets"
+  },
+  {
+    "id": "GK5813",
+    "en": {
+      "question": "What is the main ingredient in bread?",
+      "options": [
+        "Sugar",
+        "Salt",
+        "Eggs",
+        "Flour"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ब्रेड में मुख्य घटक क्या है?",
+      "options": [
+        "चीनी",
+        "नमक",
+        "अंडे",
+        "आटा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_staples"
+  },
+  {
+    "id": "GK5815",
+    "en": {
+      "question": "What sport uses a racket and a shuttlecock?",
+      "options": [
+        "Tennis",
+        "Table Tennis",
+        "Squash",
+        "Badminton"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल में रैकेट और शटलकॉक का उपयोग किया जाता है?",
+      "options": [
+        "टेनिस",
+        "टेबल टेनिस",
+        "स्क्वैश",
+        "बैडमिंटन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "sports_equipment"
+  },
+  {
+    "id": "GK5817",
+    "en": {
+      "question": "What fictional wizard has a lightning bolt scar on his forehead?",
+      "options": [
+        "Gandalf",
+        "Merlin",
+        "Dumbledore",
+        "Harry Potter"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस काल्पनिक जादूगर के माथे पर बिजली के निशान का निशान है?",
+      "options": [
+        "गैंडाल्फ",
+        "मर्लिन",
+        "डंबलडोर",
+        "हैरी पॉटर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_fantasy"
+  },
+  {
+    "id": "GK5818",
+    "en": {
+      "question": "What precious stone is typically red?",
+      "options": [
+        "Emerald",
+        "Sapphire",
+        "Diamond",
+        "Ruby"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा कीमती पत्थर आमतौर पर लाल होता है?",
+      "options": [
+        "पन्ना",
+        "नीलम",
+        "हीरा",
+        "माणिक"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "geology_gemstones"
+  },
+  {
+    "id": "GK5819",
+    "en": {
+      "question": "What is the largest desert in the world (considering both hot and cold deserts)?",
+      "options": [
+        "Sahara Desert",
+        "Arabian Desert",
+        "Gobi Desert",
+        "Antarctic Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दुनिया का सबसे बड़ा रेगिस्तान कौन सा है (गर्म और ठंडे दोनों रेगिस्तानों को ध्यान में रखते हुए)?",
+      "options": [
+        "सहारा रेगिस्तान",
+        "अरब रेगिस्तान",
+        "गोबी रेगिस्तान",
+        "अंटार्कटिक रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_deserts"
+  },
+  {
+    "id": "GK5820",
+    "en": {
+      "question": "What sense helps us see things?",
+      "options": [
+        "Hearing",
+        "Taste",
+        "Smell",
+        "Sight"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें चीजें देखने में मदद करती है?",
+      "options": [
+        "श्रवण",
+        "स्वाद",
+        "गंध",
+        "दृष्टि"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5822",
+    "en": {
+      "question": "What is the opposite of 'light' (as in brightness)?",
+      "options": [
+        "Bright",
+        "Shining",
+        "Illuminated",
+        "Dark"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'प्रकाश' (चमक के रूप में) का विपरीत क्या है?",
+      "options": [
+        "उज्ज्वल",
+        "चमकता हुआ",
+        "प्रकाशित",
+        "अंधेरा"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_opposites"
+  },
+  {
+    "id": "GK5823",
+    "en": {
+      "question": "What do you call the meal eaten in the middle of the day?",
+      "options": [
+        "Breakfast",
+        "Dinner",
+        "Snack",
+        "Lunch"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दिन के बीच में खाए जाने वाले भोजन को आप क्या कहते हैं?",
+      "options": [
+        "नाश्ता",
+        "रात का खाना",
+        "स्नैक",
+        "दोपहर का भोजन"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_meals"
+  },
+  {
+    "id": "GK5826",
+    "en": {
+      "question": "What kind of natural disaster involves shaking ground?",
+      "options": [
+        "Flood",
+        "Tornado",
+        "Hurricane",
+        "Earthquake"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रकार की प्राकृतिक आपदा में जमीन का हिलना शामिल है?",
+      "options": [
+        "बाढ़",
+        "बवंडर",
+        "तूफान",
+        "भूकंप"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "geology_natural_disasters"
+  },
+  {
+    "id": "GK5827",
+    "en": {
+      "question": "What is the name of the pirate captain in Peter Pan?",
+      "options": [
+        "Long John Silver",
+        "Blackbeard",
+        "Captain Jack Sparrow",
+        "Captain Hook"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पीटर पैन में समुद्री डाकू कप्तान का नाम क्या है?",
+      "options": [
+        "लॉन्ग जॉन सिल्वर",
+        "ब्लैकबीर्ड",
+        "कैप्टन जैक स्पैरो",
+        "कैप्टन हुक"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK5828",
+    "en": {
+      "question": "What liquid covers most of the Earth's surface?",
+      "options": [
+        "Oil",
+        "Lava",
+        "Soda",
+        "Water"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा तरल पृथ्वी की अधिकांश सतह को ढकता है?",
+      "options": [
+        "तेल",
+        "लावा",
+        "सोडा",
+        "पानी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "world_geography_earth_surface"
+  },
+  {
+    "id": "GK5832",
+    "en": {
+      "question": "What yellow and black striped insect makes honey?",
+      "options": [
+        "Fly",
+        "Wasp",
+        "Ant",
+        "Bee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पीला और काला धारीदार कीट शहद बनाता है?",
+      "options": [
+        "मक्खी",
+        "ततैया",
+        "चींटी",
+        "मधुमक्खी"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_insects_common"
+  },
+  {
+    "id": "GK5833",
+    "en": {
+      "question": "What is the longest river in South America?",
+      "options": [
+        "Paraná River",
+        "Orinoco River",
+        "Magdalena River",
+        "Amazon River"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दक्षिण अमेरिका की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "पराना नदी",
+        "ओरिनोको नदी",
+        "मैग्डेलेना नदी",
+        "अमेज़ॅन नदी"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "world_geography_rivers_sa"
+  },
+  {
+    "id": "GK5834",
+    "en": {
+      "question": "What is the currency used in India?",
+      "options": [
+        "Dollar",
+        "Euro",
+        "Yen",
+        "Rupee"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारत में कौन सी मुद्रा का उपयोग किया जाता है?",
+      "options": [
+        "डॉलर",
+        "यूरो",
+        "येन",
+        "रुपया"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "economics_currencies_asia"
+  },
+  {
+    "id": "GK5835",
+    "en": {
+      "question": "What is the name of the yellow Minions' evil master in the 'Despicable Me' franchise?",
+      "options": [
+        "Dr. Nefario",
+        "Vector",
+        "El Macho",
+        "Gru"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'डेस्पिकेबल मी' फ्रैंचाइज़ी में पीले मिनियंस के दुष्ट मास्टर का नाम क्या है?",
+      "options": [
+        "डॉ. नेफारियो",
+        "वेक्टर",
+        "एल माचो",
+        "ग्रू"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "pop_culture_animation_characters"
+  },
+  {
+    "id": "GK5836",
+    "en": {
+      "question": "What is the process by which plants make their own food using sunlight?",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Germination",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वह प्रक्रिया क्या है जिसके द्वारा पौधे सूर्य के प्रकाश का उपयोग करके अपना भोजन बनाते हैं?",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अंकुरण",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_plants_processes"
+  },
+  {
+    "id": "GK5837",
+    "en": {
+      "question": "What color is typically used for stop signs?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Blue",
+        "Red"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "स्टॉप संकेतों के लिए आमतौर पर किस रंग का उपयोग किया जाता है?",
+      "options": [
+        "हरा",
+        "पीला",
+        "नीला",
+        "लाल"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "civics_traffic_signs"
+  },
+  {
+    "id": "GK5840",
+    "en": {
+      "question": "What is the name of the Roman god of the sea?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Apollo",
+        "Neptune"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "समुद्र के रोमन देवता का नाम क्या है?",
+      "options": [
+        "ज्यूपिटर",
+        "मार्स",
+        "अपोलो",
+        "नेपच्यून"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_roman_gods"
+  },
+  {
+    "id": "GK5843",
+    "en": {
+      "question": "What frozen dessert is often served in a cone?",
+      "options": [
+        "Cake",
+        "Pie",
+        "Yogurt",
+        "Ice Cream"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जमा हुआ डेज़र्ट अक्सर कोन में परोसा जाता है?",
+      "options": [
+        "केक",
+        "पाई",
+        "दही",
+        "आइसक्रीम"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "food_desserts"
+  },
+  {
+    "id": "GK5844",
+    "en": {
+      "question": "What farm animal says 'moo'?",
+      "options": [
+        "Pig",
+        "Sheep",
+        "Chicken",
+        "Cow"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा खेत का जानवर 'मू' कहता है?",
+      "options": [
+        "सुअर",
+        "भेड़",
+        "मुर्गी",
+        "गाय"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_animals_sounds_farm"
+  },
+  {
+    "id": "GK5846",
+    "en": {
+      "question": "Which ocean is the largest by area?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्षेत्रफल के हिसाब से सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_oceans"
+  },
+  {
+    "id": "GK5847",
+    "en": {
+      "question": "What is the name of the rabbit who is friends with Winnie-the-Pooh?",
+      "options": [
+        "Tigger",
+        "Piglet",
+        "Eeyore",
+        "Rabbit"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विनी-द-पूह के दोस्त खरगोश का नाम क्या है?",
+      "options": [
+        "टाइगर",
+        "पिगलेट",
+        "ईयोर",
+        "रैबिट"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_childrens"
+  },
+  {
+    "id": "GK5848",
+    "en": {
+      "question": "What is the main gas that makes up Earth's atmosphere (about 78%)?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल का मुख्य गैस कौन सा है (लगभग 78%)?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "आर्गन",
+        "नाइट्रोजन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_earth_atmosphere"
+  },
+  {
+    "id": "GK5850",
+    "en": {
+      "question": "Which sport involves hitting a small white ball into a hole?",
+      "options": [
+        "Basketball",
+        "Tennis",
+        "Baseball",
+        "Golf"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल में एक छोटी सफेद गेंद को छेद में मारना शामिल है?",
+      "options": [
+        "बास्केटबॉल",
+        "टेनिस",
+        "बेसबॉल",
+        "गोल्फ"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_basics"
+  },
+  {
+    "id": "GK5851",
+    "en": {
+      "question": "What is the hardest natural substance known on Earth?",
+      "options": [
+        "Quartz",
+        "Topaz",
+        "Corundum",
+        "Diamond"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी पर ज्ञात सबसे कठोर प्राकृतिक पदार्थ कौन सा है?",
+      "options": [
+        "क्वार्ट्ज",
+        "पुखराज",
+        "कोरंडम",
+        "हीरा"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "geology_minerals_properties"
+  },
+  {
+    "id": "GK5853",
+    "en": {
+      "question": "What is the name of the network of tubes that carry blood throughout the body?",
+      "options": [
+        "Nerves",
+        "Bones",
+        "Muscles",
+        "Blood Vessels (Arteries/Veins)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पूरे शरीर में रक्त ले जाने वाली नलियों के नेटवर्क का नाम क्या है?",
+      "options": [
+        "तंत्रिकाएँ",
+        "हड्डियाँ",
+        "मांसपेशियाँ",
+        "रक्त वाहिकाएँ (धमनियां/शिराएँ)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_human_circulatory"
+  },
+  {
+    "id": "GK5854",
+    "en": {
+      "question": "What fictional character lives in a pineapple under the sea?",
+      "options": [
+        "Patrick Star",
+        "Squidward Tentacles",
+        "Mr. Krabs",
+        "SpongeBob SquarePants"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा काल्पनिक चरित्र समुद्र के नीचे एक अनानास में रहता है?",
+      "options": [
+        "पैट्रिक स्टार",
+        "स्क्वीडवर्ड टेंटेकल्स",
+        "मिस्टर क्रैब्स",
+        "स्पंजबॉब स्क्वायरपैंट्स"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_cartoons_nick"
+  },
+  {
+    "id": "GK5857",
+    "en": {
+      "question": "What is the name of the fairy who helps Peter Pan?",
+      "options": [
+        "Blue Fairy",
+        "Fairy Godmother",
+        "Maleficent",
+        "Tinker Bell"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पीटर पैन की मदद करने वाली परी का नाम क्या है?",
+      "options": [
+        "ब्लू फेयरी",
+        "फेयरी गॉडमदर",
+        "मेलेफिकेंट",
+        "टिंकर बेल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_literature_fairies"
+  },
+  {
+    "id": "GK5858",
+    "en": {
+      "question": "What color do you get when you mix blue and yellow?",
+      "options": [
+        "Purple",
+        "Orange",
+        "Brown",
+        "Green"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नीले और पीले रंग को मिलाने पर आपको कौन सा रंग मिलता है?",
+      "options": [
+        "बैंगनी",
+        "नारंगी",
+        "भूरा",
+        "हरा"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "art_basics_color_mixing"
+  },
+  {
+    "id": "GK5859",
+    "en": {
+      "question": "What is the term for a baby bird?",
+      "options": [
+        "Pup",
+        "Kitten",
+        "Foal",
+        "Chick/Hatchling"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पक्षी के बच्चे के लिए क्या शब्द है?",
+      "options": [
+        "पिल्ला",
+        "बिल्ली का बच्चा",
+        "फोल",
+        "चूजा/हैचलिंग"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_animals_young_birds"
+  },
+  {
+    "id": "GK5862",
+    "en": {
+      "question": "What bird is often a symbol of peace?",
+      "options": [
+        "Eagle",
+        "Crow",
+        "Hawk",
+        "Dove"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पक्षी अक्सर शांति का प्रतीक होता है?",
+      "options": [
+        "चील",
+        "कौआ",
+        "बाज",
+        "कबूतर"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "culture_symbols"
+  },
+  {
+    "id": "GK5863",
+    "en": {
+      "question": "What type of food is pizza?",
+      "options": [
+        "Dessert",
+        "Drink",
+        "Soup",
+        "Main Course/Fast Food"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पिज्जा किस प्रकार का भोजन है?",
+      "options": [
+        "मिठाई",
+        "पेय",
+        "सूप",
+        "मुख्य भोजन/फास्ट फूड"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_types"
+  },
+  {
+    "id": "GK5867",
+    "en": {
+      "question": "What is the capital of the United States of America?",
+      "options": [
+        "New York City",
+        "Los Angeles",
+        "Chicago",
+        "Washington, D.C."
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका की राजधानी क्या है?",
+      "options": [
+        "न्यूयॉर्क शहर",
+        "लॉस एंजिल्स",
+        "शिकागो",
+        "वाशिंगटन, डी.सी."
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography_capitals_na"
+  },
+  {
+    "id": "GK5868",
+    "en": {
+      "question": "Who is the famous mouse character created by Walt Disney?",
+      "options": [
+        "Jerry",
+        "Speedy Gonzales",
+        "Mighty Mouse",
+        "Mickey Mouse"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वॉल्ट डिज़्नी द्वारा बनाया गया प्रसिद्ध माउस चरित्र कौन है?",
+      "options": [
+        "जेरी",
+        "स्पीडी गोंजालेस",
+        "माइटी माउस",
+        "मिकी माउस"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5870",
+    "en": {
+      "question": "What is the main component of glass?",
+      "options": [
+        "Plastic",
+        "Metal",
+        "Wood",
+        "Sand (Silica)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कांच का मुख्य घटक क्या है?",
+      "options": [
+        "प्लास्टिक",
+        "धातु",
+        "लकड़ी",
+        "रेत (सिलिका)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry_materials"
+  },
+  {
+    "id": "GK5871",
+    "en": {
+      "question": "What is the opposite of 'north'?",
+      "options": [
+        "East",
+        "West",
+        "Up",
+        "South"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'उत्तर' का विपरीत क्या है?",
+      "options": [
+        "पूर्व",
+        "पश्चिम",
+        "ऊपर",
+        "दक्षिण"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_directions"
+  },
+  {
+    "id": "GK5872",
+    "en": {
+      "question": "What sport involves kicking a ball into a goal guarded by a goalkeeper?",
+      "options": [
+        "Basketball",
+        "Baseball",
+        "American Football",
+        "Soccer (Football)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस खेल में गोलकीपर द्वारा रक्षित गोल में गेंद को मारना शामिल है?",
+      "options": [
+        "बास्केटबॉल",
+        "बेसबॉल",
+        "अमेरिकी फुटबॉल",
+        "सॉकर (फुटबॉल)"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "sports_basics"
+  },
+  {
+    "id": "GK5873",
+    "en": {
+      "question": "What red fruit is often used to make ketchup?",
+      "options": [
+        "Apple",
+        "Strawberry",
+        "Cherry",
+        "Tomato"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "केचप बनाने के लिए अक्सर किस लाल फल का उपयोग किया जाता है?",
+      "options": [
+        "सेब",
+        "स्ट्रॉबेरी",
+        "चेरी",
+        "टमाटर"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "food_vegetables_fruits"
+  },
+  {
+    "id": "GK5874",
+    "en": {
+      "question": "What is the name of the wizard in 'The Lord of the Rings' known for his grey, later white, robes?",
+      "options": [
+        "Saruman",
+        "Radagast",
+        "Sauron",
+        "Gandalf"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लॉर्ड ऑफ द रिंग्स' में उस जादूगर का नाम क्या है जो अपने ग्रे, बाद में सफेद, वस्त्रों के लिए जाना जाता है?",
+      "options": [
+        "सारुमान",
+        "राडागास्ट",
+        "सौरॉन",
+        "गैंडाल्फ"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "pop_culture_literature_fantasy"
+  },
+  {
+    "id": "GK5875",
+    "en": {
+      "question": "What sense helps us taste food?",
+      "options": [
+        "Sight",
+        "Hearing",
+        "Smell",
+        "Taste"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें भोजन का स्वाद लेने में मदद करती है?",
+      "options": [
+        "दृष्टि",
+        "श्रवण",
+        "गंध",
+        "स्वाद"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human_senses"
+  },
+  {
+    "id": "GK5878",
+    "en": {
+      "question": "What large body of water surrounds the continent of Antarctica?",
+      "options": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Southern Ocean (or Antarctic Ocean)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंटार्कटिका महाद्वीप को कौन सा बड़ा जल निकाय घेरे हुए है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "प्रशांत महासागर",
+        "हिंद महासागर",
+        "दक्षिणी महासागर (या अंटार्कटिक महासागर)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography_oceans"
+  },
+  {
+    "id": "GK5879",
+    "en": {
+      "question": "What is the name of the Greek god of thunder?",
+      "options": [
+        "Poseidon",
+        "Hades",
+        "Apollo",
+        "Zeus"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गरज के यूनानी देवता का नाम क्या है?",
+      "options": [
+        "पोसीडॉन",
+        "हेड्स",
+        "अपोलो",
+        "ज़ीउस"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "mythology_greek_gods"
+  },
+  {
+    "id": "GK5883",
+    "en": {
+      "question": "What is the name of the Disney princess who talks to animals and lives in the forest?",
+      "options": [
+        "Ariel",
+        "Belle",
+        "Cinderella",
+        "Snow White"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस डिज़्नी राजकुमारी का नाम क्या है जो जानवरों से बात करती है और जंगल में रहती है?",
+      "options": [
+        "एरियल",
+        "बेल",
+        "सिंड्रेला",
+        "स्नो व्हाइट"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_animation_disney"
+  },
+  {
+    "id": "GK5885",
+    "en": {
+      "question": "What is the process of ice turning into water called?",
+      "options": [
+        "Freezing",
+        "Evaporation",
+        "Condensation",
+        "Melting"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बर्फ के पानी में बदलने की प्रक्रिया को क्या कहते हैं?",
+      "options": [
+        "जमना",
+        "वाष्पीकरण",
+        "संघनन",
+        "पिघलना"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "chemistry_states_of_matter"
+  },
+  {
+    "id": "GK5886",
+    "en": {
+      "question": "What punctuation mark is used at the end of a question?",
+      "options": [
+        "Period (.)",
+        "Comma (,)",
+        "Exclamation Mark (!)",
+        "Question Mark (?)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "प्रश्न के अंत में किस विराम चिह्न का उपयोग किया जाता है?",
+      "options": [
+        "पूर्ण विराम (.)",
+        "अल्पविराम (,)",
+        "विस्मयादिबोधक चिह्न (!)",
+        "प्रश्न चिह्न (?)"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "language_basics_punctuation"
+  },
+  {
+    "id": "GK5888",
+    "en": {
+      "question": "Who wrote the 'Harry Potter' series?",
+      "options": [
+        "J.R.R. Tolkien",
+        "C.S. Lewis",
+        "George R.R. Martin",
+        "J.K. Rowling"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'हैरी पॉटर' श्रृंखला किसने लिखी?",
+      "options": [
+        "जे.आर.आर. टोल्किन",
+        "सी.एस. लुईस",
+        "जॉर्ज आर.आर. मार्टिन",
+        "जे.के. राउलिंग"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature_authors_modern"
+  },
+  {
+    "id": "GK5890",
+    "en": {
+      "question": "What gas makes balloons float?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Helium"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी गैस गुब्बारों को तैरने में मदद करती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हीलियम"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry_gases_properties"
+  },
+  {
+    "id": "GK5891",
+    "en": {
+      "question": "What is the opposite of 'loud'?",
+      "options": [
+        "Noisy",
+        "Booming",
+        "Roaring",
+        "Quiet/Soft"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'जोर' का विपरीत क्या है?",
+      "options": [
+        "शोरगुल वाला",
+        "गूंजने वाला",
+        "दहाड़ने वाला",
+        "शांत/नरम"
+      ],
+      "answer": 3
+    },
+    "level": 1,
+    "category": "language_basics_sound"
+  },
+  {
+    "id": "GK5892",
+    "en": {
+      "question": "What is the main ingredient in guacamole?",
+      "options": [
+        "Tomato",
+        "Onion",
+        "Pepper",
+        "Avocado"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्वाकामोले में मुख्य घटक क्या है?",
+      "options": [
+        "टमाटर",
+        "प्याज",
+        "मिर्च",
+        "एवोकैडो"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "food_dishes_mexican"
+  },
+  {
+    "id": "GK5895",
+    "en": {
+      "question": "What Marvel superhero wears a suit of armor and flies?",
+      "options": [
+        "Captain America",
+        "Hulk",
+        "Thor",
+        "Iron Man"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा मार्वल सुपरहीरो कवच का सूट पहनता है और उड़ता है?",
+      "options": [
+        "कैप्टन अमेरिका",
+        "हल्क",
+        "थॉर",
+        "आयरन मैन"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "pop_culture_comics_marvel"
+  },
+  {
+    "id": "GK5896",
+    "en": {
+      "question": "What part of your body beats to pump blood?",
+      "options": [
+        "Brain",
+        "Lungs",
+        "Stomach",
+        "Heart"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आपके शरीर का कौन सा हिस्सा रक्त पंप करने के लिए धड़कता है?",
+      "options": [
+        "मस्तिष्क",
+        "फेफड़े",
+        "पेट",
+        "हृदय"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human_circulatory"
+  },
+  {
+    "id": "GK5899",
+    "en": {
+      "question": "What is the name of the wooden boy whose nose grows when he lies?",
+      "options": [
+        "Peter Pan",
+        "Aladdin",
+        "Geppetto",
+        "Pinocchio"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उस लकड़ी के लड़के का नाम क्या है जिसकी नाक झूठ बोलने पर बढ़ती है?",
+      "options": [
+        "पीटर पैन",
+        "अलादीन",
+        "गेपेटो",
+        "पिनोच्चियो"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "pop_culture_literature_characters"
+  },
+  {
+    "id": "GK5900",
+    "en": {
+      "question": "What country is home to the Eiffel Tower?",
+      "options": [
+        "Italy",
+        "Germany",
+        "Spain",
+        "France"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आइफिल टॉवर किस देश में है?",
+      "options": [
+        "इटली",
+        "जर्मनी",
+        "स्पेन",
+        "फ्रांस"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_landmarks_europe"
+  }
+]

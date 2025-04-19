@@ -1,0 +1,327 @@
+[
+  {
+    "id": "GK221",
+    "en": {
+      "question": "Who wrote the book 'Gulliver's Travels'?",
+      "options": [
+        "Charles Dickens",
+        "Jonathan Swift",
+        "William Shakespeare",
+        "Mark Twain"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'गुलिवर्स ट्रैवल्स' पुस्तक किसने लिखी थी?",
+      "options": [
+        "चार्ल्स डिकेंस",
+        "जोनाथन स्विफ्ट",
+        "विलियम शेक्सपियर",
+        "मार्क ट्वेन"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK224",
+    "en": {
+      "question": "Which is the national aquatic animal of India?",
+      "options": [
+        "Saltwater Crocodile",
+        "River Dolphin",
+        "Blue Whale",
+        "Gharial"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय जलीय जानवर कौन सा है?",
+      "options": [
+        "खारे पानी का मगरमच्छ",
+        "नदी डॉल्फिन",
+        "नीली व्हेल",
+        "घड़ियाल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK225",
+    "en": {
+      "question": "Which planet rotates on its axis from east to west?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Venus",
+        "Jupiter"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा ग्रह अपनी धुरी पर पूर्व से पश्चिम की ओर घूमता है?",
+      "options": [
+        "पृथ्वी",
+        "मंगल",
+        "शुक्र",
+        "बृहस्पति"
+      ],
+      "answer": 2
+    },
+    "level": 9,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK227",
+    "en": {
+      "question": "Who discovered the law of electromagnetic induction?",
+      "options": [
+        "Michael Faraday",
+        "James Clerk Maxwell",
+        "Andre-Marie Ampere",
+        "Heinrich Hertz"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "विद्युत चुम्बकीय प्रेरण के नियम की खोज किसने की थी?",
+      "options": [
+        "माइकल फैराडे",
+        "जेम्स क्लर्क मैक्सवेल",
+        "आंद्रे-मैरी एम्पियर",
+        "हेनरिक हर्ट्ज़"
+      ],
+      "answer": 0
+    },
+    "level": 10,
+    "category": "physics"
+  },
+  {
+    "id": "GK228",
+    "en": {
+      "question": "Which is the largest tiger reserve in India?",
+      "options": [
+        "Jim Corbett National Park",
+        "Sundarbans Tiger Reserve",
+        "Nagarhole Tiger Reserve",
+        "Bandipur Tiger Reserve"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत का सबसे बड़ा बाघ संरक्षित क्षेत्र कौन सा है?",
+      "options": [
+        "जिम कॉर्बेट नेशनल पार्क",
+        "सुंदरबन टाइगर रिज़र्व",
+        "नागरहोल टाइगर रिज़र्व",
+        "बांदीपुर टाइगर रिज़र्व"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK229",
+    "en": {
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Bill Gates",
+        "Tim Berners-Lee",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "वर्ल्ड वाइड वेब का आविष्कार किसने किया था?",
+      "options": [
+        "बिल गेट्स",
+        "टिम बर्नर्स-ली",
+        "स्टीव जॉब्स",
+        "मार्क जुकरबर्ग"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "technology"
+  },
+  {
+    "id": "GK230",
+    "en": {
+      "question": "Which is the most abundant gas in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल में सबसे अधिक मात्रा में कौन सी गैस पाई जाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "आर्गन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK234",
+    "en": {
+      "question": "Which mountain range is often called the 'Roof of the World'?",
+      "options": [
+        "The Alps",
+        "The Andes",
+        "The Himalayas",
+        "The Rockies"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस पर्वत श्रृंखला को अक्सर 'विश्व की छत' कहा जाता है?",
+      "options": [
+        "द आल्प्स",
+        "द एंडीज",
+        "हिमालय",
+        "द रॉकीज"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK236",
+    "en": {
+      "question": "Which day is celebrated as World Environment Day?",
+      "options": [
+        "5th June",
+        "5th July",
+        "5th August",
+        "5th September"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "विश्व पर्यावरण दिवस किस दिन मनाया जाता है?",
+      "options": [
+        "5 जून",
+        "5 जुलाई",
+        "5 अगस्त",
+        "5 सितंबर"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "environment"
+  },
+  {
+    "id": "GK237",
+    "en": {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Diamond",
+        "Platinum",
+        "Iron"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी का सबसे कठोर प्राकृतिक पदार्थ क्या है?",
+      "options": [
+        "सोना",
+        "हीरा",
+        "प्लैटिनम",
+        "लोहा"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "geology"
+  },
+  {
+    "id": "GK238",
+    "en": {
+      "question": "Who is known as the 'Father of the Green Revolution in India'?",
+      "options": [
+        "M.S. Swaminathan",
+        "Verghese Kurien",
+        "Norman Borlaug",
+        "A.P.J. Abdul Kalam"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत में हरित क्रांति के जनक के रूप में किसे जाना जाता है?",
+      "options": [
+        "एम.एस. स्वामीनाथन",
+        "वर्गीज कुरियन",
+        "नॉर्मन बोरलॉग",
+        "ए.पी.जे. अब्दुल कलाम"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_agriculture"
+  },
+  {
+    "id": "GK239",
+    "en": {
+      "question": "Which organ of the human body produces insulin?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Spleen"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर का कौन सा अंग इंसुलिन का उत्पादन करता है?",
+      "options": [
+        "यकृत",
+        "अग्न्याशय",
+        "गुर्दा",
+        "प्लीहा"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "biology"
+  },
+  {
+    "id": "GK240",
+    "en": {
+      "question": "Which gas is known as 'laughing gas'?",
+      "options": [
+        "Nitrous Oxide",
+        "Carbon Dioxide",
+        "Sulfur Dioxide",
+        "Chlorine"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किस गैस को 'हंसी गैस' के नाम से जाना जाता है?",
+      "options": [
+        "नाइट्रस ऑक्साइड",
+        "कार्बन डाइऑक्साइड",
+        "सल्फर डाइऑक्साइड",
+        "क्लोरीन"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "chemistry"
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": "gk_geo_001",
+    "en": {
+      "question": "Which is the largest ocean in the world?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "प्रशांत महासागर",
+        "आर्कटिक महासागर"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_002",
+    "en": {
+      "question": "What is the capital of India?",
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Kolkata",
+        "Chennai"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत की राजधानी क्या है?",
+      "options": [
+        "मुंबई",
+        "नई दिल्ली",
+        "कोलकाता",
+        "चेन्नई"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_003",
+    "en": {
+      "question": "Which is the longest river in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "अमेज़न",
+        "नील",
+        "यांग्त्ज़ी",
+        "मिसिसिपी"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_004",
+    "en": {
+      "question": "Which is the largest continent by area?",
+      "options": [
+        "North America",
+        "South America",
+        "Africa",
+        "Asia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्षेत्रफल के अनुसार सबसे बड़ा महाद्वीप कौन सा है?",
+      "options": [
+        "उत्तरी अमेरिका",
+        "दक्षिण अमेरिका",
+        "अफ्रीका",
+        "एशिया"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_005",
+    "en": {
+      "question": "What is the largest desert in the world?",
+      "options": [
+        "Gobi Desert",
+        "Sahara Desert",
+        "Thar Desert",
+        "Antarctic Desert"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा रेगिस्तान कौन सा है?",
+      "options": [
+        "गोबी रेगिस्तान",
+        "सहारा रेगिस्तान",
+        "थार रेगिस्तान",
+        "अंटार्कटिक रेगिस्तान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_006",
+    "en": {
+      "question": "Which of these is NOT a state in India?",
+      "options": [
+        "Bihar",
+        "Kashmir",
+        "Assam",
+        "Telangana"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "इनमें से कौन भारत का राज्य नहीं है?",
+      "options": [
+        "बिहार",
+        "कश्मीर",
+        "असम",
+        "तेलंगाना"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_007",
+    "en": {
+      "question": "Which mountain range separates Europe from Asia?",
+      "options": [
+        "Alps",
+        "Andes",
+        "Himalayas",
+        "Ural Mountains"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा पर्वत श्रृंखला यूरोप को एशिया से अलग करता है?",
+      "options": [
+        "आल्प्स",
+        "एंडीज",
+        "हिमालय",
+        "यूराल पर्वत"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_008",
+    "en": {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Saturn"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस ग्रह को 'लाल ग्रह' के रूप में जाना जाता है?",
+      "options": [
+        "बृहस्पति",
+        "मंगल",
+        "शुक्र",
+        "शनि"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_009",
+    "en": {
+      "question": "Which of these countries is NOT in Africa?",
+      "options": [
+        "Kenya",
+        "Nigeria",
+        "Thailand",
+        "Egypt"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन सा देश अफ्रीका में नहीं है?",
+      "options": [
+        "केन्या",
+        "नाइजीरिया",
+        "थाईलैंड",
+        "मिस्र"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_011",
+    "en": {
+      "question": "Which is the largest island in the world?",
+      "options": [
+        "Madagascar",
+        "Greenland",
+        "New Guinea",
+        "Borneo"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा द्वीप कौन सा है?",
+      "options": [
+        "मेडागास्कर",
+        "ग्रीनलैंड",
+        "न्यू गिनी",
+        "बोर्नियो"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_012",
+    "en": {
+      "question": "Which river flows through the Grand Canyon?",
+      "options": [
+        "Mississippi River",
+        "Missouri River",
+        "Colorado River",
+        "Yukon River"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ग्रैंड कैनियन से होकर कौन सी नदी बहती है?",
+      "options": [
+        "मिसिसिपी नदी",
+        "मिसौरी नदी",
+        "कोलोराडो नदी",
+        "युकोन नदी"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_013",
+    "en": {
+      "question": "Which of these countries is an island nation?",
+      "options": [
+        "Thailand",
+        "Vietnam",
+        "Indonesia",
+        "Malaysia"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन सा देश एक द्वीप राष्ट्र है?",
+      "options": [
+        "थाईलैंड",
+        "वियतनाम",
+        "इंडोनेशिया",
+        "मलेशिया"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_014",
+    "en": {
+      "question": "The Great Barrier Reef is located in which country?",
+      "options": [
+        "Brazil",
+        "Australia",
+        "Thailand",
+        "South Africa"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "ग्रेट बैरियर रीफ किस देश में स्थित है?",
+      "options": [
+        "ब्राज़ील",
+        "ऑस्ट्रेलिया",
+        "थाईलैंड",
+        "दक्षिण अफ्रीका"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_015",
+    "en": {
+      "question": "Which of these cities is located on the banks of the river Thames?",
+      "options": [
+        "Paris",
+        "New York",
+        "London",
+        "Rome"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "इनमें से कौन सा शहर टेम्स नदी के किनारे स्थित है?",
+      "options": [
+        "पेरिस",
+        "न्यूयॉर्क",
+        "लंदन",
+        "रोम"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_016",
+    "en": {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "South Korea",
+        "Japan",
+        "Thailand"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस देश को 'उगते सूरज की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "चीन",
+        "दक्षिण कोरिया",
+        "जापान",
+        "थाईलैंड"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_017",
+    "en": {
+      "question": "Which is the largest lake in Africa?",
+      "options": [
+        "Lake Victoria",
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Chad"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "अफ्रीका की सबसे बड़ी झील कौन सी है?",
+      "options": [
+        "विक्टोरिया झील",
+        "तंगानिका झील",
+        "मलावी झील",
+        "चाड झील"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_018",
+    "en": {
+      "question": "Which strait separates Asia from North America?",
+      "options": [
+        "Strait of Gibraltar",
+        "Strait of Malacca",
+        "Bering Strait",
+        "Strait of Hormuz"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा जलडमरूमध्य एशिया को उत्तरी अमेरिका से अलग करता है?",
+      "options": [
+        "जिब्राल्टर जलडमरूमध्य",
+        "मलक्का जलडमरूमध्य",
+        "बेरिंग जलडमरूमध्य",
+        "होर्मुज़ जलडमरूमध्य"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_019",
+    "en": {
+      "question": "Which is the driest continent on Earth?",
+      "options": [
+        "Africa",
+        "Australia",
+        "Asia",
+        "Antarctica"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पृथ्वी पर सबसे शुष्क महाद्वीप कौन सा है?",
+      "options": [
+        "अफ्रीका",
+        "ऑस्ट्रेलिया",
+        "एशिया",
+        "अंटार्कटिका"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "geography"
+  },
+  {
+    "id": "gk_geo_020",
+    "en": {
+      "question": "What is the capital of Brazil?",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasília",
+        "Salvador"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ब्राज़ील की राजधानी क्या है?",
+      "options": [
+        "रियो डी जनेरियो",
+        "साओ पाउलो",
+        "ब्रासीलिया",
+        "साल्वाडोर"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "geography"
+  }
+]

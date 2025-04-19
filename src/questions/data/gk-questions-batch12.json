@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-111",
+      "question_text": "Which country has the most islands in the world?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "Sweden",
+        "Canada"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "Indonesia has the most islands of any country in the world, with over 17,500 islands (though only about 6,000 are inhabited). The Indonesian archipelago stretches between Asia and Australia and includes major islands like Sumatra, Java, Borneo (shared with Malaysia and Brunei), Sulawesi, and parts of New Guinea (shared with Papua New Guinea).",
+      "category_id": 6,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-111",
+      "question_text": "विश्व में किस देश में सबसे अधिक द्वीप हैं?",
+      "options": [
+        "इंडोनेशिया",
+        "फिलीपींस",
+        "स्वीडन",
+        "कनाडा"
+      ],
+      "correct_answer_index": 0,
+      "explanation": "विश्व में किसी भी देश की तुलना में इंडोनेशिया में सबसे अधिक द्वीप हैं, जिनकी संख्या 17,500 से अधिक है (हालांकि केवल लगभग 6,000 पर ही लोग रहते हैं)। इंडोनेशियाई द्वीपसमूह एशिया और ऑस्ट्रेलिया के बीच फैला हुआ है और इसमें सुमात्रा, जावा, बोर्नियो (मलेशिया और ब्रुनेई के साथ साझा), सुलावेसी, और न्यू गिनी (पापुआ न्यू गिनी के साथ साझा) जैसे प्रमुख द्वीप शामिल हैं।",
+      "category_id": 6,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-112",
+      "question_text": "What was the first animated film to be nominated for Best Picture at the Academy Awards?",
+      "options": [
+        "Snow White and the Seven Dwarfs",
+        "Beauty and the Beast",
+        "The Lion King",
+        "Up"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Beauty and the Beast (1991) was the first animated film to be nominated for Best Picture at the Academy Awards. This Disney film broke new ground for animation by receiving this prestigious nomination, though it didn't win. It would take until 2009 for the Academy to expand the Best Picture category to include more nominees, which has since allowed more animated films to be nominated.",
+      "category_id": 5,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-112",
+      "question_text": "अकादमी पुरस्कारों में सर्वश्रेष्ठ चित्र के लिए नामांकित होने वाली पहली एनिमेटेड फिल्म कौन सी थी?",
+      "options": [
+        "स्नो व्हाइट एंड द सेवन ड्वार्फ्स",
+        "ब्यूटी एंड द बीस्ट",
+        "द लायन किंग",
+        "अप"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ब्यूटी एंड द बीस्ट (1991) अकादमी पुरस्कारों में सर्वश्रेष्ठ चित्र के लिए नामांकित होने वाली पहली एनिमेटेड फिल्म थी। इस डिज्नी फिल्म ने इस प्रतिष्ठित नामांकन को प्राप्त करके एनिमेशन के लिए नया मार्ग प्रशस्त किया, हालांकि यह जीत नहीं सकी। अकादमी को सर्वश्रेष्ठ चित्र श्रेणी का विस्तार करने के लिए 2009 तक का समय लगा, जिससे तब से अधिक एनिमेटेड फिल्मों को नामांकित किया जा सका है।",
+      "category_id": 5,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-113",
+      "question_text": "Which animal's bite exerts the strongest pressure among all animals?",
+      "options": [
+        "Great White Shark",
+        "Hippopotamus",
+        "Saltwater Crocodile",
+        "Jaguar"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "The saltwater crocodile has the strongest bite force ever measured in the animal kingdom, with up to 3,700 pounds per square inch (psi). This incredible bite strength allows them to crush bones and clamp down on prey with extraordinary force. By comparison, a human bite averages around 162 psi, while great white sharks measure around 625 psi and hippos around 1,800 psi.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-113",
+      "question_text": "सभी जानवरों में से किस जानवर के काटने का दबाव सबसे अधिक होता है?",
+      "options": [
+        "ग्रेट व्हाइट शार्क",
+        "दरियाई घोड़ा",
+        "खारे पानी का मगरमच्छ",
+        "जगुआर"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "खारे पानी के मगरमच्छ में जीव जगत में अब तक मापा गया सबसे मजबूत काटने का बल है, जो प्रति वर्ग इंच (पीएसआई) 3,700 पाउंड तक होता है। यह अविश्वसनीय काटने की ताकत उन्हें हड्डियों को कुचलने और शिकार पर असाधारण बल के साथ कब्जा करने की अनुमति देती है। तुलना के लिए, एक मानव काटने का औसत लगभग 162 पीएसआई होता है, जबकि ग्रेट व्हाइट शार्क लगभग 625 पीएसआई और दरियाई घोड़े लगभग 1,800 पीएसआई मापते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-114",
+      "question_text": "Which city has the most Michelin-starred restaurants in the world?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "New York",
+        "Hong Kong"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Tokyo, Japan has the most Michelin-starred restaurants in the world, with over 200 starred establishments. Paris, which was long considered the culinary capital of the world, comes in second place. Tokyo first overtook Paris in 2010 and has maintained its lead since then, highlighting Japan's dedication to culinary excellence and the incredible diversity of its food scene.",
+      "category_id": 5,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-114",
+      "question_text": "विश्व में किस शहर में सबसे अधिक मिशेलिन-स्टार वाले रेस्तरां हैं?",
+      "options": [
+        "पेरिस",
+        "टोक्यो",
+        "न्यूयॉर्क",
+        "हांगकांग"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "जापान के टोक्यो में दुनिया के सबसे अधिक मिशेलिन-स्टार वाले रेस्तरां हैं, जिनकी संख्या 200 से अधिक है। पेरिस, जिसे लंबे समय तक दुनिया की खाद्य राजधानी माना जाता था, दूसरे स्थान पर आता है। टोक्यो ने पहली बार 2010 में पेरिस को पीछे छोड़ा और तब से अपनी बढ़त बनाए रखी है, जो खाद्य उत्कृष्टता के प्रति जापान की प्रतिबद्धता और इसके खाद्य दृश्य की अविश्वसनीय विविधता को उजागर करता है।",
+      "category_id": 5,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-115",
+      "question_text": "Which planet in our solar system has the shortest day?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Jupiter",
+        "Neptune"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "Jupiter has the shortest day of any planet in our solar system. Despite being the largest planet, Jupiter completes one rotation in just 9 hours and 56 minutes. This rapid rotation causes the planet to bulge at the equator and flatten at the poles, and also generates Jupiter's powerful magnetic field, which is the strongest of any planet in our solar system.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-115",
+      "question_text": "हमारे सौर मंडल में किस ग्रह का दिन सबसे छोटा है?",
+      "options": [
+        "बुध",
+        "शुक्र",
+        "बृहस्पति",
+        "नेप्च्यून"
+      ],
+      "correct_answer_index": 2,
+      "explanation": "हमारे सौर मंडल के किसी भी ग्रह की तुलना में बृहस्पति का दिन सबसे छोटा है। सबसे बड़ा ग्रह होने के बावजूद, बृहस्पति मात्र 9 घंटे और 56 मिनट में एक चक्कर पूरा करता है। यह तेज घूर्णन ग्रह को भूमध्य रेखा पर उभरने और ध्रुवों पर चपटा होने का कारण बनता है, और यह बृहस्पति के शक्तिशाली चुंबकीय क्षेत्र को भी उत्पन्न करता है, जो हमारे सौर मंडल के किसी भी ग्रह की तुलना में सबसे मजबूत है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    }
+  ]
+} 

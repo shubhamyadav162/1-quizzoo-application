@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GK281",
+    "en": {
+      "question": "Who founded the Indian National Congress?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Allan Octavian Hume", "Subhas Chandra Bose"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किसने की थी?",
+      "options": ["महात्मा गांधी", "जवाहरलाल नेहरू", "एलन ऑक्टेवियन ह्यूम", "सुभाष चंद्र बोस"],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK282",
+    "en": {
+      "question": "Which is the highest waterfall in India?",
+      "options": ["Jog Falls", "Dudhsagar Falls", "Kunchikal Falls", "Nohkalikai Falls"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत का सबसे ऊंचा जलप्रपात कौन सा है?",
+      "options": ["जोग फॉल्स", "दूधसागर फॉल्स", "कुंचिकल फॉल्स", "नोहकालिकाई फॉल्स"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK283",
+    "en": {
+      "question": "Who is the inventor of dynamite?",
+      "options": ["Alfred Nobel", "Thomas Edison", "Alexander Graham Bell", "Albert Einstein"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "डायनामाइट का आविष्कार किसने किया था?",
+      "options": ["अल्फ्रेड नोबेल", "थॉमस एडिसन", "अलेक्जेंडर ग्राहम बेल", "अल्बर्ट आइंस्टाइन"],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "inventions"
+  },
+  {
+    "id": "GK284",
+    "en": {
+      "question": "Which gas is most commonly used in balloons?",
+      "options": ["Oxygen", "Hydrogen", "Helium", "Nitrogen"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "गुब्बारों में आमतौर पर कौन सी गैस का उपयोग किया जाता है?",
+      "options": ["ऑक्सीजन", "हाइड्रोजन", "हीलियम", "नाइट्रोजन"],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK285",
+    "en": {
+      "question": "Which is the largest delta in the world?",
+      "options": ["Nile Delta", "Ganges Delta", "Mississippi Delta", "Amazon Delta"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा डेल्टा कौन सा है?",
+      "options": ["नील डेल्टा", "गंगा डेल्टा", "मिसिसिपी डेल्टा", "अमेज़न डेल्टा"],
+      "answer": 1
+    },
+    "level": 9,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK286",
+    "en": {
+      "question": "Which Indian state has the largest coastline?",
+      "options": ["Gujarat", "Tamil Nadu", "Andhra Pradesh", "Maharashtra"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य की तटरेखा सबसे लंबी है?",
+      "options": ["गुजरात", "तमिलनाडु", "आंध्र प्रदेश", "महाराष्ट्र"],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK287",
+    "en": {
+      "question": "Who was the first Indian to win the Nobel Prize in Physics?",
+      "options": ["C.V. Raman", "Hargobind Khorana", "Amartya Sen", "Rabindranath Tagore"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भौतिकी में नोबेल पुरस्कार जीतने वाले पहले भारतीय कौन थे?",
+      "options": ["सी.वी. रमन", "हरगोविंद खुराना", "अमर्त्य सेन", "रवींद्रनाथ टैगोर"],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK288",
+    "en": {
+      "question": "Which is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "हमारे सौरमंडल का सबसे बड़ा ग्रह कौन सा है?",
+      "options": ["पृथ्वी", "मंगल", "बृहस्पति", "शनि"],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "astronomy"
+  },
+  {
+    "id": "GK289",
+    "en": {
+      "question": "Who is the author of 'The Origin of Species'?",
+      "options": ["Charles Darwin", "Alfred Russel Wallace", "Gregor Mendel", "Louis Pasteur"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'द ओरिजिन ऑफ स्पीशीज' के लेखक कौन हैं?",
+      "options": ["चार्ल्स डार्विन", "अल्फ्रेड रसेल वॉलेस", "ग्रेगर मेंडल", "लुई पाश्चर"],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "science_literature"
+  },
+  {
+    "id": "GK290",
+    "en": {
+      "question": "What is the currency of Japan?",
+      "options": ["Yuan", "Won", "Yen", "Ringgit"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जापान की मुद्रा क्या है?",
+      "options": ["युआन", "वोन", "येन", "रिंगित"],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_economics"
+  },
+  {
+    "id": "GK291",
+    "en": {
+      "question": "How many bones are there in an adult human body?",
+      "options": ["106", "206", "306", "406"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "वयस्क मानव शरीर में कितनी हड्डियां होती हैं?",
+      "options": ["106", "206", "306", "406"],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology"
+  },
+  {
+    "id": "GK292",
+    "en": {
+      "question": "What is the national bird of India?",
+      "options": ["Peacock", "Sparrow", "Eagle", "Parrot"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत का राष्ट्रीय पक्षी कौन सा है?",
+      "options": ["मोर", "गौरैया", "बाज", "तोता"],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK293",
+    "en": {
+      "question": "Who is the author of 'Ramayana'?",
+      "options": ["Ved Vyasa", "Valmiki", "Kalidasa", "Tulsidas"],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'रामायण' के लेखक कौन हैं?",
+      "options": ["वेद व्यास", "वाल्मीकि", "कालिदास", "तुलसीदास"],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK294",
+    "en": {
+      "question": "Which is the longest river in India?",
+      "options": ["Ganges", "Brahmaputra", "Yamuna", "Godavari"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भारत की सबसे लंबी नदी कौन सी है?",
+      "options": ["गंगा", "ब्रह्मपुत्र", "यमुना", "गोदावरी"],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK295",
+    "en": {
+      "question": "What is the chemical formula for water?",
+      "options": ["H2O", "CO2", "NH3", "CH4"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पानी का रासायनिक सूत्र क्या है?",
+      "options": ["H2O", "CO2", "NH3", "CH4"],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK296",
+    "en": {
+      "question": "Who discovered America?",
+      "options": ["Vasco da Gama", "Ferdinand Magellan", "Christopher Columbus", "James Cook"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अमेरिका की खोज किसने की थी?",
+      "options": ["वास्को दा गामा", "फर्डिनेंड मैगलन", "क्रिस्टोफर कोलंबस", "जेम्स कुक"],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "world_history"
+  },
+  {
+    "id": "GK297",
+    "en": {
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": ["Barometer", "Thermometer", "Hygrometer", "Anemometer"],
+      "answer": 0
+    },
+    "hi": {
+      "question": "वायुमंडलीय दबाव को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": ["बैरोमीटर", "थर्मामीटर", "हाइग्रोमीटर", "एनिमोमीटर"],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK298",
+    "en": {
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ऑस्ट्रेलिया की राजधानी क्या है?",
+      "options": ["सिडनी", "मेलबर्न", "कैनबरा", "पर्थ"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK299",
+    "en": {
+      "question": "Who is known as the 'Missile Man of India'?",
+      "options": ["C.V. Raman", "Vikram Sarabhai", "A.P.J. Abdul Kalam", "Homi J. Bhabha"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत के 'मिसाइल मैन' के रूप में किसे जाना जाता है?",
+      "options": ["सी.वी. रमन", "विक्रम साराभाई", "ए.पी.जे. अब्दुल कलाम", "होमी जे. भाभा"],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "indian_science"
+  },
+  {
+    "id": "GK300",
+    "en": {
+      "question": "Which is the tallest mountain peak in India?",
+      "options": ["Nanda Devi", "Mount Everest", "Kanchenjunga", "K2"],
+      "answer": 2
+    },
+    "hi": {
+      "question": "भारत की सबसे ऊंची पर्वत चोटी कौन सी है?",
+      "options": ["नंदा देवी", "माउंट एवरेस्ट", "कंचनजंगा", "K2"],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "indian_geography"
+  }
+] 

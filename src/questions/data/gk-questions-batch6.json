@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_id": "gk-en-051",
+      "question_text": "Which layer of the Earth's atmosphere contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The ozone layer is located in the stratosphere, approximately 15-35 kilometers above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-051",
+      "question_text": "पृथ्वी के वायुमंडल की किस परत में ओजोन परत पाई जाती है?",
+      "options": [
+        "क्षोभमंडल",
+        "समतापमंडल",
+        "मध्यमंडल",
+        "बाह्यमंडल"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "ओजोन परत समतापमंडल में पाई जाती है, जो पृथ्वी की सतह से लगभग 15-35 किलोमीटर ऊपर है। यह सूर्य के हानिकारक पराबैंगनी विकिरण के अधिकांश भाग को अवशोषित करती है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-052",
+      "question_text": "Which ancient wonder of the world was located in Alexandria, Egypt?",
+      "options": [
+        "Hanging Gardens",
+        "Lighthouse of Alexandria",
+        "Colossus of Rhodes",
+        "Temple of Artemis"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Lighthouse of Alexandria (Pharos) was an ancient wonder of the world located in Alexandria, Egypt. Built in the 3rd century BCE, it was one of the tallest man-made structures of its time.",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-052",
+      "question_text": "विश्व का कौन सा प्राचीन आश्चर्य अलेक्जेंड्रिया, मिस्र में स्थित था?",
+      "options": [
+        "हैंगिंग गार्डन",
+        "अलेक्जेंड्रिया का प्रकाशस्तंभ",
+        "रोड्स का विशालकाय",
+        "आर्टेमिस का मंदिर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "अलेक्जेंड्रिया का प्रकाशस्तंभ (फारोस) विश्व का एक प्राचीन आश्चर्य था जो अलेक्जेंड्रिया, मिस्र में स्थित था। तीसरी शताब्दी ईसा पूर्व में निर्मित, यह अपने समय की सबसे ऊंची मानव निर्मित संरचनाओं में से एक थी।",
+      "category_id": 3,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-053",
+      "question_text": "Which famous ship sank on its maiden voyage in 1912?",
+      "options": [
+        "Lusitania",
+        "Titanic",
+        "Queen Mary",
+        "USS Arizona"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The RMS Titanic sank on its maiden voyage in 1912 after hitting an iceberg in the North Atlantic Ocean, resulting in the deaths of more than 1,500 passengers and crew.",
+      "category_id": 3,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-053",
+      "question_text": "1912 में अपनी पहली यात्रा पर कौन सा प्रसिद्ध जहाज डूब गया था?",
+      "options": [
+        "लुसीटानिया",
+        "टाइटैनिक",
+        "क्वीन मैरी",
+        "यूएसएस एरिज़ोना"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "आरएमएस टाइटैनिक 1912 में अपनी पहली यात्रा पर उत्तरी अटलांटिक महासागर में एक हिमशैल से टकराने के बाद डूब गया था, जिससे 1,500 से अधिक यात्रियों और चालक दल की मृत्यु हुई थी।",
+      "category_id": 3,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-054",
+      "question_text": "What is the name of the world's longest railway tunnel?",
+      "options": [
+        "Channel Tunnel",
+        "Gotthard Base Tunnel",
+        "Seikan Tunnel",
+        "Lötschberg Base Tunnel"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Gotthard Base Tunnel in Switzerland is the world's longest railway tunnel, with a length of 57.09 kilometers (35.5 miles). It opened for regular service in 2016.",
+      "category_id": 7,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-054",
+      "question_text": "विश्व की सबसे लंबी रेलवे सुरंग का नाम क्या है?",
+      "options": [
+        "चैनल टनल",
+        "गोटहार्ड बेस टनल",
+        "सेकान टनल",
+        "लोट्शबर्ग बेस टनल"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "स्विट्जरलैंड में गोटहार्ड बेस टनल दुनिया की सबसे लंबी रेलवे सुरंग है, जिसकी लंबाई 57.09 किलोमीटर (35.5 मील) है। यह 2016 में नियमित सेवा के लिए खुली थी।",
+      "category_id": 7,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-055",
+      "question_text": "Which vitamin is produced by human skin when exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin E"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Vitamin D is produced by human skin when exposed to sunlight (specifically UVB radiation). It plays a crucial role in calcium absorption and bone health.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-055",
+      "question_text": "धूप में रहने पर मानव त्वचा द्वारा कौन सा विटामिन उत्पादित होता है?",
+      "options": [
+        "विटामिन ए",
+        "विटामिन डी",
+        "विटामिन सी",
+        "विटामिन ई"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "धूप के संपर्क में आने पर (विशेष रूप से यूवीबी विकिरण) मानव त्वचा द्वारा विटामिन डी उत्पादित होता है। यह कैल्शियम अवशोषण और हड्डियों के स्वास्थ्य में महत्वपूर्ण भूमिका निभाता है।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-056",
+      "question_text": "What is the smallest bone in the human body?",
+      "options": [
+        "Femur",
+        "Stapes",
+        "Phalanges",
+        "Coccyx"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The stapes (stirrup) is the smallest bone in the human body. It is one of three tiny bones in the middle ear and is crucial for the transmission of sound vibrations.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-056",
+      "question_text": "मानव शरीर की सबसे छोटी हड्डी कौन सी है?",
+      "options": [
+        "फीमर",
+        "स्टेपीज",
+        "फैलेंजेस",
+        "कॉक्सिक्स"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "स्टेपीज (रकाब) मानव शरीर की सबसे छोटी हड्डी है। यह मध्य कान में तीन छोटी हड्डियों में से एक है और ध्वनि कंपन के संचरण के लिए महत्वपूर्ण है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-057",
+      "question_text": "Which famous naturalist wrote 'On the Origin of Species'?",
+      "options": [
+        "Alfred Wallace",
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Louis Pasteur"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Charles Darwin wrote 'On the Origin of Species' (published in 1859), which introduced the scientific theory that populations evolve through natural selection.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-057",
+      "question_text": "किस प्रसिद्ध प्रकृतिवादी ने 'ऑन द ओरिजिन ऑफ स्पीशीज' लिखी थी?",
+      "options": [
+        "अल्फ्रेड वॉलेस",
+        "चार्ल्स डार्विन",
+        "ग्रेगर मेंडल",
+        "लुई पाश्चर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "चार्ल्स डार्विन ने 'ऑन द ओरिजिन ऑफ स्पीशीज' (1859 में प्रकाशित) लिखी थी, जिसने वैज्ञानिक सिद्धांत पेश किया कि जनसंख्या प्राकृतिक चयन के माध्यम से विकसित होती है।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-058",
+      "question_text": "Which mountain range separates Europe from Asia?",
+      "options": [
+        "Alps",
+        "Ural Mountains",
+        "Himalayas",
+        "Andes"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The Ural Mountains form a natural boundary between Europe and Asia. They run approximately north to south through western Russia, from the Arctic Ocean to the Ural River.",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-058",
+      "question_text": "कौन सी पर्वत श्रृंखला यूरोप को एशिया से अलग करती है?",
+      "options": [
+        "आल्प्स",
+        "यूराल पर्वत",
+        "हिमालय",
+        "एंडीज"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "यूराल पर्वत यूरोप और एशिया के बीच एक प्राकृतिक सीमा बनाते हैं। वे पश्चिमी रूस में आर्कटिक महासागर से यूराल नदी तक लगभग उत्तर से दक्षिण तक फैले हुए हैं।",
+      "category_id": 4,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-059",
+      "question_text": "Which is the only bird that can fly backwards?",
+      "options": [
+        "Eagle",
+        "Hummingbird",
+        "Swift",
+        "Falcon"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "The hummingbird is the only bird that can fly backwards. They can also hover in mid-air, fly upside down, and even upside-down backwards.",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-059",
+      "question_text": "कौन सा एकमात्र पक्षी है जो पीछे की ओर उड़ सकता है?",
+      "options": [
+        "चील",
+        "हमिंगबर्ड",
+        "स्विफ्ट",
+        "बाज"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "हमिंगबर्ड एकमात्र ऐसा पक्षी है जो पीछे की ओर उड़ सकता है। वे हवा में स्थिर भी रह सकते हैं, उल्टा उड़ सकते हैं, और यहां तक कि उल्टा पीछे भी उड़ सकते हैं।",
+      "category_id": 2,
+      "difficulty_level": "medium",
+      "language": "hi"
+    },
+    {
+      "question_id": "gk-en-060",
+      "question_text": "Which famous physicist formulated the laws of motion and universal gravitation?",
+      "options": [
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Niels Bohr"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Sir Isaac Newton formulated the three laws of motion and the law of universal gravitation, which were published in his 1687 work 'Principia Mathematica'.",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "en"
+    },
+    {
+      "question_id": "gk-hi-060",
+      "question_text": "किस प्रसिद्ध भौतिक विज्ञानी ने गति के नियमों और सार्वभौमिक गुरुत्वाकर्षण का सूत्रीकरण किया था?",
+      "options": [
+        "गैलीलियो गैलीली",
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टाइन",
+        "नील्स बोर"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "सर आइजैक न्यूटन ने गति के तीन नियमों और सार्वभौमिक गुरुत्वाकर्षण के नियम का सूत्रीकरण किया था, जिन्हें उनके 1687 के कार्य 'प्रिंसिपिया मैथेमेटिका' में प्रकाशित किया गया था।",
+      "category_id": 2,
+      "difficulty_level": "easy",
+      "language": "hi"
+    }
+  ]
+} 

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "GK462",
+    "en": {
+      "question": "Who was the first woman Chief Minister of an Indian state?",
+      "options": [
+        "Indira Gandhi",
+        "Sucheta Kriplani",
+        "Nandini Satpathy",
+        "Vijaya Lakshmi Pandit"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारतीय राज्य की पहली महिला मुख्यमंत्री कौन थीं?",
+      "options": [
+        "इंदिरा गांधी",
+        "सुचेता कृपलानी",
+        "नंदिनी सतपथी",
+        "विजया लक्ष्मी पंडित"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_politics"
+  },
+  {
+    "id": "GK463",
+    "en": {
+      "question": "Which is the national sport of Japan?",
+      "options": [
+        "Judo",
+        "Karate",
+        "Sumo Wrestling",
+        "Kendo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "जापान का राष्ट्रीय खेल कौन सा है?",
+      "options": [
+        "जूडो",
+        "कराटे",
+        "सूमो कुश्ती",
+        "केंडो"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "sports"
+  },
+  {
+    "id": "GK464",
+    "en": {
+      "question": "What is the chemical formula for sulphuric acid?",
+      "options": [
+        "H2SO3",
+        "H2SO4",
+        "HNO3",
+        "HCl"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "सल्फ्यूरिक एसिड का रासायनिक सूत्र क्या है?",
+      "options": [
+        "H2SO3",
+        "H2SO4",
+        "HNO3",
+        "HCl"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK465",
+    "en": {
+      "question": "Which Indian state has the largest area?",
+      "options": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Rajasthan"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस भारतीय राज्य का क्षेत्रफल सबसे बड़ा है?",
+      "options": [
+        "मध्य प्रदेश",
+        "महाराष्ट्र",
+        "उत्तर प्रदेश",
+        "राजस्थान"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK466",
+    "en": {
+      "question": "What does UNESCO stand for?",
+      "options": [
+        "United Nations Educational, Scientific and Cultural Organization",
+        "United Nations Environmental, Scientific and Cultural Organization",
+        "United Nations Economic, Social and Cultural Organization",
+        "Union of Nations Educational, Scientific and Cultural Organization"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "UNESCO का पूरा नाम क्या है?",
+      "options": [
+        "संयुक्त राष्ट्र शैक्षिक, वैज्ञानिक और सांस्कृतिक संगठन",
+        "संयुक्त राष्ट्र पर्यावरण, वैज्ञानिक और सांस्कृतिक संगठन",
+        "संयुक्त राष्ट्र आर्थिक, सामाजिक और सांस्कृतिक संगठन",
+        "राष्ट्रों का शैक्षिक, वैज्ञानिक और सांस्कृतिक संघ"
+      ],
+      "answer": 0
+    },
+    "level": 7,
+    "category": "world_organizations"
+  },
+  {
+    "id": "GK467",
+    "en": {
+      "question": "Which is the largest bone in the human body?",
+      "options": [
+        "Skull",
+        "Femur",
+        "Humerus",
+        "Tibia"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर की सबसे बड़ी हड्डी कौन सी है?",
+      "options": [
+        "खोपड़ी",
+        "फीमर",
+        "ह्यूमरस",
+        "टिबिया"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK468",
+    "en": {
+      "question": "Who is known as the 'Lady with the Lamp'?",
+      "options": [
+        "Mother Teresa",
+        "Florence Nightingale",
+        "Helen Keller",
+        "Marie Curie"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किसे 'लैंप वाली लेडी' के रूप में जाना जाता है?",
+      "options": [
+        "मदर टेरेसा",
+        "फ्लोरेंस नाइटिंगेल",
+        "हेलेन केलर",
+        "मैरी क्यूरी"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "world_history"
+  },
+  {
+    "id": "GK469",
+    "en": {
+      "question": "Which is the largest continent in the world?",
+      "options": [
+        "Africa",
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विश्व का सबसे बड़ा महाद्वीप कौन सा है?",
+      "options": [
+        "अफ्रीका",
+        "उत्तर अमेरिका",
+        "यूरोप",
+        "एशिया"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK470",
+    "en": {
+      "question": "Who wrote the book 'Anandmath'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chattopadhyay",
+        "Premchand",
+        "Maithili Sharan Gupt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "'आनंदमठ' पुस्तक किसने लिखी?",
+      "options": [
+        "रबीन्द्रनाथ टैगोर",
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "प्रेमचंद",
+        "मैथिलीशरण गुप्त"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "indian_literature"
+  },
+  {
+    "id": "GK471",
+    "en": {
+      "question": "Which vitamin is essential for blood clotting?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "रक्त का थक्का जमाने के लिए कौन सा विटामिन आवश्यक है?",
+      "options": [
+        "विटामिन A",
+        "विटामिन C",
+        "विटामिन K",
+        "विटामिन D"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "biology"
+  },
+  {
+    "id": "GK472",
+    "en": {
+      "question": "Who is the author of 'Pride and Prejudice'?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Bronte",
+        "Emily Bronte",
+        "Charles Dickens"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "'प्राइड एंड प्रेजुडिस' के लेखक कौन हैं?",
+      "options": [
+        "जेन ऑस्टिन",
+        "शार्लोट ब्रोंटे",
+        "एमिली ब्रोंटे",
+        "चार्ल्स डिकेंस"
+      ],
+      "answer": 0
+    },
+    "level": 8,
+    "category": "world_literature"
+  },
+  {
+    "id": "GK473",
+    "en": {
+      "question": "Which gas is used in balloons to make them float in air?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Helium"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गुब्बारों को हवा में तैरने के लिए किस गैस का उपयोग किया जाता है?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "हाइड्रोजन",
+        "हीलियम"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK474",
+    "en": {
+      "question": "What is the name of India's first lunar probe?",
+      "options": [
+        "Mangalyaan",
+        "Chandrayaan-1",
+        "GSAT",
+        "EDUSAT"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "भारत के पहले चंद्र अभियान का नाम क्या है?",
+      "options": [
+        "मंगलयान",
+        "चंद्रयान-1",
+        "जीसैट",
+        "एडुसैट"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "space"
+  },
+  {
+    "id": "GK475",
+    "en": {
+      "question": "Who is known as the 'Father of Modern India'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Raja Ram Mohan Roy",
+        "Sardar Patel"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसे 'आधुनिक भारत का जनक' के रूप में जाना जाता है?",
+      "options": [
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "राजा राम मोहन रॉय",
+        "सरदार पटेल"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK476",
+    "en": {
+      "question": "What is the unit of electric potential?",
+      "options": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "विद्युत विभव की इकाई क्या है?",
+      "options": [
+        "एम्पियर",
+        "वोल्ट",
+        "ओम",
+        "वाट"
+      ],
+      "answer": 1
+    },
+    "level": 8,
+    "category": "physics"
+  },
+  {
+    "id": "GK478",
+    "en": {
+      "question": "Who discovered the law of gravitation?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "गुरुत्वाकर्षण के नियम की खोज किसने की?",
+      "options": [
+        "अल्बर्ट आइंस्टीन",
+        "आइजैक न्यूटन",
+        "गैलीलियो गैलीली",
+        "निकोला टेस्ला"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "physics"
+  },
+  {
+    "id": "GK479",
+    "en": {
+      "question": "Which river is also known as 'Dakshin Ganga'?",
+      "options": [
+        "Krishna",
+        "Godavari",
+        "Cauvery",
+        "Narmada"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस नदी को 'दक्षिण गंगा' के रूप में भी जाना जाता है?",
+      "options": [
+        "कृष्णा",
+        "गोदावरी",
+        "कावेरी",
+        "नर्मदा"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK480",
+    "en": {
+      "question": "Which disease is caused by the bite of a female Anopheles mosquito?",
+      "options": [
+        "Dengue",
+        "Malaria",
+        "Chikungunya",
+        "Yellow Fever"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मादा एनोफिलीज मच्छर के काटने से कौन सी बीमारी होती है?",
+      "options": [
+        "डेंगू",
+        "मलेरिया",
+        "चिकनगुनिया",
+        "पीला बुखार"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "biology"
+  }
+]

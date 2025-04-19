@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "GK5303",
+    "en": {
+      "question": "What is the chemical symbol for Neon?",
+      "options": [
+        "N",
+        "Ne",
+        "No",
+        "Ni"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "नियॉन (Neon) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "N",
+        "Ne",
+        "No",
+        "Ni"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5306",
+    "en": {
+      "question": "Which instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer",
+        "Barometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वायुमंडलीय दाब मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर",
+        "बैरोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5309",
+    "en": {
+      "question": "What is the main currency used in the United Kingdom?",
+      "options": [
+        "Euro",
+        "Dollar",
+        "Pound Sterling",
+        "Franc"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "यूनाइटेड किंगडम में उपयोग की जाने वाली मुख्य मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "डॉलर",
+        "पाउंड स्टर्लिंग",
+        "फ्रैंक"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "economics"
+  },
+  {
+    "id": "GK5310",
+    "en": {
+      "question": "What part of a plant absorbs water and nutrients from the soil?",
+      "options": [
+        "Leaves",
+        "Stem",
+        "Flowers",
+        "Roots"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे का कौन सा भाग मिट्टी से पानी और पोषक तत्व अवशोषित करता है?",
+      "options": [
+        "पत्तियाँ",
+        "तना",
+        "फूल",
+        "जड़ें"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5312",
+    "en": {
+      "question": "What is the chemical symbol for Helium?",
+      "options": [
+        "H",
+        "He",
+        "Hm",
+        "Hl"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हीलियम (Helium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "H",
+        "He",
+        "Hm",
+        "Hl"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5314",
+    "en": {
+      "question": "Who wrote the play 'Hamlet'?",
+      "options": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "William Shakespeare",
+        "George Bernard Shaw"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "नाटक 'हैमलेट' किसने लिखा?",
+      "options": [
+        "क्रिस्टोफर मार्लो",
+        "बेन जॉनसन",
+        "विलियम शेक्सपियर",
+        "जॉर्ज बर्नार्ड शॉ"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5315",
+    "en": {
+      "question": "What is the name for a baby wolf?",
+      "options": [
+        "Pup/Cub",
+        "Kit",
+        "Fawn",
+        "Lamb"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "भेड़िये के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला/शावक",
+        "किट",
+        "हिरणशावक",
+        "मेमना"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5317",
+    "en": {
+      "question": "What is the force that pulls objects towards the center of the Earth?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Tension"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "वह कौन सा बल है जो वस्तुओं को पृथ्वी के केंद्र की ओर खींचता है?",
+      "options": [
+        "चुंबकत्व",
+        "घर्षण",
+        "गुरुत्वाकर्षण",
+        "तनाव"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5321",
+    "en": {
+      "question": "What is the chemical symbol for Nickel?",
+      "options": [
+        "N",
+        "Ni",
+        "Nk",
+        "Nc"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "निकल (Nickel) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "N",
+        "Ni",
+        "Nk",
+        "Nc"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5322",
+    "en": {
+      "question": "Which type of blood cell carries oxygen?",
+      "options": [
+        "White blood cells",
+        "Platelets",
+        "Red blood cells",
+        "Plasma"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस प्रकार की रक्त कोशिका ऑक्सीजन ले जाती है?",
+      "options": [
+        "सफेद रक्त कोशिकाएं",
+        "प्लेटलेट्स",
+        "लाल रक्त कोशिकाएं",
+        "प्लाज्मा"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5325",
+    "en": {
+      "question": "Who painted 'The Starry Night'?",
+      "options": [
+        "Claude Monet",
+        "Pierre-Auguste Renoir",
+        "Edgar Degas",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द स्टारी नाइट' किसने चित्रित किया?",
+      "options": [
+        "क्लॉड मोनेट",
+        "पियरे-अगस्टे रेनॉयर",
+        "एडगर डेगास",
+        "विंसेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5328",
+    "en": {
+      "question": "What is the process of liquid water turning into ice called?",
+      "options": [
+        "Melting",
+        "Boiling",
+        "Freezing",
+        "Evaporation"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "तरल पानी के बर्फ में बदलने की प्रक्रिया को क्या कहा जाता है?",
+      "options": [
+        "पिघलना",
+        "उबलना",
+        "जमना",
+        "वाष्पीकरण"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "physics"
+  },
+  {
+    "id": "GK5330",
+    "en": {
+      "question": "Which musical instrument is played by blowing into it and pressing keys?",
+      "options": [
+        "Violin",
+        "Drums",
+        "Saxophone",
+        "Guitar"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सा संगीत वाद्ययंत्र फूंक मारकर और चाबियाँ दबाकर बजाया जाता है?",
+      "options": [
+        "वायलिन",
+        "ड्रम",
+        "सैक्सोफोन",
+        "गिटार"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "music"
+  },
+  {
+    "id": "GK5331",
+    "en": {
+      "question": "What is the chemical symbol for Argon?",
+      "options": [
+        "A",
+        "Ar",
+        "Ag",
+        "An"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "आर्गन (Argon) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "A",
+        "Ar",
+        "Ag",
+        "An"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5332",
+    "en": {
+      "question": "Which organ is responsible for thinking and controlling the body?",
+      "options": [
+        "Heart",
+        "Stomach",
+        "Lungs",
+        "Brain"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शरीर के सोचने और नियंत्रित करने के लिए कौन सा अंग जिम्मेदार है?",
+      "options": [
+        "हृदय",
+        "पेट",
+        "फेफड़े",
+        "मस्तिष्क"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5336",
+    "en": {
+      "question": "Which famous wall stretches across northern China?",
+      "options": [
+        "Hadrian's Wall",
+        "Berlin Wall",
+        "Great Wall of China",
+        "Western Wall"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी प्रसिद्ध दीवार उत्तरी चीन में फैली हुई है?",
+      "options": [
+        "हैड्रियन वॉल",
+        "बर्लिन की दीवार",
+        "चीन की महान दीवार",
+        "पश्चिमी दीवार"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5340",
+    "en": {
+      "question": "Which animal is known for changing its color?",
+      "options": [
+        "Snake",
+        "Frog",
+        "Lizard",
+        "Chameleon"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर अपना रंग बदलने के लिए जाना जाता है?",
+      "options": [
+        "सांप",
+        "मेंढक",
+        "छिपकली",
+        "गिरगिट"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5341",
+    "en": {
+      "question": "What is the chemical symbol for Potassium?",
+      "options": [
+        "P",
+        "Po",
+        "Pt",
+        "K"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पोटेशियम (Potassium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "P",
+        "Po",
+        "Pt",
+        "K"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5342",
+    "en": {
+      "question": "Which part of the eye controls the amount of light entering?",
+      "options": [
+        "Retina",
+        "Lens",
+        "Pupil/Iris",
+        "Cornea"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आंख का कौन सा भाग प्रवेश करने वाले प्रकाश की मात्रा को नियंत्रित करता है?",
+      "options": [
+        "रेटिना",
+        "लेंस",
+        "पुतली/आइरिस",
+        "कॉर्निया"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5346",
+    "en": {
+      "question": "Which famous artist cut off part of his own ear?",
+      "options": [
+        "Claude Monet",
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध कलाकार ने अपने ही कान का हिस्सा काट दिया था?",
+      "options": [
+        "क्लॉड मोनेट",
+        "पाब्लो पिकासो",
+        "साल्वाडोर डाली",
+        "विंसेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5348",
+    "en": {
+      "question": "What force opposes motion between surfaces in contact?",
+      "options": [
+        "Gravity",
+        "Magnetism",
+        "Tension",
+        "Friction"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संपर्क में सतहों के बीच गति का विरोध करने वाला बल कौन सा है?",
+      "options": [
+        "गुरुत्वाकर्षण",
+        "चुंबकत्व",
+        "तनाव",
+        "घर्षण"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "physics"
+  },
+  {
+    "id": "GK5350",
+    "en": {
+      "question": "What is the main language spoken in Russia?",
+      "options": [
+        "Ukrainian",
+        "Polish",
+        "Belarusian",
+        "Russian"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "रूस में बोली जाने वाली मुख्य भाषा क्या है?",
+      "options": [
+        "यूक्रेनी",
+        "पोलिश",
+        "बेलारूसी",
+        "रूसी"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5351",
+    "en": {
+      "question": "What is the chemical symbol for Calcium?",
+      "options": [
+        "C",
+        "Ca",
+        "Cl",
+        "Cm"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "कैल्शियम (Calcium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "C",
+        "Ca",
+        "Cl",
+        "Cm"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5352",
+    "en": {
+      "question": "Which system in the body breaks down food?",
+      "options": [
+        "Respiratory system",
+        "Circulatory system",
+        "Nervous system",
+        "Digestive system"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शरीर में कौन सी प्रणाली भोजन को तोड़ती है?",
+      "options": [
+        "श्वसन प्रणाली",
+        "परिसंचरण प्रणाली",
+        "तंत्रिका तंत्र",
+        "पाचन तंत्र"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5357",
+    "en": {
+      "question": "Which Indian festival involves throwing colored powder and water?",
+      "options": [
+        "Diwali",
+        "Holi",
+        "Navratri",
+        "Pongal"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस भारतीय त्योहार में रंगीन पाउडर और पानी फेंकना शामिल है?",
+      "options": [
+        "दिवाली",
+        "होली",
+        "नवरात्रि",
+        "पोंगल"
+      ],
+      "answer": 1
+    },
+    "level": 3,
+    "category": "indian_culture"
+  },
+  {
+    "id": "GK5360",
+    "en": {
+      "question": "Which large body of water borders India to the south?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean",
+        "Indian Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा बड़ा जल निकाय दक्षिण में भारत की सीमा बनाता है?",
+      "options": [
+        "प्रशांत महासागर",
+        "अटलांटिक महासागर",
+        "आर्कटिक महासागर",
+        "हिंद महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "indian_geography"
+  },
+  {
+    "id": "GK5361",
+    "en": {
+      "question": "What is the chemical symbol for Magnesium?",
+      "options": [
+        "M",
+        "Ma",
+        "Mg",
+        "Mn"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मैग्नीशियम (Magnesium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "M",
+        "Ma",
+        "Mg",
+        "Mn"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5362",
+    "en": {
+      "question": "What sense allows us to taste food?",
+      "options": [
+        "Sight",
+        "Smell",
+        "Touch",
+        "Taste"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी इंद्रिय हमें भोजन का स्वाद लेने की अनुमति देती है?",
+      "options": [
+        "दृष्टि",
+        "गंध",
+        "स्पर्श",
+        "स्वाद"
+      ],
+      "answer": 3
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5363",
+    "en": {
+      "question": "What is the name for a baby rabbit?",
+      "options": [
+        "Kit/Bunny",
+        "Pup",
+        "Fawn",
+        "Leveret (young hare)"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "खरगोश के बच्चे का नाम क्या है?",
+      "options": [
+        "किट/बनी",
+        "पिल्ला",
+        "हिरणशावक",
+        "लेवेरेट (युवा खरगोश)"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5364",
+    "en": {
+      "question": "Which city hosted the 2016 Summer Olympics?",
+      "options": [
+        "London",
+        "Beijing",
+        "Rio de Janeiro",
+        "Tokyo"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किस शहर ने 2016 ग्रीष्मकालीन ओलंपिक की मेजबानी की?",
+      "options": [
+        "लंदन",
+        "बीजिंग",
+        "रियो डी जनेरियो",
+        "टोक्यो"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "sports_history"
+  },
+  {
+    "id": "GK5368",
+    "en": {
+      "question": "What is the process where plants release water vapor?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Transpiration",
+        "Condensation"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "वह प्रक्रिया क्या है जिसमें पौधे जल वाष्प छोड़ते हैं?",
+      "options": [
+        "प्रकाश संश्लेषण",
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "संघनन"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5371",
+    "en": {
+      "question": "What is the chemical symbol for Nitrogen?",
+      "options": [
+        "N",
+        "Ni",
+        "Nt",
+        "Ng"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "नाइट्रोजन (Nitrogen) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "N",
+        "Ni",
+        "Nt",
+        "Ng"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5372",
+    "en": {
+      "question": "Which bones protect the brain?",
+      "options": [
+        "Ribs",
+        "Spine",
+        "Pelvis",
+        "Skull"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी हड्डियाँ मस्तिष्क की रक्षा करती हैं?",
+      "options": [
+        "पसलियाँ",
+        "रीढ़",
+        "श्रोणि",
+        "खोपड़ी"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5373",
+    "en": {
+      "question": "What is the name for a baby duck?",
+      "options": [
+        "Gosling",
+        "Chick",
+        "Duckling",
+        "Cygnet"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "बत्तख के बच्चे का नाम क्या है?",
+      "options": [
+        "बत्तख का बच्चा (Goose)",
+        "चूजा",
+        "बत्तख का बच्चा",
+        "हंसशावक"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5379",
+    "en": {
+      "question": "Which element is essential for strong bones and teeth?",
+      "options": [
+        "Iron",
+        "Sodium",
+        "Calcium",
+        "Potassium"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मजबूत हड्डियों और दांतों के लिए कौन सा तत्व आवश्यक है?",
+      "options": [
+        "लोहा",
+        "सोडियम",
+        "कैल्शियम",
+        "पोटेशियम"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_nutrition"
+  },
+  {
+    "id": "GK5380",
+    "en": {
+      "question": "What is the name for a baby chicken?",
+      "options": [
+        "Duckling",
+        "Chick",
+        "Gosling",
+        "Pup"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मुर्गी के बच्चे का नाम क्या है?",
+      "options": [
+        "बत्तख का बच्चा",
+        "चूजा",
+        "बत्तख का बच्चा (Goose)",
+        "पिल्ला"
+      ],
+      "answer": 1
+    },
+    "level": 1,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5381",
+    "en": {
+      "question": "What is the chemical symbol for Phosphorus?",
+      "options": [
+        "P",
+        "Ph",
+        "Po",
+        "Ps"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "फास्फोरस (Phosphorus) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "P",
+        "Ph",
+        "Po",
+        "Ps"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5382",
+    "en": {
+      "question": "Which organ controls balance in the human body?",
+      "options": [
+        "Eyes",
+        "Inner Ear",
+        "Brain",
+        "Muscles"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मानव शरीर में संतुलन को कौन सा अंग नियंत्रित करता है?",
+      "options": [
+        "आंखें",
+        "आंतरिक कान",
+        "मस्तिष्क",
+        "मांसपेशियां"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5383",
+    "en": {
+      "question": "What is the currency of Israel?",
+      "options": [
+        "Dinar",
+        "Shekel",
+        "Dirham",
+        "Pound"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "इज़राइल की मुद्रा क्या है?",
+      "options": [
+        "दीनार",
+        "शेकेल",
+        "दिरहम",
+        "पाउंड"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "economics"
+  },
+  {
+    "id": "GK5387",
+    "en": {
+      "question": "What is the main function of leaves on a plant?",
+      "options": [
+        "Absorb water",
+        "Support the plant",
+        "Produce flowers",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे पर पत्तियों का मुख्य कार्य क्या है?",
+      "options": [
+        "पानी अवशोषित करना",
+        "पौधे को सहारा देना",
+        "फूल पैदा करना",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5388",
+    "en": {
+      "question": "What type of matter takes the shape of its container but has a fixed volume?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "किस प्रकार का पदार्थ अपने पात्र का आकार ले लेता है लेकिन उसका आयतन निश्चित होता है?",
+      "options": [
+        "ठोस",
+        "तरल",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "answer": 1
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5389",
+    "en": {
+      "question": "Which famous Impressionist painter created 'Water Lilies'?",
+      "options": [
+        "Pierre-Auguste Renoir",
+        "Edgar Degas",
+        "Camille Pissarro",
+        "Claude Monet"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रसिद्ध प्रभाववादी चित्रकार ने 'वाटर लिलीज़' बनाई?",
+      "options": [
+        "पियरे-अगस्टे रेनॉयर",
+        "एडगर डेगास",
+        "कैमिल पिसारो",
+        "क्लॉड मोनेट"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5390",
+    "en": {
+      "question": "What is the name for a baby bird (general term)?",
+      "options": [
+        "Chick/Hatchling",
+        "Fledgling",
+        "Nestling",
+        "All of the above depending on stage"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "पक्षी के बच्चे का सामान्य नाम क्या है?",
+      "options": [
+        "चूजा/हैचलिंग",
+        "फledgling",
+        "नेस्टलिंग",
+        "उपरोक्त सभी (अवस्था पर निर्भर करता है)"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5391",
+    "en": {
+      "question": "What is the chemical symbol for Aluminum?",
+      "options": [
+        "A",
+        "Al",
+        "Am",
+        "Au"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "एल्यूमीनियम (Aluminum) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "A",
+        "Al",
+        "Am",
+        "Au"
+      ],
+      "answer": 1
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5392",
+    "en": {
+      "question": "Which part of the body allows us to hear sounds?",
+      "options": [
+        "Eyes",
+        "Nose",
+        "Ears",
+        "Mouth"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "शरीर का कौन सा अंग हमें ध्वनियाँ सुनने की अनुमति देता है?",
+      "options": [
+        "आंखें",
+        "नाक",
+        "कान",
+        "मुंह"
+      ],
+      "answer": 2
+    },
+    "level": 2,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5393",
+    "en": {
+      "question": "Who wrote 'The Odyssey'?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates",
+        "Homer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द ओडिसी' किसने लिखा?",
+      "options": [
+        "प्लेटो",
+        "अरस्तू",
+        "सुकरात",
+        "होमर"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5394",
+    "en": {
+      "question": "What is the opposite of 'right' (direction)?",
+      "options": [
+        "Up",
+        "Down",
+        "Left",
+        "Straight"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'दाएं' (दिशा) का विपरीत क्या है?",
+      "options": [
+        "ऊपर",
+        "नीचे",
+        "बाएं",
+        "सीधा"
+      ],
+      "answer": 2
+    },
+    "level": 1,
+    "category": "language_basics"
+  },
+  {
+    "id": "GK5396",
+    "en": {
+      "question": "Which famous landmark is located in Paris, France?",
+      "options": [
+        "Colosseum",
+        "Big Ben",
+        "Statue of Liberty",
+        "Eiffel Tower"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा प्रसिद्ध स्थल पेरिस, फ्रांस में स्थित है?",
+      "options": [
+        "कोलोसियम",
+        "बिग बेन",
+        "स्टैच्यू ऑफ लिबर्टी",
+        "एफिल टॉवर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_landmarks"
+  },
+  {
+    "id": "GK5398",
+    "en": {
+      "question": "What gas do humans breathe out?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मनुष्य कौन सी गैस सांस के द्वारा बाहर निकालते हैं?",
+      "options": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5399",
+    "en": {
+      "question": "What is the name for a baby bat?",
+      "options": [
+        "Pup",
+        "Kit",
+        "Cub",
+        "Fawn"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "चमगादड़ के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "किट",
+        "शावक",
+        "हिरणशावक"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "biology_animals"
+  }
+]

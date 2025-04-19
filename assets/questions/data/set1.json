@@ -1,0 +1,27 @@
+[
+  {
+    "id": "q0005",
+    "en": {
+      "question": "Which gas makes up the majority of Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पृथ्वी के वायुमंडल का अधिकांश भाग कौन सी गैस बनाती है?",
+      "options": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हाइड्रोजन"
+      ],
+      "answer": 2
+    },
+    "level": 8,
+    "category": "environmental science"
+  }
+]

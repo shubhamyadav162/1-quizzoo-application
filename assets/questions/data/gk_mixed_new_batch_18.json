@@ -1,0 +1,2427 @@
+[
+  {
+    "id": "GK6701",
+    "en": {
+      "question": "What kind of music do planets like?",
+      "options": [
+        "Rock",
+        "Pop",
+        "Classical",
+        "Neptunes!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ग्रहों को किस तरह का संगीत पसंद है?",
+      "options": [
+        "रॉक",
+        "पॉप",
+        "क्लासिकल",
+        "नेपट्यून्स (Neptunes)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_space"
+  },
+  {
+    "id": "GK6702",
+    "en": {
+      "question": "Why was the math book sad?",
+      "options": [
+        "It was difficult",
+        "Nobody read it",
+        "It had bad reviews",
+        "Because it had too many problems!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गणित की किताब दुखी क्यों थी?",
+      "options": [
+        "वह कठिन थी",
+        "उसे कोई नहीं पढ़ता था",
+        "उसकी समीक्षा खराब थी",
+        "क्योंकि उसमें बहुत सारी समस्याएं (problems) थीं!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6703",
+    "en": {
+      "question": "What do you call a lazy person dressed as a historical figure?",
+      "options": [
+        "A History Slouch",
+        "A Costume Potato",
+        "A Period Piece of Laziness",
+        "Pro-Crastinator!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ऐतिहासिक व्यक्ति के वेश में एक आलसी व्यक्ति को आप क्या कहते हैं?",
+      "options": [
+        "ए हिस्ट्री स्लाउच",
+        "ए कॉस्ट्यूम पोटैटो",
+        "ए पीरियड पीस ऑफ लेज़ीनेस",
+        "प्रो-क्रास्टिनेटर (Pro-Crastinator)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_wordplay"
+  },
+  {
+    "id": "GK6704",
+    "en": {
+      "question": "Why don't skeletons fight each other?",
+      "options": [
+        "They are friends",
+        "They are too brittle",
+        "They can't move fast",
+        "They don't have the guts!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कंकाल एक-दूसरे से क्यों नहीं लड़ते?",
+      "options": [
+        "वे दोस्त हैं",
+        "वे बहुत भंगुर होते हैं",
+        "वे तेजी से नहीं चल सकते",
+        "उनमें हिम्मत (guts) नहीं होती!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_biology"
+  },
+  {
+    "id": "GK6705",
+    "en": {
+      "question": "What do you call a parade of rabbits hopping backwards?",
+      "options": [
+        "A Reverse Hop",
+        "A Bunny Backtrack",
+        "A Warren Wobble",
+        "A receding hare-line!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पीछे की ओर कूदते खरगोशों की परेड को आप क्या कहते हैं?",
+      "options": [
+        "ए रिवर्स हॉप",
+        "ए बनी बैकट्रैक",
+        "ए वॉरेन वॉबल",
+        "ए रिसीडिंग हेयर-लाइन (receding hare-line)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6706",
+    "en": {
+      "question": "What do you call a magic dog?",
+      "options": [
+        "A Houndini",
+        "A Poodle-cadabra",
+        "A Wizzard",
+        "A Labracadabrador!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक जादुई कुत्ते को क्या कहते हैं?",
+      "options": [
+        "ए हाउंडिनी",
+        "ए पूडल-कडाब्रा",
+        "ए विज़र्ड",
+        "ए लैब्राकडाब्रेडोर (Labracadabrador)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6707",
+    "en": {
+      "question": "Why did the cookie go to the doctor?",
+      "options": [
+        "It had a stomach ache",
+        "It was old",
+        "It got dropped",
+        "Because it felt crummy!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कुकी डॉक्टर के पास क्यों गई?",
+      "options": [
+        "उसके पेट में दर्द था",
+        "वह पुरानी थी",
+        "वह गिर गई थी",
+        "क्योंकि वह टुकड़े-टुकड़े (crummy) महसूस कर रही थी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_food"
+  },
+  {
+    "id": "GK6708",
+    "en": {
+      "question": "What do you call a boomerang that won't come back?",
+      "options": [
+        "A Lost Boomerang",
+        "A Broken Boomerang",
+        "A Bad Throw",
+        "A stick!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जो बूमरैंग वापस नहीं आएगा उसे आप क्या कहते हैं?",
+      "options": [
+        "खोया हुआ बूमरैंग",
+        "टूटा हुआ बूमरैंग",
+        "एक खराब थ्रो",
+        "एक छड़ी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6709",
+    "en": {
+      "question": "Why did the picture go to jail?",
+      "options": [
+        "It was stolen",
+        "It was offensive",
+        "It fell off the wall",
+        "Because it was framed!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "तस्वीर जेल क्यों गई?",
+      "options": [
+        "वह चोरी हो गई थी",
+        "वह आपत्तिजनक थी",
+        "वह दीवार से गिर गई थी",
+        "क्योंकि उसे फंसाया (framed) गया था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6710",
+    "en": {
+      "question": "What do you call a lazy eye doctor?",
+      "options": [
+        "A Slacker Spectacles",
+        "An Idle Optometrist",
+        "A Dozy Doctor",
+        "A Cornea-cutter! (Corner cutter)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी नेत्र चिकित्सक को क्या कहते हैं?",
+      "options": [
+        "ए स्लैकर स्पेक्टेकल्स",
+        "एन आइडल ऑप्टोमेट्रिस्ट",
+        "ए डोजी डॉक्टर",
+        "ए कॉर्निया-कटर (Cornea-cutter)! (कोना काटने वाला)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_wordplay"
+  },
+  {
+    "id": "GK6711",
+    "en": {
+      "question": "What is brown and sticky?",
+      "options": [
+        "Mud",
+        "Melted Chocolate",
+        "Tree Sap",
+        "A stick!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूरा और चिपचिपा क्या है?",
+      "options": [
+        "कीचड़",
+        "पिघला हुआ चॉकलेट",
+        "पेड़ का रस",
+        "एक छड़ी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_simple"
+  },
+  {
+    "id": "GK6712",
+    "en": {
+      "question": "What has one voice, but speaks all languages?",
+      "options": [
+        "A Translator",
+        "A Radio",
+        "The Internet",
+        "An echo!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी एक आवाज है, लेकिन वह सभी भाषाएं बोलता है?",
+      "options": [
+        "एक अनुवादक",
+        "एक रेडियो",
+        "इंटरनेट",
+        "एक गूंज!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_phenomena_sound"
+  },
+  {
+    "id": "GK6713",
+    "en": {
+      "question": "If you have it, you want to share it. If you share it, you don't have it. What is it?",
+      "options": [
+        "Money",
+        "Food",
+        "Happiness",
+        "A secret!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अगर यह आपके पास है, तो आप इसे साझा करना चाहते हैं। यदि आप इसे साझा करते हैं, तो यह आपके पास नहीं है। यह क्या है?",
+      "options": [
+        "पैसा",
+        "भोजन",
+        "खुशी",
+        "एक रहस्य!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_abstract_concepts"
+  },
+  {
+    "id": "GK6714",
+    "en": {
+      "question": "What has four fingers and a thumb, but isn't alive? (Similar to glove)",
+      "options": [
+        "A Handprint",
+        "A Fork",
+        "A Rake",
+        "A glove!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी चार उंगलियाँ और एक अंगूठा होता है, लेकिन वह जीवित नहीं है? (दस्ताने के समान)",
+      "options": [
+        "हाथ का निशान",
+        "एक कांटा",
+        "एक रेक",
+        "एक दस्ताना!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6715",
+    "en": {
+      "question": "What flies when it's born, lies when it's alive, and runs when it's dead?",
+      "options": [
+        "A Bird",
+        "A Butterfly",
+        "A Rumor",
+        "A snowflake!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पैदा होने पर क्या उड़ता है, जीवित रहने पर पड़ा रहता है, और मरने पर दौड़ता है?",
+      "options": [
+        "एक पक्षी",
+        "एक तितली",
+        "एक अफवाह",
+        "एक बर्फ का टुकड़ा!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_nature_metaphor"
+  },
+  {
+    "id": "GK6716",
+    "en": {
+      "question": "What is always spelled wrong?",
+      "options": [
+        "Mispelled",
+        "Nessessary",
+        "Definately",
+        "Wrong!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हमेशा गलत (wrong) क्या लिखा जाता है?",
+      "options": [
+        "Mispelled",
+        "Nessessary",
+        "Definately",
+        "Wrong (गलत)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_literal"
+  },
+  {
+    "id": "GK6717",
+    "en": {
+      "question": "Two fathers and two sons went fishing. They caught only 3 fish, but each person took home one fish. How?",
+      "options": [
+        "One fish got away",
+        "They shared",
+        "One person didn't fish",
+        "There were only 3 people (Grandfather, Father, Son)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "दो पिता और दो बेटे मछली पकड़ने गए। उन्होंने केवल 3 मछलियाँ पकड़ीं, लेकिन प्रत्येक व्यक्ति एक मछली घर ले गया। कैसे?",
+      "options": [
+        "एक मछली भाग गई",
+        "उन्होंने साझा किया",
+        "एक व्यक्ति ने मछली नहीं पकड़ी",
+        "वहाँ केवल 3 लोग थे (दादा, पिता, बेटा)"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_logic_family"
+  },
+  {
+    "id": "GK6718",
+    "en": {
+      "question": "What has to be broken before you can use it? (Egg variation)",
+      "options": [
+        "A Nut",
+        "A Coconut",
+        "A Safe",
+        "An egg!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "उपयोग करने से पहले किसे तोड़ना पड़ता है? (अंडे का रूप)",
+      "options": [
+        "एक अखरोट",
+        "एक नारियल",
+        "एक तिजोरी",
+        "एक अंडा!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_function"
+  },
+  {
+    "id": "GK6719",
+    "en": {
+      "question": "What question can someone ask all day long, always get different answers, and yet all the answers could be correct?",
+      "options": [
+        "How are you?",
+        "What's your name?",
+        "Where are you going?",
+        "What time is it?"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोई व्यक्ति पूरे दिन कौन सा प्रश्न पूछ सकता है, हमेशा अलग-अलग उत्तर प्राप्त कर सकता है, और फिर भी सभी उत्तर सही हो सकते हैं?",
+      "options": [
+        "आप कैसे हैं?",
+        "आपका नाम क्या है?",
+        "आप कहाँ जा रहे हैं?",
+        "समय क्या हुआ है?"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_logic_time"
+  },
+  {
+    "id": "GK6720",
+    "en": {
+      "question": "What is full of holes but strong as steel?",
+      "options": [
+        "A Net",
+        "A Sponge",
+        "A Sieve",
+        "A chain!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या छेदों से भरा है लेकिन स्टील जितना मजबूत है?",
+      "options": [
+        "एक जाल",
+        "एक स्पंज",
+        "एक छलनी",
+        "एक जंजीर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_properties"
+  },
+  {
+    "id": "GK6721",
+    "en": {
+      "question": "What is it the more you take, the more you leave behind?",
+      "options": [
+        "Money from a bank",
+        "Books from a library",
+        "Food from a plate",
+        "Footsteps!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "वह क्या है जिसे आप जितना अधिक लेते हैं, उतना ही अधिक पीछे छोड़ देते हैं?",
+      "options": [
+        "बैंक से पैसा",
+        "पुस्तकालय से किताबें",
+        "थाली से भोजन",
+        "कदमों के निशान!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_actions"
+  },
+  {
+    "id": "GK6722",
+    "en": {
+      "question": "What invention helps you see through things most people can't?",
+      "options": [
+        "Microscope",
+        "Telescope",
+        "Glasses",
+        "X-Ray Vision (figurative)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा आविष्कार आपको उन चीजों के आर-पार देखने में मदद करता है जिन्हें ज्यादातर लोग नहीं देख सकते?",
+      "options": [
+        "माइक्रोस्कोप",
+        "टेलीस्कोप",
+        "चश्मा",
+        "एक्स-रे विजन (लाक्षणिक)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_concepts"
+  },
+  {
+    "id": "GK6723",
+    "en": {
+      "question": "What do you throw out when you want to use it but take in when you don't want to use it?",
+      "options": [
+        "Trash",
+        "A Fishing Line",
+        "A Boomerang",
+        "An anchor!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब आप इसका उपयोग करना चाहते हैं तो आप क्या फेंक देते हैं लेकिन जब आप इसका उपयोग नहीं करना चाहते हैं तो अंदर ले लेते हैं?",
+      "options": [
+        "कचरा",
+        "एक मछली पकड़ने की लाइन",
+        "एक बूमरैंग",
+        "एक लंगर!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_objects_function"
+  },
+  {
+    "id": "GK6724",
+    "en": {
+      "question": "What has an endless supply of letters, but starts empty?",
+      "options": [
+        "A Library",
+        "A Dictionary",
+        "The Internet",
+        "A Postbox/Mailbox!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पास अक्षरों (letters - पत्र) की अंतहीन आपूर्ति होती है, लेकिन खाली शुरू होता है?",
+      "options": [
+        "एक पुस्तकालय",
+        "एक शब्दकोश",
+        "इंटरनेट",
+        "एक पोस्टबॉक्स/मेलबॉक्स!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_function_wordplay"
+  },
+  {
+    "id": "GK6725",
+    "en": {
+      "question": "What ship has no captain but two mates?",
+      "options": [
+        "A Ghost Ship",
+        "A Sunken Ship",
+        "A Friendship",
+        "A relationship!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस जहाज (ship) का कोई कप्तान नहीं होता लेकिन दो साथी (mates) होते हैं?",
+      "options": [
+        "एक भूतिया जहाज",
+        "एक डूबा हुआ जहाज",
+        "एक दोस्ती",
+        "एक रिश्ता (relationship)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_concepts"
+  },
+  {
+    "id": "GK6726",
+    "en": {
+      "question": "If you are in a race and pass the person in 3rd place, what position are you in?",
+      "options": [
+        "1st",
+        "2nd",
+        "4th",
+        "3rd!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि आप एक दौड़ में हैं और तीसरे स्थान पर व्यक्ति को पार करते हैं, तो आप किस स्थिति में हैं?",
+      "options": [
+        "पहला",
+        "दूसरा",
+        "चौथा",
+        "तीसरा!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_logic_situation"
+  },
+  {
+    "id": "GK6727",
+    "en": {
+      "question": "What kind of coat is always wet when you put it on?",
+      "options": [
+        "A Raincoat",
+        "A Winter Coat",
+        "A Fur Coat",
+        "A coat of paint!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस तरह का कोट (coat) जब आप पहनते हैं तो हमेशा गीला होता है?",
+      "options": [
+        "एक रेनकोट",
+        "एक विंटर कोट",
+        "एक फर कोट",
+        "पेंट का एक कोट!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6728",
+    "en": {
+      "question": "What gets shorter as it gets older? (Candle/Pencil variation)",
+      "options": [
+        "A Person",
+        "A Rope",
+        "A Story",
+        "A candle/pencil!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जैसे-जैसे यह पुराना होता जाता है, क्या छोटा होता जाता है? (मोमबत्ती/पेंसिल का रूप)",
+      "options": [
+        "एक व्यक्ति",
+        "एक रस्सी",
+        "एक कहानी",
+        "एक मोमबत्ती/पेंसिल!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_lifecycle"
+  },
+  {
+    "id": "GK6729",
+    "en": {
+      "question": "What is black and white and read all over?",
+      "options": [
+        "A Zebra",
+        "A Penguin",
+        "A Panda",
+        "A newspaper!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "काला और सफेद क्या है और हर जगह पढ़ा (read/red) जाता है?",
+      "options": [
+        "एक ज़ेबरा",
+        "एक पेंगुइन",
+        "एक पांडा",
+        "एक अखबार!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects_classic"
+  },
+  {
+    "id": "GK6730",
+    "en": {
+      "question": "What has a bottom at the top?",
+      "options": [
+        "A Mountain",
+        "A Tree",
+        "A Bottle",
+        "Your legs!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका तल ऊपर होता है?",
+      "options": [
+        "एक पहाड़",
+        "एक पेड़",
+        "एक बोतल",
+        "आपके पैर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_physical"
+  },
+  {
+    "id": "GK6731",
+    "en": {
+      "question": "What is easy to get into, but hard to get out of?",
+      "options": [
+        "A Car",
+        "A Maze",
+        "A Bed",
+        "Trouble!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसमें घुसना आसान है, लेकिन बाहर निकलना मुश्किल?",
+      "options": [
+        "एक कार",
+        "एक भूलभुलैया",
+        "एक बिस्तर",
+        "मुसीबत!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts"
+  },
+  {
+    "id": "GK6732",
+    "en": {
+      "question": "What word contains 26 letters, but only has three syllables?",
+      "options": [
+        "Encyclopedia",
+        "Congratulations",
+        "Unimaginatively",
+        "Alphabet!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस शब्द में 26 अक्षर (letters) होते हैं, लेकिन केवल तीन शब्दांश होते हैं?",
+      "options": [
+        "Encyclopedia",
+        "Congratulations",
+        "Unimaginatively",
+        "Alphabet (अल्फाबेट)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK6733",
+    "en": {
+      "question": "If you throw a blue stone into the Red Sea, what will it become?",
+      "options": [
+        "Red",
+        "Purple",
+        "Invisible",
+        "Wet!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि आप लाल सागर में एक नीला पत्थर फेंकते हैं, तो वह क्या बन जाएगा?",
+      "options": [
+        "लाल",
+        "बैंगनी",
+        "अदृश्य",
+        "गीला!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_lateral_thinking_science"
+  },
+  {
+    "id": "GK6734",
+    "en": {
+      "question": "What fruit is never found singly?",
+      "options": [
+        "Apple",
+        "Banana",
+        "Orange",
+        "Pear (Pair)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा फल कभी अकेले नहीं पाया जाता?",
+      "options": [
+        "सेब",
+        "केला",
+        "संतरा",
+        "नाशपाती (Pear/Pair - जोड़ा)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_food"
+  },
+  {
+    "id": "GK6735",
+    "en": {
+      "question": "What has 13 hearts, but no other organs?",
+      "options": [
+        "An Octopus",
+        "A Supernatural Creature",
+        "A Deck of Cards",
+        "A Valentine's Box!"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "किसके 13 दिल (hearts) होते हैं, लेकिन कोई अन्य अंग नहीं?",
+      "options": [
+        "एक ऑक्टोपस",
+        "एक अलौकिक प्राणी",
+        "ताश की गड्डी",
+        "एक वेलेंटाइन बॉक्स!"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6736",
+    "en": {
+      "question": "How do you make the number one disappear?",
+      "options": [
+        "Erase it",
+        "Subtract one",
+        "Cover it",
+        "Add the letter 'G' and it's 'gone'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप नंबर एक (one) को कैसे गायब करते हैं?",
+      "options": [
+        "इसे मिटा दें",
+        "एक घटाएं",
+        "इसे ढक दें",
+        "अक्षर 'G' जोड़ें और यह 'gone' (चला गया) हो जाता है!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_numbers"
+  },
+  {
+    "id": "GK6737",
+    "en": {
+      "question": "What did the left eye say to the right eye?",
+      "options": [
+        "'You look tired.'",
+        "'Watch out!'",
+        "'Nice view.'",
+        "'Between you and me, something smells!'"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बाईं आँख ने दाईं आँख से क्या कहा?",
+      "options": [
+        "'तुम थके हुए लग रहे हो।'",
+        "'ध्यान रखना!'",
+        "'अच्छा नज़ारा है।'",
+        "'तुम्हारे और मेरे बीच, कुछ बदबू आ रही है!'"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_simple"
+  },
+  {
+    "id": "GK6738",
+    "en": {
+      "question": "What can you serve, but never eat?",
+      "options": [
+        "Soup",
+        "Cake",
+        "Ice Cream",
+        "A tennis ball!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप क्या परोस (serve) सकते हैं, लेकिन कभी खा नहीं सकते?",
+      "options": [
+        "सूप",
+        "केक",
+        "आइसक्रीम",
+        "एक टेनिस बॉल!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_verbs"
+  },
+  {
+    "id": "GK6739",
+    "en": {
+      "question": "What two keys cannot open any door?",
+      "options": [
+        "A Skeleton Key and Master Key",
+        "A Car Key and House Key",
+        "A Wrong Key and Broken Key",
+        "A Monkey and a Donkey!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी दो चाबियाँ (keys) कोई दरवाजा नहीं खोल सकतीं?",
+      "options": [
+        "एक स्केलेटन की और मास्टर की",
+        "एक कार की चाबी और घर की चाबी",
+        "एक गलत चाबी और टूटी हुई चाबी",
+        "एक बंदर (Monkey) और एक गधा (Donkey)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6740",
+    "en": {
+      "question": "What is full of ears but cannot hear?",
+      "options": [
+        "A Telephone",
+        "A Crowd",
+        "A Radio",
+        "A cornfield!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या कानों (ears) से भरा है लेकिन सुन नहीं सकता?",
+      "options": [
+        "एक टेलीफोन",
+        "एक भीड़",
+        "एक रेडियो",
+        "एक मकई का खेत!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_nature"
+  },
+  {
+    "id": "GK6741",
+    "en": {
+      "question": "What gets broken without being held?",
+      "options": [
+        "A Glass",
+        "A Rule",
+        "A Heart",
+        "A promise / The silence!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना पकड़े क्या टूट जाता है?",
+      "options": [
+        "एक गिलास",
+        "एक नियम",
+        "एक दिल",
+        "एक वादा / खामोशी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_abstract_concepts"
+  },
+  {
+    "id": "GK6742",
+    "en": {
+      "question": "What has four legs but cannot walk?",
+      "options": [
+        "A Dog",
+        "A Bed",
+        "A Chair",
+        "A table!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी चार टाँगें होती हैं लेकिन चल नहीं सकता?",
+      "options": [
+        "एक कुत्ता",
+        "एक बिस्तर",
+        "एक कुर्सी",
+        "एक मेज़!"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6743",
+    "en": {
+      "question": "What room do ghosts avoid?",
+      "options": [
+        "The Attic",
+        "The Basement",
+        "The Bedroom",
+        "The living room!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूत किस कमरे से बचते हैं?",
+      "options": [
+        "अटारी",
+        "तहखाना",
+        "शयनकक्ष",
+        "लिविंग रूम (living room)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_supernatural"
+  },
+  {
+    "id": "GK6744",
+    "en": {
+      "question": "What stays in a corner but travels the world? (Stamp variation)",
+      "options": [
+        "A Spider",
+        "Dust",
+        "A Suitcase",
+        "A stamp!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या कोने में रहता है लेकिन दुनिया की यात्रा करता है? (डाक टिकट का रूप)",
+      "options": [
+        "एक मकड़ी",
+        "धूल",
+        "एक सूटकेस",
+        "एक डाक टिकट!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_function"
+  },
+  {
+    "id": "GK6745",
+    "en": {
+      "question": "Take off my skin, I won't cry, but you will! What am I?",
+      "options": [
+        "A Snake",
+        "A Banana",
+        "A Potato",
+        "An onion!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेरी त्वचा उतारो, मैं नहीं रोऊंगा, लेकिन तुम रोओगे! मैं क्या हूँ?",
+      "options": [
+        "एक सांप",
+        "एक केला",
+        "एक आलू",
+        "एक प्याज!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_food_properties"
+  },
+  {
+    "id": "GK6746",
+    "en": {
+      "question": "What is the longest word in the English language?",
+      "options": [
+        "Antidisestablishmentarianism",
+        "Supercalifragilisticexpialidocious",
+        "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "Smiles (mile between S's)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "अंग्रेजी भाषा का सबसे लंबा शब्द कौन सा है?",
+      "options": [
+        "Antidisestablishmentarianism",
+        "Supercalifragilisticexpialidocious",
+        "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "Smiles (S के बीच मील)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK6747",
+    "en": {
+      "question": "What has six faces, but does not wear makeup, and twenty-one eyes, but cannot see?",
+      "options": [
+        "A Monster",
+        "A Group of People",
+        "A Fly",
+        "A die (dice)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके छह चेहरे (faces) होते हैं, पर मेकअप नहीं करता, और इक्कीस आँखें (eyes/dots) होती हैं, पर देख नहीं सकता?",
+      "options": [
+        "एक राक्षस",
+        "लोगों का समूह",
+        "एक मक्खी",
+        "एक पासा (die/dice)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6748",
+    "en": {
+      "question": "What is bought by the yard and worn by the foot?",
+      "options": [
+        "Shoes",
+        "Socks",
+        "Cloth",
+        "Carpet!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या गज (yard) से खरीदा जाता है और फुट (foot) से पहना जाता है?",
+      "options": [
+        "जूते",
+        "मोज़े",
+        "कपड़ा",
+        "कालीन!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_units"
+  },
+  {
+    "id": "GK6749",
+    "en": {
+      "question": "A man looks at a painting in a museum and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the painting?",
+      "options": [
+        "The man himself",
+        "His Father",
+        "His Uncle",
+        "His Son!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक आदमी संग्रहालय में एक पेंटिंग को देखता है और कहता है, 'मेरे कोई भाई-बहन नहीं हैं, लेकिन उस आदमी का पिता मेरे पिता का बेटा है।' पेंटिंग में कौन है?",
+      "options": [
+        "आदमी खुद",
+        "उसके पिता",
+        "उसके चाचा",
+        "उसका बेटा!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_logic_family_classic"
+  },
+  {
+    "id": "GK6750",
+    "en": {
+      "question": "What is cut on a table, but is never eaten?",
+      "options": [
+        "A Cake",
+        "A Pizza",
+        "Fruit",
+        "A deck of cards!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मेज पर क्या काटा (cut) जाता है, लेकिन कभी खाया नहीं जाता?",
+      "options": [
+        "एक केक",
+        "एक पिज्जा",
+        "फल",
+        "ताश की गड्डी!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6751",
+    "en": {
+      "question": "What is pronounced as one letter, but written with three, and only two different letters are used?",
+      "options": [
+        "Tea",
+        "You",
+        "Why",
+        "Eye!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका उच्चारण एक अक्षर के रूप में किया जाता है, लेकिन तीन से लिखा जाता है, और केवल दो अलग-अलग अक्षरों का उपयोग किया जाता है?",
+      "options": [
+        "Tea (चाय)",
+        "You (तुम)",
+        "Why (क्यों)",
+        "Eye (आंख)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK6752",
+    "en": {
+      "question": "What has eighty-eight keys but cannot open a single door?",
+      "options": [
+        "A Large Bunch of Keys",
+        "A Hotel Reception Desk",
+        "A Computer Keyboard",
+        "A piano!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पास अठासी चाबियाँ (keys) होती हैं लेकिन एक भी दरवाजा नहीं खोल सकता?",
+      "options": [
+        "चाबियों का एक बड़ा गुच्छा",
+        "एक होटल रिसेप्शन डेस्क",
+        "एक कंप्यूटर कीबोर्ड",
+        "एक पियानो!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_wordplay"
+  },
+  {
+    "id": "GK6753",
+    "en": {
+      "question": "What has branches, but no fruit, trunk or leaves?",
+      "options": [
+        "A River",
+        "A Road Network",
+        "A Family Tree",
+        "A bank!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी शाखाएँ (branches) होती हैं लेकिन फल, तना या पत्ते नहीं?",
+      "options": [
+        "एक नदी",
+        "एक सड़क नेटवर्क",
+        "एक परिवार का पेड़",
+        "एक बैंक!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6754",
+    "en": {
+      "question": "What is always answered without being asked a question?",
+      "options": [
+        "A Riddle",
+        "A Greeting",
+        "A Password",
+        "A doorbell / telephone!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना प्रश्न पूछे हमेशा किसका उत्तर दिया जाता है?",
+      "options": [
+        "एक पहेली",
+        "एक अभिवादन",
+        "एक पासवर्ड",
+        "एक दरवाजे की घंटी / टेलीफोन!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_objects_function"
+  },
+  {
+    "id": "GK6755",
+    "en": {
+      "question": "What goes through cities and fields, but never moves?",
+      "options": [
+        "A River",
+        "The Wind",
+        "A Train Track",
+        "A road!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शहरों और खेतों से क्या गुजरता है, लेकिन कभी हिलता नहीं?",
+      "options": [
+        "एक नदी",
+        "हवा",
+        "एक ट्रेन ट्रैक",
+        "एक सड़क!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_position"
+  },
+  {
+    "id": "GK6756",
+    "en": {
+      "question": "What can you put in a bucket to make it weigh less?",
+      "options": [
+        "Feathers",
+        "Water",
+        "Sand",
+        "A hole!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप बाल्टी में क्या डाल सकते हैं जिससे उसका वजन कम हो जाए?",
+      "options": [
+        "पंख",
+        "पानी",
+        "रेत",
+        "एक छेद!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_logic_physical"
+  },
+  {
+    "id": "GK6757",
+    "en": {
+      "question": "What do you call a lazy baby kangaroo that also tells fibs?",
+      "options": [
+        "A Lying Pouch Potato",
+        "A Fibbing Joey",
+        "A Deceptive Roo",
+        "A Pouch-fib-ian!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी कंगारू के बच्चे को क्या कहते हैं जो झूठ भी बोलता है?",
+      "options": [
+        "ए लाइंग पाउच पोटैटो",
+        "ए फिबिंग जॉय",
+        "ए डिसेप्टिव रू",
+        "ए पाउच-फिब-इयन!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_animals_complex"
+  },
+  {
+    "id": "GK6758",
+    "en": {
+      "question": "Why did the golfer wear two pairs of pants?",
+      "options": [
+        "It was cold",
+        "He spilled coffee",
+        "One pair had a hole",
+        "In case he got a hole-in-one!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गोल्फर ने दो पैंट क्यों पहने थे?",
+      "options": [
+        "ठंड थी",
+        "उसने कॉफ़ी गिरा दी थी",
+        "एक पैंट में छेद था",
+        "इस स्थिति में कि उसे होल-इन-वन मिल जाए!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_sports"
+  },
+  {
+    "id": "GK6759",
+    "en": {
+      "question": "What do you call a bear with no teeth?",
+      "options": [
+        "A Soft Bear",
+        "An Old Bear",
+        "A Harmless Bear",
+        "A gummy bear!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना दांत वाले भालू को आप क्या कहते हैं?",
+      "options": [
+        "एक नरम भालू",
+        "एक बूढ़ा भालू",
+        "एक हानिरहित भालू",
+        "एक गमी बेयर!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6760",
+    "en": {
+      "question": "Why did the student eat his homework?",
+      "options": [
+        "He was hungry",
+        "His dog wasn't there",
+        "He didn't do it",
+        "Because the teacher said it was a piece of cake!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "छात्र ने अपना होमवर्क क्यों खा लिया?",
+      "options": [
+        "वह भूखा था",
+        "उसका कुत्ता वहाँ नहीं था",
+        "उसने यह नहीं किया था",
+        "क्योंकि शिक्षक ने कहा था कि यह केक का टुकड़ा (a piece of cake) है!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_school"
+  },
+  {
+    "id": "GK6761",
+    "en": {
+      "question": "What do you call a sleeping bull?",
+      "options": [
+        "A Nap-a-bull",
+        "A Dozer",
+        "A Tired Bovine",
+        "A bulldozer!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोते हुए बैल को आप क्या कहते हैं?",
+      "options": [
+        "ए नैप-ए-बुल",
+        "ए डोजर",
+        "ए टायर्ड बोवाइन",
+        "एक बुलडोजर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6762",
+    "en": {
+      "question": "What do you get from a pampered cow?",
+      "options": [
+        "Happy Milk",
+        "Rich Cream",
+        "Better Beef",
+        "Spoiled milk!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "लाड़-प्यार वाली गाय से आपको क्या मिलता है?",
+      "options": [
+        "खुश दूध",
+        "समृद्ध क्रीम",
+        "बेहतर बीफ",
+        "खराब दूध (Spoiled milk)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6763",
+    "en": {
+      "question": "Why are ghosts bad liars?",
+      "options": [
+        "They are too honest",
+        "They stutter",
+        "They forget their lies",
+        "Because you can see right through them!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूत बुरे झूठे क्यों होते हैं?",
+      "options": [
+        "वे बहुत ईमानदार होते हैं",
+        "वे हकलाते हैं",
+        "वे अपने झूठ भूल जाते हैं",
+        "क्योंकि आप उनके आर-पार देख (see right through them) सकते हैं!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_supernatural"
+  },
+  {
+    "id": "GK6764",
+    "en": {
+      "question": "What did the ocean say to the beach?",
+      "options": [
+        "'You look nice today.'",
+        "'Let's meet later.'",
+        "'Watch out for the tide.'",
+        "Nothing, it just waved!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "समुद्र ने समुद्र तट से क्या कहा?",
+      "options": [
+        "'तुम आज अच्छे लग रहे हो।'",
+        "'चलो बाद में मिलते हैं।'",
+        "'ज्वार से सावधान रहना।'",
+        "कुछ नहीं, उसने सिर्फ हाथ हिलाया (waved)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_nature"
+  },
+  {
+    "id": "GK6765",
+    "en": {
+      "question": "What animal is always at a baseball game?",
+      "options": [
+        "A Dog (Hot Dog)",
+        "A Chicken (Foul Ball)",
+        "A Seal (Seal the deal)",
+        "A bat!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर हमेशा बेसबॉल खेल में होता है?",
+      "options": [
+        "एक कुत्ता (हॉट डॉग)",
+        "एक चिकन (फाउल बॉल)",
+        "एक सील (Seal the deal)",
+        "एक बल्ला/चमगादड़ (bat)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals_sports"
+  },
+  {
+    "id": "GK6766",
+    "en": {
+      "question": "Why did the M&M go to school?",
+      "options": [
+        "To learn colors",
+        "To make friends",
+        "To get a degree",
+        "Because he really wanted to be a Smartie!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एम एंड एम स्कूल क्यों गया?",
+      "options": [
+        "रंग सीखने के लिए",
+        "दोस्त बनाने के लिए",
+        "डिग्री पाने के लिए",
+        "क्योंकि वह वास्तव में एक स्मार्टी (Smartie) बनना चाहता था!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_food_brands"
+  },
+  {
+    "id": "GK6767",
+    "en": {
+      "question": "What do you call a fake noodle?",
+      "options": [
+        "A Mockaroni",
+        "A Pseudo Pasta",
+        "A Fraud-uccine",
+        "An Impasta!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक नकली नूडल को क्या कहते हैं?",
+      "options": [
+        "ए मॉकारोनी",
+        "ए स्यूडो पास्ता",
+        "ए फ्रॉड-उचीनी",
+        "एन इम्पोस्टा (Impasta)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_food"
+  },
+  {
+    "id": "GK6768",
+    "en": {
+      "question": "Why was the broom late?",
+      "options": [
+        "It got stuck",
+        "It couldn't find its way",
+        "It was cleaning",
+        "It over-swept!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "झाड़ू देर से क्यों आई?",
+      "options": [
+        "वह फंस गई थी",
+        "उसे रास्ता नहीं मिल रहा था",
+        "वह सफाई कर रही थी",
+        "वह ज्यादा सो (over-swept) गई थी!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6769",
+    "en": {
+      "question": "What do you call a psychic little person escaping from prison?",
+      "options": [
+        "A Fortunate Teller",
+        "A Mini Medium Escapee",
+        "A Clairvoyant Convict",
+        "A small medium at large!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जेल से भाग रहे एक मानसिक छोटे व्यक्ति को आप क्या कहते हैं?",
+      "options": [
+        "ए फॉर्च्युनेट टेलर",
+        "ए मिनी मीडियम एस्केपी",
+        "ए क्लैरवॉयंट कॉन्विक्ट",
+        "फरार एक छोटा माध्यम (A small medium at large)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "jokes_puns_complex"
+  },
+  {
+    "id": "GK6770",
+    "en": {
+      "question": "How does a penguin build its house?",
+      "options": [
+        "With ice blocks",
+        "With stones",
+        "By digging",
+        "Igloos it together!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक पेंगुइन अपना घर कैसे बनाता है?",
+      "options": [
+        "बर्फ के टुकड़ों से",
+        "पत्थरों से",
+        "खोदकर",
+        "इग्लू इसे एक साथ (Igloos it together)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6771",
+    "en": {
+      "question": "What starts with an E, ends with an E, but only contains one letter? (Envelope variation)",
+      "options": [
+        "Eye",
+        "Eke",
+        "Escape",
+        "Envelope!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या E से शुरू होता है, E पर समाप्त होता है, लेकिन केवल एक अक्षर (letter - पत्र) होता है? (लिफाफा भिन्नता)",
+      "options": [
+        "Eye (आंख)",
+        "Eke (कठिनाई से गुजारा करना)",
+        "Escape (बचना)",
+        "Envelope (लिफाफा)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_doublemeaning"
+  },
+  {
+    "id": "GK6772",
+    "en": {
+      "question": "A word I know, six letters it contains, remove one letter, and twelve remains. What is it?",
+      "options": [
+        "Sixty",
+        "Single",
+        "Twelve",
+        "Dozens!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक शब्द मैं जानता हूँ, उसमें छह अक्षर हैं, एक अक्षर हटा दें, और बारह शेष रहें। यह क्या है?",
+      "options": [
+        "Sixty (साठ)",
+        "Single (एकल)",
+        "Twelve (बारह)",
+        "Dozens (दर्जनों)!"
+      ],
+      "answer": 3
+    },
+    "level": 8,
+    "category": "riddles_wordplay_numbers"
+  },
+  {
+    "id": "GK6773",
+    "en": {
+      "question": "What is always behind the sun but is never seen?",
+      "options": [
+        "The Moon",
+        "Stars",
+        "Darkness",
+        "The letter 'N'!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "क्या हमेशा सूरज (sun) के पीछे होता है लेकिन कभी नहीं देखा जाता?",
+      "options": [
+        "चंद्रमा",
+        "तारे",
+        "अंधेरा",
+        "अक्षर 'N'!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_letters"
+  },
+  {
+    "id": "GK6774",
+    "en": {
+      "question": "What has no beginning, end, or middle?",
+      "options": [
+        "A Circle",
+        "A Line",
+        "Time",
+        "A donut!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका कोई आदि, अंत या मध्य नहीं होता?",
+      "options": [
+        "एक वृत्त",
+        "एक रेखा",
+        "समय",
+        "एक डोनट!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_objects_properties"
+  },
+  {
+    "id": "GK6775",
+    "en": {
+      "question": "What has wheels and flies, but is not an aircraft? (Garbage truck variation)",
+      "options": [
+        "A Rolling Suitcase",
+        "A Wheelchair with wings",
+        "A Shopping Cart",
+        "A garbage truck!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसके पहिए होते हैं और उड़ता (flies) है, लेकिन विमान नहीं है? (कचरा ट्रक भिन्नता)",
+      "options": [
+        "एक रोलिंग सूटकेस",
+        "पंखों वाली व्हीलचेयर",
+        "एक शॉपिंग कार्ट",
+        "एक कचरा ट्रक!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_doublemeaning"
+  },
+  {
+    "id": "GK6776",
+    "en": {
+      "question": "How can you tell if a vampire has a cold?",
+      "options": [
+        "He looks pale",
+        "He avoids garlic",
+        "He sleeps more",
+        "He starts coffin!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप कैसे बता सकते हैं कि एक पिशाच को जुकाम है?",
+      "options": [
+        "वह पीला दिखता है",
+        "वह लहसुन से बचता है",
+        "वह अधिक सोता है",
+        "वह खांसना (coffin) शुरू कर देता है!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_supernatural"
+  },
+  {
+    "id": "GK6777",
+    "en": {
+      "question": "What do you call a fly without wings?",
+      "options": [
+        "A Crawl",
+        "A Bug",
+        "A Glider",
+        "A walk!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "बिना पंखों वाली मक्खी (fly) को आप क्या कहते हैं?",
+      "options": [
+        "एक क्रॉल",
+        "एक बग",
+        "एक ग्लाइडर",
+        "एक वॉक (walk)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6778",
+    "en": {
+      "question": "Why did the teddy bear turn down a second helping of dinner? (Stuffed variation)",
+      "options": [
+        "He was full",
+        "He didn't like it",
+        "He was sleepy",
+        "He was already stuffed!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "टेडी बियर ने रात के खाने की दूसरी मदद क्यों ठुकरा दी? (भरवां भिन्नता)",
+      "options": [
+        "उसका पेट भर गया था",
+        "उसे यह पसंद नहीं आया",
+        "उसे नींद आ रही थी",
+        "वह पहले से ही भरा हुआ (stuffed) था!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6779",
+    "en": {
+      "question": "What kind of key opens a banana?",
+      "options": [
+        "A Skeleton Key",
+        "A Golden Key",
+        "A Fruit Key",
+        "A monkey!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस तरह की चाबी (key) केला खोलती है?",
+      "options": [
+        "एक स्केलेटन की",
+        "एक सुनहरी चाबी",
+        "एक फ्रूट की",
+        "एक बंदर (monkey)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_animals_food"
+  },
+  {
+    "id": "GK6780",
+    "en": {
+      "question": "Why don't cannibals eat clowns?",
+      "options": [
+        "They are not tasty",
+        "They are scary",
+        "They are protected",
+        "Because they taste funny!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नरभक्षी जोकर क्यों नहीं खाते?",
+      "options": [
+        "वे स्वादिष्ट नहीं होते",
+        "वे डरावने होते हैं",
+        "वे संरक्षित हैं",
+        "क्योंकि उनका स्वाद मजाकिया (funny) होता है!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_darkhumor"
+  },
+  {
+    "id": "GK6781",
+    "en": {
+      "question": "What goes up when the rain comes down?",
+      "options": [
+        "Temperature",
+        "Plants",
+        "River levels",
+        "An umbrella!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब बारिश नीचे आती है तो क्या ऊपर जाता है?",
+      "options": [
+        "तापमान",
+        "पौधे",
+        "नदी का स्तर",
+        "एक छाता!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_function"
+  },
+  {
+    "id": "GK6782",
+    "en": {
+      "question": "What did the traffic light say to the car?",
+      "options": [
+        "'Stop!'",
+        "'Hurry up!'",
+        "'Be careful!'",
+        "'Don't look! I'm about to change!'"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ट्रैफिक लाइट ने कार से क्या कहा?",
+      "options": [
+        "'रुको!'",
+        "'जल्दी करो!'",
+        "'सावधान रहो!'",
+        "'मत देखो! मैं बदलने वाला हूँ!'"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6783",
+    "en": {
+      "question": "Where does Friday come before Thursday?",
+      "options": [
+        "In leap years",
+        "On another planet",
+        "In a parallel universe",
+        "In the dictionary!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "शुक्रवार गुरुवार से पहले कहाँ आता है?",
+      "options": [
+        "लीप वर्ष में",
+        "दूसरे ग्रह पर",
+        "एक समानांतर ब्रह्मांड में",
+        "शब्दकोश में!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_calendar"
+  },
+  {
+    "id": "GK6784",
+    "en": {
+      "question": "What has no body, but has a soul?",
+      "options": [
+        "A Ghost",
+        "Music",
+        "A Shoe",
+        "A shoe (sole)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसका शरीर नहीं है, लेकिन आत्मा (soul/sole) है?",
+      "options": [
+        "एक भूत",
+        "संगीत",
+        "एक जूता",
+        "एक जूता (sole)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6785",
+    "en": {
+      "question": "What animal can jump higher than a house?",
+      "options": [
+        "A Kangaroo",
+        "A Flea",
+        "A Grasshopper",
+        "Any animal (houses can't jump)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा जानवर घर से ऊंचा कूद सकता है?",
+      "options": [
+        "एक कंगारू",
+        "एक पिस्सू",
+        "एक टिड्डा",
+        "कोई भी जानवर (घर कूद नहीं सकते)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_lateral_thinking"
+  },
+  {
+    "id": "GK6786",
+    "en": {
+      "question": "What type of music are balloons scared of?",
+      "options": [
+        "Rock music",
+        "Loud music",
+        "Classical music",
+        "Pop music!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "गुब्बारे किस तरह के संगीत से डरते हैं?",
+      "options": [
+        "रॉक संगीत",
+        "जोर का संगीत",
+        "शास्त्रीय संगीत",
+        "पॉप संगीत!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6787",
+    "en": {
+      "question": "What time is it when an elephant sits on a fence?",
+      "options": [
+        "Lunchtime",
+        "Bedtime",
+        "Summertime",
+        "Time to get a new fence!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "जब हाथी बाड़ पर बैठता है तो क्या समय होता है?",
+      "options": [
+        "दोपहर के भोजन का समय",
+        "सोने का समय",
+        "गर्मी का समय",
+        "नई बाड़ लगाने का समय!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_animals_classic"
+  },
+  {
+    "id": "GK6791",
+    "en": {
+      "question": "What word becomes longer when you remove the first letter?",
+      "options": [
+        "Grow",
+        "Stretch",
+        "Tall",
+        "Langer (Anger)!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पहला अक्षर हटाने पर कौन सा शब्द लंबा हो जाता है?",
+      "options": [
+        "Grow (बढ़ना)",
+        "Stretch (खिंचाव)",
+        "Tall (लंबा)",
+        "Langer (Anger - गुस्सा)!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "riddles_wordplay_language"
+  },
+  {
+    "id": "GK6792",
+    "en": {
+      "question": "What do you call a group of musical whales?",
+      "options": [
+        "A Whale Band",
+        "A Sea Symphony",
+        "A Fin-harmonic",
+        "An Orca-stra!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संगीत बजाने वाली व्हेल के समूह को आप क्या कहते हैं?",
+      "options": [
+        "ए व्हेल बैंड",
+        "ए सी सिम्फनी",
+        "ए फिन-हार्मोनिक",
+        "एन ऑर्का-स्ट्रा (Orca-stra)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_animals"
+  },
+  {
+    "id": "GK6793",
+    "en": {
+      "question": "If April showers bring May flowers, what do May flowers bring?",
+      "options": [
+        "June bugs",
+        "Summer",
+        "Bees",
+        "Pilgrims!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यदि अप्रैल की बौछारें मई के फूल लाती हैं, तो मई के फूल क्या लाते हैं?",
+      "options": [
+        "जून बग्स",
+        "गर्मी",
+        "मधुमक्खियाँ",
+        "तीर्थयात्री (Pilgrims)!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "riddles_wordplay_calendar_classic"
+  },
+  {
+    "id": "GK6794",
+    "en": {
+      "question": "What did the triangle say to the circle?",
+      "options": [
+        "'You're round.'",
+        "'Let's hang out.'",
+        "'Nice shape.'",
+        "'You're pointless!'"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "त्रिकोण ने वृत्त से क्या कहा?",
+      "options": [
+        "'तुम गोल हो।'",
+        "'चलो घूमते हैं।'",
+        "'अच्छा आकार है।'",
+        "'तुम व्यर्थ (pointless) हो!'"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_shapes"
+  },
+  {
+    "id": "GK6795",
+    "en": {
+      "question": "What is orange and sounds like a parrot?",
+      "options": [
+        "An Orange Parrot",
+        "A Tangerine",
+        "Orange Juice",
+        "A carrot!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "नारंगी क्या है और तोते की तरह लगता है?",
+      "options": [
+        "एक नारंगी तोता",
+        "एक कीनू",
+        "नारंगी का रस",
+        "एक गाजर!"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "jokes_puns_food"
+  },
+  {
+    "id": "GK6796",
+    "en": {
+      "question": "What did one wall say to the other wall?",
+      "options": [
+        "'You look tall.'",
+        "'Let's hold up the roof.'",
+        "'Nice paint.'",
+        "'I'll meet you at the corner!'"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "एक दीवार ने दूसरी दीवार से क्या कहा?",
+      "options": [
+        "'तुम ऊंचे लग रहे हो।'",
+        "'चलो छत को पकड़ते हैं।'",
+        "'अच्छा पेंट है।'",
+        "'मैं तुमसे कोने में मिलूंगा!'"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "jokes_puns_objects"
+  },
+  {
+    "id": "GK6797",
+    "en": {
+      "question": "What bank has no money?",
+      "options": [
+        "A Closed Bank",
+        "A Piggy Bank",
+        "A Bankrupt Bank",
+        "A riverbank!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस बैंक (bank) में पैसा नहीं होता?",
+      "options": [
+        "एक बंद बैंक",
+        "एक गुल्लक",
+        "एक दिवालिया बैंक",
+        "एक नदी का किनारा (riverbank)!"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "riddles_wordplay_objects"
+  },
+  {
+    "id": "GK6798",
+    "en": {
+      "question": "Why did the man put his money in the blender?",
+      "options": [
+        "To hide it",
+        "To count it",
+        "To clean it",
+        "He wanted to make liquid assets!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आदमी ने अपना पैसा ब्लेंडर में क्यों डाला?",
+      "options": [
+        "इसे छिपाने के लिए",
+        "इसे गिनने के लिए",
+        "इसे साफ करने के लिए",
+        "वह तरल संपत्ति (liquid assets) बनाना चाहता था!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_finance"
+  },
+  {
+    "id": "GK6799",
+    "en": {
+      "question": "What has one eye but is blind? (Needle variation)",
+      "options": [
+        "A Storm",
+        "A Potato",
+        "A Coconut",
+        "A needle!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किसकी एक आँख होती है पर अंधी होती है? (सुई भिन्नता)",
+      "options": [
+        "एक तूफ़ान",
+        "एक आलू",
+        "एक नारियल",
+        "एक सुई!"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "riddles_objects_parts"
+  },
+  {
+    "id": "GK6800",
+    "en": {
+      "question": "What do you call a lazy kangaroo who's also a ghost?",
+      "options": [
+        "A Spooky Pouch Potato",
+        "A Joey Boooo",
+        "A Marsupial Specter",
+        "A Pouch-tergeist!"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "आप एक आलसी कंगारू को क्या कहते हैं जो एक भूत भी है?",
+      "options": [
+        "ए स्पूकी पाउच पोटैटो",
+        "ए जॉय बूऊऊ",
+        "ए मार्सुपियल स्पेक्टर",
+        "ए पाउच-टरजिस्ट!"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "jokes_puns_animals_supernatural"
+  }
+]

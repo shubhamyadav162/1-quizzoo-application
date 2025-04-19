@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GK5402",
+    "en": {
+      "question": "What is the chemical symbol for Lithium?",
+      "options": [
+        "L",
+        "Li",
+        "Lt",
+        "Lm"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "लिथियम (Lithium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "L",
+        "Li",
+        "Lt",
+        "Lm"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5403",
+    "en": {
+      "question": "Which structure carries blood away from the heart?",
+      "options": [
+        "Vein",
+        "Capillary",
+        "Artery",
+        "Nerve"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "कौन सी संरचना हृदय से रक्त दूर ले जाती है?",
+      "options": [
+        "नस",
+        "केशिका",
+        "धमनी",
+        "तंत्रिका"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5404",
+    "en": {
+      "question": "What is the name for a baby alligator?",
+      "options": [
+        "Hatchling",
+        "Pup",
+        "Calf",
+        "Fry"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "घड़ियाल के बच्चे का नाम क्या है?",
+      "options": [
+        "हैचलिंग",
+        "पिल्ला",
+        "बछड़ा",
+        "फ्राई"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "biology_reptiles"
+  },
+  {
+    "id": "GK5405",
+    "en": {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": [
+        "Ernest Hemingway",
+        "F. Scott Fitzgerald",
+        "Harper Lee",
+        "John Steinbeck"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'टू किल अ मॉकिंगबर्ड' किसने लिखा?",
+      "options": [
+        "अर्नेस्ट हेमिंग्वे",
+        "एफ. स्कॉट फिट्जगेराल्ड",
+        "हार्पर ली",
+        "जॉन स्टीनबेक"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5407",
+    "en": {
+      "question": "Which unit is used to measure electrical resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Watt",
+        "Ohm"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "विद्युत प्रतिरोध को मापने के लिए किस इकाई का उपयोग किया जाता है?",
+      "options": [
+        "वोल्ट",
+        "एम्पीयर",
+        "वाट",
+        "ओम"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "physics_electricity"
+  },
+  {
+    "id": "GK5408",
+    "en": {
+      "question": "What is the currency of Egypt?",
+      "options": [
+        "Dinar",
+        "Pound",
+        "Rial",
+        "Dirham"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "मिस्र की मुद्रा क्या है?",
+      "options": [
+        "दीनार",
+        "पाउंड",
+        "रियाल",
+        "दिरहम"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5411",
+    "en": {
+      "question": "What is the chemical symbol for Beryllium?",
+      "options": [
+        "B",
+        "Be",
+        "Br",
+        "Bi"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "बेरिलियम (Beryllium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "B",
+        "Be",
+        "Br",
+        "Bi"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5412",
+    "en": {
+      "question": "Which organ produces bile?",
+      "options": [
+        "Stomach",
+        "Pancreas",
+        "Gallbladder (stores bile)",
+        "Liver (produces bile)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा अंग पित्त का उत्पादन करता है?",
+      "options": [
+        "पेट",
+        "अग्न्याशय",
+        "पित्ताशय (पित्त संग्रहीत करता है)",
+        "यकृत (पित्त का उत्पादन करता है)"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5413",
+    "en": {
+      "question": "What is the name for a baby owl?",
+      "options": [
+        "Owlet",
+        "Chick",
+        "Pup",
+        "Kit"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "उल्लू के बच्चे का नाम क्या है?",
+      "options": [
+        "उल्लू का बच्चा",
+        "चूजा",
+        "पिल्ला",
+        "किट"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "biology_birds"
+  },
+  {
+    "id": "GK5416",
+    "en": {
+      "question": "Which artist painted 'The Scream'?",
+      "options": [
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Oskar Kokoschka",
+        "Edvard Munch"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द स्क्रीम' किस कलाकार ने चित्रित किया?",
+      "options": [
+        "गुस्ताव क्लिम्ट",
+        "एगॉन शीले",
+        "ऑस्कर कोकोस्का",
+        "एडवर्ड मंच"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5417",
+    "en": {
+      "question": "What is the currency of Argentina?",
+      "options": [
+        "Real",
+        "Peso",
+        "Dollar",
+        "Sol"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "अर्जेंटीना की मुद्रा क्या है?",
+      "options": [
+        "रियल",
+        "पेसो",
+        "डॉलर",
+        "सोल"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5420",
+    "en": {
+      "question": "Which large reptile is known for its powerful jaws and scales?",
+      "options": [
+        "Snake",
+        "Turtle",
+        "Lizard",
+        "Crocodile"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा बड़ा सरीसृप अपने शक्तिशाली जबड़ों और शल्कों के लिए जाना जाता है?",
+      "options": [
+        "सांप",
+        "कछुआ",
+        "छिपकली",
+        "मगरमच्छ"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_reptiles"
+  },
+  {
+    "id": "GK5421",
+    "en": {
+      "question": "What is the chemical symbol for Boron?",
+      "options": [
+        "B",
+        "Bo",
+        "Br",
+        "Bn"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "बोरॉन (Boron) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "B",
+        "Bo",
+        "Br",
+        "Bn"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5422",
+    "en": {
+      "question": "What provides the structural support for the human body?",
+      "options": [
+        "Muscles",
+        "Skin",
+        "Organs",
+        "Skeleton"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "मानव शरीर के लिए संरचनात्मक सहायता कौन प्रदान करता है?",
+      "options": [
+        "मांसपेशियां",
+        "त्वचा",
+        "अंग",
+        "कंकाल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5423",
+    "en": {
+      "question": "What is the name for a baby whale?",
+      "options": [
+        "Pup",
+        "Cub",
+        "Calf",
+        "Fry"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "व्हेल के बच्चे का नाम क्या है?",
+      "options": [
+        "पिल्ला",
+        "शावक",
+        "बछड़ा",
+        "फ्राई"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_mammals"
+  },
+  {
+    "id": "GK5424",
+    "en": {
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "J.D. Salinger",
+        "William Faulkner"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'द कैचर इन द राई' किसने लिखा?",
+      "options": [
+        "एफ. स्कॉट फिट्जगेराल्ड",
+        "अर्नेस्ट हेमिंग्वे",
+        "जे.डी. सालिंगर",
+        "विलियम फॉकनर"
+      ],
+      "answer": 2
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5427",
+    "en": {
+      "question": "Which type of energy is associated with motion?",
+      "options": [
+        "Potential energy",
+        "Chemical energy",
+        "Thermal energy",
+        "Kinetic energy"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "किस प्रकार की ऊर्जा गति से जुड़ी है?",
+      "options": [
+        "स्थितिज ऊर्जा",
+        "रासायनिक ऊर्जा",
+        "तापीय ऊर्जा",
+        "गतिज ऊर्जा"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "physics_energy"
+  },
+  {
+    "id": "GK5428",
+    "en": {
+      "question": "What is the currency of Saudi Arabia?",
+      "options": [
+        "Dirham",
+        "Dinar",
+        "Riyal",
+        "Pound"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "सऊदी अरब की मुद्रा क्या है?",
+      "options": [
+        "दिरहम",
+        "दीनार",
+        "रियाल",
+        "पाउंड"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5429",
+    "en": {
+      "question": "Which country is known for tulips and windmills?",
+      "options": [
+        "Belgium",
+        "Germany",
+        "Denmark",
+        "Netherlands"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा देश ट्यूलिप और पवनचक्कियों के लिए जाना जाता है?",
+      "options": [
+        "बेल्जियम",
+        "जर्मनी",
+        "डेनमार्क",
+        "नीदरलैंड्स"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "world_culture"
+  },
+  {
+    "id": "GK5430",
+    "en": {
+      "question": "What is the national bird of the United States?",
+      "options": [
+        "Robin",
+        "Blue Jay",
+        "Cardinal",
+        "Bald Eagle"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "संयुक्त राज्य अमेरिका का राष्ट्रीय पक्षी कौन सा है?",
+      "options": [
+        "रॉबिन",
+        "ब्लू जे",
+        "कार्डिनल",
+        "बाल्ड ईगल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "us_symbols"
+  },
+  {
+    "id": "GK5431",
+    "en": {
+      "question": "What is the chemical symbol for Fluorine?",
+      "options": [
+        "F",
+        "Fl",
+        "Fo",
+        "Fu"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "फ्लोरीन (Fluorine) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "F",
+        "Fl",
+        "Fo",
+        "Fu"
+      ],
+      "answer": 0
+    },
+    "level": 6,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5432",
+    "en": {
+      "question": "Which system carries messages between the brain and the body?",
+      "options": [
+        "Circulatory system",
+        "Respiratory system",
+        "Digestive system",
+        "Nervous system"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी प्रणाली मस्तिष्क और शरीर के बीच संदेश ले जाती है?",
+      "options": [
+        "परिसंचरण प्रणाली",
+        "श्वसन प्रणाली",
+        "पाचन तंत्र",
+        "तंत्रिका तंत्र"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5433",
+    "en": {
+      "question": "What is the name for a baby spider?",
+      "options": [
+        "Spiderling",
+        "Nymph",
+        "Larva",
+        "Pup"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "मकड़ी के बच्चे का नाम क्या है?",
+      "options": [
+        "स्पाइर्डलिंग",
+        "निम्फ",
+        "लार्वा",
+        "पिल्ला"
+      ],
+      "answer": 0
+    },
+    "level": 5,
+    "category": "biology_insects"
+  },
+  {
+    "id": "GK5434",
+    "en": {
+      "question": "Which is the smallest continent by land area?",
+      "options": [
+        "South America",
+        "Europe",
+        "Antarctica",
+        "Australia"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भूमि क्षेत्र के हिसाब से सबसे छोटा महाद्वीप कौन सा है?",
+      "options": [
+        "दक्षिण अमेरिका",
+        "यूरोप",
+        "अंटार्कटिका",
+        "ऑस्ट्रेलिया"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5436",
+    "en": {
+      "question": "Which Spanish artist is famous for his Cubist paintings?",
+      "options": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "Francisco Goya",
+        "Pablo Picasso"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा स्पेनिश कलाकार अपने क्यूबिस्ट चित्रों के लिए प्रसिद्ध है?",
+      "options": [
+        "साल्वाडोर डाली",
+        "जोन मिरो",
+        "फ्रांसिस्को गोया",
+        "पाब्लो पिकासो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5438",
+    "en": {
+      "question": "What instrument measures wind speed?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हवा की गति मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "हाइग्रोमीटर",
+        "एनीमोमीटर"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "science_tools"
+  },
+  {
+    "id": "GK5439",
+    "en": {
+      "question": "What is the currency of Sweden?",
+      "options": [
+        "Euro",
+        "Krona",
+        "Franc",
+        "Dollar"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "स्वीडन की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "क्रोना",
+        "फ्रैंक",
+        "डॉलर"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5440",
+    "en": {
+      "question": "What is the process by which green plants make food?",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Germination",
+        "Photosynthesis"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "हरे पौधे किस प्रक्रिया द्वारा भोजन बनाते हैं?",
+      "options": [
+        "श्वसन",
+        "वाष्पोत्सर्जन",
+        "अंकुरण",
+        "प्रकाश संश्लेषण"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5441",
+    "en": {
+      "question": "What is the chemical symbol for Carbon?",
+      "options": [
+        "Ca",
+        "Co",
+        "Cr",
+        "C"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कार्बन (Carbon) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Ca",
+        "Co",
+        "Cr",
+        "C"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5442",
+    "en": {
+      "question": "Which system helps the body fight off diseases?",
+      "options": [
+        "Digestive system",
+        "Nervous system",
+        "Immune system",
+        "Respiratory system"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "शरीर को बीमारियों से लड़ने में कौन सी प्रणाली मदद करती है?",
+      "options": [
+        "पाचन तंत्र",
+        "तंत्रिका तंत्र",
+        "प्रतिरक्षा प्रणाली",
+        "श्वसन प्रणाली"
+      ],
+      "answer": 2
+    },
+    "level": 5,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5443",
+    "en": {
+      "question": "What is the name for a baby fish?",
+      "options": [
+        "Fry/Fingerling",
+        "Pup",
+        "Larva",
+        "Tadpole"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "मछली के बच्चे का नाम क्या है?",
+      "options": [
+        "फ्राई/फिंगरलिंग",
+        "पिल्ला",
+        "लार्वा",
+        "टैडपोल"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_fish"
+  },
+  {
+    "id": "GK5444",
+    "en": {
+      "question": "Who wrote 'The Lord of the Rings'?",
+      "options": [
+        "C.S. Lewis",
+        "George R.R. Martin",
+        "J.K. Rowling",
+        "J.R.R. Tolkien"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द लॉर्ड ऑफ द रिंग्स' किसने लिखा?",
+      "options": [
+        "सी.एस. लुईस",
+        "जॉर्ज आर.आर. मार्टिन",
+        "जे.के. राउलिंग",
+        "जे.आर.आर. टोल्किन"
+      ],
+      "answer": 3
+    },
+    "level": 6,
+    "category": "literature"
+  },
+  {
+    "id": "GK5447",
+    "en": {
+      "question": "Which state of matter expands to fill its entire container?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "पदार्थ की कौन सी अवस्था अपने पूरे पात्र को भरने के लिए फैलती है?",
+      "options": [
+        "ठोस",
+        "तरल",
+        "गैस",
+        "प्लाज्मा"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "physics"
+  },
+  {
+    "id": "GK5448",
+    "en": {
+      "question": "What is the currency of Denmark?",
+      "options": [
+        "Euro",
+        "Krone",
+        "Franc",
+        "Dollar"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "डेनमार्क की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "क्रोन",
+        "फ्रैंक",
+        "डॉलर"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5449",
+    "en": {
+      "question": "Which Dutch post-impressionist painter is known for 'Sunflowers'?",
+      "options": [
+        "Rembrandt",
+        "Johannes Vermeer",
+        "Piet Mondrian",
+        "Vincent van Gogh"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा डच पोस्ट-इंप्रेशनिस्ट चित्रकार 'सनफ्लावर्स' के लिए जाना जाता है?",
+      "options": [
+        "रेम्ब्रांट",
+        "जोहान्स वर्मीर",
+        "पिएट मोंड्रियन",
+        "विंसेंट वैन गॉग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5450",
+    "en": {
+      "question": "What is the study of the Earth's physical structure and substances called?",
+      "options": [
+        "Meteorology",
+        "Biology",
+        "Chemistry",
+        "Geology"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पृथ्वी की भौतिक संरचना और पदार्थों के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "मौसम विज्ञान",
+        "जीव विज्ञान",
+        "रसायन विज्ञान",
+        "भूविज्ञान"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "science_fields"
+  },
+  {
+    "id": "GK5451",
+    "en": {
+      "question": "What is the chemical symbol for Oxygen?",
+      "options": [
+        "Ox",
+        "On",
+        "O",
+        "Oy"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "ऑक्सीजन (Oxygen) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Ox",
+        "On",
+        "O",
+        "Oy"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5452",
+    "en": {
+      "question": "Which organ system includes the heart, blood, and blood vessels?",
+      "options": [
+        "Respiratory system",
+        "Nervous system",
+        "Digestive system",
+        "Circulatory system"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "ऑक्सीजन लेने और कार्बन डाइऑक्साइड निकालने के लिए कौन सी अंग प्रणाली जिम्मेदार है?",
+      "options": [
+        "परिसंचरण प्रणाली",
+        "तंत्रिका तंत्र",
+        "पाचन तंत्र",
+        "श्वसन प्रणाली"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5453",
+    "en": {
+      "question": "What is the name for a baby insect in its early stage (e.g., caterpillar)?",
+      "options": [
+        "Pup",
+        "Nymph",
+        "Larva",
+        "Adult"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "अपने प्रारंभिक चरण में एक कीट के बच्चे का नाम क्या है (उदाहरण के लिए, इल्ली)?",
+      "options": [
+        "प्यूपा",
+        "निम्फ",
+        "लार्वा",
+        "वयस्क"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_insects"
+  },
+  {
+    "id": "GK5455",
+    "en": {
+      "question": "What is the opposite of 'near'?",
+      "options": [
+        "Close",
+        "Adjacent",
+        "Far",
+        "Next to"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "'पास' का विपरीत क्या है?",
+      "options": [
+        "निकट",
+        "समीप",
+        "दूर",
+        "बगल में"
+      ],
+      "answer": 2
+    },
+    "level": 1,
+    "category": "language_basics"
+  },
+  {
+    "id": "GK5457",
+    "en": {
+      "question": "What is the chemical element symbol for Gold?",
+      "options": [
+        "Go",
+        "Gd",
+        "Ag (Silver)",
+        "Au"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोना (Gold) का रासायनिक तत्व प्रतीक क्या है?",
+      "options": [
+        "Go",
+        "Gd",
+        "Ag (चांदी)",
+        "Au"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5458",
+    "en": {
+      "question": "What is the currency of Poland?",
+      "options": [
+        "Euro",
+        "Zloty",
+        "Koruna",
+        "Forint"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "पोलैंड की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "ज़्लॉटी",
+        "कोरोना",
+        "फ़ोरिंट"
+      ],
+      "answer": 1
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5459",
+    "en": {
+      "question": "Which famous building in India was built as a tomb for a wife?",
+      "options": [
+        "Red Fort",
+        "Qutub Minar",
+        "Hawa Mahal",
+        "Taj Mahal"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "भारत में कौन सी प्रसिद्ध इमारत पत्नी के मकबरे के रूप में बनाई गई थी?",
+      "options": [
+        "लाल किला",
+        "कुतुब मीनार",
+        "हवा महल",
+        "ताज महल"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "indian_history"
+  },
+  {
+    "id": "GK5460",
+    "en": {
+      "question": "What part of a flower produces pollen?",
+      "options": [
+        "Petal",
+        "Sepal",
+        "Stamen",
+        "Pistil"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "फूल का कौन सा भाग पराग का उत्पादन करता है?",
+      "options": [
+        "पंखुड़ी",
+        "बाह्यदल",
+        "पुंकेसर",
+        "स्त्रीकेसर"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5462",
+    "en": {
+      "question": "What is the main function of the Lungs?",
+      "options": [
+        "Pump blood",
+        "Digest food",
+        "Filter waste",
+        "Gas exchange (Breathing)"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "फेफ़़़ों का मुख्य कार्य क्या है?",
+      "options": [
+        "रक्त पंप करना",
+        "भोजन पचाना",
+        "अपशिष्ट छानना",
+        "गैस विनिमय (सांस लेना)"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5463",
+    "en": {
+      "question": "What is the name for a baby frog?",
+      "options": [
+        "Tadpole",
+        "Pup",
+        "Fry",
+        "Nymph"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "मेंढक के बच्चे का नाम क्या है?",
+      "options": [
+        "टैडपोल",
+        "पिल्ला",
+        "फ्राई",
+        "निम्फ"
+      ],
+      "answer": 0
+    },
+    "level": 3,
+    "category": "biology_amphibians"
+  },
+  {
+    "id": "GK5464",
+    "en": {
+      "question": "Who wrote 'The Old Man and the Sea'?",
+      "options": [
+        "William Faulkner",
+        "F. Scott Fitzgerald",
+        "John Steinbeck",
+        "Ernest Hemingway"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'द ओल्ड मैन एंड द सी' किसने लिखा?",
+      "options": [
+        "विलियम फॉकनर",
+        "एफ. स्कॉट फिट्जगेराल्ड",
+        "जॉन स्टीनबेक",
+        "अर्नेस्ट हेमिंग्वे"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5467",
+    "en": {
+      "question": "What is the measure of how hot or cold something is?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Mass",
+        "Temperature"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कोई चीज़ कितनी गर्म या ठंडी है, इसका माप क्या है?",
+      "options": [
+        "दबाव",
+        "आयतन",
+        "द्रव्यमान",
+        "तापमान"
+      ],
+      "answer": 3
+    },
+    "level": 3,
+    "category": "physics"
+  },
+  {
+    "id": "GK5468",
+    "en": {
+      "question": "What is the currency of Ireland?",
+      "options": [
+        "Pound (formerly)",
+        "Dollar",
+        "Euro",
+        "Franc"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "आयरलैंड की मुद्रा क्या है?",
+      "options": [
+        "पाउंड (पूर्व में)",
+        "डॉलर",
+        "यूरो",
+        "फ्रैंक"
+      ],
+      "answer": 2
+    },
+    "level": 6,
+    "category": "economics"
+  },
+  {
+    "id": "GK5469",
+    "en": {
+      "question": "Which American artist was famous for his Pop Art, like Campbell's Soup Cans?",
+      "options": [
+        "Jackson Pollock",
+        "Roy Lichtenstein",
+        "Jasper Johns",
+        "Andy Warhol"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा अमेरिकी कलाकार अपनी पॉप आर्ट, जैसे कैंपबेल सूप कैन, के लिए प्रसिद्ध था?",
+      "options": [
+        "जैक्सन पोलक",
+        "रॉय लिचेंस्टीन",
+        "जैस्पर जॉन्स",
+        "एंडी वारहोल"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5470",
+    "en": {
+      "question": "Which ocean is the largest?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "world_geography"
+  },
+  {
+    "id": "GK5471",
+    "en": {
+      "question": "What is the chemical symbol for Uranium?",
+      "options": [
+        "Ur",
+        "Un",
+        "Ua",
+        "U"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "यूरेनियम (Uranium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Ur",
+        "Un",
+        "Ua",
+        "U"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5472",
+    "en": {
+      "question": "Which part of the plant attracts pollinators like bees?",
+      "options": [
+        "Roots",
+        "Stem",
+        "Leaves",
+        "Flowers"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "पौधे का कौन सा भाग मधुमक्खियों जैसे परागणकों को आकर्षित करता है?",
+      "options": [
+        "जड़ें",
+        "तना",
+        "पत्तियाँ",
+        "फूल"
+      ],
+      "answer": 3
+    },
+    "level": 4,
+    "category": "biology_plants"
+  },
+  {
+    "id": "GK5473",
+    "en": {
+      "question": "What is the name for a baby camel?",
+      "options": [
+        "Calf",
+        "Foal",
+        "Pup",
+        "Kid"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "ऊंट के बच्चे का नाम क्या है?",
+      "options": [
+        "बछड़ा",
+        "बछेड़ा",
+        "पिल्ला",
+        "बकरी का बच्चा"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "biology_mammals"
+  },
+  {
+    "id": "GK5474",
+    "en": {
+      "question": "Who wrote 'A Brief History of Time'?",
+      "options": [
+        "Carl Sagan",
+        "Richard Feynman",
+        "Albert Einstein",
+        "Stephen Hawking"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'ए ब्रीफ हिस्ट्री ऑफ टाइम' किसने लिखा?",
+      "options": [
+        "कार्ल सागन",
+        "रिचर्ड फेनमैन",
+        "अल्बर्ट आइंस्टीन",
+        "स्टीफन हॉकिंग"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "science_literature"
+  },
+  {
+    "id": "GK5477",
+    "en": {
+      "question": "What type of simple machine is a seesaw?",
+      "options": [
+        "Inclined Plane",
+        "Wedge",
+        "Screw",
+        "Lever"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सी-सॉ किस प्रकार की सरल मशीन है?",
+      "options": [
+        "नत समतल",
+        "वेज",
+        "पेंच",
+        "उत्तोलक"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "physics_mechanics"
+  },
+  {
+    "id": "GK5478",
+    "en": {
+      "question": "What is the currency of Hungary?",
+      "options": [
+        "Euro",
+        "Forint",
+        "Zloty",
+        "Koruna"
+      ],
+      "answer": 1
+    },
+    "hi": {
+      "question": "हंगरी की मुद्रा क्या है?",
+      "options": [
+        "यूरो",
+        "फ़ोरिंट",
+        "ज़्लॉटी",
+        "कोरोना"
+      ],
+      "answer": 1
+    },
+    "level": 7,
+    "category": "economics"
+  },
+  {
+    "id": "GK5479",
+    "en": {
+      "question": "Which French artist is considered a leader of the Impressionist movement?",
+      "options": [
+        "Paul Cézanne",
+        "Henri Matisse",
+        "Auguste Rodin",
+        "Claude Monet"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सा फ्रांसीसी कलाकार प्रभाववादी आंदोलन का नेता माना जाता है?",
+      "options": [
+        "पॉल सेज़ान",
+        "हेनरी मैटिस",
+        "ऑगस्ट रोडिन",
+        "क्लॉड मोनेट"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  },
+  {
+    "id": "GK5480",
+    "en": {
+      "question": "What is the name for a group of lions?",
+      "options": [
+        "Herd",
+        "Pack",
+        "Pride",
+        "Flock"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "शेरों के समूह का नाम क्या है?",
+      "options": [
+        "झुंड",
+        "दल",
+        "प्राइड",
+        "झुंड (पक्षियों का)"
+      ],
+      "answer": 2
+    },
+    "level": 4,
+    "category": "biology_animals"
+  },
+  {
+    "id": "GK5481",
+    "en": {
+      "question": "What is the chemical symbol for Sodium?",
+      "options": [
+        "S",
+        "So",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "सोडियम (Sodium) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "S",
+        "So",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3
+    },
+    "level": 5,
+    "category": "chemistry"
+  },
+  {
+    "id": "GK5482",
+    "en": {
+      "question": "What is the main function of the brain?",
+      "options": [
+        "Pump blood",
+        "Digest food",
+        "Control body functions",
+        "Filter air"
+      ],
+      "answer": 2
+    },
+    "hi": {
+      "question": "मस्तिष्क का मुख्य कार्य क्या है?",
+      "options": [
+        "रक्त पंप करना",
+        "भोजन पचाना",
+        "शरीर के कार्यों को नियंत्रित करना",
+        "हवा छानना"
+      ],
+      "answer": 2
+    },
+    "level": 3,
+    "category": "biology_human"
+  },
+  {
+    "id": "GK5483",
+    "en": {
+      "question": "What is the name for a baby monkey?",
+      "options": [
+        "Infant",
+        "Cub",
+        "Pup",
+        "Kit"
+      ],
+      "answer": 0
+    },
+    "hi": {
+      "question": "बंदर के बच्चे का नाम क्या है?",
+      "options": [
+        "शिशु",
+        "शावक",
+        "पिल्ला",
+        "किट"
+      ],
+      "answer": 0
+    },
+    "level": 4,
+    "category": "biology_mammals"
+  },
+  {
+    "id": "GK5484",
+    "en": {
+      "question": "Who wrote 'Frankenstein'?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Mary Shelley"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "'फ्रेंकेंस्टीन' किसने लिखा?",
+      "options": [
+        "जेन ऑस्टेन",
+        "चार्लोट ब्रोंटे",
+        "एमिली ब्रोंटे",
+        "मैरी शेली"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "literature"
+  },
+  {
+    "id": "GK5499",
+    "en": {
+      "question": "Which Mexican artist is known for her self-portraits?",
+      "options": [
+        "Remedios Varo",
+        "Leonora Carrington",
+        "María Izquierdo",
+        "Frida Kahlo"
+      ],
+      "answer": 3
+    },
+    "hi": {
+      "question": "कौन सी मैक्सिकन कलाकार अपने सेल्फ़-पोर्ट्रेट के लिए जानी जाती हैं?",
+      "options": [
+        "रेमेडियोस वारो",
+        "लियोनोरा कैरिंगटन",
+        "मारिया इज़क्विएर्डो",
+        "फ्रीडा काहलो"
+      ],
+      "answer": 3
+    },
+    "level": 7,
+    "category": "art_history"
+  }
+]
